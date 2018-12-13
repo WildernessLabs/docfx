@@ -1,0 +1,706 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  commentId: T:Meadow.Gateways.Bluetooth.AdapterCapabilities
+  id: AdapterCapabilities
+  parent: Meadow.Gateways.Bluetooth
+  children:
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+  langs:
+  - csharp
+  - vb
+  name: AdapterCapabilities
+  nameWithType: AdapterCapabilities
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: AdapterCapabilities
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public class AdapterCapabilities
+    content.vb: Public Class AdapterCapabilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+  id: HasClassicSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasClassicSupport
+  nameWithType: AdapterCapabilities.HasClassicSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasClassicSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasClassicSupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasClassicSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+  id: HasSecureClassicSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasSecureClassicSupport
+  nameWithType: AdapterCapabilities.HasSecureClassicSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasSecureClassicSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasSecureClassicSupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasSecureClassicSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+  id: HasLowEnergySupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasLowEnergySupport
+  nameWithType: AdapterCapabilities.HasLowEnergySupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasLowEnergySupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasLowEnergySupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasLowEnergySupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+  id: HasLowEnergySecureSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasLowEnergySecureSupport
+  nameWithType: AdapterCapabilities.HasLowEnergySecureSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasLowEnergySecureSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasLowEnergySecureSupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasLowEnergySecureSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  id: HasLowEnergyCentralRoleSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasLowEnergyCentralRoleSupport
+  nameWithType: AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasLowEnergyCentralRoleSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasLowEnergyCentralRoleSupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasLowEnergyCentralRoleSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  id: HasLowEnergyPeripheralRoleSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasLowEnergyPeripheralRoleSupport
+  nameWithType: AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasLowEnergyPeripheralRoleSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public bool HasLowEnergyPeripheralRoleSupport { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasLowEnergyPeripheralRoleSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+  commentId: P:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+  id: HasAdvertisementOffloadSupport
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: HasAdvertisementOffloadSupport
+  nameWithType: AdapterCapabilities.HasAdvertisementOffloadSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HasAdvertisementOffloadSupport
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  summary: "\nGets or sets a value indicating whether this <xref href=\"Meadow.Gateways.Bluetooth.AdapterCapabilities\" data-throw-if-not-resolved=\"false\"></xref>\nhas support to offload advertising to secondary channels.\n"
+  example: []
+  syntax:
+    content: public bool HasAdvertisementOffloadSupport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if has advertisement offload support; otherwise, <code>false</code>.
+    content.vb: Public Property HasAdvertisementOffloadSupport As Boolean
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)'
+  parent: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  langs:
+  - csharp
+  - vb
+  name: AdapterCapabilities(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: AdapterCapabilities.AdapterCapabilities(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.AdapterCapabilities(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateways.Bluetooth
+  syntax:
+    content: public AdapterCapabilities(bool hasClassicSupport, bool hasSecureClassicSupport, bool hasLowEnergySupport, bool hasLowEnergySecureSupport, bool hasLowEnergyCentralRoleSupport, bool hasLowEnergyPeripheralRoleSupport)
+    parameters:
+    - id: hasClassicSupport
+      type: System.Boolean
+    - id: hasSecureClassicSupport
+      type: System.Boolean
+    - id: hasLowEnergySupport
+      type: System.Boolean
+    - id: hasLowEnergySecureSupport
+      type: System.Boolean
+    - id: hasLowEnergyCentralRoleSupport
+      type: System.Boolean
+    - id: hasLowEnergyPeripheralRoleSupport
+      type: System.Boolean
+    content.vb: Public Sub New(hasClassicSupport As Boolean, hasSecureClassicSupport As Boolean, hasLowEnergySupport As Boolean, hasLowEnergySecureSupport As Boolean, hasLowEnergyCentralRoleSupport As Boolean, hasLowEnergyPeripheralRoleSupport As Boolean)
+  overload: Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Gateways.Bluetooth
+  commentId: N:Meadow.Gateways.Bluetooth
+  name: Meadow.Gateways.Bluetooth
+  nameWithType: Meadow.Gateways.Bluetooth
+  fullName: Meadow.Gateways.Bluetooth
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+  name: HasClassicSupport
+  nameWithType: AdapterCapabilities.HasClassicSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasClassicSupport
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+  name: HasSecureClassicSupport
+  nameWithType: AdapterCapabilities.HasSecureClassicSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasSecureClassicSupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+  name: HasLowEnergySupport
+  nameWithType: AdapterCapabilities.HasLowEnergySupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+  name: HasLowEnergySecureSupport
+  nameWithType: AdapterCapabilities.HasLowEnergySecureSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergySecureSupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  name: HasLowEnergyCentralRoleSupport
+  nameWithType: AdapterCapabilities.HasLowEnergyCentralRoleSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyCentralRoleSupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  name: HasLowEnergyPeripheralRoleSupport
+  nameWithType: AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasLowEnergyPeripheralRoleSupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  commentId: T:Meadow.Gateways.Bluetooth.AdapterCapabilities
+  parent: Meadow.Gateways.Bluetooth
+  name: AdapterCapabilities
+  nameWithType: AdapterCapabilities
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+  name: HasAdvertisementOffloadSupport
+  nameWithType: AdapterCapabilities.HasAdvertisementOffloadSupport
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.HasAdvertisementOffloadSupport
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor*
+  commentId: Overload:Meadow.Gateways.Bluetooth.AdapterCapabilities.#ctor
+  name: AdapterCapabilities
+  nameWithType: AdapterCapabilities.AdapterCapabilities
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities.AdapterCapabilities

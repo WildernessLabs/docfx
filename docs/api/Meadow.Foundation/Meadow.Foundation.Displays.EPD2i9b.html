@@ -1,0 +1,736 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EPD2i9b
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EPD2i9b
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Meadow.Foundation.Displays.EPD2i9b">
+  
+  
+  <h1 id="Meadow_Foundation_Displays_EPD2i9b" data-uid="Meadow.Foundation.Displays.EPD2i9b" class="text-break">Class EPD2i9b
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html">DisplayBase</a></div>
+    <div class="level2"><a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html">SPIDisplayBase</a></div>
+    <div class="level3"><a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html">EPDColorBase</a></div>
+    <div class="level4"><span class="xref">EPD2i9b</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Foundation.Displays.IDisplay.html">IDisplay</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_ColorMode">EPDColorBase.ColorMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_blackImageBuffer">EPDColorBase.blackImageBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_colorImageBuffer">EPDColorBase.colorImageBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_xRefreshStart">EPDColorBase.xRefreshStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_yRefreshStart">EPDColorBase.yRefreshStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_xRefreshEnd">EPDColorBase.xRefreshEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_yRefreshEnd">EPDColorBase.yRefreshEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Show">EPDColorBase.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_System_Boolean_">EPDColorBase.Clear(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_Color_System_Boolean_">EPDColorBase.Clear(Color, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_System_Boolean_System_Boolean_">EPDColorBase.Clear(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_">EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_">EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Boolean_">EPDColorBase.DrawPixel(Int32, Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawColoredPixel_System_Int32_System_Int32_System_Boolean_">EPDColorBase.DrawColoredPixel(Int32, Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_Color_">EPDColorBase.DrawPixel(Int32, Int32, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Byte_System_Byte_System_Byte_">EPDColorBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PANEL_SETTING">EPDColorBase.PANEL_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_SETTING">EPDColorBase.POWER_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_OFF">EPDColorBase.POWER_OFF</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_OFF_SEQUENCE_SETTING">EPDColorBase.POWER_OFF_SEQUENCE_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_ON">EPDColorBase.POWER_ON</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_ON_MEASURE">EPDColorBase.POWER_ON_MEASURE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_BOOSTER_SOFT_START">EPDColorBase.BOOSTER_SOFT_START</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DEEP_SLEEP">EPDColorBase.DEEP_SLEEP</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DATA_START_TRANSMISSION_1">EPDColorBase.DATA_START_TRANSMISSION_1</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DATA_STOP">EPDColorBase.DATA_STOP</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DISPLAY_REFRESH">EPDColorBase.DISPLAY_REFRESH</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DATA_START_TRANSMISSION_2">EPDColorBase.DATA_START_TRANSMISSION_2</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_VCOM_LUT">EPDColorBase.VCOM_LUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_W2W_LUT">EPDColorBase.W2W_LUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_B2W_LUT">EPDColorBase.B2W_LUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_W2B_LUT">EPDColorBase.W2B_LUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_B2B_LUT">EPDColorBase.B2B_LUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PLL_CONTROL">EPDColorBase.PLL_CONTROL</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_TEMPERATURE_SENSOR_CALIBRATION">EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_TEMPERATURE_SENSOR_SELECTION">EPDColorBase.TEMPERATURE_SENSOR_SELECTION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_TEMPERATURE_SENSOR_WRITE">EPDColorBase.TEMPERATURE_SENSOR_WRITE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_TEMPERATURE_SENSOR_READ">EPDColorBase.TEMPERATURE_SENSOR_READ</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_VCOM_AND_DATA_INTERVAL_SETTING">EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_LOW_POWER_DETECTION">EPDColorBase.LOW_POWER_DETECTION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_TCON_SETTING">EPDColorBase.TCON_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_RESOLUTION_SETTING">EPDColorBase.RESOLUTION_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_GET_STATUS">EPDColorBase.GET_STATUS</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_AUTO_MEASURE_VCOM">EPDColorBase.AUTO_MEASURE_VCOM</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_READ_VCOM_VALUE">EPDColorBase.READ_VCOM_VALUE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_VCM_DC_SETTING">EPDColorBase.VCM_DC_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PARTIAL_WINDOW">EPDColorBase.PARTIAL_WINDOW</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PARTIAL_IN">EPDColorBase.PARTIAL_IN</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PARTIAL_OUT">EPDColorBase.PARTIAL_OUT</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_PROGRAM_MODE">EPDColorBase.PROGRAM_MODE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_ACTIVE_PROGRAM">EPDColorBase.ACTIVE_PROGRAM</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_READ_OTP_DATA">EPDColorBase.READ_OTP_DATA</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_POWER_SAVING">EPDColorBase.POWER_SAVING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_spiBOneByteBuffer">SPIDisplayBase.spiBOneByteBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_dataCommandPort">SPIDisplayBase.dataCommandPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_resetPort">SPIDisplayBase.resetPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_busyPort">SPIDisplayBase.busyPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_spi">SPIDisplayBase.spi</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Data">SPIDisplayBase.Data</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Command">SPIDisplayBase.Command</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Write_System_Byte_">SPIDisplayBase.Write(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Reset">SPIDisplayBase.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_DelayMs_System_Int32_">SPIDisplayBase.DelayMs(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendCommand_System_Byte_">SPIDisplayBase.SendCommand(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Int32_">SPIDisplayBase.SendData(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Byte_">SPIDisplayBase.SendData(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Byte___">SPIDisplayBase.SendData(Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_WaitUntilIdle">SPIDisplayBase.WaitUntilIdle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_IgnoreOutOfBoundsPixels">DisplayBase.IgnoreOutOfBoundsPixels</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
+  <h6><strong>Assembly</strong>: Displays.WaveShare_ePaper.dll</h6>
+  <h5 id="Meadow_Foundation_Displays_EPD2i9b_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EPD2i9b : EPDColorBase, IDisplay</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.%23ctor(Meadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.Spi.SPI_module%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L10">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b__ctor_" data-uid="Meadow.Foundation.Displays.EPD2i9b.#ctor*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_" data-uid="Meadow.Foundation.Displays.EPD2i9b.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)">EPD2i9b(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPD2i9b(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">chipSelectPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">dcPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">resetPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">busyPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Spi.SPI_module.html">Spi.SPI_module</a></td>
+        <td><span class="parametername">spiModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">speedKHz</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Height.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L15">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Height_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Height*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Height" data-uid="Meadow.Foundation.Displays.EPD2i9b.Height">Height</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_Height">DisplayBase.Height</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Width.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L14">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Width_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Width*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Width" data-uid="Meadow.Foundation.Displays.EPD2i9b.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_Width">DisplayBase.Width</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_ClearFrame.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.ClearFrame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L174">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_ClearFrame_" data-uid="Meadow.Foundation.Displays.EPD2i9b.ClearFrame*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_ClearFrame" data-uid="Meadow.Foundation.Displays.EPD2i9b.ClearFrame">ClearFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ClearFrame()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_DisplayFrame.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.DisplayFrame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L222">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_DisplayFrame_" data-uid="Meadow.Foundation.Displays.EPD2i9b.DisplayFrame*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_DisplayFrame" data-uid="Meadow.Foundation.Displays.EPD2i9b.DisplayFrame">DisplayFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisplayFrame()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Dispose.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L236">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Dispose_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Dispose*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Dispose" data-uid="Meadow.Foundation.Displays.EPD2i9b.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Initialize.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L17">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Initialize_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Initialize*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Initialize" data-uid="Meadow.Foundation.Displays.EPD2i9b.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Initialize">EPDColorBase.Initialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Refresh.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Refresh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L155">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Refresh_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Refresh*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Refresh" data-uid="Meadow.Foundation.Displays.EPD2i9b.Refresh">Refresh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Refresh()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Refresh">EPDColorBase.Refresh()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_SetPartialWindow_System_Byte___System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.SetPartialWindow(System.Byte%5B%5D%2CSystem.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L40">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindow_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindow*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindow_System_Byte___System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindow(System.Byte[],System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">SetPartialWindow(Byte[], Byte[], Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetPartialWindow(byte[] bufferBlack, byte[] bufferColor, int x, int y, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bufferBlack</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bufferColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowBlack_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowBlack(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L89">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowBlack_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowBlack*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowBlack_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowBlack(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">SetPartialWindowBlack(Byte[], Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetPartialWindowBlack(byte[] bufferBlack, int x, int y, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bufferBlack</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowColor_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowColor(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L122">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowColor_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowColor*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_SetPartialWindowColor_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Meadow.Foundation.Displays.EPD2i9b.SetPartialWindowColor(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">SetPartialWindowColor(Byte[], Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetPartialWindowColor(byte[] bufferColor, int x, int y, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bufferColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b_Sleep.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b.Sleep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L228">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i9b_Sleep_" data-uid="Meadow.Foundation.Displays.EPD2i9b.Sleep*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i9b_Sleep" data-uid="Meadow.Foundation.Displays.EPD2i9b.Sleep">Sleep()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Sleep()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Displays.IDisplay.html">IDisplay</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i9b.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i9b%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i9b.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

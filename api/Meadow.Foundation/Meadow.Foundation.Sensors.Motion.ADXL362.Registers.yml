@@ -1,0 +1,1286 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  id: ADXL362.Registers
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityInactivityControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityTimeCount
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceID
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceIDMST
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOEntriesMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFORCEntriesLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOSampleCount
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FilterControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap1
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap2
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PartID
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PowerControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SelfTest
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SiliconRevisionID
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SoftReset
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.Status
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxis8Bits
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxis8Bits
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisMSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxis8Bits
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisLSB
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisMSB
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.Registers
+  nameWithType: ADXL362.Registers
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Registers
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 72
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRegisters in the ADXL362 sensor.\n"
+  example: []
+  syntax:
+    content: 'protected static class Registers : object'
+    content.vb: >-
+      Protected Module Registers
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceID
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceID
+  id: DeviceID
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: DeviceID
+  nameWithType: ADXL362.Registers.DeviceID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceID
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 77
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDevice ID (should be 0xad).\n"
+  example: []
+  syntax:
+    content: public const byte DeviceID = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DeviceID As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceIDMST
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceIDMST
+  id: DeviceIDMST
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: DeviceIDMST
+  nameWithType: ADXL362.Registers.DeviceIDMST
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.DeviceIDMST
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceIDMST
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 82
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDevice IS MST (should be 0x1d).\n"
+  example: []
+  syntax:
+    content: public const byte DeviceIDMST = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DeviceIDMST As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PartID
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PartID
+  id: PartID
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: PartID
+  nameWithType: ADXL362.Registers.PartID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PartID
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PartID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 87
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPart ID (should be 0xf2).\n"
+  example: []
+  syntax:
+    content: public const byte PartID = null
+    return:
+      type: System.Byte
+    content.vb: Public Const PartID As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SiliconRevisionID
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SiliconRevisionID
+  id: SiliconRevisionID
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: SiliconRevisionID
+  nameWithType: ADXL362.Registers.SiliconRevisionID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SiliconRevisionID
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SiliconRevisionID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 92
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRevision ID (starts with 0x01 and increments for each change to the silicon).\n"
+  example: []
+  syntax:
+    content: public const byte SiliconRevisionID = null
+    return:
+      type: System.Byte
+    content.vb: Public Const SiliconRevisionID As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxis8Bits
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxis8Bits
+  id: XAxis8Bits
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: XAxis8Bits
+  nameWithType: ADXL362.Registers.XAxis8Bits
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxis8Bits
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XAxis8Bits
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 97
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nX-axis MSB (8-bits used when limited resolution is acceptable).\n"
+  example: []
+  syntax:
+    content: public const byte XAxis8Bits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const XAxis8Bits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxis8Bits
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxis8Bits
+  id: YAxis8Bits
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: YAxis8Bits
+  nameWithType: ADXL362.Registers.YAxis8Bits
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxis8Bits
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: YAxis8Bits
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 102
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nY-axis MSB (8-bits used when limited resolution is acceptable).\n"
+  example: []
+  syntax:
+    content: public const byte YAxis8Bits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const YAxis8Bits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxis8Bits
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxis8Bits
+  id: ZAxis8Bits
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ZAxis8Bits
+  nameWithType: ADXL362.Registers.ZAxis8Bits
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxis8Bits
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ZAxis8Bits
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 107
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nZ-axis MSB (8-bits used when limited resolution is acceptable).\n"
+  example: []
+  syntax:
+    content: public const byte ZAxis8Bits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ZAxis8Bits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.Status
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.Status
+  id: Status
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ADXL362.Registers.Status
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.Status
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Status
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 112
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nStatus register\n"
+  example: []
+  syntax:
+    content: public const byte Status = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Status As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFORCEntriesLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFORCEntriesLSB
+  id: FIFORCEntriesLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: FIFORCEntriesLSB
+  nameWithType: ADXL362.Registers.FIFORCEntriesLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFORCEntriesLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFORCEntriesLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 117
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFIFO entires (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte FIFORCEntriesLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFORCEntriesLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOEntriesMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOEntriesMSB
+  id: FIFOEntriesMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: FIFOEntriesMSB
+  nameWithType: ADXL362.Registers.FIFOEntriesMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOEntriesMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOEntriesMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 122
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFIFO entries (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte FIFOEntriesMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOEntriesMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisLSB
+  id: XAxisLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: XAxisLSB
+  nameWithType: ADXL362.Registers.XAxisLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XAxisLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 127
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nX-axis (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte XAxisLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const XAxisLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisMSB
+  id: XAxisMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: XAxisMSB
+  nameWithType: ADXL362.Registers.XAxisMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.XAxisMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XAxisMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 132
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nX-axis MSB\n"
+  example: []
+  syntax:
+    content: public const byte XAxisMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const XAxisMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisLSB
+  id: YAxisLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: YAxisLSB
+  nameWithType: ADXL362.Registers.YAxisLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: YAxisLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 137
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nY-axis (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte YAxisLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const YAxisLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisMSB
+  id: YAxisMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: YAxisMSB
+  nameWithType: ADXL362.Registers.YAxisMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.YAxisMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: YAxisMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 142
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nY-Axis (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte YAxisMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const YAxisMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisLSB
+  id: ZAxisLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ZAxisLSB
+  nameWithType: ADXL362.Registers.ZAxisLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ZAxisLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 147
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nZ-axis (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte ZAxisLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ZAxisLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisMSB
+  id: ZAxisMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ZAxisMSB
+  nameWithType: ADXL362.Registers.ZAxisMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ZAxisMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ZAxisMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 152
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nZ-axis (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte ZAxisMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ZAxisMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureLSB
+  id: TemperatureLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: TemperatureLSB
+  nameWithType: ADXL362.Registers.TemperatureLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 157
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTemperature (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte TemperatureLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const TemperatureLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureMSB
+  id: TemperatureMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: TemperatureMSB
+  nameWithType: ADXL362.Registers.TemperatureMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.TemperatureMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 162
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTemperature (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte TemperatureMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const TemperatureMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SoftReset
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SoftReset
+  id: SoftReset
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: SoftReset
+  nameWithType: ADXL362.Registers.SoftReset
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SoftReset
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SoftReset
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 171
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSoft reset register.\n"
+  remarks: "\nWriting 0x52 (ASCII for R) resets the sensor.\nAll register settings are cleared, the sensor is placed into standby mode.\n"
+  example: []
+  syntax:
+    content: public const byte SoftReset = null
+    return:
+      type: System.Byte
+    content.vb: Public Const SoftReset As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdLSB
+  id: ActivityThresholdLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ActivityThresholdLSB
+  nameWithType: ADXL362.Registers.ActivityThresholdLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityThresholdLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 176
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity threshold (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte ActivityThresholdLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityThresholdLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdMSB
+  id: ActivityThresholdMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ActivityThresholdMSB
+  nameWithType: ADXL362.Registers.ActivityThresholdMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityThresholdMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityThresholdMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 181
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity threshold (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte ActivityThresholdMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityThresholdMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityTimeCount
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityTimeCount
+  id: ActivityTimeCount
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ActivityTimeCount
+  nameWithType: ADXL362.Registers.ActivityTimeCount
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityTimeCount
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityTimeCount
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 191
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity time count.\n"
+  remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must exceed the activity threshold before an interrupt\nis generated.\n"
+  example: []
+  syntax:
+    content: public const byte ActivityTimeCount = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityTimeCount As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdLSB
+  id: InactivityThresholdLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InactivityThresholdLSB
+  nameWithType: ADXL362.Registers.InactivityThresholdLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityThresholdLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 196
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInactivity threshold (LSB)\n"
+  example: []
+  syntax:
+    content: public const byte InactivityThresholdLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityThresholdLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdMSB
+  id: InactivityThresholdMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InactivityThresholdMSB
+  nameWithType: ADXL362.Registers.InactivityThresholdMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityThresholdMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityThresholdMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 201
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInactivity threshold (MSB)\n"
+  example: []
+  syntax:
+    content: public const byte InactivityThresholdMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityThresholdMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountLSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountLSB
+  id: InactivityCountLSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InactivityCountLSB
+  nameWithType: ADXL362.Registers.InactivityCountLSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityCountLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 211
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInactivity time count (LSB).\n"
+  remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must be below the inactivity threshold before an\ninterrupt is generated.\n"
+  example: []
+  syntax:
+    content: public const byte InactivityCountLSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityCountLSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountMSB
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountMSB
+  id: InactivityCountMSB
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InactivityCountMSB
+  nameWithType: ADXL362.Registers.InactivityCountMSB
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InactivityCountMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityCountMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 221
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInactivity time count (MSB).\n"
+  remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must be below the inactivity threshold before an\ninterrupt is generated.\n"
+  example: []
+  syntax:
+    content: public const byte InactivityCountMSB = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityCountMSB As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityInactivityControl
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityInactivityControl
+  id: ActivityInactivityControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: ActivityInactivityControl
+  nameWithType: ADXL362.Registers.ActivityInactivityControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.ActivityInactivityControl
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityInactivityControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 226
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity / Inactivity control.\n"
+  example: []
+  syntax:
+    content: public const byte ActivityInactivityControl = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityInactivityControl As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOControl
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOControl
+  id: FIFOControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: FIFOControl
+  nameWithType: ADXL362.Registers.FIFOControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOControl
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 231
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFIFO Control.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOControl = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOControl As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOSampleCount
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOSampleCount
+  id: FIFOSampleCount
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: FIFOSampleCount
+  nameWithType: ADXL362.Registers.FIFOSampleCount
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FIFOSampleCount
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOSampleCount
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 236
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFIFO samples to store.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOSampleCount = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOSampleCount As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap1
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap1
+  id: InterruptMap1
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InterruptMap1
+  nameWithType: ADXL362.Registers.InterruptMap1
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InterruptMap1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 241
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInterrupt map register (1)\n"
+  example: []
+  syntax:
+    content: public const byte InterruptMap1 = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InterruptMap1 As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap2
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap2
+  id: InterruptMap2
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: InterruptMap2
+  nameWithType: ADXL362.Registers.InterruptMap2
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.InterruptMap2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InterruptMap2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 246
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInterrupt map register (2)\n"
+  example: []
+  syntax:
+    content: public const byte InterruptMap2 = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InterruptMap2 As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FilterControl
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FilterControl
+  id: FilterControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: FilterControl
+  nameWithType: ADXL362.Registers.FilterControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.FilterControl
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FilterControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 251
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFilter control register.\n"
+  example: []
+  syntax:
+    content: public const byte FilterControl = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FilterControl As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PowerControl
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PowerControl
+  id: PowerControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: PowerControl
+  nameWithType: ADXL362.Registers.PowerControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.PowerControl
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PowerControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 256
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPower control.\n"
+  example: []
+  syntax:
+    content: public const byte PowerControl = null
+    return:
+      type: System.Byte
+    content.vb: Public Const PowerControl As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SelfTest
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SelfTest
+  id: SelfTest
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Registers
+  langs:
+  - csharp
+  - vb
+  name: SelfTest
+  nameWithType: ADXL362.Registers.SelfTest
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Registers.SelfTest
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SelfTest
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 265
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSelf test.\n"
+  remarks: "\nSetting this register to 0x01 forces a self test on th X, Y\nand Z axes.\n"
+  example: []
+  syntax:
+    content: public const byte SelfTest = null
+    return:
+      type: System.Byte
+    content.vb: Public Const SelfTest As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

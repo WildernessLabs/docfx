@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Spatial.Quaternion
+  commentId: T:Meadow.Foundation.Spatial.Quaternion
+  id: Quaternion
+  parent: Meadow.Foundation.Spatial
+  children:
+  - Meadow.Foundation.Spatial.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  - Meadow.Foundation.Spatial.Quaternion.W
+  - Meadow.Foundation.Spatial.Quaternion.X
+  - Meadow.Foundation.Spatial.Quaternion.Y
+  - Meadow.Foundation.Spatial.Quaternion.Z
+  langs:
+  - csharp
+  - vb
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Meadow.Foundation.Spatial.Quaternion
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Quaternion
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nQuaternion coordinates object.\n"
+  example: []
+  syntax:
+    content: 'public class Quaternion : object'
+    content.vb: >-
+      Public Class Quaternion
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Spatial.Quaternion.W
+  commentId: P:Meadow.Foundation.Spatial.Quaternion.W
+  id: W
+  parent: Meadow.Foundation.Spatial.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Quaternion.W
+  fullName: Meadow.Foundation.Spatial.Quaternion.W
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: W
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nW component of the quaternion.\n"
+  example: []
+  syntax:
+    content: public double W { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property W As Double
+  overload: Meadow.Foundation.Spatial.Quaternion.W*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Spatial.Quaternion.X
+  commentId: P:Meadow.Foundation.Spatial.Quaternion.X
+  id: X
+  parent: Meadow.Foundation.Spatial.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Quaternion.X
+  fullName: Meadow.Foundation.Spatial.Quaternion.X
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: X
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nX component of the quaternion.\n"
+  example: []
+  syntax:
+    content: public double X { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property X As Double
+  overload: Meadow.Foundation.Spatial.Quaternion.X*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Spatial.Quaternion.Y
+  commentId: P:Meadow.Foundation.Spatial.Quaternion.Y
+  id: Y
+  parent: Meadow.Foundation.Spatial.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Quaternion.Y
+  fullName: Meadow.Foundation.Spatial.Quaternion.Y
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Y
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 20
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nY component of the quaternion.\n"
+  example: []
+  syntax:
+    content: public double Y { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Y As Double
+  overload: Meadow.Foundation.Spatial.Quaternion.Y*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Spatial.Quaternion.Z
+  commentId: P:Meadow.Foundation.Spatial.Quaternion.Z
+  id: Z
+  parent: Meadow.Foundation.Spatial.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Quaternion.Z
+  fullName: Meadow.Foundation.Spatial.Quaternion.Z
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Z
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nZ componet of the quaternion.\n"
+  example: []
+  syntax:
+    content: public double Z { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Z As Double
+  overload: Meadow.Foundation.Spatial.Quaternion.Z*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Spatial.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Meadow.Foundation.Spatial.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double)'
+  parent: Meadow.Foundation.Spatial.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(Double, Double, Double, Double)
+  nameWithType: Quaternion.Quaternion(Double, Double, Double, Double)
+  fullName: Meadow.Foundation.Spatial.Quaternion.Quaternion(System.Double, System.Double, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Spatial/Quaternion.cs
+    startLine: 34
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Spatial
+  summary: "\nCreate a new Quaternion object setting the relevant properties.\n"
+  example: []
+  syntax:
+    content: public Quaternion(double w, double x, double y, double z)
+    parameters:
+    - id: w
+      type: System.Double
+      description: ''
+    - id: x
+      type: System.Double
+      description: ''
+    - id: y
+      type: System.Double
+      description: ''
+    - id: z
+      type: System.Double
+      description: ''
+    content.vb: Public Sub New(w As Double, x As Double, y As Double, z As Double)
+  overload: Meadow.Foundation.Spatial.Quaternion.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Spatial
+  commentId: N:Meadow.Foundation.Spatial
+  name: Meadow.Foundation.Spatial
+  nameWithType: Meadow.Foundation.Spatial
+  fullName: Meadow.Foundation.Spatial
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Spatial.Quaternion.W*
+  commentId: Overload:Meadow.Foundation.Spatial.Quaternion.W
+  name: W
+  nameWithType: Quaternion.W
+  fullName: Meadow.Foundation.Spatial.Quaternion.W
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.Spatial.Quaternion.X*
+  commentId: Overload:Meadow.Foundation.Spatial.Quaternion.X
+  name: X
+  nameWithType: Quaternion.X
+  fullName: Meadow.Foundation.Spatial.Quaternion.X
+- uid: Meadow.Foundation.Spatial.Quaternion.Y*
+  commentId: Overload:Meadow.Foundation.Spatial.Quaternion.Y
+  name: Y
+  nameWithType: Quaternion.Y
+  fullName: Meadow.Foundation.Spatial.Quaternion.Y
+- uid: Meadow.Foundation.Spatial.Quaternion.Z*
+  commentId: Overload:Meadow.Foundation.Spatial.Quaternion.Z
+  name: Z
+  nameWithType: Quaternion.Z
+  fullName: Meadow.Foundation.Spatial.Quaternion.Z
+- uid: Meadow.Foundation.Spatial.Quaternion.#ctor*
+  commentId: Overload:Meadow.Foundation.Spatial.Quaternion.#ctor
+  name: Quaternion
+  nameWithType: Quaternion.Quaternion
+  fullName: Meadow.Foundation.Spatial.Quaternion.Quaternion

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hello_RGB
+  commentId: N:Hello_RGB
+  id: Hello_RGB
+  children:
+  - Hello_RGB.RGBApp
+  langs:
+  - csharp
+  - vb
+  name: Hello_RGB
+  nameWithType: Hello_RGB
+  fullName: Hello_RGB
+  type: Namespace
+  assemblies:
+  - Hello_RGB
+references:
+- uid: Hello_RGB.RGBApp
+  commentId: T:Hello_RGB.RGBApp
+  name: RGBApp
+  nameWithType: RGBApp
+  fullName: Hello_RGB.RGBApp

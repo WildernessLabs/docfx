@@ -1,0 +1,4679 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/brian/dev/gh/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Hello_RGB.RGBApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Hello_RGB.RGBApp.html",
+          "hash": "hHLnO0PyDLdWNH95n0tV4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Hello_RGB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Hello_RGB.html",
+          "hash": "T23kH2ew2udpAAjbQKFfzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ArrayEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ArrayEventArgs.html",
+          "hash": "5q1zC9B1zf5jCVoG3HLrYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ArrayEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ArrayEventHandler.html",
+          "hash": "WXFqkRKMHXUjzbKh/+9ajA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.CircuitTerminationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.CircuitTerminationType.html",
+          "hash": "Ka1uC9fo0BJCIVM2zOS5zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ColorExtensions.html",
+          "hash": "h/SUOXGFZq2vtxslSULUOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.SerialTextFile.LineReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.SerialTextFile.LineReceived.html",
+          "hash": "N9AKr8xSBZ2NByFYoamo/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.SerialTextFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.SerialTextFile.html",
+          "hash": "2oTM6dnAHrDPREzKpLXlxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.html",
+          "hash": "fRtOeSi3uSm2YQeleiH3sA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.IPidController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.IPidController.html",
+          "hash": "kPBCOgs4SvSRIfZBp+JuoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.IdealPidController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.IdealPidController.html",
+          "hash": "v4aDR+mfz/qu8NZ8xTeDBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.PidControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.PidControllerBase.html",
+          "hash": "1NHSlkCUO8U95Fwptf62mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.StandardPidController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.StandardPidController.html",
+          "hash": "JuTq3oYOzY+m4dUXAJ33Aw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.html",
+          "hash": "JypnFfVYG9qj3Z4yOuLk9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Converters.html",
+          "hash": "RDH/g8pooqYU5Agf479xpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.AdafruitIO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.AdafruitIO.html",
+          "hash": "KTwqiHfoeiJ7OmVFN1vX6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.SensorReading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.SensorReading.html",
+          "hash": "dIEphho8lFxpRV+FiT8dFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.html",
+          "hash": "CAV9P33eVG7bp7WjYazqww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.BitmapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.BitmapMode.html",
+          "hash": "1OUMSVF/uDvNGXBfGpezSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.html",
+          "hash": "sv6+yGpQaM66qPzPKJFjdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.html",
+          "hash": "R4BJTcGiGOXyyifV05TCVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.html",
+          "hash": "VgqDfmCLoTFj4R2a6RRQNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.Rotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.Rotation.html",
+          "hash": "f3goT0HS/fZNDHElf4YAbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.html",
+          "hash": "E38SCS1dypoC6b9vjbeIjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Drivers.EPD2i9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Drivers.EPD2i9.html",
+          "hash": "YCnhymAZqmbDnPvH2ltRVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Drivers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Drivers.html",
+          "hash": "sW+JeE0nx9XEw8ggMIQ19w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54.html",
+          "hash": "nDd8Hd9hKncebFyfaxgEKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54b.html",
+          "hash": "xMVRp5CmO2a7fYKI7FUYVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54c.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54c.html",
+          "hash": "KwlMIsPxAPa0UuhPr4vIXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13.html",
+          "hash": "0woo+nxzQXwIhZGCY5ZSNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13b.html",
+          "hash": "tMf0RdkzQzxUnDnE+k5+VQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i7.html",
+          "hash": "ofQJL7/ru4h/np6FWoVTKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i9b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i9b.html",
+          "hash": "GM3zs2RKgp9zfHN3NA0ShA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD4i2b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD4i2b.html",
+          "hash": "J2NHKosZ4/acNilPh2gcug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDBase.html",
+          "hash": "VqIMKuo8XhDBVU5tmtjiUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDColorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDColorBase.html",
+          "hash": "BMOzUXQsnsOoEdHtOt1a6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font4x8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font4x8.html",
+          "hash": "PrByarFngsIMh58UrbikAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x12.html",
+          "hash": "G7LoCxp8ervUNMRwQ4rC6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x8.html",
+          "hash": "KsMZ7h1S9kmGbGEvfkncOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.FontBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.FontBase.html",
+          "hash": "nAivfZDPfQ1u4FXHKWKZgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.GraphicsLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.GraphicsLibrary.html",
+          "hash": "ZDOEN6HNkxuJagWAaH4kTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.IDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.IDisplay.html",
+          "hash": "TU574KOo9050KasTs7FujQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9163.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9163.html",
+          "hash": "Ude9uPW5I4cit4N3a8WHFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9341.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9341.html",
+          "hash": "7a6/L0k/MW5FOOppv9qioQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ITextDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ITextDisplay.html",
+          "hash": "3mmQWv7p0zfkiekB1HKcjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.Lcd2004.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.Lcd2004.html",
+          "hash": "LgHNEQx3Xd5ibGJIBZhDhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.html",
+          "hash": "ojIe1z3xRV+DMiwJtv6T4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.S6D02A1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.S6D02A1.html",
+          "hash": "ZDmpaIbU/E5BiwP9DuAFMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SPIDisplayBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SPIDisplayBase.html",
+          "hash": "w54k8AcXDywsLRUkcRFOaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.DisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.DisplayType.html",
+          "hash": "HjRzzNISVR29dFu/Uij2eg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.ScrollDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.ScrollDirection.html",
+          "hash": "2mWCFaFdnSOtg//1aIAsdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.html",
+          "hash": "/X72a5p6ons+2KRWE6EZkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1331.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1331.html",
+          "hash": "GrLH+LQTbtXrF88yiftVnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.DisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.DisplayType.html",
+          "hash": "loQJTNBwgzPsHYrvTmNumg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.LcdCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.LcdCommand.html",
+          "hash": "EOVevMB36JAo8fzEVV9sVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.html",
+          "hash": "swmEphsMV7eTpOhkRSzM7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7789.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7789.html",
+          "hash": "AALTSDWawoAyrWdU2aydHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.CursorStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.CursorStyle.html",
+          "hash": "zwedZC8swECADoSISJXQEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.Direction.html",
+          "hash": "rJwrRfY2/cPUepys/Tzg1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.html",
+          "hash": "4Jk5y0APR5kDQPAJXCEEJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDBaudRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDBaudRate.html",
+          "hash": "3RDAFNRRpMe9zgjezKbbdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDDimensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDDimensions.html",
+          "hash": "rkeAL3667pqSan4aLgboQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.html",
+          "hash": "AmOVSZrSqNuGwetKYMEsAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayConfig.html",
+          "hash": "RXCr8i1z7yJG/6k7b0DBDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.html",
+          "hash": "2+/lxX93skghSypLIemWDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.html",
+          "hash": "7N9VVWUJzbar0re0VrfnHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.html",
+          "hash": "0xYBJUQFT+2TzK34Dus4qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Age.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Age.html",
+          "hash": "Sg2h3hmCdv93lVFspkrP6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Boolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Boolean.html",
+          "hash": "tLJk7rALZHwFXMGqyu/Glg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.html",
+          "hash": "+1HJd35qqBRCAKycFksUCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputHelpers.html",
+          "hash": "tlbvjCrO0nx6QsatZQQuug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.ListBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.ListBase.html",
+          "hash": "uA8PxNEVbHM/jRTrwCiELg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.html",
+          "hash": "ketnWrGvcccBo+kVehQS/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Temperature.html",
+          "hash": "mVR2+oOH9skLlKmwojxkEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Time.html",
+          "hash": "Mpvwn2t+Vvr2vNf3O6/aBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode.html",
+          "hash": "EKwk92GpFRMvdMFmQtgfIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.html",
+          "hash": "Trl55VAmOnMkyb1pd4OA7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeDetailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeDetailed.html",
+          "hash": "2GMhRvuhdB3cHXs7QTgOGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeShort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeShort.html",
+          "hash": "6gS1+rAlRzyvOGvKSaXQEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.html",
+          "hash": "uFnoVPs0Ca0GSKQ46fXYdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.Menu.html",
+          "hash": "jRKH9CmP80uaRMPp5W/xLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuInputItemBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuInputItemBase.html",
+          "hash": "Q8B+gfabfCaNalJnmtc2fA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.html",
+          "hash": "n46PeIQ6h769IeWqar/mCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.html",
+          "hash": "Qd1UTFkREXJydhJMFBgk2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs.html",
+          "hash": "QL4lfcuJ5A/NTk0A1Tr2Ng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedHandler.html",
+          "hash": "RNuUBHKZiwBo8y8fHUocaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.TextCharacters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.TextCharacters.html",
+          "hash": "kwQnMQ37KL/19O0utYRjLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedEventArgs.html",
+          "hash": "fVmy5W3/9iMoNN5OkR4tsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler.html",
+          "hash": "6qyGUg6XwhbKMK68xB76kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.html",
+          "hash": "Fqmk/6pPcuAEkIJ7T69I/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.html",
+          "hash": "DY6q9PgBakDaAv8WGMc0Ww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Generators.SoftPwm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Generators.SoftPwm.html",
+          "hash": "gBGwaHS85bpleopADxRPgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Generators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Generators.html",
+          "hash": "1fritYTgd2ti9lTCThlveA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.Checksum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.Checksum.html",
+          "hash": "5PDwrwhlzYQfrMlQU4Qvtg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.DebugInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.DebugInformation.html",
+          "hash": "umFp0d2F8rdRir59psK6UA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.html",
+          "hash": "8FZ2xclPFx35eS38geUMhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.AT24Cxx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.AT24Cxx.html",
+          "hash": "cTSxka+ltr/zB28v84wlgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.html",
+          "hash": "KIAVyPXucVuIGOUjHL2b5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort.html",
+          "hash": "sZ0yKx2IqBzXaliYXABtPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.html",
+          "hash": "wjje6BEhmFBvC6ot7ttrUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.html",
+          "hash": "rhxBUZo6g4ifKVd4EC2xIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.html",
+          "hash": "5Hd1qgdGO4U6+3E2VVr6Ng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable.html",
+          "hash": "X5qBVEqaj+MhS/e2OXjKrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.html",
+          "hash": "C/VMMy/ZbhziepCvlu9jzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.x74595.x74595.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.x74595.x74595.html",
+          "hash": "iwz6DntiRXAETHIAwamZNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.x74595.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.x74595.html",
+          "hash": "/rCCledbO9XozyBB4PvKZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Helpers.html",
+          "hash": "UXgPLpsgi0XjgXhG0fl3HA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.ILed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.ILed.html",
+          "hash": "xW1HTVTFcYuLdICCt0c3Tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.IPwmLed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.IPwmLed.html",
+          "hash": "UbWM0U+YhX3hcKO5uRMleQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Led.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Led.html",
+          "hash": "aueS0wm63l5VcpmGzj9hfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.PwmLed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.PwmLed.html",
+          "hash": "fRJpi5KiBlJdGpWNzHlOPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig.html",
+          "hash": "W3alMABa7rjrXq/UlPjghQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.html",
+          "hash": "Wi532+Pgmktq0ddONcnBFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.TypicalForwardVoltage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.TypicalForwardVoltage.html",
+          "hash": "b/d+s+vf4woUCwQIW6rdoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.html",
+          "hash": "sz8FqJK7WX0BBxbPN3itTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.HBridgeMotor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.HBridgeMotor.html",
+          "hash": "iyBdcOCgEhU9djb872uTiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.IDCMotor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.IDCMotor.html",
+          "hash": "qICHgAvoUxQjTa720z3jmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.html",
+          "hash": "nT5sREcA3QtVLYeI3vqxyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.NumericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.NumericExtensions.html",
+          "hash": "bROAvDzlto7Lk2omz9Qc3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS3231.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS3231.html",
+          "hash": "Hi1zz4v/g0Pb7VRPhHbGBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Alarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Alarm.html",
+          "hash": "46LBaF9UH2bWnHYGRR6+qQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.AlarmRaised.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.AlarmRaised.html",
+          "hash": "Hs8DUidL6cAB+gAgWRc8Lw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.AlarmType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.AlarmType.html",
+          "hash": "Jgq41qYHCKEvXPpBBnZAXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.RateSelect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.RateSelect.html",
+          "hash": "xwWp8vUDM9oHWLDr+7cAkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Registers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Registers.html",
+          "hash": "hiBrGaRQ3NVYU9P5ewoxDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.html",
+          "hash": "nB6nfbIY8/RUelrim/aTCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.html",
+          "hash": "7xRG6/6mCqaG5h2BX7ZiNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.IRelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.IRelay.html",
+          "hash": "n4BDbihsf1bPa7nsQjzfjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.Relay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.Relay.html",
+          "hash": "dDkWUqux+S6NqH/haTjwiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.RelayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.RelayType.html",
+          "hash": "7mb44ysKXlIY4KYUfOKFvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.html",
+          "hash": "Tw9DR6ZxW/oTl0QSEVFeqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.html",
+          "hash": "rDgwaKbcR9q4+ntJGY8NUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.html",
+          "hash": "rUz7Ix5T+JCrL2a8MIZIVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.html",
+          "hash": "KWAhYuSNeBp4LXOYlxxayg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration.html",
+          "hash": "KxAhq3xLro/XDkhxC8IlAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.html",
+          "hash": "qxFHz9OqnhNgyojEQTR94g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.GroveTH02.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.GroveTH02.html",
+          "hash": "VMGDfDP1YtwSJPEk3+OQSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.HIH6130.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.HIH6130.html",
+          "hash": "cUxmTemL/54f2gu6xXjocw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SHT31D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SHT31D.html",
+          "hash": "+vh07chgLh7dGbDSi+HRyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType.html",
+          "hash": "50jgopJsaaqKkJEjQWpp3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.html",
+          "hash": "lr9d4o4LtmY+51Na64t5dQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.html",
+          "hash": "2N4rMXRNijWCPrszdaXRig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL115A2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL115A2.html",
+          "hash": "d3VgyI522PUOjcACqRnQTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.html",
+          "hash": "AW0Z2o2CxavAaDGkMnuOLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.html",
+          "hash": "YUYmuBA1gboK/cq8XjSqGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.html",
+          "hash": "pc8VxNK6S3I6+n3ll/2bAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.IButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.IButton.html",
+          "hash": "NoO6yc5kEiv32SQIKnihhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.PushButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.PushButton.html",
+          "hash": "u9r7NjdaIKGX+414FLp80Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.html",
+          "hash": "NZTONVcMSYRIFbOS4YrFyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.html",
+          "hash": "lzZAA6jvNotwHnsVijZRFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatellites.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatellites.html",
+          "hash": "QgiiZbud7nMXc6cw7rHyJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.CourseOverGround.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.CourseOverGround.html",
+          "hash": "puLIynirK7CpkOKSurSJaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.html",
+          "hash": "lxMsMxQR/3hmemgmqI6tXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DimensionalFixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DimensionalFixType.html",
+          "hash": "0s/luLMfUqp5vn/+bSeQJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DirectionIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DirectionIndicator.html",
+          "hash": "bSDC7CBr3isxyQHOTqY8Pw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.FixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.FixType.html",
+          "hash": "pJ6dRet8NN2Sc6DlMlm8jg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived.html",
+          "hash": "tV0TrMGxk+ymEEhtB8SlIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GGADecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GGADecoder.html",
+          "hash": "yzzUYe+1nO+PhBYZyc0nbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GLLDecoder.GeographicLatitudeLongitudeReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GLLDecoder.GeographicLatitudeLongitudeReceived.html",
+          "hash": "EMGe2dhI53bhBco96/XABg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GLLDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GLLDecoder.html",
+          "hash": "EQnm4BvX/3XrGeZUfPyfJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GPSLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GPSLocation.html",
+          "hash": "OZSKus/955WLKiB5tu6sKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSADecoder.ActiveSatellitesReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSADecoder.ActiveSatellitesReceived.html",
+          "hash": "6JeAr2EYHBTlqUsNipVbow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSADecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSADecoder.html",
+          "hash": "khGSxveZ0AP+LnL1mYnaKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSVDecoder.SatellitesInViewReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSVDecoder.SatellitesInViewReceived.html",
+          "hash": "pMiESH0rgvEgAfEidaQ4vA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSVDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSVDecoder.html",
+          "hash": "2A3dXMY7zP0YXmNUQD7dIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEA.html",
+          "hash": "9UsN2mYLC0Dleq07ts4LSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEADecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEADecoder.html",
+          "hash": "3ze+b+yLHB4pZbq+BOikug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEAHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEAHelpers.html",
+          "hash": "IUwv6mtUN/PdawsxRKf4eA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.PositionCourseAndTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.PositionCourseAndTime.html",
+          "hash": "m3+kqO+V13SXxgeJds5u9w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.RMCDecoder.PositionCourseAndTimeReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.RMCDecoder.PositionCourseAndTimeReceived.html",
+          "hash": "HPG5zck9LGmQkcs7S5iszQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.RMCDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.RMCDecoder.html",
+          "hash": "QH8a3ev1MB24ePKy12+zBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.Satellite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.Satellite.html",
+          "hash": "/g88wPWl7PP6hR5F+jpxOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.VTGDecoder.CourseAndVelocityReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.VTGDecoder.CourseAndVelocityReceived.html",
+          "hash": "Qr6tYMGXp9+zMJ1uxBNLRw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.VTGDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.VTGDecoder.html",
+          "hash": "2phfmn2lJHf6O1dJWmiNng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.html",
+          "hash": "G13GF/H5Rg4ElK21HrA5cg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.html",
+          "hash": "wWNtDitaOoweIgDSLBDWlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.HallEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.HallEffect.html",
+          "hash": "x3PVb44v2lmSKeUvUyl0lQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ICamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ICamera.html",
+          "hash": "hWHylDidBZ2+3oLs1oZ8vA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.IHumiditySensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.IHumiditySensor.html",
+          "hash": "4bHyndCGUKSE6DlKe9TXnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ILightSensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ILightSensor.html",
+          "hash": "QtGiQalgiC/bOypH5qe5vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.IPressureSensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.IPressureSensor.html",
+          "hash": "L4V1k3EEBkWBUp0OPdGK1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ISensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ISensor.html",
+          "hash": "RiNH0FCAT4H5X/ONHjK5hg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ITemperatureSensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ITemperatureSensor.html",
+          "hash": "WpCiRcG9inbwbwY7+iny5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.SI1145.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.SI1145.html",
+          "hash": "69De+icE0ox1GqqMMdafTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.Addresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.Addresses.html",
+          "hash": "7pDFH+llSK1org2YOhGbxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.Gain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.Gain.html",
+          "hash": "8YJBPQ5BFT8HGVp2nOL0jw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.html",
+          "hash": "K9L0z/4+UaR3/RH8WK/IuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode.html",
+          "hash": "aPtI9ogSlvXEPTfpCjaO/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt.html",
+          "hash": "btDuD9tJStYoQzdLQIpF9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.html",
+          "hash": "TsFkRal7pGqG98PAPGhX3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.html",
+          "hash": "6v7mFKd0mYL3cMX1N9aqCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL335.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL335.html",
+          "hash": "bt4DoAcDWOuhzNJ3T002mQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.Frequency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.Frequency.html",
+          "hash": "a7FGVGk6nU/leGYhKpFNNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.Range.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.Range.html",
+          "hash": "ZLUJYLxPKuJva5pfbZ0ARA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.html",
+          "hash": "kqvqhzOhJ6q2hH1z2v4s3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.html",
+          "hash": "tey3PvtjwE2lTXty6Qo53Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Command.html",
+          "hash": "xyB1+pIKfRul1RDztw9JFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.html",
+          "hash": "DTha6ak5ikFsnE26isBRjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.html",
+          "hash": "2GZFu8jtJiByLGZX6zvDPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.html",
+          "hash": "wTt96P8At3VnfvRasNMPDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.html",
+          "hash": "zNODCg2ohrqZ/VhP30yZTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Registers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Registers.html",
+          "hash": "62nOo6kFu8Z/x6332CfVRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.html",
+          "hash": "HO78sLrNEePAj2E64VBVfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.html",
+          "hash": "ckuQYNp6d686oh4KebFRXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes.html",
+          "hash": "jBdFHXrXewGZigBe8/3OsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.html",
+          "hash": "dbo3SZ1LmzWvJ8wSZfGFCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.PowerModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.PowerModes.html",
+          "hash": "t1vqc6J0X1z6GAxPyA46Ig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask.html",
+          "hash": "8O+IRA8ssb3CVdAK+Vu16w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Sensor.html",
+          "hash": "6aPiK253jYsEDNdlf6gowA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.html",
+          "hash": "GFMmgNGt2eXcVrhSV2/ipg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Units.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Units.html",
+          "hash": "lOwaCzXJOqDcj5d/fiXy8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.html",
+          "hash": "lR6T8iW1ZkBXUBkLk+IhUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.IAccelerometer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.IAccelerometer.html",
+          "hash": "XwGtDejN3CzozvDM9vg5vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.ReadingComplete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.ReadingComplete.html",
+          "hash": "ffdJUkheHxZwnSISET+DLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.html",
+          "hash": "4QzEmfaTewV26WNsLhSCPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.html",
+          "hash": "MHAMVQgzrhzn5BxGypCT8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ParallaxPIR.MotionChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ParallaxPIR.MotionChange.html",
+          "hash": "hu0RFjz6GGEKrvcOO4X2jQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ParallaxPIR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ParallaxPIR.html",
+          "hash": "/N7HSppjmXtFOKhtYnpF3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.html",
+          "hash": "lGj+8BN6/tlX+GfUMPZeww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Proximity.IRangeFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Proximity.IRangeFinder.html",
+          "hash": "rBy9xCDE5l9u7tvoLdfBSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Proximity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Proximity.html",
+          "hash": "MV753WUECk3SLCxyhTdkPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.html",
+          "hash": "wfPwH6lqzgPpNxGsIo9nAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton.html",
+          "hash": "ToUFaSR4J3bvnVAvhq/m0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoder.html",
+          "hash": "AnoTR8TnlhEttu2mhBObvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.html",
+          "hash": "6AKvVT0rd8sKnULMRs2OSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.html",
+          "hash": "EJCyK/ioaCIMtwivdOwtOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler.html",
+          "hash": "qew55EhZZNUcWXGFHsaFNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotationDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotationDirection.html",
+          "hash": "jKwwwSt9De5Jjcu8CJUdUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.html",
+          "hash": "IccPsUguvjsfuiIjUCDcbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.html",
+          "hash": "3jpVaHMEyQJx05jioEtn5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorFloatEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorFloatEventArgs.html",
+          "hash": "iDWwxrCWywwnw9bu0vU8PQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorFloatEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorFloatEventHandler.html",
+          "hash": "IwRkcZYJ1bdrdT1qcOMDww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorVectorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorVectorEventArgs.html",
+          "hash": "/zUcBjXAFGppo0oCIoTm/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorVectorEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorVectorEventHandler.html",
+          "hash": "5mgg/y/vk19XZQpj7tqQmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.DipSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.DipSwitch.html",
+          "hash": "T4yccO6ZvwETENrNUDdnWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.ISwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.ISwitch.html",
+          "hash": "kURMFEVL0tUCEUsR4Ha/9w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpdtSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpdtSwitch.html",
+          "hash": "iaq6rNCNfcnd0oX/GluPXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpstSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpstSwitch.html",
+          "hash": "jB9w1n8l08kyP33BwYnPyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.html",
+          "hash": "6Z7YqG7C+n76dEPVZe0OIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration.html",
+          "hash": "H2rjYK2hl1CtNiGbYs0txQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.html",
+          "hash": "JNruOnvhpafGgtsvVoUUEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.html",
+          "hash": "tQUyqLb/QHC9c9Oy9p+f3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.html",
+          "hash": "2wlDzoy33jD2OfHoMd90Rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.html",
+          "hash": "5JbO/y/bKfznfxTFAOLDoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServo.html",
+          "hash": "aohgsfYwHwAeO/T2i108lQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServoBase.html",
+          "hash": "TKCTnoQzHWKbscKGUIzLEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IContinuousRotationServo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IContinuousRotationServo.html",
+          "hash": "Gx/wv5sEALq8h7wJWqccDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IServo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IServo.html",
+          "hash": "2UaR5ximIWAhfDPvHZB/Ng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.NamedServoConfigs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.NamedServoConfigs.html",
+          "hash": "IPa3RMIvpmGa1I1M6rKN1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.RotationDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.RotationDirection.html",
+          "hash": "FVd/ZX/AUaMQkY280ZxPZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.Servo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.Servo.html",
+          "hash": "njKb6YkbK+QQ9pGRucE7Ow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoBase.html",
+          "hash": "/4RW/yXoa/JhDhtsc5cPxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoConfig.html",
+          "hash": "NduKafscWZEi1hPgihWhLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.html",
+          "hash": "5DFT7mUI2BcBK9UeKdTCIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.EulerAngles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.EulerAngles.html",
+          "hash": "CeGgKtACOHpqO9nfROX8cw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Quaternion.html",
+          "hash": "G8jllec08+xG46HZFocorg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Vector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Vector.html",
+          "hash": "D8d42X/NyZJAlvhaTLoHfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.html",
+          "hash": "5mz9TZmotOOCmRfZ3bhTPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.html",
+          "hash": "C4lld94OdNlnApNOZ6Cheg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.DataLoggers.ThingSpeak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.DataLoggers.ThingSpeak.html",
+          "hash": "4wnvivS3Xwv1XHVtJ8SjzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.DataLoggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.DataLoggers.html",
+          "hash": "WMu3RTKcs1uFoQbto9VxAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.Class1.html",
+          "hash": "Cr54tTc4h5N0LpjGOfUpIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.HTU21DF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.HTU21DF.html",
+          "hash": "c64CyZBLvRo119OGMCAuCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Atmospheric.html",
+          "hash": "J4Q5Z8hHFP/YusaBzaSEuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.DistanceDetectedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.DistanceDetectedEventHandler.html",
+          "hash": "P+YdpO/iRqojS4Mc2dcIug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.DistanceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.DistanceEventArgs.html",
+          "hash": "jkBuZ72PGn9jtQi9mhvj6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HCSR04.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HCSR04.html",
+          "hash": "Y0LErd2LsjD/W0GqBm2NMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HYSRF05.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HYSRF05.html",
+          "hash": "zNOn/UbKAClIVRM66lfMBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.IRangeFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.IRangeFinder.html",
+          "hash": "dsWudLQQJ622r+J5Mmjz1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.html",
+          "hash": "Tsf33PlhKhjrUysyBajfoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002.html",
+          "hash": "xwnZ5e+pC4JD2tPgpzvYMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Motion.FXAS21002.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Motion.FXAS21002.html",
+          "hash": "/1YAFsZf/7FAc0ntXPDO3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Fountation.Sensors.Light.ALSPT19315C.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Fountation.Sensors.Light.ALSPT19315C.html",
+          "hash": "g+oGtsn1BtvsdOFFKkcF9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Fountation.Sensors.Light.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Fountation.Sensors.Light.html",
+          "hash": "88rIb9zBw2+SFTpOrC2NWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Meadow.Foundation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/index.html",
+          "hash": "+YmyEFFxi7nEk+kddq+ZZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Meadow.Foundation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/toc.html",
+          "hash": "OHWy21X7nh1sALm0LHUeEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.AppBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.AppBase-2.html",
+          "hash": "6tMI5T0JCFDZo63fEHXysg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.ByteOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.ByteOrder.html",
+          "hash": "EV4f5TYyxVAB2acOGI9FDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.DeviceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.DeviceBase.html",
+          "hash": "pBMBD7Jy1HXmtpnmn+cZnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.DeviceCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.DeviceCapabilities.html",
+          "hash": "PxMZM00cYFy098ttfuMNCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Devices.F7Micro.PinDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Devices.F7Micro.PinDefinitions.html",
+          "hash": "UcckSf77wagawHw5AtMWDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Devices.F7Micro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Devices.F7Micro.html",
+          "hash": "LEJ6gl7uN3RF+yDcuiCHlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Devices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Devices.html",
+          "hash": "VS7qIHVDDOTP//mKRL23Dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionMethodType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionMethodType.html",
+          "hash": "vkT2AlDop6YR/lMjN8QI7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionResult.html",
+          "hash": "UR80WeG5wyU07vw+WKae7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionStatus.html",
+          "hash": "uTdFlMOreWSOzVfxuUcUwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkAuthenticationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkAuthenticationType.html",
+          "hash": "afYumhkkuhYF27/UAZqgtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkEncryptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkEncryptionType.html",
+          "hash": "nF5Sotu3IVAPpTBO4N0MYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkSecuritySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkSecuritySettings.html",
+          "hash": "LpPIcRPJ2b5IQv3xwHEerA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkType.html",
+          "hash": "W3ZZw8brp2MSAPRglAU+pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.PhyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.PhyType.html",
+          "hash": "IiVFPVP57rDnt4iiVuQDog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.ReconnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ReconnectionType.html",
+          "hash": "a3B6GTCuStBIDrxE5gaV7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.WiFiAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.WiFiAdapter.html",
+          "hash": "0E+ml35gSPcoSaO5lQ8grQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.WifiNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.WifiNetwork.html",
+          "hash": "snPgOLpH+SOnh/8INGoM+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateway.WiFi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateway.WiFi.html",
+          "hash": "d+1tZ8PQOQBy8R+Jt/yV/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.AdapterCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.AdapterCapabilities.html",
+          "hash": "jWSNB20YhjMooeUtzqfc0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.BluetoothAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.BluetoothAdapter.html",
+          "hash": "691iYo2N/IHtwrbz7Mkzdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.html",
+          "hash": "LA4WYfifhFPx5Sc+6pwv7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.AnalogInputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.AnalogInputPort.html",
+          "hash": "0dj8I+lmk1zm6NVRr7G/4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.AnalogPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.AnalogPin.html",
+          "hash": "J9TVajO6szm3avE/TLjnvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.AnalogPinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.AnalogPinBase.html",
+          "hash": "vaZef9msr+gEJ1jiIEMjwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.I2cBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.I2cBus.html",
+          "hash": "qyWBWi3N4lnnzEAWEQ4NpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.ICommunicationBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.ICommunicationBus.html",
+          "hash": "zBCS6mpEOq1KvtB4l3RBoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWire.html",
+          "hash": "ao637fdpw4JzlXx9qXSTWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.Devices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.Devices.html",
+          "hash": "i0x/uOlSqd7HsmWN5dryIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.html",
+          "hash": "b0LFA1SPJhCs2ZkdHOSclw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.SPIBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.SPIBus.html",
+          "hash": "KRXkHKndcV7MSiLp6NFO2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.html",
+          "hash": "rtzAHi5Nw7JqnA2qEn3p9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogChannel.html",
+          "hash": "o2zHRLPz6uFUZIxWizWM9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogOutputChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogOutputChannel.html",
+          "hash": "RVLvRLBdRIDfulLNCuzV9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.PWMChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PWMChannel.html",
+          "hash": "kprb57XvD6HEecgSTjuwkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.Pin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.Pin.html",
+          "hash": "gG/ICHx+gbg+KcU0puBZBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinUsage.html",
+          "hash": "TkrIMEmHQjs33/xGghX3+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidInterruptMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidInterruptMode.html",
+          "hash": "q9hZp7qJxmA5aXFjo9B44Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidResistorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidResistorMode.html",
+          "hash": "OmqqNXQBwhzX1r7P14zQnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Cpu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Cpu.html",
+          "hash": "jnOJvLQR/K5XHdQ9lB/b/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPort.html",
+          "hash": "VtMMXb1tK4ONfUK8puO8wg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPortBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPortBase.html",
+          "hash": "hjW2sUfI2uMTHek8EHAv8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalInterruptPortBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalInterruptPortBase.html",
+          "hash": "M26yiZeqCszhRQwU5ZDGDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPort.html",
+          "hash": "QMXyFqZXRW1BORRi1fts3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPortBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPortBase.html",
+          "hash": "CdOmrLJuqXfGsuRMQ5zYBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalPin.html",
+          "hash": "gyeanpIV1ih0clbEx/YXoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalPinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalPinBase.html",
+          "hash": "TTQRpx5LIT2pp+t60qbOTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DigitalPortBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DigitalPortBase.html",
+          "hash": "jYaRrHikThq10MykZaK4+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Handshake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Handshake.html",
+          "hash": "2hRqPLBG+bNXOVEik/BETw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.Configuration.html",
+          "hash": "9iUYrT45Yzco1tgjSyM2lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CReadTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CReadTransaction.html",
+          "hash": "jDcVJa84N8uXhm5g2yUPBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CTransaction.html",
+          "hash": "EEFREJ4JqXZcVgPHSWcoIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CWriteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CWriteTransaction.html",
+          "hash": "IX0kjR5yUvYz9/2V4nibbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.html",
+          "hash": "jlyQd++/kWjj7Q+swjvpuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IAnalogChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IAnalogChannel.html",
+          "hash": "fs37FSgeDV9+JbKKnwR0jA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IAnalogPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IAnalogPin.html",
+          "hash": "UvMG0/roDzMu4NCHkbF5CQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IAnalogPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IAnalogPort.html",
+          "hash": "H6X9S/1nn6eYAtWpFoNQCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalChannel.html",
+          "hash": "35vg6nlRc/LA0hpxVFB1bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalInputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalInputPort.html",
+          "hash": "uSDJ2qRVTWwqr8g30EyR6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalInterruptPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalInterruptPort.html",
+          "hash": "n+exN55O95XQ+mDdHIfNzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalOutputPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalOutputPort.html",
+          "hash": "bvPhgBFbsNBQdkC/yP+V+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalPin.html",
+          "hash": "r7eT5TcHIib745pHNQJifQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IDigitalPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IDigitalPort.html",
+          "hash": "9kDlrbjxIGkwves40IEERg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IPin.html",
+          "hash": "tlqjB2w4kRvOIHB7ixFAgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IPort.html",
+          "hash": "copa0iME3opP8E+ckU+Elg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IPwmChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IPwmChannel.html",
+          "hash": "sWJorZedK6SmsEJ8/FyWgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IPwmPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IPwmPin.html",
+          "hash": "Z7+bfGpzNiNwsPW82JG53g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IPwmPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IPwmPort.html",
+          "hash": "5oYGC2DhjQBMQ0baKGAdNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.InterruptMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.InterruptMode.html",
+          "hash": "hNS2cWM13vST0HzBbmBJyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Parity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Parity.html",
+          "hash": "WrTvd+hFIhabS3f4U4mMsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Pin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Pin.html",
+          "hash": "NxydWyTPFZ6nElABzZSpaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PinBase.html",
+          "hash": "HNpdFVDPI+bE9duq20+2KQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PortDirectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PortDirectionType.html",
+          "hash": "Vdu7dO8I3jZmNUXnkTb3gw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PortEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PortEventArgs.html",
+          "hash": "mRxGQvWsbpLNjdBCcrOtKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PwmPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PwmPin.html",
+          "hash": "393f0YzBvPn8Plexu+AyeQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PwmPinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PwmPinBase.html",
+          "hash": "LfA2nWosP7SCZ6EyWOXoeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PwmPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PwmPort.html",
+          "hash": "dAotL8sKJKY5JH9w94PVzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.ResistorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.ResistorMode.html",
+          "hash": "iNY/2xN8vYv2XYHBGyGNNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialData.html",
+          "hash": "HPzm4wnHfzL+2WlUSpc30w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialDataReceivedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialDataReceivedEventArgs.html",
+          "hash": "uxR4eF6pDA/DBqycdRou6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialError.html",
+          "hash": "MwBiVWEyISgyBrPF6UAm5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialErrorReceivedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialErrorReceivedEventArgs.html",
+          "hash": "t4VnnfPzLb420zv7KFf5EQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler.html",
+          "hash": "NTdbMXGfmYOGq+YgUdXm8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler.html",
+          "hash": "ooUGqzwRe2GaC03lvBH9Gw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SerialPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SerialPort.html",
+          "hash": "b+nlvFCK68d3w/ZeWGCzAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.SignalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.SignalType.html",
+          "hash": "y4Bi8iJdW7pqJf/FYIXMNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Spi.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Spi.Configuration.html",
+          "hash": "YPbo4zK9aqGq9MelhgDaMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Spi.SPI_module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Spi.SPI_module.html",
+          "hash": "MmM+3Jm87unAhb20wmQ+7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Spi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Spi.html",
+          "hash": "eTcDCCcwQ4+f0bjso4AHWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.StopBits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.StopBits.html",
+          "hash": "yvf9MeCUTF3dGmoLjkV8mA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.TerminationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.TerminationType.html",
+          "hash": "TydQmfF4pBlMdl6RmEQk6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.TimeScaleFactor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.TimeScaleFactor.html",
+          "hash": "lJ6zI8b6PkrcRZ6+Zjld1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.html",
+          "hash": "XfTyYuFMRQx0TbSkvFnlCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.IApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.IApp.html",
+          "hash": "kwjLP0aGGXkz555ENarbXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.IDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.IDevice.html",
+          "hash": "a/D0q1Q7kD0XuBV4RW+4fg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.MeadowOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.MeadowOS.html",
+          "hash": "VbXF0lrlKodk/qLndpfn2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.NetworkCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.NetworkCapabilities.html",
+          "hash": "ANow/4vAvCU8pP0nXnjBUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Utilities.BitHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Utilities.BitHelpers.html",
+          "hash": "Frv0rN/OzXJD+AZXkEx/vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Utilities.html",
+          "hash": "DykO68CzLmu85s46L27nnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.WakeUpOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.WakeUpOptions.html",
+          "hash": "B8En7g5BZB0JiXh3u619MA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.html",
+          "hash": "NBQFVNe3cuYuzKqCy+5ZiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/MeadowApplication.MyApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/MeadowApplication.MyApp.html",
+          "hash": "fGHOduAogcr2uUZ/K3lZIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/MeadowApplication.SomeOtherClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/MeadowApplication.SomeOtherClass.html",
+          "hash": "LGPTnv536dAIauXATg9z7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/MeadowApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/MeadowApplication.html",
+          "hash": "Gg9kAJ3OB3OcKJZG1T8mgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Meadow/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/index.html",
+          "hash": "JTeKkkjqtGigUuIRaj1axw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Meadow/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/toc.html",
+          "hash": "0512LarA35OY3yyw73467g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "7HbiEedIcDQgzKRrULdU4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "H+OnxCX1lr4Z/T+rvVW0Pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "a0VzTQEqQhXJY8F24VQPUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

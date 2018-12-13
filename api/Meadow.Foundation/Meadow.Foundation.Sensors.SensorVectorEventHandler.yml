@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.SensorVectorEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorVectorEventHandler
+  id: SensorVectorEventHandler
+  parent: Meadow.Foundation.Sensors
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SensorVectorEventHandler
+  nameWithType: SensorVectorEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorVectorEventHandler
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+    startLine: 38
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nDelegate for the events that will return a SensorVectorEventArgs object.\n"
+  example: []
+  syntax:
+    content: public delegate void SensorVectorEventHandler(object sender, SensorVectorEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Object sending the notification.
+    - id: e
+      type: Meadow.Foundation.Sensors.SensorVectorEventArgs
+      description: SensorVectorEventArgs object containing the data for the application.
+    content.vb: Public Delegate Sub SensorVectorEventHandler(sender As Object, e As SensorVectorEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  commentId: T:Meadow.Foundation.Sensors.SensorVectorEventArgs
+  parent: Meadow.Foundation.Sensors
+  name: SensorVectorEventArgs
+  nameWithType: SensorVectorEventArgs
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs

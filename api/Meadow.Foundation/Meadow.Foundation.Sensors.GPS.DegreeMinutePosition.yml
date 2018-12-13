@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  commentId: T:Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  id: DegreeMinutePosition
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Degrees
+  - Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Direction
+  - Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Minutes
+  langs:
+  - csharp
+  - vb
+  name: DegreeMinutePosition
+  nameWithType: DegreeMinutePosition
+  fullName: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  type: Struct
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DegreeMinutePosition
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 8
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nPosition recorded in degrees and minutes along with an indiction of the direction\nof the position..\n"
+  example: []
+  syntax:
+    content: public struct DegreeMinutePosition
+    content.vb: Public Structure DegreeMinutePosition
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Degrees
+  commentId: F:Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Degrees
+  id: Degrees
+  parent: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  langs:
+  - csharp
+  - vb
+  name: Degrees
+  nameWithType: DegreeMinutePosition.Degrees
+  fullName: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Degrees
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Degrees
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 10
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: public int Degrees
+    return:
+      type: System.Int32
+    content.vb: Public Degrees As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Minutes
+  commentId: F:Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Minutes
+  id: Minutes
+  parent: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  langs:
+  - csharp
+  - vb
+  name: Minutes
+  nameWithType: DegreeMinutePosition.Minutes
+  fullName: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Minutes
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Minutes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 11
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: public double Minutes
+    return:
+      type: System.Double
+    content.vb: Public Minutes As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Direction
+  commentId: F:Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Direction
+  id: Direction
+  parent: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: DegreeMinutePosition.Direction
+  fullName: Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.Direction
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Direction
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 12
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: public DirectionIndicator Direction
+    return:
+      type: Meadow.Foundation.Sensors.GPS.DirectionIndicator
+    content.vb: Public Direction As DirectionIndicator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.Sensors.GPS.DirectionIndicator
+  commentId: T:Meadow.Foundation.Sensors.GPS.DirectionIndicator
+  parent: Meadow.Foundation.Sensors.GPS
+  name: DirectionIndicator
+  nameWithType: DirectionIndicator
+  fullName: Meadow.Foundation.Sensors.GPS.DirectionIndicator

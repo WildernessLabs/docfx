@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.InterruptMode
+  commentId: T:Meadow.Hardware.InterruptMode
+  id: InterruptMode
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.InterruptMode.InterruptEdgeBoth
+  - Meadow.Hardware.InterruptMode.InterruptEdgeHigh
+  - Meadow.Hardware.InterruptMode.InterruptEdgeLevelHigh
+  - Meadow.Hardware.InterruptMode.InterruptEdgeLevelLow
+  - Meadow.Hardware.InterruptMode.InterruptEdgeLow
+  - Meadow.Hardware.InterruptMode.InterruptNone
+  langs:
+  - csharp
+  - vb
+  name: InterruptMode
+  nameWithType: InterruptMode
+  fullName: Meadow.Hardware.InterruptMode
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptMode
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public enum InterruptMode
+    content.vb: Public Enum InterruptMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Hardware.InterruptMode.InterruptNone
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptNone
+  id: InterruptNone
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptNone
+  nameWithType: InterruptMode.InterruptNone
+  fullName: Meadow.Hardware.InterruptMode.InterruptNone
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptNone
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptNone = 0
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.InterruptMode.InterruptEdgeLow
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptEdgeLow
+  id: InterruptEdgeLow
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptEdgeLow
+  nameWithType: InterruptMode.InterruptEdgeLow
+  fullName: Meadow.Hardware.InterruptMode.InterruptEdgeLow
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptEdgeLow
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptEdgeLow = 1
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.InterruptMode.InterruptEdgeHigh
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptEdgeHigh
+  id: InterruptEdgeHigh
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptEdgeHigh
+  nameWithType: InterruptMode.InterruptEdgeHigh
+  fullName: Meadow.Hardware.InterruptMode.InterruptEdgeHigh
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptEdgeHigh
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptEdgeHigh = 2
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.InterruptMode.InterruptEdgeBoth
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptEdgeBoth
+  id: InterruptEdgeBoth
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptEdgeBoth
+  nameWithType: InterruptMode.InterruptEdgeBoth
+  fullName: Meadow.Hardware.InterruptMode.InterruptEdgeBoth
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptEdgeBoth
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptEdgeBoth = 3
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.InterruptMode.InterruptEdgeLevelHigh
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptEdgeLevelHigh
+  id: InterruptEdgeLevelHigh
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptEdgeLevelHigh
+  nameWithType: InterruptMode.InterruptEdgeLevelHigh
+  fullName: Meadow.Hardware.InterruptMode.InterruptEdgeLevelHigh
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptEdgeLevelHigh
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptEdgeLevelHigh = 4
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.InterruptMode.InterruptEdgeLevelLow
+  commentId: F:Meadow.Hardware.InterruptMode.InterruptEdgeLevelLow
+  id: InterruptEdgeLevelLow
+  parent: Meadow.Hardware.InterruptMode
+  langs:
+  - csharp
+  - vb
+  name: InterruptEdgeLevelLow
+  nameWithType: InterruptMode.InterruptEdgeLevelLow
+  fullName: Meadow.Hardware.InterruptMode.InterruptEdgeLevelLow
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InterruptEdgeLevelLow
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: InterruptEdgeLevelLow = 5
+    return:
+      type: Meadow.Hardware.InterruptMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.InterruptMode
+  commentId: T:Meadow.Hardware.InterruptMode
+  parent: Meadow.Hardware
+  name: InterruptMode
+  nameWithType: InterruptMode
+  fullName: Meadow.Hardware.InterruptMode

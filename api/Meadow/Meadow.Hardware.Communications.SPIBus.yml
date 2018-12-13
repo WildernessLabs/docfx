@@ -1,0 +1,1852 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.Communications.SPIBus
+  commentId: T:Meadow.Hardware.Communications.SPIBus
+  id: SPIBus
+  parent: Meadow.Hardware.Communications
+  children:
+  - Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.Configuration)
+  - Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.Byte,System.UInt16)
+  - Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16,System.Byte,System.Byte)
+  - Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)
+  - Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)
+  - Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte,System.UInt16)
+  - Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)
+  - Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte[])
+  - Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte[],System.UInt16)
+  - Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte,System.Byte)
+  - Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte,System.Byte[])
+  - Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  langs:
+  - csharp
+  - vb
+  name: SPIBus
+  nameWithType: SPIBus
+  fullName: Meadow.Hardware.Communications.SPIBus
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPIBus
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  syntax:
+    content: 'public class SPIBus : ICommunicationBus'
+    content.vb: >-
+      Public Class SPIBus
+          Implements ICommunicationBus
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.Configuration)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.Configuration)
+  id: '#ctor(Meadow.Hardware.Spi.Configuration)'
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: SPIBus(Spi.Configuration)
+  nameWithType: SPIBus.SPIBus(Spi.Configuration)
+  fullName: Meadow.Hardware.Communications.SPIBus.SPIBus(Meadow.Hardware.Spi.Configuration)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 36
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nCreate a new SPIBus object.\n"
+  example: []
+  syntax:
+    content: public SPIBus(Spi.Configuration configuration)
+    parameters:
+    - id: configuration
+      type: Meadow.Hardware.Spi.Configuration
+      description: SPI bus configuration.
+    content.vb: Public Sub New(configuration As Spi.Configuration)
+  overload: Meadow.Hardware.Communications.SPIBus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16,System.Byte,System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16,System.Byte,System.Byte)
+  id: '#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16,System.Byte,System.Byte)'
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: SPIBus(Spi.SPI_module, IDigitalPin, UInt16, Byte, Byte)
+  nameWithType: SPIBus.SPIBus(Spi.SPI_module, IDigitalPin, UInt16, Byte, Byte)
+  fullName: Meadow.Hardware.Communications.SPIBus.SPIBus(Meadow.Hardware.Spi.SPI_module, Meadow.Hardware.IDigitalPin, System.UInt16, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 50
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nCreate a new SPIBus object using the requested clock phase and polarity.\n"
+  example: []
+  syntax:
+    content: public SPIBus(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = 1000, byte cpha = 0, byte cpol = 0)
+    parameters:
+    - id: module
+      type: Meadow.Hardware.Spi.SPI_module
+      description: SPI module to configure.
+    - id: chipSelect
+      type: Meadow.Hardware.IDigitalPin
+      description: Chip select pin.
+    - id: speed
+      type: System.UInt16
+      description: Speed of the SPI bus.
+    - id: cpha
+      type: System.Byte
+      description: CPHA - Clock Phase (0 or 1).
+    - id: cpol
+      type: System.Byte
+      description: CPOL - Clock Polarity (0 or 1).
+    content.vb: Public Sub New(module As Spi.SPI_module, chipSelect As IDigitalPin, speed As UShort = 1000, cpha As Byte = 0, cpol As Byte = 0)
+  overload: Meadow.Hardware.Communications.SPIBus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.Byte,System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.Byte,System.UInt16)
+  id: '#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.Byte,System.UInt16)'
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: SPIBus(Spi.SPI_module, IDigitalPin, Byte, UInt16)
+  nameWithType: SPIBus.SPIBus(Spi.SPI_module, IDigitalPin, Byte, UInt16)
+  fullName: Meadow.Hardware.Communications.SPIBus.SPIBus(Meadow.Hardware.Spi.SPI_module, Meadow.Hardware.IDigitalPin, System.Byte, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 70
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nCreate a new SPIBus operating in the specified mode.\n"
+  remarks: "\nMode    CPOL    CPHA\n0       0       0\n1       0       1\n2       1       0\n3       1       1\n"
+  example: []
+  syntax:
+    content: public SPIBus(Spi.SPI_module module, IDigitalPin chipSelect, byte mode, ushort speed)
+    parameters:
+    - id: module
+      type: Meadow.Hardware.Spi.SPI_module
+      description: SPI module to configure.
+    - id: chipSelect
+      type: Meadow.Hardware.IDigitalPin
+      description: Chip select pin.
+    - id: mode
+      type: System.Byte
+      description: SPI Bus Mode - should be in the range 0 - 3.
+    - id: speed
+      type: System.UInt16
+      description: Speed of the SPI bus.
+    content.vb: Public Sub New(module As Spi.SPI_module, chipSelect As IDigitalPin, mode As Byte, speed As UShort)
+  overload: Meadow.Hardware.Communications.SPIBus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)
+  id: WriteByte(System.Byte)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteByte(Byte)
+  nameWithType: SPIBus.WriteByte(Byte)
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteByte
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 133
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite a single byte to the device.\n"
+  example: []
+  syntax:
+    content: public void WriteByte(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+      description: Value to be written (8-bits).
+    content.vb: Public Sub WriteByte(value As Byte)
+  overload: Meadow.Hardware.Communications.SPIBus.WriteByte*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte[])
+  id: WriteBytes(System.Byte[])
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteBytes(Byte[])
+  nameWithType: SPIBus.WriteBytes(Byte[])
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteBytes
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 145
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite a number of bytes to the device.\n"
+  remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
+  example: []
+  syntax:
+    content: public void WriteBytes(byte[] values)
+    parameters:
+    - id: values
+      type: System.Byte[]
+      description: Values to be written.
+    content.vb: Public Sub WriteBytes(values As Byte())
+  overload: Meadow.Hardware.Communications.SPIBus.WriteBytes*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+  nameWithType.vb: SPIBus.WriteBytes(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte())
+  name.vb: WriteBytes(Byte())
+- uid: Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  id: WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteUShort(Byte, UInt16, ByteOrder)
+  nameWithType: SPIBus.WriteUShort(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte, System.UInt16, Meadow.ByteOrder)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteUShort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 157
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite an unsigned short to the device.\n"
+  example: []
+  syntax:
+    content: public void WriteUShort(byte address, ushort value, ByteOrder order = ByteOrder.LittleEndian)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address to write the first byte to.
+    - id: value
+      type: System.UInt16
+      description: Value to be written (16-bits).
+    - id: order
+      type: Meadow.ByteOrder
+      description: Indicate if the data should be written as big or little endian.
+    content.vb: Public Sub WriteUShort(address As Byte, value As UShort, order As ByteOrder = ByteOrder.LittleEndian)
+  overload: Meadow.Hardware.Communications.SPIBus.WriteUShort*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  id: WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteUShorts(Byte, UInt16[], ByteOrder)
+  nameWithType: SPIBus.WriteUShorts(Byte, UInt16[], ByteOrder)
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte, System.UInt16[], Meadow.ByteOrder)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteUShorts
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 182
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite a number of unsigned shorts to the device.\n"
+  remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
+  example: []
+  syntax:
+    content: public void WriteUShorts(byte address, ushort[] values, ByteOrder order = ByteOrder.LittleEndian)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address to write the first byte to.
+    - id: values
+      type: System.UInt16[]
+      description: Values to be written.
+    - id: order
+      type: Meadow.ByteOrder
+      description: Indicate if the data should be written as big or little endian.
+    content.vb: Public Sub WriteUShorts(address As Byte, values As UShort(), order As ByteOrder = ByteOrder.LittleEndian)
+  overload: Meadow.Hardware.Communications.SPIBus.WriteUShorts*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  nameWithType.vb: SPIBus.WriteUShorts(Byte, UInt16(), ByteOrder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte, System.UInt16(), Meadow.ByteOrder)
+  name.vb: WriteUShorts(Byte, UInt16(), ByteOrder)
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte,System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte,System.Byte)
+  id: WriteRegister(System.Byte,System.Byte)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteRegister(Byte, Byte)
+  nameWithType: SPIBus.WriteRegister(Byte, Byte)
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteRegister
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 206
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite data a register in the device.\n"
+  example: []
+  syntax:
+    content: public void WriteRegister(byte address, byte value)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the register to write to.
+    - id: value
+      type: System.Byte
+      description: Data to write into the register.
+    content.vb: Public Sub WriteRegister(address As Byte, value As Byte)
+  overload: Meadow.Hardware.Communications.SPIBus.WriteRegister*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte,System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte,System.Byte[])
+  id: WriteRegisters(System.Byte,System.Byte[])
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteRegisters(Byte, Byte[])
+  nameWithType: SPIBus.WriteRegisters(Byte, Byte[])
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteRegisters
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 216
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite data to one or more registers.\n"
+  example: []
+  syntax:
+    content: public void WriteRegisters(byte address, byte[] values)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the first register to write to.
+    - id: values
+      type: System.Byte[]
+    content.vb: Public Sub WriteRegisters(address As Byte, values As Byte())
+  overload: Meadow.Hardware.Communications.SPIBus.WriteRegisters*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
+  nameWithType.vb: SPIBus.WriteRegisters(Byte, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte, System.Byte())
+  name.vb: WriteRegisters(Byte, Byte())
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte[],System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte[],System.UInt16)
+  id: WriteRead(System.Byte[],System.UInt16)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: WriteRead(Byte[], UInt16)
+  nameWithType: SPIBus.WriteRead(Byte[], UInt16)
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte[], System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WriteRead
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 232
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nWrite data to the device and also read some data from the device.\n"
+  remarks: "\nThe number of bytes to be written and read will be determined by the length of the byte arrays.\n"
+  example: []
+  syntax:
+    content: public byte[] WriteRead(byte[] write, ushort length)
+    parameters:
+    - id: write
+      type: System.Byte[]
+      description: Array of bytes to be written to the device.
+    - id: length
+      type: System.UInt16
+      description: Amount of data to read from the device.
+    return:
+      type: System.Byte[]
+    content.vb: Public Function WriteRead(write As Byte(), length As UShort) As Byte()
+  overload: Meadow.Hardware.Communications.SPIBus.WriteRead*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  nameWithType.vb: SPIBus.WriteRead(Byte(), UInt16)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte(), System.UInt16)
+  name.vb: WriteRead(Byte(), UInt16)
+- uid: Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)
+  id: ReadBytes(System.UInt16)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: ReadBytes(UInt16)
+  nameWithType: SPIBus.ReadBytes(UInt16)
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ReadBytes
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 245
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nRead the specified number of bytes from the I2C device.\n"
+  example: []
+  syntax:
+    content: public byte[] ReadBytes(ushort numberOfBytes)
+    parameters:
+    - id: numberOfBytes
+      type: System.UInt16
+      description: Number of bytes.
+    return:
+      type: System.Byte[]
+      description: The bytes.
+    content.vb: Public Function ReadBytes(numberOfBytes As UShort) As Byte()
+  overload: Meadow.Hardware.Communications.SPIBus.ReadBytes*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)
+  id: ReadRegister(System.Byte)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: ReadRegister(Byte)
+  nameWithType: SPIBus.ReadRegister(Byte)
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ReadRegister
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 254
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nRead a registers from the device.\n"
+  example: []
+  syntax:
+    content: public byte ReadRegister(byte address)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the register to read.
+    return:
+      type: System.Byte
+    content.vb: Public Function ReadRegister(address As Byte) As Byte
+  overload: Meadow.Hardware.Communications.SPIBus.ReadRegister*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte,System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte,System.UInt16)
+  id: ReadRegisters(System.Byte,System.UInt16)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: ReadRegisters(Byte, UInt16)
+  nameWithType: SPIBus.ReadRegisters(Byte, UInt16)
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte, System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ReadRegisters
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 264
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nRead one or more registers from the device.\n"
+  example: []
+  syntax:
+    content: public byte[] ReadRegisters(byte address, ushort length)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the first register to read.
+    - id: length
+      type: System.UInt16
+      description: Number of bytes to read from the device.
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ReadRegisters(address As Byte, length As UShort) As Byte()
+  overload: Meadow.Hardware.Communications.SPIBus.ReadRegisters*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  id: ReadUShort(System.Byte,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: ReadUShort(Byte, ByteOrder)
+  nameWithType: SPIBus.ReadUShort(Byte, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte, Meadow.ByteOrder)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ReadUShort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 275
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nRead an unsigned short from a pair of registers.\n"
+  example: []
+  syntax:
+    content: public ushort ReadUShort(byte address, ByteOrder order = ByteOrder.LittleEndian)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Register address of the low byte (the high byte will follow).
+    - id: order
+      type: Meadow.ByteOrder
+      description: Order of the bytes in the register (little endian is the default).
+    return:
+      type: System.UInt16
+      description: Value read from the register.
+    content.vb: Public Function ReadUShort(address As Byte, order As ByteOrder = ByteOrder.LittleEndian) As UShort
+  overload: Meadow.Hardware.Communications.SPIBus.ReadUShort*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  id: ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.SPIBus
+  langs:
+  - csharp
+  - vb
+  name: ReadUShorts(Byte, UInt16, ByteOrder)
+  nameWithType: SPIBus.ReadUShorts(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte, System.UInt16, Meadow.ByteOrder)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ReadUShorts
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
+    startLine: 288
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  summary: "\nRead the specified number of unsigned shorts starting at the register\naddress specified.\n"
+  example: []
+  syntax:
+    content: public ushort[] ReadUShorts(byte address, ushort number, ByteOrder order = ByteOrder.LittleEndian)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: First register address to read from.
+    - id: number
+      type: System.UInt16
+      description: Number of unsigned shorts to read.
+    - id: order
+      type: Meadow.ByteOrder
+      description: Order of the bytes (Little or Big endian)
+    return:
+      type: System.UInt16[]
+      description: Array of unsigned shorts.
+    content.vb: Public Function ReadUShorts(address As Byte, number As UShort, order As ByteOrder = ByteOrder.LittleEndian) As UShort()
+  overload: Meadow.Hardware.Communications.SPIBus.ReadUShorts*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Hardware.Communications
+  commentId: N:Meadow.Hardware.Communications
+  name: Meadow.Hardware.Communications
+  nameWithType: Meadow.Hardware.Communications
+  fullName: Meadow.Hardware.Communications
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.Communications.ICommunicationBus
+  commentId: T:Meadow.Hardware.Communications.ICommunicationBus
+  parent: Meadow.Hardware.Communications
+  name: ICommunicationBus
+  nameWithType: ICommunicationBus
+  fullName: Meadow.Hardware.Communications.ICommunicationBus
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.Communications.SPIBus.#ctor*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.#ctor
+  name: SPIBus
+  nameWithType: SPIBus.SPIBus
+  fullName: Meadow.Hardware.Communications.SPIBus.SPIBus
+- uid: Meadow.Hardware.Spi.Configuration
+  commentId: T:Meadow.Hardware.Spi.Configuration
+  parent: Meadow.Hardware
+  name: Spi.Configuration
+  nameWithType: Spi.Configuration
+  fullName: Meadow.Hardware.Spi.Configuration
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Hardware.Communications.SPIBus.WriteByte*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteByte
+  name: WriteByte
+  nameWithType: SPIBus.WriteByte
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteByte
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteByte(Byte)
+  nameWithType: ICommunicationBus.WriteByte(Byte)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+    name: WriteByte
+    nameWithType: ICommunicationBus.WriteByte
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
+    name: WriteByte
+    nameWithType: ICommunicationBus.WriteByte
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.WriteBytes*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteBytes
+  name: WriteBytes
+  nameWithType: SPIBus.WriteBytes
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteBytes
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteBytes(Byte[])
+  nameWithType: ICommunicationBus.WriteBytes(Byte[])
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+  nameWithType.vb: ICommunicationBus.WriteBytes(Byte())
+  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte())
+  name.vb: WriteBytes(Byte())
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+    name: WriteBytes
+    nameWithType: ICommunicationBus.WriteBytes
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
+    name: WriteBytes
+    nameWithType: ICommunicationBus.WriteBytes
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Hardware.Communications.SPIBus.WriteUShort*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteUShort
+  name: WriteUShort
+  nameWithType: SPIBus.WriteUShort
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteUShort
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteUShort(Byte, UInt16, ByteOrder)
+  nameWithType: ICommunicationBus.WriteUShort(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte, System.UInt16, Meadow.ByteOrder)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+    name: WriteUShort
+    nameWithType: ICommunicationBus.WriteUShort
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+    name: WriteUShort
+    nameWithType: ICommunicationBus.WriteUShort
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.ByteOrder
+  commentId: T:Meadow.ByteOrder
+  parent: Meadow
+  name: ByteOrder
+  nameWithType: ByteOrder
+  fullName: Meadow.ByteOrder
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow
+- uid: Meadow.Hardware.Communications.SPIBus.WriteUShorts*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteUShorts
+  name: WriteUShorts
+  nameWithType: SPIBus.WriteUShorts
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteUShorts
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteUShorts(Byte, UInt16[], ByteOrder)
+  nameWithType: ICommunicationBus.WriteUShorts(Byte, UInt16[], ByteOrder)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte, System.UInt16[], Meadow.ByteOrder)
+  nameWithType.vb: ICommunicationBus.WriteUShorts(Byte, UInt16(), ByteOrder)
+  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte, System.UInt16(), Meadow.ByteOrder)
+  name.vb: WriteUShorts(Byte, UInt16(), ByteOrder)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+    name: WriteUShorts
+    nameWithType: ICommunicationBus.WriteUShorts
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+    name: WriteUShorts
+    nameWithType: ICommunicationBus.WriteUShorts
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.UInt16[]
+  isExternal: true
+  name: UInt16[]
+  nameWithType: UInt16[]
+  fullName: System.UInt16[]
+  nameWithType.vb: UInt16()
+  fullName.vb: System.UInt16()
+  name.vb: UInt16()
+  spec.csharp:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRegister*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteRegister
+  name: WriteRegister
+  nameWithType: SPIBus.WriteRegister
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRegister
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteRegister(Byte, Byte)
+  nameWithType: ICommunicationBus.WriteRegister(Byte, Byte)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte, System.Byte)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
+    name: WriteRegister
+    nameWithType: ICommunicationBus.WriteRegister
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
+    name: WriteRegister
+    nameWithType: ICommunicationBus.WriteRegister
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRegisters*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteRegisters
+  name: WriteRegisters
+  nameWithType: SPIBus.WriteRegisters
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRegisters
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteRegisters(Byte, Byte[])
+  nameWithType: ICommunicationBus.WriteRegisters(Byte, Byte[])
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte, System.Byte[])
+  nameWithType.vb: ICommunicationBus.WriteRegisters(Byte, Byte())
+  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte, System.Byte())
+  name.vb: WriteRegisters(Byte, Byte())
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
+    name: WriteRegisters
+    nameWithType: ICommunicationBus.WriteRegisters
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
+    name: WriteRegisters
+    nameWithType: ICommunicationBus.WriteRegisters
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.WriteRead*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.WriteRead
+  name: WriteRead
+  nameWithType: SPIBus.WriteRead
+  fullName: Meadow.Hardware.Communications.SPIBus.WriteRead
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteRead(Byte[], UInt16)
+  nameWithType: ICommunicationBus.WriteRead(Byte[], UInt16)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[], System.UInt16)
+  nameWithType.vb: ICommunicationBus.WriteRead(Byte(), UInt16)
+  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte(), System.UInt16)
+  name.vb: WriteRead(Byte(), UInt16)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+    name: WriteRead
+    nameWithType: ICommunicationBus.WriteRead
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+    name: WriteRead
+    nameWithType: ICommunicationBus.WriteRead
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.ReadBytes*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.ReadBytes
+  name: ReadBytes
+  nameWithType: SPIBus.ReadBytes
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadBytes
+- uid: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: ReadBytes(UInt16)
+  nameWithType: ICommunicationBus.ReadBytes(UInt16)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+    name: ReadBytes
+    nameWithType: ICommunicationBus.ReadBytes
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
+    name: ReadBytes
+    nameWithType: ICommunicationBus.ReadBytes
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.ReadRegister*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.ReadRegister
+  name: ReadRegister
+  nameWithType: SPIBus.ReadRegister
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadRegister
+- uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: ReadRegister(Byte)
+  nameWithType: ICommunicationBus.ReadRegister(Byte)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+    name: ReadRegister
+    nameWithType: ICommunicationBus.ReadRegister
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
+    name: ReadRegister
+    nameWithType: ICommunicationBus.ReadRegister
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.ReadRegisters*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.ReadRegisters
+  name: ReadRegisters
+  nameWithType: SPIBus.ReadRegisters
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadRegisters
+- uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: ReadRegisters(Byte, UInt16)
+  nameWithType: ICommunicationBus.ReadRegisters(Byte, UInt16)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte, System.UInt16)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
+    name: ReadRegisters
+    nameWithType: ICommunicationBus.ReadRegisters
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
+    name: ReadRegisters
+    nameWithType: ICommunicationBus.ReadRegisters
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.ReadUShort*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.ReadUShort
+  name: ReadUShort
+  nameWithType: SPIBus.ReadUShort
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadUShort
+- uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: ReadUShort(Byte, ByteOrder)
+  nameWithType: ICommunicationBus.ReadUShort(Byte, ByteOrder)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte, Meadow.ByteOrder)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+    name: ReadUShort
+    nameWithType: ICommunicationBus.ReadUShort
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+    name: ReadUShort
+    nameWithType: ICommunicationBus.ReadUShort
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SPIBus.ReadUShorts*
+  commentId: Overload:Meadow.Hardware.Communications.SPIBus.ReadUShorts
+  name: ReadUShorts
+  nameWithType: SPIBus.ReadUShorts
+  fullName: Meadow.Hardware.Communications.SPIBus.ReadUShorts
+- uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: ReadUShorts(Byte, UInt16, ByteOrder)
+  nameWithType: ICommunicationBus.ReadUShorts(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte, System.UInt16, Meadow.ByteOrder)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+    name: ReadUShorts
+    nameWithType: ICommunicationBus.ReadUShorts
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+    name: ReadUShorts
+    nameWithType: ICommunicationBus.ReadUShorts
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.ByteOrder
+    name: ByteOrder
+    nameWithType: ByteOrder
+    fullName: Meadow.ByteOrder
+  - name: )
+    nameWithType: )
+    fullName: )

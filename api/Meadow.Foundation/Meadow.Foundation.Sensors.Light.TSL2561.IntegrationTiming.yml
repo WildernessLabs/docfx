@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  id: TSL2561.IntegrationTiming
+  parent: Meadow.Foundation.Sensors.Light
+  children:
+  - Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Manual
+  - Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms101
+  - Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms13
+  - Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms402
+  langs:
+  - csharp
+  - vb
+  name: TSL2561.IntegrationTiming
+  nameWithType: TSL2561.IntegrationTiming
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IntegrationTiming
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 61
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nIntegration timing.\nSee Timing Register on page 14 of the data sheet.\n"
+  remarks: "\nValid integration times are 13.7ms, 101ms, 402ms and Manual.\n"
+  example: []
+  syntax:
+    content: 'public enum IntegrationTiming : byte'
+    content.vb: Public Enum IntegrationTiming As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms13
+  commentId: F:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms13
+  id: Ms13
+  parent: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  langs:
+  - csharp
+  - vb
+  name: Ms13
+  nameWithType: TSL2561.IntegrationTiming.Ms13
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms13
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Ms13
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 63
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  syntax:
+    content: Ms13 = null
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+    content.vb: Ms13 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms101
+  commentId: F:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms101
+  id: Ms101
+  parent: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  langs:
+  - csharp
+  - vb
+  name: Ms101
+  nameWithType: TSL2561.IntegrationTiming.Ms101
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms101
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Ms101
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 64
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  syntax:
+    content: Ms101 = null
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+    content.vb: Ms101 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms402
+  commentId: F:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms402
+  id: Ms402
+  parent: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  langs:
+  - csharp
+  - vb
+  name: Ms402
+  nameWithType: TSL2561.IntegrationTiming.Ms402
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Ms402
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Ms402
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 65
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  syntax:
+    content: Ms402 = null
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+    content.vb: Ms402 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Manual
+  commentId: F:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Manual
+  id: Manual
+  parent: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: TSL2561.IntegrationTiming.Manual
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming.Manual
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Manual
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 66
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  syntax:
+    content: Manual = null
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+    content.vb: Manual = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Light
+  commentId: N:Meadow.Foundation.Sensors.Light
+  name: Meadow.Foundation.Sensors.Light
+  nameWithType: Meadow.Foundation.Sensors.Light
+  fullName: Meadow.Foundation.Sensors.Light
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.IntegrationTiming
+  nameWithType: TSL2561.IntegrationTiming
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming

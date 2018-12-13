@@ -1,0 +1,1091 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  id: TimeBase
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  children:
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor(Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase._timeMode
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput(System.String,System.Object)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked(System.Object,EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext(System.Object,EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious(System.Object,EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue(System.Object)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ValueChanged
+  langs:
+  - csharp
+  - vb
+  name: TimeBase
+  nameWithType: TimeBase
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TimeBase
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 7
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: 'public abstract class TimeBase : InputBase, IMenuInputItem'
+    content.vb: >-
+      Public MustInherit Class TimeBase
+          Inherits InputBase
+          Implements IMenuInputItem
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  derivedClasses:
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Time
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeDetailed
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeShort
+  implements:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  inheritedMembers:
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._encoder
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonNext
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonPrevious
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonSelect
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._display
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._isInit
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._itemID
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase._timeMode
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase._timeMode
+  id: _timeMode
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: _timeMode
+  nameWithType: TimeBase._timeMode
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase._timeMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _timeMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 12
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected TimeBase.TimeMode _timeMode
+    return:
+      type: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode
+    content.vb: Protected _timeMode As TimeBase.TimeMode
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ValueChanged
+  commentId: E:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ValueChanged
+  id: ValueChanged
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: ValueChanged
+  nameWithType: TimeBase.ValueChanged
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ValueChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ValueChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 14
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: public override event ValueChangedHandler ValueChanged
+    return:
+      type: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+    content.vb: Public Overrides Event ValueChanged As ValueChangedHandler
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ValueChanged
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor(Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor(Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode)
+  id: '#ctor(Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode)'
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: TimeBase(TimeBase.TimeMode)
+  nameWithType: TimeBase.TimeBase(TimeBase.TimeMode)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeBase(Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 16
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: public TimeBase(TimeBase.TimeMode timeMode)
+    parameters:
+    - id: timeMode
+      type: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode
+    content.vb: Public Sub New(timeMode As TimeBase.TimeMode)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput(System.String,System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput(System.String,System.Object)
+  id: GetInput(System.String,System.Object)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: GetInput(String, Object)
+  nameWithType: TimeBase.GetInput(String, Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GetInput
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 64
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  summary: "\nGet input from user\n"
+  example: []
+  syntax:
+    content: public override void GetInput(string itemID, object currentValue)
+    parameters:
+    - id: itemID
+      type: System.String
+      description: id of the menu item
+    - id: currentValue
+      type: System.Object
+      description: current value of the menu item
+    content.vb: Public Overrides Sub GetInput(itemID As String, currentValue As Object)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String,System.Object)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious(System.Object,EventArgs)
+  id: HandlePrevious(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: HandlePrevious(Object, EventArgs)
+  nameWithType: TimeBase.HandlePrevious(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HandlePrevious
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 82
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected override void HandlePrevious(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub HandlePrevious(sender As Object, e As EventArgs)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object,EventArgs)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext(System.Object,EventArgs)
+  id: HandleNext(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: HandleNext(Object, EventArgs)
+  nameWithType: TimeBase.HandleNext(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HandleNext
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 87
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected override void HandleNext(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub HandleNext(sender As Object, e As EventArgs)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object,EventArgs)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  id: HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: HandleRotated(Object, RotaryTurnedEventArgs)
+  nameWithType: TimeBase.HandleRotated(Object, RotaryTurnedEventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated(System.Object, Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HandleRotated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 92
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected override void HandleRotated(object sender, RotaryTurnedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+    content.vb: Protected Overrides Sub HandleRotated(sender As Object, e As RotaryTurnedEventArgs)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked(System.Object,EventArgs)
+  id: HandleClicked(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: HandleClicked(Object, EventArgs)
+  nameWithType: TimeBase.HandleClicked(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HandleClicked
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 130
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected override void HandleClicked(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub HandleClicked(sender As Object, e As EventArgs)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object,EventArgs)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue(System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue(System.Object)
+  id: ParseValue(System.Object)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase
+  langs:
+  - csharp
+  - vb
+  name: ParseValue(Object)
+  nameWithType: TimeBase.ParseValue(Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ParseValue
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/InputTypes/TimeBase.cs
+    startLine: 159
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  syntax:
+    content: protected override void ParseValue(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Protected Overrides Sub ParseValue(value As Object)
+  overridden: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  name: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  name: InputBase
+  nameWithType: InputBase
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: IMenuInputItem
+  nameWithType: IMenuInputItem
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._encoder
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._encoder
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _encoder
+  nameWithType: InputBase._encoder
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._encoder
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonNext
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonNext
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _buttonNext
+  nameWithType: InputBase._buttonNext
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonNext
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonPrevious
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonPrevious
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _buttonPrevious
+  nameWithType: InputBase._buttonPrevious
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonPrevious
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonSelect
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonSelect
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _buttonSelect
+  nameWithType: InputBase._buttonSelect
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonSelect
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._display
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._display
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _display
+  nameWithType: InputBase._display
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._display
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._isInit
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._isInit
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _isInit
+  nameWithType: InputBase._isInit
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._isInit
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._itemID
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._itemID
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: _itemID
+  nameWithType: InputBase._itemID
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._itemID
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: Init(ITextDisplay, IRotaryEncoder, IButton)
+  nameWithType: InputBase.Init(ITextDisplay, IRotaryEncoder, IButton)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay, Meadow.Foundation.Sensors.Rotary.IRotaryEncoder, Meadow.Foundation.Sensors.Buttons.IButton)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+    name: Init
+    nameWithType: InputBase.Init
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Displays.ITextDisplay
+    name: ITextDisplay
+    nameWithType: ITextDisplay
+    fullName: Meadow.Foundation.Displays.ITextDisplay
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+    name: IRotaryEncoder
+    nameWithType: IRotaryEncoder
+    fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+    name: Init
+    nameWithType: InputBase.Init
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Displays.ITextDisplay
+    name: ITextDisplay
+    nameWithType: ITextDisplay
+    fullName: Meadow.Foundation.Displays.ITextDisplay
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+    name: IRotaryEncoder
+    nameWithType: IRotaryEncoder
+    fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: Init(ITextDisplay, IButton, IButton, IButton)
+  nameWithType: InputBase.Init(ITextDisplay, IButton, IButton, IButton)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay, Meadow.Foundation.Sensors.Buttons.IButton, Meadow.Foundation.Sensors.Buttons.IButton, Meadow.Foundation.Sensors.Buttons.IButton)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+    name: Init
+    nameWithType: InputBase.Init
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Displays.ITextDisplay
+    name: ITextDisplay
+    nameWithType: ITextDisplay
+    fullName: Meadow.Foundation.Displays.ITextDisplay
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+    name: Init
+    nameWithType: InputBase.Init
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Displays.ITextDisplay
+    name: ITextDisplay
+    nameWithType: ITextDisplay
+    fullName: Meadow.Foundation.Displays.ITextDisplay
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Buttons.IButton
+    name: IButton
+    nameWithType: IButton
+    fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: RewriteInputLine(String)
+  nameWithType: InputBase.RewriteInputLine(String)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+    name: RewriteInputLine
+    nameWithType: InputBase.RewriteInputLine
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
+    name: RewriteInputLine
+    nameWithType: InputBase.RewriteInputLine
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: RegisterHandlers()
+  nameWithType: InputBase.RegisterHandlers()
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+    name: RegisterHandlers
+    nameWithType: InputBase.RegisterHandlers
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+    name: RegisterHandlers
+    nameWithType: InputBase.RegisterHandlers
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: UnregisterHandlers()
+  nameWithType: InputBase.UnregisterHandlers()
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+    name: UnregisterHandlers
+    nameWithType: InputBase.UnregisterHandlers
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+    name: UnregisterHandlers
+    nameWithType: InputBase.UnregisterHandlers
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes
+  name: TimeBase.TimeMode
+  nameWithType: TimeBase.TimeMode
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ValueChanged
+  commentId: E:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ValueChanged
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  name: ValueChanged
+  nameWithType: InputBase.ValueChanged
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ValueChanged
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: ValueChangedHandler
+  nameWithType: ValueChangedHandler
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.#ctor
+  name: TimeBase
+  nameWithType: TimeBase.TimeBase
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeBase
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String,System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String,System.Object)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: GetInput(String, Object)
+  nameWithType: InputBase.GetInput(String, Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String, System.Object)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String,System.Object)
+    name: GetInput
+    nameWithType: InputBase.GetInput
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput(System.String,System.Object)
+    name: GetInput
+    nameWithType: InputBase.GetInput
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.GetInput
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput
+  name: GetInput
+  nameWithType: TimeBase.GetInput
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.GetInput
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: HandlePrevious(Object, EventArgs)
+  nameWithType: InputBase.HandlePrevious(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object, EventArgs)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object,EventArgs)
+    name: HandlePrevious
+    nameWithType: InputBase.HandlePrevious
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious(System.Object,EventArgs)
+    name: HandlePrevious
+    nameWithType: InputBase.HandlePrevious
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandlePrevious
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious
+  name: HandlePrevious
+  nameWithType: TimeBase.HandlePrevious
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandlePrevious
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: HandleNext(Object, EventArgs)
+  nameWithType: InputBase.HandleNext(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object, EventArgs)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object,EventArgs)
+    name: HandleNext
+    nameWithType: InputBase.HandleNext
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext(System.Object,EventArgs)
+    name: HandleNext
+    nameWithType: InputBase.HandleNext
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext
+  name: HandleNext
+  nameWithType: TimeBase.HandleNext
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleNext
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: HandleRotated(Object, RotaryTurnedEventArgs)
+  nameWithType: InputBase.HandleRotated(Object, RotaryTurnedEventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object, Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+    name: HandleRotated
+    nameWithType: InputBase.HandleRotated
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+    name: RotaryTurnedEventArgs
+    nameWithType: RotaryTurnedEventArgs
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
+    name: HandleRotated
+    nameWithType: InputBase.HandleRotated
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleRotated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+    name: RotaryTurnedEventArgs
+    nameWithType: RotaryTurnedEventArgs
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated
+  name: HandleRotated
+  nameWithType: TimeBase.HandleRotated
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleRotated
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotaryTurnedEventArgs
+  nameWithType: RotaryTurnedEventArgs
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object,EventArgs)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: HandleClicked(Object, EventArgs)
+  nameWithType: InputBase.HandleClicked(Object, EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object, EventArgs)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object,EventArgs)
+    name: HandleClicked
+    nameWithType: InputBase.HandleClicked
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked(System.Object,EventArgs)
+    name: HandleClicked
+    nameWithType: InputBase.HandleClicked
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.HandleClicked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked
+  name: HandleClicked
+  nameWithType: TimeBase.HandleClicked
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.HandleClicked
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase
+  isExternal: true
+  name: ParseValue(Object)
+  nameWithType: InputBase.ParseValue(Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+    name: ParseValue
+    nameWithType: InputBase.ParseValue
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue(System.Object)
+    name: ParseValue
+    nameWithType: InputBase.ParseValue
+    fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.ParseValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue
+  name: ParseValue
+  nameWithType: TimeBase.ParseValue
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.ParseValue

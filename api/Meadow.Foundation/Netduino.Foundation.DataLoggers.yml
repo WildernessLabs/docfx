@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Netduino.Foundation.DataLoggers
+  commentId: N:Netduino.Foundation.DataLoggers
+  id: Netduino.Foundation.DataLoggers
+  children:
+  - Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: Netduino.Foundation.DataLoggers
+  nameWithType: Netduino.Foundation.DataLoggers
+  fullName: Netduino.Foundation.DataLoggers
+  type: Namespace
+  assemblies:
+  - DataLoggers.ThingSpeak
+references:
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak
+  commentId: T:Netduino.Foundation.DataLoggers.ThingSpeak
+  name: ThingSpeak
+  nameWithType: ThingSpeak
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak

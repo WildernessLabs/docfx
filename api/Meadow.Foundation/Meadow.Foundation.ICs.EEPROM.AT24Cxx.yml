@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  commentId: T:Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  id: AT24Cxx
+  parent: Meadow.Foundation.ICs.EEPROM
+  children:
+  - Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor(System.Byte,System.UInt16,System.UInt16,System.UInt16)
+  - Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read(System.UInt16,System.UInt16)
+  - Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write(System.UInt16,System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: AT24Cxx
+  nameWithType: AT24Cxx
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AT24Cxx
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+    startLine: 9
+  assemblies:
+  - ICs.EEPROM.AT24Cxx
+  namespace: Meadow.Foundation.ICs.EEPROM
+  summary: "\nEncapsulation for EEPROMs based upon the AT24Cxx family of chips.\n"
+  example: []
+  syntax:
+    content: 'public class AT24Cxx : object'
+    content.vb: >-
+      Public Class AT24Cxx
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor(System.Byte,System.UInt16,System.UInt16,System.UInt16)
+  commentId: M:Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor(System.Byte,System.UInt16,System.UInt16,System.UInt16)
+  id: '#ctor(System.Byte,System.UInt16,System.UInt16,System.UInt16)'
+  parent: Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  langs:
+  - csharp
+  - vb
+  name: AT24Cxx(Byte, UInt16, UInt16, UInt16)
+  nameWithType: AT24Cxx.AT24Cxx(Byte, UInt16, UInt16, UInt16)
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.AT24Cxx(System.Byte, System.UInt16, System.UInt16, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+    startLine: 46
+  assemblies:
+  - ICs.EEPROM.AT24Cxx
+  namespace: Meadow.Foundation.ICs.EEPROM
+  summary: "\nCreate a new AT24Cxx object using the default parameters for the component.\n"
+  example: []
+  syntax:
+    content: public AT24Cxx(byte address = null, ushort speed = null, ushort pageSize = null, ushort memorySize = null)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the MAG3110 (default = 0x50).
+    - id: speed
+      type: System.UInt16
+      description: Speed of the I2C bus (default = 400 KHz).
+    - id: pageSize
+      type: System.UInt16
+      description: Number of bytes in a page (default = 32 - AT24C32).
+    - id: memorySize
+      type: System.UInt16
+      description: Total number of bytes in the EEPROM (default = 8192 - AT24C32).
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, pageSize As UShort = Nothing, memorySize As UShort = Nothing)
+  overload: Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read(System.UInt16,System.UInt16)
+  commentId: M:Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read(System.UInt16,System.UInt16)
+  id: Read(System.UInt16,System.UInt16)
+  parent: Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  langs:
+  - csharp
+  - vb
+  name: Read(UInt16, UInt16)
+  nameWithType: AT24Cxx.Read(UInt16, UInt16)
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read(System.UInt16, System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Read
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+    startLine: 83
+  assemblies:
+  - ICs.EEPROM.AT24Cxx
+  namespace: Meadow.Foundation.ICs.EEPROM
+  summary: "\nForce the sensor to make a reading and update the relevanyt properties.\n"
+  example: []
+  syntax:
+    content: public byte[] Read(ushort startAddress, ushort amount)
+    parameters:
+    - id: startAddress
+      type: System.UInt16
+      description: Start address for the read operation.
+    - id: amount
+      type: System.UInt16
+      description: Amount of data to read from the EEPROM.
+    return:
+      type: System.Byte[]
+    content.vb: Public Function Read(startAddress As UShort, amount As UShort) As Byte()
+  overload: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write(System.UInt16,System.Byte[])
+  commentId: M:Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write(System.UInt16,System.Byte[])
+  id: Write(System.UInt16,System.Byte[])
+  parent: Meadow.Foundation.ICs.EEPROM.AT24Cxx
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt16, Byte[])
+  nameWithType: AT24Cxx.Write(UInt16, Byte[])
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write(System.UInt16, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Write
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.EEPROM.AT24Cxx/AT24Cxx.cs
+    startLine: 98
+  assemblies:
+  - ICs.EEPROM.AT24Cxx
+  namespace: Meadow.Foundation.ICs.EEPROM
+  summary: "\nWrite a number of bytes to the EEPROM.\n"
+  example: []
+  syntax:
+    content: public void Write(ushort startAddress, byte[] data)
+    parameters:
+    - id: startAddress
+      type: System.UInt16
+      description: Address of he first byte to be written.
+    - id: data
+      type: System.Byte[]
+      description: Data to be written to the EEPROM.
+    content.vb: Public Sub Write(startAddress As UShort, data As Byte())
+  overload: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write*
+  nameWithType.vb: AT24Cxx.Write(UInt16, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write(System.UInt16, System.Byte())
+  name.vb: Write(UInt16, Byte())
+references:
+- uid: Meadow.Foundation.ICs.EEPROM
+  commentId: N:Meadow.Foundation.ICs.EEPROM
+  name: Meadow.Foundation.ICs.EEPROM
+  nameWithType: Meadow.Foundation.ICs.EEPROM
+  fullName: Meadow.Foundation.ICs.EEPROM
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor*
+  commentId: Overload:Meadow.Foundation.ICs.EEPROM.AT24Cxx.#ctor
+  name: AT24Cxx
+  nameWithType: AT24Cxx.AT24Cxx
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.AT24Cxx
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read*
+  commentId: Overload:Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read
+  name: Read
+  nameWithType: AT24Cxx.Read
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Read
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write*
+  commentId: Overload:Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write
+  name: Write
+  nameWithType: AT24Cxx.Write
+  fullName: Meadow.Foundation.ICs.EEPROM.AT24Cxx.Write

@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  id: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  type: Namespace
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: MCP23008
+  nameWithType: MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: MCP23008.ValidSpeeds
+  nameWithType: MCP23008.ValidSpeeds
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable
+  name: MCPAddressTable
+  nameWithType: MCPAddressTable
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008

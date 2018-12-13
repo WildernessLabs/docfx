@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  id: SerialLCD.LCDDimensions
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters16Wide
+  - Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters20Wide
+  - Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines2
+  - Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines4
+  langs:
+  - csharp
+  - vb
+  name: SerialLCD.LCDDimensions
+  nameWithType: SerialLCD.LCDDimensions
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCDDimensions
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 52
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDescribe the number of lines and characters on the display.\n"
+  example: []
+  syntax:
+    content: 'public enum LCDDimensions : int'
+    content.vb: Public Enum LCDDimensions As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters20Wide
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters20Wide
+  id: Characters20Wide
+  parent: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  langs:
+  - csharp
+  - vb
+  name: Characters20Wide
+  nameWithType: SerialLCD.LCDDimensions.Characters20Wide
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters20Wide
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Characters20Wide
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 54
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Characters20Wide = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Characters20Wide = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters16Wide
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters16Wide
+  id: Characters16Wide
+  parent: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  langs:
+  - csharp
+  - vb
+  name: Characters16Wide
+  nameWithType: SerialLCD.LCDDimensions.Characters16Wide
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Characters16Wide
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Characters16Wide
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 55
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Characters16Wide = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Characters16Wide = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines4
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines4
+  id: Lines4
+  parent: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  langs:
+  - csharp
+  - vb
+  name: Lines4
+  nameWithType: SerialLCD.LCDDimensions.Lines4
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines4
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Lines4
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 56
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Lines4 = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Lines4 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines2
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines2
+  id: Lines2
+  parent: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  langs:
+  - csharp
+  - vb
+  name: Lines2
+  nameWithType: SerialLCD.LCDDimensions.Lines2
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions.Lines2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Lines2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 57
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Lines2 = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Lines2 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+  parent: Meadow.Foundation.Displays
+  name: SerialLCD.LCDDimensions
+  nameWithType: SerialLCD.LCDDimensions
+  fullName: Meadow.Foundation.Displays.SerialLCD.LCDDimensions

@@ -1,0 +1,670 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PwmLed
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PwmLed
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Meadow.Foundation.LEDs.PwmLed">
+  
+  
+  <h1 id="Meadow_Foundation_LEDs_PwmLed" data-uid="Meadow.Foundation.LEDs.PwmLed" class="text-break">Class PwmLed
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an LED whose voltage is limited by the duty-cycle of a PWM
+signal.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PwmLed</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Foundation.LEDs.IPwmLed.html">IPwmLed</a></div>
+    <div><a class="xref" href="Meadow.Foundation.LEDs.ILed.html">ILed</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.LEDs.html">Meadow.Foundation.LEDs</a></h6>
+  <h6><strong>Assembly</strong>: Meadow.Foundation.dll</h6>
+  <h5 id="Meadow_Foundation_LEDs_PwmLed_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PwmLed : object, IPwmLed, ILed</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__ctor_Meadow_Hardware_IPwmPin_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.%23ctor(Meadow.Hardware.IPwmPin%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L56">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed__ctor_" data-uid="Meadow.Foundation.LEDs.PwmLed.#ctor*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__ctor_Meadow_Hardware_IPwmPin_System_Single_" data-uid="Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPin,System.Single)">PwmLed(IPwmPin, Single)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Meadow.Foundation.LEDs.PwmLed.html">PwmLed</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PwmLed(IPwmPin pin, float forwardVoltage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IPwmPin.html">IPwmPin</a></td>
+        <td><span class="parametername">pin</span></td>
+        <td><p>Pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">forwardVoltage</span></td>
+        <td><p>Forward voltage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__ctor_Meadow_Hardware_IPwmPort_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.%23ctor(Meadow.Hardware.IPwmPort%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L67">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed__ctor_" data-uid="Meadow.Foundation.LEDs.PwmLed.#ctor*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__ctor_Meadow_Hardware_IPwmPort_System_Single_" data-uid="Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPort,System.Single)">PwmLed(IPwmPort, Single)</h4>
+  <div class="markdown level1 summary"><p>Creates a new PwmLed on the specified PWM pin and limited to the appropriate 
+voltage based on the passed <code>forwardVoltage</code>. Typical LED forward voltages 
+can be found in the <code>TypicalForwardVoltage</code> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PwmLed(IPwmPort pwm, float forwardVoltage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IPwmPort.html">IPwmPort</a></td>
+        <td><span class="parametername">pwm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">forwardVoltage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__animationThread.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed._animationThread%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L48">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__animationThread" data-uid="Meadow.Foundation.LEDs.PwmLed._animationThread">_animationThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Thread _animationThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Thread</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__brightness.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed._brightness%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L20">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__brightness" data-uid="Meadow.Foundation.LEDs.PwmLed._brightness">_brightness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _brightness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__isOn.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed._isOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L38">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__isOn" data-uid="Meadow.Foundation.LEDs.PwmLed._isOn">_isOn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isOn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__maximumPwmDuty.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L43">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__maximumPwmDuty" data-uid="Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty">_maximumPwmDuty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _maximumPwmDuty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed__running.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed._running%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L49">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed__running" data-uid="Meadow.Foundation.LEDs.PwmLed._running">_running</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _running</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_Brightness.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.Brightness%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L17">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_Brightness_" data-uid="Meadow.Foundation.LEDs.PwmLed.Brightness*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_Brightness" data-uid="Meadow.Foundation.LEDs.PwmLed.Brightness">Brightness</h4>
+  <div class="markdown level1 summary"><p>The brightness of the LED, controlled by a PWM signal, and limited by the 
+calculated maximum voltage. Valid values are from 0 to 1, inclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Brightness { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_ForwardVoltage.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.ForwardVoltage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L40">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_ForwardVoltage_" data-uid="Meadow.Foundation.LEDs.PwmLed.ForwardVoltage*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_ForwardVoltage" data-uid="Meadow.Foundation.LEDs.PwmLed.ForwardVoltage">ForwardVoltage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ForwardVoltage { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_IsOn.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.IsOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L22">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_IsOn_" data-uid="Meadow.Foundation.LEDs.PwmLed.IsOn*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_IsOn" data-uid="Meadow.Foundation.LEDs.PwmLed.IsOn">IsOn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_Port.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.Port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L44">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_Port_" data-uid="Meadow.Foundation.LEDs.PwmLed.Port*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_Port" data-uid="Meadow.Foundation.LEDs.PwmLed.Port">Port</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPwmPort Port { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IPwmPort.html">IPwmPort</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_SetBrightness_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L83">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_SetBrightness_" data-uid="Meadow.Foundation.LEDs.PwmLed.SetBrightness*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_SetBrightness_System_Single_" data-uid="Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)">SetBrightness(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBrightness(float brightness)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">brightness</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_StartBlink_System_Int32_System_Int32_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32%2CSystem.Int32%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L114">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_StartBlink_" data-uid="Meadow.Foundation.LEDs.PwmLed.StartBlink*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_StartBlink_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32,System.Int32,System.Single,System.Single)">StartBlink(Int32, Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Start the Blink animation which sets the brightness of the LED alternating between a low and high brightness setting, using the durations provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartBlink(int onDuration = 200, int offDuration = 200, float highBrightness = null, float lowBrightness = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">onDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">highBrightness</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowBrightness</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_StartPulse_System_Int32_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L148">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_StartPulse_" data-uid="Meadow.Foundation.LEDs.PwmLed.StartPulse*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_StartPulse_System_Int32_System_Single_System_Single_" data-uid="Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32,System.Single,System.Single)">StartPulse(Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Start the Pulse animation which gradually alternates the brightness of the LED between a low and high brightness setting, using the durations provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartPulse(int pulseDuration = 600, float highBrightness = null, float lowBrightness = 0.15F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pulseDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">highBrightness</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowBrightness</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_Stop.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L202">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_Stop_" data-uid="Meadow.Foundation.LEDs.PwmLed.Stop*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_Stop" data-uid="Meadow.Foundation.LEDs.PwmLed.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stops any running animations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed_Meadow_Foundation_LEDs_ILed_Port.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed.Meadow%23Foundation%23LEDs%23ILed%23Port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L46">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_LEDs_PwmLed_Meadow_Foundation_LEDs_ILed_Port_" data-uid="Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port*"></a>
+  <h4 id="Meadow_Foundation_LEDs_PwmLed_Meadow_Foundation_LEDs_ILed_Port" data-uid="Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port">ILed.Port</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDigitalOutputPort ILed.Port { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalOutputPort.html">IDigitalOutputPort</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Foundation.LEDs.IPwmLed.html">IPwmLed</a>
+  </div>
+  <div>
+      <a class="xref" href="Meadow.Foundation.LEDs.ILed.html">ILed</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_LEDs_PwmLed.md&amp;value=---%0Auid%3A%20Meadow.Foundation.LEDs.PwmLed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/LEDs/PwmLed.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.StopBits
+  commentId: T:Meadow.Hardware.StopBits
+  id: StopBits
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.StopBits.None
+  - Meadow.Hardware.StopBits.One
+  - Meadow.Hardware.StopBits.OnePointFive
+  - Meadow.Hardware.StopBits.Two
+  langs:
+  - csharp
+  - vb
+  name: StopBits
+  nameWithType: StopBits
+  fullName: Meadow.Hardware.StopBits
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/SerialPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: StopBits
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public enum StopBits
+    content.vb: Public Enum StopBits
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Hardware.StopBits.None
+  commentId: F:Meadow.Hardware.StopBits.None
+  id: None
+  parent: Meadow.Hardware.StopBits
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StopBits.None
+  fullName: Meadow.Hardware.StopBits.None
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/SerialPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: None
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: None = 0
+    return:
+      type: Meadow.Hardware.StopBits
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.StopBits.One
+  commentId: F:Meadow.Hardware.StopBits.One
+  id: One
+  parent: Meadow.Hardware.StopBits
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: StopBits.One
+  fullName: Meadow.Hardware.StopBits.One
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/SerialPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: One
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
+    startLine: 20
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: One = 1
+    return:
+      type: Meadow.Hardware.StopBits
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.StopBits.Two
+  commentId: F:Meadow.Hardware.StopBits.Two
+  id: Two
+  parent: Meadow.Hardware.StopBits
+  langs:
+  - csharp
+  - vb
+  name: Two
+  nameWithType: StopBits.Two
+  fullName: Meadow.Hardware.StopBits.Two
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/SerialPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Two
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: Two = 2
+    return:
+      type: Meadow.Hardware.StopBits
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.StopBits.OnePointFive
+  commentId: F:Meadow.Hardware.StopBits.OnePointFive
+  id: OnePointFive
+  parent: Meadow.Hardware.StopBits
+  langs:
+  - csharp
+  - vb
+  name: OnePointFive
+  nameWithType: StopBits.OnePointFive
+  fullName: Meadow.Hardware.StopBits.OnePointFive
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/SerialPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnePointFive
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: OnePointFive = 3
+    return:
+      type: Meadow.Hardware.StopBits
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.StopBits
+  commentId: T:Meadow.Hardware.StopBits
+  parent: Meadow.Hardware
+  name: StopBits
+  nameWithType: StopBits
+  fullName: Meadow.Hardware.StopBits

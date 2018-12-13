@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SHT31D
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SHT31D
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D">
+  
+  
+  <h1 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D" class="text-break">Class SHT31D
+  </h1>
+  <div class="markdown level0 summary"><p>Provide a mechanism for reading the temperature and humidity from
+a SHT31D temperature / humidity sensor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SHT31D</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Foundation.Sensors.ITemperatureSensor.html">ITemperatureSensor</a></div>
+    <div><a class="xref" href="Meadow.Foundation.Sensors.IHumiditySensor.html">IHumiditySensor</a></div>
+    <div><a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Atmospheric.html">Meadow.Foundation.Sensors.Atmospheric</a></h6>
+  <h6><strong>Assembly</strong>: Sensors.Atmospheric.SHT31D.dll</h6>
+  <h5 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SHT31D : object, ITemperatureSensor, IHumiditySensor, ISensor</code></pre>
+  </div>
+  <h5 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Readings from the sensor are made in Single-shot mode.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D__ctor_System_Byte_System_UInt16_System_UInt16_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.%23ctor(System.Byte%2CSystem.UInt16%2CSystem.UInt16%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L142">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D__ctor_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D__ctor_System_Byte_System_UInt16_System_UInt16_System_Single_System_Single_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)">SHT31D(Byte, UInt16, UInt16, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Create a new SHT31D object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SHT31D(byte address = null, ushort speed = null, ushort updateInterval = null, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>Sensor address (should be 0x44 or 0x45).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td><p>Bus speed (0-1000 KHz).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">updateInterval</span></td>
+        <td><p>Number of milliseconds between samples (0 indicates polling to be used)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">humidityChangeNotificationThreshold</span></td>
+        <td><p>Changes in humidity greater than this value will trigger an event when updatePeriod &gt; 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">temperatureChangeNotificationThreshold</span></td>
+        <td><p>Changes in temperature greater than this value will trigger an event when updatePeriod &gt; 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_MinimumPollingPeriod.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L21">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_MinimumPollingPeriod" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod">MinimumPollingPeriod</h4>
+  <div class="markdown level1 summary"><p>Minimum value that should be used for the polling frequency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_Humidity.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L48">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Humidity_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Humidity" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity">Humidity</h4>
+  <div class="markdown level1 summary"><p>Get the last humidity reading from the sensor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Humidity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Humidity_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The Update method should be called before the data in this property
+contains valid data.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_HumidityChangeNotificationThreshold.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L105">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_HumidityChangeNotificationThreshold_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_HumidityChangeNotificationThreshold" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold">HumidityChangeNotificationThreshold</h4>
+  <div class="markdown level1 summary"><p>Any changes in the humidity that are greater than the humidity
+threshold will cause an event to be raised when the instance is
+set to update automatically.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HumidityChangeNotificationThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_Temperature.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L74">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Temperature_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Temperature" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature">Temperature</h4>
+  <div class="markdown level1 summary"><p>Get the last temperature reading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Temperature { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Temperature_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The Update method should be called before the data in this property
+contains valid data.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_TemperatureChangeNotificationThreshold.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L98">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_TemperatureChangeNotificationThreshold_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_TemperatureChangeNotificationThreshold" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold">TemperatureChangeNotificationThreshold</h4>
+  <div class="markdown level1 summary"><p>Any changes in the temperature that are greater than the temperature
+threshold will cause an event to be raised when the instance is
+set to update automatically.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TemperatureChangeNotificationThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_Update.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L202">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Update_" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_Update" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Get a reading from the sensor and set the Temperature and Humidity properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_HumidityChanged.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L121">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_HumidityChanged" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged">HumidityChanged</h4>
+  <div class="markdown level1 summary"><p>Event raised when the humidity change is greater than the
+HumidityChangeNotificationThreshold value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SensorFloatEventHandler HumidityChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Sensors.SensorFloatEventHandler.html">SensorFloatEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D_TemperatureChanged.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L115">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Atmospheric_SHT31D_TemperatureChanged" data-uid="Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged">TemperatureChanged</h4>
+  <div class="markdown level1 summary"><p>Event raised when the temperature change is greater than the 
+TemperatureChangeNotificationThreshold value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SensorFloatEventHandler TemperatureChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Sensors.SensorFloatEventHandler.html">SensorFloatEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Sensors.ITemperatureSensor.html">ITemperatureSensor</a>
+  </div>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Sensors.IHumiditySensor.html">IHumiditySensor</a>
+  </div>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Atmospheric_SHT31D.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Atmospheric.SHT31D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

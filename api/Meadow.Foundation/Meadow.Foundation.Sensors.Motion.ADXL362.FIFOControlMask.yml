@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  id: ADXL362.FIFOControlMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.AboveHalf
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFODisabled
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOOldestSaved
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOStreamMode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOTriggeredMode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.StoreTemperatureData
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.FIFOControlMask
+  nameWithType: ADXL362.FIFOControlMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOControlMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 426
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFIFO control bits.\n"
+  example: []
+  syntax:
+    content: 'protected static class FIFOControlMask : object'
+    content.vb: >-
+      Protected Module FIFOControlMask
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFODisabled
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFODisabled
+  id: FIFODisabled
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: FIFODisabled
+  nameWithType: ADXL362.FIFOControlMask.FIFODisabled
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFODisabled
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFODisabled
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 431
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDisable FIFO mode.\n"
+  example: []
+  syntax:
+    content: public const byte FIFODisabled = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFODisabled As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOOldestSaved
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOOldestSaved
+  id: FIFOOldestSaved
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOOldestSaved
+  nameWithType: ADXL362.FIFOControlMask.FIFOOldestSaved
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOOldestSaved
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOOldestSaved
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 436
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEnable FiFO oldest saved first mode.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOOldestSaved = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOOldestSaved As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOStreamMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOStreamMode
+  id: FIFOStreamMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOStreamMode
+  nameWithType: ADXL362.FIFOControlMask.FIFOStreamMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOStreamMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOStreamMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 441
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEnable FIFOI stream mode.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOStreamMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOStreamMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOTriggeredMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOTriggeredMode
+  id: FIFOTriggeredMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOTriggeredMode
+  nameWithType: ADXL362.FIFOControlMask.FIFOTriggeredMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.FIFOTriggeredMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOTriggeredMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 446
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEnable FIFO triggered mode.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOTriggeredMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOTriggeredMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.StoreTemperatureData
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.StoreTemperatureData
+  id: StoreTemperatureData
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: StoreTemperatureData
+  nameWithType: ADXL362.FIFOControlMask.StoreTemperatureData
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.StoreTemperatureData
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StoreTemperatureData
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 452
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nWhen this bit is set to 1, the temperature data is stored in the FIFO\nbuffer as well as the x, y and z axis data.\n"
+  example: []
+  syntax:
+    content: public const byte StoreTemperatureData = null
+    return:
+      type: System.Byte
+    content.vb: Public Const StoreTemperatureData As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.AboveHalf
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.AboveHalf
+  id: AboveHalf
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask
+  langs:
+  - csharp
+  - vb
+  name: AboveHalf
+  nameWithType: ADXL362.FIFOControlMask.AboveHalf
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.AboveHalf
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AboveHalf
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 457
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMSB of the FIFO sample count.  This allows the FIFO buffer to contain 512 samples.\n"
+  example: []
+  syntax:
+    content: public const byte AboveHalf = null
+    return:
+      type: System.Byte
+    content.vb: Public Const AboveHalf As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

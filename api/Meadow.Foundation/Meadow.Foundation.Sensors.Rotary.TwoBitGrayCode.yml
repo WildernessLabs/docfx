@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  commentId: T:Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  id: TwoBitGrayCode
+  parent: Meadow.Foundation.Sensors.Rotary
+  children:
+  - Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.APhase
+  - Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.BPhase
+  langs:
+  - csharp
+  - vb
+  name: TwoBitGrayCode
+  nameWithType: TwoBitGrayCode
+  fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  type: Struct
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TwoBitGrayCode
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  summary: "\nRepresents a 2 bit version of GrayCode (https://en.wikipedia.org/wiki/Gray_code) used to \nencode the current state of a rotary encoder. \n"
+  example: []
+  syntax:
+    content: public struct TwoBitGrayCode
+    content.vb: Public Structure TwoBitGrayCode
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.APhase
+  commentId: F:Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.APhase
+  id: APhase
+  parent: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  langs:
+  - csharp
+  - vb
+  name: APhase
+  nameWithType: TwoBitGrayCode.APhase
+  fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.APhase
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: APhase
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public bool APhase
+    return:
+      type: System.Boolean
+    content.vb: Public APhase As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.BPhase
+  commentId: F:Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.BPhase
+  id: BPhase
+  parent: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  langs:
+  - csharp
+  - vb
+  name: BPhase
+  nameWithType: TwoBitGrayCode.BPhase
+  fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.BPhase
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BPhase
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/TwoBitGrayCode.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public bool BPhase
+    return:
+      type: System.Boolean
+    content.vb: Public BPhase As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

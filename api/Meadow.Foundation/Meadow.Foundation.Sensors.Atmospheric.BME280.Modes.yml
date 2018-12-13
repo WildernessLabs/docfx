@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  id: BME280.Modes
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  children:
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Forced
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Normal
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Sleep
+  langs:
+  - csharp
+  - vb
+  name: BME280.Modes
+  nameWithType: BME280.Modes
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Modes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 55
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nValid values for the operating mode of the sensor.\n"
+  remarks: "\n00 - Sleep mode\n01 and 10 - Forced mode\n11 - Normal mode\n"
+  example: []
+  syntax:
+    content: 'public enum Modes : byte'
+    content.vb: Public Enum Modes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Sleep
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Sleep
+  id: Sleep
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  langs:
+  - csharp
+  - vb
+  name: Sleep
+  nameWithType: BME280.Modes.Sleep
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Sleep
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Sleep
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 57
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Sleep = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Sleep = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Forced
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Forced
+  id: Forced
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  langs:
+  - csharp
+  - vb
+  name: Forced
+  nameWithType: BME280.Modes.Forced
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Forced
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Forced
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 58
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Forced = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Forced = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Normal
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Normal
+  id: Normal
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: BME280.Modes.Normal
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes.Normal
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Normal
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 59
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Normal = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Normal = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Atmospheric
+  commentId: N:Meadow.Foundation.Sensors.Atmospheric
+  name: Meadow.Foundation.Sensors.Atmospheric
+  nameWithType: Meadow.Foundation.Sensors.Atmospheric
+  fullName: Meadow.Foundation.Sensors.Atmospheric
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  name: BME280.Modes
+  nameWithType: BME280.Modes
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes

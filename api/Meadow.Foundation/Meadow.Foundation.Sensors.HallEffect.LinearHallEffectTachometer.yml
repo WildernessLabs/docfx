@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  commentId: T:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  id: LinearHallEffectTachometer
+  parent: Meadow.Foundation.Sensors.HallEffect
+  children:
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.UInt16,System.Single)
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._lastNotifiedRPMs
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._numberOfReads
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._revolutionTimeStart
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._RPMs
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMsChanged
+  langs:
+  - csharp
+  - vb
+  name: LinearHallEffectTachometer
+  nameWithType: LinearHallEffectTachometer
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LinearHallEffectTachometer
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: 'public class LinearHallEffectTachometer : object'
+    content.vb: >-
+      Public Class LinearHallEffectTachometer
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMsChanged
+  commentId: E:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMsChanged
+  id: RPMsChanged
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: RPMsChanged
+  nameWithType: LinearHallEffectTachometer.RPMsChanged
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMsChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RPMsChanged
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  summary: "\nEvent raised when the RPM change is greater than the \nRPMChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler RPMsChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event RPMsChanged As SensorFloatEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  id: RPMChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: RPMChangeNotificationThreshold
+  nameWithType: LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RPMChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  summary: "\nAny changes to the RPMs that are greater than the RPM change\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float RPMChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RPMChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+  commentId: P:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+  id: DigitalIn
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: DigitalIn
+  nameWithType: LinearHallEffectTachometer.DigitalIn
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DigitalIn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: public DigitalInputPort DigitalIn { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Public ReadOnly Property DigitalIn As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+  commentId: P:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+  id: NumberOfMagnets
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: NumberOfMagnets
+  nameWithType: LinearHallEffectTachometer.NumberOfMagnets
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: NumberOfMagnets
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 24
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: public ushort NumberOfMagnets { get; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Property NumberOfMagnets As UShort
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+  commentId: P:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+  id: RPMs
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: RPMs
+  nameWithType: LinearHallEffectTachometer.RPMs
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RPMs
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 30
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public int RPMs { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RPMs As Integer
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._RPMs
+  commentId: F:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._RPMs
+  id: _RPMs
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: _RPMs
+  nameWithType: LinearHallEffectTachometer._RPMs
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._RPMs
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _RPMs
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 32
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: protected float _RPMs
+    return:
+      type: System.Single
+    content.vb: Protected _RPMs As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._lastNotifiedRPMs
+  commentId: F:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._lastNotifiedRPMs
+  id: _lastNotifiedRPMs
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: _lastNotifiedRPMs
+  nameWithType: LinearHallEffectTachometer._lastNotifiedRPMs
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._lastNotifiedRPMs
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _lastNotifiedRPMs
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 33
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: protected float _lastNotifiedRPMs
+    return:
+      type: System.Single
+    content.vb: Protected _lastNotifiedRPMs As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._revolutionTimeStart
+  commentId: F:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._revolutionTimeStart
+  id: _revolutionTimeStart
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: _revolutionTimeStart
+  nameWithType: LinearHallEffectTachometer._revolutionTimeStart
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._revolutionTimeStart
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _revolutionTimeStart
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 34
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: protected DateTime _revolutionTimeStart
+    return:
+      type: DateTime
+    content.vb: Protected _revolutionTimeStart As DateTime
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._numberOfReads
+  commentId: F:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._numberOfReads
+  id: _numberOfReads
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: _numberOfReads
+  nameWithType: LinearHallEffectTachometer._numberOfReads
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer._numberOfReads
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _numberOfReads
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 35
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: protected ushort _numberOfReads
+    return:
+      type: System.UInt16
+    content.vb: Protected _numberOfReads As UShort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.UInt16,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.UInt16,System.Single)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.UInt16,System.Single)'
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: LinearHallEffectTachometer(IDigitalPin, CircuitTerminationType, UInt16, Single)
+  nameWithType: LinearHallEffectTachometer.LinearHallEffectTachometer(IDigitalPin, CircuitTerminationType, UInt16, Single)
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.LinearHallEffectTachometer(Meadow.Hardware.IDigitalPin, Meadow.Foundation.CircuitTerminationType, System.UInt16, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 37
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: public LinearHallEffectTachometer(IDigitalPin inputPin, CircuitTerminationType type = CircuitTerminationType.CommonGround, ushort numberOfMagnets = null, float rpmChangeNotificationThreshold = 1F)
+    parameters:
+    - id: inputPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: type
+      type: Meadow.Foundation.CircuitTerminationType
+    - id: numberOfMagnets
+      type: System.UInt16
+    - id: rpmChangeNotificationThreshold
+      type: System.Single
+    content.vb: Public Sub New(inputPin As IDigitalPin, type As CircuitTerminationType = CircuitTerminationType.CommonGround, numberOfMagnets As UShort = Nothing, rpmChangeNotificationThreshold As Single = 1F)
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged
+  commentId: M:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged
+  id: OnRaiseRPMChanged
+  parent: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: OnRaiseRPMChanged()
+  nameWithType: LinearHallEffectTachometer.OnRaiseRPMChanged()
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OnRaiseRPMChanged
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/HallEffect/DigitalTachometer.cs
+    startLine: 110
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.HallEffect
+  syntax:
+    content: protected void OnRaiseRPMChanged()
+    content.vb: Protected Sub OnRaiseRPMChanged
+  overload: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.Sensors.HallEffect
+  commentId: N:Meadow.Foundation.Sensors.HallEffect
+  name: Meadow.Foundation.Sensors.HallEffect
+  nameWithType: Meadow.Foundation.Sensors.HallEffect
+  fullName: Meadow.Foundation.Sensors.HallEffect
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  name: RPMChangeNotificationThreshold
+  nameWithType: LinearHallEffectTachometer.RPMChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMChangeNotificationThreshold
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+  name: DigitalIn
+  nameWithType: LinearHallEffectTachometer.DigitalIn
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.DigitalIn
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+  name: NumberOfMagnets
+  nameWithType: LinearHallEffectTachometer.NumberOfMagnets
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.NumberOfMagnets
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+  name: RPMs
+  nameWithType: LinearHallEffectTachometer.RPMs
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.RPMs
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.#ctor
+  name: LinearHallEffectTachometer
+  nameWithType: LinearHallEffectTachometer.LinearHallEffectTachometer
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.LinearHallEffectTachometer
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Foundation.CircuitTerminationType
+  commentId: T:Meadow.Foundation.CircuitTerminationType
+  parent: Meadow.Foundation
+  name: CircuitTerminationType
+  nameWithType: CircuitTerminationType
+  fullName: Meadow.Foundation.CircuitTerminationType
+- uid: Meadow.Foundation
+  commentId: N:Meadow.Foundation
+  name: Meadow.Foundation
+  nameWithType: Meadow.Foundation
+  fullName: Meadow.Foundation
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged*
+  commentId: Overload:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged
+  name: OnRaiseRPMChanged
+  nameWithType: LinearHallEffectTachometer.OnRaiseRPMChanged
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.OnRaiseRPMChanged

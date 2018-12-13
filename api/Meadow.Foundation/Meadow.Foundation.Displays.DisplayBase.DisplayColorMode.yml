@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  id: DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format12bppRgb444
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb555
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb565
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format18bppRgb666
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format1bpp
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format24bppRgb888
+  - Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format2bpp
+  langs:
+  - csharp
+  - vb
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  type: Enum
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayColorMode
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 20
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public enum DisplayColorMode : int'
+    content.vb: Public Enum DisplayColorMode As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format1bpp
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format1bpp
+  id: Format1bpp
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format1bpp
+  nameWithType: DisplayBase.DisplayColorMode.Format1bpp
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format1bpp
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format1bpp
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format1bpp = 0
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format2bpp
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format2bpp
+  id: Format2bpp
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format2bpp
+  nameWithType: DisplayBase.DisplayColorMode.Format2bpp
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format2bpp
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format2bpp
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 23
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format2bpp = 1
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format12bppRgb444
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format12bppRgb444
+  id: Format12bppRgb444
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format12bppRgb444
+  nameWithType: DisplayBase.DisplayColorMode.Format12bppRgb444
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format12bppRgb444
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format12bppRgb444
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 24
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format12bppRgb444 = 2
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb555
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb555
+  id: Format16bppRgb555
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format16bppRgb555
+  nameWithType: DisplayBase.DisplayColorMode.Format16bppRgb555
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb555
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format16bppRgb555
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format16bppRgb555 = 3
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb565
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb565
+  id: Format16bppRgb565
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format16bppRgb565
+  nameWithType: DisplayBase.DisplayColorMode.Format16bppRgb565
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format16bppRgb565
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format16bppRgb565
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 26
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format16bppRgb565 = 4
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format18bppRgb666
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format18bppRgb666
+  id: Format18bppRgb666
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format18bppRgb666
+  nameWithType: DisplayBase.DisplayColorMode.Format18bppRgb666
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format18bppRgb666
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format18bppRgb666
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 27
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format18bppRgb666 = 5
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format24bppRgb888
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format24bppRgb888
+  id: Format24bppRgb888
+  parent: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  langs:
+  - csharp
+  - vb
+  name: Format24bppRgb888
+  nameWithType: DisplayBase.DisplayColorMode.Format24bppRgb888
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.Format24bppRgb888
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Format24bppRgb888
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 28
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Format24bppRgb888 = 6
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode

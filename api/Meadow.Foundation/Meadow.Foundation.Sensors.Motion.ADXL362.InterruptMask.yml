@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  id: ADXL362.InterruptMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.ActiveLow
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Activity
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Awake
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.DataReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFODataReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOHighWatermarkReached
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOOverrun
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Inactivity
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.InterruptMask
+  nameWithType: ADXL362.InterruptMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InterruptMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 380
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nBit masks for the interrupt 1 / 2 control.\n"
+  example: []
+  syntax:
+    content: 'public static class InterruptMask : object'
+    content.vb: >-
+      Public Module InterruptMask
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.DataReady
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.DataReady
+  id: DataReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: ADXL362.InterruptMask.DataReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.DataReady
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 385
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nBit indicating that data is ready for processing.\n"
+  example: []
+  syntax:
+    content: public const byte DataReady = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataReady As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFODataReady
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFODataReady
+  id: FIFODataReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: FIFODataReady
+  nameWithType: ADXL362.InterruptMask.FIFODataReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFODataReady
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFODataReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 390
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nBit indicating that data is ready in the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public const byte FIFODataReady = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFODataReady As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOHighWatermarkReached
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOHighWatermarkReached
+  id: FIFOHighWatermarkReached
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOHighWatermarkReached
+  nameWithType: ADXL362.InterruptMask.FIFOHighWatermarkReached
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOHighWatermarkReached
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOHighWatermarkReached
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 395
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nBit indicating that the FIFO buffer has reached the high watermark.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOHighWatermarkReached = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOHighWatermarkReached As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOOverrun
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOOverrun
+  id: FIFOOverrun
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOOverrun
+  nameWithType: ADXL362.InterruptMask.FIFOOverrun
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.FIFOOverrun
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOOverrun
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 400
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nBit indicating that the FIFO buffer has overrun.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOOverrun = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOOverrun As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Activity
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Activity
+  id: Activity
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: Activity
+  nameWithType: ADXL362.InterruptMask.Activity
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Activity
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Activity
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 405
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity interrupt bit.\n"
+  example: []
+  syntax:
+    content: public const byte Activity = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Activity As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Inactivity
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Inactivity
+  id: Inactivity
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: Inactivity
+  nameWithType: ADXL362.InterruptMask.Inactivity
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Inactivity
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Inactivity
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 410
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInactivity interrupt.\n"
+  example: []
+  syntax:
+    content: public const byte Inactivity = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Inactivity As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Awake
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Awake
+  id: Awake
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: Awake
+  nameWithType: ADXL362.InterruptMask.Awake
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.Awake
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Awake
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 415
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAwake interrupt.\n"
+  example: []
+  syntax:
+    content: public const byte Awake = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Awake As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.ActiveLow
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.ActiveLow
+  id: ActiveLow
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask
+  langs:
+  - csharp
+  - vb
+  name: ActiveLow
+  nameWithType: ADXL362.InterruptMask.ActiveLow
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.ActiveLow
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActiveLow
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 420
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nInterrupt active high / low (1 = low, 0 = high).\n"
+  example: []
+  syntax:
+    content: public const byte ActiveLow = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActiveLow As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

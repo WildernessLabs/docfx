@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Servos.Servo
+  commentId: T:Meadow.Foundation.Servos.Servo
+  id: Servo
+  parent: Meadow.Foundation.Servos
+  children:
+  - Meadow.Foundation.Servos.Servo.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  langs:
+  - csharp
+  - vb
+  name: Servo
+  nameWithType: Servo
+  fullName: Meadow.Foundation.Servos.Servo
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Servo
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+    startLine: 4
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: 'public class Servo : ServoBase, IServo'
+    content.vb: >-
+      Public Class Servo
+          Inherits ServoBase
+          Implements IServo
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Servos.ServoBase
+  implements:
+  - Meadow.Foundation.Servos.IServo
+  inheritedMembers:
+  - Meadow.Foundation.Servos.ServoBase._pwm
+  - Meadow.Foundation.Servos.ServoBase.Config
+  - Meadow.Foundation.Servos.ServoBase._config
+  - Meadow.Foundation.Servos.ServoBase.Angle
+  - Meadow.Foundation.Servos.ServoBase._angle
+  - Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+  - Meadow.Foundation.Servos.ServoBase.Stop
+  - Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+  - Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+  - Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Servos.Servo.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  commentId: M:Meadow.Foundation.Servos.Servo.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  id: '#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)'
+  parent: Meadow.Foundation.Servos.Servo
+  langs:
+  - csharp
+  - vb
+  name: Servo(IPwmPort, ServoConfig)
+  nameWithType: Servo.Servo(IPwmPort, ServoConfig)
+  fullName: Meadow.Foundation.Servos.Servo.Servo(Meadow.Hardware.IPwmPort, Meadow.Foundation.Servos.ServoConfig)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+    startLine: 6
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: public Servo(IPwmPort pwm, ServoConfig config)
+    parameters:
+    - id: pwm
+      type: Meadow.Hardware.IPwmPort
+    - id: config
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Sub New(pwm As IPwmPort, config As ServoConfig)
+  overload: Meadow.Foundation.Servos.Servo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Servos
+  commentId: N:Meadow.Foundation.Servos
+  name: Meadow.Foundation.Servos
+  nameWithType: Meadow.Foundation.Servos
+  fullName: Meadow.Foundation.Servos
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Servos.ServoBase
+  commentId: T:Meadow.Foundation.Servos.ServoBase
+  parent: Meadow.Foundation.Servos
+  name: ServoBase
+  nameWithType: ServoBase
+  fullName: Meadow.Foundation.Servos.ServoBase
+- uid: Meadow.Foundation.Servos.IServo
+  commentId: T:Meadow.Foundation.Servos.IServo
+  parent: Meadow.Foundation.Servos
+  name: IServo
+  nameWithType: IServo
+  fullName: Meadow.Foundation.Servos.IServo
+- uid: Meadow.Foundation.Servos.ServoBase._pwm
+  commentId: F:Meadow.Foundation.Servos.ServoBase._pwm
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: _pwm
+  nameWithType: ServoBase._pwm
+  fullName: Meadow.Foundation.Servos.ServoBase._pwm
+- uid: Meadow.Foundation.Servos.ServoBase.Config
+  commentId: P:Meadow.Foundation.Servos.ServoBase.Config
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: Config
+  nameWithType: ServoBase.Config
+  fullName: Meadow.Foundation.Servos.ServoBase.Config
+- uid: Meadow.Foundation.Servos.ServoBase._config
+  commentId: F:Meadow.Foundation.Servos.ServoBase._config
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: _config
+  nameWithType: ServoBase._config
+  fullName: Meadow.Foundation.Servos.ServoBase._config
+- uid: Meadow.Foundation.Servos.ServoBase.Angle
+  commentId: P:Meadow.Foundation.Servos.ServoBase.Angle
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: Angle
+  nameWithType: ServoBase.Angle
+  fullName: Meadow.Foundation.Servos.ServoBase.Angle
+- uid: Meadow.Foundation.Servos.ServoBase._angle
+  commentId: F:Meadow.Foundation.Servos.ServoBase._angle
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: _angle
+  nameWithType: ServoBase._angle
+  fullName: Meadow.Foundation.Servos.ServoBase._angle
+- uid: Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+  commentId: M:Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+  parent: Meadow.Foundation.Servos.ServoBase
+  isExternal: true
+  name: RotateTo(Int32)
+  nameWithType: ServoBase.RotateTo(Int32)
+  fullName: Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+    name: RotateTo
+    nameWithType: ServoBase.RotateTo
+    fullName: Meadow.Foundation.Servos.ServoBase.RotateTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.ServoBase.RotateTo(System.Int32)
+    name: RotateTo
+    nameWithType: ServoBase.RotateTo
+    fullName: Meadow.Foundation.Servos.ServoBase.RotateTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ServoBase.Stop
+  commentId: M:Meadow.Foundation.Servos.ServoBase.Stop
+  parent: Meadow.Foundation.Servos.ServoBase
+  name: Stop()
+  nameWithType: ServoBase.Stop()
+  fullName: Meadow.Foundation.Servos.ServoBase.Stop()
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.ServoBase.Stop
+    name: Stop
+    nameWithType: ServoBase.Stop
+    fullName: Meadow.Foundation.Servos.ServoBase.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.ServoBase.Stop
+    name: Stop
+    nameWithType: ServoBase.Stop
+    fullName: Meadow.Foundation.Servos.ServoBase.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+  commentId: M:Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+  parent: Meadow.Foundation.Servos.ServoBase
+  isExternal: true
+  name: CalculatePulseDuration(Int32)
+  nameWithType: ServoBase.CalculatePulseDuration(Int32)
+  fullName: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+    name: CalculatePulseDuration
+    nameWithType: ServoBase.CalculatePulseDuration
+    fullName: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration(System.Int32)
+    name: CalculatePulseDuration
+    nameWithType: ServoBase.CalculatePulseDuration
+    fullName: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+  commentId: M:Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+  parent: Meadow.Foundation.Servos.ServoBase
+  isExternal: true
+  name: CalculateDutyCycle(Double)
+  nameWithType: ServoBase.CalculateDutyCycle(Double)
+  fullName: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+    name: CalculateDutyCycle
+    nameWithType: ServoBase.CalculateDutyCycle
+    fullName: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle(System.Double)
+    name: CalculateDutyCycle
+    nameWithType: ServoBase.CalculateDutyCycle
+    fullName: Meadow.Foundation.Servos.ServoBase.CalculateDutyCycle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+  commentId: M:Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+  parent: Meadow.Foundation.Servos.ServoBase
+  isExternal: true
+  name: SendCommandPulse(Double)
+  nameWithType: ServoBase.SendCommandPulse(Double)
+  fullName: Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+    name: SendCommandPulse
+    nameWithType: ServoBase.SendCommandPulse
+    fullName: Meadow.Foundation.Servos.ServoBase.SendCommandPulse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.ServoBase.SendCommandPulse(System.Double)
+    name: SendCommandPulse
+    nameWithType: ServoBase.SendCommandPulse
+    fullName: Meadow.Foundation.Servos.ServoBase.SendCommandPulse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.Servo.#ctor*
+  commentId: Overload:Meadow.Foundation.Servos.Servo.#ctor
+  name: Servo
+  nameWithType: Servo.Servo
+  fullName: Meadow.Foundation.Servos.Servo.Servo
+- uid: Meadow.Hardware.IPwmPort
+  commentId: T:Meadow.Hardware.IPwmPort
+  parent: Meadow.Hardware
+  name: IPwmPort
+  nameWithType: IPwmPort
+  fullName: Meadow.Hardware.IPwmPort
+- uid: Meadow.Foundation.Servos.ServoConfig
+  commentId: T:Meadow.Foundation.Servos.ServoConfig
+  parent: Meadow.Foundation.Servos
+  name: ServoConfig
+  nameWithType: ServoConfig
+  fullName: Meadow.Foundation.Servos.ServoConfig
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware

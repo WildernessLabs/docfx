@@ -1,0 +1,941 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateway.WiFi.WifiNetwork
+  commentId: T:Meadow.Gateway.WiFi.WifiNetwork
+  id: WifiNetwork
+  parent: Meadow.Gateway.WiFi
+  children:
+  - Meadow.Gateway.WiFi.WifiNetwork.#ctor(System.String,System.String,Meadow.Gateway.WiFi.NetworkType,Meadow.Gateway.WiFi.PhyType,Meadow.Gateway.WiFi.NetworkSecuritySettings,System.Int32,System.Boolean)
+  - Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+  - Meadow.Gateway.WiFi.WifiNetwork.Bssid
+  - Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+  - Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+  - Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+  - Meadow.Gateway.WiFi.WifiNetwork.Phy
+  - Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+  - Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+  - Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+  - Meadow.Gateway.WiFi.WifiNetwork.Ssid
+  - Meadow.Gateway.WiFi.WifiNetwork.UpTime
+  langs:
+  - csharp
+  - vb
+  name: WifiNetwork
+  nameWithType: WifiNetwork
+  fullName: Meadow.Gateway.WiFi.WifiNetwork
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WifiNetwork
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public class WifiNetwork
+    content.vb: Public Class WifiNetwork
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Ssid
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.Ssid
+  id: Ssid
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: Ssid
+  nameWithType: WifiNetwork.Ssid
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Ssid
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Ssid
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nName of the network\n"
+  example: []
+  syntax:
+    content: public string Ssid { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The ssid.
+    content.vb: Public Property Ssid As String
+  overload: Meadow.Gateway.WiFi.WifiNetwork.Ssid*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Bssid
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.Bssid
+  id: Bssid
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: Bssid
+  nameWithType: WifiNetwork.Bssid
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Bssid
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Bssid
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nMAC address of the AP\n"
+  example: []
+  syntax:
+    content: public string Bssid { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The bssid.
+    content.vb: Public Property Bssid As String
+  overload: Meadow.Gateway.WiFi.WifiNetwork.Bssid*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+  id: IsDirect
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: IsDirect
+  nameWithType: WifiNetwork.IsDirect
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IsDirect
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nWhether or not it&apos;s a direct WiFi access point.\n"
+  example: []
+  syntax:
+    content: public bool IsDirect { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if is direct; otherwise, <code>false</code>.
+    content.vb: Public Property IsDirect As Boolean
+  overload: Meadow.Gateway.WiFi.WifiNetwork.IsDirect*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+  id: NetworkKind
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: NetworkKind
+  nameWithType: WifiNetwork.NetworkKind
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: NetworkKind
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 23
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public NetworkType NetworkKind { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Gateway.WiFi.NetworkType
+    content.vb: Public Property NetworkKind As NetworkType
+  overload: Meadow.Gateway.WiFi.WifiNetwork.NetworkKind*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+  id: BeaconInterval
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: BeaconInterval
+  nameWithType: WifiNetwork.BeaconInterval
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: BeaconInterval
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public TimeSpan BeaconInterval { get; protected set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property BeaconInterval As TimeSpan
+  overload: Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+  id: SignalDbStrength
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: SignalDbStrength
+  nameWithType: WifiNetwork.SignalDbStrength
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SignalDbStrength
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 31
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nRSSI strength in dBmW (decibel milliwatts)\n"
+  example: []
+  syntax:
+    content: public float SignalDbStrength { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+      description: The signal strength in dBmW (decibel milliwatts).
+    content.vb: Public Property SignalDbStrength As Single
+  overload: Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Phy
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.Phy
+  id: Phy
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: Phy
+  nameWithType: WifiNetwork.Phy
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Phy
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Phy
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 35
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public PhyType Phy { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+    content.vb: Public Property Phy As PhyType
+  overload: Meadow.Gateway.WiFi.WifiNetwork.Phy*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+  id: SecuritySettings
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: SecuritySettings
+  nameWithType: WifiNetwork.SecuritySettings
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SecuritySettings
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 37
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public NetworkSecuritySettings SecuritySettings { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Gateway.WiFi.NetworkSecuritySettings
+    content.vb: Public Property SecuritySettings As NetworkSecuritySettings
+  overload: Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.UpTime
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.UpTime
+  id: UpTime
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: UpTime
+  nameWithType: WifiNetwork.UpTime
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.UpTime
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: UpTime
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nTimeSpan value representing the value of the Timestamp field from the 802.11 Beacon or Probe Response frame received by the wireless LAN interface.\n"
+  example: []
+  syntax:
+    content: public TimeSpan UpTime { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+      description: Up time.
+    content.vb: Public Property UpTime As TimeSpan
+  overload: Meadow.Gateway.WiFi.WifiNetwork.UpTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+  id: ChannelCenterFrequency
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: ChannelCenterFrequency
+  nameWithType: WifiNetwork.ChannelCenterFrequency
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ChannelCenterFrequency
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 49
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nThe channel center frequency of the band on which the 802.11 Beacon or Probe Response frame was received. The value of this property is in units of kilohertz (kHz). Note that this member is only valid for PHY types that are not frequency-hopping spread spectrum (FHSS). In all other cases the value returned is zero.\n"
+  example: []
+  syntax:
+    content: public int ChannelCenterFrequency { get; protected set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The channel center frequency.
+    content.vb: Public Property ChannelCenterFrequency As Integer
+  overload: Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+  commentId: P:Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+  id: SignalBarStrength
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: SignalBarStrength
+  nameWithType: WifiNetwork.SignalBarStrength
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SignalBarStrength
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 55
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nGets the signal bar strength.\n"
+  example: []
+  syntax:
+    content: public byte SignalBarStrength { get; }
+    parameters: []
+    return:
+      type: System.Byte
+      description: The signal bar strength.
+    content.vb: Public ReadOnly Property SignalBarStrength As Byte
+  overload: Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Gateway.WiFi.WifiNetwork.#ctor(System.String,System.String,Meadow.Gateway.WiFi.NetworkType,Meadow.Gateway.WiFi.PhyType,Meadow.Gateway.WiFi.NetworkSecuritySettings,System.Int32,System.Boolean)
+  commentId: M:Meadow.Gateway.WiFi.WifiNetwork.#ctor(System.String,System.String,Meadow.Gateway.WiFi.NetworkType,Meadow.Gateway.WiFi.PhyType,Meadow.Gateway.WiFi.NetworkSecuritySettings,System.Int32,System.Boolean)
+  id: '#ctor(System.String,System.String,Meadow.Gateway.WiFi.NetworkType,Meadow.Gateway.WiFi.PhyType,Meadow.Gateway.WiFi.NetworkSecuritySettings,System.Int32,System.Boolean)'
+  parent: Meadow.Gateway.WiFi.WifiNetwork
+  langs:
+  - csharp
+  - vb
+  name: WifiNetwork(String, String, NetworkType, PhyType, NetworkSecuritySettings, Int32, Boolean)
+  nameWithType: WifiNetwork.WifiNetwork(String, String, NetworkType, PhyType, NetworkSecuritySettings, Int32, Boolean)
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.WifiNetwork(System.String, System.String, Meadow.Gateway.WiFi.NetworkType, Meadow.Gateway.WiFi.PhyType, Meadow.Gateway.WiFi.NetworkSecuritySettings, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
+    startLine: 63
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public WifiNetwork(string ssid, string bssid, NetworkType kind, PhyType phy, NetworkSecuritySettings securitySettings, int channelFreq, bool isDirect = true)
+    parameters:
+    - id: ssid
+      type: System.String
+    - id: bssid
+      type: System.String
+    - id: kind
+      type: Meadow.Gateway.WiFi.NetworkType
+    - id: phy
+      type: Meadow.Gateway.WiFi.PhyType
+    - id: securitySettings
+      type: Meadow.Gateway.WiFi.NetworkSecuritySettings
+    - id: channelFreq
+      type: System.Int32
+    - id: isDirect
+      type: System.Boolean
+    content.vb: Public Sub New(ssid As String, bssid As String, kind As NetworkType, phy As PhyType, securitySettings As NetworkSecuritySettings, channelFreq As Integer, isDirect As Boolean = True)
+  overload: Meadow.Gateway.WiFi.WifiNetwork.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Gateway.WiFi
+  commentId: N:Meadow.Gateway.WiFi
+  name: Meadow.Gateway.WiFi
+  nameWithType: Meadow.Gateway.WiFi
+  fullName: Meadow.Gateway.WiFi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Ssid*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.Ssid
+  name: Ssid
+  nameWithType: WifiNetwork.Ssid
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Ssid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Bssid*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.Bssid
+  name: Bssid
+  nameWithType: WifiNetwork.Bssid
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Bssid
+- uid: Meadow.Gateway.WiFi.WifiNetwork.IsDirect*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+  name: IsDirect
+  nameWithType: WifiNetwork.IsDirect
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.IsDirect
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Gateway.WiFi.WifiNetwork.NetworkKind*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+  name: NetworkKind
+  nameWithType: WifiNetwork.NetworkKind
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.NetworkKind
+- uid: Meadow.Gateway.WiFi.NetworkType
+  commentId: T:Meadow.Gateway.WiFi.NetworkType
+  parent: Meadow.Gateway.WiFi
+  name: NetworkType
+  nameWithType: NetworkType
+  fullName: Meadow.Gateway.WiFi.NetworkType
+- uid: Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+  name: BeaconInterval
+  nameWithType: WifiNetwork.BeaconInterval
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.BeaconInterval
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+  name: SignalDbStrength
+  nameWithType: WifiNetwork.SignalDbStrength
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SignalDbStrength
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Gateway.WiFi.WifiNetwork.Phy*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.Phy
+  name: Phy
+  nameWithType: WifiNetwork.Phy
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.Phy
+- uid: Meadow.Gateway.WiFi.PhyType
+  commentId: T:Meadow.Gateway.WiFi.PhyType
+  parent: Meadow.Gateway.WiFi
+  name: PhyType
+  nameWithType: PhyType
+  fullName: Meadow.Gateway.WiFi.PhyType
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+  name: SecuritySettings
+  nameWithType: WifiNetwork.SecuritySettings
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SecuritySettings
+- uid: Meadow.Gateway.WiFi.NetworkSecuritySettings
+  commentId: T:Meadow.Gateway.WiFi.NetworkSecuritySettings
+  parent: Meadow.Gateway.WiFi
+  name: NetworkSecuritySettings
+  nameWithType: NetworkSecuritySettings
+  fullName: Meadow.Gateway.WiFi.NetworkSecuritySettings
+- uid: Meadow.Gateway.WiFi.WifiNetwork.UpTime*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.UpTime
+  name: UpTime
+  nameWithType: WifiNetwork.UpTime
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.UpTime
+- uid: Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+  name: ChannelCenterFrequency
+  nameWithType: WifiNetwork.ChannelCenterFrequency
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.ChannelCenterFrequency
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+  name: SignalBarStrength
+  nameWithType: WifiNetwork.SignalBarStrength
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.SignalBarStrength
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Gateway.WiFi.WifiNetwork.#ctor*
+  commentId: Overload:Meadow.Gateway.WiFi.WifiNetwork.#ctor
+  name: WifiNetwork
+  nameWithType: WifiNetwork.WifiNetwork
+  fullName: Meadow.Gateway.WiFi.WifiNetwork.WifiNetwork

@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Units
+  id: BNO055.Units
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Android
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Centigrade
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Degrees
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Fahrenheit
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.MetersPerSecond
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.MilliG
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Radians
+  - Meadow.Foundation.Sensors.Motion.BNO055.Units.Windows
+  langs:
+  - csharp
+  - vb
+  name: BNO055.Units
+  nameWithType: BNO055.Units
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Units
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 125
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nUnits of measurement used by this sensor.\n"
+  example: []
+  syntax:
+    content: 'public enum Units : int'
+    content.vb: Public Enum Units As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.MetersPerSecond
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.MetersPerSecond
+  id: MetersPerSecond
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: MetersPerSecond
+  nameWithType: BNO055.Units.MetersPerSecond
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.MetersPerSecond
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MetersPerSecond
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 130
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMeters per second (used for accelerometer, linear acceleration, gravity vector)\n"
+  example: []
+  syntax:
+    content: MetersPerSecond = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: MetersPerSecond = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.MilliG
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.MilliG
+  id: MilliG
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: MilliG
+  nameWithType: BNO055.Units.MilliG
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.MilliG
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MilliG
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 136
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMilliG per second (used for accelerometer, linear acceleration, gravity vector)\n"
+  example: []
+  syntax:
+    content: MilliG = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: MilliG = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Degrees
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Degrees
+  id: Degrees
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Degrees
+  nameWithType: BNO055.Units.Degrees
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Degrees
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Degrees
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 141
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDegrees per second (angular rate) or degrees (Euler angles)\n"
+  example: []
+  syntax:
+    content: Degrees = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Degrees = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Radians
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Radians
+  id: Radians
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Radians
+  nameWithType: BNO055.Units.Radians
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Radians
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Radians
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 146
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRadians per second (angular rate) or (radians for Euler angles)\n"
+  example: []
+  syntax:
+    content: Radians = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Radians = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Centigrade
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Centigrade
+  id: Centigrade
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Centigrade
+  nameWithType: BNO055.Units.Centigrade
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Centigrade
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Centigrade
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 151
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDegrees per centigrade.\n"
+  example: []
+  syntax:
+    content: Centigrade = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Centigrade = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Fahrenheit
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Fahrenheit
+  id: Fahrenheit
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Fahrenheit
+  nameWithType: BNO055.Units.Fahrenheit
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Fahrenheit
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Fahrenheit
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 156
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDegrees Fahrenheit\n"
+  example: []
+  syntax:
+    content: Fahrenheit = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Fahrenheit = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Windows
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Windows
+  id: Windows
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: BNO055.Units.Windows
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Windows
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Windows
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 166
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nReadings are presented in Windows application format.\n"
+  remarks: "\nPich angles -180 tp +180 degrees increasing counter clockwise.\nRoll angles - -90 to +90 degrees increasing with increasing inclination.\nHeading / Yaw angles - 0 to 360 turning clockwise increases values\n"
+  example: []
+  syntax:
+    content: Windows = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Windows = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units.Android
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Units.Android
+  id: Android
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  langs:
+  - csharp
+  - vb
+  name: Android
+  nameWithType: BNO055.Units.Android
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units.Android
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Android
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 176
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nReadings are presented in Android application format.\n"
+  remarks: "\nPich angles -180 tp +180 degrees increasing counter clockwise.\nRoll angles - -90 to +90 degrees increasing with increasing inclination.\nHeading / Yaw angles - 0 to 360 turning clockwise increases values\n"
+  example: []
+  syntax:
+    content: Android = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Units
+    content.vb: Android = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Units
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.Units
+  nameWithType: BNO055.Units
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units

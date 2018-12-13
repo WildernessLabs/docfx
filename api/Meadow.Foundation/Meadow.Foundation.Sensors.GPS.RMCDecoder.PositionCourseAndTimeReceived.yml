@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.RMCDecoder.PositionCourseAndTimeReceived
+  commentId: T:Meadow.Foundation.Sensors.GPS.RMCDecoder.PositionCourseAndTimeReceived
+  id: RMCDecoder.PositionCourseAndTimeReceived
+  parent: Meadow.Foundation.Sensors.GPS
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RMCDecoder.PositionCourseAndTimeReceived
+  nameWithType: RMCDecoder.PositionCourseAndTimeReceived
+  fullName: Meadow.Foundation.Sensors.GPS.RMCDecoder.PositionCourseAndTimeReceived
+  type: Delegate
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/RMCDecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PositionCourseAndTimeReceived
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/RMCDecoder.cs
+    startLine: 68
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nDelegate for the position update received event.\n"
+  example: []
+  syntax:
+    content: public delegate void PositionCourseAndTimeReceived(object sender, PositionCourseAndTime positionCourseAndTime);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Reference to the object generating the event.
+    - id: positionCourseAndTime
+      type: Meadow.Foundation.Sensors.GPS.PositionCourseAndTime
+      description: Position, course and time information.
+    content.vb: Public Delegate Sub PositionCourseAndTimeReceived(sender As Object, positionCourseAndTime As PositionCourseAndTime)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.GPS.PositionCourseAndTime
+  commentId: T:Meadow.Foundation.Sensors.GPS.PositionCourseAndTime
+  parent: Meadow.Foundation.Sensors.GPS
+  name: PositionCourseAndTime
+  nameWithType: PositionCourseAndTime
+  fullName: Meadow.Foundation.Sensors.GPS.PositionCourseAndTime

@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  commentId: T:Meadow.Gateway.WiFi.NetworkAuthenticationType
+  id: NetworkAuthenticationType
+  parent: Meadow.Gateway.WiFi
+  children:
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.Ihv
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.None
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.Open80211
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.Rsna
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.RsnaPsk
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.SharedKey80211
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.Unknown
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.Wpa
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaNone
+  - Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaPsk
+  langs:
+  - csharp
+  - vb
+  name: NetworkAuthenticationType
+  nameWithType: NetworkAuthenticationType
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: NetworkAuthenticationType
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public enum NetworkAuthenticationType
+    content.vb: Public Enum NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.None
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.None
+  id: None
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NetworkAuthenticationType.None
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.None
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: None
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nNo authentication enabled.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.Unknown
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.Unknown
+  id: Unknown
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: NetworkAuthenticationType.Unknown
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.Unknown
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Unknown
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nUknown authentication type.\n"
+  example: []
+  syntax:
+    content: Unknown = 1
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.Open80211
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.Open80211
+  id: Open80211
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: Open80211
+  nameWithType: NetworkAuthenticationType.Open80211
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.Open80211
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Open80211
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 18
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nOpen authentication over 802.11 wireless. Devices are authenticated and can connect to an access point, but communication with the network requires a matching Wired Equivalent Privacy (WEP) key.\n"
+  example: []
+  syntax:
+    content: Open80211 = 2
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.SharedKey80211
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.SharedKey80211
+  id: SharedKey80211
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: SharedKey80211
+  nameWithType: NetworkAuthenticationType.SharedKey80211
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.SharedKey80211
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SharedKey80211
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 23
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared Wired Equivalent Privacy (WEP) key for the 802.11 authentication.\n"
+  example: []
+  syntax:
+    content: SharedKey80211 = 3
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.Wpa
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.Wpa
+  id: Wpa
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: Wpa
+  nameWithType: NetworkAuthenticationType.Wpa
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.Wpa
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Wpa
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 28
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process.\n"
+  example: []
+  syntax:
+    content: Wpa = 4
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaPsk
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaPsk
+  id: WpaPsk
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: WpaPsk
+  nameWithType: NetworkAuthenticationType.WpaPsk
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaPsk
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WpaPsk
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 33
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies a Wi-Fi Protected Access (WPA) algorithm that uses pre-shared keys (PSK). IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator.\n"
+  example: []
+  syntax:
+    content: WpaPsk = 5
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaNone
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaNone
+  id: WpaNone
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: WpaNone
+  nameWithType: NetworkAuthenticationType.WpaNone
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.WpaNone
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WpaNone
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 38
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nWi-Fi Protected Access.\n"
+  example: []
+  syntax:
+    content: WpaNone = 6
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.Rsna
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.Rsna
+  id: Rsna
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: Rsna
+  nameWithType: NetworkAuthenticationType.Rsna
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.Rsna
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Rsna
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process.\n"
+  example: []
+  syntax:
+    content: Rsna = 7
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.RsnaPsk
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.RsnaPsk
+  id: RsnaPsk
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: RsnaPsk
+  nameWithType: NetworkAuthenticationType.RsnaPsk
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.RsnaPsk
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: RsnaPsk
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator.\n"
+  example: []
+  syntax:
+    content: RsnaPsk = 8
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType.Ihv
+  commentId: F:Meadow.Gateway.WiFi.NetworkAuthenticationType.Ihv
+  id: Ihv
+  parent: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  langs:
+  - csharp
+  - vb
+  name: Ihv
+  nameWithType: NetworkAuthenticationType.Ihv
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType.Ihv
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Ihv
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkAuthenticationType.cs
+    startLine: 53
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nSpecifies an authentication type defined by an independent hardware vendor (IHV).\n"
+  example: []
+  syntax:
+    content: Ihv = 9
+    return:
+      type: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Gateway.WiFi
+  commentId: N:Meadow.Gateway.WiFi
+  name: Meadow.Gateway.WiFi
+  nameWithType: Meadow.Gateway.WiFi
+  fullName: Meadow.Gateway.WiFi
+- uid: Meadow.Gateway.WiFi.NetworkAuthenticationType
+  commentId: T:Meadow.Gateway.WiFi.NetworkAuthenticationType
+  parent: Meadow.Gateway.WiFi
+  name: NetworkAuthenticationType
+  nameWithType: NetworkAuthenticationType
+  fullName: Meadow.Gateway.WiFi.NetworkAuthenticationType

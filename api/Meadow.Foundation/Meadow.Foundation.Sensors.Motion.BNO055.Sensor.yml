@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  id: BNO055.Sensor
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Accelerometer
+  - Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Gyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Magnetometer
+  langs:
+  - csharp
+  - vb
+  name: BNO055.Sensor
+  nameWithType: BNO055.Sensor
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Sensor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 182
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSensor type.\n"
+  example: []
+  syntax:
+    content: 'public enum Sensor : int'
+    content.vb: Public Enum Sensor As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Accelerometer
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Accelerometer
+  id: Accelerometer
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  langs:
+  - csharp
+  - vb
+  name: Accelerometer
+  nameWithType: BNO055.Sensor.Accelerometer
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Accelerometer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Accelerometer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 187
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAccelerometer sensor.\n"
+  example: []
+  syntax:
+    content: Accelerometer = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Accelerometer = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Gyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Gyroscope
+  id: Gyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  langs:
+  - csharp
+  - vb
+  name: Gyroscope
+  nameWithType: BNO055.Sensor.Gyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Gyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Gyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 192
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGyroscope sensor.\n"
+  example: []
+  syntax:
+    content: Gyroscope = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Gyroscope = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Magnetometer
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Magnetometer
+  id: Magnetometer
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  langs:
+  - csharp
+  - vb
+  name: Magnetometer
+  nameWithType: BNO055.Sensor.Magnetometer
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor.Magnetometer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Magnetometer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 197
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMagnetometer sensor.\n"
+  example: []
+  syntax:
+    content: Magnetometer = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Magnetometer = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.Sensor
+  nameWithType: BNO055.Sensor
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor

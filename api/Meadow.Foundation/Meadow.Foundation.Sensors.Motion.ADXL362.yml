@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362
+  id: ADXL362
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
+  - Meadow.Foundation.Sensors.Motion.ADXL362._adxl362
+  - Meadow.Foundation.Sensors.Motion.ADXL362.AccelerationChanged
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold(System.UInt16,System.Byte)
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold(System.UInt16,System.UInt16)
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+  - Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+  - Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+  - Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Reset
+  - Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Start
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Status
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Stop
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Update
+  - Meadow.Foundation.Sensors.Motion.ADXL362.X
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Y
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Z
+  langs:
+  - csharp
+  - vb
+  name: ADXL362
+  nameWithType: ADXL362
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ADXL362
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 10
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: 'public class ADXL362 : object'
+    content.vb: >-
+      Public Class ADXL362
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362._adxl362
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362._adxl362
+  id: _adxl362
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: _adxl362
+  nameWithType: ADXL362._adxl362
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362._adxl362
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _adxl362
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 17
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nADXL362 sensor object.\n"
+  example: []
+  syntax:
+    content: protected readonly ICommunicationBus _adxl362
+    return:
+      type: ICommunicationBus
+    content.vb: Protected ReadOnly _adxl362 As ICommunicationBus
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+  id: DataReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: ADXL362.DataReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 577
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate of data is ready to be read.\n"
+  example: []
+  syntax:
+    content: public bool DataReady { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property DataReady As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+  id: FIFOReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: FIFOReady
+  nameWithType: ADXL362.FIFOReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 589
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if there is any data in the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public bool FIFOReady { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FIFOReady As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+  id: FIFOWatermark
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: FIFOWatermark
+  nameWithType: ADXL362.FIFOWatermark
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOWatermark
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 602
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if there are at least the desired number\nof samples in the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public bool FIFOWatermark { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FIFOWatermark As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+  id: FIFOOverrun
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: FIFOOverrun
+  nameWithType: ADXL362.FIFOOverrun
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOOverrun
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 615
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if the FIFO buffer has overrun (newly generated data\nis overwriting data already stored in the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public bool FIFOOverrun { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FIFOOverrun As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+  id: ActivityDetected
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ActivityDetected
+  nameWithType: ADXL362.ActivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityDetected
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 628
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if any activity has been detected over the\nspecified threshold.\n"
+  example: []
+  syntax:
+    content: public bool ActivityDetected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ActivityDetected As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+  id: InactivityDetected
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: InactivityDetected
+  nameWithType: ADXL362.InactivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityDetected
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 641
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if the sensor has detected inactivity or a\nfree fall condition.\n"
+  example: []
+  syntax:
+    content: public bool InactivityDetected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property InactivityDetected As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+  id: Awake
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Awake
+  nameWithType: ADXL362.Awake
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Awake
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 653
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if the sensor is awake or inactive.\n"
+  example: []
+  syntax:
+    content: public bool Awake { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Awake As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Awake*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+  id: DeviceID
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: DeviceID
+  nameWithType: ADXL362.DeviceID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 666
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the device ID, MEMS ID, Part ID and silicon revision ID and\nencode the value in a 32-bit integer.\n"
+  example: []
+  syntax:
+    content: public int DeviceID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DeviceID As Integer
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.X
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.X
+  id: X
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: ADXL362.X
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.X
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: X
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 685
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nX-axis sensor reading.\n"
+  remarks: "\nRead must be called before this property is valid.\n"
+  example: []
+  syntax:
+    content: public short X { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property X As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.X*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Y
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.Y
+  id: Y
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: ADXL362.Y
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Y
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Y
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 693
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nY-axis sensor reading.\n"
+  remarks: "\nRead must be called before this property is valid.\n"
+  example: []
+  syntax:
+    content: public short Y { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Y As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Y*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Z
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.Z
+  id: Z
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: ADXL362.Z
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Z
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Z
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 701
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nZ-axis sensor reading.\n"
+  remarks: "\nRead must be called before this property is valid.\n"
+  example: []
+  syntax:
+    content: public short Z { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Z As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Z*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Status
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.Status
+  id: Status
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ADXL362.Status
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Status
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Status
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 706
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the status register.\n"
+  example: []
+  syntax:
+    content: public byte Status { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property Status As Byte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: ADXL362.Temperature
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 718
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSensor temperature.\n"
+  example: []
+  syntax:
+    content: public double Temperature { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Temperature As Double
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+  id: ActivityInactivityControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ActivityInactivityControl
+  nameWithType: ADXL362.ActivityInactivityControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityInactivityControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 731
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity / Inactivity control register (see page 29 of the data sheet).\n"
+  example: []
+  syntax:
+    content: public byte ActivityInactivityControl { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ActivityInactivityControl As Byte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+  id: SelfTest
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: SelfTest
+  nameWithType: ADXL362.SelfTest
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SelfTest
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 749
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the value of the self test register.  Setting this to true will put\nthe device into self test mode, setting this to false will turn off the\nself test.\n"
+  example: []
+  syntax:
+    content: public bool SelfTest { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property SelfTest As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+  id: FilterControl
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: FilterControl
+  nameWithType: ADXL362.FilterControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FilterControl
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 765
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet / set the filter control register (see page 33 of the data sheet).   \n"
+  example: []
+  syntax:
+    content: public byte FilterControl { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property FilterControl As Byte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.AccelerationChanged
+  commentId: E:Meadow.Foundation.Sensors.Motion.ADXL362.AccelerationChanged
+  id: AccelerationChanged
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: AccelerationChanged
+  nameWithType: ADXL362.AccelerationChanged
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.AccelerationChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerationChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 785
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEvent to be raised when the acceleration is greater than the activity registers.\n"
+  example: []
+  syntax:
+    content: public event SensorVectorEventHandler AccelerationChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorVectorEventHandler
+    content.vb: Public Event AccelerationChanged As SensorVectorEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
+  id: '#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)'
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ADXL362(Spi.SPI_module, IDigitalPin, UInt16)
+  nameWithType: ADXL362.ADXL362(Spi.SPI_module, IDigitalPin, UInt16)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ADXL362(Spi.SPI_module, IDigitalPin, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 804
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nCreate a new ADXL362 object using the specified SPI module.\n"
+  example: []
+  syntax:
+    content: public ADXL362(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = null)
+    parameters:
+    - id: module
+      type: Spi.SPI_module
+      description: SPI module to use.
+    - id: chipSelect
+      type: IDigitalPin
+      description: Chip select pin.
+    - id: speed
+      type: System.UInt16
+      description: Speed of the SPI bus.
+    content.vb: Public Sub New(module As Spi.SPI_module, chipSelect As IDigitalPin, speed As UShort = Nothing)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Reset
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.Reset
+  id: Reset
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: ADXL362.Reset()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Reset()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Reset
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 821
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nReset the sensor.\n"
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Start
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.Start
+  id: Start
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: ADXL362.Start()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Start()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Start
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 830
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nStart making sensor readings.\n"
+  example: []
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Stop
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.Stop
+  id: Stop
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ADXL362.Stop()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Stop
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 838
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nStop sensor readings.\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Update
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: ADXL362.Update()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 849
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the sensors and make the readings available through the\nX, Y and Z properties.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold(System.UInt16,System.Byte)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold(System.UInt16,System.Byte)
+  id: ConfigureActivityThreshold(System.UInt16,System.Byte)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ConfigureActivityThreshold(UInt16, Byte)
+  nameWithType: ADXL362.ConfigureActivityThreshold(UInt16, Byte)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold(System.UInt16, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigureActivityThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 875
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nConfigure the activity threshold and activity time.   Once configured it will be\nnecessary to set the activity/inactivity control and interrupts if required. \n"
+  example: []
+  syntax:
+    content: public void ConfigureActivityThreshold(ushort threshold, byte numberOfSamples)
+    parameters:
+    - id: threshold
+      type: System.UInt16
+      description: 11-bit unsigned value for the activity threshold.
+    - id: numberOfSamples
+      type: System.Byte
+      description: Number of consecutive samples that must exceed the threshold
+    content.vb: Public Sub ConfigureActivityThreshold(threshold As UShort, numberOfSamples As Byte)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold(System.UInt16,System.UInt16)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold(System.UInt16,System.UInt16)
+  id: ConfigureInactivityThreshold(System.UInt16,System.UInt16)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ConfigureInactivityThreshold(UInt16, UInt16)
+  nameWithType: ADXL362.ConfigureInactivityThreshold(UInt16, UInt16)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold(System.UInt16, System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigureInactivityThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 911
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nConfigure the inactivity threshold and activity time.   Once configured it will be\nnecessary to set the activity/inactivity control and interrupts if required. \n"
+  example: []
+  syntax:
+    content: public void ConfigureInactivityThreshold(ushort threshold, ushort numberOfSamples)
+    parameters:
+    - id: threshold
+      type: System.UInt16
+      description: 11-bit unsigned value for the activity threshold.
+    - id: numberOfSamples
+      type: System.UInt16
+      description: Number of consecutive samples that must exceed the threshold
+    content.vb: Public Sub ConfigureInactivityThreshold(threshold As UShort, numberOfSamples As UShort)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+  id: ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)
+  nameWithType: ADXL362.ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte, IDigitalPin, System.Byte, IDigitalPin)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigureInterrupts
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 981
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nConfigure the interrupts for the ADXL362.\n"
+  example: []
+  syntax:
+    content: public void ConfigureInterrupts(byte interruptMap1, IDigitalPin interruptPin1, byte interruptMap2 = null, IDigitalPin interruptPin2 = null)
+    parameters:
+    - id: interruptMap1
+      type: System.Byte
+      description: Bit mask for interrupt pin 1
+    - id: interruptPin1
+      type: IDigitalPin
+      description: Pin connected to interrupt pin 1 on the ADXL362.
+    - id: interruptMap2
+      type: System.Byte
+      description: Bit mask for interrupt pin 2
+    - id: interruptPin2
+      type: IDigitalPin
+      description: Pin connected to interrupt pin 2 on the ADXL362.
+    content.vb: Public Sub ConfigureInterrupts(interruptMap1 As Byte, interruptPin1 As IDigitalPin, interruptMap2 As Byte = Nothing, interruptPin2 As IDigitalPin = Nothing)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters
+  id: DisplayRegisters
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362
+  langs:
+  - csharp
+  - vb
+  name: DisplayRegisters()
+  nameWithType: ADXL362.DisplayRegisters()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 1026
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDisplay the register contents.\n"
+  example: []
+  syntax:
+    content: public void DisplayRegisters()
+    content.vb: Public Sub DisplayRegisters
+  overload: Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ICommunicationBus
+  commentId: '!:ICommunicationBus'
+  isExternal: true
+  name: ICommunicationBus
+  nameWithType: ICommunicationBus
+  fullName: ICommunicationBus
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+  name: DataReady
+  nameWithType: ADXL362.DataReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+  name: FIFOReady
+  nameWithType: ADXL362.FIFOReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOReady
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+  name: FIFOWatermark
+  nameWithType: ADXL362.FIFOWatermark
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOWatermark
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+  name: FIFOOverrun
+  nameWithType: ADXL362.FIFOOverrun
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FIFOOverrun
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+  name: ActivityDetected
+  nameWithType: ADXL362.ActivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+  name: InactivityDetected
+  nameWithType: ADXL362.InactivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.InactivityDetected
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Awake*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+  name: Awake
+  nameWithType: ADXL362.Awake
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Awake
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+  name: DeviceID
+  nameWithType: ADXL362.DeviceID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.X*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.X
+  name: X
+  nameWithType: ADXL362.X
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.X
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Y*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Y
+  name: Y
+  nameWithType: ADXL362.Y
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Y
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Z*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Z
+  name: Z
+  nameWithType: ADXL362.Z
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Z
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Status*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Status
+  name: Status
+  nameWithType: ADXL362.Status
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Status
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+  name: Temperature
+  nameWithType: ADXL362.Temperature
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+  name: ActivityInactivityControl
+  nameWithType: ADXL362.ActivityInactivityControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControl
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+  name: SelfTest
+  nameWithType: ADXL362.SelfTest
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.SelfTest
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+  name: FilterControl
+  nameWithType: ADXL362.FilterControl
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControl
+- uid: Meadow.Foundation.Sensors.SensorVectorEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorVectorEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorVectorEventHandler
+  nameWithType: SensorVectorEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventHandler
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.#ctor
+  name: ADXL362
+  nameWithType: ADXL362.ADXL362
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ADXL362
+- uid: Spi.SPI_module
+  commentId: '!:Spi.SPI_module'
+  isExternal: true
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Spi.SPI_module
+- uid: IDigitalPin
+  isExternal: true
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: IDigitalPin
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Reset*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Reset
+  name: Reset
+  nameWithType: ADXL362.Reset
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Reset
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Start*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Start
+  name: Start
+  nameWithType: ADXL362.Start
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Start
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Stop*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Stop
+  name: Stop
+  nameWithType: ADXL362.Stop
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Stop
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Update
+  name: Update
+  nameWithType: ADXL362.Update
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Update
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold
+  name: ConfigureActivityThreshold
+  nameWithType: ADXL362.ConfigureActivityThreshold
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold
+  name: ConfigureInactivityThreshold
+  nameWithType: ADXL362.ConfigureInactivityThreshold
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts
+  name: ConfigureInterrupts
+  nameWithType: ADXL362.ConfigureInterrupts
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters
+  name: DisplayRegisters
+  nameWithType: ADXL362.DisplayRegisters
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters

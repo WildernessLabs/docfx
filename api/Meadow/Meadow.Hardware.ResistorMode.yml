@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.ResistorMode
+  commentId: T:Meadow.Hardware.ResistorMode
+  id: ResistorMode
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.ResistorMode.Disabled
+  - Meadow.Hardware.ResistorMode.PullDown
+  - Meadow.Hardware.ResistorMode.PullUp
+  langs:
+  - csharp
+  - vb
+  name: ResistorMode
+  nameWithType: ResistorMode
+  fullName: Meadow.Hardware.ResistorMode
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ResistorMode
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public enum ResistorMode
+    content.vb: Public Enum ResistorMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Hardware.ResistorMode.Disabled
+  commentId: F:Meadow.Hardware.ResistorMode.Disabled
+  id: Disabled
+  parent: Meadow.Hardware.ResistorMode
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: ResistorMode.Disabled
+  fullName: Meadow.Hardware.ResistorMode.Disabled
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Disabled
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: Disabled = 0
+    return:
+      type: Meadow.Hardware.ResistorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.ResistorMode.PullDown
+  commentId: F:Meadow.Hardware.ResistorMode.PullDown
+  id: PullDown
+  parent: Meadow.Hardware.ResistorMode
+  langs:
+  - csharp
+  - vb
+  name: PullDown
+  nameWithType: ResistorMode.PullDown
+  fullName: Meadow.Hardware.ResistorMode.PullDown
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PullDown
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: PullDown = 1
+    return:
+      type: Meadow.Hardware.ResistorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.ResistorMode.PullUp
+  commentId: F:Meadow.Hardware.ResistorMode.PullUp
+  id: PullUp
+  parent: Meadow.Hardware.ResistorMode
+  langs:
+  - csharp
+  - vb
+  name: PullUp
+  nameWithType: ResistorMode.PullUp
+  fullName: Meadow.Hardware.ResistorMode.PullUp
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PullUp
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: PullUp = 2
+    return:
+      type: Meadow.Hardware.ResistorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.ResistorMode
+  commentId: T:Meadow.Hardware.ResistorMode
+  parent: Meadow.Hardware
+  name: ResistorMode
+  nameWithType: ResistorMode
+  fullName: Meadow.Hardware.ResistorMode

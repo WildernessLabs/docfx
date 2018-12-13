@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  id: ADXL362.PowerControlMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.AutoSleep
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.ExternalClock
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.LowNoise
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Measure
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Standby
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.UltralowNoise
+  - Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.WakeupMode
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.PowerControlMask
+  nameWithType: ADXL362.PowerControlMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PowerControlMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 271
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMasks for the bits in the Power Control register.\n"
+  example: []
+  syntax:
+    content: 'protected static class PowerControlMask : object'
+    content.vb: >-
+      Protected Module PowerControlMask
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Standby
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Standby
+  id: Standby
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: Standby
+  nameWithType: ADXL362.PowerControlMask.Standby
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Standby
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Standby
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 276
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPlace the sensor inStandby.\n"
+  example: []
+  syntax:
+    content: public const byte Standby = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Standby As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Measure
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Measure
+  id: Measure
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: Measure
+  nameWithType: ADXL362.PowerControlMask.Measure
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.Measure
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Measure
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 281
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMake measurements.\n"
+  example: []
+  syntax:
+    content: public const byte Measure = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Measure As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.AutoSleep
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.AutoSleep
+  id: AutoSleep
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: AutoSleep
+  nameWithType: ADXL362.PowerControlMask.AutoSleep
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.AutoSleep
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AutoSleep
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 286
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAuto-sleep.\n"
+  example: []
+  syntax:
+    content: public const byte AutoSleep = null
+    return:
+      type: System.Byte
+    content.vb: Public Const AutoSleep As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.WakeupMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.WakeupMode
+  id: WakeupMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: WakeupMode
+  nameWithType: ADXL362.PowerControlMask.WakeupMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.WakeupMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WakeupMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 291
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nWakeup mode.\n"
+  example: []
+  syntax:
+    content: public const byte WakeupMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const WakeupMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.LowNoise
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.LowNoise
+  id: LowNoise
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: LowNoise
+  nameWithType: ADXL362.PowerControlMask.LowNoise
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.LowNoise
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LowNoise
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 296
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nLow noise mode.\n"
+  example: []
+  syntax:
+    content: public const byte LowNoise = null
+    return:
+      type: System.Byte
+    content.vb: Public Const LowNoise As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.UltralowNoise
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.UltralowNoise
+  id: UltralowNoise
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: UltralowNoise
+  nameWithType: ADXL362.PowerControlMask.UltralowNoise
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.UltralowNoise
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: UltralowNoise
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 301
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nUltra-low noise mode.\n"
+  example: []
+  syntax:
+    content: public const byte UltralowNoise = null
+    return:
+      type: System.Byte
+    content.vb: Public Const UltralowNoise As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.ExternalClock
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.ExternalClock
+  id: ExternalClock
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask
+  langs:
+  - csharp
+  - vb
+  name: ExternalClock
+  nameWithType: ADXL362.PowerControlMask.ExternalClock
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.ExternalClock
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ExternalClock
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 306
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nExternal clock enabled on the INT1 pin.\n"
+  example: []
+  syntax:
+    content: public const byte ExternalClock = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ExternalClock As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

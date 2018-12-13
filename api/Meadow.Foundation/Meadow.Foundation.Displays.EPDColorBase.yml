@@ -1,0 +1,2861 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.EPDColorBase
+  commentId: T:Meadow.Foundation.Displays.EPDColorBase
+  id: EPDColorBase
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.EPDColorBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  - Meadow.Foundation.Displays.EPDColorBase.ACTIVE_PROGRAM
+  - Meadow.Foundation.Displays.EPDColorBase.AUTO_MEASURE_VCOM
+  - Meadow.Foundation.Displays.EPDColorBase.B2B_LUT
+  - Meadow.Foundation.Displays.EPDColorBase.B2W_LUT
+  - Meadow.Foundation.Displays.EPDColorBase.blackImageBuffer
+  - Meadow.Foundation.Displays.EPDColorBase.BOOSTER_SOFT_START
+  - Meadow.Foundation.Displays.EPDColorBase.Clear(Color,System.Boolean)
+  - Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean,System.Boolean)
+  - Meadow.Foundation.Displays.EPDColorBase.colorImageBuffer
+  - Meadow.Foundation.Displays.EPDColorBase.ColorMode
+  - Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_1
+  - Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_2
+  - Meadow.Foundation.Displays.EPDColorBase.DATA_STOP
+  - Meadow.Foundation.Displays.EPDColorBase.DEEP_SLEEP
+  - Meadow.Foundation.Displays.EPDColorBase.DISPLAY_REFRESH
+  - Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  - Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.EPDColorBase.GET_STATUS
+  - Meadow.Foundation.Displays.EPDColorBase.Initialize
+  - Meadow.Foundation.Displays.EPDColorBase.LOW_POWER_DETECTION
+  - Meadow.Foundation.Displays.EPDColorBase.PANEL_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.PARTIAL_IN
+  - Meadow.Foundation.Displays.EPDColorBase.PARTIAL_OUT
+  - Meadow.Foundation.Displays.EPDColorBase.PARTIAL_WINDOW
+  - Meadow.Foundation.Displays.EPDColorBase.PLL_CONTROL
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_OFF
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_OFF_SEQUENCE_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_ON
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_ON_MEASURE
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_SAVING
+  - Meadow.Foundation.Displays.EPDColorBase.POWER_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.PROGRAM_MODE
+  - Meadow.Foundation.Displays.EPDColorBase.READ_OTP_DATA
+  - Meadow.Foundation.Displays.EPDColorBase.READ_VCOM_VALUE
+  - Meadow.Foundation.Displays.EPDColorBase.Refresh
+  - Meadow.Foundation.Displays.EPDColorBase.RESOLUTION_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.Show
+  - Meadow.Foundation.Displays.EPDColorBase.TCON_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION
+  - Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_READ
+  - Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_SELECTION
+  - Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_WRITE
+  - Meadow.Foundation.Displays.EPDColorBase.VCM_DC_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING
+  - Meadow.Foundation.Displays.EPDColorBase.VCOM_LUT
+  - Meadow.Foundation.Displays.EPDColorBase.W2B_LUT
+  - Meadow.Foundation.Displays.EPDColorBase.W2W_LUT
+  - Meadow.Foundation.Displays.EPDColorBase.xRefreshEnd
+  - Meadow.Foundation.Displays.EPDColorBase.xRefreshStart
+  - Meadow.Foundation.Displays.EPDColorBase.yRefreshEnd
+  - Meadow.Foundation.Displays.EPDColorBase.yRefreshStart
+  langs:
+  - csharp
+  - vb
+  name: EPDColorBase
+  nameWithType: EPDColorBase
+  fullName: Meadow.Foundation.Displays.EPDColorBase
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EPDColorBase
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 10
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nProvide an interface to the WaveShare ePaper 2 color displays\n"
+  example: []
+  syntax:
+    content: 'public abstract class EPDColorBase : SPIDisplayBase, IDisplay'
+    content.vb: >-
+      Public MustInherit Class EPDColorBase
+          Inherits SPIDisplayBase
+          Implements IDisplay
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.DisplayBase
+  - Meadow.Foundation.Displays.SPIDisplayBase
+  derivedClasses:
+  - Meadow.Foundation.Displays.EPD1i54b
+  - Meadow.Foundation.Displays.EPD1i54c
+  - Meadow.Foundation.Displays.EPD2i13b
+  - Meadow.Foundation.Displays.EPD2i9b
+  - Meadow.Foundation.Displays.EPD4i2b
+  implements:
+  - Meadow.Foundation.Displays.IDisplay
+  inheritedMembers:
+  - Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  - Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.spi
+  - Meadow.Foundation.Displays.SPIDisplayBase.Data
+  - Meadow.Foundation.Displays.SPIDisplayBase.Command
+  - Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  - Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - Meadow.Foundation.Displays.DisplayBase.Width
+  - Meadow.Foundation.Displays.DisplayBase.Height
+  - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Foundation.Displays.EPDColorBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.EPDColorBase.ColorMode
+  id: ColorMode
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: ColorMode
+  nameWithType: EPDColorBase.ColorMode
+  fullName: Meadow.Foundation.Displays.EPDColorBase.ColorMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ColorMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 12
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override DisplayBase.DisplayColorMode ColorMode { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+    content.vb: Public Overrides ReadOnly Property ColorMode As DisplayBase.DisplayColorMode
+  overridden: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  overload: Meadow.Foundation.Displays.EPDColorBase.ColorMode*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPDColorBase.blackImageBuffer
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.blackImageBuffer
+  id: blackImageBuffer
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: blackImageBuffer
+  nameWithType: EPDColorBase.blackImageBuffer
+  fullName: Meadow.Foundation.Displays.EPDColorBase.blackImageBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: blackImageBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 14
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected readonly byte[] blackImageBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected ReadOnly blackImageBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPDColorBase.colorImageBuffer
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.colorImageBuffer
+  id: colorImageBuffer
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: colorImageBuffer
+  nameWithType: EPDColorBase.colorImageBuffer
+  fullName: Meadow.Foundation.Displays.EPDColorBase.colorImageBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: colorImageBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 15
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected readonly byte[] colorImageBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected ReadOnly colorImageBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPDColorBase.xRefreshStart
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.xRefreshStart
+  id: xRefreshStart
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: xRefreshStart
+  nameWithType: EPDColorBase.xRefreshStart
+  fullName: Meadow.Foundation.Displays.EPDColorBase.xRefreshStart
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: xRefreshStart
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 17
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected int xRefreshStart
+    return:
+      type: System.Int32
+    content.vb: Protected xRefreshStart As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.EPDColorBase.yRefreshStart
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.yRefreshStart
+  id: yRefreshStart
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: yRefreshStart
+  nameWithType: EPDColorBase.yRefreshStart
+  fullName: Meadow.Foundation.Displays.EPDColorBase.yRefreshStart
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: yRefreshStart
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 17
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected int yRefreshStart
+    return:
+      type: System.Int32
+    content.vb: Protected yRefreshStart As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.EPDColorBase.xRefreshEnd
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.xRefreshEnd
+  id: xRefreshEnd
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: xRefreshEnd
+  nameWithType: EPDColorBase.xRefreshEnd
+  fullName: Meadow.Foundation.Displays.EPDColorBase.xRefreshEnd
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: xRefreshEnd
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 17
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected int xRefreshEnd
+    return:
+      type: System.Int32
+    content.vb: Protected xRefreshEnd As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.EPDColorBase.yRefreshEnd
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.yRefreshEnd
+  id: yRefreshEnd
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: yRefreshEnd
+  nameWithType: EPDColorBase.yRefreshEnd
+  fullName: Meadow.Foundation.Displays.EPDColorBase.yRefreshEnd
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: yRefreshEnd
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 17
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected int yRefreshEnd
+    return:
+      type: System.Int32
+    content.vb: Protected yRefreshEnd As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.EPDColorBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)'
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: EPDColorBase(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  nameWithType: EPDColorBase.EPDColorBase(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.EPDColorBase(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.Spi.SPI_module, System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 22
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public EPDColorBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)
+    parameters:
+    - id: chipSelectPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: dcPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: resetPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: busyPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: spiModule
+      type: Meadow.Hardware.Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing)
+  overload: Meadow.Foundation.Displays.EPDColorBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDColorBase.Initialize
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Initialize
+  id: Initialize
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: EPDColorBase.Initialize()
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Initialize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 52
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected abstract void Initialize()
+    content.vb: Protected MustOverride Sub Initialize
+  overload: Meadow.Foundation.Displays.EPDColorBase.Initialize*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Meadow.Foundation.Displays.EPDColorBase.Refresh
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Refresh
+  id: Refresh
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: EPDColorBase.Refresh()
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Refresh()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Refresh
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 54
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected abstract void Refresh()
+    content.vb: Protected MustOverride Sub Refresh
+  overload: Meadow.Foundation.Displays.EPDColorBase.Refresh*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Meadow.Foundation.Displays.EPDColorBase.Show
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Show
+  id: Show
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: EPDColorBase.Show()
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Show()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Show
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 56
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Show()
+    content.vb: Public Overrides Sub Show
+  overridden: Meadow.Foundation.Displays.DisplayBase.Show
+  overload: Meadow.Foundation.Displays.EPDColorBase.Show*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean)
+  id: Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean)
+  nameWithType: EPDColorBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 61
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Clear(bool updateDisplay = false)
+    parameters:
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Overrides Sub Clear(updateDisplay As Boolean = False)
+  overridden: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  overload: Meadow.Foundation.Displays.EPDColorBase.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDColorBase.Clear(Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Clear(Color,System.Boolean)
+  id: Clear(Color,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Color, Boolean)
+  nameWithType: EPDColorBase.Clear(Color, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Clear(Color, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 66
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void Clear(Color color, bool updateDisplay = false)
+    parameters:
+    - id: color
+      type: Color
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Sub Clear(color As Color, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.EPDColorBase.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean,System.Boolean)
+  id: Clear(System.Boolean,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean, Boolean)
+  nameWithType: EPDColorBase.Clear(Boolean, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 75
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void Clear(bool colored, bool updateDisplay = false)
+    parameters:
+    - id: colored
+      type: System.Boolean
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Sub Clear(colored As Boolean, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.EPDColorBase.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 92
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, DisplayBase.BitmapMode bitmapMode)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: bitmap
+      type: System.Byte[]
+    - id: bitmapMode
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), bitmapMode As DisplayBase.BitmapMode)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap*
+  nameWithType.vb: EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 115
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: bitmap
+      type: System.Byte[]
+    - id: color
+      type: Color
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap*
+  nameWithType.vb: EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  id: DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: EPDColorBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 139
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawPixel(int x, int y, bool colored)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: colored
+      type: System.Boolean
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, colored As Boolean)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel(System.Int32,System.Int32,System.Boolean)
+  id: DrawColoredPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawColoredPixel(Int32, Int32, Boolean)
+  nameWithType: EPDColorBase.DrawColoredPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawColoredPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 157
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void DrawColoredPixel(int x, int y, bool colored)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: colored
+      type: System.Boolean
+    content.vb: Public Sub DrawColoredPixel(x As Integer, y As Integer, colored As Boolean)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,Color)
+  id: DrawPixel(System.Int32,System.Int32,Color)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: EPDColorBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32, System.Int32, Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 175
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawPixel(int x, int y, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: color
+      type: Color
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  id: DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  nameWithType: EPDColorBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32, System.Int32, System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 191
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void DrawPixel(int x, int y, byte r, byte g, byte b)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    content.vb: Public Sub DrawPixel(x As Integer, y As Integer, r As Byte, g As Byte, b As Byte)
+  overload: Meadow.Foundation.Displays.EPDColorBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDColorBase.PANEL_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PANEL_SETTING
+  id: PANEL_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PANEL_SETTING
+  nameWithType: EPDColorBase.PANEL_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PANEL_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PANEL_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 209
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PANEL_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PANEL_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_SETTING
+  id: POWER_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_SETTING
+  nameWithType: EPDColorBase.POWER_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 210
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_OFF
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_OFF
+  id: POWER_OFF
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_OFF
+  nameWithType: EPDColorBase.POWER_OFF
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_OFF
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_OFF
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 211
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_OFF
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_OFF As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_OFF_SEQUENCE_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_OFF_SEQUENCE_SETTING
+  id: POWER_OFF_SEQUENCE_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_OFF_SEQUENCE_SETTING
+  nameWithType: EPDColorBase.POWER_OFF_SEQUENCE_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_OFF_SEQUENCE_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_OFF_SEQUENCE_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 212
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_OFF_SEQUENCE_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_OFF_SEQUENCE_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_ON
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_ON
+  id: POWER_ON
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_ON
+  nameWithType: EPDColorBase.POWER_ON
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_ON
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_ON
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 213
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_ON
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_ON As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_ON_MEASURE
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_ON_MEASURE
+  id: POWER_ON_MEASURE
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_ON_MEASURE
+  nameWithType: EPDColorBase.POWER_ON_MEASURE
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_ON_MEASURE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_ON_MEASURE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 214
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_ON_MEASURE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_ON_MEASURE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.BOOSTER_SOFT_START
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.BOOSTER_SOFT_START
+  id: BOOSTER_SOFT_START
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: BOOSTER_SOFT_START
+  nameWithType: EPDColorBase.BOOSTER_SOFT_START
+  fullName: Meadow.Foundation.Displays.EPDColorBase.BOOSTER_SOFT_START
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BOOSTER_SOFT_START
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 215
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte BOOSTER_SOFT_START
+    return:
+      type: System.Byte
+    content.vb: Protected Shared BOOSTER_SOFT_START As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.DEEP_SLEEP
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.DEEP_SLEEP
+  id: DEEP_SLEEP
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DEEP_SLEEP
+  nameWithType: EPDColorBase.DEEP_SLEEP
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DEEP_SLEEP
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DEEP_SLEEP
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 216
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DEEP_SLEEP
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DEEP_SLEEP As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_1
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_1
+  id: DATA_START_TRANSMISSION_1
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DATA_START_TRANSMISSION_1
+  nameWithType: EPDColorBase.DATA_START_TRANSMISSION_1
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_START_TRANSMISSION_1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 217
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_START_TRANSMISSION_1
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_START_TRANSMISSION_1 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.DATA_STOP
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.DATA_STOP
+  id: DATA_STOP
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DATA_STOP
+  nameWithType: EPDColorBase.DATA_STOP
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DATA_STOP
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_STOP
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 218
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_STOP
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_STOP As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.DISPLAY_REFRESH
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.DISPLAY_REFRESH
+  id: DISPLAY_REFRESH
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DISPLAY_REFRESH
+  nameWithType: EPDColorBase.DISPLAY_REFRESH
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DISPLAY_REFRESH
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DISPLAY_REFRESH
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 219
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DISPLAY_REFRESH
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DISPLAY_REFRESH As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_2
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_2
+  id: DATA_START_TRANSMISSION_2
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: DATA_START_TRANSMISSION_2
+  nameWithType: EPDColorBase.DATA_START_TRANSMISSION_2
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DATA_START_TRANSMISSION_2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_START_TRANSMISSION_2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 220
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_START_TRANSMISSION_2
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_START_TRANSMISSION_2 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.VCOM_LUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.VCOM_LUT
+  id: VCOM_LUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: VCOM_LUT
+  nameWithType: EPDColorBase.VCOM_LUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.VCOM_LUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCOM_LUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 221
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCOM_LUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCOM_LUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.W2W_LUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.W2W_LUT
+  id: W2W_LUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: W2W_LUT
+  nameWithType: EPDColorBase.W2W_LUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.W2W_LUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: W2W_LUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 222
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte W2W_LUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared W2W_LUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.B2W_LUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.B2W_LUT
+  id: B2W_LUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: B2W_LUT
+  nameWithType: EPDColorBase.B2W_LUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.B2W_LUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: B2W_LUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 223
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte B2W_LUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared B2W_LUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.W2B_LUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.W2B_LUT
+  id: W2B_LUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: W2B_LUT
+  nameWithType: EPDColorBase.W2B_LUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.W2B_LUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: W2B_LUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 224
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte W2B_LUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared W2B_LUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.B2B_LUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.B2B_LUT
+  id: B2B_LUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: B2B_LUT
+  nameWithType: EPDColorBase.B2B_LUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.B2B_LUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: B2B_LUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 225
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte B2B_LUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared B2B_LUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.PLL_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PLL_CONTROL
+  id: PLL_CONTROL
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PLL_CONTROL
+  nameWithType: EPDColorBase.PLL_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PLL_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PLL_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 226
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PLL_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PLL_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION
+  id: TEMPERATURE_SENSOR_CALIBRATION
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_CALIBRATION
+  nameWithType: EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION
+  fullName: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_CALIBRATION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_CALIBRATION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 227
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_CALIBRATION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_CALIBRATION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_SELECTION
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_SELECTION
+  id: TEMPERATURE_SENSOR_SELECTION
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_SELECTION
+  nameWithType: EPDColorBase.TEMPERATURE_SENSOR_SELECTION
+  fullName: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_SELECTION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_SELECTION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 228
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_SELECTION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_SELECTION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_WRITE
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_WRITE
+  id: TEMPERATURE_SENSOR_WRITE
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_WRITE
+  nameWithType: EPDColorBase.TEMPERATURE_SENSOR_WRITE
+  fullName: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_WRITE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_WRITE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 229
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_WRITE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_WRITE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_READ
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_READ
+  id: TEMPERATURE_SENSOR_READ
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_READ
+  nameWithType: EPDColorBase.TEMPERATURE_SENSOR_READ
+  fullName: Meadow.Foundation.Displays.EPDColorBase.TEMPERATURE_SENSOR_READ
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_READ
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 230
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_READ
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_READ As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING
+  id: VCOM_AND_DATA_INTERVAL_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: VCOM_AND_DATA_INTERVAL_SETTING
+  nameWithType: EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.VCOM_AND_DATA_INTERVAL_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCOM_AND_DATA_INTERVAL_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 231
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCOM_AND_DATA_INTERVAL_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCOM_AND_DATA_INTERVAL_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.LOW_POWER_DETECTION
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.LOW_POWER_DETECTION
+  id: LOW_POWER_DETECTION
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: LOW_POWER_DETECTION
+  nameWithType: EPDColorBase.LOW_POWER_DETECTION
+  fullName: Meadow.Foundation.Displays.EPDColorBase.LOW_POWER_DETECTION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LOW_POWER_DETECTION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 232
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LOW_POWER_DETECTION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LOW_POWER_DETECTION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.TCON_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.TCON_SETTING
+  id: TCON_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: TCON_SETTING
+  nameWithType: EPDColorBase.TCON_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.TCON_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TCON_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 233
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TCON_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TCON_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.RESOLUTION_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.RESOLUTION_SETTING
+  id: RESOLUTION_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: RESOLUTION_SETTING
+  nameWithType: EPDColorBase.RESOLUTION_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.RESOLUTION_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RESOLUTION_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 234
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte RESOLUTION_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared RESOLUTION_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.GET_STATUS
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.GET_STATUS
+  id: GET_STATUS
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: GET_STATUS
+  nameWithType: EPDColorBase.GET_STATUS
+  fullName: Meadow.Foundation.Displays.EPDColorBase.GET_STATUS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GET_STATUS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 235
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte GET_STATUS
+    return:
+      type: System.Byte
+    content.vb: Protected Shared GET_STATUS As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.AUTO_MEASURE_VCOM
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.AUTO_MEASURE_VCOM
+  id: AUTO_MEASURE_VCOM
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: AUTO_MEASURE_VCOM
+  nameWithType: EPDColorBase.AUTO_MEASURE_VCOM
+  fullName: Meadow.Foundation.Displays.EPDColorBase.AUTO_MEASURE_VCOM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AUTO_MEASURE_VCOM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 236
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte AUTO_MEASURE_VCOM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared AUTO_MEASURE_VCOM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.READ_VCOM_VALUE
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.READ_VCOM_VALUE
+  id: READ_VCOM_VALUE
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: READ_VCOM_VALUE
+  nameWithType: EPDColorBase.READ_VCOM_VALUE
+  fullName: Meadow.Foundation.Displays.EPDColorBase.READ_VCOM_VALUE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: READ_VCOM_VALUE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 237
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte READ_VCOM_VALUE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared READ_VCOM_VALUE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.VCM_DC_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.VCM_DC_SETTING
+  id: VCM_DC_SETTING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: VCM_DC_SETTING
+  nameWithType: EPDColorBase.VCM_DC_SETTING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.VCM_DC_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCM_DC_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 238
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCM_DC_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCM_DC_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_WINDOW
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PARTIAL_WINDOW
+  id: PARTIAL_WINDOW
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_WINDOW
+  nameWithType: EPDColorBase.PARTIAL_WINDOW
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_WINDOW
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_WINDOW
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 239
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_WINDOW
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_WINDOW As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_IN
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PARTIAL_IN
+  id: PARTIAL_IN
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_IN
+  nameWithType: EPDColorBase.PARTIAL_IN
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_IN
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_IN
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 240
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_IN
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_IN As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_OUT
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PARTIAL_OUT
+  id: PARTIAL_OUT
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_OUT
+  nameWithType: EPDColorBase.PARTIAL_OUT
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PARTIAL_OUT
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_OUT
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 241
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_OUT
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_OUT As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.PROGRAM_MODE
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.PROGRAM_MODE
+  id: PROGRAM_MODE
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: PROGRAM_MODE
+  nameWithType: EPDColorBase.PROGRAM_MODE
+  fullName: Meadow.Foundation.Displays.EPDColorBase.PROGRAM_MODE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PROGRAM_MODE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 242
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PROGRAM_MODE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PROGRAM_MODE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.ACTIVE_PROGRAM
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.ACTIVE_PROGRAM
+  id: ACTIVE_PROGRAM
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: ACTIVE_PROGRAM
+  nameWithType: EPDColorBase.ACTIVE_PROGRAM
+  fullName: Meadow.Foundation.Displays.EPDColorBase.ACTIVE_PROGRAM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ACTIVE_PROGRAM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 243
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte ACTIVE_PROGRAM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared ACTIVE_PROGRAM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.READ_OTP_DATA
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.READ_OTP_DATA
+  id: READ_OTP_DATA
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: READ_OTP_DATA
+  nameWithType: EPDColorBase.READ_OTP_DATA
+  fullName: Meadow.Foundation.Displays.EPDColorBase.READ_OTP_DATA
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: READ_OTP_DATA
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 244
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte READ_OTP_DATA
+    return:
+      type: System.Byte
+    content.vb: Protected Shared READ_OTP_DATA As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDColorBase.POWER_SAVING
+  commentId: F:Meadow.Foundation.Displays.EPDColorBase.POWER_SAVING
+  id: POWER_SAVING
+  parent: Meadow.Foundation.Displays.EPDColorBase
+  langs:
+  - csharp
+  - vb
+  name: POWER_SAVING
+  nameWithType: EPDColorBase.POWER_SAVING
+  fullName: Meadow.Foundation.Displays.EPDColorBase.POWER_SAVING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_SAVING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs
+    startLine: 245
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_SAVING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_SAVING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.DisplayBase
+  commentId: T:Meadow.Foundation.Displays.DisplayBase
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase
+  nameWithType: DisplayBase
+  fullName: Meadow.Foundation.Displays.DisplayBase
+- uid: Meadow.Foundation.Displays.SPIDisplayBase
+  commentId: T:Meadow.Foundation.Displays.SPIDisplayBase
+  parent: Meadow.Foundation.Displays
+  name: SPIDisplayBase
+  nameWithType: SPIDisplayBase
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase
+- uid: Meadow.Foundation.Displays.IDisplay
+  commentId: T:Meadow.Foundation.Displays.IDisplay
+  parent: Meadow.Foundation.Displays
+  name: IDisplay
+  nameWithType: IDisplay
+  fullName: Meadow.Foundation.Displays.IDisplay
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spiBOneByteBuffer
+  nameWithType: SPIDisplayBase.spiBOneByteBuffer
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: dataCommandPort
+  nameWithType: SPIDisplayBase.dataCommandPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: resetPort
+  nameWithType: SPIDisplayBase.resetPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: busyPort
+  nameWithType: SPIDisplayBase.busyPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spi
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spi
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spi
+  nameWithType: SPIDisplayBase.spi
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spi
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Data
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Data
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Data
+  nameWithType: SPIDisplayBase.Data
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Data
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Command
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Command
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Command
+  nameWithType: SPIDisplayBase.Command
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Command
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: Write(Byte)
+  nameWithType: SPIDisplayBase.Write(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Reset()
+  nameWithType: SPIDisplayBase.Reset()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: DelayMs(Int32)
+  nameWithType: SPIDisplayBase.DelayMs(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendCommand(Byte)
+  nameWithType: SPIDisplayBase.SendCommand(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Int32)
+  nameWithType: SPIDisplayBase.SendData(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte)
+  nameWithType: SPIDisplayBase.SendData(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte[])
+  nameWithType: SPIDisplayBase.SendData(Byte[])
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  nameWithType.vb: SPIDisplayBase.SendData(Byte())
+  fullName.vb: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte())
+  name.vb: SendData(Byte())
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: WaitUntilIdle()
+  nameWithType: SPIDisplayBase.WaitUntilIdle()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Width
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Width
+  nameWithType: DisplayBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayBase.Width
+- uid: Meadow.Foundation.Displays.DisplayBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Height
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Height
+  nameWithType: DisplayBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayBase.Height
+- uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: IgnoreOutOfBoundsPixels
+  nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
+  fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: ColorMode
+  nameWithType: DisplayBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.ColorMode
+- uid: Meadow.Foundation.Displays.EPDColorBase.ColorMode*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.ColorMode
+  name: ColorMode
+  nameWithType: EPDColorBase.ColorMode
+  fullName: Meadow.Foundation.Displays.EPDColorBase.ColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.EPDColorBase.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.#ctor
+  name: EPDColorBase
+  nameWithType: EPDColorBase.EPDColorBase
+  fullName: Meadow.Foundation.Displays.EPDColorBase.EPDColorBase
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Displays.EPDColorBase.Initialize*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.Initialize
+  name: Initialize
+  nameWithType: EPDColorBase.Initialize
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Initialize
+- uid: Meadow.Foundation.Displays.EPDColorBase.Refresh*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.Refresh
+  name: Refresh
+  nameWithType: EPDColorBase.Refresh
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Refresh
+- uid: Meadow.Foundation.Displays.DisplayBase.Show
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Show
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Show()
+  nameWithType: DisplayBase.Show()
+  fullName: Meadow.Foundation.Displays.DisplayBase.Show()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDColorBase.Show*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.Show
+  name: Show
+  nameWithType: EPDColorBase.Show
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Show
+- uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: Clear(Boolean)
+  nameWithType: DisplayBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDColorBase.Clear*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.Clear
+  name: Clear
+  nameWithType: EPDColorBase.Clear
+  fullName: Meadow.Foundation.Displays.EPDColorBase.Clear
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.DrawBitmap
+  name: DrawBitmap
+  nameWithType: EPDColorBase.DrawBitmap
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawBitmap
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawPixel*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.DrawPixel
+  name: DrawPixel
+  nameWithType: EPDColorBase.DrawPixel
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawPixel
+- uid: Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel*
+  commentId: Overload:Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel
+  name: DrawColoredPixel
+  nameWithType: EPDColorBase.DrawColoredPixel
+  fullName: Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.HallEffect
+  commentId: N:Meadow.Foundation.Sensors.HallEffect
+  id: Meadow.Foundation.Sensors.HallEffect
+  children:
+  - Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Sensors.HallEffect
+  nameWithType: Meadow.Foundation.Sensors.HallEffect
+  fullName: Meadow.Foundation.Sensors.HallEffect
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  commentId: T:Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer
+  name: LinearHallEffectTachometer
+  nameWithType: LinearHallEffectTachometer
+  fullName: Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer

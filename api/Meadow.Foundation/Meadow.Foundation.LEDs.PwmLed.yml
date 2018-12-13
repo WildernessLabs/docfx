@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.LEDs.PwmLed
+  commentId: T:Meadow.Foundation.LEDs.PwmLed
+  id: PwmLed
+  parent: Meadow.Foundation.LEDs
+  children:
+  - Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPin,System.Single)
+  - Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPort,System.Single)
+  - Meadow.Foundation.LEDs.PwmLed._animationThread
+  - Meadow.Foundation.LEDs.PwmLed._brightness
+  - Meadow.Foundation.LEDs.PwmLed._isOn
+  - Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty
+  - Meadow.Foundation.LEDs.PwmLed._running
+  - Meadow.Foundation.LEDs.PwmLed.Brightness
+  - Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+  - Meadow.Foundation.LEDs.PwmLed.IsOn
+  - Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port
+  - Meadow.Foundation.LEDs.PwmLed.Port
+  - Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)
+  - Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32,System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.PwmLed.Stop
+  langs:
+  - csharp
+  - vb
+  name: PwmLed
+  nameWithType: PwmLed
+  fullName: Meadow.Foundation.LEDs.PwmLed
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PwmLed
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nRepresents an LED whose voltage is limited by the duty-cycle of a PWM\nsignal.\n"
+  example: []
+  syntax:
+    content: 'public class PwmLed : object, IPwmLed, ILed'
+    content.vb: >-
+      Public Class PwmLed
+          Inherits Object
+          Implements IPwmLed, ILed
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.LEDs.IPwmLed
+  - Meadow.Foundation.LEDs.ILed
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.LEDs.PwmLed.Brightness
+  commentId: P:Meadow.Foundation.LEDs.PwmLed.Brightness
+  id: Brightness
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: Brightness
+  nameWithType: PwmLed.Brightness
+  fullName: Meadow.Foundation.LEDs.PwmLed.Brightness
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Brightness
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nThe brightness of the LED, controlled by a PWM signal, and limited by the \ncalculated maximum voltage. Valid values are from 0 to 1, inclusive.\n"
+  example: []
+  syntax:
+    content: public float Brightness { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Brightness As Single
+  overload: Meadow.Foundation.LEDs.PwmLed.Brightness*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.LEDs.PwmLed._brightness
+  commentId: F:Meadow.Foundation.LEDs.PwmLed._brightness
+  id: _brightness
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: _brightness
+  nameWithType: PwmLed._brightness
+  fullName: Meadow.Foundation.LEDs.PwmLed._brightness
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _brightness
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected float _brightness
+    return:
+      type: System.Single
+    content.vb: Protected _brightness As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.PwmLed.IsOn
+  commentId: P:Meadow.Foundation.LEDs.PwmLed.IsOn
+  id: IsOn
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: IsOn
+  nameWithType: PwmLed.IsOn
+  fullName: Meadow.Foundation.LEDs.PwmLed.IsOn
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public bool IsOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOn As Boolean
+  overload: Meadow.Foundation.LEDs.PwmLed.IsOn*
+  implements:
+  - Meadow.Foundation.LEDs.ILed.IsOn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed._isOn
+  commentId: F:Meadow.Foundation.LEDs.PwmLed._isOn
+  id: _isOn
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: _isOn
+  nameWithType: PwmLed._isOn
+  fullName: Meadow.Foundation.LEDs.PwmLed._isOn
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _isOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 37
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected bool _isOn
+    return:
+      type: System.Boolean
+    content.vb: Protected _isOn As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+  commentId: P:Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+  id: ForwardVoltage
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: ForwardVoltage
+  nameWithType: PwmLed.ForwardVoltage
+  fullName: Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ForwardVoltage
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 39
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public float ForwardVoltage { get; protected set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ForwardVoltage As Single
+  overload: Meadow.Foundation.LEDs.PwmLed.ForwardVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty
+  commentId: F:Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty
+  id: _maximumPwmDuty
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: _maximumPwmDuty
+  nameWithType: PwmLed._maximumPwmDuty
+  fullName: Meadow.Foundation.LEDs.PwmLed._maximumPwmDuty
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _maximumPwmDuty
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 42
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected float _maximumPwmDuty
+    return:
+      type: System.Single
+    content.vb: Protected _maximumPwmDuty As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.PwmLed.Port
+  commentId: P:Meadow.Foundation.LEDs.PwmLed.Port
+  id: Port
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: PwmLed.Port
+  fullName: Meadow.Foundation.LEDs.PwmLed.Port
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Port
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public IPwmPort Port { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: Public Property Port As IPwmPort
+  overload: Meadow.Foundation.LEDs.PwmLed.Port*
+  implements:
+  - Meadow.Foundation.LEDs.IPwmLed.Port
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port
+  commentId: P:Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port
+  id: Meadow#Foundation#LEDs#ILed#Port
+  isEii: true
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: ILed.Port
+  nameWithType: PwmLed.ILed.Port
+  fullName: Meadow.Foundation.LEDs.PwmLed.Meadow.Foundation.LEDs.ILed.Port
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Meadow.Foundation.LEDs.ILed.Port
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 45
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: IDigitalOutputPort ILed.Port { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: ReadOnly WriteOnly Property Meadow.Foundation.LEDs.ILed.Port As IDigitalOutputPort Implements ILed.Port
+  overload: Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port*
+  implements:
+  - Meadow.Foundation.LEDs.ILed.Port
+  nameWithType.vb: PwmLed.Meadow.Foundation.LEDs.ILed.Port
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Meadow.Foundation.LEDs.ILed.Port
+- uid: Meadow.Foundation.LEDs.PwmLed._animationThread
+  commentId: F:Meadow.Foundation.LEDs.PwmLed._animationThread
+  id: _animationThread
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: _animationThread
+  nameWithType: PwmLed._animationThread
+  fullName: Meadow.Foundation.LEDs.PwmLed._animationThread
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _animationThread
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 47
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected Thread _animationThread
+    return:
+      type: Thread
+    content.vb: Protected _animationThread As Thread
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.PwmLed._running
+  commentId: F:Meadow.Foundation.LEDs.PwmLed._running
+  id: _running
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: _running
+  nameWithType: PwmLed._running
+  fullName: Meadow.Foundation.LEDs.PwmLed._running
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _running
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected bool _running
+    return:
+      type: System.Boolean
+    content.vb: Protected _running As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPin,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPin,System.Single)
+  id: '#ctor(Meadow.Hardware.IPwmPin,System.Single)'
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: PwmLed(IPwmPin, Single)
+  nameWithType: PwmLed.PwmLed(IPwmPin, Single)
+  fullName: Meadow.Foundation.LEDs.PwmLed.PwmLed(Meadow.Hardware.IPwmPin, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 55
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nInitializes a new instance of the <xref href=\"Meadow.Foundation.LEDs.PwmLed\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public PwmLed(IPwmPin pin, float forwardVoltage)
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IPwmPin
+      description: Pin.
+    - id: forwardVoltage
+      type: System.Single
+      description: Forward voltage.
+    content.vb: Public Sub New(pin As IPwmPin, forwardVoltage As Single)
+  overload: Meadow.Foundation.LEDs.PwmLed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPort,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.#ctor(Meadow.Hardware.IPwmPort,System.Single)
+  id: '#ctor(Meadow.Hardware.IPwmPort,System.Single)'
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: PwmLed(IPwmPort, Single)
+  nameWithType: PwmLed.PwmLed(IPwmPort, Single)
+  fullName: Meadow.Foundation.LEDs.PwmLed.PwmLed(Meadow.Hardware.IPwmPort, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 66
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nCreates a new PwmLed on the specified PWM pin and limited to the appropriate \nvoltage based on the passed `forwardVoltage`. Typical LED forward voltages \ncan be found in the `TypicalForwardVoltage` class.\n"
+  example: []
+  syntax:
+    content: public PwmLed(IPwmPort pwm, float forwardVoltage)
+    parameters:
+    - id: pwm
+      type: Meadow.Hardware.IPwmPort
+    - id: forwardVoltage
+      type: System.Single
+      description: ''
+    content.vb: Public Sub New(pwm As IPwmPort, forwardVoltage As Single)
+  overload: Meadow.Foundation.LEDs.PwmLed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)
+  id: SetBrightness(System.Single)
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: SetBrightness(Single)
+  nameWithType: PwmLed.SetBrightness(Single)
+  fullName: Meadow.Foundation.LEDs.PwmLed.SetBrightness(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetBrightness
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 82
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public void SetBrightness(float brightness)
+    parameters:
+    - id: brightness
+      type: System.Single
+    content.vb: Public Sub SetBrightness(brightness As Single)
+  overload: Meadow.Foundation.LEDs.PwmLed.SetBrightness*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32,System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32,System.Int32,System.Single,System.Single)
+  id: StartBlink(System.Int32,System.Int32,System.Single,System.Single)
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartBlink(Int32, Int32, Single, Single)
+  nameWithType: PwmLed.StartBlink(Int32, Int32, Single, Single)
+  fullName: Meadow.Foundation.LEDs.PwmLed.StartBlink(System.Int32, System.Int32, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartBlink
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 113
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStart the Blink animation which sets the brightness of the LED alternating between a low and high brightness setting, using the durations provided.\n"
+  example: []
+  syntax:
+    content: public void StartBlink(int onDuration = 200, int offDuration = 200, float highBrightness = null, float lowBrightness = null)
+    parameters:
+    - id: onDuration
+      type: System.Int32
+    - id: offDuration
+      type: System.Int32
+    - id: highBrightness
+      type: System.Single
+    - id: lowBrightness
+      type: System.Single
+    content.vb: Public Sub StartBlink(onDuration As Integer = 200, offDuration As Integer = 200, highBrightness As Single = Nothing, lowBrightness As Single = Nothing)
+  overload: Meadow.Foundation.LEDs.PwmLed.StartBlink*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32,System.Single,System.Single)
+  id: StartPulse(System.Int32,System.Single,System.Single)
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartPulse(Int32, Single, Single)
+  nameWithType: PwmLed.StartPulse(Int32, Single, Single)
+  fullName: Meadow.Foundation.LEDs.PwmLed.StartPulse(System.Int32, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartPulse
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 147
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStart the Pulse animation which gradually alternates the brightness of the LED between a low and high brightness setting, using the durations provided.\n"
+  example: []
+  syntax:
+    content: public void StartPulse(int pulseDuration = 600, float highBrightness = null, float lowBrightness = 0.15F)
+    parameters:
+    - id: pulseDuration
+      type: System.Int32
+    - id: highBrightness
+      type: System.Single
+    - id: lowBrightness
+      type: System.Single
+    content.vb: Public Sub StartPulse(pulseDuration As Integer = 600, highBrightness As Single = Nothing, lowBrightness As Single = 0.15F)
+  overload: Meadow.Foundation.LEDs.PwmLed.StartPulse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.PwmLed.Stop
+  commentId: M:Meadow.Foundation.LEDs.PwmLed.Stop
+  id: Stop
+  parent: Meadow.Foundation.LEDs.PwmLed
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: PwmLed.Stop()
+  fullName: Meadow.Foundation.LEDs.PwmLed.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/PwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Stop
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/PwmLed.cs
+    startLine: 201
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStops any running animations.\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Meadow.Foundation.LEDs.PwmLed.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.LEDs
+  commentId: N:Meadow.Foundation.LEDs
+  name: Meadow.Foundation.LEDs
+  nameWithType: Meadow.Foundation.LEDs
+  fullName: Meadow.Foundation.LEDs
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.LEDs.IPwmLed
+  commentId: T:Meadow.Foundation.LEDs.IPwmLed
+  parent: Meadow.Foundation.LEDs
+  name: IPwmLed
+  nameWithType: IPwmLed
+  fullName: Meadow.Foundation.LEDs.IPwmLed
+- uid: Meadow.Foundation.LEDs.ILed
+  commentId: T:Meadow.Foundation.LEDs.ILed
+  parent: Meadow.Foundation.LEDs
+  name: ILed
+  nameWithType: ILed
+  fullName: Meadow.Foundation.LEDs.ILed
+- uid: Meadow.Foundation.LEDs.PwmLed.Brightness*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.Brightness
+  name: Brightness
+  nameWithType: PwmLed.Brightness
+  fullName: Meadow.Foundation.LEDs.PwmLed.Brightness
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.LEDs.PwmLed.IsOn*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.IsOn
+  name: IsOn
+  nameWithType: PwmLed.IsOn
+  fullName: Meadow.Foundation.LEDs.PwmLed.IsOn
+- uid: Meadow.Foundation.LEDs.ILed.IsOn
+  commentId: P:Meadow.Foundation.LEDs.ILed.IsOn
+  parent: Meadow.Foundation.LEDs.ILed
+  name: IsOn
+  nameWithType: ILed.IsOn
+  fullName: Meadow.Foundation.LEDs.ILed.IsOn
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.LEDs.PwmLed.ForwardVoltage*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+  name: ForwardVoltage
+  nameWithType: PwmLed.ForwardVoltage
+  fullName: Meadow.Foundation.LEDs.PwmLed.ForwardVoltage
+- uid: Meadow.Foundation.LEDs.PwmLed.Port*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.Port
+  name: Port
+  nameWithType: PwmLed.Port
+  fullName: Meadow.Foundation.LEDs.PwmLed.Port
+- uid: Meadow.Foundation.LEDs.IPwmLed.Port
+  commentId: P:Meadow.Foundation.LEDs.IPwmLed.Port
+  parent: Meadow.Foundation.LEDs.IPwmLed
+  name: Port
+  nameWithType: IPwmLed.Port
+  fullName: Meadow.Foundation.LEDs.IPwmLed.Port
+- uid: Meadow.Hardware.IPwmPort
+  commentId: T:Meadow.Hardware.IPwmPort
+  parent: Meadow.Hardware
+  name: IPwmPort
+  nameWithType: IPwmPort
+  fullName: Meadow.Hardware.IPwmPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.Meadow#Foundation#LEDs#ILed#Port
+  name: ILed.Port
+  nameWithType: PwmLed.ILed.Port
+  fullName: Meadow.Foundation.LEDs.PwmLed.Meadow.Foundation.LEDs.ILed.Port
+  nameWithType.vb: PwmLed.Meadow.Foundation.LEDs.ILed.Port
+  name.vb: Meadow.Foundation.LEDs.ILed.Port
+- uid: Meadow.Foundation.LEDs.ILed.Port
+  commentId: P:Meadow.Foundation.LEDs.ILed.Port
+  parent: Meadow.Foundation.LEDs.ILed
+  name: Port
+  nameWithType: ILed.Port
+  fullName: Meadow.Foundation.LEDs.ILed.Port
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Thread
+  isExternal: true
+  name: Thread
+  nameWithType: Thread
+  fullName: Thread
+- uid: Meadow.Foundation.LEDs.PwmLed
+  commentId: T:Meadow.Foundation.LEDs.PwmLed
+  name: PwmLed
+  nameWithType: PwmLed
+  fullName: Meadow.Foundation.LEDs.PwmLed
+- uid: Meadow.Foundation.LEDs.PwmLed.#ctor*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.#ctor
+  name: PwmLed
+  nameWithType: PwmLed.PwmLed
+  fullName: Meadow.Foundation.LEDs.PwmLed.PwmLed
+- uid: Meadow.Hardware.IPwmPin
+  commentId: T:Meadow.Hardware.IPwmPin
+  parent: Meadow.Hardware
+  name: IPwmPin
+  nameWithType: IPwmPin
+  fullName: Meadow.Hardware.IPwmPin
+- uid: Meadow.Foundation.LEDs.PwmLed.SetBrightness*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.SetBrightness
+  name: SetBrightness
+  nameWithType: PwmLed.SetBrightness
+  fullName: Meadow.Foundation.LEDs.PwmLed.SetBrightness
+- uid: Meadow.Foundation.LEDs.PwmLed.StartBlink*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.StartBlink
+  name: StartBlink
+  nameWithType: PwmLed.StartBlink
+  fullName: Meadow.Foundation.LEDs.PwmLed.StartBlink
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.LEDs.PwmLed.StartPulse*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.StartPulse
+  name: StartPulse
+  nameWithType: PwmLed.StartPulse
+  fullName: Meadow.Foundation.LEDs.PwmLed.StartPulse
+- uid: Meadow.Foundation.LEDs.PwmLed.Stop*
+  commentId: Overload:Meadow.Foundation.LEDs.PwmLed.Stop
+  name: Stop
+  nameWithType: PwmLed.Stop
+  fullName: Meadow.Foundation.LEDs.PwmLed.Stop

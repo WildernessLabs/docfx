@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  id: ADXL345.Range
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Range.EightG
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Range.FourG
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Range.SixteenG
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Range.TwoG
+  langs:
+  - csharp
+  - vb
+  name: ADXL345.Range
+  nameWithType: ADXL345.Range
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Range
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 61
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPossible values for the range (see DataFormat register).\n"
+  remarks: "\nSee page 27 of the data sheet.\n"
+  example: []
+  syntax:
+    content: 'public enum Range : byte'
+    content.vb: Public Enum Range As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range.TwoG
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL345.Range.TwoG
+  id: TwoG
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  langs:
+  - csharp
+  - vb
+  name: TwoG
+  nameWithType: ADXL345.Range.TwoG
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range.TwoG
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TwoG
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 63
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: TwoG = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+    content.vb: TwoG = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range.FourG
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL345.Range.FourG
+  id: FourG
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  langs:
+  - csharp
+  - vb
+  name: FourG
+  nameWithType: ADXL345.Range.FourG
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range.FourG
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FourG
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 64
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: FourG = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+    content.vb: FourG = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range.EightG
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL345.Range.EightG
+  id: EightG
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  langs:
+  - csharp
+  - vb
+  name: EightG
+  nameWithType: ADXL345.Range.EightG
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range.EightG
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EightG
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 65
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: EightG = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+    content.vb: EightG = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range.SixteenG
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL345.Range.SixteenG
+  id: SixteenG
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  langs:
+  - csharp
+  - vb
+  name: SixteenG
+  nameWithType: ADXL345.Range.SixteenG
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range.SixteenG
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SixteenG
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 66
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: SixteenG = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+    content.vb: SixteenG = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  parent: Meadow.Foundation.Sensors.Motion
+  name: ADXL345.Range
+  nameWithType: ADXL345.Range
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range

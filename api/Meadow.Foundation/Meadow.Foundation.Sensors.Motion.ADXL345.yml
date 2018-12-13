@@ -1,0 +1,806 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345
+  id: ADXL345
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL345.#ctor(System.Byte,System.UInt16,System.UInt16,System.Double)
+  - Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChanged
+  - Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+  - Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters
+  - Meadow.Foundation.Sensors.Motion.ADXL345.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+  - Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+  - Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+  - Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Range)
+  - Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate(System.Byte,System.Boolean)
+  - Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Frequency)
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Update
+  - Meadow.Foundation.Sensors.Motion.ADXL345.X
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Y
+  - Meadow.Foundation.Sensors.Motion.ADXL345.Z
+  langs:
+  - csharp
+  - vb
+  name: ADXL345
+  nameWithType: ADXL345
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ADXL345
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 12
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDriver for the ADXL345 3-axis digital accelerometer capable of measuring\n"
+  example: []
+  syntax:
+    content: 'public class ADXL345 : object'
+    content.vb: >-
+      Public Class ADXL345
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL345.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: ADXL345.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 20
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMinimum value that can be used for the update interval when the\nsensor is being configured to generate interrupts.\n"
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+  id: DeviceID
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: DeviceID
+  nameWithType: ADXL345.DeviceID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 134
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the device ID, this should return 0xe5.\n"
+  example: []
+  syntax:
+    content: public byte DeviceID { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property DeviceID As Byte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.X
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.X
+  id: X
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: ADXL345.X
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.X
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: X
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 154
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAcceleration along the X-axis.\n"
+  remarks: "\nThis property will only contain valid data after a call to Read or after\nan interrupt has been generated.\n"
+  example: []
+  syntax:
+    content: public short X { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property X As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.X*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Y
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.Y
+  id: Y
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: ADXL345.Y
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Y
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Y
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 163
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAcceleration along the Y-axis.\n"
+  remarks: "\nThis property will only contain valid data after a call to Read or after\nan interrupt has been generated.\n"
+  example: []
+  syntax:
+    content: public short Y { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Y As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.Y*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Z
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.Z
+  id: Z
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: ADXL345.Z
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Z
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Z
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 172
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAcceleration along the Z-axis.\n"
+  remarks: "\nThis property will only contain valid data after a call to Read or after\nan interrupt has been generated.\n"
+  example: []
+  syntax:
+    content: public short Z { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Z As Short
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.Z*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+  id: OffsetX
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: OffsetX
+  nameWithType: ADXL345.OffsetX
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OffsetX
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 180
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nValues stored in this register are automatically added to the X reading.\n"
+  remarks: "\nScale factor is 15.6 mg/LSB so 0x7f represents an offset of 2g.\n"
+  example: []
+  syntax:
+    content: public sbyte OffsetX { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property OffsetX As SByte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+  id: OffsetY
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: OffsetY
+  nameWithType: ADXL345.OffsetY
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OffsetY
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 192
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nValues stored in this register are automatically added to the Y reading.\n"
+  remarks: "\nScale factor is 15.6 mg/LSB so 0x7f represents an offset of 2g.\n"
+  example: []
+  syntax:
+    content: public sbyte OffsetY { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property OffsetY As SByte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+  id: OffsetZ
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: OffsetZ
+  nameWithType: ADXL345.OffsetZ
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OffsetZ
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 204
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nValues stored in this register are automatically added to the Z reading.\n"
+  remarks: "\nScale factor is 15.6 mg/LSB so 0x7f represents an offset of 2g.\n"
+  example: []
+  syntax:
+    content: public sbyte OffsetZ { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property OffsetZ As SByte
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+  id: AccelerationChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: AccelerationChangeNotificationThreshold
+  nameWithType: ADXL345.AccelerationChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerationChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 215
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nAny changes in the acceleration that are greater than the acceleration\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public double AccelerationChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AccelerationChangeNotificationThreshold As Double
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChanged
+  commentId: E:Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChanged
+  id: AccelerationChanged
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: AccelerationChanged
+  nameWithType: ADXL345.AccelerationChanged
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerationChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 225
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEvent to be raised when the acceleration is greater than\n+/- AccelerationChangeNotificationThreshold.\n"
+  example: []
+  syntax:
+    content: public event SensorVectorEventHandler AccelerationChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorVectorEventHandler
+    content.vb: Public Event AccelerationChanged As SensorVectorEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.#ctor(System.Byte,System.UInt16,System.UInt16,System.Double)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.#ctor(System.Byte,System.UInt16,System.UInt16,System.Double)
+  id: '#ctor(System.Byte,System.UInt16,System.UInt16,System.Double)'
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: ADXL345(Byte, UInt16, UInt16, Double)
+  nameWithType: ADXL345.ADXL345(Byte, UInt16, UInt16, Double)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.ADXL345(System.Byte, System.UInt16, System.UInt16, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 245
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nCreate a new instance of the ADXL345 communicating over the I2C interface.\n"
+  example: []
+  syntax:
+    content: public ADXL345(byte address = null, ushort speed = null, ushort updateInterval = null, double accelerationChangeNotificationThreshold = null)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the I2C sensor
+    - id: speed
+      type: System.UInt16
+      description: Speed of the I2C bus in KHz
+    - id: updateInterval
+      type: System.UInt16
+      description: How frequently this sensor should be updated.
+    - id: accelerationChangeNotificationThreshold
+      type: System.Double
+      description: Notification threshold, changes greater than +/- this value will generate and interrupt.
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, updateInterval As UShort = Nothing, accelerationChangeNotificationThreshold As Double = Nothing)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Frequency)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Frequency)
+  id: SetPowerState(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Frequency)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: SetPowerState(Boolean, Boolean, Boolean, Boolean, ADXL345.Frequency)
+  nameWithType: ADXL345.SetPowerState(Boolean, Boolean, Boolean, Boolean, ADXL345.Frequency)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState(System.Boolean, System.Boolean, System.Boolean, System.Boolean, Meadow.Foundation.Sensors.Motion.ADXL345.Frequency)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetPowerState
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 309
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the PowerControl register (see pages 25 and 26 of the data sheet)\n"
+  example: []
+  syntax:
+    content: public void SetPowerState(bool linkActivityAndInactivity, bool autoASleep, bool measuring, bool sleep, ADXL345.Frequency frequency)
+    parameters:
+    - id: linkActivityAndInactivity
+      type: System.Boolean
+      description: Link the activity and inactivity events.
+    - id: autoASleep
+      type: System.Boolean
+      description: Enable / disable auto sleep when the activity and inactivity are linked.
+    - id: measuring
+      type: System.Boolean
+      description: Enable or disable measurements (turn on or off).
+    - id: sleep
+      type: System.Boolean
+      description: Put the part to sleep (true) or run in normal more (false).
+    - id: frequency
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+      description: Frequency of measurements when the part is in sleep mode.
+    content.vb: Public Sub SetPowerState(linkActivityAndInactivity As Boolean, autoASleep As Boolean, measuring As Boolean, sleep As Boolean, frequency As ADXL345.Frequency)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Range)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Range)
+  id: SetDataFormat(System.Boolean,System.Boolean,System.Boolean,System.Boolean,Meadow.Foundation.Sensors.Motion.ADXL345.Range)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: SetDataFormat(Boolean, Boolean, Boolean, Boolean, ADXL345.Range)
+  nameWithType: ADXL345.SetDataFormat(Boolean, Boolean, Boolean, Boolean, ADXL345.Range)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat(System.Boolean, System.Boolean, System.Boolean, System.Boolean, Meadow.Foundation.Sensors.Motion.ADXL345.Range)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetDataFormat
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 350
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nConfigure the data format (see pages 26 and 27 of the data sheet).\n"
+  remarks: "\nThe range of the sensor is determined by the following table:\n0:  +/- 2g\n1:  +/- 4g\n2:  +/- 8g\n3:  +/ 16g\n"
+  example: []
+  syntax:
+    content: public void SetDataFormat(bool selfTest, bool spiMode, bool fullResolution, bool justification, ADXL345.Range range)
+    parameters:
+    - id: selfTest
+      type: System.Boolean
+      description: Put the device into self test mode when true.
+    - id: spiMode
+      type: System.Boolean
+      description: Use 3-wire SPI (true) or 4-wire SPI (false).
+    - id: fullResolution
+      type: System.Boolean
+      description: "\nSet to full resolution (true) or 10-bit mode using the range determined by the range\nparameter (false).\n"
+    - id: justification
+      type: System.Boolean
+      description: Left-justified when true, right justified with sign extension when false.
+    - id: range
+      type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+      description: Set the range of the sensor to 2g, 4g, 8g or 16g
+    content.vb: Public Sub SetDataFormat(selfTest As Boolean, spiMode As Boolean, fullResolution As Boolean, justification As Boolean, range As ADXL345.Range)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate(System.Byte,System.Boolean)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate(System.Byte,System.Boolean)
+  id: SetDataRate(System.Byte,System.Boolean)
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: SetDataRate(Byte, Boolean)
+  nameWithType: ADXL345.SetDataRate(Byte, Boolean)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate(System.Byte, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetDataRate
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 381
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the data rate and low power mode for the sensor.\n"
+  example: []
+  syntax:
+    content: public void SetDataRate(byte dataRate, bool lowPower)
+    parameters:
+    - id: dataRate
+      type: System.Byte
+      description: Data rate for the sensor.
+    - id: lowPower
+      type: System.Boolean
+      description: "\nSetting this to true will enter low power mode (note measurement will encounter more noise in\nthis mode).\n"
+    content.vb: Public Sub SetDataRate(dataRate As Byte, lowPower As Boolean)
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Update
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: ADXL345.Update()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 402
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the six sensor bytes and set the values for the X, Y and Z acceleration.\n"
+  remarks: "\nAll six acceleration registers should be read at the same time to ensure consistency\nof the measurements.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters
+  id: DisplayRegisters
+  parent: Meadow.Foundation.Sensors.Motion.ADXL345
+  langs:
+  - csharp
+  - vb
+  name: DisplayRegisters()
+  nameWithType: ADXL345.DisplayRegisters()
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL345/ADXL345.cs
+    startLine: 425
+  assemblies:
+  - Sensors.Motion.ADXL345
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDump the registers to the debug output stream.\n"
+  example: []
+  syntax:
+    content: public void DisplayRegisters()
+    content.vb: Public Sub DisplayRegisters
+  overload: Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+  name: DeviceID
+  nameWithType: ADXL345.DeviceID
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.DeviceID
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.X*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.X
+  name: X
+  nameWithType: ADXL345.X
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.X
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Y*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.Y
+  name: Y
+  nameWithType: ADXL345.Y
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Y
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Z*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.Z
+  name: Z
+  nameWithType: ADXL345.Z
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Z
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+  name: OffsetX
+  nameWithType: ADXL345.OffsetX
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetX
+- uid: System.SByte
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+  name: OffsetY
+  nameWithType: ADXL345.OffsetY
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetY
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+  name: OffsetZ
+  nameWithType: ADXL345.OffsetZ
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.OffsetZ
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+  name: AccelerationChangeNotificationThreshold
+  nameWithType: ADXL345.AccelerationChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.AccelerationChangeNotificationThreshold
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.Sensors.SensorVectorEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorVectorEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorVectorEventHandler
+  nameWithType: SensorVectorEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventHandler
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.#ctor
+  name: ADXL345
+  nameWithType: ADXL345.ADXL345
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.ADXL345
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState
+  name: SetPowerState
+  nameWithType: ADXL345.SetPowerState
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetPowerState
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+  parent: Meadow.Foundation.Sensors.Motion
+  name: ADXL345.Frequency
+  nameWithType: ADXL345.Frequency
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat
+  name: SetDataFormat
+  nameWithType: ADXL345.SetDataFormat
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataFormat
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  parent: Meadow.Foundation.Sensors.Motion
+  name: ADXL345.Range
+  nameWithType: ADXL345.Range
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate
+  name: SetDataRate
+  nameWithType: ADXL345.SetDataRate
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.SetDataRate
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.Update
+  name: Update
+  nameWithType: ADXL345.Update
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Update
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters
+  name: DisplayRegisters
+  nameWithType: ADXL345.DisplayRegisters
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.DisplayRegisters

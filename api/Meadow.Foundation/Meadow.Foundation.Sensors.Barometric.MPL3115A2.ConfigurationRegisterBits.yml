@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  commentId: T:Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  id: MPL3115A2.ConfigurationRegisterBits
+  parent: Meadow.Foundation.Sensors.Barometric
+  children:
+  - Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.DataReadyEvent
+  - Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnablePressureEvent
+  - Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnableTemperatureEvent
+  langs:
+  - csharp
+  - vb
+  name: MPL3115A2.ConfigurationRegisterBits
+  nameWithType: MPL3115A2.ConfigurationRegisterBits
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigurationRegisterBits
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+    startLine: 171
+  assemblies:
+  - Sensors.Barometric.MPL3115A2
+  namespace: Meadow.Foundation.Sensors.Barometric
+  summary: "\nPressure/Temperature data configuration register bits.\n"
+  remarks: "\nFor more information see section 7.7 of the datasheet.\n"
+  example: []
+  syntax:
+    content: 'public class ConfigurationRegisterBits : object'
+    content.vb: >-
+      Public Class ConfigurationRegisterBits
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.DataReadyEvent
+  commentId: F:Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.DataReadyEvent
+  id: DataReadyEvent
+  parent: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  langs:
+  - csharp
+  - vb
+  name: DataReadyEvent
+  nameWithType: MPL3115A2.ConfigurationRegisterBits.DataReadyEvent
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.DataReadyEvent
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataReadyEvent
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+    startLine: 176
+  assemblies:
+  - Sensors.Barometric.MPL3115A2
+  namespace: Meadow.Foundation.Sensors.Barometric
+  summary: "\nPT_DATA_CFG - Enable the event detection.\n"
+  example: []
+  syntax:
+    content: public static readonly byte DataReadyEvent
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly DataReadyEvent As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnablePressureEvent
+  commentId: F:Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnablePressureEvent
+  id: EnablePressureEvent
+  parent: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  langs:
+  - csharp
+  - vb
+  name: EnablePressureEvent
+  nameWithType: MPL3115A2.ConfigurationRegisterBits.EnablePressureEvent
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnablePressureEvent
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EnablePressureEvent
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+    startLine: 181
+  assemblies:
+  - Sensors.Barometric.MPL3115A2
+  namespace: Meadow.Foundation.Sensors.Barometric
+  summary: "\nPT_DATA_CFG - Enable the pressure data ready events.\n"
+  example: []
+  syntax:
+    content: public static readonly byte EnablePressureEvent
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly EnablePressureEvent As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnableTemperatureEvent
+  commentId: F:Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnableTemperatureEvent
+  id: EnableTemperatureEvent
+  parent: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  langs:
+  - csharp
+  - vb
+  name: EnableTemperatureEvent
+  nameWithType: MPL3115A2.ConfigurationRegisterBits.EnableTemperatureEvent
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.EnableTemperatureEvent
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EnableTemperatureEvent
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Barometric.MPL3115A2/MPL3115A2.cs
+    startLine: 186
+  assemblies:
+  - Sensors.Barometric.MPL3115A2
+  namespace: Meadow.Foundation.Sensors.Barometric
+  summary: "\nPT_DATA_CFG - Enable the temperature data ready events.\n"
+  example: []
+  syntax:
+    content: public static readonly byte EnableTemperatureEvent
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly EnableTemperatureEvent As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Barometric
+  commentId: N:Meadow.Foundation.Sensors.Barometric
+  name: Meadow.Foundation.Sensors.Barometric
+  nameWithType: Meadow.Foundation.Sensors.Barometric
+  fullName: Meadow.Foundation.Sensors.Barometric
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  commentId: T:Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  id: SpdtSwitch
+  parent: Meadow.Foundation.Sensors.Switches
+  children:
+  - Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor(Meadow.Hardware.IDigitalPin)
+  - Meadow.Foundation.Sensors.Switches.SpdtSwitch.Changed
+  - Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+  - Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+  langs:
+  - csharp
+  - vb
+  name: SpdtSwitch
+  nameWithType: SpdtSwitch
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SpdtSwitch
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  summary: "\nRepresents a simple, two position, Single-Pole-Dual-Throw (SPDT) switch that closes a circuit \nto either ground/common or high depending on position.\n"
+  example: []
+  syntax:
+    content: 'public class SpdtSwitch : object, ISwitch, ISensor'
+    content.vb: >-
+      Public Class SpdtSwitch
+          Inherits Object
+          Implements ISwitch, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.Switches.ISwitch
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.Changed
+  commentId: E:Meadow.Foundation.Sensors.Switches.SpdtSwitch.Changed
+  id: Changed
+  parent: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  langs:
+  - csharp
+  - vb
+  name: Changed
+  nameWithType: SpdtSwitch.Changed
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.Changed
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Changed
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public event EventHandler Changed
+    return:
+      type: EventHandler
+    content.vb: Public Event Changed As EventHandler
+  implements:
+  - Meadow.Foundation.Sensors.Switches.ISwitch.Changed
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+  commentId: P:Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+  id: DigitalIn
+  parent: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  langs:
+  - csharp
+  - vb
+  name: DigitalIn
+  nameWithType: SpdtSwitch.DigitalIn
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DigitalIn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public DigitalInputPort DigitalIn { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Public Property DigitalIn As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+  commentId: P:Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+  id: IsOn
+  parent: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  langs:
+  - csharp
+  - vb
+  name: IsOn
+  nameWithType: SpdtSwitch.IsOn
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public bool IsOn { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOn As Boolean
+  overload: Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn*
+  implements:
+  - Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor(Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor(Meadow.Hardware.IDigitalPin)
+  id: '#ctor(Meadow.Hardware.IDigitalPin)'
+  parent: Meadow.Foundation.Sensors.Switches.SpdtSwitch
+  langs:
+  - csharp
+  - vb
+  name: SpdtSwitch(IDigitalPin)
+  nameWithType: SpdtSwitch.SpdtSwitch(IDigitalPin)
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.SpdtSwitch(Meadow.Hardware.IDigitalPin)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/SpdtSwitch.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public SpdtSwitch(IDigitalPin pin)
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Public Sub New(pin As IDigitalPin)
+  overload: Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Switches
+  commentId: N:Meadow.Foundation.Sensors.Switches
+  name: Meadow.Foundation.Sensors.Switches
+  nameWithType: Meadow.Foundation.Sensors.Switches
+  fullName: Meadow.Foundation.Sensors.Switches
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.Switches.ISwitch
+  commentId: T:Meadow.Foundation.Sensors.Switches.ISwitch
+  parent: Meadow.Foundation.Sensors.Switches
+  name: ISwitch
+  nameWithType: ISwitch
+  fullName: Meadow.Foundation.Sensors.Switches.ISwitch
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.Switches.ISwitch.Changed
+  commentId: E:Meadow.Foundation.Sensors.Switches.ISwitch.Changed
+  parent: Meadow.Foundation.Sensors.Switches.ISwitch
+  name: Changed
+  nameWithType: ISwitch.Changed
+  fullName: Meadow.Foundation.Sensors.Switches.ISwitch.Changed
+- uid: EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+  name: DigitalIn
+  nameWithType: SpdtSwitch.DigitalIn
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.DigitalIn
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+  name: IsOn
+  nameWithType: SpdtSwitch.IsOn
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.IsOn
+- uid: Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
+  commentId: P:Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
+  parent: Meadow.Foundation.Sensors.Switches.ISwitch
+  name: IsOn
+  nameWithType: ISwitch.IsOn
+  fullName: Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.SpdtSwitch.#ctor
+  name: SpdtSwitch
+  nameWithType: SpdtSwitch.SpdtSwitch
+  fullName: Meadow.Foundation.Sensors.Switches.SpdtSwitch.SpdtSwitch
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin

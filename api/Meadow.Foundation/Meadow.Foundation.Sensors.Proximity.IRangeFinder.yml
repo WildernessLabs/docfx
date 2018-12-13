@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Proximity.IRangeFinder
+  commentId: T:Meadow.Foundation.Sensors.Proximity.IRangeFinder
+  id: IRangeFinder
+  parent: Meadow.Foundation.Sensors.Proximity
+  children:
+  - Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+  langs:
+  - csharp
+  - vb
+  name: IRangeFinder
+  nameWithType: IRangeFinder
+  fullName: Meadow.Foundation.Sensors.Proximity.IRangeFinder
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Proximity/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IRangeFinder
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Proximity/IRangeFinder.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Proximity
+  syntax:
+    content: public interface IRangeFinder
+    content.vb: Public Interface IRangeFinder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+  commentId: P:Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+  id: DistanceOutput
+  parent: Meadow.Foundation.Sensors.Proximity.IRangeFinder
+  langs:
+  - csharp
+  - vb
+  name: DistanceOutput
+  nameWithType: IRangeFinder.DistanceOutput
+  fullName: Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Proximity/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DistanceOutput
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Proximity/IRangeFinder.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Proximity
+  syntax:
+    content: float DistanceOutput { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property DistanceOutput As Single
+  overload: Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Proximity
+  commentId: N:Meadow.Foundation.Sensors.Proximity
+  name: Meadow.Foundation.Sensors.Proximity
+  nameWithType: Meadow.Foundation.Sensors.Proximity
+  fullName: Meadow.Foundation.Sensors.Proximity
+- uid: Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput*
+  commentId: Overload:Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+  name: DistanceOutput
+  nameWithType: IRangeFinder.DistanceOutput
+  fullName: Meadow.Foundation.Sensors.Proximity.IRangeFinder.DistanceOutput
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

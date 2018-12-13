@@ -1,0 +1,8 @@
+- name: Articles
+  href: articles/
+- name: Meadow
+  href: api/Meadow
+  homepage: api/Meadow/index.md
+- name: Meadow.Foundation
+  href: api/Meadow.Foundation
+  homepage: api/Meadow.Foundation/index.md

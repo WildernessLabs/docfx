@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  id: ADXL362.ActivityInactivityControlMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityEnable
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityMode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.DefaultMode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.InactivityEnable
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.Inactivitymode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LinkedMode
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LoopMode
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.ActivityInactivityControlMask
+  nameWithType: ADXL362.ActivityInactivityControlMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityInactivityControlMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 514
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nControl bits determining how the activity / inactivity functionality is configured.\n"
+  example: []
+  syntax:
+    content: 'protected static class ActivityInactivityControlMask : object'
+    content.vb: >-
+      Protected Module ActivityInactivityControlMask
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityEnable
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityEnable
+  id: ActivityEnable
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: ActivityEnable
+  nameWithType: ADXL362.ActivityInactivityControlMask.ActivityEnable
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityEnable
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityEnable
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 519
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDetermine if the activity functionality is enabled (1) or disabled (0).\n"
+  example: []
+  syntax:
+    content: public const byte ActivityEnable = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityEnable As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityMode
+  id: ActivityMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: ActivityMode
+  nameWithType: ADXL362.ActivityInactivityControlMask.ActivityMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.ActivityMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 524
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDetermine is activity mode is in reference (1) or absolute mode (0).\n"
+  example: []
+  syntax:
+    content: public const byte ActivityMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.InactivityEnable
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.InactivityEnable
+  id: InactivityEnable
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: InactivityEnable
+  nameWithType: ADXL362.ActivityInactivityControlMask.InactivityEnable
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.InactivityEnable
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityEnable
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 529
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDetermine if inactivity mode is enabled (1) or disabled (0).\n"
+  example: []
+  syntax:
+    content: public const byte InactivityEnable = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityEnable As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.Inactivitymode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.Inactivitymode
+  id: Inactivitymode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: Inactivitymode
+  nameWithType: ADXL362.ActivityInactivityControlMask.Inactivitymode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.Inactivitymode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Inactivitymode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 534
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDetermine is inactivity mode is in reference (1) or absolute mode (0).\n"
+  example: []
+  syntax:
+    content: public const byte Inactivitymode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Inactivitymode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.DefaultMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.DefaultMode
+  id: DefaultMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: DefaultMode
+  nameWithType: ADXL362.ActivityInactivityControlMask.DefaultMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.DefaultMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DefaultMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 545
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDefault mode.\n"
+  remarks: "\nActivity and inactivity detection are both enabled, and their interrupts\n(if mapped) must be acknowledged by the host processor by reading the STATUS\nregister. Auto-sleep is disabled in this mode. Use this mode for free fall\ndetection applications.\n"
+  example: []
+  syntax:
+    content: public const byte DefaultMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DefaultMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LinkedMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LinkedMode
+  id: LinkedMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: LinkedMode
+  nameWithType: ADXL362.ActivityInactivityControlMask.LinkedMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LinkedMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LinkedMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 555
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nLink activity and inactivity.\n"
+  remarks: "\nActivity and inactivity detection are linked sequentially such that only one\nis enabled at a time. Their interrupts (if mapped) must be acknowledged by\nthe host processor by reading the STATUS register.\n"
+  example: []
+  syntax:
+    content: public const byte LinkedMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const LinkedMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LoopMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LoopMode
+  id: LoopMode
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
+  langs:
+  - csharp
+  - vb
+  name: LoopMode
+  nameWithType: ADXL362.ActivityInactivityControlMask.LoopMode
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.LoopMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LoopMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 567
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\n"
+  remarks: "\nActivity and inactivity detection are linked sequentially such that only one is\nenabled at a time, and their interrupts are internally acknowledged (do not\nneed to be serviced by the host processor).\nTo use either linked or looped mode, both ACT_EN (Bit 0) and INACT_EN (Bit 2)\nmust be set to 1; otherwise, the default mode is used. For additional information,\nrefer to the Linking Activity and Inactivity Detection section.\n"
+  example: []
+  syntax:
+    content: public const byte LoopMode = null
+    return:
+      type: System.Byte
+    content.vb: Public Const LoopMode As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

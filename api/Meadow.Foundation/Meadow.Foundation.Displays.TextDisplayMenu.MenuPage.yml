@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  id: MenuPage
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  children:
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuPage._scrollPosition
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+  langs:
+  - csharp
+  - vb
+  name: MenuPage
+  nameWithType: MenuPage
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MenuPage
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+    startLine: 5
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: 'public class MenuPage : object'
+    content.vb: >-
+      Public Class MenuPage
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+  id: ScrollPosition
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  langs:
+  - csharp
+  - vb
+  name: ScrollPosition
+  nameWithType: MenuPage.ScrollPosition
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ScrollPosition
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+    startLine: 7
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public int ScrollPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ScrollPosition As Integer
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage._scrollPosition
+  commentId: F:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage._scrollPosition
+  id: _scrollPosition
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  langs:
+  - csharp
+  - vb
+  name: _scrollPosition
+  nameWithType: MenuPage._scrollPosition
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage._scrollPosition
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _scrollPosition
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+    startLine: 18
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: protected int _scrollPosition
+    return:
+      type: System.Int32
+    content.vb: Protected _scrollPosition As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+  id: MenuItems
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  langs:
+  - csharp
+  - vb
+  name: MenuItems
+  nameWithType: MenuPage.MenuItems
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MenuItems
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuPage.cs
+    startLine: 20
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public ArrayList MenuItems { get; set; }
+    parameters: []
+    return:
+      type: ArrayList
+    content.vb: Public Property MenuItems As ArrayList
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+  name: ScrollPosition
+  nameWithType: MenuPage.ScrollPosition
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.ScrollPosition
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+  name: MenuItems
+  nameWithType: MenuPage.MenuItems
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.MenuItems
+- uid: ArrayList
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: ArrayList

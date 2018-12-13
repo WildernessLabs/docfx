@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IAnalogPort
+  commentId: T:Meadow.Hardware.IAnalogPort
+  id: IAnalogPort
+  parent: Meadow.Hardware
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAnalogPort
+  nameWithType: IAnalogPort
+  fullName: Meadow.Hardware.IAnalogPort
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IAnalogPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IAnalogPort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogPort.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public interface IAnalogPort : IPort'
+    content.vb: >-
+      Public Interface IAnalogPort
+          Inherits IPort
+  inheritedMembers:
+  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.SignalType
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IPort.DirectionType
+  commentId: P:Meadow.Hardware.IPort.DirectionType
+  parent: Meadow.Hardware.IPort
+  name: DirectionType
+  nameWithType: IPort.DirectionType
+  fullName: Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.IPort.SignalType
+  commentId: P:Meadow.Hardware.IPort.SignalType
+  parent: Meadow.Hardware.IPort
+  name: SignalType
+  nameWithType: IPort.SignalType
+  fullName: Meadow.Hardware.IPort.SignalType
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort

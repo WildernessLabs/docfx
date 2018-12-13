@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.PinBase
+  commentId: T:Meadow.Hardware.PinBase
+  id: PinBase
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.PinBase.#ctor(System.String,System.UInt32)
+  - Meadow.Hardware.PinBase.Address
+  - Meadow.Hardware.PinBase.Name
+  langs:
+  - csharp
+  - vb
+  name: PinBase
+  nameWithType: PinBase
+  fullName: Meadow.Hardware.PinBase
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PinBase
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public abstract class PinBase : IPin'
+    content.vb: >-
+      Public MustInherit Class PinBase
+          Implements IPin
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Meadow.Hardware.AnalogPinBase
+  - Meadow.Hardware.DigitalPinBase
+  - Meadow.Hardware.Pin
+  implements:
+  - Meadow.Hardware.IPin
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Hardware.PinBase.Name
+  commentId: P:Meadow.Hardware.PinBase.Name
+  id: Name
+  parent: Meadow.Hardware.PinBase
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PinBase.Name
+  fullName: Meadow.Hardware.PinBase.Name
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Name
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public string Name { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Meadow.Hardware.PinBase.Name*
+  implements:
+  - Meadow.Hardware.IPin.Name
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Hardware.PinBase.Address
+  commentId: P:Meadow.Hardware.PinBase.Address
+  id: Address
+  parent: Meadow.Hardware.PinBase
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: PinBase.Address
+  fullName: Meadow.Hardware.PinBase.Address
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Address
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public uint Address { get; protected set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Address As UInteger
+  overload: Meadow.Hardware.PinBase.Address*
+  implements:
+  - Meadow.Hardware.IPin.Address
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Hardware.PinBase.#ctor(System.String,System.UInt32)
+  commentId: M:Meadow.Hardware.PinBase.#ctor(System.String,System.UInt32)
+  id: '#ctor(System.String,System.UInt32)'
+  parent: Meadow.Hardware.PinBase
+  langs:
+  - csharp
+  - vb
+  name: PinBase(String, UInt32)
+  nameWithType: PinBase.PinBase(String, UInt32)
+  fullName: Meadow.Hardware.PinBase.PinBase(System.String, System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: protected PinBase(string name, uint address)
+    parameters:
+    - id: name
+      type: System.String
+    - id: address
+      type: System.UInt32
+    content.vb: Protected Sub New(name As String, address As UInteger)
+  overload: Meadow.Hardware.PinBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.IPin
+  commentId: T:Meadow.Hardware.IPin
+  parent: Meadow.Hardware
+  name: IPin
+  nameWithType: IPin
+  fullName: Meadow.Hardware.IPin
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.PinBase.Name*
+  commentId: Overload:Meadow.Hardware.PinBase.Name
+  name: Name
+  nameWithType: PinBase.Name
+  fullName: Meadow.Hardware.PinBase.Name
+- uid: Meadow.Hardware.IPin.Name
+  commentId: P:Meadow.Hardware.IPin.Name
+  parent: Meadow.Hardware.IPin
+  name: Name
+  nameWithType: IPin.Name
+  fullName: Meadow.Hardware.IPin.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Hardware.PinBase.Address*
+  commentId: Overload:Meadow.Hardware.PinBase.Address
+  name: Address
+  nameWithType: PinBase.Address
+  fullName: Meadow.Hardware.PinBase.Address
+- uid: Meadow.Hardware.IPin.Address
+  commentId: P:Meadow.Hardware.IPin.Address
+  parent: Meadow.Hardware.IPin
+  name: Address
+  nameWithType: IPin.Address
+  fullName: Meadow.Hardware.IPin.Address
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Hardware.PinBase.#ctor*
+  commentId: Overload:Meadow.Hardware.PinBase.#ctor
+  name: PinBase
+  nameWithType: PinBase.PinBase
+  fullName: Meadow.Hardware.PinBase.PinBase

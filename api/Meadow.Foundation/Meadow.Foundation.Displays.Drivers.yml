@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.Drivers
+  commentId: N:Meadow.Foundation.Displays.Drivers
+  id: Meadow.Foundation.Displays.Drivers
+  children:
+  - Meadow.Foundation.Displays.Drivers.EPD2i9
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Displays.Drivers
+  nameWithType: Meadow.Foundation.Displays.Drivers
+  fullName: Meadow.Foundation.Displays.Drivers
+  type: Namespace
+  assemblies:
+  - Displays.WaveShare_ePaper
+references:
+- uid: Meadow.Foundation.Displays.Drivers.EPD2i9
+  commentId: T:Meadow.Foundation.Displays.Drivers.EPD2i9
+  name: EPD2i9
+  nameWithType: EPD2i9
+  fullName: Meadow.Foundation.Displays.Drivers.EPD2i9

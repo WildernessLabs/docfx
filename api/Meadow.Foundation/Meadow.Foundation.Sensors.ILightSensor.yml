@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.ILightSensor
+  commentId: T:Meadow.Foundation.Sensors.ILightSensor
+  id: ILightSensor
+  parent: Meadow.Foundation.Sensors
+  children:
+  - Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  - Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  langs:
+  - csharp
+  - vb
+  name: ILightSensor
+  nameWithType: ILightSensor
+  fullName: Meadow.Foundation.Sensors.ILightSensor
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/ILightSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ILightSensor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/ILightSensor.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nLight sensor interface requirements.\n"
+  example: []
+  syntax:
+    content: 'public interface ILightSensor : ISensor'
+    content.vb: >-
+      Public Interface ILightSensor
+          Inherits ISensor
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  commentId: E:Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  id: LightLevelChanged
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  langs:
+  - csharp
+  - vb
+  name: LightLevelChanged
+  nameWithType: ILightSensor.LightLevelChanged
+  fullName: Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/ILightSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LightLevelChanged
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/ILightSensor.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nThe LightChanged event will be raised when the difference (absolute value)\nbetween the current Light reading and the last notified reading is greater\nthan the LightChangeNotificationThreshold.\n"
+  example: []
+  syntax:
+    content: event SensorFloatEventHandler LightLevelChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Event LightLevelChanged As SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  commentId: P:Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  id: Luminosity
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  langs:
+  - csharp
+  - vb
+  name: Luminosity
+  nameWithType: ILightSensor.Luminosity
+  fullName: Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/ILightSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Luminosity
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/ILightSensor.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nLast value read from the Light sensor.\n"
+  example: []
+  syntax:
+    content: float Luminosity { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property Luminosity As Single
+  overload: Meadow.Foundation.Sensors.ILightSensor.Luminosity*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  id: LightLevelChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  langs:
+  - csharp
+  - vb
+  name: LightLevelChangeNotificationThreshold
+  nameWithType: ILightSensor.LightLevelChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/ILightSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LightLevelChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/ILightSensor.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nThreshold value for the changed notification event.\n"
+  example: []
+  syntax:
+    content: float LightLevelChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property LightLevelChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.ILightSensor.Luminosity*
+  commentId: Overload:Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  name: Luminosity
+  nameWithType: ILightSensor.Luminosity
+  fullName: Meadow.Foundation.Sensors.ILightSensor.Luminosity
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  name: LightLevelChangeNotificationThreshold
+  nameWithType: ILightSensor.LightLevelChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold

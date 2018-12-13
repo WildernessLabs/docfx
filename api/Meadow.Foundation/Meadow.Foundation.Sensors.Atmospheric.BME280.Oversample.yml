@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  id: BME280.Oversample
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  children:
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX1
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX16
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX2
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX4
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX8
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.Skip
+  langs:
+  - csharp
+  - vb
+  name: BME280.Oversample
+  nameWithType: BME280.Oversample
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Oversample
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 37
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nValid oversampling values.\n"
+  remarks: "\n000 - Data output set to 0x8000\n001 - Oversampling x1\n010 - Oversampling x2\n011 - Oversampling x4\n100 - Oversampling x8\n101, 110, 111 - Oversampling x16\n"
+  example: []
+  syntax:
+    content: 'public enum Oversample : byte'
+    content.vb: Public Enum Oversample As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.Skip
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.Skip
+  id: Skip
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: Skip
+  nameWithType: BME280.Oversample.Skip
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.Skip
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Skip
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 39
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Skip = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: Skip = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX1
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX1
+  id: OversampleX1
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: OversampleX1
+  nameWithType: BME280.Oversample.OversampleX1
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OversampleX1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 40
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: OversampleX1 = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX1 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX2
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX2
+  id: OversampleX2
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: OversampleX2
+  nameWithType: BME280.Oversample.OversampleX2
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OversampleX2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 41
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: OversampleX2 = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX2 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX4
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX4
+  id: OversampleX4
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: OversampleX4
+  nameWithType: BME280.Oversample.OversampleX4
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX4
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OversampleX4
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 42
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: OversampleX4 = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX4 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX8
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX8
+  id: OversampleX8
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: OversampleX8
+  nameWithType: BME280.Oversample.OversampleX8
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX8
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OversampleX8
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 43
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: OversampleX8 = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX8 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX16
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX16
+  id: OversampleX16
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  langs:
+  - csharp
+  - vb
+  name: OversampleX16
+  nameWithType: BME280.Oversample.OversampleX16
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample.OversampleX16
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OversampleX16
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 44
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: OversampleX16 = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX16 = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Atmospheric
+  commentId: N:Meadow.Foundation.Sensors.Atmospheric
+  name: Meadow.Foundation.Sensors.Atmospheric
+  nameWithType: Meadow.Foundation.Sensors.Atmospheric
+  fullName: Meadow.Foundation.Sensors.Atmospheric
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  name: BME280.Oversample
+  nameWithType: BME280.Oversample
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample

@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder
+  commentId: T:Netduino.Foundation.Sensors.Distance.IRangeFinder
+  id: IRangeFinder
+  parent: Netduino.Foundation.Sensors.Distance
+  children:
+  - Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+  - Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance
+  - Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+  langs:
+  - csharp
+  - vb
+  name: IRangeFinder
+  nameWithType: IRangeFinder
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IRangeFinder
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Foundation
+  namespace: Netduino.Foundation.Sensors.Distance
+  syntax:
+    content: public interface IRangeFinder
+    content.vb: Public Interface IRangeFinder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+  commentId: P:Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+  id: CurrentDistance
+  parent: Netduino.Foundation.Sensors.Distance.IRangeFinder
+  langs:
+  - csharp
+  - vb
+  name: CurrentDistance
+  nameWithType: IRangeFinder.CurrentDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CurrentDistance
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Netduino.Foundation.Sensors.Distance
+  syntax:
+    content: float CurrentDistance { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property CurrentDistance As Single
+  overload: Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+  commentId: P:Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+  id: MinimumDistance
+  parent: Netduino.Foundation.Sensors.Distance.IRangeFinder
+  langs:
+  - csharp
+  - vb
+  name: MinimumDistance
+  nameWithType: IRangeFinder.MinimumDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumDistance
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Foundation
+  namespace: Netduino.Foundation.Sensors.Distance
+  syntax:
+    content: float MinimumDistance { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property MinimumDistance As Single
+  overload: Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance
+  commentId: P:Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance
+  id: MaximumDistance
+  parent: Netduino.Foundation.Sensors.Distance.IRangeFinder
+  langs:
+  - csharp
+  - vb
+  name: MaximumDistance
+  nameWithType: IRangeFinder.MaximumDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MaximumDistance
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Distance/IRangeFinder.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Netduino.Foundation.Sensors.Distance
+  syntax:
+    content: float MaximumDistance { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property MaximumDistance As Single
+  overload: Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Netduino.Foundation.Sensors.Distance
+  commentId: N:Netduino.Foundation.Sensors.Distance
+  name: Netduino.Foundation.Sensors.Distance
+  nameWithType: Netduino.Foundation.Sensors.Distance
+  fullName: Netduino.Foundation.Sensors.Distance
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance*
+  commentId: Overload:Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+  name: CurrentDistance
+  nameWithType: IRangeFinder.CurrentDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.CurrentDistance
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance*
+  commentId: Overload:Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+  name: MinimumDistance
+  nameWithType: IRangeFinder.MinimumDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.MinimumDistance
+- uid: Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance*
+  commentId: Overload:Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance
+  name: MaximumDistance
+  nameWithType: IRangeFinder.MaximumDistance
+  fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder.MaximumDistance

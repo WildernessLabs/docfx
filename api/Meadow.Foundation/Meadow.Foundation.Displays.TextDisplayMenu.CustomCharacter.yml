@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  id: CustomCharacter
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  children:
+  - Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+  - Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+  - Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar
+  - Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString
+  langs:
+  - csharp
+  - vb
+  name: CustomCharacter
+  nameWithType: CustomCharacter
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CustomCharacter
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+    startLine: 11
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: 'public class CustomCharacter : object'
+    content.vb: >-
+      Public Class CustomCharacter
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+  id: CharMap
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  langs:
+  - csharp
+  - vb
+  name: CharMap
+  nameWithType: CustomCharacter.CharMap
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CharMap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+    startLine: 13
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public byte[] CharMap { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CharMap As Byte()
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+  id: MemorySlot
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  langs:
+  - csharp
+  - vb
+  name: MemorySlot
+  nameWithType: CustomCharacter.MemorySlot
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MemorySlot
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+    startLine: 14
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public byte MemorySlot { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property MemorySlot As Byte
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar
+  id: ToChar
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  langs:
+  - csharp
+  - vb
+  name: ToChar()
+  nameWithType: CustomCharacter.ToChar()
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ToChar
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+    startLine: 16
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public char ToChar()
+    return:
+      type: System.Char
+    content.vb: Public Function ToChar As Char
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString
+  id: ToString
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CustomCharacter.ToString()
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ToString
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/TextCharacters.cs
+    startLine: 21
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+  name: CharMap
+  nameWithType: CustomCharacter.CharMap
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.CharMap
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+  name: MemorySlot
+  nameWithType: CustomCharacter.MemorySlot
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.MemorySlot
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar
+  name: ToChar
+  nameWithType: CustomCharacter.ToChar
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToChar
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString
+  name: ToString
+  nameWithType: CustomCharacter.ToString
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.ToString
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

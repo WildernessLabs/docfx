@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  id: BME280.FilterCoefficient
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  children:
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Eight
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Four
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Off
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Sixteen
+  - Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Two
+  langs:
+  - csharp
+  - vb
+  name: BME280.FilterCoefficient
+  nameWithType: BME280.FilterCoefficient
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FilterCoefficient
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 91
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nValid filter co-efficient values.\n"
+  example: []
+  syntax:
+    content: 'public enum FilterCoefficient : byte'
+    content.vb: Public Enum FilterCoefficient As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Off
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Off
+  id: Off
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: BME280.FilterCoefficient.Off
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Off
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Off
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 93
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Off = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+    content.vb: Off = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Two
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Two
+  id: Two
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  langs:
+  - csharp
+  - vb
+  name: Two
+  nameWithType: BME280.FilterCoefficient.Two
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Two
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Two
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 94
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Two = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+    content.vb: Two = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Four
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Four
+  id: Four
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  langs:
+  - csharp
+  - vb
+  name: Four
+  nameWithType: BME280.FilterCoefficient.Four
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Four
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Four
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 95
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Four = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+    content.vb: Four = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Eight
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Eight
+  id: Eight
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  langs:
+  - csharp
+  - vb
+  name: Eight
+  nameWithType: BME280.FilterCoefficient.Eight
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Eight
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Eight
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 96
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Eight = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+    content.vb: Eight = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Sixteen
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Sixteen
+  id: Sixteen
+  parent: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  langs:
+  - csharp
+  - vb
+  name: Sixteen
+  nameWithType: BME280.FilterCoefficient.Sixteen
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient.Sixteen
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Sixteen
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.BME280/BME280.cs
+    startLine: 97
+  assemblies:
+  - Sensors.Atmospheric.BME280
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  syntax:
+    content: Sixteen = null
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+    content.vb: Sixteen = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Atmospheric
+  commentId: N:Meadow.Foundation.Sensors.Atmospheric
+  name: Meadow.Foundation.Sensors.Atmospheric
+  nameWithType: Meadow.Foundation.Sensors.Atmospheric
+  fullName: Meadow.Foundation.Sensors.Atmospheric
+- uid: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  name: BME280.FilterCoefficient
+  nameWithType: BME280.FilterCoefficient
+  fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient

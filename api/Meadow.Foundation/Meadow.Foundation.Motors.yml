@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Motors
+  commentId: N:Meadow.Foundation.Motors
+  id: Meadow.Foundation.Motors
+  children:
+  - Meadow.Foundation.Motors.HBridgeMotor
+  - Meadow.Foundation.Motors.IDCMotor
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Motors
+  nameWithType: Meadow.Foundation.Motors
+  fullName: Meadow.Foundation.Motors
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Motors.HBridgeMotor
+  commentId: T:Meadow.Foundation.Motors.HBridgeMotor
+  name: HBridgeMotor
+  nameWithType: HBridgeMotor
+  fullName: Meadow.Foundation.Motors.HBridgeMotor
+- uid: Meadow.Foundation.Motors.IDCMotor
+  commentId: T:Meadow.Foundation.Motors.IDCMotor
+  parent: Meadow.Foundation.Motors
+  name: IDCMotor
+  nameWithType: IDCMotor
+  fullName: Meadow.Foundation.Motors.IDCMotor
+- uid: Meadow.Foundation.Motors
+  commentId: N:Meadow.Foundation.Motors
+  name: Meadow.Foundation.Motors
+  nameWithType: Meadow.Foundation.Motors
+  fullName: Meadow.Foundation.Motors

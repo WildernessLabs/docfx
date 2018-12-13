@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  commentId: T:Meadow.Foundation.Sensors.GPS.CourseOverGround
+  id: CourseOverGround
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.CourseOverGround.Knots
+  - Meadow.Foundation.Sensors.GPS.CourseOverGround.KPH
+  - Meadow.Foundation.Sensors.GPS.CourseOverGround.MagneticHeading
+  - Meadow.Foundation.Sensors.GPS.CourseOverGround.TrueHeading
+  langs:
+  - csharp
+  - vb
+  name: CourseOverGround
+  nameWithType: CourseOverGround
+  fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  type: Struct
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CourseOverGround
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 44
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nDecoded data for the VTG - Course over ground and ground speed messages.\n"
+  example: []
+  syntax:
+    content: public struct CourseOverGround
+    content.vb: Public Structure CourseOverGround
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Meadow.Foundation.Sensors.GPS.CourseOverGround.TrueHeading
+  commentId: F:Meadow.Foundation.Sensors.GPS.CourseOverGround.TrueHeading
+  id: TrueHeading
+  parent: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  langs:
+  - csharp
+  - vb
+  name: TrueHeading
+  nameWithType: CourseOverGround.TrueHeading
+  fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround.TrueHeading
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TrueHeading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 49
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nTrue heading in degrees.\n"
+  example: []
+  syntax:
+    content: public double TrueHeading
+    return:
+      type: System.Double
+    content.vb: Public TrueHeading As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.CourseOverGround.MagneticHeading
+  commentId: F:Meadow.Foundation.Sensors.GPS.CourseOverGround.MagneticHeading
+  id: MagneticHeading
+  parent: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  langs:
+  - csharp
+  - vb
+  name: MagneticHeading
+  nameWithType: CourseOverGround.MagneticHeading
+  fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround.MagneticHeading
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MagneticHeading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 54
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nMagnetic heading.\n"
+  example: []
+  syntax:
+    content: public double MagneticHeading
+    return:
+      type: System.Double
+    content.vb: Public MagneticHeading As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.CourseOverGround.Knots
+  commentId: F:Meadow.Foundation.Sensors.GPS.CourseOverGround.Knots
+  id: Knots
+  parent: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  langs:
+  - csharp
+  - vb
+  name: Knots
+  nameWithType: CourseOverGround.Knots
+  fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround.Knots
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Knots
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 59
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nSpeed measured in knots.\n"
+  example: []
+  syntax:
+    content: public double Knots
+    return:
+      type: System.Double
+    content.vb: Public Knots As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.CourseOverGround.KPH
+  commentId: F:Meadow.Foundation.Sensors.GPS.CourseOverGround.KPH
+  id: KPH
+  parent: Meadow.Foundation.Sensors.GPS.CourseOverGround
+  langs:
+  - csharp
+  - vb
+  name: KPH
+  nameWithType: CourseOverGround.KPH
+  fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround.KPH
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: KPH
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Structures.cs
+    startLine: 64
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nSpeed measured in kilometers per hour.\n"
+  example: []
+  syntax:
+    content: public double KPH
+    return:
+      type: System.Double
+    content.vb: Public KPH As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

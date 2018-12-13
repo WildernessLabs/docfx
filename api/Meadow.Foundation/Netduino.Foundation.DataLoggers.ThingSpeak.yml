@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak
+  commentId: T:Netduino.Foundation.DataLoggers.ThingSpeak
+  id: ThingSpeak
+  parent: Netduino.Foundation.DataLoggers
+  children:
+  - Netduino.Foundation.DataLoggers.ThingSpeak.#ctor(System.String)
+  - Netduino.Foundation.DataLoggers.ThingSpeak.PostValue(System.String)
+  - Netduino.Foundation.DataLoggers.ThingSpeak.PostValues(System.String[])
+  - Netduino.Foundation.DataLoggers.ThingSpeak.URI
+  - Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+  langs:
+  - csharp
+  - vb
+  name: ThingSpeak
+  nameWithType: ThingSpeak
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ThingSpeak
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 7
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  syntax:
+    content: 'public class ThingSpeak : object'
+    content.vb: >-
+      Public Class ThingSpeak
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+  commentId: P:Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+  id: WriteKey
+  parent: Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: WriteKey
+  nameWithType: ThingSpeak.WriteKey
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteKey
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 15
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  summary: "\nGet or set the ThingSpeak WriteKey.  This key allows this class to identify itself \nwith ThingSpeak and log data with the service.\n"
+  example: []
+  syntax:
+    content: public string WriteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WriteKey As String
+  overload: Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.URI
+  commentId: P:Netduino.Foundation.DataLoggers.ThingSpeak.URI
+  id: URI
+  parent: Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: URI
+  nameWithType: ThingSpeak.URI
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.URI
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: URI
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 20
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  summary: "\nURI of the ThingSpeak api.\n"
+  example: []
+  syntax:
+    content: public string URI { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property URI As String
+  overload: Netduino.Foundation.DataLoggers.ThingSpeak.URI*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.#ctor(System.String)
+  commentId: M:Netduino.Foundation.DataLoggers.ThingSpeak.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: ThingSpeak(String)
+  nameWithType: ThingSpeak.ThingSpeak(String)
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.ThingSpeak(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 30
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  summary: "\nCreate a new ThingSpeak object.\n"
+  example: []
+  syntax:
+    content: public ThingSpeak(string writeKey)
+    parameters:
+    - id: writeKey
+      type: System.String
+      description: Write key.
+    content.vb: Public Sub New(writeKey As String)
+  overload: Netduino.Foundation.DataLoggers.ThingSpeak.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.PostValue(System.String)
+  commentId: M:Netduino.Foundation.DataLoggers.ThingSpeak.PostValue(System.String)
+  id: PostValue(System.String)
+  parent: Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: PostValue(String)
+  nameWithType: ThingSpeak.PostValue(String)
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.PostValue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PostValue
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 44
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  summary: "\nSend a single value to ThingSpeak\n"
+  example: []
+  syntax:
+    content: public void PostValue(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: Value to send to ThingSpeak.
+    content.vb: Public Sub PostValue(value As String)
+  overload: Netduino.Foundation.DataLoggers.ThingSpeak.PostValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues(System.String[])
+  commentId: M:Netduino.Foundation.DataLoggers.ThingSpeak.PostValues(System.String[])
+  id: PostValues(System.String[])
+  parent: Netduino.Foundation.DataLoggers.ThingSpeak
+  langs:
+  - csharp
+  - vb
+  name: PostValues(String[])
+  nameWithType: ThingSpeak.PostValues(String[])
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PostValues
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers.ThingSpeak/ThingSpeak.cs
+    startLine: 53
+  assemblies:
+  - DataLoggers.ThingSpeak
+  namespace: Netduino.Foundation.DataLoggers
+  summary: "\nPost a series of values to ThingSpeak.\n"
+  example: []
+  syntax:
+    content: public void PostValues(params string[] values)
+    parameters:
+    - id: values
+      type: System.String[]
+      description: Array of values to send to ThingSpeak.
+    content.vb: Public Sub PostValues(ParamArray values As String())
+  overload: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues*
+  nameWithType.vb: ThingSpeak.PostValues(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues(System.String())
+  name.vb: PostValues(String())
+references:
+- uid: Netduino.Foundation.DataLoggers
+  commentId: N:Netduino.Foundation.DataLoggers
+  name: Netduino.Foundation.DataLoggers
+  nameWithType: Netduino.Foundation.DataLoggers
+  fullName: Netduino.Foundation.DataLoggers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey*
+  commentId: Overload:Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+  name: WriteKey
+  nameWithType: ThingSpeak.WriteKey
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.WriteKey
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.URI*
+  commentId: Overload:Netduino.Foundation.DataLoggers.ThingSpeak.URI
+  name: URI
+  nameWithType: ThingSpeak.URI
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.URI
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.#ctor*
+  commentId: Overload:Netduino.Foundation.DataLoggers.ThingSpeak.#ctor
+  name: ThingSpeak
+  nameWithType: ThingSpeak.ThingSpeak
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.ThingSpeak
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.PostValue*
+  commentId: Overload:Netduino.Foundation.DataLoggers.ThingSpeak.PostValue
+  name: PostValue
+  nameWithType: ThingSpeak.PostValue
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.PostValue
+- uid: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues*
+  commentId: Overload:Netduino.Foundation.DataLoggers.ThingSpeak.PostValues
+  name: PostValues
+  nameWithType: ThingSpeak.PostValues
+  fullName: Netduino.Foundation.DataLoggers.ThingSpeak.PostValues
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

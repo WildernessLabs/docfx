@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder
+  commentId: T:Meadow.Foundation.Sensors.GPS.GGADecoder
+  id: GGADecoder
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+  - Meadow.Foundation.Sensors.GPS.GGADecoder.OnPositionReceived
+  - Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+  - Meadow.Foundation.Sensors.GPS.GGADecoder.Process(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: GGADecoder
+  nameWithType: GGADecoder
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GGADecoder
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+    startLine: 5
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nDecoder for GGA messages.\n"
+  example: []
+  syntax:
+    content: 'public class GGADecoder : NMEADecoder'
+    content.vb: >-
+      Public Class GGADecoder
+          Inherits NMEADecoder
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Sensors.GPS.NMEADecoder
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.OnPositionReceived
+  commentId: E:Meadow.Foundation.Sensors.GPS.GGADecoder.OnPositionReceived
+  id: OnPositionReceived
+  parent: Meadow.Foundation.Sensors.GPS.GGADecoder
+  langs:
+  - csharp
+  - vb
+  name: OnPositionReceived
+  nameWithType: GGADecoder.OnPositionReceived
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.OnPositionReceived
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OnPositionReceived
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+    startLine: 19
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nPosition update received event.\n"
+  example: []
+  syntax:
+    content: public event GGADecoder.PositionReceived OnPositionReceived
+    return:
+      type: Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived
+    content.vb: Public Event OnPositionReceived As GGADecoder.PositionReceived
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+  commentId: P:Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+  id: Prefix
+  parent: Meadow.Foundation.Sensors.GPS.GGADecoder
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: GGADecoder.Prefix
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Prefix
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+    startLine: 28
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nPrefix for the GGA decoder.\n"
+  example: []
+  syntax:
+    content: public override string Prefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Prefix As String
+  overridden: Meadow.Foundation.Sensors.GPS.NMEADecoder.Prefix
+  overload: Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+  commentId: P:Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+  id: Name
+  parent: Meadow.Foundation.Sensors.GPS.GGADecoder
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GGADecoder.Name
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Name
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+    startLine: 36
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nFriendly name for the GGA messages.\n"
+  example: []
+  syntax:
+    content: public override string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Name As String
+  overridden: Meadow.Foundation.Sensors.GPS.NMEADecoder.Name
+  overload: Meadow.Foundation.Sensors.GPS.GGADecoder.Name*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Process(System.String[])
+  commentId: M:Meadow.Foundation.Sensors.GPS.GGADecoder.Process(System.String[])
+  id: Process(System.String[])
+  parent: Meadow.Foundation.Sensors.GPS.GGADecoder
+  langs:
+  - csharp
+  - vb
+  name: Process(String[])
+  nameWithType: GGADecoder.Process(String[])
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Process(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Process
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/GGADecoder.cs
+    startLine: 45
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nProcess the data from a GGA message.\n"
+  example: []
+  syntax:
+    content: public override void Process(string[] data)
+    parameters:
+    - id: data
+      type: System.String[]
+      description: String array of the message components for a CGA message.
+    content.vb: Public Overrides Sub Process(data As String())
+  overridden: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+  overload: Meadow.Foundation.Sensors.GPS.GGADecoder.Process*
+  nameWithType.vb: GGADecoder.Process(String())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Sensors.GPS.GGADecoder.Process(System.String())
+  name.vb: Process(String())
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.GPS.NMEADecoder
+  commentId: T:Meadow.Foundation.Sensors.GPS.NMEADecoder
+  parent: Meadow.Foundation.Sensors.GPS
+  name: NMEADecoder
+  nameWithType: NMEADecoder
+  fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived
+  commentId: T:Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived
+  parent: Meadow.Foundation.Sensors.GPS
+  name: GGADecoder.PositionReceived
+  nameWithType: GGADecoder.PositionReceived
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.PositionReceived
+- uid: Meadow.Foundation.Sensors.GPS.NMEADecoder.Prefix
+  commentId: P:Meadow.Foundation.Sensors.GPS.NMEADecoder.Prefix
+  parent: Meadow.Foundation.Sensors.GPS.NMEADecoder
+  name: Prefix
+  nameWithType: NMEADecoder.Prefix
+  fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder.Prefix
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+  name: Prefix
+  nameWithType: GGADecoder.Prefix
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Prefix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Foundation.Sensors.GPS.NMEADecoder.Name
+  commentId: P:Meadow.Foundation.Sensors.GPS.NMEADecoder.Name
+  parent: Meadow.Foundation.Sensors.GPS.NMEADecoder
+  name: Name
+  nameWithType: NMEADecoder.Name
+  fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder.Name
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Name*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+  name: Name
+  nameWithType: GGADecoder.Name
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Name
+- uid: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+  commentId: M:Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+  parent: Meadow.Foundation.Sensors.GPS.NMEADecoder
+  isExternal: true
+  name: Process(String[])
+  nameWithType: NMEADecoder.Process(String[])
+  fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+  nameWithType.vb: NMEADecoder.Process(String())
+  fullName.vb: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String())
+  name.vb: Process(String())
+  spec.csharp:
+  - uid: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+    name: Process
+    nameWithType: NMEADecoder.Process
+    fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process(System.String[])
+    name: Process
+    nameWithType: NMEADecoder.Process
+    fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Sensors.GPS.GGADecoder.Process*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.GGADecoder.Process
+  name: Process
+  nameWithType: GGADecoder.Process
+  fullName: Meadow.Foundation.Sensors.GPS.GGADecoder.Process
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

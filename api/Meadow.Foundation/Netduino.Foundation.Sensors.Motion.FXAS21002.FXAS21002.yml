@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  commentId: T:Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  id: FXAS21002
+  parent: Netduino.Foundation.Sensors.Motion.FXAS21002
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FXAS21002
+  nameWithType: FXAS21002
+  fullName: Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.FXAS21002/FXAS21002.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FXAS21002
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.FXAS21002/FXAS21002.cs
+    startLine: 4
+  assemblies:
+  - Sensors.Motion.FXAS21002
+  namespace: Netduino.Foundation.Sensors.Motion.FXAS21002
+  syntax:
+    content: 'public class FXAS21002 : object'
+    content.vb: >-
+      Public Class FXAS21002
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Netduino.Foundation.Sensors.Motion.FXAS21002
+  commentId: N:Netduino.Foundation.Sensors.Motion.FXAS21002
+  name: Netduino.Foundation.Sensors.Motion.FXAS21002
+  nameWithType: Netduino.Foundation.Sensors.Motion.FXAS21002
+  fullName: Netduino.Foundation.Sensors.Motion.FXAS21002
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

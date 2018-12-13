@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  id: ADXL362.Command
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Command.Readegister
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Command.ReadFIFO
+  - Meadow.Foundation.Sensors.Motion.ADXL362.Command.WriteRegister
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.Command
+  nameWithType: ADXL362.Command
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Command
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 51
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nCommand byte (first byte in any communication).\n"
+  example: []
+  syntax:
+    content: 'protected static class Command : object'
+    content.vb: >-
+      Protected Module Command
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Command.WriteRegister
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Command.WriteRegister
+  id: WriteRegister
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  langs:
+  - csharp
+  - vb
+  name: WriteRegister
+  nameWithType: ADXL362.Command.WriteRegister
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Command.WriteRegister
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteRegister
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 56
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nWrite to one or more registers.\n"
+  example: []
+  syntax:
+    content: public const byte WriteRegister = null
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteRegister As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Command.Readegister
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Command.Readegister
+  id: Readegister
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  langs:
+  - csharp
+  - vb
+  name: Readegister
+  nameWithType: ADXL362.Command.Readegister
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Command.Readegister
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Readegister
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 61
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the contents of one or more registers.\n"
+  example: []
+  syntax:
+    content: public const byte Readegister = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Readegister As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.Command.ReadFIFO
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.Command.ReadFIFO
+  id: ReadFIFO
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.Command
+  langs:
+  - csharp
+  - vb
+  name: ReadFIFO
+  nameWithType: ADXL362.Command.ReadFIFO
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Command.ReadFIFO
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadFIFO
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 66
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public const byte ReadFIFO = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadFIFO As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

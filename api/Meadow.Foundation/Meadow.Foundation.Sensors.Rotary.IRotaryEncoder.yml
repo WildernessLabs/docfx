@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  id: IRotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  children:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  langs:
+  - csharp
+  - vb
+  name: IRotaryEncoder
+  nameWithType: IRotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IRotaryEncoder
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public interface IRotaryEncoder
+    content.vb: Public Interface IRotaryEncoder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  commentId: E:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  id: Rotated
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: Rotated
+  nameWithType: IRotaryEncoder.Rotated
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Rotated
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: event RotaryTurnedEventHandler Rotated
+    return:
+      type: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+    content.vb: Event Rotated As RotaryTurnedEventHandler
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  id: APhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: APhasePin
+  nameWithType: IRotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: APhasePin
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: DigitalInputPort APhasePin { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: ReadOnly Property APhasePin As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  id: BPhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: BPhasePin
+  nameWithType: IRotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BPhasePin
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/IRotaryEncoder.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: DigitalInputPort BPhasePin { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: ReadOnly Property BPhasePin As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotaryTurnedEventHandler
+  nameWithType: RotaryTurnedEventHandler
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  name: APhasePin
+  nameWithType: IRotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  name: BPhasePin
+  nameWithType: IRotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin

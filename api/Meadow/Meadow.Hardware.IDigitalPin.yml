@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  id: IDigitalPin
+  parent: Meadow.Hardware
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IDigitalPin
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public interface IDigitalPin : IPin, IDigitalChannel'
+    content.vb: >-
+      Public Interface IDigitalPin
+          Inherits IPin, IDigitalChannel
+  inheritedMembers:
+  - Meadow.Hardware.IPin.Name
+  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IDigitalChannel.InterrruptCapable
+  - Meadow.Hardware.IDigitalChannel.PullDownCapable
+  - Meadow.Hardware.IDigitalChannel.PullUpCapable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IPin.Name
+  commentId: P:Meadow.Hardware.IPin.Name
+  parent: Meadow.Hardware.IPin
+  name: Name
+  nameWithType: IPin.Name
+  fullName: Meadow.Hardware.IPin.Name
+- uid: Meadow.Hardware.IPin.Address
+  commentId: P:Meadow.Hardware.IPin.Address
+  parent: Meadow.Hardware.IPin
+  name: Address
+  nameWithType: IPin.Address
+  fullName: Meadow.Hardware.IPin.Address
+- uid: Meadow.Hardware.IDigitalChannel.InterrruptCapable
+  commentId: P:Meadow.Hardware.IDigitalChannel.InterrruptCapable
+  parent: Meadow.Hardware.IDigitalChannel
+  name: InterrruptCapable
+  nameWithType: IDigitalChannel.InterrruptCapable
+  fullName: Meadow.Hardware.IDigitalChannel.InterrruptCapable
+- uid: Meadow.Hardware.IDigitalChannel.PullDownCapable
+  commentId: P:Meadow.Hardware.IDigitalChannel.PullDownCapable
+  parent: Meadow.Hardware.IDigitalChannel
+  name: PullDownCapable
+  nameWithType: IDigitalChannel.PullDownCapable
+  fullName: Meadow.Hardware.IDigitalChannel.PullDownCapable
+- uid: Meadow.Hardware.IDigitalChannel.PullUpCapable
+  commentId: P:Meadow.Hardware.IDigitalChannel.PullUpCapable
+  parent: Meadow.Hardware.IDigitalChannel
+  name: PullUpCapable
+  nameWithType: IDigitalChannel.PullUpCapable
+  fullName: Meadow.Hardware.IDigitalChannel.PullUpCapable
+- uid: Meadow.Hardware.IPin
+  commentId: T:Meadow.Hardware.IPin
+  parent: Meadow.Hardware
+  name: IPin
+  nameWithType: IPin
+  fullName: Meadow.Hardware.IPin
+- uid: Meadow.Hardware.IDigitalChannel
+  commentId: T:Meadow.Hardware.IDigitalChannel
+  parent: Meadow.Hardware
+  name: IDigitalChannel
+  nameWithType: IDigitalChannel
+  fullName: Meadow.Hardware.IDigitalChannel

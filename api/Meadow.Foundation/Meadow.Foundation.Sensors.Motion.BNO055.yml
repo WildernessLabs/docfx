@@ -1,0 +1,956 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.BNO055
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055
+  id: BNO055
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.BNO055.#ctor(System.Byte,System.UInt16)
+  - Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+  - Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters
+  - Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+  - Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+  - Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+  - Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+  - Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+  - Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+  - Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+  - Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+  - Meadow.Foundation.Sensors.Motion.BNO055.Read
+  - Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+  - Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+  langs:
+  - csharp
+  - vb
+  name: BNO055
+  nameWithType: BNO055
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BNO055
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 21
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nProvide methods / properties to allow an application to control a BNO055 \n9-axis absolute orientation sensor.\n"
+  remarks: "\nBy defult the sensor will start with the following configuration:\n\nRange           Range       Bandwidth\nAccelerometer   4G          62.5 Hz\nMagnetometer    N/A         10 Hz\nGyroscope       2000 dps    32 Hz\n"
+  example: []
+  syntax:
+    content: 'public class BNO055 : object'
+    content.vb: >-
+      Public Class BNO055
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: BNO055.Temperature
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1456
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the temperature from the currently selected sensor.\n"
+  example: []
+  syntax:
+    content: public int Temperature { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Temperature As Integer
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+  id: TemperatureSource
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: TemperatureSource
+  nameWithType: BNO055.TemperatureSource
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureSource
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1464
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSelect the source of the Temperatute property.\n"
+  example: []
+  syntax:
+    content: public BNO055.Sensor TemperatureSource { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Public Property TemperatureSource As BNO055.Sensor
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+  id: PowerMode
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: PowerMode
+  nameWithType: BNO055.PowerMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PowerMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1486
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet or set the power mode for the sensor.\n"
+  example: []
+  syntax:
+    content: public byte PowerMode { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PowerMode As Byte
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.PowerMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+  id: OperatingMode
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: OperatingMode
+  nameWithType: BNO055.OperatingMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OperatingMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1505
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet / set the current operating mode for the sensor.\n"
+  remarks: "\nMode change takes 7-19 ms.\n"
+  example: []
+  syntax:
+    content: public byte OperatingMode { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property OperatingMode As Byte
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+  id: IsInFusionMode
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsInFusionMode
+  nameWithType: BNO055.IsInFusionMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsInFusionMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1551
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nCheck if sensor is currently working in Fusion mode.\n"
+  example: []
+  syntax:
+    content: public bool IsInFusionMode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInFusionMode As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+  id: AccelerometerReading
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: AccelerometerReading
+  nameWithType: BNO055.AccelerometerReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerometerReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1566
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the accelerometer readings from the last call to Read().\n"
+  example: []
+  syntax:
+    content: public Vector AccelerometerReading { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public ReadOnly Property AccelerometerReading As Vector
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+  id: MagnetometerReading
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: MagnetometerReading
+  nameWithType: BNO055.MagnetometerReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MagnetometerReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1593
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the magnetometer readings.\n"
+  example: []
+  syntax:
+    content: public Vector MagnetometerReading { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public ReadOnly Property MagnetometerReading As Vector
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+  id: GyroscopeReading
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: GyroscopeReading
+  nameWithType: BNO055.GyroscopeReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GyroscopeReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1615
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the gyroscope readings.\n"
+  example: []
+  syntax:
+    content: public Vector GyroscopeReading { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public ReadOnly Property GyroscopeReading As Vector
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+  id: EulerOrientation
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: EulerOrientation
+  nameWithType: BNO055.EulerOrientation
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EulerOrientation
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1642
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nOrientation in Euler angles.\n"
+  example: []
+  syntax:
+    content: public EulerAngles EulerOrientation { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.EulerAngles
+    content.vb: Public ReadOnly Property EulerOrientation As EulerAngles
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+  id: QuaternionOrientation
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: QuaternionOrientation
+  nameWithType: BNO055.QuaternionOrientation
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: QuaternionOrientation
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1666
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the Quaterion orientation.\n"
+  example: []
+  syntax:
+    content: public Quaternion QuaternionOrientation { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Quaternion
+    content.vb: Public ReadOnly Property QuaternionOrientation As Quaternion
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+  id: LinearAcceleration
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: LinearAcceleration
+  nameWithType: BNO055.LinearAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LinearAcceleration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1691
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRetrieve the linear acceleration vector (fusion mode only).\n"
+  example: []
+  syntax:
+    content: public Vector LinearAcceleration { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public ReadOnly Property LinearAcceleration As Vector
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+  id: GravityVector
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: GravityVector
+  nameWithType: BNO055.GravityVector
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GravityVector
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1715
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRetrieve the gravity vector (fusion mode only).\n"
+  example: []
+  syntax:
+    content: public Vector GravityVector { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public ReadOnly Property GravityVector As Vector
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.GravityVector*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+  id: IsSystemCalibrated
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsSystemCalibrated
+  nameWithType: BNO055.IsSystemCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsSystemCalibrated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1739
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the system calibration status.\n"
+  example: []
+  syntax:
+    content: public bool IsSystemCalibrated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSystemCalibrated As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+  id: IsAccelerometerCalibrated
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsAccelerometerCalibrated
+  nameWithType: BNO055.IsAccelerometerCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsAccelerometerCalibrated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1750
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the accelerometer calibration status.\n"
+  example: []
+  syntax:
+    content: public bool IsAccelerometerCalibrated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAccelerometerCalibrated As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+  id: IsGyroscopeCalibrated
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsGyroscopeCalibrated
+  nameWithType: BNO055.IsGyroscopeCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsGyroscopeCalibrated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1761
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the gyroscope calibration status.\n"
+  example: []
+  syntax:
+    content: public bool IsGyroscopeCalibrated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsGyroscopeCalibrated As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+  id: IsMagnetometerCalibrated
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsMagnetometerCalibrated
+  nameWithType: BNO055.IsMagnetometerCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsMagnetometerCalibrated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1772
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nGet the magnetometer status.\n"
+  example: []
+  syntax:
+    content: public bool IsMagnetometerCalibrated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMagnetometerCalibrated As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+  commentId: P:Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+  id: IsFullyCalibrated
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: IsFullyCalibrated
+  nameWithType: BNO055.IsFullyCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsFullyCalibrated
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1784
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIs the system fully calibrated?\n"
+  remarks: "\nThe sensor is fully calibrated if the system, accelerometer, gyroscope and megnetometer\nare all calibrated.\n"
+  example: []
+  syntax:
+    content: public bool IsFullyCalibrated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFullyCalibrated As Boolean
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.#ctor(System.Byte,System.UInt16)
+  commentId: M:Meadow.Foundation.Sensors.Motion.BNO055.#ctor(System.Byte,System.UInt16)
+  id: '#ctor(System.Byte,System.UInt16)'
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: BNO055(Byte, UInt16)
+  nameWithType: BNO055.BNO055(Byte, UInt16)
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.BNO055(System.Byte, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1809
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nCreate a new BNO055 object using the default parameters for the component.\n"
+  example: []
+  syntax:
+    content: public BNO055(byte address = null, ushort speed = null)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the BNO055 (default = 0x28).
+    - id: speed
+      type: System.UInt16
+      description: Speed of the I2C bus (default = 400 KHz).
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing)
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Read
+  commentId: M:Meadow.Foundation.Sensors.Motion.BNO055.Read
+  id: Read
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: BNO055.Read()
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Read()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Read
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1843
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nForce the sensor to make a reading and update the relevant properties.\n"
+  remarks: "\nThis method reads ony the sensor motion / orientation registers.  When\naccessing the data from a register it is necessary to subtract the\naccress of the start of the sensor registers from the register required\nin order to get the correct offset into the _sensorReadings array.\n"
+  example: []
+  syntax:
+    content: public void Read()
+    content.vb: Public Sub Read
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters
+  commentId: M:Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters
+  id: DisplayRegisters
+  parent: Meadow.Foundation.Sensors.Motion.BNO055
+  langs:
+  - csharp
+  - vb
+  name: DisplayRegisters()
+  nameWithType: BNO055.DisplayRegisters()
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1880
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nRead all of the registers and display their values on the Debug output.\n"
+  example: []
+  syntax:
+    content: public void DisplayRegisters()
+    content.vb: Public Sub DisplayRegisters
+  overload: Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+  name: Temperature
+  nameWithType: BNO055.Temperature
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Temperature
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+  name: TemperatureSource
+  nameWithType: BNO055.TemperatureSource
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.TemperatureSource
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.Sensor
+  nameWithType: BNO055.Sensor
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.PowerMode*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+  name: PowerMode
+  nameWithType: BNO055.PowerMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.PowerMode
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+  name: OperatingMode
+  nameWithType: BNO055.OperatingMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingMode
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+  name: IsInFusionMode
+  nameWithType: BNO055.IsInFusionMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsInFusionMode
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+  name: AccelerometerReading
+  nameWithType: BNO055.AccelerometerReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.AccelerometerReading
+- uid: Meadow.Foundation.Spatial.Vector
+  commentId: T:Meadow.Foundation.Spatial.Vector
+  parent: Meadow.Foundation.Spatial
+  name: Vector
+  nameWithType: Vector
+  fullName: Meadow.Foundation.Spatial.Vector
+- uid: Meadow.Foundation.Spatial
+  commentId: N:Meadow.Foundation.Spatial
+  name: Meadow.Foundation.Spatial
+  nameWithType: Meadow.Foundation.Spatial
+  fullName: Meadow.Foundation.Spatial
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+  name: MagnetometerReading
+  nameWithType: BNO055.MagnetometerReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.MagnetometerReading
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+  name: GyroscopeReading
+  nameWithType: BNO055.GyroscopeReading
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.GyroscopeReading
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+  name: EulerOrientation
+  nameWithType: BNO055.EulerOrientation
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.EulerOrientation
+- uid: Meadow.Foundation.Spatial.EulerAngles
+  commentId: T:Meadow.Foundation.Spatial.EulerAngles
+  parent: Meadow.Foundation.Spatial
+  name: EulerAngles
+  nameWithType: EulerAngles
+  fullName: Meadow.Foundation.Spatial.EulerAngles
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+  name: QuaternionOrientation
+  nameWithType: BNO055.QuaternionOrientation
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.QuaternionOrientation
+- uid: Meadow.Foundation.Spatial.Quaternion
+  commentId: T:Meadow.Foundation.Spatial.Quaternion
+  parent: Meadow.Foundation.Spatial
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Meadow.Foundation.Spatial.Quaternion
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+  name: LinearAcceleration
+  nameWithType: BNO055.LinearAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.LinearAcceleration
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.GravityVector*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+  name: GravityVector
+  nameWithType: BNO055.GravityVector
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.GravityVector
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+  name: IsSystemCalibrated
+  nameWithType: BNO055.IsSystemCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsSystemCalibrated
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+  name: IsAccelerometerCalibrated
+  nameWithType: BNO055.IsAccelerometerCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsAccelerometerCalibrated
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+  name: IsGyroscopeCalibrated
+  nameWithType: BNO055.IsGyroscopeCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsGyroscopeCalibrated
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+  name: IsMagnetometerCalibrated
+  nameWithType: BNO055.IsMagnetometerCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsMagnetometerCalibrated
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+  name: IsFullyCalibrated
+  nameWithType: BNO055.IsFullyCalibrated
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.IsFullyCalibrated
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.#ctor
+  name: BNO055
+  nameWithType: BNO055.BNO055
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.BNO055
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Read*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.Read
+  name: Read
+  nameWithType: BNO055.Read
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Read
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters
+  name: DisplayRegisters
+  nameWithType: BNO055.DisplayRegisters
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.DisplayRegisters

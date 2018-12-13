@@ -1,0 +1,2359 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.EPDBase
+  commentId: T:Meadow.Foundation.Displays.EPDBase
+  id: EPDBase
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.EPDBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  - Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  - Meadow.Foundation.Displays.EPDBase.ColorMode
+  - Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  - Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  - Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  - Meadow.Foundation.Displays.EPDBase.imageBuffer
+  - Meadow.Foundation.Displays.EPDBase.Initialize
+  - Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  - Meadow.Foundation.Displays.EPDBase.Refresh
+  - Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  - Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  - Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  - Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  - Meadow.Foundation.Displays.EPDBase.Show
+  - Meadow.Foundation.Displays.EPDBase.Sleep
+  - Meadow.Foundation.Displays.EPDBase.SW_RESET
+  - Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  - Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  - Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  - Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  langs:
+  - csharp
+  - vb
+  name: EPDBase
+  nameWithType: EPDBase
+  fullName: Meadow.Foundation.Displays.EPDBase
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EPDBase
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 10
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nProvide an interface to the WaveShare ePaper monochrome displays\n"
+  example: []
+  syntax:
+    content: 'public abstract class EPDBase : SPIDisplayBase, IDisplay'
+    content.vb: >-
+      Public MustInherit Class EPDBase
+          Inherits SPIDisplayBase
+          Implements IDisplay
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.DisplayBase
+  - Meadow.Foundation.Displays.SPIDisplayBase
+  derivedClasses:
+  - Meadow.Foundation.Displays.EPD1i54
+  - Meadow.Foundation.Displays.EPD2i13
+  - Meadow.Foundation.Displays.EPD2i7
+  implements:
+  - Meadow.Foundation.Displays.IDisplay
+  inheritedMembers:
+  - Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  - Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.spi
+  - Meadow.Foundation.Displays.SPIDisplayBase.Data
+  - Meadow.Foundation.Displays.SPIDisplayBase.Command
+  - Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  - Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - Meadow.Foundation.Displays.DisplayBase.Width
+  - Meadow.Foundation.Displays.DisplayBase.Height
+  - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Foundation.Displays.EPDBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.EPDBase.ColorMode
+  id: ColorMode
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: ColorMode
+  nameWithType: EPDBase.ColorMode
+  fullName: Meadow.Foundation.Displays.EPDBase.ColorMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ColorMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 12
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override DisplayBase.DisplayColorMode ColorMode { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+    content.vb: Public Overrides ReadOnly Property ColorMode As DisplayBase.DisplayColorMode
+  overridden: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  overload: Meadow.Foundation.Displays.EPDBase.ColorMode*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPDBase.imageBuffer
+  commentId: F:Meadow.Foundation.Displays.EPDBase.imageBuffer
+  id: imageBuffer
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: imageBuffer
+  nameWithType: EPDBase.imageBuffer
+  fullName: Meadow.Foundation.Displays.EPDBase.imageBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: imageBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 14
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected readonly byte[] imageBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected ReadOnly imageBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPDBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)'
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: EPDBase(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  nameWithType: EPDBase.EPDBase(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  fullName: Meadow.Foundation.Displays.EPDBase.EPDBase(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.Spi.SPI_module, System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 21
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public EPDBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)
+    parameters:
+    - id: chipSelectPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: dcPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: resetPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: busyPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: spiModule
+      type: Meadow.Hardware.Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing)
+  overload: Meadow.Foundation.Displays.EPDBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDBase.Initialize
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Initialize
+  id: Initialize
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: EPDBase.Initialize()
+  fullName: Meadow.Foundation.Displays.EPDBase.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Initialize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 47
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected abstract void Initialize()
+    content.vb: Protected MustOverride Sub Initialize
+  overload: Meadow.Foundation.Displays.EPDBase.Initialize*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  id: Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean)
+  nameWithType: EPDBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 49
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Clear(bool updateDisplay = false)
+    parameters:
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Overrides Sub Clear(updateDisplay As Boolean = False)
+  overridden: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  overload: Meadow.Foundation.Displays.EPDBase.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  id: Clear(Color,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Color, Boolean)
+  nameWithType: EPDBase.Clear(Color, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(Color, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 59
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nClear the display.\n"
+  example: []
+  syntax:
+    content: public void Clear(Color color, bool updateDisplay = false)
+    parameters:
+    - id: color
+      type: Color
+      description: Color to set the display (not used on ePaper displays)
+    - id: updateDisplay
+      type: System.Boolean
+      description: Update the dipslay once the buffer has been cleared when true.
+    content.vb: Public Sub Clear(color As Color, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.EPDBase.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  id: Clear(System.Boolean,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean, Boolean)
+  nameWithType: EPDBase.Clear(Boolean, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 73
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nClear the display.\n"
+  example: []
+  syntax:
+    content: public void Clear(bool colored, bool updateDisplay = false)
+    parameters:
+    - id: colored
+      type: System.Boolean
+      description: Set the display dark when true
+    - id: updateDisplay
+      type: System.Boolean
+      description: Update the dipslay once the buffer has been cleared when true.
+    content.vb: Public Sub Clear(colored As Boolean, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.EPDBase.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 98
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDisplay a 1-bit bitmap\n\nThis method simply calls a similar method in the display hardware.\n"
+  example: []
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, DisplayBase.BitmapMode bitmapMode)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the top left corner of the bitmap.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the top left corner of the bitmap.
+    - id: width
+      type: System.Int32
+      description: Width of the bitmap in bytes.
+    - id: height
+      type: System.Int32
+      description: Height of the bitmap in bytes.
+    - id: bitmap
+      type: System.Byte[]
+      description: Bitmap to display.
+    - id: bitmapMode
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+      description: How should the bitmap be transferred to the display?
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), bitmapMode As DisplayBase.BitmapMode)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  overload: Meadow.Foundation.Displays.EPDBase.DrawBitmap*
+  nameWithType.vb: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 132
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDisplay a 1-bit bitmap\n\nThis method simply calls a similar method in the display hardware.\n"
+  example: []
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the top left corner of the bitmap.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the top left corner of the bitmap.
+    - id: width
+      type: System.Int32
+      description: Width of the bitmap in bytes.
+    - id: height
+      type: System.Int32
+      description: Height of the bitmap in bytes.
+    - id: bitmap
+      type: System.Byte[]
+      description: Bitmap to display.
+    - id: color
+      type: Color
+      description: The color of the bitmap (not used on ePaper displays).
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overload: Meadow.Foundation.Displays.EPDBase.DrawBitmap*
+  nameWithType.vb: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  id: DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 162
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public override void DrawPixel(int x, int y, bool colored)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: colored
+      type: System.Boolean
+      description: Turn the pixel on (true) or off (false).
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, colored As Boolean)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  overload: Meadow.Foundation.Displays.EPDBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  id: DrawPixel(System.Int32,System.Int32,Color)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 185
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public override void DrawPixel(int x, int y, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: color
+      type: Color
+      description: Color of pixel.
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overload: Meadow.Foundation.Displays.EPDBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  id: DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 202
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public void DrawPixel(int x, int y, byte r, byte g, byte b)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: r
+      type: System.Byte
+      description: y location
+    - id: g
+      type: System.Byte
+      description: y location
+    - id: b
+      type: System.Byte
+      description: y location
+    content.vb: Public Sub DrawPixel(x As Integer, y As Integer, r As Byte, g As Byte, b As Byte)
+  overload: Meadow.Foundation.Displays.EPDBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDBase.Refresh
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Refresh
+  id: Refresh
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: EPDBase.Refresh()
+  fullName: Meadow.Foundation.Displays.EPDBase.Refresh()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Refresh
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 214
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw the display buffer to screen\n"
+  example: []
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: Meadow.Foundation.Displays.EPDBase.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPDBase.Show
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Show
+  id: Show
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: EPDBase.Show()
+  fullName: Meadow.Foundation.Displays.EPDBase.Show()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Show
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 229
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw the display buffer to screen\n"
+  example: []
+  syntax:
+    content: public override void Show()
+    content.vb: Public Overrides Sub Show
+  overridden: Meadow.Foundation.Displays.DisplayBase.Show
+  overload: Meadow.Foundation.Displays.EPDBase.Show*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  id: SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  nameWithType: EPDBase.SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[], System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetFrameMemory
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 234
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public virtual void SetFrameMemory(byte[] image_buffer, int x, int y, int image_width, int image_height)
+    parameters:
+    - id: image_buffer
+      type: System.Byte[]
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: image_width
+      type: System.Int32
+    - id: image_height
+      type: System.Int32
+    content.vb: Public Overridable Sub SetFrameMemory(image_buffer As Byte(), x As Integer, y As Integer, image_width As Integer, image_height As Integer)
+  overload: Meadow.Foundation.Displays.EPDBase.SetFrameMemory*
+  nameWithType.vb: EPDBase.SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte(), System.Int32, System.Int32, System.Int32, System.Int32)
+  name.vb: SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+- uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  id: SetFrameMemory(System.Byte[])
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SetFrameMemory(Byte[])
+  nameWithType: EPDBase.SetFrameMemory(Byte[])
+  fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetFrameMemory
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 276
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public virtual void SetFrameMemory(byte[] image_buffer)
+    parameters:
+    - id: image_buffer
+      type: System.Byte[]
+    content.vb: Public Overridable Sub SetFrameMemory(image_buffer As Byte())
+  overload: Meadow.Foundation.Displays.EPDBase.SetFrameMemory*
+  nameWithType.vb: EPDBase.SetFrameMemory(Byte())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte())
+  name.vb: SetFrameMemory(Byte())
+- uid: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  id: ClearFrameMemory(System.Byte)
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: ClearFrameMemory(Byte)
+  nameWithType: EPDBase.ClearFrameMemory(Byte)
+  fullName: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearFrameMemory
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 288
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public virtual void ClearFrameMemory(byte color)
+    parameters:
+    - id: color
+      type: System.Byte
+    content.vb: Public Overridable Sub ClearFrameMemory(color As Byte)
+  overload: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  id: DisplayFrame
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DisplayFrame()
+  nameWithType: EPDBase.DisplayFrame()
+  fullName: Meadow.Foundation.Displays.EPDBase.DisplayFrame()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayFrame
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 300
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public virtual void DisplayFrame()
+    content.vb: Public Overridable Sub DisplayFrame
+  overload: Meadow.Foundation.Displays.EPDBase.DisplayFrame*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Meadow.Foundation.Displays.EPDBase.Sleep
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Sleep
+  id: Sleep
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: Sleep()
+  nameWithType: EPDBase.Sleep()
+  fullName: Meadow.Foundation.Displays.EPDBase.Sleep()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Sleep
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 333
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void Sleep()
+    content.vb: Protected Sub Sleep
+  overload: Meadow.Foundation.Displays.EPDBase.Sleep*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  id: DRIVER_OUTPUT_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DRIVER_OUTPUT_CONTROL
+  nameWithType: EPDBase.DRIVER_OUTPUT_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DRIVER_OUTPUT_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 340
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DRIVER_OUTPUT_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DRIVER_OUTPUT_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  id: BOOSTER_SOFT_START_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: BOOSTER_SOFT_START_CONTROL
+  nameWithType: EPDBase.BOOSTER_SOFT_START_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BOOSTER_SOFT_START_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 341
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte BOOSTER_SOFT_START_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared BOOSTER_SOFT_START_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  id: GATE_SCAN_START_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: GATE_SCAN_START_POSITION
+  nameWithType: EPDBase.GATE_SCAN_START_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GATE_SCAN_START_POSITION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 342
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte GATE_SCAN_START_POSITION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared GATE_SCAN_START_POSITION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  id: DEEP_SLEEP_MODE
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DEEP_SLEEP_MODE
+  nameWithType: EPDBase.DEEP_SLEEP_MODE
+  fullName: Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DEEP_SLEEP_MODE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 343
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DEEP_SLEEP_MODE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DEEP_SLEEP_MODE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  id: DATA_ENTRY_MODE_SETTING
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DATA_ENTRY_MODE_SETTING
+  nameWithType: EPDBase.DATA_ENTRY_MODE_SETTING
+  fullName: Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_ENTRY_MODE_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 344
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_ENTRY_MODE_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_ENTRY_MODE_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SW_RESET
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SW_RESET
+  id: SW_RESET
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SW_RESET
+  nameWithType: EPDBase.SW_RESET
+  fullName: Meadow.Foundation.Displays.EPDBase.SW_RESET
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SW_RESET
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 345
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SW_RESET
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SW_RESET As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  id: TEMPERATURE_SENSOR_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_CONTROL
+  nameWithType: EPDBase.TEMPERATURE_SENSOR_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 346
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  id: MASTER_ACTIVATION
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: MASTER_ACTIVATION
+  nameWithType: EPDBase.MASTER_ACTIVATION
+  fullName: Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MASTER_ACTIVATION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 347
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte MASTER_ACTIVATION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared MASTER_ACTIVATION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  id: DISPLAY_UPDATE_CONTROL_1
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DISPLAY_UPDATE_CONTROL_1
+  nameWithType: EPDBase.DISPLAY_UPDATE_CONTROL_1
+  fullName: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DISPLAY_UPDATE_CONTROL_1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 348
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DISPLAY_UPDATE_CONTROL_1
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DISPLAY_UPDATE_CONTROL_1 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  id: DISPLAY_UPDATE_CONTROL_2
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: DISPLAY_UPDATE_CONTROL_2
+  nameWithType: EPDBase.DISPLAY_UPDATE_CONTROL_2
+  fullName: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DISPLAY_UPDATE_CONTROL_2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 349
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DISPLAY_UPDATE_CONTROL_2
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DISPLAY_UPDATE_CONTROL_2 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  id: WRITE_RAM
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: WRITE_RAM
+  nameWithType: EPDBase.WRITE_RAM
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WRITE_RAM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 350
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte WRITE_RAM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared WRITE_RAM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  id: WRITE_VCOM_REGISTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: WRITE_VCOM_REGISTER
+  nameWithType: EPDBase.WRITE_VCOM_REGISTER
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WRITE_VCOM_REGISTER
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 351
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte WRITE_VCOM_REGISTER
+    return:
+      type: System.Byte
+    content.vb: Protected Shared WRITE_VCOM_REGISTER As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  id: WRITE_LUT_REGISTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: WRITE_LUT_REGISTER
+  nameWithType: EPDBase.WRITE_LUT_REGISTER
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WRITE_LUT_REGISTER
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 352
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte WRITE_LUT_REGISTER
+    return:
+      type: System.Byte
+    content.vb: Protected Shared WRITE_LUT_REGISTER As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  id: SET_DUMMY_LINE_PERIOD
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_DUMMY_LINE_PERIOD
+  nameWithType: EPDBase.SET_DUMMY_LINE_PERIOD
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_DUMMY_LINE_PERIOD
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 353
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_DUMMY_LINE_PERIOD
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_DUMMY_LINE_PERIOD As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  id: SET_GATE_TIME
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_GATE_TIME
+  nameWithType: EPDBase.SET_GATE_TIME
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_GATE_TIME
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 354
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_GATE_TIME
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_GATE_TIME As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  id: BORDER_WAVEFORM_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: BORDER_WAVEFORM_CONTROL
+  nameWithType: EPDBase.BORDER_WAVEFORM_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BORDER_WAVEFORM_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 355
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte BORDER_WAVEFORM_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared BORDER_WAVEFORM_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  id: SET_RAM_X_ADDRESS_START_END_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_RAM_X_ADDRESS_START_END_POSITION
+  nameWithType: EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_RAM_X_ADDRESS_START_END_POSITION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 356
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_RAM_X_ADDRESS_START_END_POSITION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_RAM_X_ADDRESS_START_END_POSITION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  id: SET_RAM_Y_ADDRESS_START_END_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_RAM_Y_ADDRESS_START_END_POSITION
+  nameWithType: EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_RAM_Y_ADDRESS_START_END_POSITION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 357
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_RAM_Y_ADDRESS_START_END_POSITION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_RAM_Y_ADDRESS_START_END_POSITION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  id: SET_RAM_X_ADDRESS_COUNTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_RAM_X_ADDRESS_COUNTER
+  nameWithType: EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_RAM_X_ADDRESS_COUNTER
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 358
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_RAM_X_ADDRESS_COUNTER
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_RAM_X_ADDRESS_COUNTER As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  id: SET_RAM_Y_ADDRESS_COUNTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: SET_RAM_Y_ADDRESS_COUNTER
+  nameWithType: EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SET_RAM_Y_ADDRESS_COUNTER
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 359
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SET_RAM_Y_ADDRESS_COUNTER
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SET_RAM_Y_ADDRESS_COUNTER As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  commentId: F:Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  id: TERMINATE_FRAME_READ_WRITE
+  parent: Meadow.Foundation.Displays.EPDBase
+  langs:
+  - csharp
+  - vb
+  name: TERMINATE_FRAME_READ_WRITE
+  nameWithType: EPDBase.TERMINATE_FRAME_READ_WRITE
+  fullName: Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TERMINATE_FRAME_READ_WRITE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDBase.cs
+    startLine: 360
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TERMINATE_FRAME_READ_WRITE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TERMINATE_FRAME_READ_WRITE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.DisplayBase
+  commentId: T:Meadow.Foundation.Displays.DisplayBase
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase
+  nameWithType: DisplayBase
+  fullName: Meadow.Foundation.Displays.DisplayBase
+- uid: Meadow.Foundation.Displays.SPIDisplayBase
+  commentId: T:Meadow.Foundation.Displays.SPIDisplayBase
+  parent: Meadow.Foundation.Displays
+  name: SPIDisplayBase
+  nameWithType: SPIDisplayBase
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase
+- uid: Meadow.Foundation.Displays.IDisplay
+  commentId: T:Meadow.Foundation.Displays.IDisplay
+  parent: Meadow.Foundation.Displays
+  name: IDisplay
+  nameWithType: IDisplay
+  fullName: Meadow.Foundation.Displays.IDisplay
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spiBOneByteBuffer
+  nameWithType: SPIDisplayBase.spiBOneByteBuffer
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: dataCommandPort
+  nameWithType: SPIDisplayBase.dataCommandPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: resetPort
+  nameWithType: SPIDisplayBase.resetPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: busyPort
+  nameWithType: SPIDisplayBase.busyPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spi
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spi
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spi
+  nameWithType: SPIDisplayBase.spi
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spi
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Data
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Data
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Data
+  nameWithType: SPIDisplayBase.Data
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Data
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Command
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Command
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Command
+  nameWithType: SPIDisplayBase.Command
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Command
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: Write(Byte)
+  nameWithType: SPIDisplayBase.Write(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Reset()
+  nameWithType: SPIDisplayBase.Reset()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: DelayMs(Int32)
+  nameWithType: SPIDisplayBase.DelayMs(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendCommand(Byte)
+  nameWithType: SPIDisplayBase.SendCommand(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Int32)
+  nameWithType: SPIDisplayBase.SendData(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte)
+  nameWithType: SPIDisplayBase.SendData(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte[])
+  nameWithType: SPIDisplayBase.SendData(Byte[])
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  nameWithType.vb: SPIDisplayBase.SendData(Byte())
+  fullName.vb: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte())
+  name.vb: SendData(Byte())
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: WaitUntilIdle()
+  nameWithType: SPIDisplayBase.WaitUntilIdle()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Width
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Width
+  nameWithType: DisplayBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayBase.Width
+- uid: Meadow.Foundation.Displays.DisplayBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Height
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Height
+  nameWithType: DisplayBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayBase.Height
+- uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: IgnoreOutOfBoundsPixels
+  nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
+  fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: ColorMode
+  nameWithType: DisplayBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.ColorMode
+- uid: Meadow.Foundation.Displays.EPDBase.ColorMode*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.ColorMode
+  name: ColorMode
+  nameWithType: EPDBase.ColorMode
+  fullName: Meadow.Foundation.Displays.EPDBase.ColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Displays.EPDBase.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.#ctor
+  name: EPDBase
+  nameWithType: EPDBase.EPDBase
+  fullName: Meadow.Foundation.Displays.EPDBase.EPDBase
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Displays.EPDBase.Initialize*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.Initialize
+  name: Initialize
+  nameWithType: EPDBase.Initialize
+  fullName: Meadow.Foundation.Displays.EPDBase.Initialize
+- uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: Clear(Boolean)
+  nameWithType: DisplayBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Clear*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.Clear
+  name: Clear
+  nameWithType: EPDBase.Clear
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.DrawBitmap
+  name: DrawBitmap
+  nameWithType: EPDBase.DrawBitmap
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.DrawPixel
+  name: DrawPixel
+  nameWithType: EPDBase.DrawPixel
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Displays.EPDBase.Refresh*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.Refresh
+  name: Refresh
+  nameWithType: EPDBase.Refresh
+  fullName: Meadow.Foundation.Displays.EPDBase.Refresh
+- uid: Meadow.Foundation.Displays.DisplayBase.Show
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Show
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Show()
+  nameWithType: DisplayBase.Show()
+  fullName: Meadow.Foundation.Displays.DisplayBase.Show()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Show*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.Show
+  name: Show
+  nameWithType: EPDBase.Show
+  fullName: Meadow.Foundation.Displays.EPDBase.Show
+- uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+  name: SetFrameMemory
+  nameWithType: EPDBase.SetFrameMemory
+  fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+- uid: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.ClearFrameMemory
+  name: ClearFrameMemory
+  nameWithType: EPDBase.ClearFrameMemory
+  fullName: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory
+- uid: Meadow.Foundation.Displays.EPDBase.DisplayFrame*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  name: DisplayFrame
+  nameWithType: EPDBase.DisplayFrame
+  fullName: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+- uid: Meadow.Foundation.Displays.EPDBase.Sleep*
+  commentId: Overload:Meadow.Foundation.Displays.EPDBase.Sleep
+  name: Sleep
+  nameWithType: EPDBase.Sleep
+  fullName: Meadow.Foundation.Displays.EPDBase.Sleep

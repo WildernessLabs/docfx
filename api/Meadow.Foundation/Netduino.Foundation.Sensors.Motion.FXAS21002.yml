@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Netduino.Foundation.Sensors.Motion.FXAS21002
+  commentId: N:Netduino.Foundation.Sensors.Motion.FXAS21002
+  id: Netduino.Foundation.Sensors.Motion.FXAS21002
+  children:
+  - Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  langs:
+  - csharp
+  - vb
+  name: Netduino.Foundation.Sensors.Motion.FXAS21002
+  nameWithType: Netduino.Foundation.Sensors.Motion.FXAS21002
+  fullName: Netduino.Foundation.Sensors.Motion.FXAS21002
+  type: Namespace
+  assemblies:
+  - Sensors.Motion.FXAS21002
+references:
+- uid: Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  commentId: T:Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
+  name: FXAS21002
+  nameWithType: FXAS21002
+  fullName: Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002

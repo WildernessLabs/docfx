@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.LEDs.IPwmLed
+  commentId: T:Meadow.Foundation.LEDs.IPwmLed
+  id: IPwmLed
+  parent: Meadow.Foundation.LEDs
+  children:
+  - Meadow.Foundation.LEDs.IPwmLed.Port
+  langs:
+  - csharp
+  - vb
+  name: IPwmLed
+  nameWithType: IPwmLed
+  fullName: Meadow.Foundation.LEDs.IPwmLed
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/IPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IPwmLed
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/IPwmLed.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nDefines a Light Emitting Diode (LED) controlled by a pulse-width-modulation\n(PWM) signal to limit current.\n"
+  example: []
+  syntax:
+    content: 'public interface IPwmLed : ILed'
+    content.vb: >-
+      Public Interface IPwmLed
+          Inherits ILed
+  inheritedMembers:
+  - Meadow.Foundation.LEDs.ILed.IsOn
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.LEDs.IPwmLed.Port
+  commentId: P:Meadow.Foundation.LEDs.IPwmLed.Port
+  id: Port
+  parent: Meadow.Foundation.LEDs.IPwmLed
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: IPwmLed.Port
+  fullName: Meadow.Foundation.LEDs.IPwmLed.Port
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/IPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Port
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/IPwmLed.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: IPwmPort Port { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: ReadOnly Property Port As IPwmPort
+  overload: Meadow.Foundation.LEDs.IPwmLed.Port*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.LEDs
+  commentId: N:Meadow.Foundation.LEDs
+  name: Meadow.Foundation.LEDs
+  nameWithType: Meadow.Foundation.LEDs
+  fullName: Meadow.Foundation.LEDs
+- uid: Meadow.Foundation.LEDs.ILed.IsOn
+  commentId: P:Meadow.Foundation.LEDs.ILed.IsOn
+  parent: Meadow.Foundation.LEDs.ILed
+  name: IsOn
+  nameWithType: ILed.IsOn
+  fullName: Meadow.Foundation.LEDs.ILed.IsOn
+- uid: Meadow.Foundation.LEDs.ILed
+  commentId: T:Meadow.Foundation.LEDs.ILed
+  parent: Meadow.Foundation.LEDs
+  name: ILed
+  nameWithType: ILed
+  fullName: Meadow.Foundation.LEDs.ILed
+- uid: Meadow.Foundation.LEDs.IPwmLed.Port*
+  commentId: Overload:Meadow.Foundation.LEDs.IPwmLed.Port
+  name: Port
+  nameWithType: IPwmLed.Port
+  fullName: Meadow.Foundation.LEDs.IPwmLed.Port
+- uid: Meadow.Hardware.IPwmPort
+  commentId: T:Meadow.Hardware.IPwmPort
+  parent: Meadow.Hardware
+  name: IPwmPort
+  nameWithType: IPwmPort
+  fullName: Meadow.Hardware.IPwmPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware

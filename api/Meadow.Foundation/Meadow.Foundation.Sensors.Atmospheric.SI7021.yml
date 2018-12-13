@@ -1,0 +1,787 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021
+  id: SI7021
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  children:
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater(System.Boolean)
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChanged
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChanged
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Atmospheric.SI7021.Update
+  langs:
+  - csharp
+  - vb
+  name: SI7021
+  nameWithType: SI7021
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SI7021
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 9
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nProvide access to the SI7021 temperature and humidity sensor.\n"
+  example: []
+  syntax:
+    content: 'public class SI7021 : object, ITemperatureSensor, IHumiditySensor, ISensor'
+    content.vb: >-
+      Public Class SI7021
+          Inherits Object
+          Implements ITemperatureSensor, IHumiditySensor, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor
+  - Meadow.Foundation.Sensors.IHumiditySensor
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.SI7021.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: SI7021.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 16
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nMinimum value that should be used for the polling frequency.\n"
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+  id: Humidity
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Humidity
+  nameWithType: SI7021.Humidity
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Humidity
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 84
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet the last humidity reading from the sensor.\n"
+  remarks: "\nThe Update method should be called before the data in this property\ncontains valid data.\n"
+  example: []
+  syntax:
+    content: public float Humidity { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Humidity As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity*
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: SI7021.Temperature
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 110
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet the last temperature reading.\n"
+  remarks: "\nThe Update method should be called before the data in this property\ncontains valid data.\n"
+  example: []
+  syntax:
+    content: public float Temperature { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Temperature As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+  id: TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: SI7021.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 134
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nAny changes in the temperature that are greater than the temperature\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float TemperatureChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TemperatureChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+  id: HumidityChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: HumidityChangeNotificationThreshold
+  nameWithType: SI7021.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HumidityChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 141
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nAny changes in the humidity that are greater than the humidity\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float HumidityChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HumidityChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+  id: SerialNumber
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: SerialNumber
+  nameWithType: SI7021.SerialNumber
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SerialNumber
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 146
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nSerial number of the device.\n"
+  example: []
+  syntax:
+    content: public ulong SerialNumber { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly Property SerialNumber As ULong
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+  id: SensorType
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: SensorType
+  nameWithType: SI7021.SensorType
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 151
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nDevice type as extracted from the serial number.\n"
+  example: []
+  syntax:
+    content: public SI7021.DeviceType SensorType { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+    content.vb: Public ReadOnly Property SensorType As SI7021.DeviceType
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+  id: FirmwareRevision
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: FirmwareRevision
+  nameWithType: SI7021.FirmwareRevision
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FirmwareRevision
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 156
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nFirmware revision of the sensor.\n"
+  example: []
+  syntax:
+    content: public byte FirmwareRevision { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property FirmwareRevision As Byte
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+  id: Resolution
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Resolution
+  nameWithType: SI7021.Resolution
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Resolution
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 161
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet / Set the resolution of the sensor.\n"
+  example: []
+  syntax:
+    content: public byte Resolution { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Resolution As Byte
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChanged
+  id: TemperatureChanged
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChanged
+  nameWithType: SI7021.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 192
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nEvent raised when the temperature change is greater than the \nTemperatureChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler TemperatureChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event TemperatureChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChanged
+  commentId: E:Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChanged
+  id: HumidityChanged
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: HumidityChanged
+  nameWithType: SI7021.HumidityChanged
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HumidityChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 198
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nEvent raised when the humidity change is greater than the\nHumidityChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler HumidityChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event HumidityChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  id: '#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)'
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: SI7021(Byte, UInt16, UInt16, Single, Single)
+  nameWithType: SI7021.SI7021(Byte, UInt16, UInt16, Single, Single)
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SI7021(System.Byte, System.UInt16, System.UInt16, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 219
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nCreate a new SI7021 temperature and humidity sensor.\n"
+  example: []
+  syntax:
+    content: public SI7021(byte address = null, ushort speed = null, ushort updateInterval = null, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Sensor address (default to 0x40).
+    - id: speed
+      type: System.UInt16
+      description: Speed of the I2C interface (default to 100 KHz).
+    - id: updateInterval
+      type: System.UInt16
+      description: Number of milliseconds between samples (0 indicates polling to be used)
+    - id: humidityChangeNotificationThreshold
+      type: System.Single
+      description: Changes in humidity greater than this value will trigger an event when updatePeriod > 0.
+    - id: temperatureChangeNotificationThreshold
+      type: System.Single
+      description: Changes in temperature greater than this value will trigger an event when updatePeriod > 0.
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, updateInterval As UShort = Nothing, humidityChangeNotificationThreshold As Single = 0.001F, temperatureChangeNotificationThreshold As Single = 0.001F)
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Update
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SI7021.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: SI7021.Update()
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 319
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nMake a temperature and humidity reading.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset
+  id: Reset
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: SI7021.Reset()
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Reset
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 348
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nReset the sensor and take a fresh reading.\n"
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater(System.Boolean)
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater(System.Boolean)
+  id: Heater(System.Boolean)
+  parent: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  langs:
+  - csharp
+  - vb
+  name: Heater(Boolean)
+  nameWithType: SI7021.Heater(Boolean)
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Heater
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SI7021/SI7021.cs
+    startLine: 359
+  assemblies:
+  - Sensors.Atmospheric.SI7021
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nTurn the heater on or off.\n"
+  example: []
+  syntax:
+    content: public void Heater(bool onOrOff)
+    parameters:
+    - id: onOrOff
+      type: System.Boolean
+      description: Heater status, true = turn heater on, false = turn heater off.
+    content.vb: Public Sub Heater(onOrOff As Boolean)
+  overload: Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Atmospheric
+  commentId: N:Meadow.Foundation.Sensors.Atmospheric
+  name: Meadow.Foundation.Sensors.Atmospheric
+  nameWithType: Meadow.Foundation.Sensors.Atmospheric
+  fullName: Meadow.Foundation.Sensors.Atmospheric
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor
+  commentId: T:Meadow.Foundation.Sensors.ITemperatureSensor
+  parent: Meadow.Foundation.Sensors
+  name: ITemperatureSensor
+  nameWithType: ITemperatureSensor
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor
+- uid: Meadow.Foundation.Sensors.IHumiditySensor
+  commentId: T:Meadow.Foundation.Sensors.IHumiditySensor
+  parent: Meadow.Foundation.Sensors
+  name: IHumiditySensor
+  nameWithType: IHumiditySensor
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+  name: Humidity
+  nameWithType: SI7021.Humidity
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Humidity
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  commentId: P:Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: Humidity
+  nameWithType: IHumiditySensor.Humidity
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+  name: Temperature
+  nameWithType: SI7021.Temperature
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Temperature
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: SI7021.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+  name: HumidityChangeNotificationThreshold
+  nameWithType: SI7021.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.HumidityChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: HumidityChangeNotificationThreshold
+  nameWithType: IHumiditySensor.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+  name: SerialNumber
+  nameWithType: SI7021.SerialNumber
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SerialNumber
+- uid: System.UInt64
+  commentId: '!:System.UInt64'
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+  name: SensorType
+  nameWithType: SI7021.SensorType
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SensorType
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  name: SI7021.DeviceType
+  nameWithType: SI7021.DeviceType
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+  name: FirmwareRevision
+  nameWithType: SI7021.FirmwareRevision
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.FirmwareRevision
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+  name: Resolution
+  nameWithType: SI7021.Resolution
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Resolution
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChanged
+  nameWithType: ITemperatureSensor.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  commentId: E:Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: HumidityChanged
+  nameWithType: IHumiditySensor.HumidityChanged
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.#ctor
+  name: SI7021
+  nameWithType: SI7021.SI7021
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.SI7021
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Update
+  name: Update
+  nameWithType: SI7021.Update
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Update
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset
+  name: Reset
+  nameWithType: SI7021.Reset
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Reset
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater
+  name: Heater
+  nameWithType: SI7021.Heater
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.Heater
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

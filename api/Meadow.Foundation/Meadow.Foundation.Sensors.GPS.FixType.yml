@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.FixType
+  commentId: T:Meadow.Foundation.Sensors.GPS.FixType
+  id: FixType
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.FixType.DeadReckoning
+  - Meadow.Foundation.Sensors.GPS.FixType.DGPS
+  - Meadow.Foundation.Sensors.GPS.FixType.FloatRTK
+  - Meadow.Foundation.Sensors.GPS.FixType.Invalid
+  - Meadow.Foundation.Sensors.GPS.FixType.ManualInput
+  - Meadow.Foundation.Sensors.GPS.FixType.PPS
+  - Meadow.Foundation.Sensors.GPS.FixType.RealTimeKinematic
+  - Meadow.Foundation.Sensors.GPS.FixType.Simulation
+  - Meadow.Foundation.Sensors.GPS.FixType.SPS
+  langs:
+  - csharp
+  - vb
+  name: FixType
+  nameWithType: FixType
+  fullName: Meadow.Foundation.Sensors.GPS.FixType
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FixType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 17
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nFix type / quality.\n"
+  example: []
+  syntax:
+    content: 'public enum FixType : int'
+    content.vb: Public Enum FixType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.GPS.FixType.Invalid
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.Invalid
+  id: Invalid
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: FixType.Invalid
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.Invalid
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Invalid
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 19
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: Invalid = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: Invalid = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.SPS
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.SPS
+  id: SPS
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: SPS
+  nameWithType: FixType.SPS
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.SPS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SPS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 20
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: SPS = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: SPS = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.DGPS
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.DGPS
+  id: DGPS
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: DGPS
+  nameWithType: FixType.DGPS
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.DGPS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DGPS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 21
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: DGPS = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: DGPS = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.PPS
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.PPS
+  id: PPS
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: PPS
+  nameWithType: FixType.PPS
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.PPS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PPS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 22
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: PPS = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: PPS = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.RealTimeKinematic
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.RealTimeKinematic
+  id: RealTimeKinematic
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: RealTimeKinematic
+  nameWithType: FixType.RealTimeKinematic
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.RealTimeKinematic
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RealTimeKinematic
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 23
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: RealTimeKinematic = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: RealTimeKinematic = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.FloatRTK
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.FloatRTK
+  id: FloatRTK
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: FloatRTK
+  nameWithType: FixType.FloatRTK
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.FloatRTK
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FloatRTK
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 24
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: FloatRTK = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: FloatRTK = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.DeadReckoning
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.DeadReckoning
+  id: DeadReckoning
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: DeadReckoning
+  nameWithType: FixType.DeadReckoning
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.DeadReckoning
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeadReckoning
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 25
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: DeadReckoning = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: DeadReckoning = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.ManualInput
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.ManualInput
+  id: ManualInput
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: ManualInput
+  nameWithType: FixType.ManualInput
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.ManualInput
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ManualInput
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 26
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: ManualInput = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: ManualInput = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.FixType.Simulation
+  commentId: F:Meadow.Foundation.Sensors.GPS.FixType.Simulation
+  id: Simulation
+  parent: Meadow.Foundation.Sensors.GPS.FixType
+  langs:
+  - csharp
+  - vb
+  name: Simulation
+  nameWithType: FixType.Simulation
+  fullName: Meadow.Foundation.Sensors.GPS.FixType.Simulation
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Simulation
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 27
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: Simulation = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: Simulation = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: Meadow.Foundation.Sensors.GPS.FixType
+  commentId: T:Meadow.Foundation.Sensors.GPS.FixType
+  parent: Meadow.Foundation.Sensors.GPS
+  name: FixType
+  nameWithType: FixType
+  fullName: Meadow.Foundation.Sensors.GPS.FixType

@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.LEDs
+  commentId: N:Meadow.Foundation.LEDs
+  id: Meadow.Foundation.LEDs
+  children:
+  - Meadow.Foundation.LEDs.Helpers
+  - Meadow.Foundation.LEDs.ILed
+  - Meadow.Foundation.LEDs.IPwmLed
+  - Meadow.Foundation.LEDs.Led
+  - Meadow.Foundation.LEDs.PwmLed
+  - Meadow.Foundation.LEDs.RgbPwmLed
+  - Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+  - Meadow.Foundation.LEDs.TypicalForwardVoltage
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.LEDs
+  nameWithType: Meadow.Foundation.LEDs
+  fullName: Meadow.Foundation.LEDs
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.LEDs.Helpers
+  commentId: T:Meadow.Foundation.LEDs.Helpers
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Meadow.Foundation.LEDs.Helpers
+- uid: Meadow.Foundation.LEDs.ILed
+  commentId: T:Meadow.Foundation.LEDs.ILed
+  parent: Meadow.Foundation.LEDs
+  name: ILed
+  nameWithType: ILed
+  fullName: Meadow.Foundation.LEDs.ILed
+- uid: Meadow.Foundation.LEDs.IPwmLed
+  commentId: T:Meadow.Foundation.LEDs.IPwmLed
+  parent: Meadow.Foundation.LEDs
+  name: IPwmLed
+  nameWithType: IPwmLed
+  fullName: Meadow.Foundation.LEDs.IPwmLed
+- uid: Meadow.Foundation.LEDs.Led
+  commentId: T:Meadow.Foundation.LEDs.Led
+  name: Led
+  nameWithType: Led
+  fullName: Meadow.Foundation.LEDs.Led
+- uid: Meadow.Foundation.LEDs.PwmLed
+  commentId: T:Meadow.Foundation.LEDs.PwmLed
+  name: PwmLed
+  nameWithType: PwmLed
+  fullName: Meadow.Foundation.LEDs.PwmLed
+- uid: Meadow.Foundation.LEDs.RgbPwmLed
+  commentId: T:Meadow.Foundation.LEDs.RgbPwmLed
+  parent: Meadow.Foundation.LEDs
+  name: RgbPwmLed
+  nameWithType: RgbPwmLed
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+  commentId: T:Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+  parent: Meadow.Foundation.LEDs
+  name: RgbPwmLed.RunningColorsConfig
+  nameWithType: RgbPwmLed.RunningColorsConfig
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+- uid: Meadow.Foundation.LEDs.TypicalForwardVoltage
+  commentId: T:Meadow.Foundation.LEDs.TypicalForwardVoltage
+  name: TypicalForwardVoltage
+  nameWithType: TypicalForwardVoltage
+  fullName: Meadow.Foundation.LEDs.TypicalForwardVoltage
+- uid: Meadow.Foundation.LEDs
+  commentId: N:Meadow.Foundation.LEDs
+  name: Meadow.Foundation.LEDs
+  nameWithType: Meadow.Foundation.LEDs
+  fullName: Meadow.Foundation.LEDs

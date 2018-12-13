@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.Font8x12
+  commentId: T:Meadow.Foundation.Displays.Font8x12
+  id: Font8x12
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.Font8x12.Height
+  - Meadow.Foundation.Displays.Font8x12.Item(System.Char)
+  - Meadow.Foundation.Displays.Font8x12.Width
+  langs:
+  - csharp
+  - vb
+  name: Font8x12
+  nameWithType: Font8x12
+  fullName: Meadow.Foundation.Displays.Font8x12
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Font8x12
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+    startLine: 2
+  assemblies:
+  - Displays.GraphicsLibrary
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public class Font8x12 : FontBase'
+    content.vb: >-
+      Public Class Font8x12
+          Inherits FontBase
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.FontBase
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.Font8x12.Width
+  commentId: P:Meadow.Foundation.Displays.Font8x12.Width
+  id: Width
+  parent: Meadow.Foundation.Displays.Font8x12
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Font8x12.Width
+  fullName: Meadow.Foundation.Displays.Font8x12.Width
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Width
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+    startLine: 23
+  assemblies:
+  - Displays.GraphicsLibrary
+  namespace: Meadow.Foundation.Displays
+  summary: "\nWidth of a character in the font.\n"
+  example: []
+  syntax:
+    content: public override int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Width As Integer
+  overridden: Meadow.Foundation.Displays.FontBase.Width
+  overload: Meadow.Foundation.Displays.Font8x12.Width*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.Font8x12.Height
+  commentId: P:Meadow.Foundation.Displays.Font8x12.Height
+  id: Height
+  parent: Meadow.Foundation.Displays.Font8x12
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Font8x12.Height
+  fullName: Meadow.Foundation.Displays.Font8x12.Height
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Height
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+    startLine: 31
+  assemblies:
+  - Displays.GraphicsLibrary
+  namespace: Meadow.Foundation.Displays
+  summary: "\n/   Height of a character in the font.\n"
+  example: []
+  syntax:
+    content: public override int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Height As Integer
+  overridden: Meadow.Foundation.Displays.FontBase.Height
+  overload: Meadow.Foundation.Displays.Font8x12.Height*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.Font8x12.Item(System.Char)
+  commentId: P:Meadow.Foundation.Displays.Font8x12.Item(System.Char)
+  id: Item(System.Char)
+  parent: Meadow.Foundation.Displays.Font8x12
+  langs:
+  - csharp
+  - vb
+  name: Item[Char]
+  nameWithType: Font8x12.Item[Char]
+  fullName: Meadow.Foundation.Displays.Font8x12.Item[System.Char]
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: this[]
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.GraphicsLibrary/Font8x12.cs
+    startLine: 160
+  assemblies:
+  - Displays.GraphicsLibrary
+  namespace: Meadow.Foundation.Displays
+  summary: "\nGet the binary representation of an ASCII character from the\nfont table.\n"
+  example: []
+  syntax:
+    content: public override byte[] this[char character] { get; }
+    parameters:
+    - id: character
+      type: System.Char
+      description: Character to look up.
+    return:
+      type: System.Byte[]
+      description: "\nByte array containing the rows of pixels in the character.  Unknown byte codes will result in a space being\nreturned.\n"
+    content.vb: Public Overrides ReadOnly Property Item(character As Char) As Byte()
+  overridden: Meadow.Foundation.Displays.FontBase.Item(System.Char)
+  overload: Meadow.Foundation.Displays.Font8x12.Item*
+  nameWithType.vb: Font8x12.Item(Char)
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: Meadow.Foundation.Displays.Font8x12.Item(System.Char)
+  name.vb: Item(Char)
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.FontBase
+  commentId: T:Meadow.Foundation.Displays.FontBase
+  parent: Meadow.Foundation.Displays
+  name: FontBase
+  nameWithType: FontBase
+  fullName: Meadow.Foundation.Displays.FontBase
+- uid: Meadow.Foundation.Displays.FontBase.Width
+  commentId: P:Meadow.Foundation.Displays.FontBase.Width
+  parent: Meadow.Foundation.Displays.FontBase
+  name: Width
+  nameWithType: FontBase.Width
+  fullName: Meadow.Foundation.Displays.FontBase.Width
+- uid: Meadow.Foundation.Displays.Font8x12.Width*
+  commentId: Overload:Meadow.Foundation.Displays.Font8x12.Width
+  name: Width
+  nameWithType: Font8x12.Width
+  fullName: Meadow.Foundation.Displays.Font8x12.Width
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.FontBase.Height
+  commentId: P:Meadow.Foundation.Displays.FontBase.Height
+  parent: Meadow.Foundation.Displays.FontBase
+  name: Height
+  nameWithType: FontBase.Height
+  fullName: Meadow.Foundation.Displays.FontBase.Height
+- uid: Meadow.Foundation.Displays.Font8x12.Height*
+  commentId: Overload:Meadow.Foundation.Displays.Font8x12.Height
+  name: Height
+  nameWithType: Font8x12.Height
+  fullName: Meadow.Foundation.Displays.Font8x12.Height
+- uid: Meadow.Foundation.Displays.FontBase.Item(System.Char)
+  commentId: P:Meadow.Foundation.Displays.FontBase.Item(System.Char)
+  parent: Meadow.Foundation.Displays.FontBase
+  isExternal: true
+  name: Item[Char]
+  nameWithType: FontBase.Item[Char]
+  fullName: Meadow.Foundation.Displays.FontBase.Item[System.Char]
+  nameWithType.vb: FontBase.Item(Char)
+  fullName.vb: Meadow.Foundation.Displays.FontBase.Item(System.Char)
+  name.vb: Item(Char)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.FontBase.Item(System.Char)
+    name: Item
+    nameWithType: FontBase.Item
+    fullName: Meadow.Foundation.Displays.FontBase.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.FontBase.Item(System.Char)
+    name: Item
+    nameWithType: FontBase.Item
+    fullName: Meadow.Foundation.Displays.FontBase.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.Font8x12.Item*
+  commentId: Overload:Meadow.Foundation.Displays.Font8x12.Item
+  name: Item
+  nameWithType: Font8x12.Item
+  fullName: Meadow.Foundation.Displays.Font8x12.Item
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

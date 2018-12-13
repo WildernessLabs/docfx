@@ -1,0 +1,718 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  commentId: T:Meadow.Foundation.Servos.ContinuousRotationServoBase
+  id: ContinuousRotationServoBase
+  parent: Meadow.Foundation.Servos
+  children:
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase._config
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase._currentDirection
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase._currentSpeed
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase._pwm
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle(System.Double)
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse(System.Double)
+  - Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop
+  langs:
+  - csharp
+  - vb
+  name: ContinuousRotationServoBase
+  nameWithType: ContinuousRotationServoBase
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ContinuousRotationServoBase
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 8
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nBase class implementation for servos that can rotate continuously.\n"
+  example: []
+  syntax:
+    content: 'public abstract class ContinuousRotationServoBase : object, IContinuousRotationServo'
+    content.vb: >-
+      Public MustInherit Class ContinuousRotationServoBase
+          Inherits Object
+          Implements IContinuousRotationServo
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Meadow.Foundation.Servos.ContinuousRotationServo
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase._pwm
+  commentId: F:Meadow.Foundation.Servos.ContinuousRotationServoBase._pwm
+  id: _pwm
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: _pwm
+  nameWithType: ContinuousRotationServoBase._pwm
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase._pwm
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _pwm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 10
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected IPwmPort _pwm
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: Protected _pwm As IPwmPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+  commentId: P:Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+  id: Config
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: ContinuousRotationServoBase.Config
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Config
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 15
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nGets the ServoConfig that describes this servo.\n"
+  example: []
+  syntax:
+    content: public ServoConfig Config { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public ReadOnly Property Config As ServoConfig
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.Config*
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo.Config
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase._config
+  commentId: F:Meadow.Foundation.Servos.ContinuousRotationServoBase._config
+  id: _config
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: _config
+  nameWithType: ContinuousRotationServoBase._config
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase._config
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _config
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 19
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected ServoConfig _config
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Protected _config As ServoConfig
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+  commentId: P:Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+  id: CurrentDirection
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: CurrentDirection
+  nameWithType: ContinuousRotationServoBase.CurrentDirection
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CurrentDirection
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 24
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nGets the current rotation direction.\n"
+  example: []
+  syntax:
+    content: public RotationDirection CurrentDirection { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Servos.RotationDirection
+    content.vb: Public ReadOnly Property CurrentDirection As RotationDirection
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection*
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo.CurrentDirection
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase._currentDirection
+  commentId: F:Meadow.Foundation.Servos.ContinuousRotationServoBase._currentDirection
+  id: _currentDirection
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: _currentDirection
+  nameWithType: ContinuousRotationServoBase._currentDirection
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase._currentDirection
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _currentDirection
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 28
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected RotationDirection _currentDirection
+    return:
+      type: Meadow.Foundation.Servos.RotationDirection
+    content.vb: Protected _currentDirection As RotationDirection
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+  commentId: P:Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+  id: CurrentSpeed
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: CurrentSpeed
+  nameWithType: ContinuousRotationServoBase.CurrentSpeed
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CurrentSpeed
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 33
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nGets the current rotation speed.\n"
+  example: []
+  syntax:
+    content: public float CurrentSpeed { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property CurrentSpeed As Single
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed*
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase._currentSpeed
+  commentId: F:Meadow.Foundation.Servos.ContinuousRotationServoBase._currentSpeed
+  id: _currentSpeed
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: _currentSpeed
+  nameWithType: ContinuousRotationServoBase._currentSpeed
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase._currentSpeed
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _currentSpeed
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 37
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected float _currentSpeed
+    return:
+      type: System.Single
+    content.vb: Protected _currentSpeed As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)
+  id: '#ctor(Meadow.Hardware.IPwmPort,Meadow.Foundation.Servos.ServoConfig)'
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: ContinuousRotationServoBase(IPwmPort, ServoConfig)
+  nameWithType: ContinuousRotationServoBase.ContinuousRotationServoBase(IPwmPort, ServoConfig)
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.ContinuousRotationServoBase(Meadow.Hardware.IPwmPort, Meadow.Foundation.Servos.ServoConfig)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 44
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nInstantiates a new continuous rotation servo on the specified pin, with the specified configuration.\n"
+  example: []
+  syntax:
+    content: public ContinuousRotationServoBase(IPwmPort pwm, ServoConfig config)
+    parameters:
+    - id: pwm
+      type: Meadow.Hardware.IPwmPort
+    - id: config
+      type: Meadow.Foundation.Servos.ServoConfig
+      description: ''
+    content.vb: Public Sub New(pwm As IPwmPort, config As ServoConfig)
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  id: Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: Rotate(RotationDirection, Single)
+  nameWithType: ContinuousRotationServoBase.Rotate(RotationDirection, Single)
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate(Meadow.Foundation.Servos.RotationDirection, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Rotate
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 61
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nStarts rotating the servo in the specified direction, at the specified speed.\n"
+  example: []
+  syntax:
+    content: public void Rotate(RotationDirection direction, float speed)
+    parameters:
+    - id: direction
+      type: Meadow.Foundation.Servos.RotationDirection
+      description: Clockwise/counterclockwise.
+    - id: speed
+      type: System.Single
+      description: 0.0 to 1.0 (0% to 100%).
+    content.vb: Public Sub Rotate(direction As RotationDirection, speed As Single)
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate*
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop
+  id: Stop
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ContinuousRotationServoBase.Stop()
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Stop
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 83
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nStops rotation of the servo.\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop*
+  implements:
+  - Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  id: CalculatePulseDuration(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: CalculatePulseDuration(RotationDirection, Single)
+  nameWithType: ContinuousRotationServoBase.CalculatePulseDuration(RotationDirection, Single)
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration(Meadow.Foundation.Servos.RotationDirection, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CalculatePulseDuration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 99
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nContinuous rotation servos usually have a zero speed at their midpoint pulse \nduration (between min and max). As you lower the duration from midpoint, they \nrotate clockwise and rotate their fastest at the minimum pulse duration. As \nyou increase the pulse duration, they rotate counter-clockwise.\n"
+  example: []
+  syntax:
+    content: protected double CalculatePulseDuration(RotationDirection direction, float speed)
+    parameters:
+    - id: direction
+      type: Meadow.Foundation.Servos.RotationDirection
+      description: ''
+    - id: speed
+      type: System.Single
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Protected Function CalculatePulseDuration(direction As RotationDirection, speed As Single) As Double
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle(System.Double)
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle(System.Double)
+  id: CalculateDutyCycle(System.Double)
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: CalculateDutyCycle(Double)
+  nameWithType: ContinuousRotationServoBase.CalculateDutyCycle(Double)
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle(System.Double)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CalculateDutyCycle
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 120
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected double CalculateDutyCycle(double pulseDuration)
+    parameters:
+    - id: pulseDuration
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Protected Function CalculateDutyCycle(pulseDuration As Double) As Double
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse(System.Double)
+  commentId: M:Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse(System.Double)
+  id: SendCommandPulse(System.Double)
+  parent: Meadow.Foundation.Servos.ContinuousRotationServoBase
+  langs:
+  - csharp
+  - vb
+  name: SendCommandPulse(Double)
+  nameWithType: ContinuousRotationServoBase.SendCommandPulse(Double)
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse(System.Double)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendCommandPulse
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
+    startLine: 126
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: protected void SendCommandPulse(double pulseDuration)
+    parameters:
+    - id: pulseDuration
+      type: System.Double
+    content.vb: Protected Sub SendCommandPulse(pulseDuration As Double)
+  overload: Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.Servos
+  commentId: N:Meadow.Foundation.Servos
+  name: Meadow.Foundation.Servos
+  nameWithType: Meadow.Foundation.Servos
+  fullName: Meadow.Foundation.Servos
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo
+  commentId: T:Meadow.Foundation.Servos.IContinuousRotationServo
+  parent: Meadow.Foundation.Servos
+  name: IContinuousRotationServo
+  nameWithType: IContinuousRotationServo
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo
+- uid: Meadow.Hardware.IPwmPort
+  commentId: T:Meadow.Hardware.IPwmPort
+  parent: Meadow.Hardware
+  name: IPwmPort
+  nameWithType: IPwmPort
+  fullName: Meadow.Hardware.IPwmPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Config*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+  name: Config
+  nameWithType: ContinuousRotationServoBase.Config
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Config
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo.Config
+  commentId: P:Meadow.Foundation.Servos.IContinuousRotationServo.Config
+  parent: Meadow.Foundation.Servos.IContinuousRotationServo
+  name: Config
+  nameWithType: IContinuousRotationServo.Config
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Config
+- uid: Meadow.Foundation.Servos.ServoConfig
+  commentId: T:Meadow.Foundation.Servos.ServoConfig
+  parent: Meadow.Foundation.Servos
+  name: ServoConfig
+  nameWithType: ServoConfig
+  fullName: Meadow.Foundation.Servos.ServoConfig
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+  name: CurrentDirection
+  nameWithType: ContinuousRotationServoBase.CurrentDirection
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentDirection
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentDirection
+  commentId: P:Meadow.Foundation.Servos.IContinuousRotationServo.CurrentDirection
+  parent: Meadow.Foundation.Servos.IContinuousRotationServo
+  name: CurrentDirection
+  nameWithType: IContinuousRotationServo.CurrentDirection
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentDirection
+- uid: Meadow.Foundation.Servos.RotationDirection
+  commentId: T:Meadow.Foundation.Servos.RotationDirection
+  parent: Meadow.Foundation.Servos
+  name: RotationDirection
+  nameWithType: RotationDirection
+  fullName: Meadow.Foundation.Servos.RotationDirection
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+  name: CurrentSpeed
+  nameWithType: ContinuousRotationServoBase.CurrentSpeed
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CurrentSpeed
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
+  commentId: P:Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
+  parent: Meadow.Foundation.Servos.IContinuousRotationServo
+  name: CurrentSpeed
+  nameWithType: IContinuousRotationServo.CurrentSpeed
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.#ctor
+  name: ContinuousRotationServoBase
+  nameWithType: ContinuousRotationServoBase.ContinuousRotationServoBase
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.ContinuousRotationServoBase
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate
+  name: Rotate
+  nameWithType: ContinuousRotationServoBase.Rotate
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Rotate
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  commentId: M:Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+  parent: Meadow.Foundation.Servos.IContinuousRotationServo
+  isExternal: true
+  name: Rotate(RotationDirection, Single)
+  nameWithType: IContinuousRotationServo.Rotate(RotationDirection, Single)
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection, System.Single)
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+    name: Rotate
+    nameWithType: IContinuousRotationServo.Rotate
+    fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Servos.RotationDirection
+    name: RotationDirection
+    nameWithType: RotationDirection
+    fullName: Meadow.Foundation.Servos.RotationDirection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate(Meadow.Foundation.Servos.RotationDirection,System.Single)
+    name: Rotate
+    nameWithType: IContinuousRotationServo.Rotate
+    fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Servos.RotationDirection
+    name: RotationDirection
+    nameWithType: RotationDirection
+    fullName: Meadow.Foundation.Servos.RotationDirection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop
+  name: Stop
+  nameWithType: ContinuousRotationServoBase.Stop
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.Stop
+- uid: Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+  commentId: M:Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+  parent: Meadow.Foundation.Servos.IContinuousRotationServo
+  name: Stop()
+  nameWithType: IContinuousRotationServo.Stop()
+  fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Stop()
+  spec.csharp:
+  - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+    name: Stop
+    nameWithType: IContinuousRotationServo.Stop
+    fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+    name: Stop
+    nameWithType: IContinuousRotationServo.Stop
+    fullName: Meadow.Foundation.Servos.IContinuousRotationServo.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration
+  name: CalculatePulseDuration
+  nameWithType: ContinuousRotationServoBase.CalculatePulseDuration
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle
+  name: CalculateDutyCycle
+  nameWithType: ContinuousRotationServoBase.CalculateDutyCycle
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculateDutyCycle
+- uid: Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse*
+  commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse
+  name: SendCommandPulse
+  nameWithType: ContinuousRotationServoBase.SendCommandPulse
+  fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.SendCommandPulse

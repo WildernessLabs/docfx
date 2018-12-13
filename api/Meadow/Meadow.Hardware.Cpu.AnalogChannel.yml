@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.Cpu.AnalogChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
+  id: Cpu.AnalogChannel
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_0
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_1
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_2
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_3
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_4
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_5
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_6
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_7
+  - Meadow.Hardware.Cpu.AnalogChannel.ANALOG_NONE
+  langs:
+  - csharp
+  - vb
+  name: Cpu.AnalogChannel
+  nameWithType: Cpu.AnalogChannel
+  fullName: Meadow.Hardware.Cpu.AnalogChannel
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: AnalogChannel
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public enum AnalogChannel
+    content.vb: Public Enum AnalogChannel
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_NONE
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_NONE
+  id: ANALOG_NONE
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_NONE
+  nameWithType: Cpu.AnalogChannel.ANALOG_NONE
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_NONE
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_NONE
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_NONE = -1
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_0
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_0
+  id: ANALOG_0
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_0
+  nameWithType: Cpu.AnalogChannel.ANALOG_0
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_0
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_0
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_0 = 0
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_1
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_1
+  id: ANALOG_1
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_1
+  nameWithType: Cpu.AnalogChannel.ANALOG_1
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_1
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_1
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_1 = 1
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_2
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_2
+  id: ANALOG_2
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_2
+  nameWithType: Cpu.AnalogChannel.ANALOG_2
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_2
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_2
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_2 = 2
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_3
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_3
+  id: ANALOG_3
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_3
+  nameWithType: Cpu.AnalogChannel.ANALOG_3
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_3
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_3
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_3 = 3
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_4
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_4
+  id: ANALOG_4
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_4
+  nameWithType: Cpu.AnalogChannel.ANALOG_4
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_4
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_4
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 18
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_4 = 4
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_5
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_5
+  id: ANALOG_5
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_5
+  nameWithType: Cpu.AnalogChannel.ANALOG_5
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_5
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_5
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_5 = 5
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_6
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_6
+  id: ANALOG_6
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_6
+  nameWithType: Cpu.AnalogChannel.ANALOG_6
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_6
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_6
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 20
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_6 = 6
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_7
+  commentId: F:Meadow.Hardware.Cpu.AnalogChannel.ANALOG_7
+  id: ANALOG_7
+  parent: Meadow.Hardware.Cpu.AnalogChannel
+  langs:
+  - csharp
+  - vb
+  name: ANALOG_7
+  nameWithType: Cpu.AnalogChannel.ANALOG_7
+  fullName: Meadow.Hardware.Cpu.AnalogChannel.ANALOG_7
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Cpu.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: ANALOG_7
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: ANALOG_7 = 7
+    return:
+      type: Meadow.Hardware.Cpu.AnalogChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Cpu.AnalogChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
+  parent: Meadow.Hardware
+  name: Cpu.AnalogChannel
+  nameWithType: Cpu.AnalogChannel
+  fullName: Meadow.Hardware.Cpu.AnalogChannel

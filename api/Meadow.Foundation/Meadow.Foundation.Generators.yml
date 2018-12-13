@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Generators
+  commentId: N:Meadow.Foundation.Generators
+  id: Meadow.Foundation.Generators
+  children:
+  - Meadow.Foundation.Generators.SoftPwm
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Generators
+  nameWithType: Meadow.Foundation.Generators
+  fullName: Meadow.Foundation.Generators
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Generators.SoftPwm
+  commentId: T:Meadow.Foundation.Generators.SoftPwm
+  name: SoftPwm
+  nameWithType: SoftPwm
+  fullName: Meadow.Foundation.Generators.SoftPwm

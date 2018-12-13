@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  id: Spi.SPI_module
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.Spi.SPI_module.SPI1
+  - Meadow.Hardware.Spi.SPI_module.SPI2
+  - Meadow.Hardware.Spi.SPI_module.SPI3
+  - Meadow.Hardware.Spi.SPI_module.SPI4
+  langs:
+  - csharp
+  - vb
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Spi.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPI_module
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public enum SPI_module
+    content.vb: Public Enum SPI_module
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Hardware.Spi.SPI_module.SPI1
+  commentId: F:Meadow.Hardware.Spi.SPI_module.SPI1
+  id: SPI1
+  parent: Meadow.Hardware.Spi.SPI_module
+  langs:
+  - csharp
+  - vb
+  name: SPI1
+  nameWithType: Spi.SPI_module.SPI1
+  fullName: Meadow.Hardware.Spi.SPI_module.SPI1
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Spi.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPI1
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: SPI1 = 0
+    return:
+      type: Meadow.Hardware.Spi.SPI_module
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Spi.SPI_module.SPI2
+  commentId: F:Meadow.Hardware.Spi.SPI_module.SPI2
+  id: SPI2
+  parent: Meadow.Hardware.Spi.SPI_module
+  langs:
+  - csharp
+  - vb
+  name: SPI2
+  nameWithType: Spi.SPI_module.SPI2
+  fullName: Meadow.Hardware.Spi.SPI_module.SPI2
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Spi.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPI2
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: SPI2 = 1
+    return:
+      type: Meadow.Hardware.Spi.SPI_module
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Spi.SPI_module.SPI3
+  commentId: F:Meadow.Hardware.Spi.SPI_module.SPI3
+  id: SPI3
+  parent: Meadow.Hardware.Spi.SPI_module
+  langs:
+  - csharp
+  - vb
+  name: SPI3
+  nameWithType: Spi.SPI_module.SPI3
+  fullName: Meadow.Hardware.Spi.SPI_module.SPI3
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Spi.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPI3
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: SPI3 = 2
+    return:
+      type: Meadow.Hardware.Spi.SPI_module
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Hardware.Spi.SPI_module.SPI4
+  commentId: F:Meadow.Hardware.Spi.SPI_module.SPI4
+  id: SPI4
+  parent: Meadow.Hardware.Spi.SPI_module
+  langs:
+  - csharp
+  - vb
+  name: SPI4
+  nameWithType: Spi.SPI_module.SPI4
+  fullName: Meadow.Hardware.Spi.SPI_module.SPI4
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Spi.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: SPI4
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: SPI4 = 3
+    return:
+      type: Meadow.Hardware.Spi.SPI_module
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module

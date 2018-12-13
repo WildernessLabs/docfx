@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor
+  commentId: T:Meadow.Foundation.Sensors.ITemperatureSensor
+  id: ITemperatureSensor
+  parent: Meadow.Foundation.Sensors
+  children:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  langs:
+  - csharp
+  - vb
+  name: ITemperatureSensor
+  nameWithType: ITemperatureSensor
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ITemperatureSensor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nTemperature sensor interface requirements.\n"
+  example: []
+  syntax:
+    content: 'public interface ITemperatureSensor : ISensor'
+    content.vb: >-
+      Public Interface ITemperatureSensor
+          Inherits ISensor
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  id: TemperatureChanged
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChanged
+  nameWithType: ITemperatureSensor.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChanged
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nThe TemperatureChanged event will be raised when the difference (absolute value)\nbetween the current Temperature reading and the last notified reading is greater\nthan the TemperatureChangeNotificationThreshold.\n"
+  example: []
+  syntax:
+    content: event SensorFloatEventHandler TemperatureChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Event TemperatureChanged As SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nLast value read from the Temperature sensor.\n"
+  example: []
+  syntax:
+    content: float Temperature { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property Temperature As Single
+  overload: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  id: TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/ITemperatureSensor.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nThreshold value for the changed notification event.\n"
+  example: []
+  syntax:
+    content: float TemperatureChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property TemperatureChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
