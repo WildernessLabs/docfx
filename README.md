@@ -7,16 +7,19 @@ For instructions on how to use DocFX, visit https://dotnet.github.io/docfx/
 
 1. Install DocFX
   
+  On OSX ([brew](https://brew.sh/) required)
   ```
-  # OSX, [brew](https://brew.sh/) required
   brew install docfx
-
-  # Windows, [chocolately](https://chocolatey.org/docs/installation) required
+  ```
+  On Windows ([chocolately](https://chocolatey.org/docs/installation) required)
+  ```
   choco install docfx -y
   ```
 
 2. Clone Repo  
+
 If you haven't cloned [Meadow.Core](https://github.com/WildernessLabs/Meadow.Core) and [Meadow.Foundation](https://github.com/WildernessLabs/Meadow.Foundation) do so first and then clone `docfx` as a sibling. 
+
   ```
   git clone git@github.com:WildernessLabs/Meadow.Core.git
   ```
