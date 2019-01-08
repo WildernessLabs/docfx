@@ -16,7 +16,7 @@ For instructions on how to use DocFX, visit https://dotnet.github.io/docfx/
   ```
 
 2. Clone Repo  
-  If you haven't cloned [Meadow.Core](https://github.com/WildernessLabs/Meadow.Core) and [Meadow.Foundation](https://github.com/WildernessLabs/Meadow.Foundation) do so first and then clone `docfx` as a sibling. 
+If you haven't cloned [Meadow.Core](https://github.com/WildernessLabs/Meadow.Core) and [Meadow.Foundation](https://github.com/WildernessLabs/Meadow.Foundation) do so first and then clone `docfx` as a sibling. 
   ```
   git clone git@github.com:WildernessLabs/Meadow.Core.git
   ```
