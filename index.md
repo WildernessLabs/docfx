@@ -1,4 +1,12 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+# Wilderness Labs Meadow Beta Developer Site
+
+Hello, and welcome to the documentation site for the Meadow beta.
+
+# Meadow + Meadow.Foundation
+
+ - **Meadow** is the Core OS and runtime.
+ - **Meadow.Foundation** is a set of peripheral drivers and other non core libraries. Meadow.Foundation is open source.
+
+# Beta Getting Started
+
+[hardware and software needed]
