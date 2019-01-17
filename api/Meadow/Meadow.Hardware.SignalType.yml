@@ -26,8 +26,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum SignalType
-    content.vb: Public Enum SignalType
+    content: 'public enum SignalType : int'
+    content.vb: Public Enum SignalType As Integer
   modifiers.csharp:
   - public
   - enum

@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IBiDirectionalPort
+  commentId: T:Meadow.Hardware.IBiDirectionalPort
+  id: IBiDirectionalPort
+  parent: Meadow.Hardware
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IBiDirectionalPort
+  nameWithType: IBiDirectionalPort
+  fullName: Meadow.Hardware.IBiDirectionalPort
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IBiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IBiDirectionalPort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IBiDirectionalPort.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public interface IBiDirectionalPort : IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort'
+    content.vb: >-
+      Public Interface IBiDirectionalPort
+
+          Inherits IDigitalInterruptPort, IDigitalOutputPort
+  inheritedMembers:
+  - Meadow.Hardware.IDigitalInterruptPort.Changed
+  - Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  - Meadow.Hardware.IDigitalInputPort.State
+  - Meadow.Hardware.IDigitalOutputPort.InitialState
+  - Meadow.Hardware.IPort.Direction
+  - Meadow.Hardware.IPort.SignalType
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IDigitalInterruptPort.Changed
+  commentId: E:Meadow.Hardware.IDigitalInterruptPort.Changed
+  parent: Meadow.Hardware.IDigitalInterruptPort
+  name: Changed
+  nameWithType: IDigitalInterruptPort.Changed
+  fullName: Meadow.Hardware.IDigitalInterruptPort.Changed
+- uid: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  commentId: P:Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  parent: Meadow.Hardware.IDigitalInterruptPort
+  name: InterrupEnabled
+  nameWithType: IDigitalInterruptPort.InterrupEnabled
+  fullName: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+- uid: Meadow.Hardware.IDigitalInputPort.State
+  commentId: P:Meadow.Hardware.IDigitalInputPort.State
+  parent: Meadow.Hardware.IDigitalInputPort
+  name: State
+  nameWithType: IDigitalInputPort.State
+  fullName: Meadow.Hardware.IDigitalInputPort.State
+- uid: Meadow.Hardware.IDigitalOutputPort.InitialState
+  commentId: P:Meadow.Hardware.IDigitalOutputPort.InitialState
+  parent: Meadow.Hardware.IDigitalOutputPort
+  name: InitialState
+  nameWithType: IDigitalOutputPort.InitialState
+  fullName: Meadow.Hardware.IDigitalOutputPort.InitialState
+- uid: Meadow.Hardware.IPort.Direction
+  commentId: P:Meadow.Hardware.IPort.Direction
+  parent: Meadow.Hardware.IPort
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
+- uid: Meadow.Hardware.IPort.SignalType
+  commentId: P:Meadow.Hardware.IPort.SignalType
+  parent: Meadow.Hardware.IPort
+  name: SignalType
+  nameWithType: IPort.SignalType
+  fullName: Meadow.Hardware.IPort.SignalType
+- uid: Meadow.Hardware.IDigitalInterruptPort
+  commentId: T:Meadow.Hardware.IDigitalInterruptPort
+  parent: Meadow.Hardware
+  name: IDigitalInterruptPort
+  nameWithType: IDigitalInterruptPort
+  fullName: Meadow.Hardware.IDigitalInterruptPort
+- uid: Meadow.Hardware.IDigitalInputPort
+  commentId: T:Meadow.Hardware.IDigitalInputPort
+  parent: Meadow.Hardware
+  name: IDigitalInputPort
+  nameWithType: IDigitalInputPort
+  fullName: Meadow.Hardware.IDigitalInputPort
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort

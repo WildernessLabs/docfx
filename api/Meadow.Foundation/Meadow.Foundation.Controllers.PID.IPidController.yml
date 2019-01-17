@@ -364,10 +364,18 @@ references:
   nameWithType: IPidController.ProportionalComponent
   fullName: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent*
   commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
   name: IntegralComponent
@@ -394,6 +402,8 @@ references:
   nameWithType: IPidController.OutputTuningInformation
   fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

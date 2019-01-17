@@ -87,6 +87,7 @@
     <div><a class="xref" href="Meadow.Hardware.IDigitalOutputPort.html">IDigitalOutputPort</a></div>
     <div><a class="xref" href="Meadow.Hardware.IDigitalPort.html">IDigitalPort</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPort.html">IPort</a></div>
+    <div><span class="xref">IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -94,7 +95,7 @@
       <a class="xref" href="Meadow.Hardware.DigitalOutputPortBase.html#Meadow_Hardware_DigitalOutputPortBase__initialState">DigitalOutputPortBase._initialState</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_DirectionType">DigitalPortBase.DirectionType</a>
+      <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_Direction">DigitalPortBase.Direction</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase__direction">DigitalPortBase._direction</a>
@@ -105,33 +106,12 @@
     <div>
       <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase__state">DigitalPortBase._state</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_DigitalOutputPort_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DigitalOutputPort : DigitalOutputPortBase, IDigitalOutputPort, IDigitalPort, IPort</code></pre>
+    <pre><code class="lang-csharp hljs">public class DigitalOutputPort : DigitalOutputPortBase, IDigitalOutputPort, IDigitalPort, IPort, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -140,7 +120,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort__ctor.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L21">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L23">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalOutputPort__ctor_" data-uid="Meadow.Hardware.DigitalOutputPort.#ctor*"></a>
   <h4 id="Meadow_Hardware_DigitalOutputPort__ctor" data-uid="Meadow.Hardware.DigitalOutputPort.#ctor">DigitalOutputPort()</h4>
@@ -152,19 +132,19 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort__ctor_Meadow_Hardware_IDigitalChannel_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.%23ctor(Meadow.Hardware.IDigitalChannel%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort__ctor_Meadow_Hardware_IDigitalPin_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.%23ctor(Meadow.Hardware.IDigitalPin%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L31">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L33">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalOutputPort__ctor_" data-uid="Meadow.Hardware.DigitalOutputPort.#ctor*"></a>
-  <h4 id="Meadow_Hardware_DigitalOutputPort__ctor_Meadow_Hardware_IDigitalChannel_System_Boolean_" data-uid="Meadow.Hardware.DigitalOutputPort.#ctor(Meadow.Hardware.IDigitalChannel,System.Boolean)">DigitalOutputPort(IDigitalChannel, Boolean)</h4>
+  <h4 id="Meadow_Hardware_DigitalOutputPort__ctor_Meadow_Hardware_IDigitalPin_System_Boolean_" data-uid="Meadow.Hardware.DigitalOutputPort.#ctor(Meadow.Hardware.IDigitalPin,System.Boolean)">DigitalOutputPort(IDigitalPin, Boolean)</h4>
   <div class="markdown level1 summary"><p>Creates a new DigitalOutputPort from a pin.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DigitalOutputPort(IDigitalChannel pin, bool initialState = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public DigitalOutputPort(IDigitalPin pin, bool initialState = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,13 +157,73 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></td>
+        <td><a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
         <td><span class="parametername">pin</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">initialState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort__disposed.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort._disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L8">View Source</a>
+  </span>
+  <h4 id="Meadow_Hardware_DigitalOutputPort__disposed" data-uid="Meadow.Hardware.DigitalOutputPort._disposed">_disposed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _disposed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort__pin.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort._pin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L7">View Source</a>
+  </span>
+  <h4 id="Meadow_Hardware_DigitalOutputPort__pin" data-uid="Meadow.Hardware.DigitalOutputPort._pin">_pin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDigitalPin _pin</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -195,7 +235,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort_InitialState.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.InitialState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L7">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L10">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalOutputPort_InitialState_" data-uid="Meadow.Hardware.DigitalOutputPort.InitialState*"></a>
   <h4 id="Meadow_Hardware_DigitalOutputPort_InitialState" data-uid="Meadow.Hardware.DigitalOutputPort.InitialState">InitialState</h4>
@@ -227,7 +267,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort_State.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L9">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L12">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalOutputPort_State_" data-uid="Meadow.Hardware.DigitalOutputPort.State*"></a>
   <h4 id="Meadow_Hardware_DigitalOutputPort_State" data-uid="Meadow.Hardware.DigitalOutputPort.State">State</h4>
@@ -254,6 +294,70 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_State">DigitalPortBase.State</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort_Dispose.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L55">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalOutputPort_Dispose_" data-uid="Meadow.Hardware.DigitalOutputPort.Dispose*"></a>
+  <h4 id="Meadow_Hardware_DigitalOutputPort_Dispose" data-uid="Meadow.Hardware.DigitalOutputPort.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L61">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalOutputPort_Dispose_" data-uid="Meadow.Hardware.DigitalOutputPort.Dispose*"></a>
+  <h4 id="Meadow_Hardware_DigitalOutputPort_Dispose_System_Boolean_" data-uid="Meadow.Hardware.DigitalOutputPort.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort_Finalize.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L79">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalOutputPort_Finalize_" data-uid="Meadow.Hardware.DigitalOutputPort.Finalize*"></a>
+  <h4 id="Meadow_Hardware_DigitalOutputPort_Finalize" data-uid="Meadow.Hardware.DigitalOutputPort.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Meadow.Hardware.IDigitalOutputPort.html">IDigitalOutputPort</a>
@@ -263,6 +367,9 @@
   </div>
   <div>
       <a class="xref" href="Meadow.Hardware.IPort.html">IPort</a>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
   </div>
 </article>
           </div>
@@ -275,7 +382,7 @@
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalOutputPort.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalOutputPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalOutputPort.cs/#L5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

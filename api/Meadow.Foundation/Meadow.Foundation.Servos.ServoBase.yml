@@ -32,7 +32,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 5
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: 'public abstract class ServoBase : object, IServo'
@@ -76,7 +76,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 7
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected IPwmPort _pwm
@@ -107,7 +107,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 12
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nGets the ServoConfig that describes this servo.\n"
   example: []
@@ -146,7 +146,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 16
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected ServoConfig _config
@@ -177,7 +177,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 21
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nReturns the current angle. Returns -1 if the angle is unknown.\n"
   example: []
@@ -216,7 +216,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 23
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected int _angle
@@ -247,7 +247,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 30
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nInstantiates a new Servo on the specified PWM Pin with the specified config.\n"
   example: []
@@ -285,7 +285,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 45
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRotates the servo to a given angle.\n"
   example: []
@@ -323,7 +323,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 71
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nStops the signal that controls the servo angle. For many servos, this will \nreturn the servo to its nuetral position (usually 0º).\n"
   example: []
@@ -355,7 +355,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 77
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected double CalculatePulseDuration(int angle)
@@ -390,7 +390,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 87
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected double CalculateDutyCycle(double pulseDuration)
@@ -425,7 +425,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
     startLine: 93
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected void SendCommandPulse(double pulseDuration)
@@ -445,6 +445,8 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -455,6 +457,12 @@ references:
   name: IServo
   nameWithType: IServo
   fullName: Meadow.Foundation.Servos.IServo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IPwmPort
   commentId: T:Meadow.Hardware.IPwmPort
   parent: Meadow.Hardware
@@ -495,6 +503,8 @@ references:
   nameWithType: IServo.Angle
   fullName: Meadow.Foundation.Servos.IServo.Angle
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -559,6 +569,8 @@ references:
   nameWithType: ServoBase.CalculatePulseDuration
   fullName: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double

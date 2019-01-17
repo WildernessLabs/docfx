@@ -83,7 +83,32 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
     <div><a class="xref" href="Meadow.Foundation.Displays.ITextDisplay.html">ITextDisplay</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
   <h6><strong>Assembly</strong>: Displays.SerialLCD.dll</h6>
@@ -95,19 +120,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SerialLCD__ctor_Meadow_Foundation_Displays_TextDisplayConfig_System_String_System_Int32_Parity_System_Int32_StopBits_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SerialLCD.%23ctor(Meadow.Foundation.Displays.TextDisplayConfig%2CSystem.String%2CSystem.Int32%2CParity%2CSystem.Int32%2CStopBits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SerialLCD__ctor_Meadow_Foundation_Displays_TextDisplayConfig_System_String_System_Int32_Meadow_Hardware_Parity_System_Int32_Meadow_Hardware_StopBits_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SerialLCD.%23ctor(Meadow.Foundation.Displays.TextDisplayConfig%2CSystem.String%2CSystem.Int32%2CMeadow.Hardware.Parity%2CSystem.Int32%2CMeadow.Hardware.StopBits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs/#L136">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SerialLCD__ctor_" data-uid="Meadow.Foundation.Displays.SerialLCD.#ctor*"></a>
-  <h4 id="Meadow_Foundation_Displays_SerialLCD__ctor_Meadow_Foundation_Displays_TextDisplayConfig_System_String_System_Int32_Parity_System_Int32_StopBits_" data-uid="Meadow.Foundation.Displays.SerialLCD.#ctor(Meadow.Foundation.Displays.TextDisplayConfig,System.String,System.Int32,Parity,System.Int32,StopBits)">SerialLCD(TextDisplayConfig, String, Int32, Parity, Int32, StopBits)</h4>
+  <h4 id="Meadow_Foundation_Displays_SerialLCD__ctor_Meadow_Foundation_Displays_TextDisplayConfig_System_String_System_Int32_Meadow_Hardware_Parity_System_Int32_Meadow_Hardware_StopBits_" data-uid="Meadow.Foundation.Displays.SerialLCD.#ctor(Meadow.Foundation.Displays.TextDisplayConfig,System.String,System.Int32,Meadow.Hardware.Parity,System.Int32,Meadow.Hardware.StopBits)">SerialLCD(TextDisplayConfig, String, Int32, Parity, Int32, StopBits)</h4>
   <div class="markdown level1 summary"><p>Create a new SerialLCD object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SerialLCD(TextDisplayConfig config = null, string port = &quot;COM1&quot;, int baudRate = 9600, Parity parity = null, int dataBits = 8, StopBits stopBits = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SerialLCD(TextDisplayConfig config = null, string port = &quot;COM1&quot;, int baudRate = 9600, Parity parity = default(Parity), int dataBits = 8, StopBits stopBits = default(StopBits))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,7 +163,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Parity</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Parity.html">Parity</a></td>
         <td><span class="parametername">parity</span></td>
         <td><p>Parity to use (default is None).</p>
 </td>
@@ -150,7 +175,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">StopBits</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.StopBits.html">StopBits</a></td>
         <td><span class="parametername">stopBits</span></td>
         <td><p>Number of stop bits (default is one stop bit).</p>
 </td>
@@ -289,7 +314,8 @@ to it.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DisplayText(string text)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use .Write methods instead.&quot;)]
+public void DisplayText(string text)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -787,6 +813,9 @@ custom character saved in the 0 slot.</p>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
   <div>
       <a class="xref" href="Meadow.Foundation.Displays.ITextDisplay.html">ITextDisplay</a>
   </div>

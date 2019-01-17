@@ -156,10 +156,18 @@ references:
   nameWithType: IHumiditySensor.Humidity
   fullName: Meadow.Foundation.Sensors.IHumiditySensor.Humidity
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold*
   commentId: Overload:Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
   name: HumidityChangeNotificationThreshold

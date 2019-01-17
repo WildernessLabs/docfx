@@ -78,19 +78,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Meadow.Hardware.IDigitalInputPort.html#Meadow_Hardware_IDigitalInputPort_Changed">IDigitalInputPort.Changed</a>
+      <a class="xref" href="Meadow.Hardware.IDigitalInputPort.html#Meadow_Hardware_IDigitalInputPort_State">IDigitalInputPort.State</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.IDigitalInputPort.html#Meadow_Hardware_IDigitalInputPort_InterrupEnabled">IDigitalInputPort.InterrupEnabled</a>
-    </div>
-    <div>
-      <a class="xref" href="Meadow.Hardware.IDigitalInputPort.html#Meadow_Hardware_IDigitalInputPort_Value">IDigitalInputPort.Value</a>
-    </div>
-    <div>
-      <a class="xref" href="Meadow.Hardware.IDigitalPort.html#Meadow_Hardware_IDigitalPort_State">IDigitalPort.State</a>
-    </div>
-    <div>
-      <a class="xref" href="Meadow.Hardware.IPort.html#Meadow_Hardware_IPort_DirectionType">IPort.DirectionType</a>
+      <a class="xref" href="Meadow.Hardware.IPort.html#Meadow_Hardware_IPort_Direction">IPort.Direction</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Hardware.IPort.html#Meadow_Hardware_IPort_SignalType">IPort.SignalType</a>
@@ -102,6 +93,69 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IDigitalInterruptPort : IDigitalInputPort, IDigitalPort, IPort</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled.md&amp;value=---%0Auid%3A%20Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Contracts/IDigitalInterruptPort.cs/#L9">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled_" data-uid="Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled*"></a>
+  <h4 id="Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled" data-uid="Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled">InterrupEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool InterrupEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_IDigitalInterruptPort_Changed.md&amp;value=---%0Auid%3A%20Meadow.Hardware.IDigitalInterruptPort.Changed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Contracts/IDigitalInterruptPort.cs/#L7">View Source</a>
+  </span>
+  <h4 id="Meadow_Hardware_IDigitalInterruptPort_Changed" data-uid="Meadow.Hardware.IDigitalInterruptPort.Changed">Changed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PortEventArgs&gt; Changed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Meadow.Hardware.PortEventArgs.html">PortEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

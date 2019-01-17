@@ -29,18 +29,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: >-
-      [Flags]
-
-      public enum PinUsage : byte
-    content.vb: >-
-      <Flags>
-
-      Public Enum PinUsage As Byte
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public enum PinUsage : byte'
+    content.vb: Public Enum PinUsage As Byte
   modifiers.csharp:
   - public
   - enum
@@ -70,9 +60,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: NONE = 0
+    content: NONE = null
     return:
       type: Meadow.Hardware.Cpu.PinUsage
+    content.vb: NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -102,9 +93,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: INPUT = 1
+    content: INPUT = null
     return:
       type: Meadow.Hardware.Cpu.PinUsage
+    content.vb: INPUT = Nothing
   modifiers.csharp:
   - public
   - const
@@ -134,9 +126,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: OUTPUT = 2
+    content: OUTPUT = null
     return:
       type: Meadow.Hardware.Cpu.PinUsage
+    content.vb: OUTPUT = Nothing
   modifiers.csharp:
   - public
   - const
@@ -166,9 +159,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ALTERNATE_A = 4
+    content: ALTERNATE_A = null
     return:
       type: Meadow.Hardware.Cpu.PinUsage
+    content.vb: ALTERNATE_A = Nothing
   modifiers.csharp:
   - public
   - const
@@ -198,9 +192,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ALTERNATE_B = 8
+    content: ALTERNATE_B = null
     return:
       type: Meadow.Hardware.Cpu.PinUsage
+    content.vb: ALTERNATE_B = Nothing
   modifiers.csharp:
   - public
   - const

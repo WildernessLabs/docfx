@@ -48,12 +48,22 @@ references:
   nameWithType: Meadow.Foundation.Communications
   fullName: Meadow.Foundation.Communications
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

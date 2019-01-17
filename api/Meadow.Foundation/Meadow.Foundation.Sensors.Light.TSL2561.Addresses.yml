@@ -60,10 +60,9 @@ items:
   - Sensors.Light.TSL2561
   namespace: Meadow.Foundation.Sensors.Light
   syntax:
-    content: Default = null
+    content: Default = 57
     return:
       type: Meadow.Foundation.Sensors.Light.TSL2561.Addresses
-    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,10 +92,9 @@ items:
   - Sensors.Light.TSL2561
   namespace: Meadow.Foundation.Sensors.Light
   syntax:
-    content: Address0 = null
+    content: Address0 = 41
     return:
       type: Meadow.Foundation.Sensors.Light.TSL2561.Addresses
-    content.vb: Address0 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -126,10 +124,9 @@ items:
   - Sensors.Light.TSL2561
   namespace: Meadow.Foundation.Sensors.Light
   syntax:
-    content: Address1 = null
+    content: Address1 = 73
     return:
       type: Meadow.Foundation.Sensors.Light.TSL2561.Addresses
-    content.vb: Address1 = Nothing
   modifiers.csharp:
   - public
   - const

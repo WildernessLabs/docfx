@@ -60,13 +60,18 @@ items:
   summary: "\nRegisters in the ADXL362 sensor.\n"
   example: []
   syntax:
-    content: 'protected static class Registers : object'
-    content.vb: >-
-      Protected Module Registers
-
-          Inherits Object
+    content: protected static class Registers
+    content.vb: Protected Module Registers
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - protected
   - static
@@ -99,10 +104,10 @@ items:
   summary: "\nDevice ID (should be 0xad).\n"
   example: []
   syntax:
-    content: public const byte DeviceID = null
+    content: public const byte DeviceID = 0
     return:
       type: System.Byte
-    content.vb: Public Const DeviceID As Byte = Nothing
+    content.vb: Public Const DeviceID As Byte = 0
   modifiers.csharp:
   - public
   - const
@@ -134,10 +139,10 @@ items:
   summary: "\nDevice IS MST (should be 0x1d).\n"
   example: []
   syntax:
-    content: public const byte DeviceIDMST = null
+    content: public const byte DeviceIDMST = 1
     return:
       type: System.Byte
-    content.vb: Public Const DeviceIDMST As Byte = Nothing
+    content.vb: Public Const DeviceIDMST As Byte = 1
   modifiers.csharp:
   - public
   - const
@@ -169,10 +174,10 @@ items:
   summary: "\nPart ID (should be 0xf2).\n"
   example: []
   syntax:
-    content: public const byte PartID = null
+    content: public const byte PartID = 3
     return:
       type: System.Byte
-    content.vb: Public Const PartID As Byte = Nothing
+    content.vb: Public Const PartID As Byte = 3
   modifiers.csharp:
   - public
   - const
@@ -204,10 +209,10 @@ items:
   summary: "\nRevision ID (starts with 0x01 and increments for each change to the silicon).\n"
   example: []
   syntax:
-    content: public const byte SiliconRevisionID = null
+    content: public const byte SiliconRevisionID = 3
     return:
       type: System.Byte
-    content.vb: Public Const SiliconRevisionID As Byte = Nothing
+    content.vb: Public Const SiliconRevisionID As Byte = 3
   modifiers.csharp:
   - public
   - const
@@ -239,10 +244,10 @@ items:
   summary: "\nX-axis MSB (8-bits used when limited resolution is acceptable).\n"
   example: []
   syntax:
-    content: public const byte XAxis8Bits = null
+    content: public const byte XAxis8Bits = 8
     return:
       type: System.Byte
-    content.vb: Public Const XAxis8Bits As Byte = Nothing
+    content.vb: Public Const XAxis8Bits As Byte = 8
   modifiers.csharp:
   - public
   - const
@@ -274,10 +279,10 @@ items:
   summary: "\nY-axis MSB (8-bits used when limited resolution is acceptable).\n"
   example: []
   syntax:
-    content: public const byte YAxis8Bits = null
+    content: public const byte YAxis8Bits = 9
     return:
       type: System.Byte
-    content.vb: Public Const YAxis8Bits As Byte = Nothing
+    content.vb: Public Const YAxis8Bits As Byte = 9
   modifiers.csharp:
   - public
   - const
@@ -309,10 +314,10 @@ items:
   summary: "\nZ-axis MSB (8-bits used when limited resolution is acceptable).\n"
   example: []
   syntax:
-    content: public const byte ZAxis8Bits = null
+    content: public const byte ZAxis8Bits = 10
     return:
       type: System.Byte
-    content.vb: Public Const ZAxis8Bits As Byte = Nothing
+    content.vb: Public Const ZAxis8Bits As Byte = 10
   modifiers.csharp:
   - public
   - const
@@ -344,10 +349,10 @@ items:
   summary: "\nStatus register\n"
   example: []
   syntax:
-    content: public const byte Status = null
+    content: public const byte Status = 11
     return:
       type: System.Byte
-    content.vb: Public Const Status As Byte = Nothing
+    content.vb: Public Const Status As Byte = 11
   modifiers.csharp:
   - public
   - const
@@ -379,10 +384,10 @@ items:
   summary: "\nFIFO entires (LSB)\n"
   example: []
   syntax:
-    content: public const byte FIFORCEntriesLSB = null
+    content: public const byte FIFORCEntriesLSB = 12
     return:
       type: System.Byte
-    content.vb: Public Const FIFORCEntriesLSB As Byte = Nothing
+    content.vb: Public Const FIFORCEntriesLSB As Byte = 12
   modifiers.csharp:
   - public
   - const
@@ -414,10 +419,10 @@ items:
   summary: "\nFIFO entries (MSB)\n"
   example: []
   syntax:
-    content: public const byte FIFOEntriesMSB = null
+    content: public const byte FIFOEntriesMSB = 13
     return:
       type: System.Byte
-    content.vb: Public Const FIFOEntriesMSB As Byte = Nothing
+    content.vb: Public Const FIFOEntriesMSB As Byte = 13
   modifiers.csharp:
   - public
   - const
@@ -449,10 +454,10 @@ items:
   summary: "\nX-axis (LSB)\n"
   example: []
   syntax:
-    content: public const byte XAxisLSB = null
+    content: public const byte XAxisLSB = 14
     return:
       type: System.Byte
-    content.vb: Public Const XAxisLSB As Byte = Nothing
+    content.vb: Public Const XAxisLSB As Byte = 14
   modifiers.csharp:
   - public
   - const
@@ -484,10 +489,10 @@ items:
   summary: "\nX-axis MSB\n"
   example: []
   syntax:
-    content: public const byte XAxisMSB = null
+    content: public const byte XAxisMSB = 15
     return:
       type: System.Byte
-    content.vb: Public Const XAxisMSB As Byte = Nothing
+    content.vb: Public Const XAxisMSB As Byte = 15
   modifiers.csharp:
   - public
   - const
@@ -519,10 +524,10 @@ items:
   summary: "\nY-axis (LSB)\n"
   example: []
   syntax:
-    content: public const byte YAxisLSB = null
+    content: public const byte YAxisLSB = 16
     return:
       type: System.Byte
-    content.vb: Public Const YAxisLSB As Byte = Nothing
+    content.vb: Public Const YAxisLSB As Byte = 16
   modifiers.csharp:
   - public
   - const
@@ -554,10 +559,10 @@ items:
   summary: "\nY-Axis (MSB)\n"
   example: []
   syntax:
-    content: public const byte YAxisMSB = null
+    content: public const byte YAxisMSB = 17
     return:
       type: System.Byte
-    content.vb: Public Const YAxisMSB As Byte = Nothing
+    content.vb: Public Const YAxisMSB As Byte = 17
   modifiers.csharp:
   - public
   - const
@@ -589,10 +594,10 @@ items:
   summary: "\nZ-axis (LSB)\n"
   example: []
   syntax:
-    content: public const byte ZAxisLSB = null
+    content: public const byte ZAxisLSB = 18
     return:
       type: System.Byte
-    content.vb: Public Const ZAxisLSB As Byte = Nothing
+    content.vb: Public Const ZAxisLSB As Byte = 18
   modifiers.csharp:
   - public
   - const
@@ -624,10 +629,10 @@ items:
   summary: "\nZ-axis (MSB)\n"
   example: []
   syntax:
-    content: public const byte ZAxisMSB = null
+    content: public const byte ZAxisMSB = 19
     return:
       type: System.Byte
-    content.vb: Public Const ZAxisMSB As Byte = Nothing
+    content.vb: Public Const ZAxisMSB As Byte = 19
   modifiers.csharp:
   - public
   - const
@@ -659,10 +664,10 @@ items:
   summary: "\nTemperature (LSB)\n"
   example: []
   syntax:
-    content: public const byte TemperatureLSB = null
+    content: public const byte TemperatureLSB = 20
     return:
       type: System.Byte
-    content.vb: Public Const TemperatureLSB As Byte = Nothing
+    content.vb: Public Const TemperatureLSB As Byte = 20
   modifiers.csharp:
   - public
   - const
@@ -694,10 +699,10 @@ items:
   summary: "\nTemperature (MSB)\n"
   example: []
   syntax:
-    content: public const byte TemperatureMSB = null
+    content: public const byte TemperatureMSB = 21
     return:
       type: System.Byte
-    content.vb: Public Const TemperatureMSB As Byte = Nothing
+    content.vb: Public Const TemperatureMSB As Byte = 21
   modifiers.csharp:
   - public
   - const
@@ -730,10 +735,10 @@ items:
   remarks: "\nWriting 0x52 (ASCII for R) resets the sensor.\nAll register settings are cleared, the sensor is placed into standby mode.\n"
   example: []
   syntax:
-    content: public const byte SoftReset = null
+    content: public const byte SoftReset = 31
     return:
       type: System.Byte
-    content.vb: Public Const SoftReset As Byte = Nothing
+    content.vb: Public Const SoftReset As Byte = 31
   modifiers.csharp:
   - public
   - const
@@ -765,10 +770,10 @@ items:
   summary: "\nActivity threshold (LSB)\n"
   example: []
   syntax:
-    content: public const byte ActivityThresholdLSB = null
+    content: public const byte ActivityThresholdLSB = 32
     return:
       type: System.Byte
-    content.vb: Public Const ActivityThresholdLSB As Byte = Nothing
+    content.vb: Public Const ActivityThresholdLSB As Byte = 32
   modifiers.csharp:
   - public
   - const
@@ -800,10 +805,10 @@ items:
   summary: "\nActivity threshold (MSB)\n"
   example: []
   syntax:
-    content: public const byte ActivityThresholdMSB = null
+    content: public const byte ActivityThresholdMSB = 33
     return:
       type: System.Byte
-    content.vb: Public Const ActivityThresholdMSB As Byte = Nothing
+    content.vb: Public Const ActivityThresholdMSB As Byte = 33
   modifiers.csharp:
   - public
   - const
@@ -836,10 +841,10 @@ items:
   remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must exceed the activity threshold before an interrupt\nis generated.\n"
   example: []
   syntax:
-    content: public const byte ActivityTimeCount = null
+    content: public const byte ActivityTimeCount = 34
     return:
       type: System.Byte
-    content.vb: Public Const ActivityTimeCount As Byte = Nothing
+    content.vb: Public Const ActivityTimeCount As Byte = 34
   modifiers.csharp:
   - public
   - const
@@ -871,10 +876,10 @@ items:
   summary: "\nInactivity threshold (LSB)\n"
   example: []
   syntax:
-    content: public const byte InactivityThresholdLSB = null
+    content: public const byte InactivityThresholdLSB = 35
     return:
       type: System.Byte
-    content.vb: Public Const InactivityThresholdLSB As Byte = Nothing
+    content.vb: Public Const InactivityThresholdLSB As Byte = 35
   modifiers.csharp:
   - public
   - const
@@ -906,10 +911,10 @@ items:
   summary: "\nInactivity threshold (MSB)\n"
   example: []
   syntax:
-    content: public const byte InactivityThresholdMSB = null
+    content: public const byte InactivityThresholdMSB = 36
     return:
       type: System.Byte
-    content.vb: Public Const InactivityThresholdMSB As Byte = Nothing
+    content.vb: Public Const InactivityThresholdMSB As Byte = 36
   modifiers.csharp:
   - public
   - const
@@ -942,10 +947,10 @@ items:
   remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must be below the inactivity threshold before an\ninterrupt is generated.\n"
   example: []
   syntax:
-    content: public const byte InactivityCountLSB = null
+    content: public const byte InactivityCountLSB = 37
     return:
       type: System.Byte
-    content.vb: Public Const InactivityCountLSB As Byte = Nothing
+    content.vb: Public Const InactivityCountLSB As Byte = 37
   modifiers.csharp:
   - public
   - const
@@ -978,10 +983,10 @@ items:
   remarks: "\nThe contents of this register indicates the number of readings in any\nof the axis that must be below the inactivity threshold before an\ninterrupt is generated.\n"
   example: []
   syntax:
-    content: public const byte InactivityCountMSB = null
+    content: public const byte InactivityCountMSB = 38
     return:
       type: System.Byte
-    content.vb: Public Const InactivityCountMSB As Byte = Nothing
+    content.vb: Public Const InactivityCountMSB As Byte = 38
   modifiers.csharp:
   - public
   - const
@@ -1013,10 +1018,10 @@ items:
   summary: "\nActivity / Inactivity control.\n"
   example: []
   syntax:
-    content: public const byte ActivityInactivityControl = null
+    content: public const byte ActivityInactivityControl = 39
     return:
       type: System.Byte
-    content.vb: Public Const ActivityInactivityControl As Byte = Nothing
+    content.vb: Public Const ActivityInactivityControl As Byte = 39
   modifiers.csharp:
   - public
   - const
@@ -1048,10 +1053,10 @@ items:
   summary: "\nFIFO Control.\n"
   example: []
   syntax:
-    content: public const byte FIFOControl = null
+    content: public const byte FIFOControl = 40
     return:
       type: System.Byte
-    content.vb: Public Const FIFOControl As Byte = Nothing
+    content.vb: Public Const FIFOControl As Byte = 40
   modifiers.csharp:
   - public
   - const
@@ -1083,10 +1088,10 @@ items:
   summary: "\nFIFO samples to store.\n"
   example: []
   syntax:
-    content: public const byte FIFOSampleCount = null
+    content: public const byte FIFOSampleCount = 41
     return:
       type: System.Byte
-    content.vb: Public Const FIFOSampleCount As Byte = Nothing
+    content.vb: Public Const FIFOSampleCount As Byte = 41
   modifiers.csharp:
   - public
   - const
@@ -1118,10 +1123,10 @@ items:
   summary: "\nInterrupt map register (1)\n"
   example: []
   syntax:
-    content: public const byte InterruptMap1 = null
+    content: public const byte InterruptMap1 = 42
     return:
       type: System.Byte
-    content.vb: Public Const InterruptMap1 As Byte = Nothing
+    content.vb: Public Const InterruptMap1 As Byte = 42
   modifiers.csharp:
   - public
   - const
@@ -1153,10 +1158,10 @@ items:
   summary: "\nInterrupt map register (2)\n"
   example: []
   syntax:
-    content: public const byte InterruptMap2 = null
+    content: public const byte InterruptMap2 = 43
     return:
       type: System.Byte
-    content.vb: Public Const InterruptMap2 As Byte = Nothing
+    content.vb: Public Const InterruptMap2 As Byte = 43
   modifiers.csharp:
   - public
   - const
@@ -1188,10 +1193,10 @@ items:
   summary: "\nFilter control register.\n"
   example: []
   syntax:
-    content: public const byte FilterControl = null
+    content: public const byte FilterControl = 44
     return:
       type: System.Byte
-    content.vb: Public Const FilterControl As Byte = Nothing
+    content.vb: Public Const FilterControl As Byte = 44
   modifiers.csharp:
   - public
   - const
@@ -1223,10 +1228,10 @@ items:
   summary: "\nPower control.\n"
   example: []
   syntax:
-    content: public const byte PowerControl = null
+    content: public const byte PowerControl = 45
     return:
       type: System.Byte
-    content.vb: Public Const PowerControl As Byte = Nothing
+    content.vb: Public Const PowerControl As Byte = 45
   modifiers.csharp:
   - public
   - const
@@ -1259,10 +1264,10 @@ items:
   remarks: "\nSetting this register to 0x01 forces a self test on th X, Y\nand Z axes.\n"
   example: []
   syntax:
-    content: public const byte SelfTest = null
+    content: public const byte SelfTest = 46
     return:
       type: System.Byte
-    content.vb: Public Const SelfTest As Byte = Nothing
+    content.vb: Public Const SelfTest As Byte = 46
   modifiers.csharp:
   - public
   - const
@@ -1276,11 +1281,300 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Motion
   fullName: Meadow.Foundation.Sensors.Motion
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

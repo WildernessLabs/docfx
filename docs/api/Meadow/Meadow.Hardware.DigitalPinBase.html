@@ -73,7 +73,8 @@
   
   <h1 id="Meadow_Hardware_DigitalPinBase" data-uid="Meadow.Hardware.DigitalPinBase" class="text-break">Class DigitalPinBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provides a base implementation for digital pins.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -85,6 +86,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPin.html">IPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></div>
   </div>
@@ -94,52 +96,31 @@
       <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Name">PinBase.Name</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Address">PinBase.Address</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Key">PinBase.Key</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_DigitalPinBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class DigitalPinBase : PinBase, IPin, IDigitalChannel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class DigitalPinBase : PinBase, IDigitalPin, IPin, IDigitalChannel</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase__ctor_System_String_System_UInt32_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.%23ctor(System.String%2CSystem.UInt32%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase__ctor_System_String_System_Object_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.%23ctor(System.String%2CSystem.Object%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L6">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L9">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalPinBase__ctor_" data-uid="Meadow.Hardware.DigitalPinBase.#ctor*"></a>
-  <h4 id="Meadow_Hardware_DigitalPinBase__ctor_System_String_System_UInt32_System_Boolean_System_Boolean_System_Boolean_" data-uid="Meadow.Hardware.DigitalPinBase.#ctor(System.String,System.UInt32,System.Boolean,System.Boolean,System.Boolean)">DigitalPinBase(String, UInt32, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Meadow_Hardware_DigitalPinBase__ctor_System_String_System_Object_System_Boolean_System_Boolean_System_Boolean_" data-uid="Meadow.Hardware.DigitalPinBase.#ctor(System.String,System.Object,System.Boolean,System.Boolean,System.Boolean)">DigitalPinBase(String, Object, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DigitalPinBase(string name, uint address, bool interruptCapable = false, bool pullDownCapable = false, bool pullUpCapable = false)</code></pre>
+    <pre><code class="lang-csharp hljs">protected DigitalPinBase(string name, object key, bool interruptCapable = false, bool pullDownCapable = false, bool pullUpCapable = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,8 +138,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">address</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
       <tr>
@@ -185,7 +166,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase__interruptCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase._interruptCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L18">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L21">View Source</a>
   </span>
   <h4 id="Meadow_Hardware_DigitalPinBase__interruptCapable" data-uid="Meadow.Hardware.DigitalPinBase._interruptCapable">_interruptCapable</h4>
   <div class="markdown level1 summary"></div>
@@ -214,7 +195,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase__pullDownCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase._pullDownCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L21">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L24">View Source</a>
   </span>
   <h4 id="Meadow_Hardware_DigitalPinBase__pullDownCapable" data-uid="Meadow.Hardware.DigitalPinBase._pullDownCapable">_pullDownCapable</h4>
   <div class="markdown level1 summary"></div>
@@ -243,7 +224,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase__pullUpCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase._pullUpCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L24">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L27">View Source</a>
   </span>
   <h4 id="Meadow_Hardware_DigitalPinBase__pullUpCapable" data-uid="Meadow.Hardware.DigitalPinBase._pullUpCapable">_pullUpCapable</h4>
   <div class="markdown level1 summary"></div>
@@ -271,10 +252,40 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase_GPIOManager.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.GPIOManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L30">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalPinBase_GPIOManager_" data-uid="Meadow.Hardware.DigitalPinBase.GPIOManager*"></a>
+  <h4 id="Meadow_Hardware_DigitalPinBase_GPIOManager" data-uid="Meadow.Hardware.DigitalPinBase.GPIOManager">GPIOManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IGPIOManager GPIOManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.IGPIOManager.html">IGPIOManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase_InterrruptCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.InterrruptCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L19">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L22">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalPinBase_InterrruptCapable_" data-uid="Meadow.Hardware.DigitalPinBase.InterrruptCapable*"></a>
   <h4 id="Meadow_Hardware_DigitalPinBase_InterrruptCapable" data-uid="Meadow.Hardware.DigitalPinBase.InterrruptCapable">InterrruptCapable</h4>
@@ -304,7 +315,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase_PullDownCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.PullDownCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L22">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L25">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalPinBase_PullDownCapable_" data-uid="Meadow.Hardware.DigitalPinBase.PullDownCapable*"></a>
   <h4 id="Meadow_Hardware_DigitalPinBase_PullDownCapable" data-uid="Meadow.Hardware.DigitalPinBase.PullDownCapable">PullDownCapable</h4>
@@ -334,7 +345,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase_PullUpCapable.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase.PullUpCapable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L25">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L28">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalPinBase_PullUpCapable_" data-uid="Meadow.Hardware.DigitalPinBase.PullUpCapable*"></a>
   <h4 id="Meadow_Hardware_DigitalPinBase_PullUpCapable" data-uid="Meadow.Hardware.DigitalPinBase.PullUpCapable">PullUpCapable</h4>
@@ -361,6 +372,9 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a>
+  </div>
+  <div>
       <a class="xref" href="Meadow.Hardware.IPin.html">IPin</a>
   </div>
   <div>
@@ -377,7 +391,7 @@
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPinBase.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPinBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L4" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

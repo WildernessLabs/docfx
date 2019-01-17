@@ -66,10 +66,9 @@ items:
   summary: "\nSystem is idle.\n"
   example: []
   syntax:
-    content: Idle = null
+    content: Idle = 0
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: Idle = Nothing
   modifiers.csharp:
   - public
   - const
@@ -101,10 +100,9 @@ items:
   summary: "\nSystem error.\n"
   example: []
   syntax:
-    content: SystemError = null
+    content: SystemError = 1
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: SystemError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -136,10 +134,9 @@ items:
   summary: "\nPeripheral initialization in progess.\n"
   example: []
   syntax:
-    content: PeripheralInitializationInProgess = null
+    content: PeripheralInitializationInProgess = 2
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: PeripheralInitializationInProgess = Nothing
   modifiers.csharp:
   - public
   - const
@@ -171,10 +168,9 @@ items:
   summary: "\nSystem is initializing.\n"
   example: []
   syntax:
-    content: SystemInitializationInProgress = null
+    content: SystemInitializationInProgress = 3
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: SystemInitializationInProgress = Nothing
   modifiers.csharp:
   - public
   - const
@@ -206,10 +202,9 @@ items:
   summary: "\nSelf test is running.\n"
   example: []
   syntax:
-    content: SelfTestInProgress = null
+    content: SelfTestInProgress = 4
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: SelfTestInProgress = Nothing
   modifiers.csharp:
   - public
   - const
@@ -241,10 +236,9 @@ items:
   summary: "\nFusion algorithm is running.\n"
   example: []
   syntax:
-    content: FusionAlgorithmRunning = null
+    content: FusionAlgorithmRunning = 5
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: FusionAlgorithmRunning = Nothing
   modifiers.csharp:
   - public
   - const
@@ -276,10 +270,9 @@ items:
   summary: "\nSystem is running without using the fusion algorithm.\n"
   example: []
   syntax:
-    content: FusionAlgorithmNotUsed = null
+    content: FusionAlgorithmNotUsed = 6
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-    content.vb: FusionAlgorithmNotUsed = Nothing
   modifiers.csharp:
   - public
   - const

@@ -27,7 +27,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 4
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: 'public static class NamedServoConfigs : object'
@@ -64,7 +64,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 9
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents an ideal 180º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
   example: []
@@ -99,7 +99,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 13
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents an ideal 270º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
   example: []
@@ -134,7 +134,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 18
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents an ideal continuous rotation servo that has a min and max pulse of 1ms and 2ms.\n"
   example: []
@@ -169,7 +169,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 24
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents the BlueBird BMS models. Maximum angle is 120. Pulse range is 900µs - 2,100µs.\nSee: https://www.blue-bird-model.com/products_detail/309.htm\n"
   example: []
@@ -204,7 +204,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 29
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents the HiTec &quot;Standard&quot; servo models. Angle: 0-180, Pulse: 900 - 1,200\n"
   example: []
@@ -239,7 +239,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
     startLine: 34
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents the JX HV 180 degree servo models. Angle: 0-180, Pulse: 500 - 2,500\n"
   example: []
@@ -261,10 +261,18 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.ServoConfig
   commentId: T:Meadow.Foundation.Servos.ServoConfig
   parent: Meadow.Foundation.Servos

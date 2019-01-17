@@ -81,28 +81,52 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ADXL335</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Motion.html">Meadow.Foundation.Sensors.Motion</a></h6>
   <h6><strong>Assembly</strong>: Sensors.Motion.ADXL335.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Motion_ADXL335_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ADXL335 : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class ADXL335</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL335__ctor_Cpu_AnalogChannel_Cpu_AnalogChannel_Cpu_AnalogChannel_System_UInt16_System_Double_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL335.%23ctor(Cpu.AnalogChannel%2CCpu.AnalogChannel%2CCpu.AnalogChannel%2CSystem.UInt16%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL335__ctor_Meadow_Hardware_Cpu_AnalogChannel_Meadow_Hardware_Cpu_AnalogChannel_Meadow_Hardware_Cpu_AnalogChannel_System_UInt16_System_Double_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL335.%23ctor(Meadow.Hardware.Cpu.AnalogChannel%2CMeadow.Hardware.Cpu.AnalogChannel%2CMeadow.Hardware.Cpu.AnalogChannel%2CSystem.UInt16%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Motion.ADXL335/ADXL335.cs/#L168">View Source</a>
   </span>
   <a id="Meadow_Foundation_Sensors_Motion_ADXL335__ctor_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL335.#ctor*"></a>
-  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL335__ctor_Cpu_AnalogChannel_Cpu_AnalogChannel_Cpu_AnalogChannel_System_UInt16_System_Double_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Cpu.AnalogChannel,Cpu.AnalogChannel,Cpu.AnalogChannel,System.UInt16,System.Double)">ADXL335(Cpu.AnalogChannel, Cpu.AnalogChannel, Cpu.AnalogChannel, UInt16, Double)</h4>
+  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL335__ctor_Meadow_Hardware_Cpu_AnalogChannel_Meadow_Hardware_Cpu_AnalogChannel_Meadow_Hardware_Cpu_AnalogChannel_System_UInt16_System_Double_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,System.UInt16,System.Double)">ADXL335(Cpu.AnalogChannel, Cpu.AnalogChannel, Cpu.AnalogChannel, UInt16, Double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ADXL335(Cpu.AnalogChannel x, Cpu.AnalogChannel y, Cpu.AnalogChannel z, ushort updateInterval = null, double accelerationChangeNotificationThreshold = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ADXL335(Cpu.AnalogChannel x, Cpu.AnalogChannel y, Cpu.AnalogChannel z, ushort updateInterval = 100, double accelerationChangeNotificationThreshold = 0.10000000149011612)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,17 +139,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Cpu.AnalogChannel</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Cpu.AnalogChannel.html">Cpu.AnalogChannel</a></td>
         <td><span class="parametername">x</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Cpu.AnalogChannel</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Cpu.AnalogChannel.html">Cpu.AnalogChannel</a></td>
         <td><span class="parametername">y</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Cpu.AnalogChannel</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Cpu.AnalogChannel.html">Cpu.AnalogChannel</a></td>
         <td><span class="parametername">z</span></td>
         <td></td>
       </tr>
@@ -157,7 +181,7 @@ sensor is being configured to generate interrupts.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = 100</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -21,7 +21,7 @@ items:
   fullName: Meadow.Foundation.Servos
   type: Namespace
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
 references:
 - uid: Meadow.Foundation.Servos.ContinuousRotationServo
   commentId: T:Meadow.Foundation.Servos.ContinuousRotationServo

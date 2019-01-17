@@ -59,7 +59,7 @@ items:
   syntax:
     content: event EventHandler Changed
     return:
-      type: EventHandler
+      type: System.EventHandler
     content.vb: Event Changed As EventHandler
 - uid: Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
   commentId: P:Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
@@ -100,17 +100,27 @@ references:
   name: Meadow.Foundation.Sensors.Switches
   nameWithType: Meadow.Foundation.Sensors.Switches
   fullName: Meadow.Foundation.Sensors.Switches
-- uid: EventHandler
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
   isExternal: true
   name: EventHandler
   nameWithType: EventHandler
-  fullName: EventHandler
+  fullName: System.EventHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors.Switches.ISwitch.IsOn*
   commentId: Overload:Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
   name: IsOn
   nameWithType: ISwitch.IsOn
   fullName: Meadow.Foundation.Sensors.Switches.ISwitch.IsOn
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

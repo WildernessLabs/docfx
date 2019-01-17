@@ -6,6 +6,7 @@ items:
   parent: Meadow
   children:
   - Meadow.IDevice.Capabilities
+  - Meadow.IDevice.GPIOManager
   langs:
   - csharp
   - vb
@@ -20,10 +21,12 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: IDevice
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
-    startLine: 5
+    startLine: 7
   assemblies:
   - Meadow.Core
   namespace: Meadow
+  summary: "\nContract for Meadow devices.\n"
+  example: []
   syntax:
     content: public interface IDevice
     content.vb: Public Interface IDevice
@@ -51,7 +54,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Capabilities
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
-    startLine: 7
+    startLine: 9
   assemblies:
   - Meadow.Core
   namespace: Meadow
@@ -62,6 +65,39 @@ items:
       type: Meadow.DeviceCapabilities
     content.vb: ReadOnly Property Capabilities As DeviceCapabilities
   overload: Meadow.IDevice.Capabilities*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.IDevice.GPIOManager
+  commentId: P:Meadow.IDevice.GPIOManager
+  id: GPIOManager
+  parent: Meadow.IDevice
+  langs:
+  - csharp
+  - vb
+  name: GPIOManager
+  nameWithType: IDevice.GPIOManager
+  fullName: Meadow.IDevice.GPIOManager
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IDevice.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: GPIOManager
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  syntax:
+    content: IGPIOManager GPIOManager { get; }
+    parameters: []
+    return:
+      type: Meadow.IGPIOManager
+    content.vb: ReadOnly Property GPIOManager As IGPIOManager
+  overload: Meadow.IDevice.GPIOManager*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -83,3 +119,14 @@ references:
   name: DeviceCapabilities
   nameWithType: DeviceCapabilities
   fullName: Meadow.DeviceCapabilities
+- uid: Meadow.IDevice.GPIOManager*
+  commentId: Overload:Meadow.IDevice.GPIOManager
+  name: GPIOManager
+  nameWithType: IDevice.GPIOManager
+  fullName: Meadow.IDevice.GPIOManager
+- uid: Meadow.IGPIOManager
+  commentId: T:Meadow.IGPIOManager
+  parent: Meadow
+  name: IGPIOManager
+  nameWithType: IGPIOManager
+  fullName: Meadow.IGPIOManager

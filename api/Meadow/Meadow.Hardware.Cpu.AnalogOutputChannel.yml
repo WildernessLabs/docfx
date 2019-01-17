@@ -33,8 +33,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum AnalogOutputChannel
-    content.vb: Public Enum AnalogOutputChannel
+    content: 'public enum AnalogOutputChannel : int'
+    content.vb: Public Enum AnalogOutputChannel As Integer
   modifiers.csharp:
   - public
   - enum
@@ -64,9 +64,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_NONE = -1
+    content: ANALOG_OUTPUT_NONE = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -96,9 +97,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_0 = 0
+    content: ANALOG_OUTPUT_0 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_0 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -128,9 +130,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_1 = 1
+    content: ANALOG_OUTPUT_1 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -160,9 +163,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_2 = 2
+    content: ANALOG_OUTPUT_2 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -192,9 +196,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_3 = 3
+    content: ANALOG_OUTPUT_3 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -224,9 +229,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_4 = 4
+    content: ANALOG_OUTPUT_4 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -256,9 +262,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_5 = 5
+    content: ANALOG_OUTPUT_5 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_5 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -288,9 +295,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_6 = 6
+    content: ANALOG_OUTPUT_6 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_6 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -320,9 +328,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: ANALOG_OUTPUT_7 = 7
+    content: ANALOG_OUTPUT_7 = null
     return:
       type: Meadow.Hardware.Cpu.AnalogOutputChannel
+    content.vb: ANALOG_OUTPUT_7 = Nothing
   modifiers.csharp:
   - public
   - const

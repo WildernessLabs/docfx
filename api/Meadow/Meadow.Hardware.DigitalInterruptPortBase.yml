@@ -6,8 +6,8 @@ items:
   parent: Meadow.Hardware
   children:
   - Meadow.Hardware.DigitalInterruptPortBase.#ctor
-  - Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
-  - Meadow.Hardware.DigitalInterruptPortBase.Value
+  - Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled
+  - Meadow.Hardware.DigitalInterruptPortBase.State
   langs:
   - csharp
   - vb
@@ -22,10 +22,12 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: DigitalInterruptPortBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
-    startLine: 3
+    startLine: 7
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
+  summary: "\nProvides a base implementation for digital interrupt ports; digital input\nports that notify on change.\n"
+  example: []
   syntax:
     content: 'public class DigitalInterruptPortBase : DigitalInputPortBase, IDigitalInterruptPort, IDigitalInputPort, IDigitalPort, IPort'
     content.vb: >-
@@ -48,18 +50,10 @@ items:
   - Meadow.Hardware.DigitalInputPortBase.InterruptEnabled
   - Meadow.Hardware.DigitalInputPortBase._interruptEnabled
   - Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
-  - Meadow.Hardware.DigitalPortBase.DirectionType
+  - Meadow.Hardware.DigitalPortBase.Direction
   - Meadow.Hardware.DigitalPortBase._direction
   - Meadow.Hardware.DigitalPortBase.SignalType
-  - Meadow.Hardware.DigitalPortBase.State
   - Meadow.Hardware.DigitalPortBase._state
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -84,7 +78,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
-    startLine: 5
+    startLine: 9
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
@@ -96,38 +90,39 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.DigitalInterruptPortBase.Value
-  commentId: P:Meadow.Hardware.DigitalInterruptPortBase.Value
-  id: Value
+- uid: Meadow.Hardware.DigitalInterruptPortBase.State
+  commentId: P:Meadow.Hardware.DigitalInterruptPortBase.State
+  id: State
   parent: Meadow.Hardware.DigitalInterruptPortBase
   langs:
   - csharp
   - vb
-  name: Value
-  nameWithType: DigitalInterruptPortBase.Value
-  fullName: Meadow.Hardware.DigitalInterruptPortBase.Value
+  name: State
+  nameWithType: DigitalInterruptPortBase.State
+  fullName: Meadow.Hardware.DigitalInterruptPortBase.State
   type: Property
   source:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: Value
+    id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
-    startLine: 9
+    startLine: 13
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public override bool Value { get; }
+    content: public override bool State { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overrides ReadOnly Property Value As Boolean
-  overridden: Meadow.Hardware.DigitalInputPortBase.Value
-  overload: Meadow.Hardware.DigitalInterruptPortBase.Value*
+    content.vb: Public Overrides ReadOnly Property State As Boolean
+  overridden: Meadow.Hardware.DigitalInputPortBase.State
+  overload: Meadow.Hardware.DigitalInterruptPortBase.State*
   implements:
-  - Meadow.Hardware.IDigitalInputPort.Value
+  - Meadow.Hardware.IDigitalInputPort.State
+  - Meadow.Hardware.IDigitalPort.State
   modifiers.csharp:
   - public
   - override
@@ -136,43 +131,43 @@ items:
   - Public
   - Overrides
   - ReadOnly
-- uid: Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
-  commentId: P:Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
-  id: InterrupEnabled
+- uid: Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled
+  commentId: P:Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled
+  id: Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled
+  isEii: true
   parent: Meadow.Hardware.DigitalInterruptPortBase
   langs:
   - csharp
   - vb
-  name: InterrupEnabled
-  nameWithType: DigitalInterruptPortBase.InterrupEnabled
-  fullName: Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
+  name: IDigitalInterruptPort.InterrupEnabled
+  nameWithType: DigitalInterruptPortBase.IDigitalInterruptPort.InterrupEnabled
+  fullName: Meadow.Hardware.DigitalInterruptPortBase.Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
   type: Property
   source:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: InterrupEnabled
+    id: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
-    startLine: 11
+    startLine: 15
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public bool InterrupEnabled { get; }
+    content: bool IDigitalInterruptPort.InterrupEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public ReadOnly Property InterrupEnabled As Boolean
-  overload: Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled*
+    content.vb: ReadOnly WriteOnly Property Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled As Boolean Implements IDigitalInterruptPort.InterrupEnabled
+  overload: Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled*
   implements:
-  - Meadow.Hardware.IDigitalInputPort.InterrupEnabled
+  - Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  nameWithType.vb: DigitalInterruptPortBase.Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
   modifiers.csharp:
-  - public
   - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
+  - set
+  name.vb: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
 references:
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
@@ -279,12 +274,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.DigitalPortBase.DirectionType
-  commentId: P:Meadow.Hardware.DigitalPortBase.DirectionType
+- uid: Meadow.Hardware.DigitalPortBase.Direction
+  commentId: P:Meadow.Hardware.DigitalPortBase.Direction
   parent: Meadow.Hardware.DigitalPortBase
-  name: DirectionType
-  nameWithType: DigitalPortBase.DirectionType
-  fullName: Meadow.Hardware.DigitalPortBase.DirectionType
+  name: Direction
+  nameWithType: DigitalPortBase.Direction
+  fullName: Meadow.Hardware.DigitalPortBase.Direction
 - uid: Meadow.Hardware.DigitalPortBase._direction
   commentId: F:Meadow.Hardware.DigitalPortBase._direction
   parent: Meadow.Hardware.DigitalPortBase
@@ -297,297 +292,12 @@ references:
   name: SignalType
   nameWithType: DigitalPortBase.SignalType
   fullName: Meadow.Hardware.DigitalPortBase.SignalType
-- uid: Meadow.Hardware.DigitalPortBase.State
-  commentId: P:Meadow.Hardware.DigitalPortBase.State
-  parent: Meadow.Hardware.DigitalPortBase
-  name: State
-  nameWithType: DigitalPortBase.State
-  fullName: Meadow.Hardware.DigitalPortBase.State
 - uid: Meadow.Hardware.DigitalPortBase._state
   commentId: F:Meadow.Hardware.DigitalPortBase._state
   parent: Meadow.Hardware.DigitalPortBase
   name: _state
   nameWithType: DigitalPortBase._state
   fullName: Meadow.Hardware.DigitalPortBase._state
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -599,23 +309,29 @@ references:
   name: DigitalInterruptPortBase
   nameWithType: DigitalInterruptPortBase.DigitalInterruptPortBase
   fullName: Meadow.Hardware.DigitalInterruptPortBase.DigitalInterruptPortBase
-- uid: Meadow.Hardware.DigitalInputPortBase.Value
-  commentId: P:Meadow.Hardware.DigitalInputPortBase.Value
+- uid: Meadow.Hardware.DigitalInputPortBase.State
+  commentId: P:Meadow.Hardware.DigitalInputPortBase.State
   parent: Meadow.Hardware.DigitalInputPortBase
-  name: Value
-  nameWithType: DigitalInputPortBase.Value
-  fullName: Meadow.Hardware.DigitalInputPortBase.Value
-- uid: Meadow.Hardware.DigitalInterruptPortBase.Value*
-  commentId: Overload:Meadow.Hardware.DigitalInterruptPortBase.Value
-  name: Value
-  nameWithType: DigitalInterruptPortBase.Value
-  fullName: Meadow.Hardware.DigitalInterruptPortBase.Value
-- uid: Meadow.Hardware.IDigitalInputPort.Value
-  commentId: P:Meadow.Hardware.IDigitalInputPort.Value
+  name: State
+  nameWithType: DigitalInputPortBase.State
+  fullName: Meadow.Hardware.DigitalInputPortBase.State
+- uid: Meadow.Hardware.DigitalInterruptPortBase.State*
+  commentId: Overload:Meadow.Hardware.DigitalInterruptPortBase.State
+  name: State
+  nameWithType: DigitalInterruptPortBase.State
+  fullName: Meadow.Hardware.DigitalInterruptPortBase.State
+- uid: Meadow.Hardware.IDigitalInputPort.State
+  commentId: P:Meadow.Hardware.IDigitalInputPort.State
   parent: Meadow.Hardware.IDigitalInputPort
-  name: Value
-  nameWithType: IDigitalInputPort.Value
-  fullName: Meadow.Hardware.IDigitalInputPort.Value
+  name: State
+  nameWithType: IDigitalInputPort.State
+  fullName: Meadow.Hardware.IDigitalInputPort.State
+- uid: Meadow.Hardware.IDigitalPort.State
+  commentId: P:Meadow.Hardware.IDigitalPort.State
+  parent: Meadow.Hardware.IDigitalPort
+  name: State
+  nameWithType: IDigitalPort.State
+  fullName: Meadow.Hardware.IDigitalPort.State
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -623,14 +339,16 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled*
-  commentId: Overload:Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
+- uid: Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled*
+  commentId: Overload:Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled
+  name: IDigitalInterruptPort.InterrupEnabled
+  nameWithType: DigitalInterruptPortBase.IDigitalInterruptPort.InterrupEnabled
+  fullName: Meadow.Hardware.DigitalInterruptPortBase.Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  nameWithType.vb: DigitalInterruptPortBase.Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  name.vb: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+- uid: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  commentId: P:Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
+  parent: Meadow.Hardware.IDigitalInterruptPort
   name: InterrupEnabled
-  nameWithType: DigitalInterruptPortBase.InterrupEnabled
-  fullName: Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled
-- uid: Meadow.Hardware.IDigitalInputPort.InterrupEnabled
-  commentId: P:Meadow.Hardware.IDigitalInputPort.InterrupEnabled
-  parent: Meadow.Hardware.IDigitalInputPort
-  name: InterrupEnabled
-  nameWithType: IDigitalInputPort.InterrupEnabled
-  fullName: Meadow.Hardware.IDigitalInputPort.InterrupEnabled
+  nameWithType: IDigitalInterruptPort.InterrupEnabled
+  fullName: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled

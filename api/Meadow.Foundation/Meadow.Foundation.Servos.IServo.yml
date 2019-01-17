@@ -24,7 +24,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
     startLine: 4
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public interface IServo
@@ -55,7 +55,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
     startLine: 6
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: ServoConfig Config { get; }
@@ -88,7 +88,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
     startLine: 8
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: void RotateTo(int angle)
@@ -117,7 +117,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
     startLine: 12
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: int Angle { get; }
@@ -153,10 +153,18 @@ references:
   nameWithType: IServo.RotateTo
   fullName: Meadow.Foundation.Servos.IServo.RotateTo
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.IServo.Angle*
   commentId: Overload:Meadow.Foundation.Servos.IServo.Angle
   name: Angle

@@ -7,6 +7,9 @@ items:
   - Meadow.Hardware.AnalogInputPort
   - Meadow.Hardware.AnalogPin
   - Meadow.Hardware.AnalogPinBase
+  - Meadow.Hardware.BiDirectionalPort
+  - Meadow.Hardware.BiDirectionalPortBase
+  - Meadow.Hardware.ChannelConfigurationType
   - Meadow.Hardware.Cpu
   - Meadow.Hardware.Cpu.AnalogChannel
   - Meadow.Hardware.Cpu.AnalogOutputChannel
@@ -15,6 +18,7 @@ items:
   - Meadow.Hardware.Cpu.PinValidInterruptMode
   - Meadow.Hardware.Cpu.PinValidResistorMode
   - Meadow.Hardware.Cpu.PWMChannel
+  - Meadow.Hardware.DeviceChannelManager
   - Meadow.Hardware.DigitalInputPort
   - Meadow.Hardware.DigitalInputPortBase
   - Meadow.Hardware.DigitalInterruptPortBase
@@ -32,6 +36,7 @@ items:
   - Meadow.Hardware.IAnalogChannel
   - Meadow.Hardware.IAnalogPin
   - Meadow.Hardware.IAnalogPort
+  - Meadow.Hardware.IBiDirectionalPort
   - Meadow.Hardware.IDigitalChannel
   - Meadow.Hardware.IDigitalInputPort
   - Meadow.Hardware.IDigitalInterruptPort
@@ -49,6 +54,7 @@ items:
   - Meadow.Hardware.PinBase
   - Meadow.Hardware.PortDirectionType
   - Meadow.Hardware.PortEventArgs
+  - Meadow.Hardware.PortInUseException
   - Meadow.Hardware.PwmPin
   - Meadow.Hardware.PwmPinBase
   - Meadow.Hardware.PwmPort
@@ -88,6 +94,166 @@ references:
   name: AnalogPin
   nameWithType: AnalogPin
   fullName: Meadow.Hardware.AnalogPin
+- uid: Meadow.Hardware.Cpu
+  commentId: T:Meadow.Hardware.Cpu
+  name: Cpu
+  nameWithType: Cpu
+  fullName: Meadow.Hardware.Cpu
+- uid: Meadow.Hardware.Cpu.AnalogChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
+  parent: Meadow.Hardware
+  name: Cpu.AnalogChannel
+  nameWithType: Cpu.AnalogChannel
+  fullName: Meadow.Hardware.Cpu.AnalogChannel
+- uid: Meadow.Hardware.Cpu.AnalogOutputChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogOutputChannel
+  parent: Meadow.Hardware
+  name: Cpu.AnalogOutputChannel
+  nameWithType: Cpu.AnalogOutputChannel
+  fullName: Meadow.Hardware.Cpu.AnalogOutputChannel
+- uid: Meadow.Hardware.Cpu.Pin
+  commentId: T:Meadow.Hardware.Cpu.Pin
+  parent: Meadow.Hardware
+  name: Cpu.Pin
+  nameWithType: Cpu.Pin
+  fullName: Meadow.Hardware.Cpu.Pin
+- uid: Meadow.Hardware.Cpu.PinUsage
+  commentId: T:Meadow.Hardware.Cpu.PinUsage
+  parent: Meadow.Hardware
+  name: Cpu.PinUsage
+  nameWithType: Cpu.PinUsage
+  fullName: Meadow.Hardware.Cpu.PinUsage
+- uid: Meadow.Hardware.Cpu.PinValidInterruptMode
+  commentId: T:Meadow.Hardware.Cpu.PinValidInterruptMode
+  parent: Meadow.Hardware
+  name: Cpu.PinValidInterruptMode
+  nameWithType: Cpu.PinValidInterruptMode
+  fullName: Meadow.Hardware.Cpu.PinValidInterruptMode
+- uid: Meadow.Hardware.Cpu.PinValidResistorMode
+  commentId: T:Meadow.Hardware.Cpu.PinValidResistorMode
+  parent: Meadow.Hardware
+  name: Cpu.PinValidResistorMode
+  nameWithType: Cpu.PinValidResistorMode
+  fullName: Meadow.Hardware.Cpu.PinValidResistorMode
+- uid: Meadow.Hardware.Cpu.PWMChannel
+  commentId: T:Meadow.Hardware.Cpu.PWMChannel
+  parent: Meadow.Hardware
+  name: Cpu.PWMChannel
+  nameWithType: Cpu.PWMChannel
+  fullName: Meadow.Hardware.Cpu.PWMChannel
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
+  parent: Meadow.Hardware
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Hardware.DigitalPin
+  commentId: T:Meadow.Hardware.DigitalPin
+  parent: Meadow.Hardware
+  name: DigitalPin
+  nameWithType: DigitalPin
+  fullName: Meadow.Hardware.DigitalPin
+- uid: Meadow.Hardware.Pin
+  commentId: T:Meadow.Hardware.Pin
+  name: Pin
+  nameWithType: Pin
+  fullName: Meadow.Hardware.Pin
+- uid: Meadow.Hardware.PortEventArgs
+  commentId: T:Meadow.Hardware.PortEventArgs
+  name: PortEventArgs
+  nameWithType: PortEventArgs
+  fullName: Meadow.Hardware.PortEventArgs
+- uid: Meadow.Hardware.PwmPin
+  commentId: T:Meadow.Hardware.PwmPin
+  name: PwmPin
+  nameWithType: PwmPin
+  fullName: Meadow.Hardware.PwmPin
+- uid: Meadow.Hardware.PwmPort
+  commentId: T:Meadow.Hardware.PwmPort
+  name: PwmPort
+  nameWithType: PwmPort
+  fullName: Meadow.Hardware.PwmPort
+- uid: Meadow.Hardware.Parity
+  commentId: T:Meadow.Hardware.Parity
+  parent: Meadow.Hardware
+  name: Parity
+  nameWithType: Parity
+  fullName: Meadow.Hardware.Parity
+- uid: Meadow.Hardware.StopBits
+  commentId: T:Meadow.Hardware.StopBits
+  parent: Meadow.Hardware
+  name: StopBits
+  nameWithType: StopBits
+  fullName: Meadow.Hardware.StopBits
+- uid: Meadow.Hardware.Handshake
+  commentId: T:Meadow.Hardware.Handshake
+  parent: Meadow.Hardware
+  name: Handshake
+  nameWithType: Handshake
+  fullName: Meadow.Hardware.Handshake
+- uid: Meadow.Hardware.SerialPort
+  commentId: T:Meadow.Hardware.SerialPort
+  name: SerialPort
+  nameWithType: SerialPort
+  fullName: Meadow.Hardware.SerialPort
+- uid: Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
+  commentId: T:Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
+  parent: Meadow.Hardware
+  name: SerialPort.SerialDataReceivedEventHandler
+  nameWithType: SerialPort.SerialDataReceivedEventHandler
+  fullName: Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
+- uid: Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
+  commentId: T:Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
+  parent: Meadow.Hardware
+  name: SerialPort.SerialErrorReceivedEventHandler
+  nameWithType: SerialPort.SerialErrorReceivedEventHandler
+  fullName: Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
+- uid: Meadow.Hardware.SerialErrorReceivedEventArgs
+  commentId: T:Meadow.Hardware.SerialErrorReceivedEventArgs
+  parent: Meadow.Hardware
+  name: SerialErrorReceivedEventArgs
+  nameWithType: SerialErrorReceivedEventArgs
+  fullName: Meadow.Hardware.SerialErrorReceivedEventArgs
+- uid: Meadow.Hardware.SerialError
+  commentId: T:Meadow.Hardware.SerialError
+  parent: Meadow.Hardware
+  name: SerialError
+  nameWithType: SerialError
+  fullName: Meadow.Hardware.SerialError
+- uid: Meadow.Hardware.SerialDataReceivedEventArgs
+  commentId: T:Meadow.Hardware.SerialDataReceivedEventArgs
+  parent: Meadow.Hardware
+  name: SerialDataReceivedEventArgs
+  nameWithType: SerialDataReceivedEventArgs
+  fullName: Meadow.Hardware.SerialDataReceivedEventArgs
+- uid: Meadow.Hardware.SerialData
+  commentId: T:Meadow.Hardware.SerialData
+  parent: Meadow.Hardware
+  name: SerialData
+  nameWithType: SerialData
+  fullName: Meadow.Hardware.SerialData
+- uid: Meadow.Hardware.Spi
+  commentId: T:Meadow.Hardware.Spi
+  name: Spi
+  nameWithType: Spi
+  fullName: Meadow.Hardware.Spi
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: Meadow.Hardware.Spi.Configuration
+  commentId: T:Meadow.Hardware.Spi.Configuration
+  parent: Meadow.Hardware
+  name: Spi.Configuration
+  nameWithType: Spi.Configuration
+  fullName: Meadow.Hardware.Spi.Configuration
 - uid: Meadow.Hardware.AnalogPinBase
   commentId: T:Meadow.Hardware.AnalogPinBase
   parent: Meadow.Hardware
@@ -253,87 +419,12 @@ references:
   name: TimeScaleFactor
   nameWithType: TimeScaleFactor
   fullName: Meadow.Hardware.TimeScaleFactor
-- uid: Meadow.Hardware.Cpu
-  commentId: T:Meadow.Hardware.Cpu
-  name: Cpu
-  nameWithType: Cpu
-  fullName: Meadow.Hardware.Cpu
-- uid: Meadow.Hardware.Cpu.AnalogChannel
-  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
-  parent: Meadow.Hardware
-  name: Cpu.AnalogChannel
-  nameWithType: Cpu.AnalogChannel
-  fullName: Meadow.Hardware.Cpu.AnalogChannel
-- uid: Meadow.Hardware.Cpu.AnalogOutputChannel
-  commentId: T:Meadow.Hardware.Cpu.AnalogOutputChannel
-  parent: Meadow.Hardware
-  name: Cpu.AnalogOutputChannel
-  nameWithType: Cpu.AnalogOutputChannel
-  fullName: Meadow.Hardware.Cpu.AnalogOutputChannel
-- uid: Meadow.Hardware.Cpu.Pin
-  commentId: T:Meadow.Hardware.Cpu.Pin
-  parent: Meadow.Hardware
-  name: Cpu.Pin
-  nameWithType: Cpu.Pin
-  fullName: Meadow.Hardware.Cpu.Pin
-- uid: Meadow.Hardware.Cpu.PinUsage
-  commentId: T:Meadow.Hardware.Cpu.PinUsage
-  parent: Meadow.Hardware
-  name: Cpu.PinUsage
-  nameWithType: Cpu.PinUsage
-  fullName: Meadow.Hardware.Cpu.PinUsage
-- uid: Meadow.Hardware.Cpu.PinValidInterruptMode
-  commentId: T:Meadow.Hardware.Cpu.PinValidInterruptMode
-  parent: Meadow.Hardware
-  name: Cpu.PinValidInterruptMode
-  nameWithType: Cpu.PinValidInterruptMode
-  fullName: Meadow.Hardware.Cpu.PinValidInterruptMode
-- uid: Meadow.Hardware.Cpu.PinValidResistorMode
-  commentId: T:Meadow.Hardware.Cpu.PinValidResistorMode
-  parent: Meadow.Hardware
-  name: Cpu.PinValidResistorMode
-  nameWithType: Cpu.PinValidResistorMode
-  fullName: Meadow.Hardware.Cpu.PinValidResistorMode
-- uid: Meadow.Hardware.Cpu.PWMChannel
-  commentId: T:Meadow.Hardware.Cpu.PWMChannel
-  parent: Meadow.Hardware
-  name: Cpu.PWMChannel
-  nameWithType: Cpu.PWMChannel
-  fullName: Meadow.Hardware.Cpu.PWMChannel
-- uid: Meadow.Hardware.DigitalInputPort
-  commentId: T:Meadow.Hardware.DigitalInputPort
-  name: DigitalInputPort
-  nameWithType: DigitalInputPort
-  fullName: Meadow.Hardware.DigitalInputPort
-- uid: Meadow.Hardware.DigitalOutputPort
-  commentId: T:Meadow.Hardware.DigitalOutputPort
-  parent: Meadow.Hardware
-  name: DigitalOutputPort
-  nameWithType: DigitalOutputPort
-  fullName: Meadow.Hardware.DigitalOutputPort
-- uid: Meadow.Hardware.DigitalPin
-  commentId: T:Meadow.Hardware.DigitalPin
-  name: DigitalPin
-  nameWithType: DigitalPin
-  fullName: Meadow.Hardware.DigitalPin
-- uid: Meadow.Hardware.InterruptMode
-  commentId: T:Meadow.Hardware.InterruptMode
-  parent: Meadow.Hardware
-  name: InterruptMode
-  nameWithType: InterruptMode
-  fullName: Meadow.Hardware.InterruptMode
 - uid: Meadow.Hardware.PortDirectionType
   commentId: T:Meadow.Hardware.PortDirectionType
   parent: Meadow.Hardware
   name: PortDirectionType
   nameWithType: PortDirectionType
   fullName: Meadow.Hardware.PortDirectionType
-- uid: Meadow.Hardware.ResistorMode
-  commentId: T:Meadow.Hardware.ResistorMode
-  parent: Meadow.Hardware
-  name: ResistorMode
-  nameWithType: ResistorMode
-  fullName: Meadow.Hardware.ResistorMode
 - uid: Meadow.Hardware.SignalType
   commentId: T:Meadow.Hardware.SignalType
   parent: Meadow.Hardware
@@ -346,103 +437,51 @@ references:
   name: TerminationType
   nameWithType: TerminationType
   fullName: Meadow.Hardware.TerminationType
-- uid: Meadow.Hardware.Pin
-  commentId: T:Meadow.Hardware.Pin
-  name: Pin
-  nameWithType: Pin
-  fullName: Meadow.Hardware.Pin
-- uid: Meadow.Hardware.PortEventArgs
-  commentId: T:Meadow.Hardware.PortEventArgs
-  name: PortEventArgs
-  nameWithType: PortEventArgs
-  fullName: Meadow.Hardware.PortEventArgs
-- uid: Meadow.Hardware.PwmPin
-  commentId: T:Meadow.Hardware.PwmPin
+- uid: Meadow.Hardware.InterruptMode
+  commentId: T:Meadow.Hardware.InterruptMode
   parent: Meadow.Hardware
-  name: PwmPin
-  nameWithType: PwmPin
-  fullName: Meadow.Hardware.PwmPin
-- uid: Meadow.Hardware.PwmPort
-  commentId: T:Meadow.Hardware.PwmPort
-  name: PwmPort
-  nameWithType: PwmPort
-  fullName: Meadow.Hardware.PwmPort
-- uid: Meadow.Hardware.Parity
-  commentId: T:Meadow.Hardware.Parity
+  name: InterruptMode
+  nameWithType: InterruptMode
+  fullName: Meadow.Hardware.InterruptMode
+- uid: Meadow.Hardware.ResistorMode
+  commentId: T:Meadow.Hardware.ResistorMode
   parent: Meadow.Hardware
-  name: Parity
-  nameWithType: Parity
-  fullName: Meadow.Hardware.Parity
-- uid: Meadow.Hardware.StopBits
-  commentId: T:Meadow.Hardware.StopBits
+  name: ResistorMode
+  nameWithType: ResistorMode
+  fullName: Meadow.Hardware.ResistorMode
+- uid: Meadow.Hardware.DeviceChannelManager
+  commentId: T:Meadow.Hardware.DeviceChannelManager
+  name: DeviceChannelManager
+  nameWithType: DeviceChannelManager
+  fullName: Meadow.Hardware.DeviceChannelManager
+- uid: Meadow.Hardware.ChannelConfigurationType
+  commentId: T:Meadow.Hardware.ChannelConfigurationType
   parent: Meadow.Hardware
-  name: StopBits
-  nameWithType: StopBits
-  fullName: Meadow.Hardware.StopBits
-- uid: Meadow.Hardware.Handshake
-  commentId: T:Meadow.Hardware.Handshake
+  name: ChannelConfigurationType
+  nameWithType: ChannelConfigurationType
+  fullName: Meadow.Hardware.ChannelConfigurationType
+- uid: Meadow.Hardware.PortInUseException
+  commentId: T:Meadow.Hardware.PortInUseException
+  name: PortInUseException
+  nameWithType: PortInUseException
+  fullName: Meadow.Hardware.PortInUseException
+- uid: Meadow.Hardware.BiDirectionalPort
+  commentId: T:Meadow.Hardware.BiDirectionalPort
+  name: BiDirectionalPort
+  nameWithType: BiDirectionalPort
+  fullName: Meadow.Hardware.BiDirectionalPort
+- uid: Meadow.Hardware.IBiDirectionalPort
+  commentId: T:Meadow.Hardware.IBiDirectionalPort
   parent: Meadow.Hardware
-  name: Handshake
-  nameWithType: Handshake
-  fullName: Meadow.Hardware.Handshake
-- uid: Meadow.Hardware.SerialPort
-  commentId: T:Meadow.Hardware.SerialPort
-  name: SerialPort
-  nameWithType: SerialPort
-  fullName: Meadow.Hardware.SerialPort
-- uid: Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
-  commentId: T:Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
+  name: IBiDirectionalPort
+  nameWithType: IBiDirectionalPort
+  fullName: Meadow.Hardware.IBiDirectionalPort
+- uid: Meadow.Hardware.BiDirectionalPortBase
+  commentId: T:Meadow.Hardware.BiDirectionalPortBase
   parent: Meadow.Hardware
-  name: SerialPort.SerialDataReceivedEventHandler
-  nameWithType: SerialPort.SerialDataReceivedEventHandler
-  fullName: Meadow.Hardware.SerialPort.SerialDataReceivedEventHandler
-- uid: Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
-  commentId: T:Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
-  parent: Meadow.Hardware
-  name: SerialPort.SerialErrorReceivedEventHandler
-  nameWithType: SerialPort.SerialErrorReceivedEventHandler
-  fullName: Meadow.Hardware.SerialPort.SerialErrorReceivedEventHandler
-- uid: Meadow.Hardware.SerialErrorReceivedEventArgs
-  commentId: T:Meadow.Hardware.SerialErrorReceivedEventArgs
-  parent: Meadow.Hardware
-  name: SerialErrorReceivedEventArgs
-  nameWithType: SerialErrorReceivedEventArgs
-  fullName: Meadow.Hardware.SerialErrorReceivedEventArgs
-- uid: Meadow.Hardware.SerialError
-  commentId: T:Meadow.Hardware.SerialError
-  parent: Meadow.Hardware
-  name: SerialError
-  nameWithType: SerialError
-  fullName: Meadow.Hardware.SerialError
-- uid: Meadow.Hardware.SerialDataReceivedEventArgs
-  commentId: T:Meadow.Hardware.SerialDataReceivedEventArgs
-  parent: Meadow.Hardware
-  name: SerialDataReceivedEventArgs
-  nameWithType: SerialDataReceivedEventArgs
-  fullName: Meadow.Hardware.SerialDataReceivedEventArgs
-- uid: Meadow.Hardware.SerialData
-  commentId: T:Meadow.Hardware.SerialData
-  parent: Meadow.Hardware
-  name: SerialData
-  nameWithType: SerialData
-  fullName: Meadow.Hardware.SerialData
-- uid: Meadow.Hardware.Spi
-  commentId: T:Meadow.Hardware.Spi
-  name: Spi
-  nameWithType: Spi
-  fullName: Meadow.Hardware.Spi
-- uid: Meadow.Hardware.Spi.SPI_module
-  commentId: T:Meadow.Hardware.Spi.SPI_module
-  parent: Meadow.Hardware
-  name: Spi.SPI_module
-  nameWithType: Spi.SPI_module
-  fullName: Meadow.Hardware.Spi.SPI_module
-- uid: Meadow.Hardware.Spi.Configuration
-  commentId: T:Meadow.Hardware.Spi.Configuration
-  parent: Meadow.Hardware
-  name: Spi.Configuration
-  nameWithType: Spi.Configuration
-  fullName: Meadow.Hardware.Spi.Configuration
+  name: BiDirectionalPortBase
+  nameWithType: BiDirectionalPortBase
+  fullName: Meadow.Hardware.BiDirectionalPortBase
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
   name: Meadow.Hardware

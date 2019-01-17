@@ -212,15 +212,25 @@ references:
   nameWithType: IMenuInputItem.GetInput
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
   commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
   parent: Meadow.Foundation.Displays.TextDisplayMenu

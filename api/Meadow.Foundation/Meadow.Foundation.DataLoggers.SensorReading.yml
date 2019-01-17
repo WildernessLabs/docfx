@@ -5,7 +5,7 @@ items:
   id: SensorReading
   parent: Meadow.Foundation.DataLoggers
   children:
-  - Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
+  - Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,System.DateTime)
   - Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
   - Meadow.Foundation.DataLoggers.SensorReading.Key
   - Meadow.Foundation.DataLoggers.SensorReading.Value
@@ -30,13 +30,18 @@ items:
   summary: "\nSensor reading and the date and time the reading was taken.\n"
   example: []
   syntax:
-    content: 'public class SensorReading : object'
-    content.vb: >-
-      Public Class SensorReading
-
-          Inherits Object
+    content: public class SensorReading
+    content.vb: Public Class SensorReading
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -145,8 +150,8 @@ items:
     content: public DateTime CreatedAt { get; set; }
     parameters: []
     return:
-      type: DateTime
-    content.vb: Public Property CreatedAt As DateTime
+      type: System.DateTime
+    content.vb: Public Property CreatedAt As Date
   overload: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt*
   modifiers.csharp:
   - public
@@ -154,16 +159,16 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
-  commentId: M:Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
-  id: '#ctor(System.String,System.String,DateTime)'
+- uid: Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,System.DateTime)
+  commentId: M:Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,System.DateTime)
+  id: '#ctor(System.String,System.String,System.DateTime)'
   parent: Meadow.Foundation.DataLoggers.SensorReading
   langs:
   - csharp
   - vb
   name: SensorReading(String, String, DateTime)
   nameWithType: SensorReading.SensorReading(String, String, DateTime)
-  fullName: Meadow.Foundation.DataLoggers.SensorReading.SensorReading(System.String, System.String, DateTime)
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.SensorReading(System.String, System.String, System.DateTime)
   type: Constructor
   source:
     remote:
@@ -188,9 +193,9 @@ items:
       type: System.String
       description: Value read from the sensor.
     - id: createdAt
-      type: DateTime
+      type: System.DateTime
       description: DateTime the sensor reading was taken.
-    content.vb: Public Sub New(key As String, value As String, createdAt As DateTime)
+    content.vb: Public Sub New(key As String, value As String, createdAt As Date)
   overload: Meadow.Foundation.DataLoggers.SensorReading.#ctor*
   modifiers.csharp:
   - public
@@ -203,16 +208,305 @@ references:
   nameWithType: Meadow.Foundation.DataLoggers
   fullName: Meadow.Foundation.DataLoggers
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.DataLoggers.SensorReading.Key*
   commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.Key
   name: Key
   nameWithType: SensorReading.Key
   fullName: Meadow.Foundation.DataLoggers.SensorReading.Key
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -227,11 +521,13 @@ references:
   name: CreatedAt
   nameWithType: SensorReading.CreatedAt
   fullName: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
-- uid: DateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
-  fullName: DateTime
+  fullName: System.DateTime
 - uid: Meadow.Foundation.DataLoggers.SensorReading.#ctor*
   commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.#ctor
   name: SensorReading

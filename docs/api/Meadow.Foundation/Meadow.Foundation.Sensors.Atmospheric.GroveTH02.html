@@ -87,11 +87,35 @@
     <div><a class="xref" href="Meadow.Foundation.Sensors.IHumiditySensor.html">IHumiditySensor</a></div>
     <div><a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Atmospheric.html">Meadow.Foundation.Sensors.Atmospheric</a></h6>
   <h6><strong>Assembly</strong>: Sensors.Atmospheric.GroveTH02.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Atmospheric_GroveTH02_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GroveTH02 : object, ITemperatureSensor, IHumiditySensor, ISensor</code></pre>
+    <pre><code class="lang-csharp hljs">public class GroveTH02 : ITemperatureSensor, IHumiditySensor, ISensor</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -109,7 +133,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GroveTH02(byte address = null, ushort speed = null, ushort updateInterval = null, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
+    <pre><code class="lang-csharp hljs">public GroveTH02(byte address = 64, ushort speed = 100, ushort updateInterval = 200, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,7 +192,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = 200</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

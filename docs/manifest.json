@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "Conceptual",
+      "source_relative_path": "DocStandards.md",
+      "output": {
+        ".html": {
+          "relative_path": "DocStandards.html",
+          "hash": "Llr3xZqgolLcK3PI38FmMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "README.md",
       "output": {
         ".html": {
@@ -24,7 +36,7 @@
           "hash": "hHLnO0PyDLdWNH95n0tV4Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +48,7 @@
           "hash": "T23kH2ew2udpAAjbQKFfzQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ArrayEventArgs.html",
-          "hash": "5q1zC9B1zf5jCVoG3HLrYw=="
+          "hash": "HoE+rXTQpEcC90flEPj4NA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +72,7 @@
           "hash": "WXFqkRKMHXUjzbKh/+9ajA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.CircuitTerminationType.html",
-          "hash": "Ka1uC9fo0BJCIVM2zOS5zg=="
+          "hash": "XNiwE3RWRnV0KcFiIIJkYQ=="
         }
       },
       "is_incremental": true,
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ColorExtensions.html",
-          "hash": "h/SUOXGFZq2vtxslSULUOA=="
+          "hash": "qcBNBhMO5to+oniFa/Yfaw=="
         }
       },
       "is_incremental": true,
@@ -105,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Communications.SerialTextFile.html",
-          "hash": "2oTM6dnAHrDPREzKpLXlxA=="
+          "hash": "GI5dvgPCmnaEEJmT+cN5zg=="
         }
       },
       "is_incremental": true,
@@ -141,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.IdealPidController.html",
-          "hash": "v4aDR+mfz/qu8NZ8xTeDBw=="
+          "hash": "a8Mck9Vi8wc/hRvR/h3Mkg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.PidControllerBase.html",
-          "hash": "1NHSlkCUO8U95Fwptf62mw=="
+          "hash": "L+FJG9MS4o++vh69ZN8ScQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Controllers.PID.StandardPidController.html",
-          "hash": "JuTq3oYOzY+m4dUXAJ33Aw=="
+          "hash": "C+Pr2d1aDaJUVfLYk1U8PA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,7 +192,7 @@
           "hash": "JypnFfVYG9qj3Z4yOuLk9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Converters.html",
-          "hash": "RDH/g8pooqYU5Agf479xpA=="
+          "hash": "vIX+CvQ1LfQZHWlwearmVg=="
         }
       },
       "is_incremental": true,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.AdafruitIO.html",
-          "hash": "KTwqiHfoeiJ7OmVFN1vX6g=="
+          "hash": "ZdBQXK9f0S0q5JiOi/jF4w=="
         }
       },
       "is_incremental": true,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.DataLoggers.SensorReading.html",
-          "hash": "dIEphho8lFxpRV+FiT8dFw=="
+          "hash": "Q5UV+Bu3OokbyV77v1H6xQ=="
         }
       },
       "is_incremental": true,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.BitmapMode.html",
-          "hash": "1OUMSVF/uDvNGXBfGpezSA=="
+          "hash": "Fd+4OtgB6E+2nqvfZuP3Mw=="
         }
       },
       "is_incremental": true,
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.DisplayColorMode.html",
-          "hash": "sv6+yGpQaM66qPzPKJFjdw=="
+          "hash": "qQUzVxi51Z9rx1LIA700iw=="
         }
       },
       "is_incremental": true,
@@ -261,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayBase.html",
-          "hash": "R4BJTcGiGOXyyifV05TCVA=="
+          "hash": "KGpbKGQSJirVAeTDoHj/NA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.html",
-          "hash": "VgqDfmCLoTFj4R2a6RRQNw=="
+          "hash": "D2eZntgTeyETuxJHk0Y9Bw=="
         }
       },
       "is_incremental": true,
@@ -285,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.Rotation.html",
-          "hash": "f3goT0HS/fZNDHElf4YAbA=="
+          "hash": "lV3O616vDHEJ0xWjAZXtLA=="
         }
       },
       "is_incremental": true,
@@ -297,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.DisplayTftSpiBase.html",
-          "hash": "E38SCS1dypoC6b9vjbeIjQ=="
+          "hash": "Ra6Fn4bYq42ykj+OlzKjTA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Drivers.EPD2i9.html",
-          "hash": "YCnhymAZqmbDnPvH2ltRVA=="
+          "hash": "T9GiQzx4yFk3SzmWpQddyg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +336,7 @@
           "hash": "sW+JeE0nx9XEw8ggMIQ19w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54.html",
-          "hash": "nDd8Hd9hKncebFyfaxgEKQ=="
+          "hash": "yIIb3X3K2eLBo28Km1xzYA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54b.html",
-          "hash": "xMVRp5CmO2a7fYKI7FUYVA=="
+          "hash": "uzsiDJBBfkRO5MQ0ZnYGBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD1i54c.html",
-          "hash": "KwlMIsPxAPa0UuhPr4vIXw=="
+          "hash": "MAqPAr0JXvzAE8GtU3BlbQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13.html",
-          "hash": "0woo+nxzQXwIhZGCY5ZSNA=="
+          "hash": "lXhCB2wCEwcFtPX6QCofrQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i13b.html",
-          "hash": "tMf0RdkzQzxUnDnE+k5+VQ=="
+          "hash": "VqSx4Xqda6UnXgNj9EvP6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i7.html",
-          "hash": "ofQJL7/ru4h/np6FWoVTKg=="
+          "hash": "+L2e14nI/MPLq9gf1DW6BQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD2i9b.html",
-          "hash": "GM3zs2RKgp9zfHN3NA0ShA=="
+          "hash": "gz7+dwa30yOaZ0qDaLHntw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPD4i2b.html",
-          "hash": "J2NHKosZ4/acNilPh2gcug=="
+          "hash": "GiWnxM5O70ptVll1SaOAzw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDBase.html",
-          "hash": "VqIMKuo8XhDBVU5tmtjiUg=="
+          "hash": "jZBVUlBqNHWIuFy1O0y+qw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.EPDColorBase.html",
-          "hash": "BMOzUXQsnsOoEdHtOt1a6A=="
+          "hash": "WnUpmuApm87jTBzbD0J0Gw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font4x8.html",
-          "hash": "PrByarFngsIMh58UrbikAA=="
+          "hash": "IZhOngn3zIIKtF3S232VXw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x12.html",
-          "hash": "G7LoCxp8ervUNMRwQ4rC6w=="
+          "hash": "4Z4exIRQMk9XjsjcGmT47Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.Font8x8.html",
-          "hash": "KsMZ7h1S9kmGbGEvfkncOg=="
+          "hash": "uFBpggOzqso/BcjoxkVvOQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.FontBase.html",
-          "hash": "nAivfZDPfQ1u4FXHKWKZgQ=="
+          "hash": "7byvH7RdanvRSA+j9gCB8g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.GraphicsLibrary.html",
-          "hash": "ZDOEN6HNkxuJagWAaH4kTg=="
+          "hash": "/UH4MIoWKrRgEeBmvaxLkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9163.html",
-          "hash": "Ude9uPW5I4cit4N3a8WHFA=="
+          "hash": "5H3Z9t6IQjh6dJpYX0QsUQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ILI9341.html",
-          "hash": "7a6/L0k/MW5FOOppv9qioQ=="
+          "hash": "3OBpsp8LOfJ2th+bDnDs0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.Lcd2004.html",
-          "hash": "LgHNEQx3Xd5ibGJIBZhDhA=="
+          "hash": "flDLu6DPAHhGE4nNbLeCqg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -576,7 +588,19 @@
           "hash": "ojIe1z3xRV+DMiwJtv6T4g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.PCD8544.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.PCD8544.html",
+          "hash": "cKdoC78jWl8THKaVid7/DQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +609,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.S6D02A1.html",
-          "hash": "ZDmpaIbU/E5BiwP9DuAFMw=="
+          "hash": "IsD/vVawnz7sgYHhQD5bJg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -597,7 +621,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SPIDisplayBase.html",
-          "hash": "w54k8AcXDywsLRUkcRFOaw=="
+          "hash": "8DJ65Vyk5rocU/o0ijVnPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.ConnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.ConnectionType.html",
+          "hash": "YiDfWejEp8bwj3L9+59ztw=="
         }
       },
       "is_incremental": true,
@@ -609,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.DisplayType.html",
-          "hash": "HjRzzNISVR29dFu/Uij2eg=="
+          "hash": "ifTVdp7c+dqrphYu7NiGjg=="
         }
       },
       "is_incremental": true,
@@ -621,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.ScrollDirection.html",
-          "hash": "2mWCFaFdnSOtg//1aIAsdw=="
+          "hash": "Itm+vta2TRGuI6qJlrl3mQ=="
         }
       },
       "is_incremental": true,
@@ -633,10 +669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.html",
-          "hash": "/X72a5p6ons+2KRWE6EZkg=="
+          "hash": "4YPm12nevc3Sto/VpGyy2A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -645,10 +681,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1331.html",
-          "hash": "GrLH+LQTbtXrF88yiftVnQ=="
+          "hash": "N+R0JteLstCdn0B9w91dHw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1351.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1351.html",
+          "hash": "wIW7w8xjonHoEN5eoVHJMw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -657,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.DisplayType.html",
-          "hash": "loQJTNBwgzPsHYrvTmNumg=="
+          "hash": "3ntjteKoSYIrszT/fDxwEA=="
         }
       },
       "is_incremental": true,
@@ -681,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7735.html",
-          "hash": "swmEphsMV7eTpOhkRSzM7A=="
+          "hash": "0TpfDrjXcpGejLIPoz27hQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -693,10 +741,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.ST7789.html",
-          "hash": "AALTSDWawoAyrWdU2aydHg=="
+          "hash": "OJ2Q5xoDrKQuHkqxIxovgQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -705,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.CursorStyle.html",
-          "hash": "zwedZC8swECADoSISJXQEQ=="
+          "hash": "TXFWDPZ7JazkvWGKNoCmFA=="
         }
       },
       "is_incremental": true,
@@ -717,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.Direction.html",
-          "hash": "rJwrRfY2/cPUepys/Tzg1w=="
+          "hash": "oQFrPHxDCj9WDj5bj6yDvw=="
         }
       },
       "is_incremental": true,
@@ -729,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.html",
-          "hash": "4Jk5y0APR5kDQPAJXCEEJA=="
+          "hash": "9zSPhKGQnx0PzNRxwR7sCA=="
         }
       },
       "is_incremental": true,
@@ -741,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDBaudRate.html",
-          "hash": "3RDAFNRRpMe9zgjezKbbdA=="
+          "hash": "U3ThiN7WmVCGavkAu6ULtg=="
         }
       },
       "is_incremental": true,
@@ -753,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.LCDDimensions.html",
-          "hash": "rkeAL3667pqSan4aLgboQg=="
+          "hash": "9OaK9fDSJxFwTgNwDS876A=="
         }
       },
       "is_incremental": true,
@@ -765,10 +813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.html",
-          "hash": "AmOVSZrSqNuGwetKYMEsAA=="
+          "hash": "tDY6rP3ahzXfPdH787PMVA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -777,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayConfig.html",
-          "hash": "RXCr8i1z7yJG/6k7b0DBDQ=="
+          "hash": "M4t2WqLUeF5s/Mr+iZGCxw=="
         }
       },
       "is_incremental": true,
@@ -789,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.CustomCharacter.html",
-          "hash": "2+/lxX93skghSypLIemWDA=="
+          "hash": "0jikqQ2s4YRR71qgTN5CTw=="
         }
       },
       "is_incremental": true,
@@ -825,10 +873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Age.html",
-          "hash": "Sg2h3hmCdv93lVFspkrP6w=="
+          "hash": "WV6oOJrKN4OwIIY32mS78A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -837,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Boolean.html",
-          "hash": "tLJk7rALZHwFXMGqyu/Glg=="
+          "hash": "aPzZSrwEJSF8CcRNUfDmSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -849,10 +897,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.html",
-          "hash": "+1HJd35qqBRCAKycFksUCQ=="
+          "hash": "+0J1n/cfHd0AKgLUmazhcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputHelpers.html",
-          "hash": "tlbvjCrO0nx6QsatZQQuug=="
+          "hash": "uhI0ibJjDvCfLEqqwQs0sQ=="
         }
       },
       "is_incremental": true,
@@ -873,10 +921,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.ListBase.html",
-          "hash": "uA8PxNEVbHM/jRTrwCiELg=="
+          "hash": "j7vR8r7/W4YccfRi9Sh3rg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -885,10 +933,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.html",
-          "hash": "ketnWrGvcccBo+kVehQS/A=="
+          "hash": "jeZtT00hC21P2Pt3jsiFTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -897,10 +945,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Temperature.html",
-          "hash": "mVR2+oOH9skLlKmwojxkEA=="
+          "hash": "Un07XH3jvc2tZ7Hax5yeTw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -909,10 +957,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.Time.html",
-          "hash": "Mpvwn2t+Vvr2vNf3O6/aBQ=="
+          "hash": "TfQs/RrHtVzyrK3VRikWiA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -921,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.TimeMode.html",
-          "hash": "EKwk92GpFRMvdMFmQtgfIQ=="
+          "hash": "VngdkFmX6c5SKEYiiphy7g=="
         }
       },
       "is_incremental": true,
@@ -933,10 +981,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeBase.html",
-          "hash": "Trl55VAmOnMkyb1pd4OA7A=="
+          "hash": "OGTdBzN+gMIjqq1kDu5mrg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -945,10 +993,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeDetailed.html",
-          "hash": "2GMhRvuhdB3cHXs7QTgOGw=="
+          "hash": "sn3GmepBVZpYO1qDLbznfA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -957,10 +1005,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.TimeShort.html",
-          "hash": "6gS1+rAlRzyvOGvKSaXQEA=="
+          "hash": "MNlxaj1kGMybRTw39Y5qMA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -972,7 +1020,7 @@
           "hash": "uFnoVPs0Ca0GSKQ46fXYdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -981,10 +1029,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.Menu.html",
-          "hash": "jRKH9CmP80uaRMPp5W/xLQ=="
+          "hash": "uAIQviA10ZVBFM9VTYoQhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -993,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuInputItemBase.html",
-          "hash": "Q8B+gfabfCaNalJnmtc2fA=="
+          "hash": "ctKynB2fc9kwiINDSUaFlA=="
         }
       },
       "is_incremental": true,
@@ -1005,10 +1053,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.html",
-          "hash": "n46PeIQ6h769IeWqar/mCg=="
+          "hash": "ubuqtu5khgnTqCmPj2bc/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1017,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuPage.html",
-          "hash": "Qd1UTFkREXJydhJMFBgk2w=="
+          "hash": "a7ZtHm8VUz43dJWFoEDY5Q=="
         }
       },
       "is_incremental": true,
@@ -1029,10 +1077,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs.html",
-          "hash": "QL4lfcuJ5A/NTk0A1Tr2Ng=="
+          "hash": "4t/1MoM+e1d3i+OcuHto4g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1044,7 +1092,7 @@
           "hash": "RNuUBHKZiwBo8y8fHUocaA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1053,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.TextCharacters.html",
-          "hash": "kwQnMQ37KL/19O0utYRjLw=="
+          "hash": "5bv3K6RTv7nZeaZDAfPmnA=="
         }
       },
       "is_incremental": true,
@@ -1065,10 +1113,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedEventArgs.html",
-          "hash": "fVmy5W3/9iMoNN5OkR4tsg=="
+          "hash": "2kc6v30TWQqH+dq8o4KYfQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1080,7 +1128,7 @@
           "hash": "6qyGUg6XwhbKMK68xB76kw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1092,7 +1140,7 @@
           "hash": "Fqmk/6pPcuAEkIJ7T69I/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1101,10 +1149,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Displays.html",
-          "hash": "DY6q9PgBakDaAv8WGMc0Ww=="
+          "hash": "T4dsMTpOnw0fDdRs6jqzNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1113,10 +1161,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Generators.SoftPwm.html",
-          "hash": "gBGwaHS85bpleopADxRPgA=="
+          "hash": "hjYuDkAciT74lvxHLW0jaA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1128,7 +1176,7 @@
           "hash": "1fritYTgd2ti9lTCThlveA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1137,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.Checksum.html",
-          "hash": "5PDwrwhlzYQfrMlQU4Qvtg=="
+          "hash": "9vFoxSg5dW0xD+9CkWMuog=="
         }
       },
       "is_incremental": true,
@@ -1149,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Helpers.DebugInformation.html",
-          "hash": "umFp0d2F8rdRir59psK6UA=="
+          "hash": "lBW+sxeBfwR/Bhzv0CKiaA=="
         }
       },
       "is_incremental": true,
@@ -1173,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.AT24Cxx.html",
-          "hash": "cTSxka+ltr/zB28v84wlgg=="
+          "hash": "a3z661jwQA64C0IzWAE5wg=="
         }
       },
       "is_incremental": true,
@@ -1197,10 +1245,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort.html",
-          "hash": "sZ0yKx2IqBzXaliYXABtPQ=="
+          "hash": "5GiegmxN2EUKrvhcBZHS7w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1209,10 +1257,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.html",
-          "hash": "wjje6BEhmFBvC6ot7ttrUg=="
+          "hash": "247BorcKxcmfy31UIQ2+GA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1233,10 +1281,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.html",
-          "hash": "5Hd1qgdGO4U6+3E2VVr6Ng=="
+          "hash": "AzAwspK8WxO6ZCij1Ws7Aw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1245,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.ICs.IOExpanders.MCP23008.MCPAddressTable.html",
-          "hash": "X5qBVEqaj+MhS/e2OXjKrw=="
+          "hash": "gWTGXUg9Vx9WaN4vgENKmg=="
         }
       },
       "is_incremental": true,
@@ -1260,7 +1308,7 @@
           "hash": "C/VMMy/ZbhziepCvlu9jzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1272,7 +1320,7 @@
           "hash": "iwz6DntiRXAETHIAwamZNQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1284,7 +1332,7 @@
           "hash": "/rCCledbO9XozyBB4PvKZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1293,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Helpers.html",
-          "hash": "UXgPLpsgi0XjgXhG0fl3HA=="
+          "hash": "uI6KTDqAqVu/WUS88yBKSA=="
         }
       },
       "is_incremental": true,
@@ -1308,7 +1356,7 @@
           "hash": "xW1HTVTFcYuLdICCt0c3Tw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1320,7 +1368,7 @@
           "hash": "UbWM0U+YhX3hcKO5uRMleQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1329,10 +1377,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.Led.html",
-          "hash": "aueS0wm63l5VcpmGzj9hfQ=="
+          "hash": "2VPJVbGKVhN221nxjY4OVw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1341,10 +1389,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.PwmLed.html",
-          "hash": "fRJpi5KiBlJdGpWNzHlOPQ=="
+          "hash": "UcTsN1IFScj03DAE3b6k6Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig.html",
-          "hash": "W3alMABa7rjrXq/UlPjghQ=="
+          "hash": "4aVlhnITI3+YAtJM0Jyn6w=="
         }
       },
       "is_incremental": true,
@@ -1365,10 +1413,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.RgbPwmLed.html",
-          "hash": "Wi532+Pgmktq0ddONcnBFw=="
+          "hash": "M2ckDMu9Q+6wTjvGE9kn2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1377,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.LEDs.TypicalForwardVoltage.html",
-          "hash": "b/d+s+vf4woUCwQIW6rdoA=="
+          "hash": "nUzwlKtxrH/1/cmAzbOEPg=="
         }
       },
       "is_incremental": true,
@@ -1392,7 +1440,7 @@
           "hash": "sz8FqJK7WX0BBxbPN3itTw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1401,10 +1449,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Motors.HBridgeMotor.html",
-          "hash": "iyBdcOCgEhU9djb872uTiA=="
+          "hash": "9r+bUiX1zApSl40mKhntTw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1428,7 +1476,7 @@
           "hash": "nT5sREcA3QtVLYeI3vqxyA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1437,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.NumericExtensions.html",
-          "hash": "bROAvDzlto7Lk2omz9Qc3A=="
+          "hash": "T8QVoCMevuZ2E3Tg45h7Eg=="
         }
       },
       "is_incremental": true,
@@ -1449,10 +1497,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS3231.html",
-          "hash": "Hi1zz4v/g0Pb7VRPhHbGBA=="
+          "hash": "jByp0VSPh8Wo+Xpqx5UHnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1461,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Alarm.html",
-          "hash": "46LBaF9UH2bWnHYGRR6+qQ=="
+          "hash": "Inkgil3XiLVMChZLSYiKQA=="
         }
       },
       "is_incremental": true,
@@ -1485,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.AlarmType.html",
-          "hash": "Jgq41qYHCKEvXPpBBnZAXw=="
+          "hash": "sIpv49vQOwuCmTcXe9aVJg=="
         }
       },
       "is_incremental": true,
@@ -1497,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.RateSelect.html",
-          "hash": "xwWp8vUDM9oHWLDr+7cAkA=="
+          "hash": "BQ5iNC8tt2uhjvxAAMclYw=="
         }
       },
       "is_incremental": true,
@@ -1509,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.Registers.html",
-          "hash": "hiBrGaRQ3NVYU9P5ewoxDQ=="
+          "hash": "Jel1Wxwma7nhzaS7Pw1jQw=="
         }
       },
       "is_incremental": true,
@@ -1521,10 +1569,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.html",
-          "hash": "nB6nfbIY8/RUelrim/aTCg=="
+          "hash": "NzaF1jmnc2llhZiEtM4rpg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1536,7 +1584,7 @@
           "hash": "7xRG6/6mCqaG5h2BX7ZiNQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1557,10 +1605,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.Relay.html",
-          "hash": "dDkWUqux+S6NqH/haTjwiQ=="
+          "hash": "qSs459alcxpueY+3reN2uQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1569,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Relays.RelayType.html",
-          "hash": "7mb44ysKXlIY4KYUfOKFvA=="
+          "hash": "Pr9auFPzFOzOadUgGzsKiw=="
         }
       },
       "is_incremental": true,
@@ -1584,7 +1632,7 @@
           "hash": "Tw9DR6ZxW/oTl0QSEVFeqQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1641,10 +1689,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.BME280.html",
-          "hash": "qxFHz9OqnhNgyojEQTR94g=="
+          "hash": "0Ha+HKt8kFQRn26AR+x8sA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1653,10 +1701,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.GroveTH02.html",
-          "hash": "VMGDfDP1YtwSJPEk3+OQSg=="
+          "hash": "cz24hZ0nzCeuXFJ1zOGOTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1665,10 +1713,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.HIH6130.html",
-          "hash": "cUxmTemL/54f2gu6xXjocw=="
+          "hash": "s0bceAbKqdw9RMZfzlDbuQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1677,10 +1725,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SHT31D.html",
-          "hash": "+vh07chgLh7dGbDSi+HRyw=="
+          "hash": "P2vuzUlVNnLZpV9SjYAmEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1689,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType.html",
-          "hash": "50jgopJsaaqKkJEjQWpp3Q=="
+          "hash": "fzbIy3lxdNg3nvCHaNFD1g=="
         }
       },
       "is_incremental": true,
@@ -1701,10 +1749,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Atmospheric.SI7021.html",
-          "hash": "lr9d4o4LtmY+51Na64t5dQ=="
+          "hash": "pJ0c9DV+iRLPWFnoJ96sGQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1716,7 +1764,7 @@
           "hash": "2N4rMXRNijWCPrszdaXRig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1725,10 +1773,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL115A2.html",
-          "hash": "d3VgyI522PUOjcACqRnQTg=="
+          "hash": "LCnRJghEVTK7mk68N75r1Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1737,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits.html",
-          "hash": "AW0Z2o2CxavAaDGkMnuOLA=="
+          "hash": "QjWyUxKpdoItnvThmlbQwQ=="
         }
       },
       "is_incremental": true,
@@ -1749,10 +1797,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Barometric.MPL3115A2.html",
-          "hash": "YUYmuBA1gboK/cq8XjSqGw=="
+          "hash": "6n1ON6H7z78gRxWFiSxuMw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1764,7 +1812,7 @@
           "hash": "pc8VxNK6S3I6+n3ll/2bAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1773,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.IButton.html",
-          "hash": "NoO6yc5kEiv32SQIKnihhQ=="
+          "hash": "edsvsgB8sGqxzUUlcFnoTg=="
         }
       },
       "is_incremental": true,
@@ -1785,10 +1833,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Buttons.PushButton.html",
-          "hash": "u9r7NjdaIKGX+414FLp80Q=="
+          "hash": "+6gUeNa1+Lt3gPejiUrWQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1800,7 +1848,7 @@
           "hash": "NZTONVcMSYRIFbOS4YrFyA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1809,7 +1857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.html",
-          "hash": "lzZAA6jvNotwHnsVijZRFg=="
+          "hash": "WsbFZS4mxfyC0wlghDb5KQ=="
         }
       },
       "is_incremental": true,
@@ -1821,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.ActiveSatellites.html",
-          "hash": "QgiiZbud7nMXc6cw7rHyJA=="
+          "hash": "0Dl+oh0VKMpXYRq8hsrGGQ=="
         }
       },
       "is_incremental": true,
@@ -1833,7 +1881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.CourseOverGround.html",
-          "hash": "puLIynirK7CpkOKSurSJaw=="
+          "hash": "C/V5oTnmwdh58C9wtwGETA=="
         }
       },
       "is_incremental": true,
@@ -1845,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DegreeMinutePosition.html",
-          "hash": "lxMsMxQR/3hmemgmqI6tXQ=="
+          "hash": "POiMJZA1nwW4M79TKUdIQQ=="
         }
       },
       "is_incremental": true,
@@ -1857,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DimensionalFixType.html",
-          "hash": "0s/luLMfUqp5vn/+bSeQJQ=="
+          "hash": "K/3CUUd/7wovg2IkJRglYg=="
         }
       },
       "is_incremental": true,
@@ -1869,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.DirectionIndicator.html",
-          "hash": "bSDC7CBr3isxyQHOTqY8Pw=="
+          "hash": "cC1c14Rc+O5TYf/zBLwo6Q=="
         }
       },
       "is_incremental": true,
@@ -1881,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.FixType.html",
-          "hash": "pJ6dRet8NN2Sc6DlMlm8jg=="
+          "hash": "lmfaQeQbyUvcvpoiiUfSrQ=="
         }
       },
       "is_incremental": true,
@@ -1905,10 +1953,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GGADecoder.html",
-          "hash": "yzzUYe+1nO+PhBYZyc0nbA=="
+          "hash": "Qysmwsen/ETeok/H5qUFAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1929,10 +1977,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GLLDecoder.html",
-          "hash": "EQnm4BvX/3XrGeZUfPyfJQ=="
+          "hash": "4UpiTBYKQfQBwzKO/rBHJQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1941,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GPSLocation.html",
-          "hash": "OZSKus/955WLKiB5tu6sKw=="
+          "hash": "qCtMKWF8MtgAwaqMOoXu3A=="
         }
       },
       "is_incremental": true,
@@ -1965,10 +2013,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSADecoder.html",
-          "hash": "khGSxveZ0AP+LnL1mYnaKQ=="
+          "hash": "81fT1/rG7Db9zNCnWg06Xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1989,10 +2037,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.GSVDecoder.html",
-          "hash": "2A3dXMY7zP0YXmNUQD7dIg=="
+          "hash": "oScc/axeHuA+zR8yaSoFJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2001,7 +2049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEA.html",
-          "hash": "9UsN2mYLC0Dleq07ts4LSw=="
+          "hash": "rf8A4rpa7rN30WFdAthygQ=="
         }
       },
       "is_incremental": true,
@@ -2013,10 +2061,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEADecoder.html",
-          "hash": "3ze+b+yLHB4pZbq+BOikug=="
+          "hash": "U2lNgiV4sBmnr+PAFSMSIg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2025,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.NMEAHelpers.html",
-          "hash": "IUwv6mtUN/PdawsxRKf4eA=="
+          "hash": "XbQLQB4BX8VPgeVfPpZDDg=="
         }
       },
       "is_incremental": true,
@@ -2037,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.PositionCourseAndTime.html",
-          "hash": "m3+kqO+V13SXxgeJds5u9w=="
+          "hash": "HizRaoqp5PhhC4P0iO7gSw=="
         }
       },
       "is_incremental": true,
@@ -2061,10 +2109,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.RMCDecoder.html",
-          "hash": "QH8a3ev1MB24ePKy12+zBA=="
+          "hash": "WEsJj8SnXFKXaMEQXikLCQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2073,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.Satellite.html",
-          "hash": "/g88wPWl7PP6hR5F+jpxOg=="
+          "hash": "ZorprQm3e1i9dCdQY9JiUw=="
         }
       },
       "is_incremental": true,
@@ -2097,10 +2145,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.GPS.VTGDecoder.html",
-          "hash": "2phfmn2lJHf6O1dJWmiNng=="
+          "hash": "j91O0BiLDLwJyLQuBjskqQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2112,7 +2160,7 @@
           "hash": "G13GF/H5Rg4ElK21HrA5cg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2121,10 +2169,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer.html",
-          "hash": "wWNtDitaOoweIgDSLBDWlw=="
+          "hash": "UiMOXNz6moy/Arq0hXDGgQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2136,7 +2184,7 @@
           "hash": "x3PVb44v2lmSKeUvUyl0lQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2145,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.ICamera.html",
-          "hash": "hWHylDidBZ2+3oLs1oZ8vA=="
+          "hash": "EC0whWZz2y9lx4x4Gg7ynA=="
         }
       },
       "is_incremental": true,
@@ -2160,7 +2208,7 @@
           "hash": "4bHyndCGUKSE6DlKe9TXnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2172,7 +2220,7 @@
           "hash": "QtGiQalgiC/bOypH5qe5vw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2184,7 +2232,7 @@
           "hash": "L4V1k3EEBkWBUp0OPdGK1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2208,7 +2256,7 @@
           "hash": "WpCiRcG9inbwbwY7+iny5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2217,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.SI1145.html",
-          "hash": "69De+icE0ox1GqqMMdafTQ=="
+          "hash": "N8NfjSJrChgXMQNSYbl5zQ=="
         }
       },
       "is_incremental": true,
@@ -2241,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.Gain.html",
-          "hash": "8YJBPQ5BFT8HGVp2nOL0jw=="
+          "hash": "k0aGGYlFodHdKy7KmaS8hw=="
         }
       },
       "is_incremental": true,
@@ -2277,10 +2325,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt.html",
-          "hash": "btDuD9tJStYoQzdLQIpF9A=="
+          "hash": "a5ZNiK3vSB6zKH7Q279Tww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2289,10 +2337,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Light.TSL2561.html",
-          "hash": "TsFkRal7pGqG98PAPGhX3g=="
+          "hash": "cIxUJPXIHRc6/Wzg0XVPmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2304,7 +2352,7 @@
           "hash": "6v7mFKd0mYL3cMX1N9aqCg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2313,7 +2361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL335.html",
-          "hash": "bt4DoAcDWOuhzNJ3T002mQ=="
+          "hash": "dd2D3ucPN4+1BxoTFCbcXg=="
         }
       },
       "is_incremental": true,
@@ -2349,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL345.html",
-          "hash": "kqvqhzOhJ6q2hH1z2v4s3g=="
+          "hash": "oUKP8U7FxJTNRkftamr+nw=="
         }
       },
       "is_incremental": true,
@@ -2361,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask.html",
-          "hash": "tey3PvtjwE2lTXty6Qo53Q=="
+          "hash": "srK8J03W5NNRFdpItXRC5g=="
         }
       },
       "is_incremental": true,
@@ -2373,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Command.html",
-          "hash": "xyB1+pIKfRul1RDztw9JFQ=="
+          "hash": "SK2Un5fwdSM9akqx0AHl2Q=="
         }
       },
       "is_incremental": true,
@@ -2385,7 +2433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FIFOControlMask.html",
-          "hash": "DTha6ak5ikFsnE26isBRjQ=="
+          "hash": "1gcigImZxitdd5R8AAvzQQ=="
         }
       },
       "is_incremental": true,
@@ -2397,7 +2445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.html",
-          "hash": "2GZFu8jtJiByLGZX6zvDPw=="
+          "hash": "ZH++UrnREuvtHWqbMzggUg=="
         }
       },
       "is_incremental": true,
@@ -2409,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.InterruptMask.html",
-          "hash": "wTt96P8At3VnfvRasNMPDw=="
+          "hash": "pkR3EDegMGWDKmZaOHUYDA=="
         }
       },
       "is_incremental": true,
@@ -2421,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.PowerControlMask.html",
-          "hash": "zNODCg2ohrqZ/VhP30yZTw=="
+          "hash": "4jgmfwp8Uy+dlAkiWkPSxg=="
         }
       },
       "is_incremental": true,
@@ -2433,7 +2481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.Registers.html",
-          "hash": "62nOo6kFu8Z/x6332CfVRA=="
+          "hash": "8rz2a8j+ELu2N1sAa5Fxng=="
         }
       },
       "is_incremental": true,
@@ -2445,7 +2493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.html",
-          "hash": "HO78sLrNEePAj2E64VBVfg=="
+          "hash": "+Y0LS7Dnue3tnZhEJre77Q=="
         }
       },
       "is_incremental": true,
@@ -2457,10 +2505,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ADXL362.html",
-          "hash": "ckuQYNp6d686oh4KebFRXA=="
+          "hash": "SZDpA/mo30a2PaB0AFermw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2481,7 +2529,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.html",
-          "hash": "dbo3SZ1LmzWvJ8wSZfGFCA=="
+          "hash": "wjhPxokwGc+TMcxOQQBVug=="
         }
       },
       "is_incremental": true,
@@ -2493,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.PowerModes.html",
-          "hash": "t1vqc6J0X1z6GAxPyA46Ig=="
+          "hash": "MfMLJ2S/pIQnprNsZuhNug=="
         }
       },
       "is_incremental": true,
@@ -2505,7 +2553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask.html",
-          "hash": "8O+IRA8ssb3CVdAK+Vu16w=="
+          "hash": "dqGdnqPwOfpapCkLWEOktQ=="
         }
       },
       "is_incremental": true,
@@ -2517,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Sensor.html",
-          "hash": "6aPiK253jYsEDNdlf6gowA=="
+          "hash": "x0/bXuJy91dLGNDU5nhINg=="
         }
       },
       "is_incremental": true,
@@ -2541,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.Units.html",
-          "hash": "lOwaCzXJOqDcj5d/fiXy8g=="
+          "hash": "IxXn+U5/Da45kNDhxvk5Mg=="
         }
       },
       "is_incremental": true,
@@ -2553,7 +2601,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.BNO055.html",
-          "hash": "lR6T8iW1ZkBXUBkLk+IhUw=="
+          "hash": "REkP+PLo1/qrBBQ0s7IM4Q=="
         }
       },
       "is_incremental": true,
@@ -2589,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.html",
-          "hash": "4QzEmfaTewV26WNsLhSCPA=="
+          "hash": "hfHVbiLaYARadQMlgua2uA=="
         }
       },
       "is_incremental": true,
@@ -2601,10 +2649,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.MAG3110.html",
-          "hash": "MHAMVQgzrhzn5BxGypCT8w=="
+          "hash": "Wb3sbhoo4OIiKR40Xg8sIA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2625,10 +2673,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Motion.ParallaxPIR.html",
-          "hash": "/N7HSppjmXtFOKhtYnpF3Q=="
+          "hash": "zKzdB7ePQzwao5FGwVFb4A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2640,7 +2688,7 @@
           "hash": "lGj+8BN6/tlX+GfUMPZeww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2676,7 +2724,7 @@
           "hash": "wfPwH6lqzgPpNxGsIo9nAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2688,7 +2736,7 @@
           "hash": "ToUFaSR4J3bvnVAvhq/m0A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2697,10 +2745,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoder.html",
-          "hash": "AnoTR8TnlhEttu2mhBObvw=="
+          "hash": "B7bmgA2vpA1wHd+aixSdBw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2709,10 +2757,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.html",
-          "hash": "6AKvVT0rd8sKnULMRs2OSQ=="
+          "hash": "mzkxFTXsQ9FrYnOzXLyAPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2721,10 +2769,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.html",
-          "hash": "EJCyK/ioaCIMtwivdOwtOQ=="
+          "hash": "u8lnCNEk2dljNDwBwl5GMA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2736,7 +2784,7 @@
           "hash": "qew55EhZZNUcWXGFHsaFNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2745,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.RotationDirection.html",
-          "hash": "jKwwwSt9De5Jjcu8CJUdUA=="
+          "hash": "BPWiYjuIxFhg730gwdwrEQ=="
         }
       },
       "is_incremental": true,
@@ -2757,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode.html",
-          "hash": "IccPsUguvjsfuiIjUCDcbg=="
+          "hash": "7/KbKwUMDqVyimN5DrtLPA=="
         }
       },
       "is_incremental": true,
@@ -2772,7 +2820,7 @@
           "hash": "3jpVaHMEyQJx05jioEtn5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2781,10 +2829,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorFloatEventArgs.html",
-          "hash": "iDWwxrCWywwnw9bu0vU8PQ=="
+          "hash": "HqdWjxA/xUduNyFnVU38oA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2796,7 +2844,7 @@
           "hash": "IwRkcZYJ1bdrdT1qcOMDww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2805,10 +2853,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.SensorVectorEventArgs.html",
-          "hash": "/zUcBjXAFGppo0oCIoTm/A=="
+          "hash": "N/jKx4mHf60qZlb4KX3lNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2820,7 +2868,7 @@
           "hash": "5mgg/y/vk19XZQpj7tqQmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2829,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.DipSwitch.html",
-          "hash": "T4yccO6ZvwETENrNUDdnWA=="
+          "hash": "3vrMqLtGHdAmFx9kSUXwuw=="
         }
       },
       "is_incremental": true,
@@ -2841,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.ISwitch.html",
-          "hash": "kURMFEVL0tUCEUsR4Ha/9w=="
+          "hash": "T/FPipXRj+LnJQQiEXzMsQ=="
         }
       },
       "is_incremental": true,
@@ -2853,10 +2901,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpdtSwitch.html",
-          "hash": "iaq6rNCNfcnd0oX/GluPXA=="
+          "hash": "CRppHFoMdThnYP88s8VpoA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2865,10 +2913,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Switches.SpstSwitch.html",
-          "hash": "jB9w1n8l08kyP33BwYnPyg=="
+          "hash": "eDng/xXLjun5toImTjBBhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2880,7 +2928,7 @@
           "hash": "6Z7YqG7C+n76dEPVZe0OIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2889,7 +2937,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration.html",
-          "hash": "H2rjYK2hl1CtNiGbYs0txQ=="
+          "hash": "BBJzOG4lrdsA/OFJaNIKIw=="
         }
       },
       "is_incremental": true,
@@ -2901,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.html",
-          "hash": "JNruOnvhpafGgtsvVoUUEQ=="
+          "hash": "eXE2K6uEgLRiQaSVgH91OQ=="
         }
       },
       "is_incremental": true,
@@ -2913,10 +2961,58 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.AnalogTemperature.html",
-          "hash": "tQUyqLb/QHC9c9Oy9p+f3A=="
+          "hash": "Guv1Wx8pp6ZArjjbfoaWSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.html",
+          "hash": "LjEQPQihwWofAdzBmIFq3A=="
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.html",
+          "hash": "zRR4gYo6IERzN1EBMV2npg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.html",
+          "hash": "xazZHSCpFcr6AMxsQXGqRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.DS18B20.html",
+          "hash": "ag0gAac9xZRDvMLt2h7hTQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2925,10 +3021,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Sensors.Temperature.html",
-          "hash": "2wlDzoy33jD2OfHoMd90Rw=="
+          "hash": "rnEu0844P9FkhmSkWFrTFg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2940,7 +3036,7 @@
           "hash": "5JbO/y/bKfznfxTFAOLDoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2949,10 +3045,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServo.html",
-          "hash": "aohgsfYwHwAeO/T2i108lQ=="
+          "hash": "J1HBIXVKyj1NqLsO47+O0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2961,10 +3057,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ContinuousRotationServoBase.html",
-          "hash": "TKCTnoQzHWKbscKGUIzLEQ=="
+          "hash": "jfOJ8C9crlcvdqYPZFedQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2973,10 +3069,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IContinuousRotationServo.html",
-          "hash": "Gx/wv5sEALq8h7wJWqccDQ=="
+          "hash": "rdm2l9Yrc6T4qBysNiVTaw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2985,10 +3081,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.IServo.html",
-          "hash": "2UaR5ximIWAhfDPvHZB/Ng=="
+          "hash": "cyRJJZ516MPz3TBgQLmsqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2997,10 +3093,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.NamedServoConfigs.html",
-          "hash": "IPa3RMIvpmGa1I1M6rKN1g=="
+          "hash": "9pq/OXzqucMBVGokOibYzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3009,7 +3105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.RotationDirection.html",
-          "hash": "FVd/ZX/AUaMQkY280ZxPZw=="
+          "hash": "5iWQJJBq3mIDgyJvPBxJSQ=="
         }
       },
       "is_incremental": true,
@@ -3021,10 +3117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.Servo.html",
-          "hash": "njKb6YkbK+QQ9pGRucE7Ow=="
+          "hash": "E5LU6yKfqQ84Si+7WjMGXA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3033,10 +3129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoBase.html",
-          "hash": "/4RW/yXoa/JhDhtsc5cPxg=="
+          "hash": "U55Wiec0zKdO0yCVUd9FbQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3045,10 +3141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Servos.ServoConfig.html",
-          "hash": "NduKafscWZEi1hPgihWhLg=="
+          "hash": "vvTjtwMobV5Ms/5GBKwnHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3060,7 +3156,7 @@
           "hash": "5DFT7mUI2BcBK9UeKdTCIA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3069,7 +3165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.EulerAngles.html",
-          "hash": "CeGgKtACOHpqO9nfROX8cw=="
+          "hash": "r7GLC9UVtNauw7LpXWryvg=="
         }
       },
       "is_incremental": true,
@@ -3081,7 +3177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Quaternion.html",
-          "hash": "G8jllec08+xG46HZFocorg=="
+          "hash": "164qFDWFiIbQrbvxzla6YA=="
         }
       },
       "is_incremental": true,
@@ -3093,7 +3189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Meadow.Foundation.Spatial.Vector.html",
-          "hash": "D8d42X/NyZJAlvhaTLoHfA=="
+          "hash": "7tWKEU61g04YkByKHoz0Jw=="
         }
       },
       "is_incremental": true,
@@ -3120,7 +3216,7 @@
           "hash": "C4lld94OdNlnApNOZ6Cheg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3129,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Netduino.Foundation.DataLoggers.ThingSpeak.html",
-          "hash": "4wnvivS3Xwv1XHVtJ8SjzA=="
+          "hash": "xxjGqZVOgOCZUHxEZD/5gA=="
         }
       },
       "is_incremental": true,
@@ -3156,7 +3252,7 @@
           "hash": "Cr54tTc4h5N0LpjGOfUpIw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3168,7 +3264,7 @@
           "hash": "c64CyZBLvRo119OGMCAuCw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3180,7 +3276,7 @@
           "hash": "J4Q5Z8hHFP/YusaBzaSEuA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3192,7 +3288,7 @@
           "hash": "P+YdpO/iRqojS4Mc2dcIug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3201,10 +3297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.DistanceEventArgs.html",
-          "hash": "jkBuZ72PGn9jtQi9mhvj6A=="
+          "hash": "zycUFAeGQNwB+yddyLmxFA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3213,10 +3309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HCSR04.html",
-          "hash": "Y0LErd2LsjD/W0GqBm2NMg=="
+          "hash": "W5tsgFy1cl2q6WfDb5X4uQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3225,10 +3321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Distance.HYSRF05.html",
-          "hash": "zNOn/UbKAClIVRM66lfMBQ=="
+          "hash": "aTK0YKQQ/yZEHALP4VZZXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3252,7 +3348,7 @@
           "hash": "Tsf33PlhKhjrUysyBajfoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3264,7 +3360,7 @@
           "hash": "xwnZ5e+pC4JD2tPgpzvYMg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3276,7 +3372,43 @@
           "hash": "/1YAFsZf/7FAc0ntXPDO3A=="
         }
       },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.TMP102.Resolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.TMP102.Resolution.html",
+          "hash": "H5hcGsDf6yvxmbRcGZZmuA=="
+        }
+      },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.TMP102.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.TMP102.html",
+          "hash": "m26J/9l3P8xSKNf4RjDirw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow.Foundation/Netduino.Foundation.Sensors.Temperature.html",
+          "hash": "QgpFFn2He1NpWZlblzjaTQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3285,7 +3417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/Netduino.Fountation.Sensors.Light.ALSPT19315C.html",
-          "hash": "g+oGtsn1BtvsdOFFKkcF9Q=="
+          "hash": "hFIRtevK/fhVrDtRQd1LzA=="
         }
       },
       "is_incremental": true,
@@ -3309,7 +3441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow.Foundation/toc.html",
-          "hash": "OHWy21X7nh1sALm0LHUeEg=="
+          "hash": "ic5qsBDk2ezOtB0weXfKvg=="
         }
       },
       "is_incremental": false,
@@ -3321,10 +3453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.AppBase-2.html",
-          "hash": "6tMI5T0JCFDZo63fEHXysg=="
+          "hash": "6yOsX3HiJcA8gAMEl/HYJQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3333,19 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.ByteOrder.html",
-          "hash": "EV4f5TYyxVAB2acOGI9FDA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Meadow/Meadow.DeviceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Meadow/Meadow.DeviceBase.html",
-          "hash": "pBMBD7Jy1HXmtpnmn+cZnA=="
+          "hash": "8bHX+J76U2TGLh2JJd8T6g=="
         }
       },
       "is_incremental": true,
@@ -3357,10 +3477,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.DeviceCapabilities.html",
-          "hash": "PxMZM00cYFy098ttfuMNCQ=="
+          "hash": "UpR5EG9UHlbjszW/iT685g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Devices.F7GPIOManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Devices.F7GPIOManager.html",
+          "hash": "24yburWYzn92tJrP3OzLzg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3369,10 +3501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Devices.F7Micro.PinDefinitions.html",
-          "hash": "UcckSf77wagawHw5AtMWDg=="
+          "hash": "1TBYKCRWo2MnzXjiHHogHw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3381,10 +3513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Devices.F7Micro.html",
-          "hash": "LEJ6gl7uN3RF+yDcuiCHlg=="
+          "hash": "EyIfqGvDBvi23Ptd46qzpA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3393,10 +3525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Devices.html",
-          "hash": "VS7qIHVDDOTP//mKRL23Dg=="
+          "hash": "PtcgwlfQ/WnEynVy/tM0BA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3405,7 +3537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionMethodType.html",
-          "hash": "vkT2AlDop6YR/lMjN8QI7A=="
+          "hash": "iKfRQrRmmGBEG9Uo8Ne6zw=="
         }
       },
       "is_incremental": true,
@@ -3417,10 +3549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionResult.html",
-          "hash": "UR80WeG5wyU07vw+WKae7g=="
+          "hash": "L/1EEGI3Yj4R0lGSI6z20w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3429,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ConnectionStatus.html",
-          "hash": "uTdFlMOreWSOzVfxuUcUwQ=="
+          "hash": "+N7l/ve9QtUScdNkpIHDLA=="
         }
       },
       "is_incremental": true,
@@ -3441,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkAuthenticationType.html",
-          "hash": "afYumhkkuhYF27/UAZqgtA=="
+          "hash": "XxJUR+4iGWWZEE5lEy943w=="
         }
       },
       "is_incremental": true,
@@ -3453,7 +3585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkEncryptionType.html",
-          "hash": "nF5Sotu3IVAPpTBO4N0MYA=="
+          "hash": "lghCDh8kHh9bKQ1ynwHyKQ=="
         }
       },
       "is_incremental": true,
@@ -3465,10 +3597,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkSecuritySettings.html",
-          "hash": "LpPIcRPJ2b5IQv3xwHEerA=="
+          "hash": "38c/KPqkNvIJ2Ua5Gh5mMA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3477,7 +3609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.NetworkType.html",
-          "hash": "W3ZZw8brp2MSAPRglAU+pg=="
+          "hash": "ZBb/av5gRT+qzgiLWFz/Lg=="
         }
       },
       "is_incremental": true,
@@ -3489,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.PhyType.html",
-          "hash": "IiVFPVP57rDnt4iiVuQDog=="
+          "hash": "E8q87tSMUUhusrraQm54Zw=="
         }
       },
       "is_incremental": true,
@@ -3501,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.ReconnectionType.html",
-          "hash": "a3B6GTCuStBIDrxE5gaV7w=="
+          "hash": "75jQPNPtD3XdnUNxPhD9Ww=="
         }
       },
       "is_incremental": true,
@@ -3513,10 +3645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.WiFiAdapter.html",
-          "hash": "0E+ml35gSPcoSaO5lQ8grQ=="
+          "hash": "h6Wn0pzhH8A65xXAdv5x6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3525,10 +3657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.WifiNetwork.html",
-          "hash": "snPgOLpH+SOnh/8INGoM+w=="
+          "hash": "oeLTjWlEZU0i0Tn3AzUlFA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3537,10 +3669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateway.WiFi.html",
-          "hash": "d+1tZ8PQOQBy8R+Jt/yV/A=="
+          "hash": "YozFMiVMRwA+tcZ3pZBmiQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3549,10 +3681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.AdapterCapabilities.html",
-          "hash": "jWSNB20YhjMooeUtzqfc0g=="
+          "hash": "YhH6mpm/Zc8lJdt/gWSXzg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3561,10 +3693,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.BluetoothAdapter.html",
-          "hash": "691iYo2N/IHtwrbz7Mkzdw=="
+          "hash": "ZS3r6pCQQ3ZqQov1Z8ud9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3573,10 +3705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Gateways.Bluetooth.html",
-          "hash": "LA4WYfifhFPx5Sc+6pwv7A=="
+          "hash": "KgT2bfobUE9Q0gBIpQgUPA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3585,10 +3717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.AnalogInputPort.html",
-          "hash": "0dj8I+lmk1zm6NVRr7G/4Q=="
+          "hash": "0aXNQfuOCT3yRhcljk8lUg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3597,10 +3729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.AnalogPin.html",
-          "hash": "J9TVajO6szm3avE/TLjnvQ=="
+          "hash": "A+JraQ8H60mJqFYbz5y7Pg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3609,7 +3741,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.AnalogPinBase.html",
-          "hash": "vaZef9msr+gEJ1jiIEMjwg=="
+          "hash": "GeJmcTjtFlQxSww3fol+0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.BiDirectionalPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.BiDirectionalPort.html",
+          "hash": "4g9kpnEzQqaQAvnfLTeuvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.BiDirectionalPortBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.BiDirectionalPortBase.html",
+          "hash": "m6oEqxUhT93FFmFMcSMDgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.ChannelConfigurationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.ChannelConfigurationType.html",
+          "hash": "bN+rNH/hudtV8Ex5So7xOg=="
         }
       },
       "is_incremental": true,
@@ -3621,10 +3789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.I2cBus.html",
-          "hash": "qyWBWi3N4lnnzEAWEQ4NpQ=="
+          "hash": "9xfIq9w4fvq7QhEQVVzElA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3633,7 +3801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.ICommunicationBus.html",
-          "hash": "zBCS6mpEOq1KvtB4l3RBoA=="
+          "hash": "UglwAY54dpiDkNOJsTtG4w=="
         }
       },
       "is_incremental": true,
@@ -3645,10 +3813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWire.html",
-          "hash": "ao637fdpw4JzlXx9qXSTWQ=="
+          "hash": "O8zYBgXaeJkYtzltXJg2ig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3657,10 +3825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.Devices.html",
-          "hash": "i0x/uOlSqd7HsmWN5dryIw=="
+          "hash": "GWjmUyNxjv7+EVwvOd3QKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3669,10 +3837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.OneWireBus.html",
-          "hash": "b0LFA1SPJhCs2ZkdHOSclw=="
+          "hash": "7t2JvwdHTlQQQp6KVKafYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3681,10 +3849,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.SPIBus.html",
-          "hash": "KRXkHKndcV7MSiLp6NFO2Q=="
+          "hash": "aTqNCdiKe/PxIdr+QfAXHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.Communications.SoftwareSPIBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.Communications.SoftwareSPIBus.html",
+          "hash": "qDqRVv/AB+gYvkQkSvGStw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3693,10 +3873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Communications.html",
-          "hash": "rtzAHi5Nw7JqnA2qEn3p9g=="
+          "hash": "sLIUm1naugkpWL6FJH7UwQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3705,7 +3885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogChannel.html",
-          "hash": "o2zHRLPz6uFUZIxWizWM9A=="
+          "hash": "7UYwoA1aB5qK7X7leXxedg=="
         }
       },
       "is_incremental": true,
@@ -3717,7 +3897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.AnalogOutputChannel.html",
-          "hash": "RVLvRLBdRIDfulLNCuzV9A=="
+          "hash": "zP8EmfxZ7e2/myyYRvibDg=="
         }
       },
       "is_incremental": true,
@@ -3729,7 +3909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PWMChannel.html",
-          "hash": "kprb57XvD6HEecgSTjuwkw=="
+          "hash": "62neL1AG/+aOWUfSEzUTEw=="
         }
       },
       "is_incremental": true,
@@ -3741,7 +3921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.Pin.html",
-          "hash": "gG/ICHx+gbg+KcU0puBZBA=="
+          "hash": "ClKtxqKkT2+x5zgh9uDzYQ=="
         }
       },
       "is_incremental": true,
@@ -3753,7 +3933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinUsage.html",
-          "hash": "TkrIMEmHQjs33/xGghX3+g=="
+          "hash": "NYHwmJU3VpX/O0iDqV7HjA=="
         }
       },
       "is_incremental": true,
@@ -3765,7 +3945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidInterruptMode.html",
-          "hash": "q9hZp7qJxmA5aXFjo9B44Q=="
+          "hash": "7mq0NshRbwLbeU7lrAZrNA=="
         }
       },
       "is_incremental": true,
@@ -3777,7 +3957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.PinValidResistorMode.html",
-          "hash": "OmqqNXQBwhzX1r7P14zQnQ=="
+          "hash": "9C+Ka2SRBSjuyXTAT3LNeQ=="
         }
       },
       "is_incremental": true,
@@ -3789,10 +3969,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Cpu.html",
-          "hash": "jnOJvLQR/K5XHdQ9lB/b/w=="
+          "hash": "ZH2lB2SmoDNi1WfCijhfQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.DeviceChannelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.DeviceChannelManager.html",
+          "hash": "nw0S4xFbKwf1ywpFCHh64g=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3801,10 +3993,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPort.html",
-          "hash": "VtMMXb1tK4ONfUK8puO8wg=="
+          "hash": "DEuHJl3Qfg75lFaKROy57Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3813,10 +4005,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalInputPortBase.html",
-          "hash": "hjW2sUfI2uMTHek8EHAv8w=="
+          "hash": "B8Uxmwz7gGBdffBfwOBjRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3825,10 +4017,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalInterruptPortBase.html",
-          "hash": "M26yiZeqCszhRQwU5ZDGDQ=="
+          "hash": "xxUujypgzXLl0CqXmd9AGQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3837,10 +4029,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPort.html",
-          "hash": "QMXyFqZXRW1BORRi1fts3g=="
+          "hash": "sCmqWtre/o1/vB9KWA7NDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3849,10 +4041,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalOutputPortBase.html",
-          "hash": "CdOmrLJuqXfGsuRMQ5zYBQ=="
+          "hash": "xn3jh+ZTid1oDhKcWmbDfA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3861,10 +4053,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalPin.html",
-          "hash": "gyeanpIV1ih0clbEx/YXoQ=="
+          "hash": "4eQ2rUOlFlxf8sUc8Y/5jQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3873,10 +4065,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalPinBase.html",
-          "hash": "TTQRpx5LIT2pp+t60qbOTg=="
+          "hash": "ZzTEb2hqd2RKIxnQLMdzPw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3885,10 +4077,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.DigitalPortBase.html",
-          "hash": "jYaRrHikThq10MykZaK4+w=="
+          "hash": "3dK7MbmT28G1L/fPDF2h+w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3897,7 +4089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Handshake.html",
-          "hash": "2hRqPLBG+bNXOVEik/BETw=="
+          "hash": "evTssGhkfRA2vp82p1CrgQ=="
         }
       },
       "is_incremental": true,
@@ -3909,10 +4101,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.Configuration.html",
-          "hash": "9iUYrT45Yzco1tgjSyM2lg=="
+          "hash": "6V+auiLve4Qh9kOvr7UR8g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3921,10 +4113,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CReadTransaction.html",
-          "hash": "jDcVJa84N8uXhm5g2yUPBQ=="
+          "hash": "kRGyr91ZyfYwn58xl6LfZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3933,10 +4125,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CTransaction.html",
-          "hash": "EEFREJ4JqXZcVgPHSWcoIg=="
+          "hash": "LgdWuILG8mj4GLS2ZIP8pQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3945,10 +4137,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.I2CWriteTransaction.html",
-          "hash": "IX0kjR5yUvYz9/2V4nibbw=="
+          "hash": "TVRtvGXzS/nyiVBhGeVzjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3957,10 +4149,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.I2cDevice.html",
-          "hash": "jlyQd++/kWjj7Q+swjvpuA=="
+          "hash": "dzWZ/FdHECaERh3VcTRdDg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3969,7 +4161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IAnalogChannel.html",
-          "hash": "fs37FSgeDV9+JbKKnwR0jA=="
+          "hash": "deqfuNUwKJ3z/FEre8aUqw=="
         }
       },
       "is_incremental": true,
@@ -3981,10 +4173,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IAnalogPin.html",
-          "hash": "UvMG0/roDzMu4NCHkbF5CQ=="
+          "hash": "y0ozkBCnh1U/vNynT2hQog=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3993,10 +4185,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IAnalogPort.html",
-          "hash": "H6X9S/1nn6eYAtWpFoNQCQ=="
+          "hash": "L/+dNXHa8TKNUU8shoZMmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.IBiDirectionalPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.IBiDirectionalPort.html",
+          "hash": "D+wTNgba6h9dvFcIvCtn9Q=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4017,10 +4221,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IDigitalInputPort.html",
-          "hash": "uSDJ2qRVTWwqr8g30EyR6Q=="
+          "hash": "BMt92csX6jyh/DeeLgGJkw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4029,10 +4233,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IDigitalInterruptPort.html",
-          "hash": "n+exN55O95XQ+mDdHIfNzA=="
+          "hash": "Q3FkhQHWsSvfHacu0W1cGQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4041,10 +4245,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IDigitalOutputPort.html",
-          "hash": "bvPhgBFbsNBQdkC/yP+V+Q=="
+          "hash": "FiekZ7CQ7eXkzYeWvGPLbg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4053,10 +4257,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IDigitalPin.html",
-          "hash": "r7eT5TcHIib745pHNQJifQ=="
+          "hash": "BoG3FRDGMvPTudNO4TKBzQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4065,10 +4269,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IDigitalPort.html",
-          "hash": "9kDlrbjxIGkwves40IEERg=="
+          "hash": "6zyybdO4Wdc1pEbZ9CFLiQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4077,7 +4281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IPin.html",
-          "hash": "tlqjB2w4kRvOIHB7ixFAgw=="
+          "hash": "vffRkcQq/2kDsWEO+EpQMA=="
         }
       },
       "is_incremental": true,
@@ -4089,7 +4293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IPort.html",
-          "hash": "copa0iME3opP8E+ckU+Elg=="
+          "hash": "8YN47cPf1GcR5HxT+uEGeQ=="
         }
       },
       "is_incremental": true,
@@ -4113,10 +4317,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IPwmPin.html",
-          "hash": "Z7+bfGpzNiNwsPW82JG53g=="
+          "hash": "PsqegnTpzTweoYluszP2Ug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4125,10 +4329,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.IPwmPort.html",
-          "hash": "5oYGC2DhjQBMQ0baKGAdNA=="
+          "hash": "X0T+pTT47p1PPFM3vGo4wQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4137,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.InterruptMode.html",
-          "hash": "hNS2cWM13vST0HzBbmBJyw=="
+          "hash": "8BaVAhd9hunCnXcWM7BmkA=="
         }
       },
       "is_incremental": true,
@@ -4149,7 +4353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Parity.html",
-          "hash": "WrTvd+hFIhabS3f4U4mMsA=="
+          "hash": "6r1G2R31hv2Zb9FkGXcl9Q=="
         }
       },
       "is_incremental": true,
@@ -4161,10 +4365,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Pin.html",
-          "hash": "NxydWyTPFZ6nElABzZSpaQ=="
+          "hash": "HpzJdtA5wOopJ88zrkk4KA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4173,10 +4377,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.PinBase.html",
-          "hash": "HNpdFVDPI+bE9duq20+2KQ=="
+          "hash": "un4BIjt1XL56Gdjh00I0Rg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4197,10 +4401,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.PortEventArgs.html",
-          "hash": "mRxGQvWsbpLNjdBCcrOtKQ=="
+          "hash": "ewTFMus/Q/rkKfWbYgZDTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.Hardware.PortInUseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.Hardware.PortInUseException.html",
+          "hash": "A0fV6xddf4dkmSEJaszPYQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4209,10 +4425,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.PwmPin.html",
-          "hash": "393f0YzBvPn8Plexu+AyeQ=="
+          "hash": "NqU1vWM6sAxVwxPS6sH22Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4221,10 +4437,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.PwmPinBase.html",
-          "hash": "LfA2nWosP7SCZ6EyWOXoeg=="
+          "hash": "Yi3N2J4pOv/0TTpw3W8LLA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4233,10 +4449,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.PwmPort.html",
-          "hash": "dAotL8sKJKY5JH9w94PVzw=="
+          "hash": "3fPals7k5ys5sQuDMCvHRQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4245,7 +4461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.ResistorMode.html",
-          "hash": "iNY/2xN8vYv2XYHBGyGNNg=="
+          "hash": "+To+pycvyAcVL9gBZHBipg=="
         }
       },
       "is_incremental": true,
@@ -4257,7 +4473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SerialData.html",
-          "hash": "HPzm4wnHfzL+2WlUSpc30w=="
+          "hash": "fXEQgLagXxWb5jA2ebc/Xg=="
         }
       },
       "is_incremental": true,
@@ -4269,10 +4485,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SerialDataReceivedEventArgs.html",
-          "hash": "uxR4eF6pDA/DBqycdRou6A=="
+          "hash": "9DJbT1NoxJZJkaB+MZTBiQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4281,7 +4497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SerialError.html",
-          "hash": "MwBiVWEyISgyBrPF6UAm5Q=="
+          "hash": "ue/Aamab7dP/kj87mYDwcA=="
         }
       },
       "is_incremental": true,
@@ -4293,10 +4509,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SerialErrorReceivedEventArgs.html",
-          "hash": "t4VnnfPzLb420zv7KFf5EQ=="
+          "hash": "xjvhG+MHikBCl2vjOsJwlw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4308,7 +4524,7 @@
           "hash": "NTdbMXGfmYOGq+YgUdXm8w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4320,7 +4536,7 @@
           "hash": "ooUGqzwRe2GaC03lvBH9Gw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4329,10 +4545,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SerialPort.html",
-          "hash": "b+nlvFCK68d3w/ZeWGCzAg=="
+          "hash": "EiNoBMK8f3wZJRA4JmnZdQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4341,7 +4557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.SignalType.html",
-          "hash": "y4Bi8iJdW7pqJf/FYIXMNw=="
+          "hash": "jBQjxlOoHPuk2nw/uOu9+w=="
         }
       },
       "is_incremental": true,
@@ -4353,10 +4569,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Spi.Configuration.html",
-          "hash": "YPbo4zK9aqGq9MelhgDaMA=="
+          "hash": "2Vws5nfvO3RG/hp6Oeo/rw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4365,7 +4581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Spi.SPI_module.html",
-          "hash": "MmM+3Jm87unAhb20wmQ+7g=="
+          "hash": "afhkywNGiyrk+E08ETaifg=="
         }
       },
       "is_incremental": true,
@@ -4377,10 +4593,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.Spi.html",
-          "hash": "eTcDCCcwQ4+f0bjso4AHWQ=="
+          "hash": "9o+tekpmPr53ZNUV1b5Qdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4389,7 +4605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.StopBits.html",
-          "hash": "yvf9MeCUTF3dGmoLjkV8mA=="
+          "hash": "0PUVuahbwFhoMI1lURs7Fw=="
         }
       },
       "is_incremental": true,
@@ -4401,7 +4617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.TerminationType.html",
-          "hash": "TydQmfF4pBlMdl6RmEQk6w=="
+          "hash": "Wu1JCs+O9jhtD+eFRUB4Vw=="
         }
       },
       "is_incremental": true,
@@ -4425,10 +4641,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Hardware.html",
-          "hash": "XfTyYuFMRQx0TbSkvFnlCQ=="
+          "hash": "LBakBHV0X/ICNRIfiyRPiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4437,7 +4653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.IApp.html",
-          "hash": "kwjLP0aGGXkz555ENarbXg=="
+          "hash": "yUH9lxbeKHFzekV0RIbjDg=="
         }
       },
       "is_incremental": true,
@@ -4449,10 +4665,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.IDevice.html",
-          "hash": "a/D0q1Q7kD0XuBV4RW+4fg=="
+          "hash": "uK0ltfaJ7fcqRaXiJQZJqw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Meadow/Meadow.IGPIOManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Meadow/Meadow.IGPIOManager.html",
+          "hash": "DYyDdTv5bafhCqQXIN/kRw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4461,10 +4689,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.MeadowOS.html",
-          "hash": "VbXF0lrlKodk/qLndpfn2g=="
+          "hash": "RozvFju0Wggv2R/70p3gyA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4473,10 +4701,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.NetworkCapabilities.html",
-          "hash": "ANow/4vAvCU8pP0nXnjBUQ=="
+          "hash": "XZyyJ0TIuWO9M29b8Ln4jw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4485,10 +4713,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.Utilities.BitHelpers.html",
-          "hash": "Frv0rN/OzXJD+AZXkEx/vg=="
+          "hash": "yRICTvd/fxL99BVdUt3s5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4500,7 +4728,7 @@
           "hash": "DykO68CzLmu85s46L27nnQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4509,10 +4737,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.WakeUpOptions.html",
-          "hash": "B8En7g5BZB0JiXh3u619MA=="
+          "hash": "nEeO16o6iXHVdChPBlnlYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4521,10 +4749,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/Meadow.html",
-          "hash": "KeSgn4xLT87M9dM7P9d9TA=="
+          "hash": "ka96uELiUnXlKVha4gSDjQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4533,10 +4761,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/MeadowApplication.MyApp.html",
-          "hash": "fGHOduAogcr2uUZ/K3lZIg=="
+          "hash": "usxonCqh4QxdBzJ+nBjY1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4560,7 +4788,7 @@
           "hash": "Gg9kAJ3OB3OcKJZG1T8mgg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4569,10 +4797,58 @@
       "output": {
         ".html": {
           "relative_path": "api/Meadow/toc.html",
-          "hash": "0512LarA35OY3yyw73467g=="
+          "hash": "m7oHpCM+RsVdvGWsTVoz4Q=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Getting_Started/Setup/Windows/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Getting_Started/Setup/Windows/index.html",
+          "hash": "ci9BFlnP6epchiCNfr9jEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Getting_Started/Setup/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Getting_Started/Setup/index.html",
+          "hash": "TzvTl4Elk28dmQwz8WGyiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Getting_Started/Setup/macos/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Getting_Started/Setup/macos/index.html",
+          "hash": "AIxiQYW7O/MvMjDCPo/QSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Getting_Started/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Getting_Started/index.html",
+          "hash": "ecjTcwykmLnEw8cfMsCzdQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4593,7 +4869,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "XqMUnSkLh7eeloeFFZNLyA=="
         }
       },
       "is_incremental": false,
@@ -4605,7 +4881,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "H+OnxCX1lr4Z/T+rvVW0Pg=="
+          "hash": "JxS+Vi0v71yhh8+NaglGcg=="
         }
       },
       "is_incremental": true,
@@ -4639,11 +4915,11 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         }

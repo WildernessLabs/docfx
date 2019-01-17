@@ -90,11 +90,35 @@
     <div><a class="xref" href="Meadow.Foundation.Sensors.ITemperatureSensor.html">ITemperatureSensor</a></div>
     <div><a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Temperature.html">Meadow.Foundation.Sensors.Temperature</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Foundation.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Temperature_AnalogTemperature_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AnalogTemperature : object, ITemperatureSensor, ISensor</code></pre>
+    <pre><code class="lang-csharp hljs">public class AnalogTemperature : ITemperatureSensor, ISensor</code></pre>
   </div>
   <h5 id="Meadow_Foundation_Sensors_Temperature_AnalogTemperature_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p><em>AnalogTemperature</em> provides a method of reading the temperature from
@@ -130,7 +154,7 @@ TMP37                   500                     20</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnalogTemperature(Cpu.AnalogChannel analogPin, AnalogTemperature.KnownSensorType sensorType, AnalogTemperature.Calibration calibration = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
+    <pre><code class="lang-csharp hljs">public AnalogTemperature(Cpu.AnalogChannel analogPin, AnalogTemperature.KnownSensorType sensorType, AnalogTemperature.Calibration calibration = null, ushort updateInterval = 100, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,7 +213,7 @@ TMP37                   500                     20</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = 100</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

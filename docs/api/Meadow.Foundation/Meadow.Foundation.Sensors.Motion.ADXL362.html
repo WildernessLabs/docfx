@@ -80,29 +80,53 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ADXL362</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Motion.html">Meadow.Foundation.Sensors.Motion</a></h6>
   <h6><strong>Assembly</strong>: Sensors.Motion.ADXL362.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Motion_ADXL362_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ADXL362 : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class ADXL362</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL362__ctor_Spi_SPI_module_IDigitalPin_System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL362.%23ctor(Spi.SPI_module%2CIDigitalPin%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL362__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL362.%23ctor(Meadow.Hardware.Spi.SPI_module%2CMeadow.Hardware.IDigitalPin%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs/#L805">View Source</a>
   </span>
   <a id="Meadow_Foundation_Sensors_Motion_ADXL362__ctor_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.#ctor*"></a>
-  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL362__ctor_Spi_SPI_module_IDigitalPin_System_UInt16_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)">ADXL362(Spi.SPI_module, IDigitalPin, UInt16)</h4>
+  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL362__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_UInt16_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16)">ADXL362(Spi.SPI_module, IDigitalPin, UInt16)</h4>
   <div class="markdown level1 summary"><p>Create a new ADXL362 object using the specified SPI module.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ADXL362(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ADXL362(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = 10)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,13 +139,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Spi.SPI_module</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Spi.SPI_module.html">Spi.SPI_module</a></td>
         <td><span class="parametername">module</span></td>
         <td><p>SPI module to use.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IDigitalPin</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
         <td><span class="parametername">chipSelect</span></td>
         <td><p>Chip select pin.</p>
 </td>
@@ -161,7 +185,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ICommunicationBus</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Communications.ICommunicationBus.html">ICommunicationBus</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -766,19 +790,19 @@ necessary to set the activity/inactivity control and interrupts if required. </p
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL362_ConfigureInterrupts_System_Byte_IDigitalPin_System_Byte_IDigitalPin_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte%2CIDigitalPin%2CSystem.Byte%2CIDigitalPin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Motion_ADXL362_ConfigureInterrupts_System_Byte_Meadow_Hardware_IDigitalPin_System_Byte_Meadow_Hardware_IDigitalPin_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte%2CMeadow.Hardware.IDigitalPin%2CSystem.Byte%2CMeadow.Hardware.IDigitalPin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs/#L982">View Source</a>
   </span>
   <a id="Meadow_Foundation_Sensors_Motion_ADXL362_ConfigureInterrupts_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts*"></a>
-  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL362_ConfigureInterrupts_System_Byte_IDigitalPin_System_Byte_IDigitalPin_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)">ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)</h4>
+  <h4 id="Meadow_Foundation_Sensors_Motion_ADXL362_ConfigureInterrupts_System_Byte_Meadow_Hardware_IDigitalPin_System_Byte_Meadow_Hardware_IDigitalPin_" data-uid="Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,Meadow.Hardware.IDigitalPin,System.Byte,Meadow.Hardware.IDigitalPin)">ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)</h4>
   <div class="markdown level1 summary"><p>Configure the interrupts for the ADXL362.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ConfigureInterrupts(byte interruptMap1, IDigitalPin interruptPin1, byte interruptMap2 = null, IDigitalPin interruptPin2 = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ConfigureInterrupts(byte interruptMap1, IDigitalPin interruptPin1, byte interruptMap2 = 0, IDigitalPin interruptPin2 = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -797,7 +821,7 @@ necessary to set the activity/inactivity control and interrupts if required. </p
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IDigitalPin</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
         <td><span class="parametername">interruptPin1</span></td>
         <td><p>Pin connected to interrupt pin 1 on the ADXL362.</p>
 </td>
@@ -809,7 +833,7 @@ necessary to set the activity/inactivity control and interrupts if required. </p
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IDigitalPin</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
         <td><span class="parametername">interruptPin2</span></td>
         <td><p>Pin connected to interrupt pin 2 on the ADXL362.</p>
 </td>

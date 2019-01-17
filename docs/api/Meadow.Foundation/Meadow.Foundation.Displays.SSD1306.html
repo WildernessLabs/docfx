@@ -91,6 +91,27 @@
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_IgnoreOutOfBoundsPixels">DisplayBase.IgnoreOutOfBoundsPixels</a>
     </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
   <h6><strong>Assembly</strong>: Displays.SSD1306.dll</h6>
@@ -102,10 +123,75 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_Meadow_Foundation_Displays_SSD1306_DisplayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.%23ctor(Meadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.Spi.SPI_module%2CSystem.UInt32%2CMeadow.Foundation.Displays.SSD1306.DisplayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L231">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_SSD1306__ctor_" data-uid="Meadow.Foundation.Displays.SSD1306.#ctor*"></a>
+  <h4 id="Meadow_Foundation_Displays_SSD1306__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_Meadow_Foundation_Displays_SSD1306_DisplayType_" data-uid="Meadow.Foundation.Displays.SSD1306.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32,Meadow.Foundation.Displays.SSD1306.DisplayType)">SSD1306(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32, SSD1306.DisplayType)</h4>
+  <div class="markdown level1 summary"><p>Create a new SSD1306 object using the default parameters for</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SSD1306(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">chipSelectPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">dcPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">resetPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Spi.SPI_module.html">Spi.SPI_module</a></td>
+        <td><span class="parametername">spiModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">speedKHz</span></td>
+        <td><p>Speed of the SPI bus.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Displays.SSD1306.DisplayType.html">SSD1306.DisplayType</a></td>
+        <td><span class="parametername">displayType</span></td>
+        <td><p>Type of SSD1306 display (default = 128x64 pixel display).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Meadow_Foundation_Displays_SSD1306__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_Meadow_Foundation_Displays_SSD1306_DisplayType__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that by default, any pixels out of bounds will throw and exception.
+This can be changed by setting the <seealso cref="!:IgnoreOutOfBoundsPixels"></seealso>
+property to true.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306__ctor_System_Byte_System_UInt16_Meadow_Foundation_Displays_SSD1306_DisplayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.%23ctor(System.Byte%2CSystem.UInt16%2CMeadow.Foundation.Displays.SSD1306.DisplayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L213">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L266">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306__ctor_" data-uid="Meadow.Foundation.Displays.SSD1306.#ctor*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306__ctor_System_Byte_System_UInt16_Meadow_Foundation_Displays_SSD1306_DisplayType_" data-uid="Meadow.Foundation.Displays.SSD1306.#ctor(System.Byte,System.UInt16,Meadow.Foundation.Displays.SSD1306.DisplayType)">SSD1306(Byte, UInt16, SSD1306.DisplayType)</h4>
@@ -114,7 +200,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SSD1306(byte address = null, ushort speed = null, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)</code></pre>
+    <pre><code class="lang-csharp hljs">public SSD1306(byte address = 60, ushort speed = 400, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,6 +237,183 @@
 This can be changed by setting the <seealso cref="!:IgnoreOutOfBoundsPixels"></seealso>
 property to true.</p>
 </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Command.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L86">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_Command" data-uid="Meadow.Foundation.Displays.SSD1306.Command">Command</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const bool Command = false</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_connectionType.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.connectionType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L84">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_connectionType" data-uid="Meadow.Foundation.Displays.SSD1306.connectionType">connectionType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SSD1306.ConnectionType connectionType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Displays.SSD1306.ConnectionType.html">SSD1306.ConnectionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Data.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L85">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_Data" data-uid="Meadow.Foundation.Displays.SSD1306.Data">Data</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const bool Data = true</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_dataCommandPort.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.dataCommandPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L82">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_dataCommandPort" data-uid="Meadow.Foundation.Displays.SSD1306.dataCommandPort">dataCommandPort</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DigitalOutputPort dataCommandPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.DigitalOutputPort.html">DigitalOutputPort</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_resetPort.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.resetPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L83">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_resetPort" data-uid="Meadow.Foundation.Displays.SSD1306.resetPort">resetPort</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DigitalOutputPort resetPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.DigitalOutputPort.html">DigitalOutputPort</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_spi.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.spi%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L80">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_spi" data-uid="Meadow.Foundation.Displays.SSD1306.spi">spi</h4>
+  <div class="markdown level1 summary"><p>SPI object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Spi spi</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Spi.html">Spi</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -158,7 +421,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_ColorMode.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.ColorMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L65">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L71">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_ColorMode_" data-uid="Meadow.Foundation.Displays.SSD1306.ColorMode*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_ColorMode" data-uid="Meadow.Foundation.Displays.SSD1306.ColorMode">ColorMode</h4>
@@ -190,7 +453,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Contrast.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Contrast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L155">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L180">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Contrast_" data-uid="Meadow.Foundation.Displays.SSD1306.Contrast*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Contrast" data-uid="Meadow.Foundation.Displays.SSD1306.Contrast">Contrast</h4>
@@ -221,7 +484,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Height.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L69">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L75">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Height_" data-uid="Meadow.Foundation.Displays.SSD1306.Height*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Height" data-uid="Meadow.Foundation.Displays.SSD1306.Height">Height</h4>
@@ -253,7 +516,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_InvertDisplay.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.InvertDisplay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L130">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L162">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_InvertDisplay_" data-uid="Meadow.Foundation.Displays.SSD1306.InvertDisplay*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_InvertDisplay" data-uid="Meadow.Foundation.Displays.SSD1306.InvertDisplay">InvertDisplay</h4>
@@ -287,7 +550,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Sleep.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Sleep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L169">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L194">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Sleep_" data-uid="Meadow.Foundation.Displays.SSD1306.Sleep*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Sleep" data-uid="Meadow.Foundation.Displays.SSD1306.Sleep">Sleep</h4>
@@ -318,7 +581,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Width.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L67">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L73">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Width_" data-uid="Meadow.Foundation.Displays.SSD1306.Width*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Width" data-uid="Meadow.Foundation.Displays.SSD1306.Width">Width</h4>
@@ -352,7 +615,7 @@ property to true.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Clear_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Clear(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L292">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L388">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Clear_" data-uid="Meadow.Foundation.Displays.SSD1306.Clear*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Clear_System_Boolean_" data-uid="Meadow.Foundation.Displays.SSD1306.Clear(System.Boolean)">Clear(Boolean)</h4>
@@ -385,67 +648,10 @@ property to true.</p>
   <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_Clear_System_Boolean_">DisplayBase.Clear(Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%5B%5D%2CColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L373">View Source</a>
-  </span>
-  <a id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap*"></a>
-  <h4 id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)">DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">x</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">y</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">bitmap</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%5B%5D%2CMeadow.Foundation.Displays.DisplayBase.BitmapMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L351">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L479">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)">DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)</h4>
@@ -512,18 +718,18 @@ of the display buffer.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32%2CSystem.Int32%2CColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%5B%5D%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L300">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L501">View Source</a>
   </span>
-  <a id="Meadow_Foundation_Displays_SSD1306_DrawPixel_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel*"></a>
-  <h4 id="Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_Color_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,Color)">DrawPixel(Int32, Int32, Color)</h4>
+  <a id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap*"></a>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)">DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void DrawPixel(int x, int y, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -546,18 +752,35 @@ of the display buffer.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bitmap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
         <td><span class="parametername">color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_">DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L313">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L409">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_DrawPixel_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_System_Boolean_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Boolean)">DrawPixel(Int32, Int32, Boolean)</h4>
@@ -602,10 +825,54 @@ of the display buffer.</p>
   <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawPixel_System_Int32_System_Int32_System_Boolean_">DisplayBase.DrawPixel(Int32, Int32, Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32%2CSystem.Int32%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L396">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_SSD1306_DrawPixel_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel*"></a>
+  <h4 id="Meadow_Foundation_Displays_SSD1306_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_" data-uid="Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)">DrawPixel(Int32, Int32, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawPixel(int x, int y, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_">DisplayBase.DrawPixel(Int32, Int32, Color)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_Show.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L271">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L358">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_Show_" data-uid="Meadow.Foundation.Displays.SSD1306.Show*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_Show" data-uid="Meadow.Foundation.Displays.SSD1306.Show">Show()</h4>
@@ -623,7 +890,7 @@ of the display buffer.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_StartScrolling_Meadow_Foundation_Displays_SSD1306_ScrollDirection_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L382">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L510">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_StartScrolling_" data-uid="Meadow.Foundation.Displays.SSD1306.StartScrolling*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_StartScrolling_Meadow_Foundation_Displays_SSD1306_ScrollDirection_" data-uid="Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection)">StartScrolling(SSD1306.ScrollDirection)</h4>
@@ -657,7 +924,7 @@ of the display buffer.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_StartScrolling_Meadow_Foundation_Displays_SSD1306_ScrollDirection_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection%2CSystem.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L397">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L525">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_StartScrolling_" data-uid="Meadow.Foundation.Displays.SSD1306.StartScrolling*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_StartScrolling_Meadow_Foundation_Displays_SSD1306_ScrollDirection_System_Byte_System_Byte_" data-uid="Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection,System.Byte,System.Byte)">StartScrolling(SSD1306.ScrollDirection, Byte, Byte)</h4>
@@ -707,7 +974,7 @@ acceptable scrolling effect.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306_StopScrolling.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306.StopScrolling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L433">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L561">View Source</a>
   </span>
   <a id="Meadow_Foundation_Displays_SSD1306_StopScrolling_" data-uid="Meadow.Foundation.Displays.SSD1306.StopScrolling*"></a>
   <h4 id="Meadow_Foundation_Displays_SSD1306_StopScrolling" data-uid="Meadow.Foundation.Displays.SSD1306.StopScrolling">StopScrolling()</h4>
@@ -737,7 +1004,7 @@ scroll direction in order to prevent RAM corruption.</p>
                     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_SSD1306.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.SSD1306%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

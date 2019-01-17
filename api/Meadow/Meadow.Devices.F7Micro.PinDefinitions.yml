@@ -5,11 +5,13 @@ items:
   id: F7Micro.PinDefinitions
   parent: Meadow.Devices
   children:
+  - Meadow.Devices.F7Micro.PinDefinitions.#ctor(Meadow.IGPIOManager)
   - Meadow.Devices.F7Micro.PinDefinitions.A01
   - Meadow.Devices.F7Micro.PinDefinitions.A02
   - Meadow.Devices.F7Micro.PinDefinitions.A03
   - Meadow.Devices.F7Micro.PinDefinitions.A04
   - Meadow.Devices.F7Micro.PinDefinitions.A05
+  - Meadow.Devices.F7Micro.PinDefinitions.D00
   - Meadow.Devices.F7Micro.PinDefinitions.D01
   - Meadow.Devices.F7Micro.PinDefinitions.D02
   - Meadow.Devices.F7Micro.PinDefinitions.D03
@@ -42,623 +44,24 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: PinDefinitions
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 29
+    startLine: 36
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
   syntax:
-    content: public class PinDefinitions
-    content.vb: Public Class PinDefinitions
+    content: 'public class PinDefinitions : object'
+    content.vb: >-
+      Public Class PinDefinitions
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D01
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D01
-  id: D01
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D01
-  nameWithType: F7Micro.PinDefinitions.D01
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D01
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D01
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 31
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D01
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D01 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D02
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D02
-  id: D02
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D02
-  nameWithType: F7Micro.PinDefinitions.D02
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D02
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D02
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 32
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D02
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D02 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D03
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D03
-  id: D03
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D03
-  nameWithType: F7Micro.PinDefinitions.D03
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D03
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D03
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 33
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D03
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D03 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D04
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D04
-  id: D04
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D04
-  nameWithType: F7Micro.PinDefinitions.D04
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D04
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D04
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 34
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D04
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D04 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D05
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D05
-  id: D05
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D05
-  nameWithType: F7Micro.PinDefinitions.D05
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D05
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D05
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 35
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D05
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D05 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D06
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D06
-  id: D06
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D06
-  nameWithType: F7Micro.PinDefinitions.D06
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D06
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D06
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 36
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D06
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D06 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D07
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D07
-  id: D07
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D07
-  nameWithType: F7Micro.PinDefinitions.D07
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D07
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D07
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 37
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D07
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D07 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D08
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D08
-  id: D08
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D08
-  nameWithType: F7Micro.PinDefinitions.D08
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D08
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D08
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 38
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D08
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D08 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D09
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D09
-  id: D09
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D09
-  nameWithType: F7Micro.PinDefinitions.D09
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D09
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D09
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 39
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D09
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D09 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D10
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D10
-  id: D10
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D10
-  nameWithType: F7Micro.PinDefinitions.D10
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D10
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D10
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 40
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D10
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D10 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D11
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D11
-  id: D11
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D11
-  nameWithType: F7Micro.PinDefinitions.D11
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D11
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D11
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 41
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D11
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D11 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D12
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D12
-  id: D12
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D12
-  nameWithType: F7Micro.PinDefinitions.D12
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D12
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D12
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 42
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D12
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D12 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D13
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D13
-  id: D13
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D13
-  nameWithType: F7Micro.PinDefinitions.D13
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D13
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D13
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 43
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D13
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D13 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D14
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D14
-  id: D14
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D14
-  nameWithType: F7Micro.PinDefinitions.D14
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D14
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D14
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 44
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D14
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D14 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.D15
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D15
-  id: D15
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: D15
-  nameWithType: F7Micro.PinDefinitions.D15
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.D15
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: D15
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 45
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin D15
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly D15 As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
-  id: OnboardLEDRed
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: OnboardLEDRed
-  nameWithType: F7Micro.PinDefinitions.OnboardLEDRed
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: OnboardLEDRed
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 46
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin OnboardLEDRed
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly OnboardLEDRed As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
-  id: OnboardLEDGreen
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: OnboardLEDGreen
-  nameWithType: F7Micro.PinDefinitions.OnboardLEDGreen
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: OnboardLEDGreen
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 47
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin OnboardLEDGreen
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly OnboardLEDGreen As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
-  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
-  id: OnboardLEDBlue
-  parent: Meadow.Devices.F7Micro.PinDefinitions
-  langs:
-  - csharp
-  - vb
-  name: OnboardLEDBlue
-  nameWithType: F7Micro.PinDefinitions.OnboardLEDBlue
-  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
-  type: Field
-  source:
-    remote:
-      path: source/Meadow.Core/Devices/F7Micro.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: OnboardLEDBlue
-    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 48
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Devices
-  syntax:
-    content: public readonly PwmPin OnboardLEDBlue
-    return:
-      type: Meadow.Hardware.PwmPin
-    content.vb: Public ReadOnly OnboardLEDBlue As PwmPin
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: Meadow.Devices.F7Micro.PinDefinitions.A01
   commentId: F:Meadow.Devices.F7Micro.PinDefinitions.A01
   id: A01
@@ -677,7 +80,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: A01
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 49
+    startLine: 38
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
@@ -710,7 +113,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: A02
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 50
+    startLine: 39
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
@@ -743,7 +146,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: A03
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 51
+    startLine: 40
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
@@ -776,7 +179,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: A04
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 52
+    startLine: 41
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
@@ -809,7 +212,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: A05
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
-    startLine: 53
+    startLine: 42
   assemblies:
   - Meadow.Core
   namespace: Meadow.Devices
@@ -824,6 +227,666 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
+  id: OnboardLEDRed
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: OnboardLEDRed
+  nameWithType: F7Micro.PinDefinitions.OnboardLEDRed
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDRed
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnboardLEDRed
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 44
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin OnboardLEDRed
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly OnboardLEDRed As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
+  id: OnboardLEDGreen
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: OnboardLEDGreen
+  nameWithType: F7Micro.PinDefinitions.OnboardLEDGreen
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDGreen
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnboardLEDGreen
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 45
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin OnboardLEDGreen
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly OnboardLEDGreen As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
+  id: OnboardLEDBlue
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: OnboardLEDBlue
+  nameWithType: F7Micro.PinDefinitions.OnboardLEDBlue
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.OnboardLEDBlue
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnboardLEDBlue
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 46
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin OnboardLEDBlue
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly OnboardLEDBlue As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D00
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D00
+  id: D00
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D00
+  nameWithType: F7Micro.PinDefinitions.D00
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D00
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D00
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D00
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D00 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D01
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D01
+  id: D01
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D01
+  nameWithType: F7Micro.PinDefinitions.D01
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D01
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D01
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 49
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D01
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D01 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D02
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D02
+  id: D02
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D02
+  nameWithType: F7Micro.PinDefinitions.D02
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D02
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D02
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 50
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D02
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D02 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D03
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D03
+  id: D03
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D03
+  nameWithType: F7Micro.PinDefinitions.D03
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D03
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D03
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 51
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D03
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D03 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D04
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D04
+  id: D04
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D04
+  nameWithType: F7Micro.PinDefinitions.D04
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D04
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D04
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 52
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D04
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D04 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D05
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D05
+  id: D05
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D05
+  nameWithType: F7Micro.PinDefinitions.D05
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D05
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D05
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 53
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D05
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D05 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D06
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D06
+  id: D06
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D06
+  nameWithType: F7Micro.PinDefinitions.D06
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D06
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D06
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 54
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D06
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D06 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D07
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D07
+  id: D07
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D07
+  nameWithType: F7Micro.PinDefinitions.D07
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D07
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D07
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 55
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D07
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D07 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D08
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D08
+  id: D08
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D08
+  nameWithType: F7Micro.PinDefinitions.D08
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D08
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D08
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 56
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D08
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D08 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D09
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D09
+  id: D09
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D09
+  nameWithType: F7Micro.PinDefinitions.D09
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D09
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D09
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 57
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D09
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D09 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D10
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D10
+  id: D10
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D10
+  nameWithType: F7Micro.PinDefinitions.D10
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D10
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D10
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 58
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D10
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D10 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D11
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D11
+  id: D11
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D11
+  nameWithType: F7Micro.PinDefinitions.D11
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D11
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D11
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 59
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D11
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D11 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D12
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D12
+  id: D12
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D12
+  nameWithType: F7Micro.PinDefinitions.D12
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D12
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D12
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 60
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D12
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D12 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D13
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D13
+  id: D13
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D13
+  nameWithType: F7Micro.PinDefinitions.D13
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D13
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D13
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 61
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D13
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D13 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D14
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D14
+  id: D14
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D14
+  nameWithType: F7Micro.PinDefinitions.D14
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D14
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D14
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 62
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D14
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D14 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.D15
+  commentId: F:Meadow.Devices.F7Micro.PinDefinitions.D15
+  id: D15
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: D15
+  nameWithType: F7Micro.PinDefinitions.D15
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.D15
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: D15
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 63
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public readonly DigitalPin D15
+    return:
+      type: Meadow.Hardware.DigitalPin
+    content.vb: Public ReadOnly D15 As DigitalPin
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.PinDefinitions.#ctor(Meadow.IGPIOManager)
+  commentId: M:Meadow.Devices.F7Micro.PinDefinitions.#ctor(Meadow.IGPIOManager)
+  id: '#ctor(Meadow.IGPIOManager)'
+  parent: Meadow.Devices.F7Micro.PinDefinitions
+  langs:
+  - csharp
+  - vb
+  name: PinDefinitions(IGPIOManager)
+  nameWithType: F7Micro.PinDefinitions.PinDefinitions(IGPIOManager)
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.PinDefinitions(Meadow.IGPIOManager)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 65
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public PinDefinitions(IGPIOManager manager)
+    parameters:
+    - id: manager
+      type: Meadow.IGPIOManager
+    content.vb: Public Sub New(manager As IGPIOManager)
+  overload: Meadow.Devices.F7Micro.PinDefinitions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: Meadow.Devices
   commentId: N:Meadow.Devices
@@ -837,305 +900,42 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: Meadow.Hardware.PwmPin
-  commentId: T:Meadow.Hardware.PwmPin
-  parent: Meadow.Hardware
-  name: PwmPin
-  nameWithType: PwmPin
-  fullName: Meadow.Hardware.PwmPin
-- uid: Meadow.Hardware
-  commentId: N:Meadow.Hardware
-  name: Meadow.Hardware
-  nameWithType: Meadow.Hardware
-  fullName: Meadow.Hardware
 - uid: Meadow.Hardware.AnalogPin
   commentId: T:Meadow.Hardware.AnalogPin
   parent: Meadow.Hardware
   name: AnalogPin
   nameWithType: AnalogPin
   fullName: Meadow.Hardware.AnalogPin
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.DigitalPin
+  commentId: T:Meadow.Hardware.DigitalPin
+  parent: Meadow.Hardware
+  name: DigitalPin
+  nameWithType: DigitalPin
+  fullName: Meadow.Hardware.DigitalPin
+- uid: Meadow.Devices.F7Micro.PinDefinitions.#ctor*
+  commentId: Overload:Meadow.Devices.F7Micro.PinDefinitions.#ctor
+  name: PinDefinitions
+  nameWithType: F7Micro.PinDefinitions.PinDefinitions
+  fullName: Meadow.Devices.F7Micro.PinDefinitions.PinDefinitions
+- uid: Meadow.IGPIOManager
+  commentId: T:Meadow.IGPIOManager
+  parent: Meadow
+  name: IGPIOManager
+  nameWithType: IGPIOManager
+  fullName: Meadow.IGPIOManager
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow

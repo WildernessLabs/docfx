@@ -5,7 +5,7 @@ items:
   id: ADXL362
   parent: Meadow.Foundation.Sensors.Motion
   children:
-  - Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
+  - Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16)
   - Meadow.Foundation.Sensors.Motion.ADXL362._adxl362
   - Meadow.Foundation.Sensors.Motion.ADXL362.AccelerationChanged
   - Meadow.Foundation.Sensors.Motion.ADXL362.ActivityDetected
@@ -13,7 +13,7 @@ items:
   - Meadow.Foundation.Sensors.Motion.ADXL362.Awake
   - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureActivityThreshold(System.UInt16,System.Byte)
   - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInactivityThreshold(System.UInt16,System.UInt16)
-  - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+  - Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,Meadow.Hardware.IDigitalPin,System.Byte,Meadow.Hardware.IDigitalPin)
   - Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
   - Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
   - Meadow.Foundation.Sensors.Motion.ADXL362.DisplayRegisters
@@ -51,13 +51,18 @@ items:
   - Sensors.Motion.ADXL362
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: 'public class ADXL362 : object'
-    content.vb: >-
-      Public Class ADXL362
-
-          Inherits Object
+    content: public class ADXL362
+    content.vb: Public Class ADXL362
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -91,7 +96,7 @@ items:
   syntax:
     content: protected readonly ICommunicationBus _adxl362
     return:
-      type: ICommunicationBus
+      type: Meadow.Hardware.Communications.ICommunicationBus
     content.vb: Protected ReadOnly _adxl362 As ICommunicationBus
   modifiers.csharp:
   - protected
@@ -727,16 +732,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
-  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)
-  id: '#ctor(Spi.SPI_module,IDigitalPin,System.UInt16)'
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16)
+  id: '#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16)'
   parent: Meadow.Foundation.Sensors.Motion.ADXL362
   langs:
   - csharp
   - vb
   name: ADXL362(Spi.SPI_module, IDigitalPin, UInt16)
   nameWithType: ADXL362.ADXL362(Spi.SPI_module, IDigitalPin, UInt16)
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ADXL362(Spi.SPI_module, IDigitalPin, System.UInt16)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ADXL362(Meadow.Hardware.Spi.SPI_module, Meadow.Hardware.IDigitalPin, System.UInt16)
   type: Constructor
   source:
     remote:
@@ -752,18 +757,18 @@ items:
   summary: "\nCreate a new ADXL362 object using the specified SPI module.\n"
   example: []
   syntax:
-    content: public ADXL362(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = null)
+    content: public ADXL362(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = 10)
     parameters:
     - id: module
-      type: Spi.SPI_module
+      type: Meadow.Hardware.Spi.SPI_module
       description: SPI module to use.
     - id: chipSelect
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
       description: Chip select pin.
     - id: speed
       type: System.UInt16
       description: Speed of the SPI bus.
-    content.vb: Public Sub New(module As Spi.SPI_module, chipSelect As IDigitalPin, speed As UShort = Nothing)
+    content.vb: Public Sub New(module As Spi.SPI_module, chipSelect As IDigitalPin, speed As UShort = 10)
   overload: Meadow.Foundation.Sensors.Motion.ADXL362.#ctor*
   modifiers.csharp:
   - public
@@ -975,16 +980,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
-  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
-  id: ConfigureInterrupts(System.Byte,IDigitalPin,System.Byte,IDigitalPin)
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,Meadow.Hardware.IDigitalPin,System.Byte,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte,Meadow.Hardware.IDigitalPin,System.Byte,Meadow.Hardware.IDigitalPin)
+  id: ConfigureInterrupts(System.Byte,Meadow.Hardware.IDigitalPin,System.Byte,Meadow.Hardware.IDigitalPin)
   parent: Meadow.Foundation.Sensors.Motion.ADXL362
   langs:
   - csharp
   - vb
   name: ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)
   nameWithType: ADXL362.ConfigureInterrupts(Byte, IDigitalPin, Byte, IDigitalPin)
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte, IDigitalPin, System.Byte, IDigitalPin)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts(System.Byte, Meadow.Hardware.IDigitalPin, System.Byte, Meadow.Hardware.IDigitalPin)
   type: Method
   source:
     remote:
@@ -1000,21 +1005,21 @@ items:
   summary: "\nConfigure the interrupts for the ADXL362.\n"
   example: []
   syntax:
-    content: public void ConfigureInterrupts(byte interruptMap1, IDigitalPin interruptPin1, byte interruptMap2 = null, IDigitalPin interruptPin2 = null)
+    content: public void ConfigureInterrupts(byte interruptMap1, IDigitalPin interruptPin1, byte interruptMap2 = 0, IDigitalPin interruptPin2 = null)
     parameters:
     - id: interruptMap1
       type: System.Byte
       description: Bit mask for interrupt pin 1
     - id: interruptPin1
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
       description: Pin connected to interrupt pin 1 on the ADXL362.
     - id: interruptMap2
       type: System.Byte
       description: Bit mask for interrupt pin 2
     - id: interruptPin2
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
       description: Pin connected to interrupt pin 2 on the ADXL362.
-    content.vb: Public Sub ConfigureInterrupts(interruptMap1 As Byte, interruptPin1 As IDigitalPin, interruptMap2 As Byte = Nothing, interruptPin2 As IDigitalPin = Nothing)
+    content.vb: Public Sub ConfigureInterrupts(interruptMap1 As Byte, interruptPin1 As IDigitalPin, interruptMap2 As Byte = 0, interruptPin2 As IDigitalPin = Nothing)
   overload: Meadow.Foundation.Sensors.Motion.ADXL362.ConfigureInterrupts*
   modifiers.csharp:
   - public
@@ -1059,22 +1064,316 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Motion
   fullName: Meadow.Foundation.Sensors.Motion
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: ICommunicationBus
-  commentId: '!:ICommunicationBus'
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.Communications.ICommunicationBus
+  commentId: T:Meadow.Hardware.Communications.ICommunicationBus
+  parent: Meadow.Hardware.Communications
   name: ICommunicationBus
   nameWithType: ICommunicationBus
-  fullName: ICommunicationBus
+  fullName: Meadow.Hardware.Communications.ICommunicationBus
+- uid: Meadow.Hardware.Communications
+  commentId: N:Meadow.Hardware.Communications
+  name: Meadow.Hardware.Communications
+  nameWithType: Meadow.Hardware.Communications
+  fullName: Meadow.Hardware.Communications
 - uid: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady*
   commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
   name: DataReady
   nameWithType: ADXL362.DataReady
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DataReady
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1115,6 +1414,8 @@ references:
   nameWithType: ADXL362.DeviceID
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.DeviceID
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1125,6 +1426,8 @@ references:
   nameWithType: ADXL362.X
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.X
 - uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
   name: Int16
   nameWithType: Int16
@@ -1145,6 +1448,8 @@ references:
   nameWithType: ADXL362.Status
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Status
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
@@ -1155,6 +1460,8 @@ references:
   nameWithType: ADXL362.Temperature
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.Temperature
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
@@ -1190,22 +1497,30 @@ references:
   name: ADXL362
   nameWithType: ADXL362.ADXL362
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ADXL362
-- uid: Spi.SPI_module
-  commentId: '!:Spi.SPI_module'
-  isExternal: true
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
   name: Spi.SPI_module
   nameWithType: Spi.SPI_module
-  fullName: Spi.SPI_module
-- uid: IDigitalPin
-  isExternal: true
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
   name: IDigitalPin
   nameWithType: IDigitalPin
-  fullName: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
 - uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16
   fullName: System.UInt16
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
 - uid: Meadow.Foundation.Sensors.Motion.ADXL362.Reset*
   commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL362.Reset
   name: Reset

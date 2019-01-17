@@ -97,10 +97,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: NOP = null
+    content: NOP = 0
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: NOP = Nothing
   modifiers.csharp:
   - public
   - const
@@ -130,10 +129,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: SWRESET = null
+    content: SWRESET = 1
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: SWRESET = Nothing
   modifiers.csharp:
   - public
   - const
@@ -163,10 +161,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDDID = null
+    content: RDDID = 4
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDDID = Nothing
   modifiers.csharp:
   - public
   - const
@@ -196,10 +193,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDDST = null
+    content: RDDST = 9
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDDST = Nothing
   modifiers.csharp:
   - public
   - const
@@ -229,10 +225,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: SLPIN = null
+    content: SLPIN = 16
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: SLPIN = Nothing
   modifiers.csharp:
   - public
   - const
@@ -262,10 +257,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: SLPOUT = null
+    content: SLPOUT = 17
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: SLPOUT = Nothing
   modifiers.csharp:
   - public
   - const
@@ -295,10 +289,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PTLON = null
+    content: PTLON = 18
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PTLON = Nothing
   modifiers.csharp:
   - public
   - const
@@ -328,10 +321,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: NORON = null
+    content: NORON = 19
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: NORON = Nothing
   modifiers.csharp:
   - public
   - const
@@ -361,10 +353,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: INVOFF = null
+    content: INVOFF = 32
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: INVOFF = Nothing
   modifiers.csharp:
   - public
   - const
@@ -394,10 +385,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: INVON = null
+    content: INVON = 33
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: INVON = Nothing
   modifiers.csharp:
   - public
   - const
@@ -427,10 +417,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: DISPOFF = null
+    content: DISPOFF = 40
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: DISPOFF = Nothing
   modifiers.csharp:
   - public
   - const
@@ -460,10 +449,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: DISPON = null
+    content: DISPON = 41
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: DISPON = Nothing
   modifiers.csharp:
   - public
   - const
@@ -493,10 +481,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: CASET = null
+    content: CASET = 42
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: CASET = Nothing
   modifiers.csharp:
   - public
   - const
@@ -526,10 +513,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RASET = null
+    content: RASET = 43
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RASET = Nothing
   modifiers.csharp:
   - public
   - const
@@ -559,10 +545,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RAMWR = null
+    content: RAMWR = 44
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RAMWR = Nothing
   modifiers.csharp:
   - public
   - const
@@ -592,10 +577,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RAMRD = null
+    content: RAMRD = 46
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RAMRD = Nothing
   modifiers.csharp:
   - public
   - const
@@ -625,10 +609,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: COLMOD = null
+    content: COLMOD = 58
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: COLMOD = Nothing
   modifiers.csharp:
   - public
   - const
@@ -658,10 +641,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL = null
+    content: MADCTL = 54
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL = Nothing
   modifiers.csharp:
   - public
   - const
@@ -691,10 +673,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_MY = null
+    content: MADCTL_MY = 128
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_MY = Nothing
   modifiers.csharp:
   - public
   - const
@@ -724,10 +705,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_MX = null
+    content: MADCTL_MX = 64
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_MX = Nothing
   modifiers.csharp:
   - public
   - const
@@ -757,10 +737,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_MV = null
+    content: MADCTL_MV = 32
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_MV = Nothing
   modifiers.csharp:
   - public
   - const
@@ -790,10 +769,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_ML = null
+    content: MADCTL_ML = 16
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_ML = Nothing
   modifiers.csharp:
   - public
   - const
@@ -823,10 +801,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_RGB = null
+    content: MADCTL_RGB = 0
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_RGB = Nothing
   modifiers.csharp:
   - public
   - const
@@ -856,10 +833,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: MADCTL_BGR = null
+    content: MADCTL_BGR = 8
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: MADCTL_BGR = Nothing
   modifiers.csharp:
   - public
   - const
@@ -889,10 +865,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: FRMCTR1 = null
+    content: FRMCTR1 = 177
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: FRMCTR1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -922,10 +897,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: FRMCTR2 = null
+    content: FRMCTR2 = 178
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: FRMCTR2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -955,10 +929,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: FRMCTR3 = null
+    content: FRMCTR3 = 179
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: FRMCTR3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -988,10 +961,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: INVCTR = null
+    content: INVCTR = 180
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: INVCTR = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1021,10 +993,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: DISSET5 = null
+    content: DISSET5 = 182
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: DISSET5 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1054,10 +1025,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR1 = null
+    content: PWCTR1 = 192
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1087,10 +1057,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR2 = null
+    content: PWCTR2 = 193
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1120,10 +1089,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR3 = null
+    content: PWCTR3 = 194
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1153,10 +1121,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR4 = null
+    content: PWCTR4 = 195
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1186,10 +1153,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR5 = null
+    content: PWCTR5 = 196
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR5 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1219,10 +1185,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: VMCTR1 = null
+    content: VMCTR1 = 197
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: VMCTR1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1252,10 +1217,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDID1 = null
+    content: RDID1 = 218
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDID1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1285,10 +1249,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDID2 = null
+    content: RDID2 = 219
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDID2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1318,10 +1281,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDID3 = null
+    content: RDID3 = 220
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDID3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1351,10 +1313,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RDID4 = null
+    content: RDID4 = 221
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: RDID4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1384,10 +1345,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: PWCTR6 = null
+    content: PWCTR6 = 252
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: PWCTR6 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1417,10 +1377,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: GMCTRP1 = null
+    content: GMCTRP1 = 224
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: GMCTRP1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -1450,10 +1409,9 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: GMCTRN1 = null
+    content: GMCTRN1 = 225
     return:
       type: Meadow.Foundation.Displays.ST7735.LcdCommand
-    content.vb: GMCTRN1 = Nothing
   modifiers.csharp:
   - public
   - const

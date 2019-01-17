@@ -78,130 +78,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
-    <div class="level2"><span class="xref">System.IO.Stream</span></div>
-    <div class="level3"><span class="xref">SerialPort</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.IO.Stream.Null</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.BeginRead(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.BeginWrite(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.Close()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CopyTo(System.IO.Stream)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CopyTo(System.IO.Stream, System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CreateWaitHandle()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.Dispose(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.EndRead(System.IAsyncResult)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.EndWrite(System.IAsyncResult)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.FlushAsync()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.FlushAsync(System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.ObjectInvariant()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.ReadByte()</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.Synchronized(System.IO.Stream)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.WriteByte(System.Byte)</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.CanTimeout</span>
-    </div>
-    <div>
-      <span class="xref">System.IO.Stream.ReadTimeout</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
-    </div>
-    <div>
-      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div class="level1"><span class="xref">SerialPort</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_SerialPort_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SerialPort : Stream, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SerialPort : Stream</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -442,7 +325,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="xref">Stream</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -567,8 +450,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.CanRead</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_CanSeek.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.CanSeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -599,8 +480,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.CanSeek</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_CanWrite.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.CanWrite%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -631,8 +510,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.CanWrite</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_DataBits.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.DataBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -753,8 +630,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Length</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_Parity.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.Parity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -845,8 +720,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Position</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_StopBits.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.StopBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -907,8 +780,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.WriteTimeout</span></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -956,8 +827,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Flush()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Flush()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_Open.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.Open%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1030,17 +899,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Read(System.Byte[], System.Int32, System.Int32)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_Seek_System_Int64_System_IO_SeekOrigin_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.Seek(System.Int64%2CSystem.IO.SeekOrigin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_Seek_System_Int64_SeekOrigin_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.Seek(System.Int64%2CSeekOrigin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/SerialPort.cs/#L84">View Source</a>
   </span>
   <a id="Meadow_Hardware_SerialPort_Seek_" data-uid="Meadow.Hardware.SerialPort.Seek*"></a>
-  <h4 id="Meadow_Hardware_SerialPort_Seek_System_Int64_System_IO_SeekOrigin_" data-uid="Meadow.Hardware.SerialPort.Seek(System.Int64,System.IO.SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
+  <h4 id="Meadow_Hardware_SerialPort_Seek_System_Int64_SeekOrigin_" data-uid="Meadow.Hardware.SerialPort.Seek(System.Int64,SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1063,7 +930,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.SeekOrigin</span></td>
+        <td><span class="xref">SeekOrigin</span></td>
         <td><span class="parametername">origin</span></td>
         <td></td>
       </tr>
@@ -1084,8 +951,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Seek(System.Int64, System.IO.SeekOrigin)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_SetLength_System_Int64_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.SetLength(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1118,8 +983,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.SetLength(System.Int64)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_SerialPort_Write_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.SerialPort.Write(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -1162,8 +1025,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.IO.Stream.Write(System.Byte[], System.Int32, System.Int32)</span></div>
   <h3 id="events">Events
   </h3>
   <span class="small pull-right mobile-hide">
@@ -1224,10 +1085,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
 </article>
           </div>
           

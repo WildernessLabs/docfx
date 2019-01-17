@@ -5,7 +5,7 @@ items:
   id: ADXL335
   parent: Meadow.Foundation.Sensors.Motion
   children:
-  - Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Cpu.AnalogChannel,Cpu.AnalogChannel,Cpu.AnalogChannel,System.UInt16,System.Double)
+  - Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,System.UInt16,System.Double)
   - Meadow.Foundation.Sensors.Motion.ADXL335.AccelerationChanged
   - Meadow.Foundation.Sensors.Motion.ADXL335.AccelerationChangeNotificationThreshold
   - Meadow.Foundation.Sensors.Motion.ADXL335.GetRawSensorData
@@ -39,13 +39,18 @@ items:
   summary: "\nProvide an interface for the ADXL335 triple axis accelerometer.\n"
   example: []
   syntax:
-    content: 'public class ADXL335 : object'
-    content.vb: >-
-      Public Class ADXL335
-
-          Inherits Object
+    content: public class ADXL335
+    content.vb: Public Class ADXL335
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -77,10 +82,10 @@ items:
   summary: "\nMinimum value that can be used for the update interval when the\nsensor is being configured to generate interrupts.\n"
   example: []
   syntax:
-    content: public const ushort MinimumPollingPeriod = null
+    content: public const ushort MinimumPollingPeriod = 100
     return:
       type: System.UInt16
-    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+    content.vb: Public Const MinimumPollingPeriod As UShort = 100
   modifiers.csharp:
   - public
   - const
@@ -417,16 +422,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Cpu.AnalogChannel,Cpu.AnalogChannel,Cpu.AnalogChannel,System.UInt16,System.Double)
-  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Cpu.AnalogChannel,Cpu.AnalogChannel,Cpu.AnalogChannel,System.UInt16,System.Double)
-  id: '#ctor(Cpu.AnalogChannel,Cpu.AnalogChannel,Cpu.AnalogChannel,System.UInt16,System.Double)'
+- uid: Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,System.UInt16,System.Double)
+  commentId: M:Meadow.Foundation.Sensors.Motion.ADXL335.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,System.UInt16,System.Double)
+  id: '#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,Meadow.Hardware.Cpu.AnalogChannel,System.UInt16,System.Double)'
   parent: Meadow.Foundation.Sensors.Motion.ADXL335
   langs:
   - csharp
   - vb
   name: ADXL335(Cpu.AnalogChannel, Cpu.AnalogChannel, Cpu.AnalogChannel, UInt16, Double)
   nameWithType: ADXL335.ADXL335(Cpu.AnalogChannel, Cpu.AnalogChannel, Cpu.AnalogChannel, UInt16, Double)
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL335.ADXL335(Cpu.AnalogChannel, Cpu.AnalogChannel, Cpu.AnalogChannel, System.UInt16, System.Double)
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL335.ADXL335(Meadow.Hardware.Cpu.AnalogChannel, Meadow.Hardware.Cpu.AnalogChannel, Meadow.Hardware.Cpu.AnalogChannel, System.UInt16, System.Double)
   type: Constructor
   source:
     remote:
@@ -440,19 +445,19 @@ items:
   - Sensors.Motion.ADXL335
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: public ADXL335(Cpu.AnalogChannel x, Cpu.AnalogChannel y, Cpu.AnalogChannel z, ushort updateInterval = null, double accelerationChangeNotificationThreshold = null)
+    content: public ADXL335(Cpu.AnalogChannel x, Cpu.AnalogChannel y, Cpu.AnalogChannel z, ushort updateInterval = 100, double accelerationChangeNotificationThreshold = 0.10000000149011612)
     parameters:
     - id: x
-      type: Cpu.AnalogChannel
+      type: Meadow.Hardware.Cpu.AnalogChannel
     - id: y
-      type: Cpu.AnalogChannel
+      type: Meadow.Hardware.Cpu.AnalogChannel
     - id: z
-      type: Cpu.AnalogChannel
+      type: Meadow.Hardware.Cpu.AnalogChannel
     - id: updateInterval
       type: System.UInt16
     - id: accelerationChangeNotificationThreshold
       type: System.Double
-    content.vb: Public Sub New(x As Cpu.AnalogChannel, y As Cpu.AnalogChannel, z As Cpu.AnalogChannel, updateInterval As UShort = Nothing, accelerationChangeNotificationThreshold As Double = Nothing)
+    content.vb: Public Sub New(x As Cpu.AnalogChannel, y As Cpu.AnalogChannel, z As Cpu.AnalogChannel, updateInterval As UShort = 100, accelerationChangeNotificationThreshold As Double = 0.10000000149011612)
   overload: Meadow.Foundation.Sensors.Motion.ADXL335.#ctor*
   modifiers.csharp:
   - public
@@ -532,11 +537,300 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Motion
   fullName: Meadow.Foundation.Sensors.Motion
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16
@@ -547,6 +841,8 @@ references:
   nameWithType: ADXL335.X
   fullName: Meadow.Foundation.Sensors.Motion.ADXL335.X
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
@@ -602,11 +898,17 @@ references:
   name: ADXL335
   nameWithType: ADXL335.ADXL335
   fullName: Meadow.Foundation.Sensors.Motion.ADXL335.ADXL335
-- uid: Cpu.AnalogChannel
-  isExternal: true
+- uid: Meadow.Hardware.Cpu.AnalogChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
+  parent: Meadow.Hardware
   name: Cpu.AnalogChannel
   nameWithType: Cpu.AnalogChannel
-  fullName: Cpu.AnalogChannel
+  fullName: Meadow.Hardware.Cpu.AnalogChannel
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
 - uid: Meadow.Foundation.Sensors.Motion.ADXL335.Update*
   commentId: Overload:Meadow.Foundation.Sensors.Motion.ADXL335.Update
   name: Update

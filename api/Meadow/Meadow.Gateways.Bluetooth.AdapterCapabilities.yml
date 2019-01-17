@@ -27,23 +27,20 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: AdapterCapabilities
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
+  summary: "\nDescribes the capabilities of the Bluetooth adapter.\n"
+  example: []
   syntax:
-    content: public class AdapterCapabilities
-    content.vb: Public Class AdapterCapabilities
+    content: 'public class AdapterCapabilities : object'
+    content.vb: >-
+      Public Class AdapterCapabilities
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -68,7 +65,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasClassicSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -105,7 +102,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasSecureClassicSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -142,7 +139,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasLowEnergySupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -179,7 +176,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasLowEnergySecureSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -216,7 +213,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasLowEnergyCentralRoleSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -253,7 +250,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasLowEnergyPeripheralRoleSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -290,7 +287,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: HasAdvertisementOffloadSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -328,7 +325,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateways.Bluetooth
@@ -366,285 +363,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

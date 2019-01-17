@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  id: DS18B20.BusModeType
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.MultimpleDevices
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.SingleDevice
+  langs:
+  - csharp
+  - vb
+  name: DS18B20.BusModeType
+  nameWithType: DS18B20.BusModeType
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BusModeType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 15
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nType of one wire buses allowed.\n"
+  example: []
+  syntax:
+    content: 'public enum BusModeType : int'
+    content.vb: Public Enum BusModeType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.SingleDevice
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.SingleDevice
+  id: SingleDevice
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  langs:
+  - csharp
+  - vb
+  name: SingleDevice
+  nameWithType: DS18B20.BusModeType.SingleDevice
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.SingleDevice
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SingleDevice
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 20
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nIndicate that the OneWire bus has a single device attached.\n"
+  example: []
+  syntax:
+    content: SingleDevice = 0
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.MultimpleDevices
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.MultimpleDevices
+  id: MultimpleDevices
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  langs:
+  - csharp
+  - vb
+  name: MultimpleDevices
+  nameWithType: DS18B20.BusModeType.MultimpleDevices
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.MultimpleDevices
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MultimpleDevices
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 25
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nIndicate that the OneWire bus has multiple devices attached.\n"
+  example: []
+  syntax:
+    content: MultimpleDevices = 1
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: DS18B20.BusModeType
+  nameWithType: DS18B20.BusModeType
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType

@@ -22,7 +22,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
     startLine: 7
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nRepresents a servo that can rotate continuously.\n"
   example: []
@@ -78,7 +78,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
     startLine: 15
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nInstantiates a new continuous rotation servo on the specified pin, with the specified configuration.\n"
   example: []
@@ -103,6 +103,8 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -373,6 +375,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.ContinuousRotationServo.#ctor*
   commentId: Overload:Meadow.Foundation.Servos.ContinuousRotationServo.#ctor
   name: ContinuousRotationServo

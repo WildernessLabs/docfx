@@ -23,11 +23,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: IApp
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
-    startLine: 9
+    startLine: 7
   assemblies:
   - Meadow.Core
   namespace: Meadow
-  summary: "\nTODO: Is this necessary? We&apos;ve decided that we want to use the app model, \nas opposed to allowing users to create `Static void main()` implementations,\nbut if we type the App.Current to the user&apos;s app somehow, we can potentially\nget rid of this.\n"
+  summary: "\nContract for Meadow applications. Provides a way for the Meadow OS to \ncommunicate with Meadow applications when system events are happening.\n"
   example: []
   syntax:
     content: public interface IApp
@@ -56,7 +56,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Run
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
-    startLine: 15
+    startLine: 13
   assemblies:
   - Meadow.Core
   namespace: Meadow
@@ -84,7 +84,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WillSleep
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
-    startLine: 20
+    startLine: 18
   assemblies:
   - Meadow.Core
   namespace: Meadow
@@ -112,7 +112,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: OnWake
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
-    startLine: 25
+    startLine: 23
   assemblies:
   - Meadow.Core
   namespace: Meadow
@@ -140,7 +140,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WillReset
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
-    startLine: 31
+    startLine: 29
   assemblies:
   - Meadow.Core
   namespace: Meadow

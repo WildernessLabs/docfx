@@ -73,7 +73,8 @@
   
   <h1 id="Meadow_Hardware_PinBase" data-uid="Meadow.Hardware.PinBase" class="text-break">Class PinBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provides base implementation for IO pins.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -87,52 +88,28 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Meadow.Hardware.IPin.html">IPin</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_PinBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PinBase : IPin</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PinBase : object, IPin</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase__ctor_System_String_System_UInt32_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase.%23ctor(System.String%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase__ctor_System_String_System_Object_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase.%23ctor(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L9">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L16">View Source</a>
   </span>
   <a id="Meadow_Hardware_PinBase__ctor_" data-uid="Meadow.Hardware.PinBase.#ctor*"></a>
-  <h4 id="Meadow_Hardware_PinBase__ctor_System_String_System_UInt32_" data-uid="Meadow.Hardware.PinBase.#ctor(System.String,System.UInt32)">PinBase(String, UInt32)</h4>
+  <h4 id="Meadow_Hardware_PinBase__ctor_System_String_System_Object_" data-uid="Meadow.Hardware.PinBase.#ctor(System.String,System.Object)">PinBase(String, Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PinBase(string name, uint address)</code></pre>
+    <pre><code class="lang-csharp hljs">protected PinBase(string name, object key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -150,8 +127,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">address</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -160,18 +137,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase_Address.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase_Key.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase.Key%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L7">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L14">View Source</a>
   </span>
-  <a id="Meadow_Hardware_PinBase_Address_" data-uid="Meadow.Hardware.PinBase.Address*"></a>
-  <h4 id="Meadow_Hardware_PinBase_Address" data-uid="Meadow.Hardware.PinBase.Address">Address</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Meadow_Hardware_PinBase_Key_" data-uid="Meadow.Hardware.PinBase.Key*"></a>
+  <h4 id="Meadow_Hardware_PinBase_Key" data-uid="Meadow.Hardware.PinBase.Key">Key</h4>
+  <div class="markdown level1 summary"><p>Identifier that the parent Device can use to identify the I/O (address, port, pin, etc)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint Address { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object Key { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,8 +161,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The key.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -193,7 +172,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase_Name.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L6">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L9">View Source</a>
   </span>
   <a id="Meadow_Hardware_PinBase_Name_" data-uid="Meadow.Hardware.PinBase.Name*"></a>
   <h4 id="Meadow_Hardware_PinBase_Name" data-uid="Meadow.Hardware.PinBase.Name">Name</h4>
@@ -233,7 +212,7 @@
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PinBase.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PinBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L4" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PinBase.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

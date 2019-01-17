@@ -34,8 +34,8 @@ items:
   summary: "\nUnits of measurement used by this sensor.\n"
   example: []
   syntax:
-    content: 'public enum Units : int'
-    content.vb: Public Enum Units As Integer
+    content: public enum Units
+    content.vb: Public Enum Units
   modifiers.csharp:
   - public
   - enum
@@ -67,10 +67,9 @@ items:
   summary: "\nMeters per second (used for accelerometer, linear acceleration, gravity vector)\n"
   example: []
   syntax:
-    content: MetersPerSecond = null
+    content: MetersPerSecond = 1
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: MetersPerSecond = Nothing
   modifiers.csharp:
   - public
   - const
@@ -102,10 +101,9 @@ items:
   summary: "\nMilliG per second (used for accelerometer, linear acceleration, gravity vector)\n"
   example: []
   syntax:
-    content: MilliG = null
+    content: MilliG = 254
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: MilliG = Nothing
   modifiers.csharp:
   - public
   - const
@@ -137,10 +135,9 @@ items:
   summary: "\nDegrees per second (angular rate) or degrees (Euler angles)\n"
   example: []
   syntax:
-    content: Degrees = null
+    content: Degrees = 2
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Degrees = Nothing
   modifiers.csharp:
   - public
   - const
@@ -172,10 +169,9 @@ items:
   summary: "\nRadians per second (angular rate) or (radians for Euler angles)\n"
   example: []
   syntax:
-    content: Radians = null
+    content: Radians = 253
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Radians = Nothing
   modifiers.csharp:
   - public
   - const
@@ -207,10 +203,9 @@ items:
   summary: "\nDegrees per centigrade.\n"
   example: []
   syntax:
-    content: Centigrade = null
+    content: Centigrade = 32
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Centigrade = Nothing
   modifiers.csharp:
   - public
   - const
@@ -242,10 +237,9 @@ items:
   summary: "\nDegrees Fahrenheit\n"
   example: []
   syntax:
-    content: Fahrenheit = null
+    content: Fahrenheit = 239
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Fahrenheit = Nothing
   modifiers.csharp:
   - public
   - const
@@ -278,10 +272,9 @@ items:
   remarks: "\nPich angles -180 tp +180 degrees increasing counter clockwise.\nRoll angles - -90 to +90 degrees increasing with increasing inclination.\nHeading / Yaw angles - 0 to 360 turning clockwise increases values\n"
   example: []
   syntax:
-    content: Windows = null
+    content: Windows = 128
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Windows = Nothing
   modifiers.csharp:
   - public
   - const
@@ -314,10 +307,9 @@ items:
   remarks: "\nPich angles -180 tp +180 degrees increasing counter clockwise.\nRoll angles - -90 to +90 degrees increasing with increasing inclination.\nHeading / Yaw angles - 0 to 360 turning clockwise increases values\n"
   example: []
   syntax:
-    content: Android = null
+    content: Android = 127
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Units
-    content.vb: Android = Nothing
   modifiers.csharp:
   - public
   - const

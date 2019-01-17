@@ -4,7 +4,8 @@ items:
   commentId: T:Meadow.Hardware.IDigitalPin
   id: IDigitalPin
   parent: Meadow.Hardware
-  children: []
+  children:
+  - Meadow.Hardware.IDigitalPin.GPIOManager
   langs:
   - csharp
   - vb
@@ -31,7 +32,7 @@ items:
           Inherits IPin, IDigitalChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name
-  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IPin.Key
   - Meadow.Hardware.IDigitalChannel.InterrruptCapable
   - Meadow.Hardware.IDigitalChannel.PullDownCapable
   - Meadow.Hardware.IDigitalChannel.PullUpCapable
@@ -41,6 +42,39 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: Meadow.Hardware.IDigitalPin.GPIOManager
+  commentId: P:Meadow.Hardware.IDigitalPin.GPIOManager
+  id: GPIOManager
+  parent: Meadow.Hardware.IDigitalPin
+  langs:
+  - csharp
+  - vb
+  name: GPIOManager
+  nameWithType: IDigitalPin.GPIOManager
+  fullName: Meadow.Hardware.IDigitalPin.GPIOManager
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: GPIOManager
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: IGPIOManager GPIOManager { get; }
+    parameters: []
+    return:
+      type: Meadow.IGPIOManager
+    content.vb: ReadOnly Property GPIOManager As IGPIOManager
+  overload: Meadow.Hardware.IDigitalPin.GPIOManager*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
@@ -53,12 +87,12 @@ references:
   name: Name
   nameWithType: IPin.Name
   fullName: Meadow.Hardware.IPin.Name
-- uid: Meadow.Hardware.IPin.Address
-  commentId: P:Meadow.Hardware.IPin.Address
+- uid: Meadow.Hardware.IPin.Key
+  commentId: P:Meadow.Hardware.IPin.Key
   parent: Meadow.Hardware.IPin
-  name: Address
-  nameWithType: IPin.Address
-  fullName: Meadow.Hardware.IPin.Address
+  name: Key
+  nameWithType: IPin.Key
+  fullName: Meadow.Hardware.IPin.Key
 - uid: Meadow.Hardware.IDigitalChannel.InterrruptCapable
   commentId: P:Meadow.Hardware.IDigitalChannel.InterrruptCapable
   parent: Meadow.Hardware.IDigitalChannel
@@ -89,3 +123,19 @@ references:
   name: IDigitalChannel
   nameWithType: IDigitalChannel
   fullName: Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.IDigitalPin.GPIOManager*
+  commentId: Overload:Meadow.Hardware.IDigitalPin.GPIOManager
+  name: GPIOManager
+  nameWithType: IDigitalPin.GPIOManager
+  fullName: Meadow.Hardware.IDigitalPin.GPIOManager
+- uid: Meadow.IGPIOManager
+  commentId: T:Meadow.IGPIOManager
+  parent: Meadow
+  name: IGPIOManager
+  nameWithType: IGPIOManager
+  fullName: Meadow.IGPIOManager
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow

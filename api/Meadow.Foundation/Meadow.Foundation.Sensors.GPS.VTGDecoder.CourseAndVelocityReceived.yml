@@ -48,6 +48,8 @@ references:
   nameWithType: Meadow.Foundation.Sensors.GPS
   fullName: Meadow.Foundation.Sensors.GPS
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -58,3 +60,9 @@ references:
   name: CourseOverGround
   nameWithType: CourseOverGround
   fullName: Meadow.Foundation.Sensors.GPS.CourseOverGround
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

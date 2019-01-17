@@ -27,8 +27,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum ResistorMode
-    content.vb: Public Enum ResistorMode
+    content: 'public enum ResistorMode : int'
+    content.vb: Public Enum ResistorMode As Integer
   modifiers.csharp:
   - public
   - enum
@@ -58,9 +58,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Disabled = 0
+    content: Disabled = null
     return:
       type: Meadow.Hardware.ResistorMode
+    content.vb: Disabled = Nothing
   modifiers.csharp:
   - public
   - const
@@ -90,9 +91,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PullDown = 1
+    content: PullDown = null
     return:
       type: Meadow.Hardware.ResistorMode
+    content.vb: PullDown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -122,9 +124,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PullUp = 2
+    content: PullUp = null
     return:
       type: Meadow.Hardware.ResistorMode
+    content.vb: PullUp = Nothing
   modifiers.csharp:
   - public
   - const

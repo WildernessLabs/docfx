@@ -28,8 +28,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum StopBits
-    content.vb: Public Enum StopBits
+    content: 'public enum StopBits : int'
+    content.vb: Public Enum StopBits As Integer
   modifiers.csharp:
   - public
   - enum
@@ -59,9 +59,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: None = 0
+    content: None = null
     return:
       type: Meadow.Hardware.StopBits
+    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -91,9 +92,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: One = 1
+    content: One = null
     return:
       type: Meadow.Hardware.StopBits
+    content.vb: One = Nothing
   modifiers.csharp:
   - public
   - const
@@ -123,9 +125,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Two = 2
+    content: Two = null
     return:
       type: Meadow.Hardware.StopBits
+    content.vb: Two = Nothing
   modifiers.csharp:
   - public
   - const
@@ -155,9 +158,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: OnePointFive = 3
+    content: OnePointFive = null
     return:
       type: Meadow.Hardware.StopBits
+    content.vb: OnePointFive = Nothing
   modifiers.csharp:
   - public
   - const

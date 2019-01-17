@@ -48,6 +48,8 @@ references:
   nameWithType: Meadow.Foundation.Sensors
   fullName: Meadow.Foundation.Sensors
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -58,3 +60,9 @@ references:
   name: SensorFloatEventArgs
   nameWithType: SensorFloatEventArgs
   fullName: Meadow.Foundation.Sensors.SensorFloatEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

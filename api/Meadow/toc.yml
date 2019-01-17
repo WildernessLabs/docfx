@@ -7,14 +7,14 @@
     name.vb: AppBase(Of D, A)
   - uid: Meadow.ByteOrder
     name: ByteOrder
-  - uid: Meadow.DeviceBase
-    name: DeviceBase
   - uid: Meadow.DeviceCapabilities
     name: DeviceCapabilities
   - uid: Meadow.IApp
     name: IApp
   - uid: Meadow.IDevice
     name: IDevice
+  - uid: Meadow.IGPIOManager
+    name: IGPIOManager
   - uid: Meadow.MeadowOS
     name: MeadowOS
   - uid: Meadow.NetworkCapabilities
@@ -24,6 +24,8 @@
 - uid: Meadow.Devices
   name: Meadow.Devices
   items:
+  - uid: Meadow.Devices.F7GPIOManager
+    name: F7GPIOManager
   - uid: Meadow.Devices.F7Micro
     name: F7Micro
   - uid: Meadow.Devices.F7Micro.PinDefinitions
@@ -69,6 +71,12 @@
     name: AnalogPin
   - uid: Meadow.Hardware.AnalogPinBase
     name: AnalogPinBase
+  - uid: Meadow.Hardware.BiDirectionalPort
+    name: BiDirectionalPort
+  - uid: Meadow.Hardware.BiDirectionalPortBase
+    name: BiDirectionalPortBase
+  - uid: Meadow.Hardware.ChannelConfigurationType
+    name: ChannelConfigurationType
   - uid: Meadow.Hardware.Cpu
     name: Cpu
   - uid: Meadow.Hardware.Cpu.AnalogChannel
@@ -85,6 +93,8 @@
     name: Cpu.PinValidResistorMode
   - uid: Meadow.Hardware.Cpu.PWMChannel
     name: Cpu.PWMChannel
+  - uid: Meadow.Hardware.DeviceChannelManager
+    name: DeviceChannelManager
   - uid: Meadow.Hardware.DigitalInputPort
     name: DigitalInputPort
   - uid: Meadow.Hardware.DigitalInputPortBase
@@ -119,6 +129,8 @@
     name: IAnalogPin
   - uid: Meadow.Hardware.IAnalogPort
     name: IAnalogPort
+  - uid: Meadow.Hardware.IBiDirectionalPort
+    name: IBiDirectionalPort
   - uid: Meadow.Hardware.IDigitalChannel
     name: IDigitalChannel
   - uid: Meadow.Hardware.IDigitalInputPort
@@ -153,6 +165,8 @@
     name: PortDirectionType
   - uid: Meadow.Hardware.PortEventArgs
     name: PortEventArgs
+  - uid: Meadow.Hardware.PortInUseException
+    name: PortInUseException
   - uid: Meadow.Hardware.PwmPin
     name: PwmPin
   - uid: Meadow.Hardware.PwmPinBase
@@ -202,6 +216,8 @@
     name: OneWireBus
   - uid: Meadow.Hardware.Communications.OneWireBus.Devices
     name: OneWireBus.Devices
+  - uid: Meadow.Hardware.Communications.SoftwareSPIBus
+    name: SoftwareSPIBus
   - uid: Meadow.Hardware.Communications.SPIBus
     name: SPIBus
 - uid: Meadow.Utilities

@@ -1,0 +1,1324 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.PCD8544
+  commentId: T:Meadow.Foundation.Displays.PCD8544
+  id: PCD8544
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
+  - Meadow.Foundation.Displays.PCD8544._invertDisplay
+  - Meadow.Foundation.Displays.PCD8544.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.PCD8544.ColorMode
+  - Meadow.Foundation.Displays.PCD8544.dataCommandPort
+  - Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  - Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.PCD8544.Height
+  - Meadow.Foundation.Displays.PCD8544.InvertDisplay
+  - Meadow.Foundation.Displays.PCD8544.resetPort
+  - Meadow.Foundation.Displays.PCD8544.Show
+  - Meadow.Foundation.Displays.PCD8544.spi
+  - Meadow.Foundation.Displays.PCD8544.spiBuffer
+  - Meadow.Foundation.Displays.PCD8544.Width
+  langs:
+  - csharp
+  - vb
+  name: PCD8544
+  nameWithType: PCD8544
+  fullName: Meadow.Foundation.Displays.PCD8544
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PCD8544
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 6
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public class PCD8544 : DisplayBase, IDisplay'
+    content.vb: >-
+      Public Class PCD8544
+
+          Inherits DisplayBase
+
+          Implements IDisplay
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.DisplayBase
+  implements:
+  - Meadow.Foundation.Displays.IDisplay
+  inheritedMembers:
+  - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  - Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  - Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.PCD8544.ColorMode
+  commentId: P:Meadow.Foundation.Displays.PCD8544.ColorMode
+  id: ColorMode
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: ColorMode
+  nameWithType: PCD8544.ColorMode
+  fullName: Meadow.Foundation.Displays.PCD8544.ColorMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ColorMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 8
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override DisplayBase.DisplayColorMode ColorMode { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+    content.vb: Public Overrides ReadOnly Property ColorMode As DisplayBase.DisplayColorMode
+  overridden: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  overload: Meadow.Foundation.Displays.PCD8544.ColorMode*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.PCD8544.Height
+  commentId: P:Meadow.Foundation.Displays.PCD8544.Height
+  id: Height
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: PCD8544.Height
+  fullName: Meadow.Foundation.Displays.PCD8544.Height
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Height
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 10
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Height { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Height As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Height
+  overload: Meadow.Foundation.Displays.PCD8544.Height*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.PCD8544.Width
+  commentId: P:Meadow.Foundation.Displays.PCD8544.Width
+  id: Width
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: PCD8544.Width
+  fullName: Meadow.Foundation.Displays.PCD8544.Width
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Width
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 12
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Width { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Width As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Width
+  overload: Meadow.Foundation.Displays.PCD8544.Width*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.PCD8544.InvertDisplay
+  commentId: P:Meadow.Foundation.Displays.PCD8544.InvertDisplay
+  id: InvertDisplay
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: InvertDisplay
+  nameWithType: PCD8544.InvertDisplay
+  fullName: Meadow.Foundation.Displays.PCD8544.InvertDisplay
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InvertDisplay
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 14
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public bool InvertDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InvertDisplay As Boolean
+  overload: Meadow.Foundation.Displays.PCD8544.InvertDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.PCD8544._invertDisplay
+  commentId: F:Meadow.Foundation.Displays.PCD8544._invertDisplay
+  id: _invertDisplay
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: _invertDisplay
+  nameWithType: PCD8544._invertDisplay
+  fullName: Meadow.Foundation.Displays.PCD8544._invertDisplay
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _invertDisplay
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 19
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected bool _invertDisplay
+    return:
+      type: System.Boolean
+    content.vb: Protected _invertDisplay As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.PCD8544.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.PCD8544.dataCommandPort
+  id: dataCommandPort
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: dataCommandPort
+  nameWithType: PCD8544.dataCommandPort
+  fullName: Meadow.Foundation.Displays.PCD8544.dataCommandPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: dataCommandPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 21
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DigitalOutputPort dataCommandPort
+    return:
+      type: DigitalOutputPort
+    content.vb: Protected dataCommandPort As DigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.PCD8544.resetPort
+  commentId: F:Meadow.Foundation.Displays.PCD8544.resetPort
+  id: resetPort
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: resetPort
+  nameWithType: PCD8544.resetPort
+  fullName: Meadow.Foundation.Displays.PCD8544.resetPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: resetPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 22
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DgitalOutputPort resetPort
+    return:
+      type: DgitalOutputPort
+    content.vb: Protected resetPort As DgitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.PCD8544.spi
+  commentId: F:Meadow.Foundation.Displays.PCD8544.spi
+  id: spi
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: spi
+  nameWithType: PCD8544.spi
+  fullName: Meadow.Foundation.Displays.PCD8544.spi
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spi
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 23
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected SPI spi
+    return:
+      type: SPI
+    content.vb: Protected spi As SPI
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.PCD8544.spiBuffer
+  commentId: F:Meadow.Foundation.Displays.PCD8544.spiBuffer
+  id: spiBuffer
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: spiBuffer
+  nameWithType: PCD8544.spiBuffer
+  fullName: Meadow.Foundation.Displays.PCD8544.spiBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spiBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 25
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected byte[] spiBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected spiBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
+  id: '#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)'
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  nameWithType: PCD8544.PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  fullName: Meadow.Foundation.Displays.PCD8544.PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 27
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public PCD8544(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = null, uint speedKHz = null)
+    parameters:
+    - id: chipSelectPin
+      type: IDigitalPin
+    - id: dcPin
+      type: IDigitalPin
+    - id: resetPin
+      type: IDigitalPin
+    - id: spiModule
+      type: Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = Nothing)
+  overload: Meadow.Foundation.Displays.PCD8544.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.PCD8544.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.Clear(System.Boolean)
+  id: Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean)
+  nameWithType: PCD8544.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.PCD8544.Clear(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 77
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Clear(bool updateDisplay = false)
+    parameters:
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Overrides Sub Clear(updateDisplay As Boolean = False)
+  overridden: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  overload: Meadow.Foundation.Displays.PCD8544.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: PCD8544.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 99
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  summary: "\nCopy a bitmap to the display.\n"
+  remarks: "\nCurrently, this method only supports copying the bitmap over the contents\nof the display buffer.\n"
+  example: []
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, DisplayBase.BitmapMode bitmapMode)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the top left corner of the bitmap.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the top left corner of the bitmap.
+    - id: width
+      type: System.Int32
+      description: Width of the bitmap in bytes.
+    - id: height
+      type: System.Int32
+      description: Height of the bitmap in bytes.
+    - id: bitmap
+      type: System.Byte[]
+      description: Bitmap to transfer
+    - id: bitmapMode
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+      description: How should the bitmap be transferred to the display?
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), bitmapMode As DisplayBase.BitmapMode)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  overload: Meadow.Foundation.Displays.PCD8544.DrawBitmap*
+  nameWithType.vb: PCD8544.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+- uid: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: PCD8544.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 121
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: bitmap
+      type: System.Byte[]
+    - id: color
+      type: Color
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overload: Meadow.Foundation.Displays.PCD8544.DrawBitmap*
+  nameWithType.vb: PCD8544.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.PCD8544.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+- uid: Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  id: DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: PCD8544.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 132
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  summary: "\nCoordinates start with index 0\n"
+  example: []
+  syntax:
+    content: public override void DrawPixel(int x, int y, bool colored)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the pixel to the set / reset.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the pixel to the set / reset.
+    - id: colored
+      type: System.Boolean
+      description: True = turn on pixel, false = turn off pixel
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, colored As Boolean)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  overload: Meadow.Foundation.Displays.PCD8544.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32,System.Int32,Color)
+  id: DrawPixel(System.Int32,System.Int32,Color)
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: PCD8544.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawPixel(System.Int32, System.Int32, Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 147
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DrawPixel(int x, int y, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: color
+      type: Color
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overload: Meadow.Foundation.Displays.PCD8544.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.PCD8544.Show
+  commentId: M:Meadow.Foundation.Displays.PCD8544.Show
+  id: Show
+  parent: Meadow.Foundation.Displays.PCD8544
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: PCD8544.Show()
+  fullName: Meadow.Foundation.Displays.PCD8544.Show()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Show
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.PCD8544/PCD8544.cs
+    startLine: 154
+  assemblies:
+  - Displays.PCD8544
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Show()
+    content.vb: Public Overrides Sub Show
+  overridden: Meadow.Foundation.Displays.DisplayBase.Show
+  overload: Meadow.Foundation.Displays.PCD8544.Show*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.DisplayBase
+  commentId: T:Meadow.Foundation.Displays.DisplayBase
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase
+  nameWithType: DisplayBase
+  fullName: Meadow.Foundation.Displays.DisplayBase
+- uid: Meadow.Foundation.Displays.IDisplay
+  commentId: T:Meadow.Foundation.Displays.IDisplay
+  parent: Meadow.Foundation.Displays
+  name: IDisplay
+  nameWithType: IDisplay
+  fullName: Meadow.Foundation.Displays.IDisplay
+- uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: IgnoreOutOfBoundsPixels
+  nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
+  fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: ColorMode
+  nameWithType: DisplayBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.ColorMode
+- uid: Meadow.Foundation.Displays.PCD8544.ColorMode*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.ColorMode
+  name: ColorMode
+  nameWithType: PCD8544.ColorMode
+  fullName: Meadow.Foundation.Displays.PCD8544.ColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Height
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Height
+  nameWithType: DisplayBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayBase.Height
+- uid: Meadow.Foundation.Displays.PCD8544.Height*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.Height
+  name: Height
+  nameWithType: PCD8544.Height
+  fullName: Meadow.Foundation.Displays.PCD8544.Height
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Foundation.Displays.DisplayBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Width
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Width
+  nameWithType: DisplayBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayBase.Width
+- uid: Meadow.Foundation.Displays.PCD8544.Width*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.Width
+  name: Width
+  nameWithType: PCD8544.Width
+  fullName: Meadow.Foundation.Displays.PCD8544.Width
+- uid: Meadow.Foundation.Displays.PCD8544.InvertDisplay*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.InvertDisplay
+  name: InvertDisplay
+  nameWithType: PCD8544.InvertDisplay
+  fullName: Meadow.Foundation.Displays.PCD8544.InvertDisplay
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DigitalOutputPort
+  commentId: '!:DigitalOutputPort'
+  isExternal: true
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: DigitalOutputPort
+- uid: DgitalOutputPort
+  commentId: '!:DgitalOutputPort'
+  isExternal: true
+  name: DgitalOutputPort
+  nameWithType: DgitalOutputPort
+  fullName: DgitalOutputPort
+- uid: SPI
+  commentId: '!:SPI'
+  isExternal: true
+  name: SPI
+  nameWithType: SPI
+  fullName: SPI
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Displays.PCD8544.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.#ctor
+  name: PCD8544
+  nameWithType: PCD8544.PCD8544
+  fullName: Meadow.Foundation.Displays.PCD8544.PCD8544
+- uid: IDigitalPin
+  isExternal: true
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: IDigitalPin
+- uid: Spi.SPI_module
+  commentId: '!:Spi.SPI_module'
+  isExternal: true
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Spi.SPI_module
+- uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: Clear(Boolean)
+  nameWithType: DisplayBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.PCD8544.Clear*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.Clear
+  name: Clear
+  nameWithType: PCD8544.Clear
+  fullName: Meadow.Foundation.Displays.PCD8544.Clear
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.PCD8544.DrawBitmap*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.DrawBitmap
+  name: DrawBitmap
+  nameWithType: PCD8544.DrawBitmap
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawBitmap
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.PCD8544.DrawPixel*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.DrawPixel
+  name: DrawPixel
+  nameWithType: PCD8544.DrawPixel
+  fullName: Meadow.Foundation.Displays.PCD8544.DrawPixel
+- uid: Meadow.Foundation.Displays.DisplayBase.Show
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Show
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Show()
+  nameWithType: DisplayBase.Show()
+  fullName: Meadow.Foundation.Displays.DisplayBase.Show()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.PCD8544.Show*
+  commentId: Overload:Meadow.Foundation.Displays.PCD8544.Show
+  name: Show
+  nameWithType: PCD8544.Show
+  fullName: Meadow.Foundation.Displays.PCD8544.Show

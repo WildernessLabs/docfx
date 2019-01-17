@@ -1,0 +1,690 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DS18B20
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DS18B20
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20">
+  
+  
+  <h1 id="Meadow_Foundation_Sensors_Temperature_DS18B20" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20" class="text-break">Class DS18B20
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DS18B20</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Foundation.Sensors.ITemperatureSensor.html">ITemperatureSensor</a></div>
+    <div><a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Temperature.html">Meadow.Foundation.Sensors.Temperature</a></h6>
+  <h6><strong>Assembly</strong>: Sensors.Temperature.DS18B20.dll</h6>
+  <h5 id="Meadow_Foundation_Sensors_Temperature_DS18B20_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DS18B20 : object, ITemperatureSensor, ISensor</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20__ctor_IDigitalPin_UInt64_System_UInt16_System_Single_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.%23ctor(IDigitalPin%2CUInt64%2CSystem.UInt16%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L321">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20__ctor_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20__ctor_IDigitalPin_UInt64_System_UInt16_System_Single_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)">DS18B20(IDigitalPin, UInt64, UInt16, Single)</h4>
+  <div class="markdown level1 summary"><p>Create a new DS18B20 temperature sensor object with the specified configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DS18B20(IDigitalPin oneWirePin, UInt64 deviceID = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDigitalPin</span></td>
+        <td><span class="parametername">oneWirePin</span></td>
+        <td><p>GPIO pin the DS18B20 is connected to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UInt64</span></td>
+        <td><span class="parametername">deviceID</span></td>
+        <td><p>Address of the DS18B20 device.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">updateInterval</span></td>
+        <td><p>Update period in milliseconds.  Note that this most be greater than the conversion period for the sensor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">temperatureChangeNotificationThreshold</span></td>
+        <td><p>Threshold for temperature changes that will generate an interrupt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_BusMode.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L222">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_BusMode" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode">BusMode</h4>
+  <div class="markdown level1 summary"><p>Bus mode type, default is single device on the bus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DS18B20.BusModeType BusMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType.html">DS18B20.BusModeType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_DeviceIDLength.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L199">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_DeviceIDLength" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength">DeviceIDLength</h4>
+  <div class="markdown level1 summary"><p>Number of bytes (including the CRC) in the device ID array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte DeviceIDLength = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_MinimumPollingPeriod.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L189">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_MinimumPollingPeriod" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod">MinimumPollingPeriod</h4>
+  <div class="markdown level1 summary"><p>Minimum value that should be used for the polling frequency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Meadow_Foundation_Sensors_Temperature_DS18B20_MinimumPollingPeriod_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>&gt;
+    Default assumes that the sensor is working in 12-bit mode (factory setting).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_ScratchPadSize.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L194">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ScratchPadSize" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize">ScratchPadSize</h4>
+  <div class="markdown level1 summary"><p>Number of bytes in the scratch pad.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte ScratchPadSize = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_DeviceID.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L291">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_DeviceID_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_DeviceID" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID">DeviceID</h4>
+  <div class="markdown level1 summary"><p>Device ID of the DS18B20 temperature sensor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UInt64 DeviceID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UInt64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_MaximumConversionPeriod.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L265">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_MaximumConversionPeriod_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_MaximumConversionPeriod" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod">MaximumConversionPeriod</h4>
+  <div class="markdown level1 summary"><p>Maximum conversion time (in milliseconds) for the DS18B20 based upon the resolution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort MaximumConversionPeriod { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_Resolution.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L260">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_Resolution_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_Resolution" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution">Resolution</h4>
+  <div class="markdown level1 summary"><p>Resolution in bit of the DS18B20.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Resolution { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Meadow_Foundation_Sensors_Temperature_DS18B20_Resolution_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Returns (or sets) the number of bits used to hold a sensor reading.
+Possible values are 9, 10, 11 or 12.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_Sensor.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L217">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_Sensor_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_Sensor" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor">Sensor</h4>
+  <div class="markdown level1 summary"><p>Instance of the DS18B20 temperature sensor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected OneWireBus.Devices Sensor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OneWireBus.Devices</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_Temperature.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L227">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_Temperature_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_Temperature" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature">Temperature</h4>
+  <div class="markdown level1 summary"><p>Temperature (in degrees centigrade).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Temperature { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_TemperatureChangeNotificationThreshold.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L251">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_TemperatureChangeNotificationThreshold_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_TemperatureChangeNotificationThreshold" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold">TemperatureChangeNotificationThreshold</h4>
+  <div class="markdown level1 summary"><p>Any changes in the temperature that are greater than the temperature
+threshold will cause an event to be raised when the instance is
+set to update automatically.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TemperatureChangeNotificationThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_LoadConfiguration.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L529">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_LoadConfiguration_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_LoadConfiguration" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration">LoadConfiguration()</h4>
+  <div class="markdown level1 summary"><p>Load the configuration from the device EEPROM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadConfiguration()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_ReadConfiguration.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L520">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadConfiguration_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadConfiguration" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration">ReadConfiguration()</h4>
+  <div class="markdown level1 summary"><p>Read the configuration from the temperature sensor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadConfiguration()</code></pre>
+  </div>
+  <h5 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadConfiguration_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will also update the Resolution property.</p>
+<p>Format of the configuration register:
+b7 b6 b5 b4 b3 b2 b1 b0
+0  R1 R0 1  1  1  1  1</p>
+<p>Where R0 and R1 are the resolution bits (0 = 9, 1 = 10, 2 = 11 and 3 = 12).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_ReadDeviceID.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L464">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadDeviceID_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadDeviceID" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID">ReadDeviceID()</h4>
+  <div class="markdown level1 summary"><p>Read the device ID from the EEPROM on the DS18B20 and update the DeviceID property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadDeviceID()</code></pre>
+  </div>
+  <h5 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadDeviceID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This will only work if there is only one device on the one wire bus.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_ReadScratchPad.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L489">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadScratchPad_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_ReadScratchPad" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad">ReadScratchPad()</h4>
+  <div class="markdown level1 summary"><p>Read the scratch pad area from the DS18B20.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected byte[] ReadScratchPad()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Scratch pad contents as a byte array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_SaveConfiguration.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L537">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_SaveConfiguration_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_SaveConfiguration" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration">SaveConfiguration()</h4>
+  <div class="markdown level1 summary"><p>Save the current configuration to the device EEPROM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveConfiguration()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_SendDeviceID.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L412">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_SendDeviceID_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_SendDeviceID" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID">SendDeviceID()</h4>
+  <div class="markdown level1 summary"><p>Send the device ID if necessary to ensure that the object is
+talking to the right device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendDeviceID()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_Update.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L436">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Sensors_Temperature_DS18B20_Update_" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Update*"></a>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_Update" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Update the Temperature property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20_TemperatureChanged.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L301">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Sensors_Temperature_DS18B20_TemperatureChanged" data-uid="Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged">TemperatureChanged</h4>
+  <div class="markdown level1 summary"><p>Event raised when the temperature change is greater than the 
+TemperatureChangeNotificationThreshold value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SensorFloatEventHandler TemperatureChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.Foundation.Sensors.SensorFloatEventHandler.html">SensorFloatEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Sensors.ITemperatureSensor.html">ITemperatureSensor</a>
+  </div>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Sensors_Temperature_DS18B20.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Sensors.Temperature.DS18B20%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

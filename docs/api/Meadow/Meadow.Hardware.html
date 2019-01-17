@@ -82,26 +82,38 @@
       <h4><a class="xref" href="Meadow.Hardware.AnalogPin.html">AnalogPin</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.AnalogPinBase.html">AnalogPinBase</a></h4>
-      <section></section>
+      <section><p>Provides a base implementation for an analog pin.</p>
+</section>
+      <h4><a class="xref" href="Meadow.Hardware.BiDirectionalPort.html">BiDirectionalPort</a></h4>
+      <section><p>Tristate port.</p>
+</section>
+      <h4><a class="xref" href="Meadow.Hardware.BiDirectionalPortBase.html">BiDirectionalPortBase</a></h4>
+      <section><p>Provides a base implementation for BiDirectional Ports; digital ports 
+that can be both input and output.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.Cpu.html">Cpu</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Meadow.Hardware.DeviceChannelManager.html">DeviceChannelManager</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalInputPort.html">DigitalInputPort</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalInputPortBase.html">DigitalInputPortBase</a></h4>
-      <section></section>
+      <section><p>Provides a base implementation for digital input ports.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalInterruptPortBase.html">DigitalInterruptPortBase</a></h4>
-      <section></section>
+      <section><p>Provides a base implementation for digital interrupt ports; digital input
+ports that notify on change.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalOutputPort.html">DigitalOutputPort</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalOutputPortBase.html">DigitalOutputPortBase</a></h4>
-      <section><p>DigitalOutputPortBase inherits from DigitalPortBase and provides a 
-base implementation for much of the common tasks of classes implementing 
-IDigitalPort.</p>
+      <section><p>Provides a base implementation for digital output ports.</p>
 </section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalPin.html">DigitalPin</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalPinBase.html">DigitalPinBase</a></h4>
-      <section></section>
+      <section><p>Provides a base implementation for digital pins.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.DigitalPortBase.html">DigitalPortBase</a></h4>
       <section><p>DigitalPortBase provides a base implementation for much of the 
 common tasks of classes implementing IDigitalPort.</p>
@@ -120,13 +132,18 @@ common tasks of classes implementing IDigitalPort.</p>
       <section><p>Represents a channel on the device such as a pin.</p>
 </section>
       <h4><a class="xref" href="Meadow.Hardware.PinBase.html">PinBase</a></h4>
-      <section></section>
+      <section><p>Provides base implementation for IO pins.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.PortEventArgs.html">PortEventArgs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Meadow.Hardware.PortInUseException.html">PortInUseException</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.PwmPin.html">PwmPin</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.PwmPinBase.html">PwmPinBase</a></h4>
-      <section></section>
+      <section><p>Provides a base implementation for pins that have a Pulse-Width-Modulation
+(PWM) channel.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.PwmPort.html">PwmPort</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.SerialDataReceivedEventArgs.html">SerialDataReceivedEventArgs</a></h4>
@@ -142,10 +159,13 @@ common tasks of classes implementing IDigitalPort.</p>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Meadow.Hardware.IAnalogChannel.html">IAnalogChannel</a></h4>
-      <section></section>
+      <section><p>Contract for analog communications channels.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.IAnalogPin.html">IAnalogPin</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.IAnalogPort.html">IAnalogPort</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Meadow.Hardware.IBiDirectionalPort.html">IBiDirectionalPort</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></h4>
       <section></section>
@@ -171,6 +191,10 @@ common tasks of classes implementing IDigitalPort.</p>
       <section></section>
     <h3 id="enums">Enums
   </h3>
+      <h4><a class="xref" href="Meadow.Hardware.ChannelConfigurationType.html">ChannelConfigurationType</a></h4>
+      <section><p>TODO: revisit this structure. Ultimately, it would be nice to know, specifically
+what a channel is cofigured for, i.e. DigitalInput, I2C TX, UART RX, etc.</p>
+</section>
       <h4><a class="xref" href="Meadow.Hardware.Cpu.AnalogChannel.html">Cpu.AnalogChannel</a></h4>
       <section></section>
       <h4><a class="xref" href="Meadow.Hardware.Cpu.AnalogOutputChannel.html">Cpu.AnalogOutputChannel</a></h4>

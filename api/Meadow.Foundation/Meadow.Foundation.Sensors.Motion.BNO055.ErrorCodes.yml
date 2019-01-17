@@ -69,10 +69,9 @@ items:
   summary: "\nNo error.\n"
   example: []
   syntax:
-    content: NoError = null
+    content: NoError = 0
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: NoError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -104,10 +103,9 @@ items:
   summary: "\nPeripheral initialization error.\n"
   example: []
   syntax:
-    content: PeripheralInitializationError = null
+    content: PeripheralInitializationError = 1
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: PeripheralInitializationError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -139,10 +137,9 @@ items:
   summary: "\nSystem initialization error.\n"
   example: []
   syntax:
-    content: SystemInitializationError = null
+    content: SystemInitializationError = 2
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: SystemInitializationError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -174,10 +171,9 @@ items:
   summary: "\nSelf test failed.\n"
   example: []
   syntax:
-    content: SelfTestFailed = null
+    content: SelfTestFailed = 4
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: SelfTestFailed = Nothing
   modifiers.csharp:
   - public
   - const
@@ -209,10 +205,9 @@ items:
   summary: "\nRegister map value out of range.\n"
   example: []
   syntax:
-    content: RegisterMapValueError = null
+    content: RegisterMapValueError = 5
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: RegisterMapValueError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -244,10 +239,9 @@ items:
   summary: "\nRegister map address out of range.\n"
   example: []
   syntax:
-    content: RegisterMapAddressError = null
+    content: RegisterMapAddressError = 6
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: RegisterMapAddressError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -279,10 +273,9 @@ items:
   summary: "\nLow power mode not available for the selected mode.\n"
   example: []
   syntax:
-    content: LowPowerModeNotAvailable = null
+    content: LowPowerModeNotAvailable = 7
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: LowPowerModeNotAvailable = Nothing
   modifiers.csharp:
   - public
   - const
@@ -314,10 +307,9 @@ items:
   summary: "\nAccelerometer power mode not available.\n"
   example: []
   syntax:
-    content: AccelerationModeNotAvailable = null
+    content: AccelerationModeNotAvailable = 8
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: AccelerationModeNotAvailable = Nothing
   modifiers.csharp:
   - public
   - const
@@ -349,10 +341,9 @@ items:
   summary: "\nFusion algorithm configuration error.\n"
   example: []
   syntax:
-    content: FusionConfigurationError = null
+    content: FusionConfigurationError = 9
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: FusionConfigurationError = Nothing
   modifiers.csharp:
   - public
   - const
@@ -384,10 +375,9 @@ items:
   summary: "\nSensor configuration error.\n"
   example: []
   syntax:
-    content: SensorConfigurationError = null
+    content: SensorConfigurationError = 10
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-    content.vb: SensorConfigurationError = Nothing
   modifiers.csharp:
   - public
   - const

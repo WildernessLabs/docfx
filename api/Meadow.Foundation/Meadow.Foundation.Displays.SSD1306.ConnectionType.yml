@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ConnectionType
+  id: SSD1306.ConnectionType
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.SSD1306.ConnectionType.I2C
+  - Meadow.Foundation.Displays.SSD1306.ConnectionType.SPI
+  langs:
+  - csharp
+  - vb
+  name: SSD1306.ConnectionType
+  nameWithType: SSD1306.ConnectionType
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConnectionType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 60
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public enum ConnectionType
+    content.vb: Public Enum ConnectionType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType.SPI
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ConnectionType.SPI
+  id: SPI
+  parent: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  langs:
+  - csharp
+  - vb
+  name: SPI
+  nameWithType: SSD1306.ConnectionType.SPI
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType.SPI
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SPI
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 62
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: SPI = 0
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType.I2C
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ConnectionType.I2C
+  id: I2C
+  parent: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  langs:
+  - csharp
+  - vb
+  name: I2C
+  nameWithType: SSD1306.ConnectionType.I2C
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType.I2C
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: I2C
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 63
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: I2C = 1
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ConnectionType
+  parent: Meadow.Foundation.Displays
+  name: SSD1306.ConnectionType
+  nameWithType: SSD1306.ConnectionType
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType

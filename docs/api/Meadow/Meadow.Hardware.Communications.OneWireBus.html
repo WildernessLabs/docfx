@@ -73,7 +73,7 @@
   
   <h1 id="Meadow_Hardware_Communications_OneWireBus" data-uid="Meadow.Hardware.Communications.OneWireBus" class="text-break">Class OneWireBus
   </h1>
-  <div class="markdown level0 summary"><p>Singleton class used to allow access to multiple OneWire devices on a single pin
+  <div class="markdown level0 summary"><p>Singleton class used to allow access to multiple OneWire peripherals on a single pin
 in a multi-threaded application.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -82,42 +82,18 @@ in a multi-threaded application.</p>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">OneWireBus</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.Communications.html">Meadow.Hardware.Communications</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_Communications_OneWireBus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class OneWireBus</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class OneWireBus : object</code></pre>
   </div>
   <h5 id="Meadow_Hardware_Communications_OneWireBus_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>The OneWire class allows for a single bus to have one or more devices attached to it.
-It also allows for multiple OneWire devices to be connected to different pins on the
-Netduino.</p>
-<p>The multiple devices on different pins is not an issue in a multi-threaded environment.</p>
-<p>Multiple devices attached to a single pin on a multi-threaded environment could be an
+  <div class="markdown level0 remarks"><p>The OneWire class allows for a single bus to have one or more peripherals attached to it.
+It also allows for multiple OneWire peripherals to be connected to different pins on the
+Meadow device.</p>
+<p>The multiple peripherals on different pins is not an issue in a multi-threaded environment.</p>
+<p>Multiple peripherals attached to a single pin on a multi-threaded environment could be an
 issue as the command sequencing could clash.  Using this object with locking allows
 for this scenario to be implemented in a safe way.</p>
 </div>
@@ -165,7 +141,7 @@ for this scenario to be implemented in a safe way.</p>
   </span>
   <a id="Meadow_Hardware_Communications_OneWireBus_Add_" data-uid="Meadow.Hardware.Communications.OneWireBus.Add*"></a>
   <h4 id="Meadow_Hardware_Communications_OneWireBus_Add_Meadow_Hardware_IDigitalPin_" data-uid="Meadow.Hardware.Communications.OneWireBus.Add(Meadow.Hardware.IDigitalPin)">Add(IDigitalPin)</h4>
-  <div class="markdown level1 summary"><p>Add a new pin to the list of those with OneWire devices attached.</p>
+  <div class="markdown level1 summary"><p>Add a new pin to the list of those with OneWire peripherals attached.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -73,10 +73,8 @@
   
   <h1 id="Meadow_IApp" data-uid="Meadow.IApp" class="text-break">Interface IApp
   </h1>
-  <div class="markdown level0 summary"><p>TODO: Is this necessary? We&apos;ve decided that we want to use the app model, 
-as opposed to allowing users to create <code>Static void main()</code> implementations,
-but if we type the App.Current to the user&apos;s app somehow, we can potentially
-get rid of this.</p>
+  <div class="markdown level0 summary"><p>Contract for Meadow applications. Provides a way for the Meadow OS to 
+communicate with Meadow applications when system events are happening.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.html">Meadow</a></h6>
@@ -92,7 +90,7 @@ get rid of this.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_IApp_OnWake.md&amp;value=---%0Auid%3A%20Meadow.IApp.OnWake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L26">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L24">View Source</a>
   </span>
   <a id="Meadow_IApp_OnWake_" data-uid="Meadow.IApp.OnWake*"></a>
   <h4 id="Meadow_IApp_OnWake" data-uid="Meadow.IApp.OnWake">OnWake()</h4>
@@ -108,7 +106,7 @@ get rid of this.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_IApp_Run.md&amp;value=---%0Auid%3A%20Meadow.IApp.Run%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L16">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L14">View Source</a>
   </span>
   <a id="Meadow_IApp_Run_" data-uid="Meadow.IApp.Run*"></a>
   <h4 id="Meadow_IApp_Run" data-uid="Meadow.IApp.Run">Run()</h4>
@@ -125,7 +123,7 @@ TODO: Is this necessary? Why not just use the ctor?</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_IApp_WillReset.md&amp;value=---%0Auid%3A%20Meadow.IApp.WillReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L32">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L30">View Source</a>
   </span>
   <a id="Meadow_IApp_WillReset_" data-uid="Meadow.IApp.WillReset*"></a>
   <h4 id="Meadow_IApp_WillReset" data-uid="Meadow.IApp.WillReset">WillReset()</h4>
@@ -142,7 +140,7 @@ processing time.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_IApp_WillSleep.md&amp;value=---%0Auid%3A%20Meadow.IApp.WillSleep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L21">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L19">View Source</a>
   </span>
   <a id="Meadow_IApp_WillSleep_" data-uid="Meadow.IApp.WillSleep*"></a>
   <h4 id="Meadow_IApp_WillSleep" data-uid="Meadow.IApp.WillSleep">WillSleep()</h4>
@@ -164,7 +162,7 @@ processing time.</p>
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_IApp.md&amp;value=---%0Auid%3A%20Meadow.IApp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Contracts/IApp.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

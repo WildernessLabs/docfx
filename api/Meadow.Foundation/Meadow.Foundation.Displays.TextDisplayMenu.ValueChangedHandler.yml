@@ -44,6 +44,8 @@ references:
   nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
   fullName: Meadow.Foundation.Displays.TextDisplayMenu
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -54,3 +56,9 @@ references:
   name: ValueChangedEventArgs
   nameWithType: ValueChangedEventArgs
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

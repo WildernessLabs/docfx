@@ -58,10 +58,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Milliseconds = 1000U
+    content: Milliseconds = null
     return:
       type: Meadow.Hardware.TimeScaleFactor
-    content.vb: Milliseconds = 1000UI
+    content.vb: Milliseconds = Nothing
   modifiers.csharp:
   - public
   - const
@@ -91,10 +91,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Microseconds = 1000000U
+    content: Microseconds = null
     return:
       type: Meadow.Hardware.TimeScaleFactor
-    content.vb: Microseconds = 1000000UI
+    content.vb: Microseconds = Nothing
   modifiers.csharp:
   - public
   - const
@@ -124,10 +124,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Nanoseconds = 1000000000U
+    content: Nanoseconds = null
     return:
       type: Meadow.Hardware.TimeScaleFactor
-    content.vb: Nanoseconds = 1000000000UI
+    content.vb: Nanoseconds = Nothing
   modifiers.csharp:
   - public
   - const

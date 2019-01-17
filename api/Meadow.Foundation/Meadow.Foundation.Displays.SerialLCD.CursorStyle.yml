@@ -30,8 +30,8 @@ items:
   summary: "\nDescribe the cursor style to be displayed.\n"
   example: []
   syntax:
-    content: 'public enum CursorStyle : int'
-    content.vb: Public Enum CursorStyle As Integer
+    content: public enum CursorStyle
+    content.vb: Public Enum CursorStyle
   modifiers.csharp:
   - public
   - enum
@@ -61,10 +61,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: UnderlineOn = null
+    content: UnderlineOn = 14
     return:
       type: Meadow.Foundation.Displays.SerialLCD.CursorStyle
-    content.vb: UnderlineOn = Nothing
   modifiers.csharp:
   - public
   - const
@@ -94,10 +93,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: UnderlineOff = null
+    content: UnderlineOff = 12
     return:
       type: Meadow.Foundation.Displays.SerialLCD.CursorStyle
-    content.vb: UnderlineOff = Nothing
   modifiers.csharp:
   - public
   - const
@@ -127,10 +125,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: BlinkingBoxOn = null
+    content: BlinkingBoxOn = 13
     return:
       type: Meadow.Foundation.Displays.SerialLCD.CursorStyle
-    content.vb: BlinkingBoxOn = Nothing
   modifiers.csharp:
   - public
   - const
@@ -160,10 +157,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: BlinkingBoxOff = null
+    content: BlinkingBoxOff = 12
     return:
       type: Meadow.Foundation.Displays.SerialLCD.CursorStyle
-    content.vb: BlinkingBoxOff = Nothing
   modifiers.csharp:
   - public
   - const

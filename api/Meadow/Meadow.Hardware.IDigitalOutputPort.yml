@@ -32,7 +32,7 @@ items:
           Inherits IDigitalPort
   inheritedMembers:
   - Meadow.Hardware.IDigitalPort.State
-  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.Direction
   - Meadow.Hardware.IPort.SignalType
   modifiers.csharp:
   - public
@@ -87,12 +87,12 @@ references:
   name: State
   nameWithType: IDigitalPort.State
   fullName: Meadow.Hardware.IDigitalPort.State
-- uid: Meadow.Hardware.IPort.DirectionType
-  commentId: P:Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.IPort.Direction
+  commentId: P:Meadow.Hardware.IPort.Direction
   parent: Meadow.Hardware.IPort
-  name: DirectionType
-  nameWithType: IPort.DirectionType
-  fullName: Meadow.Hardware.IPort.DirectionType
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
 - uid: Meadow.Hardware.IPort.SignalType
   commentId: P:Meadow.Hardware.IPort.SignalType
   parent: Meadow.Hardware.IPort

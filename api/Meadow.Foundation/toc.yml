@@ -97,6 +97,8 @@
     name: ILI9341
   - uid: Meadow.Foundation.Displays.ITextDisplay
     name: ITextDisplay
+  - uid: Meadow.Foundation.Displays.PCD8544
+    name: PCD8544
   - uid: Meadow.Foundation.Displays.S6D02A1
     name: S6D02A1
   - uid: Meadow.Foundation.Displays.SerialLCD
@@ -115,12 +117,16 @@
     name: SPIDisplayBase
   - uid: Meadow.Foundation.Displays.SSD1306
     name: SSD1306
+  - uid: Meadow.Foundation.Displays.SSD1306.ConnectionType
+    name: SSD1306.ConnectionType
   - uid: Meadow.Foundation.Displays.SSD1306.DisplayType
     name: SSD1306.DisplayType
   - uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection
     name: SSD1306.ScrollDirection
   - uid: Meadow.Foundation.Displays.SSD1331
     name: SSD1331
+  - uid: Meadow.Foundation.Displays.SSD1351
+    name: SSD1351
   - uid: Meadow.Foundation.Displays.ST7735
     name: ST7735
   - uid: Meadow.Foundation.Displays.ST7735.DisplayType
@@ -520,6 +526,14 @@
     name: AnalogTemperature.Calibration
   - uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
     name: AnalogTemperature.KnownSensorType
+  - uid: Meadow.Foundation.Sensors.Temperature.DS18B20
+    name: DS18B20
+  - uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+    name: DS18B20.BusModeType
+  - uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+    name: DS18B20.Commands
+  - uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+    name: DS18B20.ScratchPad
 - uid: Meadow.Foundation.Servos
   name: Meadow.Foundation.Servos
   items:
@@ -580,6 +594,13 @@
   items:
   - uid: Netduino.Foundation.Sensors.Motion.FXAS21002.FXAS21002
     name: FXAS21002
+- uid: Netduino.Foundation.Sensors.Temperature
+  name: Netduino.Foundation.Sensors.Temperature
+  items:
+  - uid: Netduino.Foundation.Sensors.Temperature.TMP102
+    name: TMP102
+  - uid: Netduino.Foundation.Sensors.Temperature.TMP102.Resolution
+    name: TMP102.Resolution
 - uid: Netduino.Fountation.Sensors.Light
   name: Netduino.Fountation.Sensors.Light
   items:

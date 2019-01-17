@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.DeviceChannelManager
+  commentId: T:Meadow.Hardware.DeviceChannelManager
+  id: DeviceChannelManager
+  parent: Meadow.Hardware
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DeviceChannelManager
+  nameWithType: DeviceChannelManager
+  fullName: Meadow.Hardware.DeviceChannelManager
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: DeviceChannelManager
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public static class DeviceChannelManager : object'
+    content.vb: >-
+      Public Module DeviceChannelManager
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

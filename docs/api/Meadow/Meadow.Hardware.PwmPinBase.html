@@ -73,7 +73,9 @@
   
   <h1 id="Meadow_Hardware_PwmPinBase" data-uid="Meadow.Hardware.PwmPinBase" class="text-break">Class PwmPinBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provides a base implementation for pins that have a Pulse-Width-Modulation
+(PWM) channel.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -85,6 +87,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPwmPin.html">IPwmPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPin.html">IPin</a></div>
@@ -111,55 +114,37 @@
       <a class="xref" href="Meadow.Hardware.DigitalPinBase.html#Meadow_Hardware_DigitalPinBase_PullUpCapable">DigitalPinBase.PullUpCapable</a>
     </div>
     <div>
+      <a class="xref" href="Meadow.Hardware.DigitalPinBase.html#Meadow_Hardware_DigitalPinBase_GPIOManager">DigitalPinBase.GPIOManager</a>
+    </div>
+    <div>
       <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Name">PinBase.Name</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Address">PinBase.Address</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Key">PinBase.Key</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_PwmPinBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PwmPinBase : DigitalPinBase, IDigitalChannel, IPwmPin, IPin, IPwmChannel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PwmPinBase : DigitalPinBase, IDigitalPin, IDigitalChannel, IPwmPin, IPin, IPwmChannel</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPinBase__ctor_System_String_System_UInt32_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPinBase.%23ctor(System.String%2CSystem.UInt32%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPinBase__ctor_System_String_System_Object_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPinBase.%23ctor(System.String%2CSystem.Object%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L9">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L21">View Source</a>
   </span>
   <a id="Meadow_Hardware_PwmPinBase__ctor_" data-uid="Meadow.Hardware.PwmPinBase.#ctor*"></a>
-  <h4 id="Meadow_Hardware_PwmPinBase__ctor_System_String_System_UInt32_System_Double_System_Double_" data-uid="Meadow.Hardware.PwmPinBase.#ctor(System.String,System.UInt32,System.Double,System.Double)">PwmPinBase(String, UInt32, Double, Double)</h4>
+  <h4 id="Meadow_Hardware_PwmPinBase__ctor_System_String_System_Object_System_Double_System_Double_" data-uid="Meadow.Hardware.PwmPinBase.#ctor(System.String,System.Object,System.Double,System.Double)">PwmPinBase(String, Object, Double, Double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PwmPinBase(string name, uint address, double minimumFrequency, double maximumFrequency)</code></pre>
+    <pre><code class="lang-csharp hljs">protected PwmPinBase(string name, object key, double minimumFrequency, double maximumFrequency)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,8 +162,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">address</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
       <tr>
@@ -200,11 +185,12 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPinBase_MaximumFrequency.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPinBase.MaximumFrequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L7">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L19">View Source</a>
   </span>
   <a id="Meadow_Hardware_PwmPinBase_MaximumFrequency_" data-uid="Meadow.Hardware.PwmPinBase.MaximumFrequency*"></a>
   <h4 id="Meadow_Hardware_PwmPinBase_MaximumFrequency" data-uid="Meadow.Hardware.PwmPinBase.MaximumFrequency">MaximumFrequency</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Describes the maximum frequency the PWM channel can generate.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -221,7 +207,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The maximum frequency.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -230,11 +217,12 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPinBase_MinimumFrequency.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPinBase.MinimumFrequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L6">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L14">View Source</a>
   </span>
   <a id="Meadow_Hardware_PwmPinBase_MinimumFrequency_" data-uid="Meadow.Hardware.PwmPinBase.MinimumFrequency*"></a>
   <h4 id="Meadow_Hardware_PwmPinBase_MinimumFrequency" data-uid="Meadow.Hardware.PwmPinBase.MinimumFrequency">MinimumFrequency</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Describes the minimum frequency the PWM channel can generate.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -251,11 +239,15 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The minimum frequency.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a>
+  </div>
   <div>
       <a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a>
   </div>
@@ -279,7 +271,7 @@
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPinBase.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPinBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L4" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

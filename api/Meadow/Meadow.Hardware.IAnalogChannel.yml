@@ -20,10 +20,12 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: IAnalogChannel
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogChannel.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
+  summary: "\nContract for analog communications channels.\n"
+  example: []
   syntax:
     content: public interface IAnalogChannel
     content.vb: Public Interface IAnalogChannel
@@ -51,7 +53,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Precision
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogChannel.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
@@ -78,15 +80,7 @@ references:
   nameWithType: IAnalogChannel.Precision
   fullName: Meadow.Hardware.IAnalogChannel.Precision
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

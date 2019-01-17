@@ -114,16 +114,26 @@ references:
   nameWithType: IDCMotor.Speed
   fullName: Meadow.Foundation.Motors.IDCMotor.Speed
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Motors.IDCMotor.IsNeutral*
   commentId: Overload:Meadow.Foundation.Motors.IDCMotor.IsNeutral
   name: IsNeutral
   nameWithType: IDCMotor.IsNeutral
   fullName: Meadow.Foundation.Motors.IDCMotor.IsNeutral
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

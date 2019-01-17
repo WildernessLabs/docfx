@@ -5,18 +5,25 @@ items:
   id: SSD1306
   parent: Meadow.Foundation.Displays
   children:
+  - Meadow.Foundation.Displays.SSD1306.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32,Meadow.Foundation.Displays.SSD1306.DisplayType)
   - Meadow.Foundation.Displays.SSD1306.#ctor(System.Byte,System.UInt16,Meadow.Foundation.Displays.SSD1306.DisplayType)
   - Meadow.Foundation.Displays.SSD1306.Clear(System.Boolean)
   - Meadow.Foundation.Displays.SSD1306.ColorMode
+  - Meadow.Foundation.Displays.SSD1306.Command
+  - Meadow.Foundation.Displays.SSD1306.connectionType
   - Meadow.Foundation.Displays.SSD1306.Contrast
-  - Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.SSD1306.Data
+  - Meadow.Foundation.Displays.SSD1306.dataCommandPort
   - Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
-  - Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   - Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   - Meadow.Foundation.Displays.SSD1306.Height
   - Meadow.Foundation.Displays.SSD1306.InvertDisplay
+  - Meadow.Foundation.Displays.SSD1306.resetPort
   - Meadow.Foundation.Displays.SSD1306.Show
   - Meadow.Foundation.Displays.SSD1306.Sleep
+  - Meadow.Foundation.Displays.SSD1306.spi
   - Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection)
   - Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection,System.Byte,System.Byte)
   - Meadow.Foundation.Displays.SSD1306.StopScrolling
@@ -35,7 +42,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: SSD1306
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -56,6 +63,13 @@ items:
   - Meadow.Foundation.Displays.IDisplay
   inheritedMembers:
   - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -80,7 +94,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ColorMode
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 64
+    startLine: 70
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -118,7 +132,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Width
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 66
+    startLine: 72
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -156,7 +170,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Height
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 68
+    startLine: 74
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -176,6 +190,198 @@ items:
   - Public
   - Overrides
   - ReadOnly
+- uid: Meadow.Foundation.Displays.SSD1306.spi
+  commentId: F:Meadow.Foundation.Displays.SSD1306.spi
+  id: spi
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: spi
+  nameWithType: SSD1306.spi
+  fullName: Meadow.Foundation.Displays.SSD1306.spi
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spi
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 79
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nSPI object\n"
+  example: []
+  syntax:
+    content: protected Spi spi
+    return:
+      type: Meadow.Hardware.Spi
+    content.vb: Protected spi As Spi
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.SSD1306.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.SSD1306.dataCommandPort
+  id: dataCommandPort
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: dataCommandPort
+  nameWithType: SSD1306.dataCommandPort
+  fullName: Meadow.Foundation.Displays.SSD1306.dataCommandPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: dataCommandPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 81
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DigitalOutputPort dataCommandPort
+    return:
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Protected dataCommandPort As DigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.SSD1306.resetPort
+  commentId: F:Meadow.Foundation.Displays.SSD1306.resetPort
+  id: resetPort
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: resetPort
+  nameWithType: SSD1306.resetPort
+  fullName: Meadow.Foundation.Displays.SSD1306.resetPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: resetPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 82
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DigitalOutputPort resetPort
+    return:
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Protected resetPort As DigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.SSD1306.connectionType
+  commentId: F:Meadow.Foundation.Displays.SSD1306.connectionType
+  id: connectionType
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: connectionType
+  nameWithType: SSD1306.connectionType
+  fullName: Meadow.Foundation.Displays.SSD1306.connectionType
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: connectionType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 83
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected SSD1306.ConnectionType connectionType
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ConnectionType
+    content.vb: Protected connectionType As SSD1306.ConnectionType
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.SSD1306.Data
+  commentId: F:Meadow.Foundation.Displays.SSD1306.Data
+  id: Data
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: SSD1306.Data
+  fullName: Meadow.Foundation.Displays.SSD1306.Data
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Data
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 84
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected const bool Data = true
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Data As Boolean = True
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: Meadow.Foundation.Displays.SSD1306.Command
+  commentId: F:Meadow.Foundation.Displays.SSD1306.Command
+  id: Command
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: SSD1306.Command
+  fullName: Meadow.Foundation.Displays.SSD1306.Command
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Command
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 85
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected const bool Command = false
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Command As Boolean = False
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
 - uid: Meadow.Foundation.Displays.SSD1306.InvertDisplay
   commentId: P:Meadow.Foundation.Displays.SSD1306.InvertDisplay
   id: InvertDisplay
@@ -194,7 +400,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: InvertDisplay
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 129
+    startLine: 161
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -232,7 +438,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Contrast
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 154
+    startLine: 179
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -269,7 +475,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Sleep
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 168
+    startLine: 193
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -286,6 +492,54 @@ items:
   - public
   - get
   - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.SSD1306.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32,Meadow.Foundation.Displays.SSD1306.DisplayType)
+  commentId: M:Meadow.Foundation.Displays.SSD1306.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32,Meadow.Foundation.Displays.SSD1306.DisplayType)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32,Meadow.Foundation.Displays.SSD1306.DisplayType)'
+  parent: Meadow.Foundation.Displays.SSD1306
+  langs:
+  - csharp
+  - vb
+  name: SSD1306(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32, SSD1306.DisplayType)
+  nameWithType: SSD1306.SSD1306(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32, SSD1306.DisplayType)
+  fullName: Meadow.Foundation.Displays.SSD1306.SSD1306(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.Spi.SPI_module, System.UInt32, Meadow.Foundation.Displays.SSD1306.DisplayType)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 230
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nCreate a new SSD1306 object using the default parameters for\n"
+  remarks: "\nNote that by default, any pixels out of bounds will throw and exception.\nThis can be changed by setting the <seealso cref=\"!:IgnoreOutOfBoundsPixels\"></seealso>\nproperty to true.\n"
+  example: []
+  syntax:
+    content: public SSD1306(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)
+    parameters:
+    - id: chipSelectPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: dcPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: resetPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: spiModule
+      type: Meadow.Hardware.Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+      description: Speed of the SPI bus.
+    - id: displayType
+      type: Meadow.Foundation.Displays.SSD1306.DisplayType
+      description: Type of SSD1306 display (default = 128x64 pixel display).
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI, displayType As SSD1306.DisplayType = SSD1306.DisplayType.OLED128x64)
+  overload: Meadow.Foundation.Displays.SSD1306.#ctor*
+  modifiers.csharp:
+  - public
   modifiers.vb:
   - Public
 - uid: Meadow.Foundation.Displays.SSD1306.#ctor(System.Byte,System.UInt16,Meadow.Foundation.Displays.SSD1306.DisplayType)
@@ -306,7 +560,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: .ctor
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 212
+    startLine: 265
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -314,7 +568,7 @@ items:
   remarks: "\nNote that by default, any pixels out of bounds will throw and exception.\nThis can be changed by setting the <seealso cref=\"!:IgnoreOutOfBoundsPixels\"></seealso>\nproperty to true.\n"
   example: []
   syntax:
-    content: public SSD1306(byte address = null, ushort speed = null, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)
+    content: public SSD1306(byte address = 60, ushort speed = 400, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)
     parameters:
     - id: address
       type: System.Byte
@@ -325,7 +579,7 @@ items:
     - id: displayType
       type: Meadow.Foundation.Displays.SSD1306.DisplayType
       description: Type of SSD1306 display (default = 128x64 pixel display).
-    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, displayType As SSD1306.DisplayType = SSD1306.DisplayType.OLED128x64)
+    content.vb: Public Sub New(address As Byte = 60, speed As UShort = 400, displayType As SSD1306.DisplayType = SSD1306.DisplayType.OLED128x64)
   overload: Meadow.Foundation.Displays.SSD1306.#ctor*
   modifiers.csharp:
   - public
@@ -349,7 +603,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Show
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 270
+    startLine: 357
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -384,7 +638,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Clear
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 291
+    startLine: 387
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -405,16 +659,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,Color)
-  commentId: M:Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,Color)
-  id: DrawPixel(System.Int32,System.Int32,Color)
+- uid: Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  id: DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   parent: Meadow.Foundation.Displays.SSD1306
   langs:
   - csharp
   - vb
   name: DrawPixel(Int32, Int32, Color)
   nameWithType: SSD1306.DrawPixel(Int32, Int32, Color)
-  fullName: Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32, System.Int32, Color)
+  fullName: Meadow.Foundation.Displays.SSD1306.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
   type: Method
   source:
     remote:
@@ -423,7 +677,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: DrawPixel
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 299
+    startLine: 395
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -435,8 +689,9 @@ items:
     - id: y
       type: System.Int32
     - id: color
-      type: Color
+      type: System.Drawing.Color
     content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   overload: Meadow.Foundation.Displays.SSD1306.DrawPixel*
   modifiers.csharp:
   - public
@@ -462,7 +717,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: DrawPixel
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 312
+    startLine: 408
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -507,7 +762,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: DrawBitmap
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 350
+    startLine: 478
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -547,16 +802,16 @@ items:
   - Overrides
   fullName.vb: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
-- uid: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
-  commentId: M:Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
-  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+- uid: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   parent: Meadow.Foundation.Displays.SSD1306
   langs:
   - csharp
   - vb
   name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
   nameWithType: SSD1306.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  fullName: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  fullName: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
   type: Method
   source:
     remote:
@@ -565,7 +820,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: DrawBitmap
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 372
+    startLine: 500
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -583,8 +838,9 @@ items:
     - id: bitmap
       type: System.Byte[]
     - id: color
-      type: Color
+      type: System.Drawing.Color
     content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   overload: Meadow.Foundation.Displays.SSD1306.DrawBitmap*
   nameWithType.vb: SSD1306.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
   modifiers.csharp:
@@ -593,7 +849,7 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-  fullName.vb: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.SSD1306.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
 - uid: Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection)
   commentId: M:Meadow.Foundation.Displays.SSD1306.StartScrolling(Meadow.Foundation.Displays.SSD1306.ScrollDirection)
@@ -613,7 +869,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: StartScrolling
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 381
+    startLine: 509
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -649,7 +905,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: StartScrolling
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 396
+    startLine: 524
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -692,7 +948,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: StopScrolling
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 432
+    startLine: 560
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -714,6 +970,8 @@ references:
   nameWithType: Meadow.Foundation.Displays
   fullName: Meadow.Foundation.Displays
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -736,6 +994,291 @@ references:
   name: IgnoreOutOfBoundsPixels
   nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
   fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
   commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -765,6 +1308,8 @@ references:
   nameWithType: SSD1306.Width
   fullName: Meadow.Foundation.Displays.SSD1306.Width
 - uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
   isExternal: true
   name: UInt32
   nameWithType: UInt32
@@ -780,22 +1325,49 @@ references:
   name: Height
   nameWithType: SSD1306.Height
   fullName: Meadow.Foundation.Displays.SSD1306.Height
+- uid: Meadow.Hardware.Spi
+  commentId: T:Meadow.Hardware.Spi
+  parent: Meadow.Hardware
+  name: Spi
+  nameWithType: Spi
+  fullName: Meadow.Hardware.Spi
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
+  parent: Meadow.Hardware
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ConnectionType
+  parent: Meadow.Foundation.Displays
+  name: SSD1306.ConnectionType
+  nameWithType: SSD1306.ConnectionType
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: Meadow.Foundation.Displays.SSD1306.InvertDisplay*
   commentId: Overload:Meadow.Foundation.Displays.SSD1306.InvertDisplay
   name: InvertDisplay
   nameWithType: SSD1306.InvertDisplay
   fullName: Meadow.Foundation.Displays.SSD1306.InvertDisplay
-- uid: System.Boolean
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: Meadow.Foundation.Displays.SSD1306.Contrast*
   commentId: Overload:Meadow.Foundation.Displays.SSD1306.Contrast
   name: Contrast
   nameWithType: SSD1306.Contrast
   fullName: Meadow.Foundation.Displays.SSD1306.Contrast
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
@@ -810,17 +1382,31 @@ references:
   name: SSD1306
   nameWithType: SSD1306.SSD1306
   fullName: Meadow.Foundation.Displays.SSD1306.SSD1306
-- uid: System.UInt16
-  isExternal: true
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
 - uid: Meadow.Foundation.Displays.SSD1306.DisplayType
   commentId: T:Meadow.Foundation.Displays.SSD1306.DisplayType
   parent: Meadow.Foundation.Displays
   name: SSD1306.DisplayType
   nameWithType: SSD1306.DisplayType
   fullName: Meadow.Foundation.Displays.SSD1306.DisplayType
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
 - uid: Meadow.Foundation.Displays.DisplayBase.Show
   commentId: M:Meadow.Foundation.Displays.DisplayBase.Show
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -898,21 +1484,102 @@ references:
   name: Clear
   nameWithType: SSD1306.Clear
   fullName: Meadow.Foundation.Displays.SSD1306.Clear
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Meadow.Foundation.Displays.SSD1306.DrawPixel*
   commentId: Overload:Meadow.Foundation.Displays.SSD1306.DrawPixel
   name: DrawPixel
   nameWithType: SSD1306.DrawPixel
   fullName: Meadow.Foundation.Displays.SSD1306.DrawPixel
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
   isExternal: true
   name: Color
   nameWithType: Color
-  fullName: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
 - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -1147,6 +1814,134 @@ references:
   name: DisplayBase.BitmapMode
   nameWithType: DisplayBase.BitmapMode
   fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Meadow.Foundation.Displays.SSD1306.StartScrolling*
   commentId: Overload:Meadow.Foundation.Displays.SSD1306.StartScrolling
   name: StartScrolling

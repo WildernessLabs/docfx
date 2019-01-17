@@ -30,8 +30,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum InterruptMode
-    content.vb: Public Enum InterruptMode
+    content: 'public enum InterruptMode : int'
+    content.vb: Public Enum InterruptMode As Integer
   modifiers.csharp:
   - public
   - enum
@@ -61,9 +61,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptNone = 0
+    content: InterruptNone = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptNone = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,9 +94,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLow = 1
+    content: InterruptEdgeLow = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptEdgeLow = Nothing
   modifiers.csharp:
   - public
   - const
@@ -125,9 +127,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeHigh = 2
+    content: InterruptEdgeHigh = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptEdgeHigh = Nothing
   modifiers.csharp:
   - public
   - const
@@ -157,9 +160,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeBoth = 3
+    content: InterruptEdgeBoth = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptEdgeBoth = Nothing
   modifiers.csharp:
   - public
   - const
@@ -189,9 +193,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLevelHigh = 4
+    content: InterruptEdgeLevelHigh = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptEdgeLevelHigh = Nothing
   modifiers.csharp:
   - public
   - const
@@ -221,9 +226,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLevelLow = 5
+    content: InterruptEdgeLevelLow = null
     return:
       type: Meadow.Hardware.InterruptMode
+    content.vb: InterruptEdgeLevelLow = Nothing
   modifiers.csharp:
   - public
   - const

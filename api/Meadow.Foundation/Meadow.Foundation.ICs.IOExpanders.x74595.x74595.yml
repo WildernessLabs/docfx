@@ -362,16 +362,26 @@ references:
   nameWithType: Meadow.Foundation.ICs.IOExpanders.x74595
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor*
   commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor
   name: x74595
   nameWithType: x74595.x74595
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.x74595
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -393,6 +403,8 @@ references:
   nameWithType: x74595.Item
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -420,6 +432,8 @@ references:
   nameWithType: x74595.WriteToPort
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

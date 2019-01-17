@@ -156,10 +156,18 @@ references:
   nameWithType: IPressureSensor.Pressure
   fullName: Meadow.Foundation.Sensors.IPressureSensor.Pressure
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors.IPressureSensor.PressureChangeNotificationThreshold*
   commentId: Overload:Meadow.Foundation.Sensors.IPressureSensor.PressureChangeNotificationThreshold
   name: PressureChangeNotificationThreshold

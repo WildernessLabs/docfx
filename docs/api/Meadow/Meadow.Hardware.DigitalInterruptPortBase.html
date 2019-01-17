@@ -73,7 +73,9 @@
   
   <h1 id="Meadow_Hardware_DigitalInterruptPortBase" data-uid="Meadow.Hardware.DigitalInterruptPortBase" class="text-break">Class DigitalInterruptPortBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provides a base implementation for digital interrupt ports; digital input
+ports that notify on change.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -104,7 +106,7 @@
       <a class="xref" href="Meadow.Hardware.DigitalInputPortBase.html#Meadow_Hardware_DigitalInputPortBase_RaiseChanged_System_Boolean_">DigitalInputPortBase.RaiseChanged(Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_DirectionType">DigitalPortBase.DirectionType</a>
+      <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_Direction">DigitalPortBase.Direction</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase__direction">DigitalPortBase._direction</a>
@@ -113,31 +115,7 @@
       <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_SignalType">DigitalPortBase.SignalType</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase_State">DigitalPortBase.State</a>
-    </div>
-    <div>
       <a class="xref" href="Meadow.Hardware.DigitalPortBase.html#Meadow_Hardware_DigitalPortBase__state">DigitalPortBase._state</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
@@ -153,7 +131,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase__ctor.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L6">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L10">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalInterruptPortBase__ctor_" data-uid="Meadow.Hardware.DigitalInterruptPortBase.#ctor*"></a>
   <h4 id="Meadow_Hardware_DigitalInterruptPortBase__ctor" data-uid="Meadow.Hardware.DigitalInterruptPortBase.#ctor">DigitalInterruptPortBase()</h4>
@@ -167,48 +145,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase_InterrupEnabled.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase_State.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L12">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L14">View Source</a>
   </span>
-  <a id="Meadow_Hardware_DigitalInterruptPortBase_InterrupEnabled_" data-uid="Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled*"></a>
-  <h4 id="Meadow_Hardware_DigitalInterruptPortBase_InterrupEnabled" data-uid="Meadow.Hardware.DigitalInterruptPortBase.InterrupEnabled">InterrupEnabled</h4>
+  <a id="Meadow_Hardware_DigitalInterruptPortBase_State_" data-uid="Meadow.Hardware.DigitalInterruptPortBase.State*"></a>
+  <h4 id="Meadow_Hardware_DigitalInterruptPortBase_State" data-uid="Meadow.Hardware.DigitalInterruptPortBase.State">State</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool InterrupEnabled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase_Value.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L10">View Source</a>
-  </span>
-  <a id="Meadow_Hardware_DigitalInterruptPortBase_Value_" data-uid="Meadow.Hardware.DigitalInterruptPortBase.Value*"></a>
-  <h4 id="Meadow_Hardware_DigitalInterruptPortBase_Value" data-uid="Meadow.Hardware.DigitalInterruptPortBase.Value">Value</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Value { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool State { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +174,39 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Meadow.Hardware.DigitalInputPortBase.html#Meadow_Hardware_DigitalInputPortBase_Value">DigitalInputPortBase.Value</a></div>
+  <div><a class="xref" href="Meadow.Hardware.DigitalInputPortBase.html#Meadow_Hardware_DigitalInputPortBase_State">DigitalInputPortBase.State</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase_Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase.Meadow%23Hardware%23IDigitalInterruptPort%23InterrupEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L16">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalInterruptPortBase_Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled_" data-uid="Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled*"></a>
+  <h4 id="Meadow_Hardware_DigitalInterruptPortBase_Meadow_Hardware_IDigitalInterruptPort_InterrupEnabled" data-uid="Meadow.Hardware.DigitalInterruptPortBase.Meadow#Hardware#IDigitalInterruptPort#InterrupEnabled">IDigitalInterruptPort.InterrupEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IDigitalInterruptPort.InterrupEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Meadow.Hardware.IDigitalInterruptPort.html">IDigitalInterruptPort</a>
@@ -251,7 +231,7 @@
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalInterruptPortBase.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalInterruptPortBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L4" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

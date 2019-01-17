@@ -61,7 +61,7 @@ items:
   syntax:
     content: event EventHandler PressStarted
     return:
-      type: EventHandler
+      type: System.EventHandler
     content.vb: Event PressStarted As EventHandler
 - uid: Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
   commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
@@ -88,7 +88,7 @@ items:
   syntax:
     content: event EventHandler PressEnded
     return:
-      type: EventHandler
+      type: System.EventHandler
     content.vb: Event PressEnded As EventHandler
 - uid: Meadow.Foundation.Sensors.Buttons.IButton.Clicked
   commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.Clicked
@@ -115,7 +115,7 @@ items:
   syntax:
     content: event EventHandler Clicked
     return:
-      type: EventHandler
+      type: System.EventHandler
     content.vb: Event Clicked As EventHandler
 - uid: Meadow.Foundation.Sensors.Buttons.IButton.State
   commentId: P:Meadow.Foundation.Sensors.Buttons.IButton.State
@@ -158,17 +158,27 @@ references:
   name: Meadow.Foundation.Sensors.Buttons
   nameWithType: Meadow.Foundation.Sensors.Buttons
   fullName: Meadow.Foundation.Sensors.Buttons
-- uid: EventHandler
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
   isExternal: true
   name: EventHandler
   nameWithType: EventHandler
-  fullName: EventHandler
+  fullName: System.EventHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors.Buttons.IButton.State*
   commentId: Overload:Meadow.Foundation.Sensors.Buttons.IButton.State
   name: State
   nameWithType: IButton.State
   fullName: Meadow.Foundation.Sensors.Buttons.IButton.State
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

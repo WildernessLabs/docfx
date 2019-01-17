@@ -78,9 +78,9 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Meadow.AppBase-2.html">AppBase&lt;D, A&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Meadow.DeviceBase.html">DeviceBase</a></h4>
-      <section><p>TODO: internal?</p>
+      <section><p>Provides a base implementation for the Meadow IApp contract. Use this 
+class for Meadow applications to get strongly-typed access to the current
+device information.</p>
 </section>
       <h4><a class="xref" href="Meadow.DeviceCapabilities.html">DeviceCapabilities</a></h4>
       <section></section>
@@ -93,17 +93,18 @@
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Meadow.IApp.html">IApp</a></h4>
-      <section><p>TODO: Is this necessary? We&apos;ve decided that we want to use the app model, 
-as opposed to allowing users to create <code>Static void main()</code> implementations,
-but if we type the App.Current to the user&apos;s app somehow, we can potentially
-get rid of this.</p>
+      <section><p>Contract for Meadow applications. Provides a way for the Meadow OS to 
+communicate with Meadow applications when system events are happening.</p>
 </section>
       <h4><a class="xref" href="Meadow.IDevice.html">IDevice</a></h4>
+      <section><p>Contract for Meadow devices.</p>
+</section>
+      <h4><a class="xref" href="Meadow.IGPIOManager.html">IGPIOManager</a></h4>
       <section></section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Meadow.ByteOrder.html">ByteOrder</a></h4>
-      <section><p>Indicate the byte ordering for muli-byte words.</p>
+      <section><p>Describes the byte ordering for muli-byte words.</p>
 </section>
 </article>
           </div>

@@ -119,7 +119,7 @@
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_System_Boolean_">EPDColorBase.Clear(Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_Color_System_Boolean_">EPDColorBase.Clear(Color, Boolean)</a>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_System_Drawing_Color_System_Boolean_">EPDColorBase.Clear(Color, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_Clear_System_Boolean_System_Boolean_">EPDColorBase.Clear(Boolean, Boolean)</a>
@@ -128,7 +128,7 @@
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_">EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_">EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_">EPDColorBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Boolean_">EPDColorBase.DrawPixel(Int32, Int32, Boolean)</a>
@@ -137,7 +137,7 @@
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawColoredPixel_System_Int32_System_Int32_System_Boolean_">EPDColorBase.DrawColoredPixel(Int32, Int32, Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_Color_">EPDColorBase.DrawPixel(Int32, Int32, Color)</a>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_">EPDColorBase.DrawPixel(Int32, Int32, Color)</a>
     </div>
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.EPDColorBase.html#Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Byte_System_Byte_System_Byte_">EPDColorBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)</a>
@@ -301,6 +301,27 @@
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_IgnoreOutOfBoundsPixels">DisplayBase.IgnoreOutOfBoundsPixels</a>
     </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
   <h6><strong>Assembly</strong>: Displays.WaveShare_ePaper.dll</h6>
@@ -323,7 +344,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EPD2i13b(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public EPD2i13b(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

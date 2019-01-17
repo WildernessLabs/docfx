@@ -22,13 +22,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ConnectionMethodType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
+  summary: "\nDescrbies the Wifi connection method type.\n"
+  example: []
   syntax:
-    content: public enum ConnectionMethodType
-    content.vb: Public Enum ConnectionMethodType
+    content: 'public enum ConnectionMethodType : int'
+    content.vb: Public Enum ConnectionMethodType As Integer
   modifiers.csharp:
   - public
   - enum
@@ -53,16 +55,17 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Default
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   summary: "\nDefault.\n"
   example: []
   syntax:
-    content: Default = 0
+    content: Default = null
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
+    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
@@ -87,16 +90,17 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WpsPin
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   summary: "\nWPS pin.\n"
   example: []
   syntax:
-    content: WpsPin = 1
+    content: WpsPin = null
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
+    content.vb: WpsPin = Nothing
   modifiers.csharp:
   - public
   - const
@@ -121,16 +125,17 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WpsPushButton
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   summary: "\nWPS protected setup.\n"
   example: []
   syntax:
-    content: WpsPushButton = 2
+    content: WpsPushButton = null
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
+    content.vb: WpsPushButton = Nothing
   modifiers.csharp:
   - public
   - const

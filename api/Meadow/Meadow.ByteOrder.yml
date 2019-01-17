@@ -25,11 +25,11 @@ items:
   assemblies:
   - Meadow.Core
   namespace: Meadow
-  summary: "\nIndicate the byte ordering for muli-byte words.\n"
+  summary: "\nDescribes the byte ordering for muli-byte words.\n"
   example: []
   syntax:
-    content: public enum ByteOrder
-    content.vb: Public Enum ByteOrder
+    content: 'public enum ByteOrder : int'
+    content.vb: Public Enum ByteOrder As Integer
   modifiers.csharp:
   - public
   - enum

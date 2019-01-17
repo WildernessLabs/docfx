@@ -73,7 +73,9 @@
   
   <h1 id="Meadow_Hardware_Communications_SPIBus" data-uid="Meadow.Hardware.Communications.SPIBus" class="text-break">Class SPIBus
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents an SPI communication bus for communicating to peripherals that 
+implement the SPI protocol.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -84,35 +86,11 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Meadow.Hardware.Communications.ICommunicationBus.html">ICommunicationBus</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.Communications.html">Meadow.Hardware.Communications</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_Communications_SPIBus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SPIBus : ICommunicationBus</code></pre>
+    <pre><code class="lang-csharp hljs">public class SPIBus : object, ICommunicationBus</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -121,7 +99,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_Configuration_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.%23ctor(Meadow.Hardware.Spi.Configuration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L37">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L41">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus__ctor_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_Configuration_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.Configuration)">SPIBus(Spi.Configuration)</h4>
@@ -155,7 +133,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_Byte_System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.%23ctor(Meadow.Hardware.Spi.SPI_module%2CMeadow.Hardware.IDigitalPin%2CSystem.Byte%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L71">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L75">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus__ctor_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_Byte_System_UInt16_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.Byte,System.UInt16)">SPIBus(Spi.SPI_module, IDigitalPin, Byte, UInt16)</h4>
@@ -214,7 +192,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_UInt16_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.%23ctor(Meadow.Hardware.Spi.SPI_module%2CMeadow.Hardware.IDigitalPin%2CSystem.UInt16%2CSystem.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L51">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L55">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus__ctor_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus__ctor_Meadow_Hardware_Spi_SPI_module_Meadow_Hardware_IDigitalPin_System_UInt16_System_Byte_System_Byte_" data-uid="Meadow.Hardware.Communications.SPIBus.#ctor(Meadow.Hardware.Spi.SPI_module,Meadow.Hardware.IDigitalPin,System.UInt16,System.Byte,System.Byte)">SPIBus(Spi.SPI_module, IDigitalPin, UInt16, Byte, Byte)</h4>
@@ -223,7 +201,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SPIBus(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = 1000, byte cpha = 0, byte cpol = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public SPIBus(Spi.SPI_module module, IDigitalPin chipSelect, ushort speed = null, byte cpha = null, byte cpol = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,11 +252,11 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_ReadBytes_System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L246">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L250">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_ReadBytes_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadBytes*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_ReadBytes_System_UInt16_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadBytes(System.UInt16)">ReadBytes(UInt16)</h4>
-  <div class="markdown level1 summary"><p>Read the specified number of bytes from the I2C device.</p>
+  <div class="markdown level1 summary"><p>Read the specified number of bytes from the I2C peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -324,11 +302,11 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_ReadRegister_System_Byte_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L255">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L259">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_ReadRegister_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadRegister*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_ReadRegister_System_Byte_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadRegister(System.Byte)">ReadRegister(Byte)</h4>
-  <div class="markdown level1 summary"><p>Read a registers from the device.</p>
+  <div class="markdown level1 summary"><p>Read a registers from the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -373,11 +351,11 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_ReadRegisters_System_Byte_System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L265">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L269">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_ReadRegisters_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadRegisters*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_ReadRegisters_System_Byte_System_UInt16_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadRegisters(System.Byte,System.UInt16)">ReadRegisters(Byte, UInt16)</h4>
-  <div class="markdown level1 summary"><p>Read one or more registers from the device.</p>
+  <div class="markdown level1 summary"><p>Read one or more registers from the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -428,7 +406,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_ReadUShort_System_Byte_Meadow_ByteOrder_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte%2CMeadow.ByteOrder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L276">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L280">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_ReadUShort_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadUShort*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_ReadUShort_System_Byte_Meadow_ByteOrder_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadUShort(System.Byte,Meadow.ByteOrder)">ReadUShort(Byte, ByteOrder)</h4>
@@ -484,7 +462,7 @@
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_ReadUShorts_System_Byte_System_UInt16_Meadow_ByteOrder_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte%2CSystem.UInt16%2CMeadow.ByteOrder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L289">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L293">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_ReadUShorts_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadUShorts*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_ReadUShorts_System_Byte_System_UInt16_Meadow_ByteOrder_" data-uid="Meadow.Hardware.Communications.SPIBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)">ReadUShorts(Byte, UInt16, ByteOrder)</h4>
@@ -547,11 +525,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteByte_System_Byte_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L134">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L138">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteByte_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteByte*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteByte_System_Byte_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteByte(System.Byte)">WriteByte(Byte)</h4>
-  <div class="markdown level1 summary"><p>Write a single byte to the device.</p>
+  <div class="markdown level1 summary"><p>Write a single byte to the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -581,11 +559,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteBytes_System_Byte___.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L146">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L150">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteBytes_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteBytes*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteBytes_System_Byte___" data-uid="Meadow.Hardware.Communications.SPIBus.WriteBytes(System.Byte[])">WriteBytes(Byte[])</h4>
-  <div class="markdown level1 summary"><p>Write a number of bytes to the device.</p>
+  <div class="markdown level1 summary"><p>Write a number of bytes to the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -618,11 +596,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteRead_System_Byte___System_UInt16_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte%5B%5D%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L233">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L237">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteRead_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRead*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteRead_System_Byte___System_UInt16_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRead(System.Byte[],System.UInt16)">WriteRead(Byte[], UInt16)</h4>
-  <div class="markdown level1 summary"><p>Write data to the device and also read some data from the device.</p>
+  <div class="markdown level1 summary"><p>Write data to the peripheral and also read some data from the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -676,11 +654,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteRegister_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L207">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L211">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteRegister_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRegister*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteRegister_System_Byte_System_Byte_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRegister(System.Byte,System.Byte)">WriteRegister(Byte, Byte)</h4>
-  <div class="markdown level1 summary"><p>Write data a register in the device.</p>
+  <div class="markdown level1 summary"><p>Write data a register in the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -716,7 +694,7 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteRegisters_System_Byte_System_Byte___.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L217">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L221">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteRegisters_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRegisters*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteRegisters_System_Byte_System_Byte___" data-uid="Meadow.Hardware.Communications.SPIBus.WriteRegisters(System.Byte,System.Byte[])">WriteRegisters(Byte, Byte[])</h4>
@@ -755,11 +733,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteUShort_System_Byte_System_UInt16_Meadow_ByteOrder_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte%2CSystem.UInt16%2CMeadow.ByteOrder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L158">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L162">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteUShort_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteUShort*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteUShort_System_Byte_System_UInt16_Meadow_ByteOrder_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)">WriteUShort(Byte, UInt16, ByteOrder)</h4>
-  <div class="markdown level1 summary"><p>Write an unsigned short to the device.</p>
+  <div class="markdown level1 summary"><p>Write an unsigned short to the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -801,11 +779,11 @@ address specified.</p>
     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus_WriteUShorts_System_Byte_System_UInt16___Meadow_ByteOrder_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte%2CSystem.UInt16%5B%5D%2CMeadow.ByteOrder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L183">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L187">View Source</a>
   </span>
   <a id="Meadow_Hardware_Communications_SPIBus_WriteUShorts_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteUShorts*"></a>
   <h4 id="Meadow_Hardware_Communications_SPIBus_WriteUShorts_System_Byte_System_UInt16___Meadow_ByteOrder_" data-uid="Meadow.Hardware.Communications.SPIBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)">WriteUShorts(Byte, UInt16[], ByteOrder)</h4>
-  <div class="markdown level1 summary"><p>Write a number of unsigned shorts to the device.</p>
+  <div class="markdown level1 summary"><p>Write a number of unsigned shorts to the peripheral.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -860,7 +838,7 @@ address specified.</p>
                     <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_Communications_SPIBus.md&amp;value=---%0Auid%3A%20Meadow.Hardware.Communications.SPIBus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/Communications/SpiBus.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

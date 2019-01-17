@@ -80,11 +80,35 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">MCP23008</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.ICs.IOExpanders.MCP23008.html">Meadow.Foundation.ICs.IOExpanders.MCP23008</a></h6>
   <h6><strong>Assembly</strong>: ICs.IOExpanders.MCP23008.dll</h6>
   <h5 id="Meadow_Foundation_ICs_IOExpanders_MCP23008_MCP23008_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MCP23008 : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class MCP23008</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -116,7 +140,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MCP23008(bool pinA0, bool pinA1, bool pinA2, ushort speed = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public MCP23008(bool pinA0, bool pinA1, bool pinA2, ushort speed = 100)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +187,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MCP23008(byte address = null, ushort speed = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public MCP23008(byte address = 32, ushort speed = 100)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -619,7 +643,7 @@ to the output latch (OLAT) register.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EventHandler</span></td>
+        <td><span class="xref">System.EventHandler</span></td>
         <td></td>
       </tr>
     </tbody>

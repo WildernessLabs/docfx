@@ -24,7 +24,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
     startLine: 7
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nDescribes the direction of rotation for a servo.\n"
   example: []
@@ -57,7 +57,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
     startLine: 9
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: Clockwise = 0
@@ -89,7 +89,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
     startLine: 10
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: CounterClockwise = 1
@@ -121,7 +121,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
     startLine: 11
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: None = 2

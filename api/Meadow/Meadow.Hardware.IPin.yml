@@ -5,7 +5,7 @@ items:
   id: IPin
   parent: Meadow.Hardware
   children:
-  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IPin.Key
   - Meadow.Hardware.IPin.Name
   langs:
   - csharp
@@ -67,35 +67,35 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: Meadow.Hardware.IPin.Address
-  commentId: P:Meadow.Hardware.IPin.Address
-  id: Address
+- uid: Meadow.Hardware.IPin.Key
+  commentId: P:Meadow.Hardware.IPin.Key
+  id: Key
   parent: Meadow.Hardware.IPin
   langs:
   - csharp
   - vb
-  name: Address
-  nameWithType: IPin.Address
-  fullName: Meadow.Hardware.IPin.Address
+  name: Key
+  nameWithType: IPin.Key
+  fullName: Meadow.Hardware.IPin.Key
   type: Property
   source:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPin.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: Address
+    id: Key
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPin.cs
     startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: uint Address { get; }
+    content: object Key { get; }
     parameters: []
     return:
-      type: System.UInt32
-    content.vb: ReadOnly Property Address As UInteger
-  overload: Meadow.Hardware.IPin.Address*
+      type: System.Object
+    content.vb: ReadOnly Property Key As Object
+  overload: Meadow.Hardware.IPin.Key*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -112,27 +112,25 @@ references:
   nameWithType: IPin.Name
   fullName: Meadow.Hardware.IPin.Name
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Meadow.Hardware.IPin.Key*
+  commentId: Overload:Meadow.Hardware.IPin.Key
+  name: Key
+  nameWithType: IPin.Key
+  fullName: Meadow.Hardware.IPin.Key
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: Meadow.Hardware.IPin.Address*
-  commentId: Overload:Meadow.Hardware.IPin.Address
-  name: Address
-  nameWithType: IPin.Address
-  fullName: Meadow.Hardware.IPin.Address
-- uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
-  isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32

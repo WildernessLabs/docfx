@@ -27,8 +27,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum Handshake
-    content.vb: Public Enum Handshake
+    content: 'public enum Handshake : int'
+    content.vb: Public Enum Handshake As Integer
   modifiers.csharp:
   - public
   - enum
@@ -58,9 +58,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: None = 0
+    content: None = null
     return:
       type: Meadow.Hardware.Handshake
+    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -90,9 +91,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: RequestToSend = 6
+    content: RequestToSend = null
     return:
       type: Meadow.Hardware.Handshake
+    content.vb: RequestToSend = Nothing
   modifiers.csharp:
   - public
   - const
@@ -122,9 +124,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: XOnXOff = 24
+    content: XOnXOff = null
     return:
       type: Meadow.Hardware.Handshake
+    content.vb: XOnXOff = Nothing
   modifiers.csharp:
   - public
   - const

@@ -22,7 +22,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
     startLine: 4
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: 'public class Servo : ServoBase, IServo'
@@ -74,7 +74,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
     startLine: 6
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public Servo(IPwmPort pwm, ServoConfig config)
@@ -96,6 +96,8 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -326,6 +328,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.Servo.#ctor*
   commentId: Overload:Meadow.Foundation.Servos.Servo.#ctor
   name: Servo

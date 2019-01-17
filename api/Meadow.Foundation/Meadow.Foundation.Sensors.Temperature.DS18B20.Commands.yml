@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  id: DS18B20.Commands
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyEEPROMToScratchPad
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyScratchPadToEEPROM
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.MatchID
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadID
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadScratchPad
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.SkipROM
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.StartConversion
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.WriteScratchPad
+  langs:
+  - csharp
+  - vb
+  name: DS18B20.Commands
+  nameWithType: DS18B20.Commands
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Commands
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 36
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nConstants representing the various commands that can be issued to\nthe DS18B20.\n"
+  example: []
+  syntax:
+    content: 'protected class Commands : object'
+    content.vb: >-
+      Protected Class Commands
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.StartConversion
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.StartConversion
+  id: StartConversion
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: StartConversion
+  nameWithType: DS18B20.Commands.StartConversion
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.StartConversion
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartConversion
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 42
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nStart the A to D conversion of the current temperature into\ndigital value.\n"
+  example: []
+  syntax:
+    content: public const byte StartConversion = null
+    return:
+      type: System.Byte
+    content.vb: Public Const StartConversion As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadScratchPad
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadScratchPad
+  id: ReadScratchPad
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: ReadScratchPad
+  nameWithType: DS18B20.Commands.ReadScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadScratchPad
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadScratchPad
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 51
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nRead bytes from the scratch pad.\n"
+  remarks: "\nThis command can be used to read the temperature, alarms and\nconfiguration bytes from the scratch pad.\n"
+  example: []
+  syntax:
+    content: public const byte ReadScratchPad = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadScratchPad As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.WriteScratchPad
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.WriteScratchPad
+  id: WriteScratchPad
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: WriteScratchPad
+  nameWithType: DS18B20.Commands.WriteScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.WriteScratchPad
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteScratchPad
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 63
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nWrite data to the scratch pad.\n"
+  remarks: "\nWrite the temperature high, and low alarms along with the device\nconfiguration byte to the scratch pad.\n\nNote that all three bytes must be written with this command in order\nto prevent the data from being corrupted.\n"
+  example: []
+  syntax:
+    content: public const byte WriteScratchPad = null
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteScratchPad As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.SkipROM
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.SkipROM
+  id: SkipROM
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: SkipROM
+  nameWithType: DS18B20.Commands.SkipROM
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.SkipROM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SkipROM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 74
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nIssue the following command(s) to all devices on the bus.\n"
+  remarks: "\nThis command is useful in two cases:\n- Writing the same command to all devices (say StartConversion)\n- When there is only one device on the bus, the device ID does\n  not have to be written.\n"
+  example: []
+  syntax:
+    content: public const byte SkipROM = null
+    return:
+      type: System.Byte
+    content.vb: Public Const SkipROM As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadID
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadID
+  id: ReadID
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: ReadID
+  nameWithType: DS18B20.Commands.ReadID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.ReadID
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 83
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nRetrieve the device ID.\n"
+  remarks: "\nThis is useful when there is only one device on the bus and allows\nthe device ID to be retrieved.\n"
+  example: []
+  syntax:
+    content: public const byte ReadID = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadID As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.MatchID
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.MatchID
+  id: MatchID
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: MatchID
+  nameWithType: DS18B20.Commands.MatchID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.MatchID
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MatchID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 92
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nInform the devices on the bus that the following commands (up to a reset)\nare to be processed by a specific device.\n"
+  remarks: "\nThe device ID (64-bits) should follow this command.\n"
+  example: []
+  syntax:
+    content: public const byte MatchID = null
+    return:
+      type: System.Byte
+    content.vb: Public Const MatchID As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyScratchPadToEEPROM
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyScratchPadToEEPROM
+  id: CopyScratchPadToEEPROM
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: CopyScratchPadToEEPROM
+  nameWithType: DS18B20.Commands.CopyScratchPadToEEPROM
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyScratchPadToEEPROM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CopyScratchPadToEEPROM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 102
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nCopy the alarm high, alarm low and configuration bytes from the\nscratch pad into the EEPROM.\n"
+  remarks: "\nThis can be used to store the data in to the EEPROM to survive a\npower on reset.\n"
+  example: []
+  syntax:
+    content: public const byte CopyScratchPadToEEPROM = null
+    return:
+      type: System.Byte
+    content.vb: Public Const CopyScratchPadToEEPROM As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyEEPROMToScratchPad
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyEEPROMToScratchPad
+  id: CopyEEPROMToScratchPad
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  langs:
+  - csharp
+  - vb
+  name: CopyEEPROMToScratchPad
+  nameWithType: DS18B20.Commands.CopyEEPROMToScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands.CopyEEPROMToScratchPad
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CopyEEPROMToScratchPad
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 111
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nCopy the alarm high, alarm low and configuration bytes from the\nEEPROM into the scratch pad.\n"
+  remarks: "\nCopy the stored data from the EEPROM into the scratch pad.\n"
+  example: []
+  syntax:
+    content: public const byte CopyEEPROMToScratchPad = null
+    return:
+      type: System.Byte
+    content.vb: Public Const CopyEEPROMToScratchPad As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

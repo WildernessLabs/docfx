@@ -48,7 +48,7 @@ items:
   - Meadow.Hardware.IPort
   inheritedMembers:
   - Meadow.Hardware.DigitalOutputPortBase._initialState
-  - Meadow.Hardware.DigitalPortBase.DirectionType
+  - Meadow.Hardware.DigitalPortBase.Direction
   - Meadow.Hardware.DigitalPortBase._direction
   - Meadow.Hardware.DigitalPortBase.SignalType
   - Meadow.Hardware.DigitalPortBase._state
@@ -237,6 +237,8 @@ references:
   nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
   fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -277,12 +279,12 @@ references:
   name: _initialState
   nameWithType: DigitalOutputPortBase._initialState
   fullName: Meadow.Hardware.DigitalOutputPortBase._initialState
-- uid: Meadow.Hardware.DigitalPortBase.DirectionType
-  commentId: P:Meadow.Hardware.DigitalPortBase.DirectionType
+- uid: Meadow.Hardware.DigitalPortBase.Direction
+  commentId: P:Meadow.Hardware.DigitalPortBase.Direction
   parent: Meadow.Hardware.DigitalPortBase
-  name: DirectionType
-  nameWithType: DigitalPortBase.DirectionType
-  fullName: Meadow.Hardware.DigitalPortBase.DirectionType
+  name: Direction
+  nameWithType: DigitalPortBase.Direction
+  fullName: Meadow.Hardware.DigitalPortBase.Direction
 - uid: Meadow.Hardware.DigitalPortBase._direction
   commentId: F:Meadow.Hardware.DigitalPortBase._direction
   parent: Meadow.Hardware.DigitalPortBase
@@ -301,12 +303,20 @@ references:
   name: _state
   nameWithType: DigitalPortBase._state
   fullName: Meadow.Hardware.DigitalPortBase._state
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
   name: Meadow.Hardware
   nameWithType: Meadow.Hardware
   fullName: Meadow.Hardware
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
@@ -329,6 +339,8 @@ references:
   nameWithType: DigitalOutputPort.State
   fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -44,6 +44,8 @@ references:
   nameWithType: Netduino.Foundation.Sensors.Distance
   fullName: Netduino.Foundation.Sensors.Distance
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -54,3 +56,9 @@ references:
   name: DistanceEventArgs
   nameWithType: DistanceEventArgs
   fullName: Netduino.Foundation.Sensors.Distance.DistanceEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -23,15 +23,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ScrollDirection
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
   summary: "\nAllow the programmer to set the scroll direction.\n"
   example: []
   syntax:
-    content: 'public enum ScrollDirection : int'
-    content.vb: Public Enum ScrollDirection As Integer
+    content: public enum ScrollDirection
+    content.vb: Public Enum ScrollDirection
   modifiers.csharp:
   - public
   - enum
@@ -56,7 +56,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Left
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -124,7 +124,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: RightAndVertical
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 31
+    startLine: 30
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
@@ -158,7 +158,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: LeftAndVertical
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
-    startLine: 36
+    startLine: 34
   assemblies:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays

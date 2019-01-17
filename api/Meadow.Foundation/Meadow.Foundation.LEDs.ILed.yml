@@ -132,7 +132,15 @@ references:
   nameWithType: ILed.IsOn
   fullName: Meadow.Foundation.LEDs.ILed.IsOn
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

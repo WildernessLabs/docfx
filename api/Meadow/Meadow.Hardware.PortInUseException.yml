@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.PortInUseException
+  commentId: T:Meadow.Hardware.PortInUseException
+  id: PortInUseException
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.PortInUseException.#ctor
+  langs:
+  - csharp
+  - vb
+  name: PortInUseException
+  nameWithType: PortInUseException
+  fullName: Meadow.Hardware.PortInUseException
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/PortInUseException.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PortInUseException
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/PortInUseException.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public class PortInUseException : Exception'
+    content.vb: >-
+      Public Class PortInUseException
+
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Hardware.PortInUseException.#ctor
+  commentId: M:Meadow.Hardware.PortInUseException.#ctor
+  id: '#ctor'
+  parent: Meadow.Hardware.PortInUseException
+  langs:
+  - csharp
+  - vb
+  name: PortInUseException()
+  nameWithType: PortInUseException.PortInUseException()
+  fullName: Meadow.Hardware.PortInUseException.PortInUseException()
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/PortInUseException.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/PortInUseException.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public PortInUseException()
+    content.vb: Public Sub New
+  overload: Meadow.Hardware.PortInUseException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.PortInUseException.#ctor*
+  commentId: Overload:Meadow.Hardware.PortInUseException.#ctor
+  name: PortInUseException
+  nameWithType: PortInUseException.PortInUseException
+  fullName: Meadow.Hardware.PortInUseException.PortInUseException

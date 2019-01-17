@@ -88,11 +88,35 @@
     <div><a class="xref" href="Meadow.Foundation.Sensors.IPressureSensor.html">IPressureSensor</a></div>
     <div><a class="xref" href="Meadow.Foundation.Sensors.ISensor.html">ISensor</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Atmospheric.html">Meadow.Foundation.Sensors.Atmospheric</a></h6>
   <h6><strong>Assembly</strong>: Sensors.Atmospheric.BME280.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Atmospheric_BME280_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BME280 : object, ITemperatureSensor, IHumiditySensor, IPressureSensor, ISensor</code></pre>
+    <pre><code class="lang-csharp hljs">public class BME280 : ITemperatureSensor, IHumiditySensor, IPressureSensor, ISensor</code></pre>
   </div>
   <h5 id="Meadow_Foundation_Sensors_Atmospheric_BME280_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This class implements the functionality necessary to read the temperature, pressure and humidity
@@ -114,7 +138,7 @@ from the Bosch BME280 sensor.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BME280(byte address = null, ushort speed = null, ushort updateInterval = null, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F, float pressureChangedNotificationThreshold = 10F)</code></pre>
+    <pre><code class="lang-csharp hljs">public BME280(byte address = 119, ushort speed = 100, ushort updateInterval = 100, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F, float pressureChangedNotificationThreshold = 10F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +203,7 @@ from the Bosch BME280 sensor.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = 100</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -44,6 +44,8 @@ references:
   nameWithType: Meadow.Foundation
   fullName: Meadow.Foundation
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -54,3 +56,9 @@ references:
   name: ArrayEventArgs
   nameWithType: ArrayEventArgs
   fullName: Meadow.Foundation.ArrayEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

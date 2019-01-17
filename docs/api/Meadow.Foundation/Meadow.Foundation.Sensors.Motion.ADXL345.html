@@ -81,11 +81,35 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ADXL345</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Sensors.Motion.html">Meadow.Foundation.Sensors.Motion</a></h6>
   <h6><strong>Assembly</strong>: Sensors.Motion.ADXL345.dll</h6>
   <h5 id="Meadow_Foundation_Sensors_Motion_ADXL345_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ADXL345 : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class ADXL345</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -103,7 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ADXL345(byte address = null, ushort speed = null, ushort updateInterval = null, double accelerationChangeNotificationThreshold = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ADXL345(byte address = 83, ushort speed = 100, ushort updateInterval = 100, double accelerationChangeNotificationThreshold = 5)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,7 +181,7 @@ sensor is being configured to generate interrupts.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const ushort MinimumPollingPeriod = 100</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -148,6 +148,27 @@
     <div>
       <a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_IgnoreOutOfBoundsPixels">DisplayBase.IgnoreOutOfBoundsPixels</a>
     </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
   <h6><strong>Assembly</strong>: Displays.WaveShare_ePaper.dll</h6>
@@ -170,7 +191,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EPDColorBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public EPDColorBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1501,43 +1522,6 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_Clear_Color_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.Clear(Color%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L67">View Source</a>
-  </span>
-  <a id="Meadow_Foundation_Displays_EPDColorBase_Clear_" data-uid="Meadow.Foundation.Displays.EPDColorBase.Clear*"></a>
-  <h4 id="Meadow_Foundation_Displays_EPDColorBase_Clear_Color_System_Boolean_" data-uid="Meadow.Foundation.Displays.EPDColorBase.Clear(Color,System.Boolean)">Clear(Color, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear(Color color, bool updateDisplay = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">updateDisplay</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_Clear_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.Clear(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -1609,18 +1593,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%5B%5D%2CColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_Clear_System_Drawing_Color_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.Clear(System.Drawing.Color%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L116">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L67">View Source</a>
   </span>
-  <a id="Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawBitmap*"></a>
-  <h4 id="Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)">DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</h4>
+  <a id="Meadow_Foundation_Displays_EPDColorBase_Clear_" data-uid="Meadow.Foundation.Displays.EPDColorBase.Clear*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPDColorBase_Clear_System_Drawing_Color_System_Boolean_" data-uid="Meadow.Foundation.Displays.EPDColorBase.Clear(System.Drawing.Color,System.Boolean)">Clear(Color, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear(Color color, bool updateDisplay = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1633,33 +1617,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">x</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">y</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">bitmap</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Color</span></td>
+        <td><span class="xref">System.Drawing.Color</span></td>
         <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateDisplay</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1725,6 +1689,65 @@
   <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_">DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%5B%5D%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L116">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawBitmap*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPDColorBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)">DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bitmap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___System_Drawing_Color_">DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_DrawColoredPixel_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.DrawColoredPixel(System.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -1761,48 +1784,6 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">colored</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32%2CSystem.Int32%2CColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L176">View Source</a>
-  </span>
-  <a id="Meadow_Foundation_Displays_EPDColorBase_DrawPixel_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawPixel*"></a>
-  <h4 id="Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_Color_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,Color)">DrawPixel(Int32, Int32, Color)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void DrawPixel(int x, int y, Color color)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">x</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">y</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1903,6 +1884,50 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32%2CSystem.Int32%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/EPDColorBase.cs/#L176">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPDColorBase_DrawPixel_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawPixel*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPDColorBase_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_" data-uid="Meadow.Foundation.Displays.EPDColorBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)">DrawPixel(Int32, Int32, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawPixel(int x, int y, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_DrawPixel_System_Int32_System_Int32_System_Drawing_Color_">DisplayBase.DrawPixel(Int32, Int32, Color)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPDColorBase_Initialize.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPDColorBase.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>

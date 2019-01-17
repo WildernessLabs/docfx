@@ -5,7 +5,7 @@ items:
   id: IPort
   parent: Meadow.Hardware
   children:
-  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.Direction
   - Meadow.Hardware.IPort.SignalType
   langs:
   - csharp
@@ -34,35 +34,35 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: Meadow.Hardware.IPort.DirectionType
-  commentId: P:Meadow.Hardware.IPort.DirectionType
-  id: DirectionType
+- uid: Meadow.Hardware.IPort.Direction
+  commentId: P:Meadow.Hardware.IPort.Direction
+  id: Direction
   parent: Meadow.Hardware.IPort
   langs:
   - csharp
   - vb
-  name: DirectionType
-  nameWithType: IPort.DirectionType
-  fullName: Meadow.Hardware.IPort.DirectionType
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
   type: Property
   source:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPort.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: DirectionType
+    id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPort.cs
     startLine: 5
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PortDirectionType DirectionType { get; }
+    content: PortDirectionType Direction { get; }
     parameters: []
     return:
       type: Meadow.Hardware.PortDirectionType
-    content.vb: ReadOnly Property DirectionType As PortDirectionType
-  overload: Meadow.Hardware.IPort.DirectionType*
+    content.vb: ReadOnly Property Direction As PortDirectionType
+  overload: Meadow.Hardware.IPort.Direction*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -106,11 +106,11 @@ references:
   name: Meadow.Hardware
   nameWithType: Meadow.Hardware
   fullName: Meadow.Hardware
-- uid: Meadow.Hardware.IPort.DirectionType*
-  commentId: Overload:Meadow.Hardware.IPort.DirectionType
-  name: DirectionType
-  nameWithType: IPort.DirectionType
-  fullName: Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.IPort.Direction*
+  commentId: Overload:Meadow.Hardware.IPort.Direction
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
 - uid: Meadow.Hardware.PortDirectionType
   commentId: T:Meadow.Hardware.PortDirectionType
   parent: Meadow.Hardware

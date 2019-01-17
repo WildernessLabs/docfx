@@ -84,37 +84,13 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Meadow.Hardware.IPwmPort.html">IPwmPort</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPort.html">IPort</a></div>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div><span class="xref">IDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_PwmPort_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PwmPort : IPwmPort, IPort, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PwmPort : object, IPwmPort, IPort, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -131,7 +107,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PwmPort(Cpu.PWMChannel channel, double frequency_Hz = 100, double dutyCycle = 0, bool invert = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public PwmPort(Cpu.PWMChannel channel, double frequency_Hz = null, double dutyCycle = null, bool invert = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,7 +206,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PwmPort(IPwmChannel pin, double frequency = 100, double dutyCycle = 0, bool invert = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public PwmPort(IPwmChannel pin, double frequency = null, double dutyCycle = null, bool invert = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -268,18 +244,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPort_DirectionType.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPort.DirectionType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_PwmPort_Direction.md&amp;value=---%0Auid%3A%20Meadow.Hardware.PwmPort.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/PwmPort.cs/#L24">View Source</a>
   </span>
-  <a id="Meadow_Hardware_PwmPort_DirectionType_" data-uid="Meadow.Hardware.PwmPort.DirectionType*"></a>
-  <h4 id="Meadow_Hardware_PwmPort_DirectionType" data-uid="Meadow.Hardware.PwmPort.DirectionType">DirectionType</h4>
+  <a id="Meadow_Hardware_PwmPort_Direction_" data-uid="Meadow.Hardware.PwmPort.Direction*"></a>
+  <h4 id="Meadow_Hardware_PwmPort_Direction" data-uid="Meadow.Hardware.PwmPort.Direction">Direction</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortDirectionType DirectionType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public PortDirectionType Direction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -717,7 +693,7 @@
       <a class="xref" href="Meadow.Hardware.IPort.html">IPort</a>
   </div>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
 </article>
           </div>

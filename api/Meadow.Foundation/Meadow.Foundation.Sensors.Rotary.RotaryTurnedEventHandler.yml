@@ -48,6 +48,8 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Rotary
   fullName: Meadow.Foundation.Sensors.Rotary
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -58,3 +60,9 @@ references:
   name: RotaryTurnedEventArgs
   nameWithType: RotaryTurnedEventArgs
   fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -30,8 +30,8 @@ items:
   summary: "\nPossible frequency for the square wave output.\n"
   example: []
   syntax:
-    content: 'public enum RateSelect : int'
-    content.vb: Public Enum RateSelect As Integer
+    content: public enum RateSelect
+    content.vb: Public Enum RateSelect
   modifiers.csharp:
   - public
   - enum
@@ -61,10 +61,9 @@ items:
   - RTCs.DS323x
   namespace: Meadow.Foundation.RTCs
   syntax:
-    content: OneHz = null
+    content: OneHz = 0
     return:
       type: Meadow.Foundation.RTCs.DS323x.RateSelect
-    content.vb: OneHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -94,10 +93,9 @@ items:
   - RTCs.DS323x
   namespace: Meadow.Foundation.RTCs
   syntax:
-    content: OnekHz = null
+    content: OnekHz = 1
     return:
       type: Meadow.Foundation.RTCs.DS323x.RateSelect
-    content.vb: OnekHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -127,10 +125,9 @@ items:
   - RTCs.DS323x
   namespace: Meadow.Foundation.RTCs
   syntax:
-    content: FourkHz = null
+    content: FourkHz = 2
     return:
       type: Meadow.Foundation.RTCs.DS323x.RateSelect
-    content.vb: FourkHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -160,10 +157,9 @@ items:
   - RTCs.DS323x
   namespace: Meadow.Foundation.RTCs
   syntax:
-    content: EightkHz = null
+    content: EightkHz = 3
     return:
       type: Meadow.Foundation.RTCs.DS323x.RateSelect
-    content.vb: EightkHz = Nothing
   modifiers.csharp:
   - public
   - const

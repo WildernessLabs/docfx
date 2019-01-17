@@ -7,7 +7,7 @@ items:
   children:
   - Meadow.Hardware.AnalogInputPort.#ctor(Meadow.Hardware.Cpu.AnalogChannel)
   - Meadow.Hardware.AnalogInputPort.#ctor(Meadow.Hardware.IAnalogChannel)
-  - Meadow.Hardware.AnalogInputPort.DirectionType
+  - Meadow.Hardware.AnalogInputPort.Direction
   - Meadow.Hardware.AnalogInputPort.SignalType
   - Meadow.Hardware.AnalogInputPort.Value
   langs:
@@ -29,9 +29,11 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public class AnalogInputPort : IAnalogPort, IPort'
+    content: 'public class AnalogInputPort : object, IAnalogPort, IPort'
     content.vb: >-
       Public Class AnalogInputPort
+
+          Inherits Object
 
           Implements IAnalogPort, IPort
   inheritance:
@@ -39,14 +41,6 @@ items:
   implements:
   - Meadow.Hardware.IAnalogPort
   - Meadow.Hardware.IPort
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -154,37 +148,37 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.AnalogInputPort.DirectionType
-  commentId: P:Meadow.Hardware.AnalogInputPort.DirectionType
-  id: DirectionType
+- uid: Meadow.Hardware.AnalogInputPort.Direction
+  commentId: P:Meadow.Hardware.AnalogInputPort.Direction
+  id: Direction
   parent: Meadow.Hardware.AnalogInputPort
   langs:
   - csharp
   - vb
-  name: DirectionType
-  nameWithType: AnalogInputPort.DirectionType
-  fullName: Meadow.Hardware.AnalogInputPort.DirectionType
+  name: Direction
+  nameWithType: AnalogInputPort.Direction
+  fullName: Meadow.Hardware.AnalogInputPort.Direction
   type: Property
   source:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Core.git
-    id: DirectionType
+    id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 22
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public PortDirectionType DirectionType { get; }
+    content: public PortDirectionType Direction { get; }
     parameters: []
     return:
       type: Meadow.Hardware.PortDirectionType
-    content.vb: Public ReadOnly Property DirectionType As PortDirectionType
-  overload: Meadow.Hardware.AnalogInputPort.DirectionType*
+    content.vb: Public ReadOnly Property Direction As PortDirectionType
+  overload: Meadow.Hardware.AnalogInputPort.Direction*
   implements:
-  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.Direction
   modifiers.csharp:
   - public
   - get
@@ -253,285 +247,6 @@ references:
   name: IPort
   nameWithType: IPort
   fullName: Meadow.Hardware.IPort
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -544,8 +259,6 @@ references:
   nameWithType: AnalogInputPort.Value
   fullName: Meadow.Hardware.AnalogInputPort.Value
 - uid: System.Double
-  commentId: T:System.Double
-  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
@@ -567,17 +280,17 @@ references:
   name: Cpu.AnalogChannel
   nameWithType: Cpu.AnalogChannel
   fullName: Meadow.Hardware.Cpu.AnalogChannel
-- uid: Meadow.Hardware.AnalogInputPort.DirectionType*
-  commentId: Overload:Meadow.Hardware.AnalogInputPort.DirectionType
-  name: DirectionType
-  nameWithType: AnalogInputPort.DirectionType
-  fullName: Meadow.Hardware.AnalogInputPort.DirectionType
-- uid: Meadow.Hardware.IPort.DirectionType
-  commentId: P:Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.AnalogInputPort.Direction*
+  commentId: Overload:Meadow.Hardware.AnalogInputPort.Direction
+  name: Direction
+  nameWithType: AnalogInputPort.Direction
+  fullName: Meadow.Hardware.AnalogInputPort.Direction
+- uid: Meadow.Hardware.IPort.Direction
+  commentId: P:Meadow.Hardware.IPort.Direction
   parent: Meadow.Hardware.IPort
-  name: DirectionType
-  nameWithType: IPort.DirectionType
-  fullName: Meadow.Hardware.IPort.DirectionType
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
 - uid: Meadow.Hardware.PortDirectionType
   commentId: T:Meadow.Hardware.PortDirectionType
   parent: Meadow.Hardware

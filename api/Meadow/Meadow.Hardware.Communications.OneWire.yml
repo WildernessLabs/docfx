@@ -31,23 +31,20 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: OneWire
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
+  summary: "\nRepresents a peripheral that communicates via the OneWire protocol.\n"
+  example: []
   syntax:
-    content: public class OneWire
-    content.vb: Public Class OneWire
+    content: 'public class OneWire : object'
+    content.vb: >-
+      Public Class OneWire
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -72,7 +69,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -105,7 +102,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: AcquireEx
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -137,14 +134,14 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: FindAllDevices
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
   syntax:
     content: public ArrayList FindAllDevices()
     return:
-      type: System.Collections.ArrayList
+      type: ArrayList
     content.vb: Public Function FindAllDevices As ArrayList
   overload: Meadow.Hardware.Communications.OneWire.FindAllDevices*
   modifiers.csharp:
@@ -169,7 +166,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: FindFirstDevice
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -206,7 +203,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: FindNextDevice
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -243,7 +240,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -275,7 +272,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Release
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -307,7 +304,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: SerialNum
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -347,7 +344,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: TouchBit
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -382,7 +379,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: TouchByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -417,7 +414,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: TouchReset
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -449,7 +446,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWire.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -479,285 +476,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -786,8 +504,6 @@ references:
   nameWithType: OneWire.AcquireEx
   fullName: Meadow.Hardware.Communications.OneWire.AcquireEx
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -797,19 +513,11 @@ references:
   name: FindAllDevices
   nameWithType: OneWire.FindAllDevices
   fullName: Meadow.Hardware.Communications.OneWire.FindAllDevices
-- uid: System.Collections.ArrayList
-  commentId: T:System.Collections.ArrayList
-  parent: System.Collections
+- uid: ArrayList
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
-  fullName: System.Collections.ArrayList
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
+  fullName: ArrayList
 - uid: Meadow.Hardware.Communications.OneWire.FindFirstDevice*
   commentId: Overload:Meadow.Hardware.Communications.OneWire.FindFirstDevice
   name: FindFirstDevice

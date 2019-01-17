@@ -216,6 +216,8 @@ references:
   nameWithType: Hello_RGB
   fullName: Hello_RGB
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -422,6 +424,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.AppBase`2
   commentId: T:Meadow.AppBase`2
   name: AppBase<D, A>
@@ -606,6 +614,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

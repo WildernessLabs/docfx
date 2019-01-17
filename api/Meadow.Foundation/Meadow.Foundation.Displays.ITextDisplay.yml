@@ -309,15 +309,25 @@ references:
   nameWithType: ITextDisplay.WriteLine
   fullName: Meadow.Foundation.Displays.ITextDisplay.WriteLine
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Displays.ITextDisplay.Write*
   commentId: Overload:Meadow.Foundation.Displays.ITextDisplay.Write
   name: Write
@@ -344,6 +354,8 @@ references:
   nameWithType: ITextDisplay.SetBrightness
   fullName: Meadow.Foundation.Displays.ITextDisplay.SetBrightness
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

@@ -31,11 +31,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ICommunicationBus
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 7
+    startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nDefine a standard interface for communicating with an attached\nsensor.\n"
+  summary: "\nDefine a contract for general peripheral communications classes.\n"
   example: []
   syntax:
     content: public interface ICommunicationBus
@@ -64,11 +64,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a single byte to the device.\n"
+  summary: "\nWrite a single byte to the connected peripheral.\n"
   example: []
   syntax:
     content: void WriteByte(byte value)
@@ -96,11 +96,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 24
+    startLine: 23
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a number of bytes to the device.\n"
+  summary: "\nWrite a number of bytes to the peripheral.\n"
   remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
   example: []
   syntax:
@@ -132,11 +132,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 32
+    startLine: 31
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite an unsigned short to the device.\n"
+  summary: "\nWrite an unsigned short to the peripheral.\n"
   example: []
   syntax:
     content: void WriteUShort(byte address, ushort value, ByteOrder order = ByteOrder.LittleEndian)
@@ -170,11 +170,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 43
+    startLine: 42
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a number of unsigned shorts to the device.\n"
+  summary: "\nWrite a number of unsigned shorts to the peripheral.\n"
   remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
   example: []
   syntax:
@@ -212,11 +212,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 50
+    startLine: 49
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite data a register in the device.\n"
+  summary: "\nWrite data a register in the peripheral.\n"
   example: []
   syntax:
     content: void WriteRegister(byte address, byte value)
@@ -247,7 +247,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 57
+    startLine: 56
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -285,11 +285,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: WriteRead
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 67
+    startLine: 66
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite data to the device and also read some data from the device.\n"
+  summary: "\nWrite data to the peripheral and also read some data from the peripheral.\n"
   remarks: "\nThe number of bytes to be written and read will be determined by the length of the byte arrays.\n"
   example: []
   syntax:
@@ -326,11 +326,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 74
+    startLine: 73
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead the specified number of bytes from the I2C device.\n"
+  summary: "\nRead the specified number of bytes from the peripheral.\n"
   example: []
   syntax:
     content: byte[] ReadBytes(ushort numberOfBytes)
@@ -361,11 +361,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 80
+    startLine: 79
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead a registers from the device.\n"
+  summary: "\nRead a registers from the peripheral.\n"
   example: []
   syntax:
     content: byte ReadRegister(byte address)
@@ -395,11 +395,11 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 87
+    startLine: 86
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead one or more registers from the device.\n"
+  summary: "\nRead one or more registers from the peripheral.\n"
   example: []
   syntax:
     content: byte[] ReadRegisters(byte address, ushort length)
@@ -432,7 +432,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 95
+    startLine: 94
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -470,7 +470,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: ReadUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
-    startLine: 105
+    startLine: 104
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
@@ -505,18 +505,10 @@ references:
   nameWithType: ICommunicationBus.WriteByte
   fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteByte
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes*
   commentId: Overload:Meadow.Hardware.Communications.ICommunicationBus.WriteBytes
   name: WriteBytes
@@ -554,8 +546,6 @@ references:
   nameWithType: ICommunicationBus.WriteUShort
   fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort
 - uid: System.UInt16
-  commentId: T:System.UInt16
-  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16

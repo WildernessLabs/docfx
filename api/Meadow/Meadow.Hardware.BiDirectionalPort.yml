@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.BiDirectionalPort
+  commentId: T:Meadow.Hardware.BiDirectionalPort
+  id: BiDirectionalPort
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.BiDirectionalPort.#ctor(Meadow.Hardware.IDigitalPin,System.Boolean,System.Boolean,Meadow.Hardware.ResistorMode)
+  - Meadow.Hardware.BiDirectionalPort._pin
+  - Meadow.Hardware.BiDirectionalPort.Active
+  - Meadow.Hardware.BiDirectionalPort.Dispose(System.Boolean)
+  - Meadow.Hardware.BiDirectionalPort.State
+  langs:
+  - csharp
+  - vb
+  name: BiDirectionalPort
+  nameWithType: BiDirectionalPort
+  fullName: Meadow.Hardware.BiDirectionalPort
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: BiDirectionalPort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  summary: "\nTristate port.\n"
+  remarks: A tristate port is initially an input port
+  example: []
+  syntax:
+    content: 'public class BiDirectionalPort : BiDirectionalPortBase, IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable'
+    content.vb: >-
+      Public Class BiDirectionalPort
+
+          Inherits BiDirectionalPortBase
+
+          Implements IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable
+  inheritance:
+  - System.Object
+  - Meadow.Hardware.BiDirectionalPortBase
+  implements:
+  - Meadow.Hardware.IBiDirectionalPort
+  - Meadow.Hardware.IDigitalInterruptPort
+  - Meadow.Hardware.IDigitalInputPort
+  - Meadow.Hardware.IDigitalOutputPort
+  - Meadow.Hardware.IDigitalPort
+  - Meadow.Hardware.IPort
+  - IDisposable
+  inheritedMembers:
+  - Meadow.Hardware.BiDirectionalPortBase.Changed
+  - Meadow.Hardware.BiDirectionalPortBase._disposed
+  - Meadow.Hardware.BiDirectionalPortBase._currentState
+  - Meadow.Hardware.BiDirectionalPortBase._interruptEnabled
+  - Meadow.Hardware.BiDirectionalPortBase._currentDirection
+  - Meadow.Hardware.BiDirectionalPortBase.SignalType
+  - Meadow.Hardware.BiDirectionalPortBase.GlitchFilter
+  - Meadow.Hardware.BiDirectionalPortBase.InitialState
+  - Meadow.Hardware.BiDirectionalPortBase.Resistor
+  - Meadow.Hardware.BiDirectionalPortBase.Dispose
+  - Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled
+  - Meadow.Hardware.BiDirectionalPortBase.Direction
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Hardware.BiDirectionalPort._pin
+  commentId: F:Meadow.Hardware.BiDirectionalPort._pin
+  id: _pin
+  parent: Meadow.Hardware.BiDirectionalPort
+  langs:
+  - csharp
+  - vb
+  name: _pin
+  nameWithType: BiDirectionalPort._pin
+  fullName: Meadow.Hardware.BiDirectionalPort._pin
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: _pin
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: protected IDigitalPin _pin
+    return:
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Protected _pin As IDigitalPin
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Hardware.BiDirectionalPort.#ctor(Meadow.Hardware.IDigitalPin,System.Boolean,System.Boolean,Meadow.Hardware.ResistorMode)
+  commentId: M:Meadow.Hardware.BiDirectionalPort.#ctor(Meadow.Hardware.IDigitalPin,System.Boolean,System.Boolean,Meadow.Hardware.ResistorMode)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,System.Boolean,System.Boolean,Meadow.Hardware.ResistorMode)'
+  parent: Meadow.Hardware.BiDirectionalPort
+  langs:
+  - csharp
+  - vb
+  name: BiDirectionalPort(IDigitalPin, Boolean, Boolean, ResistorMode)
+  nameWithType: BiDirectionalPort.BiDirectionalPort(IDigitalPin, Boolean, Boolean, ResistorMode)
+  fullName: Meadow.Hardware.BiDirectionalPort.BiDirectionalPort(Meadow.Hardware.IDigitalPin, System.Boolean, System.Boolean, Meadow.Hardware.ResistorMode)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public BiDirectionalPort(IDigitalPin pin, bool initialState = false, bool glitchFilter = false, ResistorMode resistorMode = default(ResistorMode))
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IDigitalPin
+    - id: initialState
+      type: System.Boolean
+    - id: glitchFilter
+      type: System.Boolean
+    - id: resistorMode
+      type: Meadow.Hardware.ResistorMode
+    content.vb: Public Sub New(pin As IDigitalPin, initialState As Boolean = False, glitchFilter As Boolean = False, resistorMode As ResistorMode = Nothing)
+  overload: Meadow.Hardware.BiDirectionalPort.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.BiDirectionalPort.Dispose(System.Boolean)
+  commentId: M:Meadow.Hardware.BiDirectionalPort.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Meadow.Hardware.BiDirectionalPort
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: BiDirectionalPort.Dispose(Boolean)
+  fullName: Meadow.Hardware.BiDirectionalPort.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Dispose
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 35
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overridden: Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+  overload: Meadow.Hardware.BiDirectionalPort.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Hardware.BiDirectionalPort.Active
+  commentId: P:Meadow.Hardware.BiDirectionalPort.Active
+  id: Active
+  parent: Meadow.Hardware.BiDirectionalPort
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: BiDirectionalPort.Active
+  fullName: Meadow.Hardware.BiDirectionalPort.Active
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Active
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 56
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  summary: "\nTrue if the port is currently an output; otherwise false\n"
+  example: []
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if active; otherwise, <code>false</code>.
+    content.vb: Public Property Active As Boolean
+  overload: Meadow.Hardware.BiDirectionalPort.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.BiDirectionalPort.State
+  commentId: P:Meadow.Hardware.BiDirectionalPort.State
+  id: State
+  parent: Meadow.Hardware.BiDirectionalPort
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: BiDirectionalPort.State
+  fullName: Meadow.Hardware.BiDirectionalPort.State
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/BiDirectionalPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: State
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/BiDirectionalPort.cs
+    startLine: 77
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public override bool State { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property State As Boolean
+  overridden: Meadow.Hardware.BiDirectionalPortBase.State
+  overload: Meadow.Hardware.BiDirectionalPort.State*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.BiDirectionalPortBase
+  commentId: T:Meadow.Hardware.BiDirectionalPortBase
+  parent: Meadow.Hardware
+  name: BiDirectionalPortBase
+  nameWithType: BiDirectionalPortBase
+  fullName: Meadow.Hardware.BiDirectionalPortBase
+- uid: Meadow.Hardware.IBiDirectionalPort
+  commentId: T:Meadow.Hardware.IBiDirectionalPort
+  parent: Meadow.Hardware
+  name: IBiDirectionalPort
+  nameWithType: IBiDirectionalPort
+  fullName: Meadow.Hardware.IBiDirectionalPort
+- uid: Meadow.Hardware.IDigitalInterruptPort
+  commentId: T:Meadow.Hardware.IDigitalInterruptPort
+  parent: Meadow.Hardware
+  name: IDigitalInterruptPort
+  nameWithType: IDigitalInterruptPort
+  fullName: Meadow.Hardware.IDigitalInterruptPort
+- uid: Meadow.Hardware.IDigitalInputPort
+  commentId: T:Meadow.Hardware.IDigitalInputPort
+  parent: Meadow.Hardware
+  name: IDigitalInputPort
+  nameWithType: IDigitalInputPort
+  fullName: Meadow.Hardware.IDigitalInputPort
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware.IDigitalPort
+  commentId: T:Meadow.Hardware.IDigitalPort
+  parent: Meadow.Hardware
+  name: IDigitalPort
+  nameWithType: IDigitalPort
+  fullName: Meadow.Hardware.IDigitalPort
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort
+- uid: IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: Meadow.Hardware.BiDirectionalPortBase.Changed
+  commentId: E:Meadow.Hardware.BiDirectionalPortBase.Changed
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: Changed
+  nameWithType: BiDirectionalPortBase.Changed
+  fullName: Meadow.Hardware.BiDirectionalPortBase.Changed
+- uid: Meadow.Hardware.BiDirectionalPortBase._disposed
+  commentId: F:Meadow.Hardware.BiDirectionalPortBase._disposed
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: _disposed
+  nameWithType: BiDirectionalPortBase._disposed
+  fullName: Meadow.Hardware.BiDirectionalPortBase._disposed
+- uid: Meadow.Hardware.BiDirectionalPortBase._currentState
+  commentId: F:Meadow.Hardware.BiDirectionalPortBase._currentState
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: _currentState
+  nameWithType: BiDirectionalPortBase._currentState
+  fullName: Meadow.Hardware.BiDirectionalPortBase._currentState
+- uid: Meadow.Hardware.BiDirectionalPortBase._interruptEnabled
+  commentId: F:Meadow.Hardware.BiDirectionalPortBase._interruptEnabled
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: _interruptEnabled
+  nameWithType: BiDirectionalPortBase._interruptEnabled
+  fullName: Meadow.Hardware.BiDirectionalPortBase._interruptEnabled
+- uid: Meadow.Hardware.BiDirectionalPortBase._currentDirection
+  commentId: F:Meadow.Hardware.BiDirectionalPortBase._currentDirection
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: _currentDirection
+  nameWithType: BiDirectionalPortBase._currentDirection
+  fullName: Meadow.Hardware.BiDirectionalPortBase._currentDirection
+- uid: Meadow.Hardware.BiDirectionalPortBase.SignalType
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.SignalType
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: SignalType
+  nameWithType: BiDirectionalPortBase.SignalType
+  fullName: Meadow.Hardware.BiDirectionalPortBase.SignalType
+- uid: Meadow.Hardware.BiDirectionalPortBase.GlitchFilter
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.GlitchFilter
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: GlitchFilter
+  nameWithType: BiDirectionalPortBase.GlitchFilter
+  fullName: Meadow.Hardware.BiDirectionalPortBase.GlitchFilter
+- uid: Meadow.Hardware.BiDirectionalPortBase.InitialState
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.InitialState
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: InitialState
+  nameWithType: BiDirectionalPortBase.InitialState
+  fullName: Meadow.Hardware.BiDirectionalPortBase.InitialState
+- uid: Meadow.Hardware.BiDirectionalPortBase.Resistor
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.Resistor
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: Resistor
+  nameWithType: BiDirectionalPortBase.Resistor
+  fullName: Meadow.Hardware.BiDirectionalPortBase.Resistor
+- uid: Meadow.Hardware.BiDirectionalPortBase.Dispose
+  commentId: M:Meadow.Hardware.BiDirectionalPortBase.Dispose
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: Dispose()
+  nameWithType: BiDirectionalPortBase.Dispose()
+  fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose()
+  spec.csharp:
+  - uid: Meadow.Hardware.BiDirectionalPortBase.Dispose
+    name: Dispose
+    nameWithType: BiDirectionalPortBase.Dispose
+    fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.BiDirectionalPortBase.Dispose
+    name: Dispose
+    nameWithType: BiDirectionalPortBase.Dispose
+    fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: InterrupEnabled
+  nameWithType: BiDirectionalPortBase.InterrupEnabled
+  fullName: Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled
+- uid: Meadow.Hardware.BiDirectionalPortBase.Direction
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.Direction
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: Direction
+  nameWithType: BiDirectionalPortBase.Direction
+  fullName: Meadow.Hardware.BiDirectionalPortBase.Direction
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.BiDirectionalPort.#ctor*
+  commentId: Overload:Meadow.Hardware.BiDirectionalPort.#ctor
+  name: BiDirectionalPort
+  nameWithType: BiDirectionalPort.BiDirectionalPort
+  fullName: Meadow.Hardware.BiDirectionalPort.BiDirectionalPort
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Hardware.ResistorMode
+  commentId: T:Meadow.Hardware.ResistorMode
+  parent: Meadow.Hardware
+  name: ResistorMode
+  nameWithType: ResistorMode
+  fullName: Meadow.Hardware.ResistorMode
+- uid: Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+  commentId: M:Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BiDirectionalPortBase.Dispose(Boolean)
+  fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BiDirectionalPortBase.Dispose
+    fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.BiDirectionalPortBase.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BiDirectionalPortBase.Dispose
+    fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.BiDirectionalPort.Dispose*
+  commentId: Overload:Meadow.Hardware.BiDirectionalPort.Dispose
+  name: Dispose
+  nameWithType: BiDirectionalPort.Dispose
+  fullName: Meadow.Hardware.BiDirectionalPort.Dispose
+- uid: Meadow.Hardware.BiDirectionalPort.Active*
+  commentId: Overload:Meadow.Hardware.BiDirectionalPort.Active
+  name: Active
+  nameWithType: BiDirectionalPort.Active
+  fullName: Meadow.Hardware.BiDirectionalPort.Active
+- uid: Meadow.Hardware.BiDirectionalPortBase.State
+  commentId: P:Meadow.Hardware.BiDirectionalPortBase.State
+  parent: Meadow.Hardware.BiDirectionalPortBase
+  name: State
+  nameWithType: BiDirectionalPortBase.State
+  fullName: Meadow.Hardware.BiDirectionalPortBase.State
+- uid: Meadow.Hardware.BiDirectionalPort.State*
+  commentId: Overload:Meadow.Hardware.BiDirectionalPort.State
+  name: State
+  nameWithType: BiDirectionalPort.State
+  fullName: Meadow.Hardware.BiDirectionalPort.State

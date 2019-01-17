@@ -28,8 +28,8 @@ items:
   summary: "\nDisplay power state.\n"
   example: []
   syntax:
-    content: 'public enum DisplayPowerState : int'
-    content.vb: Public Enum DisplayPowerState As Integer
+    content: public enum DisplayPowerState
+    content.vb: Public Enum DisplayPowerState
   modifiers.csharp:
   - public
   - enum
@@ -59,10 +59,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: On = null
+    content: On = 12
     return:
       type: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
-    content.vb: On = Nothing
   modifiers.csharp:
   - public
   - const
@@ -92,10 +91,9 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Off = null
+    content: Off = 8
     return:
       type: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
-    content.vb: Off = Nothing
   modifiers.csharp:
   - public
   - const

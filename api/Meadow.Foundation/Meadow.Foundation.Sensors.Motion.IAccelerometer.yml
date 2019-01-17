@@ -146,10 +146,18 @@ references:
   nameWithType: IAccelerometer.XAcceleration
   fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration*
   commentId: Overload:Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
   name: YAcceleration

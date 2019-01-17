@@ -62,10 +62,9 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: TwoG = null
+    content: TwoG = 0
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-    content.vb: TwoG = Nothing
   modifiers.csharp:
   - public
   - const
@@ -95,10 +94,9 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: FourG = null
+    content: FourG = 1
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-    content.vb: FourG = Nothing
   modifiers.csharp:
   - public
   - const
@@ -128,10 +126,9 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: EightG = null
+    content: EightG = 2
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-    content.vb: EightG = Nothing
   modifiers.csharp:
   - public
   - const
@@ -161,10 +158,9 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: SixteenG = null
+    content: SixteenG = 3
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-    content.vb: SixteenG = Nothing
   modifiers.csharp:
   - public
   - const

@@ -29,6 +29,7 @@ items:
   - Meadow.Foundation.Displays.ILI9163
   - Meadow.Foundation.Displays.ILI9341
   - Meadow.Foundation.Displays.ITextDisplay
+  - Meadow.Foundation.Displays.PCD8544
   - Meadow.Foundation.Displays.S6D02A1
   - Meadow.Foundation.Displays.SerialLCD
   - Meadow.Foundation.Displays.SerialLCD.CursorStyle
@@ -38,9 +39,11 @@ items:
   - Meadow.Foundation.Displays.SerialLCD.LCDDimensions
   - Meadow.Foundation.Displays.SPIDisplayBase
   - Meadow.Foundation.Displays.SSD1306
+  - Meadow.Foundation.Displays.SSD1306.ConnectionType
   - Meadow.Foundation.Displays.SSD1306.DisplayType
   - Meadow.Foundation.Displays.SSD1306.ScrollDirection
   - Meadow.Foundation.Displays.SSD1331
+  - Meadow.Foundation.Displays.SSD1351
   - Meadow.Foundation.Displays.ST7735
   - Meadow.Foundation.Displays.ST7735.DisplayType
   - Meadow.Foundation.Displays.ST7735.LcdCommand
@@ -130,6 +133,11 @@ references:
   name: SSD1331
   nameWithType: SSD1331
   fullName: Meadow.Foundation.Displays.SSD1331
+- uid: Meadow.Foundation.Displays.SSD1351
+  commentId: T:Meadow.Foundation.Displays.SSD1351
+  name: SSD1351
+  nameWithType: SSD1351
+  fullName: Meadow.Foundation.Displays.SSD1351
 - uid: Meadow.Foundation.Displays.ST7735
   commentId: T:Meadow.Foundation.Displays.ST7735
   name: ST7735
@@ -195,6 +203,17 @@ references:
   name: SSD1306.DisplayType
   nameWithType: SSD1306.DisplayType
   fullName: Meadow.Foundation.Displays.SSD1306.DisplayType
+- uid: Meadow.Foundation.Displays.SSD1306.ConnectionType
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ConnectionType
+  parent: Meadow.Foundation.Displays
+  name: SSD1306.ConnectionType
+  nameWithType: SSD1306.ConnectionType
+  fullName: Meadow.Foundation.Displays.SSD1306.ConnectionType
+- uid: Meadow.Foundation.Displays.PCD8544
+  commentId: T:Meadow.Foundation.Displays.PCD8544
+  name: PCD8544
+  nameWithType: PCD8544
+  fullName: Meadow.Foundation.Displays.PCD8544
 - uid: Meadow.Foundation.Displays.EPD1i54
   commentId: T:Meadow.Foundation.Displays.EPD1i54
   parent: Meadow.Foundation.Displays

@@ -62,10 +62,9 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Off = null
+    content: Off = 0
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
-    content.vb: Off = Nothing
   modifiers.csharp:
   - public
   - const
@@ -95,10 +94,9 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Two = null
+    content: Two = 1
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
-    content.vb: Two = Nothing
   modifiers.csharp:
   - public
   - const
@@ -128,10 +126,9 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Four = null
+    content: Four = 2
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
-    content.vb: Four = Nothing
   modifiers.csharp:
   - public
   - const
@@ -161,10 +158,9 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Eight = null
+    content: Eight = 3
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
-    content.vb: Eight = Nothing
   modifiers.csharp:
   - public
   - const
@@ -194,10 +190,9 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Sixteen = null
+    content: Sixteen = 4
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
-    content.vb: Sixteen = Nothing
   modifiers.csharp:
   - public
   - const

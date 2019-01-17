@@ -6,10 +6,10 @@ items:
   children:
   - Meadow.AppBase`2
   - Meadow.ByteOrder
-  - Meadow.DeviceBase
   - Meadow.DeviceCapabilities
   - Meadow.IApp
   - Meadow.IDevice
+  - Meadow.IGPIOManager
   - Meadow.MeadowOS
   - Meadow.NetworkCapabilities
   - Meadow.WakeUpOptions
@@ -23,6 +23,47 @@ items:
   assemblies:
   - Meadow.Core
 references:
+- uid: Meadow.DeviceCapabilities
+  commentId: T:Meadow.DeviceCapabilities
+  parent: Meadow
+  name: DeviceCapabilities
+  nameWithType: DeviceCapabilities
+  fullName: Meadow.DeviceCapabilities
+- uid: Meadow.NetworkCapabilities
+  commentId: T:Meadow.NetworkCapabilities
+  parent: Meadow
+  name: NetworkCapabilities
+  nameWithType: NetworkCapabilities
+  fullName: Meadow.NetworkCapabilities
+- uid: Meadow.MeadowOS
+  commentId: T:Meadow.MeadowOS
+  name: MeadowOS
+  nameWithType: MeadowOS
+  fullName: Meadow.MeadowOS
+- uid: Meadow.WakeUpOptions
+  commentId: T:Meadow.WakeUpOptions
+  parent: Meadow
+  name: WakeUpOptions
+  nameWithType: WakeUpOptions
+  fullName: Meadow.WakeUpOptions
+- uid: Meadow.IApp
+  commentId: T:Meadow.IApp
+  parent: Meadow
+  name: IApp
+  nameWithType: IApp
+  fullName: Meadow.IApp
+- uid: Meadow.IDevice
+  commentId: T:Meadow.IDevice
+  parent: Meadow
+  name: IDevice
+  nameWithType: IDevice
+  fullName: Meadow.IDevice
+- uid: Meadow.ByteOrder
+  commentId: T:Meadow.ByteOrder
+  parent: Meadow
+  name: ByteOrder
+  nameWithType: ByteOrder
+  fullName: Meadow.ByteOrder
 - uid: Meadow.AppBase`2
   commentId: T:Meadow.AppBase`2
   name: AppBase<D, A>
@@ -71,53 +112,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.IApp
-  commentId: T:Meadow.IApp
+- uid: Meadow.IGPIOManager
+  commentId: T:Meadow.IGPIOManager
   parent: Meadow
-  name: IApp
-  nameWithType: IApp
-  fullName: Meadow.IApp
-- uid: Meadow.IDevice
-  commentId: T:Meadow.IDevice
-  parent: Meadow
-  name: IDevice
-  nameWithType: IDevice
-  fullName: Meadow.IDevice
-- uid: Meadow.DeviceBase
-  commentId: T:Meadow.DeviceBase
-  parent: Meadow
-  name: DeviceBase
-  nameWithType: DeviceBase
-  fullName: Meadow.DeviceBase
-- uid: Meadow.DeviceCapabilities
-  commentId: T:Meadow.DeviceCapabilities
-  parent: Meadow
-  name: DeviceCapabilities
-  nameWithType: DeviceCapabilities
-  fullName: Meadow.DeviceCapabilities
-- uid: Meadow.NetworkCapabilities
-  commentId: T:Meadow.NetworkCapabilities
-  parent: Meadow
-  name: NetworkCapabilities
-  nameWithType: NetworkCapabilities
-  fullName: Meadow.NetworkCapabilities
-- uid: Meadow.ByteOrder
-  commentId: T:Meadow.ByteOrder
-  parent: Meadow
-  name: ByteOrder
-  nameWithType: ByteOrder
-  fullName: Meadow.ByteOrder
-- uid: Meadow.MeadowOS
-  commentId: T:Meadow.MeadowOS
-  name: MeadowOS
-  nameWithType: MeadowOS
-  fullName: Meadow.MeadowOS
-- uid: Meadow.WakeUpOptions
-  commentId: T:Meadow.WakeUpOptions
-  parent: Meadow
-  name: WakeUpOptions
-  nameWithType: WakeUpOptions
-  fullName: Meadow.WakeUpOptions
+  name: IGPIOManager
+  nameWithType: IGPIOManager
+  fullName: Meadow.IGPIOManager
 - uid: Meadow
   commentId: N:Meadow
   name: Meadow

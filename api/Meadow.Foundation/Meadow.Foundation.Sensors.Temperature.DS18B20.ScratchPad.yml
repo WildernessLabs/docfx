@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  id: DS18B20.ScratchPad
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Configuration
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.CRC
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.HighAlarm
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.LowAlarm
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Reserved7
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte5
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte6
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureHigh
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureLow
+  langs:
+  - csharp
+  - vb
+  name: DS18B20.ScratchPad
+  nameWithType: DS18B20.ScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ScratchPad
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 121
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nClass holding the constants defining the layout of the DS18B20 Scratch Pad.\n"
+  example: []
+  syntax:
+    content: 'protected class ScratchPad : object'
+    content.vb: >-
+      Protected Class ScratchPad
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureLow
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureLow
+  id: TemperatureLow
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: TemperatureLow
+  nameWithType: DS18B20.ScratchPad.TemperatureLow
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureLow
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureLow
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 129
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nLower 8 bits of the temperature following a conversion.\n"
+  remarks: "\nAt power on this will be set to 0x50.\n"
+  example: []
+  syntax:
+    content: public const byte TemperatureLow = null
+    return:
+      type: System.Byte
+    content.vb: Public Const TemperatureLow As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureHigh
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureHigh
+  id: TemperatureHigh
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: TemperatureHigh
+  nameWithType: DS18B20.ScratchPad.TemperatureHigh
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.TemperatureHigh
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureHigh
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 137
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nUpper 8 bits of the temperature following a conversion.\n"
+  remarks: "\nAt power on this will be set to 0x05.\n"
+  example: []
+  syntax:
+    content: public const byte TemperatureHigh = null
+    return:
+      type: System.Byte
+    content.vb: Public Const TemperatureHigh As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.HighAlarm
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.HighAlarm
+  id: HighAlarm
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: HighAlarm
+  nameWithType: DS18B20.ScratchPad.HighAlarm
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.HighAlarm
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HighAlarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 142
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nTemperature high alarm (or user byte 1).\n"
+  example: []
+  syntax:
+    content: public const byte HighAlarm = null
+    return:
+      type: System.Byte
+    content.vb: Public Const HighAlarm As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.LowAlarm
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.LowAlarm
+  id: LowAlarm
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: LowAlarm
+  nameWithType: DS18B20.ScratchPad.LowAlarm
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.LowAlarm
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LowAlarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 147
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nTemperature low alarm (or user byte 2).\n"
+  example: []
+  syntax:
+    content: public const byte LowAlarm = null
+    return:
+      type: System.Byte
+    content.vb: Public Const LowAlarm As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Configuration
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Configuration
+  id: Configuration
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: DS18B20.ScratchPad.Configuration
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Configuration
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Configuration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 152
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nConfiguration byte.\n"
+  example: []
+  syntax:
+    content: public const byte Configuration = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Configuration As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte5
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte5
+  id: ReservedByte5
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: ReservedByte5
+  nameWithType: DS18B20.ScratchPad.ReservedByte5
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte5
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReservedByte5
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 157
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nReserved byte (number 5) usually set to 0xff.\n"
+  example: []
+  syntax:
+    content: public const byte ReservedByte5 = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ReservedByte5 As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte6
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte6
+  id: ReservedByte6
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: ReservedByte6
+  nameWithType: DS18B20.ScratchPad.ReservedByte6
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.ReservedByte6
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReservedByte6
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 162
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nReserved byte (number 6).\n"
+  example: []
+  syntax:
+    content: public const byte ReservedByte6 = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ReservedByte6 As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Reserved7
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Reserved7
+  id: Reserved7
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: Reserved7
+  nameWithType: DS18B20.ScratchPad.Reserved7
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.Reserved7
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Reserved7
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 167
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nReserved byte (number 7) usually set to 0x10.\n"
+  example: []
+  syntax:
+    content: public const byte Reserved7 = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Reserved7 As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.CRC
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.CRC
+  id: CRC
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  langs:
+  - csharp
+  - vb
+  name: CRC
+  nameWithType: DS18B20.ScratchPad.CRC
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad.CRC
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CRC
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 175
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nCRC byte.\n"
+  remarks: "\nPolynomial for the CRC is X^8 + X^5 + X^4 + 1\n"
+  example: []
+  syntax:
+    content: public const byte CRC = null
+    return:
+      type: System.Byte
+    content.vb: Public Const CRC As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -57,9 +57,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Output = 0
+    content: Output = null
     return:
       type: Meadow.Hardware.PortDirectionType
+    content.vb: Output = Nothing
   modifiers.csharp:
   - public
   - const
@@ -89,9 +90,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Input = 1
+    content: Input = null
     return:
       type: Meadow.Hardware.PortDirectionType
+    content.vb: Input = Nothing
   modifiers.csharp:
   - public
   - const

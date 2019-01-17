@@ -30,18 +30,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: >-
-      [Flags]
-
-      public enum PinValidInterruptMode : byte
-    content.vb: >-
-      <Flags>
-
-      Public Enum PinValidInterruptMode As Byte
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public enum PinValidInterruptMode : byte'
+    content.vb: Public Enum PinValidInterruptMode As Byte
   modifiers.csharp:
   - public
   - enum
@@ -71,9 +61,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: NONE = 0
+    content: NONE = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -103,9 +94,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLow = 2
+    content: InterruptEdgeLow = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: InterruptEdgeLow = Nothing
   modifiers.csharp:
   - public
   - const
@@ -135,9 +127,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeHigh = 4
+    content: InterruptEdgeHigh = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: InterruptEdgeHigh = Nothing
   modifiers.csharp:
   - public
   - const
@@ -167,9 +160,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeBoth = 8
+    content: InterruptEdgeBoth = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: InterruptEdgeBoth = Nothing
   modifiers.csharp:
   - public
   - const
@@ -199,9 +193,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLevelHigh = 16
+    content: InterruptEdgeLevelHigh = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: InterruptEdgeLevelHigh = Nothing
   modifiers.csharp:
   - public
   - const
@@ -231,9 +226,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: InterruptEdgeLevelLow = 32
+    content: InterruptEdgeLevelLow = null
     return:
       type: Meadow.Hardware.Cpu.PinValidInterruptMode
+    content.vb: InterruptEdgeLevelLow = Nothing
   modifiers.csharp:
   - public
   - const

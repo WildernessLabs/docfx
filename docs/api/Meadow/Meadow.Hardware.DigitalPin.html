@@ -84,6 +84,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IPin.html">IPin</a></div>
     <div><a class="xref" href="Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></div>
   </div>
@@ -111,52 +112,31 @@
       <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Name">PinBase.Name</a>
     </div>
     <div>
-      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Address">PinBase.Address</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="Meadow.Hardware.PinBase.html#Meadow_Hardware_PinBase_Key">PinBase.Key</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Hardware.html">Meadow.Hardware</a></h6>
   <h6><strong>Assembly</strong>: Meadow.Core.dll</h6>
   <h5 id="Meadow_Hardware_DigitalPin_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DigitalPin : DigitalPinBase, IPin, IDigitalChannel</code></pre>
+    <pre><code class="lang-csharp hljs">public class DigitalPin : DigitalPinBase, IDigitalPin, IPin, IDigitalChannel</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPin__ctor_System_String_System_UInt32_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPin.%23ctor(System.String%2CSystem.UInt32%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPin__ctor_System_String_System_Object_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPin.%23ctor(System.String%2CSystem.Object%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalPin.cs/#L6">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalPin.cs/#L8">View Source</a>
   </span>
   <a id="Meadow_Hardware_DigitalPin__ctor_" data-uid="Meadow.Hardware.DigitalPin.#ctor*"></a>
-  <h4 id="Meadow_Hardware_DigitalPin__ctor_System_String_System_UInt32_System_Boolean_System_Boolean_System_Boolean_" data-uid="Meadow.Hardware.DigitalPin.#ctor(System.String,System.UInt32,System.Boolean,System.Boolean,System.Boolean)">DigitalPin(String, UInt32, Boolean, Boolean, Boolean)</h4>
+  <h4 id="Meadow_Hardware_DigitalPin__ctor_System_String_System_Object_System_Boolean_System_Boolean_System_Boolean_" data-uid="Meadow.Hardware.DigitalPin.#ctor(System.String,System.Object,System.Boolean,System.Boolean,System.Boolean)">DigitalPin(String, Object, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DigitalPin(string name, uint address, bool interruptCapable = false, bool pullDownCapable = false, bool pullUpCapable = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public DigitalPin(string name, object key, bool interruptCapable = false, bool pullDownCapable = false, bool pullUpCapable = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -174,8 +154,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">address</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
       <tr>
@@ -195,7 +175,44 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Core/new/master/apiSpec/new?filename=Meadow_Hardware_DigitalPin_GPIOManager.md&amp;value=---%0Auid%3A%20Meadow.Hardware.DigitalPin.GPIOManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Core/blob/master/source/Meadow.Core/Hardware/DigitalPin.cs/#L20">View Source</a>
+  </span>
+  <a id="Meadow_Hardware_DigitalPin_GPIOManager_" data-uid="Meadow.Hardware.DigitalPin.GPIOManager*"></a>
+  <h4 id="Meadow_Hardware_DigitalPin_GPIOManager" data-uid="Meadow.Hardware.DigitalPin.GPIOManager">GPIOManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IGPIOManager GPIOManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Meadow.IGPIOManager.html">IGPIOManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Hardware.DigitalPinBase.html#Meadow_Hardware_DigitalPinBase_GPIOManager">DigitalPinBase.GPIOManager</a></div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Hardware.IDigitalPin.html">IDigitalPin</a>
+  </div>
   <div>
       <a class="xref" href="Meadow.Hardware.IPin.html">IPin</a>
   </div>

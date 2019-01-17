@@ -1,0 +1,946 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20
+  id: DS18B20
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Update
+  langs:
+  - csharp
+  - vb
+  name: DS18B20
+  nameWithType: DS18B20
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DS18B20
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 8
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: 'public class DS18B20 : object, ITemperatureSensor, ISensor'
+    content.vb: >-
+      Public Class DS18B20
+
+          Inherits Object
+
+          Implements ITemperatureSensor, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: DS18B20.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 188
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nMinimum value that should be used for the polling frequency.\n"
+  remarks: >
+    >
+        Default assumes that the sensor is working in 12-bit mode (factory setting).
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize
+  id: ScratchPadSize
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: ScratchPadSize
+  nameWithType: DS18B20.ScratchPadSize
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPadSize
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ScratchPadSize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 193
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nNumber of bytes in the scratch pad.\n"
+  example: []
+  syntax:
+    content: public const byte ScratchPadSize = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ScratchPadSize As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength
+  id: DeviceIDLength
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: DeviceIDLength
+  nameWithType: DS18B20.DeviceIDLength
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceIDLength
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 198
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nNumber of bytes (including the CRC) in the device ID array.\n"
+  example: []
+  syntax:
+    content: public const byte DeviceIDLength = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DeviceIDLength As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+  id: Sensor
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: Sensor
+  nameWithType: DS18B20.Sensor
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Sensor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 216
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nInstance of the DS18B20 temperature sensor\n"
+  example: []
+  syntax:
+    content: protected OneWireBus.Devices Sensor { get; }
+    parameters: []
+    return:
+      type: OneWireBus.Devices
+    content.vb: Protected ReadOnly Property Sensor As OneWireBus.Devices
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode
+  commentId: F:Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode
+  id: BusMode
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: BusMode
+  nameWithType: DS18B20.BusMode
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BusMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 221
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nBus mode type, default is single device on the bus.\n"
+  example: []
+  syntax:
+    content: protected DS18B20.BusModeType BusMode
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+    content.vb: Protected BusMode As DS18B20.BusModeType
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: DS18B20.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 226
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nTemperature (in degrees centigrade).\n"
+  example: []
+  syntax:
+    content: public float Temperature { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Temperature As Single
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+  id: TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: DS18B20.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 250
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nAny changes in the temperature that are greater than the temperature\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float TemperatureChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TemperatureChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+  id: Resolution
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: Resolution
+  nameWithType: DS18B20.Resolution
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Resolution
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 259
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nResolution in bit of the DS18B20.\n"
+  remarks: "\nReturns (or sets) the number of bits used to hold a sensor reading.\nPossible values are 9, 10, 11 or 12.\n"
+  example: []
+  syntax:
+    content: public int Resolution { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Resolution As Integer
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+  id: MaximumConversionPeriod
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: MaximumConversionPeriod
+  nameWithType: DS18B20.MaximumConversionPeriod
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MaximumConversionPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 264
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nMaximum conversion time (in milliseconds) for the DS18B20 based upon the resolution.\n"
+  example: []
+  syntax:
+    content: public ushort MaximumConversionPeriod { get; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Property MaximumConversionPeriod As UShort
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+  commentId: P:Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+  id: DeviceID
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: DeviceID
+  nameWithType: DS18B20.DeviceID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 290
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nDevice ID of the DS18B20 temperature sensor.\n"
+  example: []
+  syntax:
+    content: public UInt64 DeviceID { get; }
+    parameters: []
+    return:
+      type: UInt64
+    content.vb: Public ReadOnly Property DeviceID As UInt64
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged
+  id: TemperatureChanged
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChanged
+  nameWithType: DS18B20.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 300
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nEvent raised when the temperature change is greater than the \nTemperatureChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler TemperatureChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event TemperatureChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
+  id: '#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)'
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: DS18B20(IDigitalPin, UInt64, UInt16, Single)
+  nameWithType: DS18B20.DS18B20(IDigitalPin, UInt64, UInt16, Single)
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DS18B20(IDigitalPin, UInt64, System.UInt16, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 320
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nCreate a new DS18B20 temperature sensor object with the specified configuration.\n"
+  example: []
+  syntax:
+    content: public DS18B20(IDigitalPin oneWirePin, UInt64 deviceID = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)
+    parameters:
+    - id: oneWirePin
+      type: IDigitalPin
+      description: GPIO pin the DS18B20 is connected to.
+    - id: deviceID
+      type: UInt64
+      description: Address of the DS18B20 device.
+    - id: updateInterval
+      type: System.UInt16
+      description: Update period in milliseconds.  Note that this most be greater than the conversion period for the sensor.
+    - id: temperatureChangeNotificationThreshold
+      type: System.Single
+      description: Threshold for temperature changes that will generate an interrupt.
+    content.vb: Public Sub New(oneWirePin As IDigitalPin, deviceID As UInt64 = Nothing, updateInterval As UShort = Nothing, temperatureChangeNotificationThreshold As Single = 0.001F)
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
+  id: SendDeviceID
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: SendDeviceID()
+  nameWithType: DS18B20.SendDeviceID()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendDeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 411
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nSend the device ID if necessary to ensure that the object is\ntalking to the right device.\n"
+  example: []
+  syntax:
+    content: protected void SendDeviceID()
+    content.vb: Protected Sub SendDeviceID
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Update
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: DS18B20.Update()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 435
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nUpdate the Temperature property.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID
+  id: ReadDeviceID
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: ReadDeviceID()
+  nameWithType: DS18B20.ReadDeviceID()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadDeviceID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 463
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nRead the device ID from the EEPROM on the DS18B20 and update the DeviceID property.\n"
+  remarks: "\nThis will only work if there is only one device on the one wire bus.\n"
+  example: []
+  syntax:
+    content: public void ReadDeviceID()
+    content.vb: Public Sub ReadDeviceID
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad
+  id: ReadScratchPad
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: ReadScratchPad()
+  nameWithType: DS18B20.ReadScratchPad()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadScratchPad
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 488
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nRead the scratch pad area from the DS18B20.\n"
+  example: []
+  syntax:
+    content: protected byte[] ReadScratchPad()
+    return:
+      type: System.Byte[]
+      description: Scratch pad contents as a byte array.
+    content.vb: Protected Function ReadScratchPad As Byte()
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration
+  id: ReadConfiguration
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: ReadConfiguration()
+  nameWithType: DS18B20.ReadConfiguration()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadConfiguration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 519
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nRead the configuration from the temperature sensor.\n"
+  remarks: "\nThis method will also update the Resolution property.\n\nFormat of the configuration register:\nb7 b6 b5 b4 b3 b2 b1 b0\n0  R1 R0 1  1  1  1  1\n\nWhere R0 and R1 are the resolution bits (0 = 9, 1 = 10, 2 = 11 and 3 = 12).\n"
+  example: []
+  syntax:
+    content: public void ReadConfiguration()
+    content.vb: Public Sub ReadConfiguration
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration
+  id: LoadConfiguration
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: LoadConfiguration()
+  nameWithType: DS18B20.LoadConfiguration()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LoadConfiguration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 528
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nLoad the configuration from the device EEPROM.\n"
+  example: []
+  syntax:
+    content: public void LoadConfiguration()
+    content.vb: Public Sub LoadConfiguration
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration
+  id: SaveConfiguration
+  parent: Meadow.Foundation.Sensors.Temperature.DS18B20
+  langs:
+  - csharp
+  - vb
+  name: SaveConfiguration()
+  nameWithType: DS18B20.SaveConfiguration()
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SaveConfiguration
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Temperature.DS18B20/DS18B20.cs
+    startLine: 536
+  assemblies:
+  - Sensors.Temperature.DS18B20
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nSave the current configuration to the device EEPROM.\n"
+  example: []
+  syntax:
+    content: public void SaveConfiguration()
+    content.vb: Public Sub SaveConfiguration
+  overload: Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor
+  commentId: T:Meadow.Foundation.Sensors.ITemperatureSensor
+  parent: Meadow.Foundation.Sensors
+  name: ITemperatureSensor
+  nameWithType: ITemperatureSensor
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+  name: Sensor
+  nameWithType: DS18B20.Sensor
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
+- uid: OneWireBus.Devices
+  commentId: '!:OneWireBus.Devices'
+  isExternal: true
+  name: OneWireBus.Devices
+  nameWithType: OneWireBus.Devices
+  fullName: OneWireBus.Devices
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: DS18B20.BusModeType
+  nameWithType: DS18B20.BusModeType
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+  name: Temperature
+  nameWithType: DS18B20.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Temperature
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: DS18B20.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+  name: Resolution
+  nameWithType: DS18B20.Resolution
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Resolution
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+  name: MaximumConversionPeriod
+  nameWithType: DS18B20.MaximumConversionPeriod
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.MaximumConversionPeriod
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+  name: DeviceID
+  nameWithType: DS18B20.DeviceID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
+- uid: UInt64
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: UInt64
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChanged
+  nameWithType: ITemperatureSensor.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor
+  name: DS18B20
+  nameWithType: DS18B20.DS18B20
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DS18B20
+- uid: IDigitalPin
+  isExternal: true
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: IDigitalPin
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
+  name: SendDeviceID
+  nameWithType: DS18B20.SendDeviceID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.Update
+  name: Update
+  nameWithType: DS18B20.Update
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Update
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID
+  name: ReadDeviceID
+  nameWithType: DS18B20.ReadDeviceID
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadDeviceID
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad
+  name: ReadScratchPad
+  nameWithType: DS18B20.ReadScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadScratchPad
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration
+  name: ReadConfiguration
+  nameWithType: DS18B20.ReadConfiguration
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ReadConfiguration
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration
+  name: LoadConfiguration
+  nameWithType: DS18B20.LoadConfiguration
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.LoadConfiguration
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration
+  name: SaveConfiguration
+  nameWithType: DS18B20.SaveConfiguration
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.SaveConfiguration

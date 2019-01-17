@@ -27,7 +27,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 4
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: 'public class ServoConfig : object'
@@ -63,7 +63,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 6
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public int MinimumAngle { get; }
@@ -98,7 +98,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 7
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public int MaximumAngle { get; }
@@ -133,7 +133,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 8
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public int MinimumPulseDuration { get; }
@@ -168,7 +168,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 9
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public int MaximumPulseDuration { get; }
@@ -203,7 +203,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 11
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public int Frequency { get; }
@@ -238,7 +238,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
     startLine: 21
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\n\n"
   example: []
@@ -273,16 +273,26 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.ServoConfig.MinimumAngle*
   commentId: Overload:Meadow.Foundation.Servos.ServoConfig.MinimumAngle
   name: MinimumAngle
   nameWithType: ServoConfig.MinimumAngle
   fullName: Meadow.Foundation.Servos.ServoConfig.MinimumAngle
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

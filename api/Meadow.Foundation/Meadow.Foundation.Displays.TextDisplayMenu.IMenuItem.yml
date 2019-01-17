@@ -154,16 +154,26 @@ references:
   nameWithType: IMenuItem.Text
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Text
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value*
   commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
   name: Value
   nameWithType: IMenuItem.Value
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object

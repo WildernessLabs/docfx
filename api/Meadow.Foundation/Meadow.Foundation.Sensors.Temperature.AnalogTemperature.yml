@@ -33,11 +33,9 @@ items:
   remarks: "\n<em>AnalogTemperature</em> provides a method of reading the temperature from\nlinear analog temperature sensors.  There are a number of these sensors available\nincluding the commonly available TMP and LM series.\nSensors of this type obey the following equation:\ny = mx + c\nwhere y is the reading in millivolts, m is the gradient (number of millivolts per\ndegree centigrade and C is the point where the line would intercept the y axis.\nThe <em>SensorType</em> enum defines the list of sensors with default settings in the\nlibrary.  Unsupported sensors that use the same linear algorithm can be constructed\nby setting the sensor type to <em>SensorType.Custom</em> and providing the settings for\nthe linear calculations.\nThe default sensors have the following settings:\nSensor              Millivolts at 25C    Millivolts per degree C\nTMP35, LM35, LM45       250                     10\nTMP36, LM50             750                     10\nTMP37                   500                     20\n"
   example: []
   syntax:
-    content: 'public class AnalogTemperature : object, ITemperatureSensor, ISensor'
+    content: 'public class AnalogTemperature : ITemperatureSensor, ISensor'
     content.vb: >-
       Public Class AnalogTemperature
-
-          Inherits Object
 
           Implements ITemperatureSensor, ISensor
   inheritance:
@@ -45,6 +43,14 @@ items:
   implements:
   - Meadow.Foundation.Sensors.ITemperatureSensor
   - Meadow.Foundation.Sensors.ISensor
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -76,10 +82,10 @@ items:
   summary: "\nMinimum value that should be used for the polling frequency.\n"
   example: []
   syntax:
-    content: public const ushort MinimumPollingPeriod = null
+    content: public const ushort MinimumPollingPeriod = 100
     return:
       type: System.UInt16
-    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+    content.vb: Public Const MinimumPollingPeriod As UShort = 100
   modifiers.csharp:
   - public
   - const
@@ -225,7 +231,7 @@ items:
   summary: "\nNew instance of the AnalogTemperatureSensor class.\n"
   example: []
   syntax:
-    content: public AnalogTemperature(Cpu.AnalogChannel analogPin, AnalogTemperature.KnownSensorType sensorType, AnalogTemperature.Calibration calibration = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)
+    content: public AnalogTemperature(Cpu.AnalogChannel analogPin, AnalogTemperature.KnownSensorType sensorType, AnalogTemperature.Calibration calibration = null, ushort updateInterval = 100, float temperatureChangeNotificationThreshold = 0.001F)
     parameters:
     - id: analogPin
       type: Meadow.Hardware.Cpu.AnalogChannel
@@ -242,7 +248,7 @@ items:
     - id: temperatureChangeNotificationThreshold
       type: System.Single
       description: Changes in temperature greater than this value will trigger an event when updatePeriod > 0.
-    content.vb: Public Sub New(analogPin As Cpu.AnalogChannel, sensorType As AnalogTemperature.KnownSensorType, calibration As AnalogTemperature.Calibration = Nothing, updateInterval As UShort = Nothing, temperatureChangeNotificationThreshold As Single = 0.001F)
+    content.vb: Public Sub New(analogPin As Cpu.AnalogChannel, sensorType As AnalogTemperature.KnownSensorType, calibration As AnalogTemperature.Calibration = Nothing, updateInterval As UShort = 100, temperatureChangeNotificationThreshold As Single = 0.001F)
   overload: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor*
   modifiers.csharp:
   - public
@@ -287,6 +293,8 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Temperature
   fullName: Meadow.Foundation.Sensors.Temperature
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -303,12 +311,299 @@ references:
   name: ISensor
   nameWithType: ISensor
   fullName: Meadow.Foundation.Sensors.ISensor
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Sensors
   commentId: N:Meadow.Foundation.Sensors
   name: Meadow.Foundation.Sensors
   nameWithType: Meadow.Foundation.Sensors
   fullName: Meadow.Foundation.Sensors
 - uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16
@@ -325,6 +620,8 @@ references:
   nameWithType: ITemperatureSensor.Temperature
   fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

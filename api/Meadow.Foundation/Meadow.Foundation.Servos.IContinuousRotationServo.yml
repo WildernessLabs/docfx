@@ -26,7 +26,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 4
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: public interface IContinuousRotationServo
@@ -57,7 +57,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 6
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: ServoConfig Config { get; }
@@ -90,7 +90,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 8
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: RotationDirection CurrentDirection { get; }
@@ -123,7 +123,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 10
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: float CurrentSpeed { get; }
@@ -156,7 +156,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 12
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: void Rotate(RotationDirection direction, float speed)
@@ -187,7 +187,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
     startLine: 14
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: void Stop()
@@ -227,10 +227,18 @@ references:
   nameWithType: IContinuousRotationServo.CurrentSpeed
   fullName: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate*
   commentId: Overload:Meadow.Foundation.Servos.IContinuousRotationServo.Rotate
   name: Rotate

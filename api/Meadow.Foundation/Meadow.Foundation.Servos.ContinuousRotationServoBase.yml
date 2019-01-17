@@ -34,7 +34,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 8
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nBase class implementation for servos that can rotate continuously.\n"
   example: []
@@ -80,7 +80,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 10
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected IPwmPort _pwm
@@ -111,7 +111,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 15
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nGets the ServoConfig that describes this servo.\n"
   example: []
@@ -150,7 +150,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 19
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected ServoConfig _config
@@ -181,7 +181,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 24
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nGets the current rotation direction.\n"
   example: []
@@ -220,7 +220,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 28
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected RotationDirection _currentDirection
@@ -251,7 +251,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 33
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nGets the current rotation speed.\n"
   example: []
@@ -290,7 +290,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 37
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected float _currentSpeed
@@ -321,7 +321,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 44
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nInstantiates a new continuous rotation servo on the specified pin, with the specified configuration.\n"
   example: []
@@ -359,7 +359,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 61
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nStarts rotating the servo in the specified direction, at the specified speed.\n"
   example: []
@@ -400,7 +400,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 83
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nStops rotation of the servo.\n"
   example: []
@@ -434,7 +434,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 99
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   summary: "\nContinuous rotation servos usually have a zero speed at their midpoint pulse \nduration (between min and max). As you lower the duration from midpoint, they \nrotate clockwise and rotate their fastest at the minimum pulse duration. As \nyou increase the pulse duration, they rotate counter-clockwise.\n"
   example: []
@@ -476,7 +476,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 120
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected double CalculateDutyCycle(double pulseDuration)
@@ -511,7 +511,7 @@ items:
     path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServoBase.cs
     startLine: 126
   assemblies:
-  - Sensors.Servo.Core
+  - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
   syntax:
     content: protected void SendCommandPulse(double pulseDuration)
@@ -531,6 +531,8 @@ references:
   nameWithType: Meadow.Foundation.Servos
   fullName: Meadow.Foundation.Servos
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -541,6 +543,12 @@ references:
   name: IContinuousRotationServo
   nameWithType: IContinuousRotationServo
   fullName: Meadow.Foundation.Servos.IContinuousRotationServo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IPwmPort
   commentId: T:Meadow.Hardware.IPwmPort
   parent: Meadow.Hardware
@@ -598,6 +606,8 @@ references:
   nameWithType: IContinuousRotationServo.CurrentSpeed
   fullName: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -704,6 +714,8 @@ references:
   nameWithType: ContinuousRotationServoBase.CalculatePulseDuration
   fullName: Meadow.Foundation.Servos.ContinuousRotationServoBase.CalculatePulseDuration
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double

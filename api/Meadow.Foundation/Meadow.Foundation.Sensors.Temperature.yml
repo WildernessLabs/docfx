@@ -7,6 +7,10 @@ items:
   - Meadow.Foundation.Sensors.Temperature.AnalogTemperature
   - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration
   - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  - Meadow.Foundation.Sensors.Temperature.DS18B20
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
   langs:
   - csharp
   - vb
@@ -34,6 +38,27 @@ references:
   name: AnalogTemperature.KnownSensorType
   nameWithType: AnalogTemperature.KnownSensorType
   fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20
+  name: DS18B20
+  nameWithType: DS18B20
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: DS18B20.BusModeType
+  nameWithType: DS18B20.BusModeType
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+  name: DS18B20.Commands
+  nameWithType: DS18B20.Commands
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Commands
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
+  name: DS18B20.ScratchPad
+  nameWithType: DS18B20.ScratchPad
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.ScratchPad
 - uid: Meadow.Foundation.Sensors.Temperature
   commentId: N:Meadow.Foundation.Sensors.Temperature
   name: Meadow.Foundation.Sensors.Temperature

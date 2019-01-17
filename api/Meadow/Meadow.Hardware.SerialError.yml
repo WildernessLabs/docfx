@@ -29,8 +29,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: public enum SerialError
-    content.vb: Public Enum SerialError
+    content: 'public enum SerialError : int'
+    content.vb: Public Enum SerialError As Integer
   modifiers.csharp:
   - public
   - enum
@@ -60,9 +60,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: TXFull = 0
+    content: TXFull = null
     return:
       type: Meadow.Hardware.SerialError
+    content.vb: TXFull = Nothing
   modifiers.csharp:
   - public
   - const
@@ -92,9 +93,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: RXOver = 1
+    content: RXOver = null
     return:
       type: Meadow.Hardware.SerialError
+    content.vb: RXOver = Nothing
   modifiers.csharp:
   - public
   - const
@@ -124,9 +126,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Overrun = 2
+    content: Overrun = null
     return:
       type: Meadow.Hardware.SerialError
+    content.vb: Overrun = Nothing
   modifiers.csharp:
   - public
   - const
@@ -156,9 +159,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: RXParity = 3
+    content: RXParity = null
     return:
       type: Meadow.Hardware.SerialError
+    content.vb: RXParity = Nothing
   modifiers.csharp:
   - public
   - const
@@ -188,9 +192,10 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Frame = 4
+    content: Frame = null
     return:
       type: Meadow.Hardware.SerialError
+    content.vb: Frame = Nothing
   modifiers.csharp:
   - public
   - const

@@ -28,8 +28,8 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: 'public enum Rotation : int'
-    content.vb: Public Enum Rotation As Integer
+    content: public enum Rotation
+    content.vb: Public Enum Rotation
   modifiers.csharp:
   - public
   - enum

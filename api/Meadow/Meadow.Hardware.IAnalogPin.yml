@@ -31,7 +31,7 @@ items:
           Inherits IPin, IAnalogChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name
-  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IPin.Key
   - Meadow.Hardware.IAnalogChannel.Precision
   modifiers.csharp:
   - public
@@ -51,12 +51,12 @@ references:
   name: Name
   nameWithType: IPin.Name
   fullName: Meadow.Hardware.IPin.Name
-- uid: Meadow.Hardware.IPin.Address
-  commentId: P:Meadow.Hardware.IPin.Address
+- uid: Meadow.Hardware.IPin.Key
+  commentId: P:Meadow.Hardware.IPin.Key
   parent: Meadow.Hardware.IPin
-  name: Address
-  nameWithType: IPin.Address
-  fullName: Meadow.Hardware.IPin.Address
+  name: Key
+  nameWithType: IPin.Key
+  fullName: Meadow.Hardware.IPin.Key
 - uid: Meadow.Hardware.IAnalogChannel.Precision
   commentId: P:Meadow.Hardware.IAnalogChannel.Precision
   parent: Meadow.Hardware.IAnalogChannel

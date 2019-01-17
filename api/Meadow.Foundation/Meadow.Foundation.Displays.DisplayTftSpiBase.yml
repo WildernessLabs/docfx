@@ -8,8 +8,8 @@ items:
   - Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.UInt32,System.UInt32,Meadow.Hardware.Spi.SPI_module,System.UInt32,System.Boolean)
   - Meadow.Foundation.Displays.DisplayTftSpiBase._height
   - Meadow.Foundation.Displays.DisplayTftSpiBase._width
-  - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Drawing.Color,System.Boolean)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.UInt16,System.Boolean)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen(System.UInt16)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer(System.UInt16)
@@ -19,11 +19,11 @@ items:
   - Meadow.Foundation.Displays.DisplayTftSpiBase.dataCommandPort
   - Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs(System.Int32)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
-  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
-  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Height
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
   - Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
@@ -73,13 +73,21 @@ items:
   - Meadow.Foundation.Displays.ILI9341
   - Meadow.Foundation.Displays.S6D02A1
   - Meadow.Foundation.Displays.SSD1331
+  - Meadow.Foundation.Displays.SSD1351
   - Meadow.Foundation.Displays.ST7735
   - Meadow.Foundation.Displays.ST7789
   implements:
   - Meadow.Foundation.Displays.IDisplay
-  - IDisposable
+  - System.IDisposable
   inheritedMembers:
   - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - abstract
@@ -446,10 +454,10 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: protected const bool Data = null
+    content: protected const bool Data = true
     return:
       type: System.Boolean
-    content.vb: Protected Const Data As Boolean = Nothing
+    content.vb: Protected Const Data As Boolean = True
   modifiers.csharp:
   - protected
   - const
@@ -479,10 +487,10 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: protected const bool Command = null
+    content: protected const bool Command = false
     return:
       type: System.Boolean
-    content.vb: Protected Const Command As Boolean = Nothing
+    content.vb: Protected Const Command As Boolean = False
   modifiers.csharp:
   - protected
   - const
@@ -544,7 +552,7 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public DisplayTftSpiBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null, bool idleClockState = false)
+    content: public DisplayTftSpiBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, bool idleClockState = false)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -562,7 +570,7 @@ items:
       type: System.UInt32
     - id: idleClockState
       type: System.Boolean
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing, idleClockState As Boolean = False)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI, idleClockState As Boolean = False)
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor*
   modifiers.csharp:
   - public
@@ -607,16 +615,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
-  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
-  id: Clear(Color,System.Boolean)
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Drawing.Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Drawing.Color,System.Boolean)
+  id: Clear(System.Drawing.Color,System.Boolean)
   parent: Meadow.Foundation.Displays.DisplayTftSpiBase
   langs:
   - csharp
   - vb
   name: Clear(Color, Boolean)
   nameWithType: DisplayTftSpiBase.Clear(Color, Boolean)
-  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color, System.Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Drawing.Color, System.Boolean)
   type: Method
   source:
     remote:
@@ -633,7 +641,7 @@ items:
     content: public void Clear(Color color, bool updateDisplay = false)
     parameters:
     - id: color
-      type: Color
+      type: System.Drawing.Color
     - id: updateDisplay
       type: System.Boolean
     content.vb: Public Sub Clear(color As Color, updateDisplay As Boolean = False)
@@ -734,16 +742,16 @@ items:
   - Overrides
   fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
-- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
-  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   parent: Meadow.Foundation.Displays.DisplayTftSpiBase
   langs:
   - csharp
   - vb
   name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
   nameWithType: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
   type: Method
   source:
     remote:
@@ -777,9 +785,10 @@ items:
       type: System.Byte[]
       description: Bitmap to display.
     - id: color
-      type: Color
+      type: System.Drawing.Color
       description: The color of the bitmap.
     content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap*
   nameWithType.vb: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
   modifiers.csharp:
@@ -788,7 +797,7 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
 - uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
@@ -835,16 +844,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
-  id: DrawPixel(System.Int32,System.Int32,Color)
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  id: DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   parent: Meadow.Foundation.Displays.DisplayTftSpiBase
   langs:
   - csharp
   - vb
   name: DrawPixel(Int32, Int32, Color)
   nameWithType: DisplayTftSpiBase.DrawPixel(Int32, Int32, Color)
-  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32, System.Int32, Color)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
   type: Method
   source:
     remote:
@@ -869,9 +878,10 @@ items:
       type: System.Int32
       description: y location
     - id: color
-      type: Color
+      type: System.Drawing.Color
       description: Color of pixel.
     content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel*
   modifiers.csharp:
   - public
@@ -1254,12 +1264,12 @@ items:
   summary: "\nDirectly sets the display to a 16bpp color value\n"
   example: []
   syntax:
-    content: public void ClearScreen(ushort color = null)
+    content: public void ClearScreen(ushort color = 0)
     parameters:
     - id: color
       type: System.UInt16
       description: 16bpp color value (565)
-    content.vb: Public Sub ClearScreen(color As UShort = Nothing)
+    content.vb: Public Sub ClearScreen(color As UShort = 0)
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen*
   modifiers.csharp:
   - public
@@ -1324,6 +1334,8 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose*
+  implements:
+  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1335,6 +1347,8 @@ references:
   nameWithType: Meadow.Foundation.Displays
   fullName: Meadow.Foundation.Displays
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1351,17 +1365,304 @@ references:
   name: IDisplay
   nameWithType: IDisplay
   fullName: Meadow.Foundation.Displays.IDisplay
-- uid: IDisposable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
-  fullName: IDisposable
+  fullName: System.IDisposable
 - uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
   commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
   parent: Meadow.Foundation.Displays.DisplayBase
   name: IgnoreOutOfBoundsPixels
   nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
   fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
   commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -1391,6 +1692,8 @@ references:
   nameWithType: DisplayTftSpiBase.Width
   fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Width
 - uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
   isExternal: true
   name: UInt32
   nameWithType: UInt32
@@ -1450,6 +1753,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1520,12 +1825,22 @@ references:
   name: Clear
   nameWithType: DisplayTftSpiBase.Clear
   fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear
-- uid: Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
   isExternal: true
   name: Color
   nameWithType: Color
-  fullName: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
 - uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16
@@ -1662,6 +1977,8 @@ references:
   nameWithType: DisplayTftSpiBase.DrawBitmap
   fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1672,6 +1989,134 @@ references:
   name: DisplayBase.BitmapMode
   nameWithType: DisplayBase.BitmapMode
   fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -1748,7 +2193,80 @@ references:
   name: DrawPixel
   nameWithType: DisplayTftSpiBase.DrawPixel
   fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
@@ -1826,3 +2344,34 @@ references:
   name: Dispose
   nameWithType: DisplayTftSpiBase.Dispose
   fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

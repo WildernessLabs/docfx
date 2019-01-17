@@ -22,13 +22,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: NetworkType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
+  summary: "\nDescribes teh type of WiFi network.\n"
+  example: []
   syntax:
-    content: public enum NetworkType
-    content.vb: Public Enum NetworkType
+    content: 'public enum NetworkType : int'
+    content.vb: Public Enum NetworkType As Integer
   modifiers.csharp:
   - public
   - enum
@@ -53,14 +55,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Any
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: Any = 0
+    content: Any = null
     return:
       type: Meadow.Gateway.WiFi.NetworkType
+    content.vb: Any = Nothing
   modifiers.csharp:
   - public
   - const
@@ -85,14 +88,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: Infrastructure
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: Infrastructure = 1
+    content: Infrastructure = null
     return:
       type: Meadow.Gateway.WiFi.NetworkType
+    content.vb: Infrastructure = Nothing
   modifiers.csharp:
   - public
   - const
@@ -117,14 +121,15 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Core.git
     id: AdHoc
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: AdHoc = 2
+    content: AdHoc = null
     return:
       type: Meadow.Gateway.WiFi.NetworkType
+    content.vb: AdHoc = Nothing
   modifiers.csharp:
   - public
   - const

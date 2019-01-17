@@ -38,7 +38,7 @@ items:
 
           Inherits IPort
   inheritedMembers:
-  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.Direction
   - Meadow.Hardware.IPort.SignalType
   modifiers.csharp:
   - public
@@ -296,12 +296,12 @@ references:
   name: Meadow.Hardware
   nameWithType: Meadow.Hardware
   fullName: Meadow.Hardware
-- uid: Meadow.Hardware.IPort.DirectionType
-  commentId: P:Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.IPort.Direction
+  commentId: P:Meadow.Hardware.IPort.Direction
   parent: Meadow.Hardware.IPort
-  name: DirectionType
-  nameWithType: IPort.DirectionType
-  fullName: Meadow.Hardware.IPort.DirectionType
+  name: Direction
+  nameWithType: IPort.Direction
+  fullName: Meadow.Hardware.IPort.Direction
 - uid: Meadow.Hardware.IPort.SignalType
   commentId: P:Meadow.Hardware.IPort.SignalType
   parent: Meadow.Hardware.IPort
@@ -330,18 +330,10 @@ references:
   nameWithType: IPwmPort.Duration
   fullName: Meadow.Hardware.IPwmPort.Duration
 - uid: System.Double
-  commentId: T:System.Double
-  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Hardware.IPwmPort.Period*
   commentId: Overload:Meadow.Hardware.IPwmPort.Period
   name: Period
@@ -369,6 +361,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IPwmPort.Scale*
   commentId: Overload:Meadow.Hardware.IPwmPort.Scale
   name: Scale
