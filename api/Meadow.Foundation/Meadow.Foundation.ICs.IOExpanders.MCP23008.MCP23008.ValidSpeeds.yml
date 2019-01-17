@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  id: MCP23008.ValidSpeeds
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.fourhundredk
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.hundredk
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.onepointsevenmegs
+  langs:
+  - csharp
+  - vb
+  name: MCP23008.ValidSpeeds
+  nameWithType: MCP23008.ValidSpeeds
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ValidSpeeds
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 284
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: 'public enum ValidSpeeds : ushort'
+    content.vb: Public Enum ValidSpeeds As UShort
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.hundredk
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.hundredk
+  id: hundredk
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  langs:
+  - csharp
+  - vb
+  name: hundredk
+  nameWithType: MCP23008.ValidSpeeds.hundredk
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.hundredk
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: hundredk
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 286
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: hundredk = null
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: hundredk = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.fourhundredk
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.fourhundredk
+  id: fourhundredk
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  langs:
+  - csharp
+  - vb
+  name: fourhundredk
+  nameWithType: MCP23008.ValidSpeeds.fourhundredk
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.fourhundredk
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: fourhundredk
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 287
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: fourhundredk = null
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: fourhundredk = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.onepointsevenmegs
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.onepointsevenmegs
+  id: onepointsevenmegs
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  langs:
+  - csharp
+  - vb
+  name: onepointsevenmegs
+  nameWithType: MCP23008.ValidSpeeds.onepointsevenmegs
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds.onepointsevenmegs
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: onepointsevenmegs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 288
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: onepointsevenmegs = null
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: onepointsevenmegs = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: MCP23008.ValidSpeeds
+  nameWithType: MCP23008.ValidSpeeds
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds

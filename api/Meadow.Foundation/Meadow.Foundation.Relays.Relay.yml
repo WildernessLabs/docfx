@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Relays.Relay
+  commentId: T:Meadow.Foundation.Relays.Relay
+  id: Relay
+  parent: Meadow.Foundation.Relays
+  children:
+  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
+  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  - Meadow.Foundation.Relays.Relay._isOn
+  - Meadow.Foundation.Relays.Relay._onValue
+  - Meadow.Foundation.Relays.Relay.DigitalOut
+  - Meadow.Foundation.Relays.Relay.IsOn
+  - Meadow.Foundation.Relays.Relay.Toggle
+  - Meadow.Foundation.Relays.Relay.Type
+  langs:
+  - csharp
+  - vb
+  name: Relay
+  nameWithType: Relay
+  fullName: Meadow.Foundation.Relays.Relay
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Relay
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: 'public class Relay : object, IRelay'
+    content.vb: >-
+      Public Class Relay
+
+          Inherits Object
+
+          Implements IRelay
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Relays.IRelay
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Relays.Relay.DigitalOut
+  commentId: P:Meadow.Foundation.Relays.Relay.DigitalOut
+  id: DigitalOut
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: DigitalOut
+  nameWithType: Relay.DigitalOut
+  fullName: Meadow.Foundation.Relays.Relay.DigitalOut
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DigitalOut
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: public IDigitalOutputPort DigitalOut { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Public Property DigitalOut As IDigitalOutputPort
+  overload: Meadow.Foundation.Relays.Relay.DigitalOut*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.Relays.Relay.Type
+  commentId: P:Meadow.Foundation.Relays.Relay.Type
+  id: Type
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Relay.Type
+  fullName: Meadow.Foundation.Relays.Relay.Type
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Type
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: public RelayType Type { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Relays.RelayType
+    content.vb: Public Property Type As RelayType
+  overload: Meadow.Foundation.Relays.Relay.Type*
+  implements:
+  - Meadow.Foundation.Relays.IRelay.Type
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.Relays.Relay.IsOn
+  commentId: P:Meadow.Foundation.Relays.Relay.IsOn
+  id: IsOn
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: IsOn
+  nameWithType: Relay.IsOn
+  fullName: Meadow.Foundation.Relays.Relay.IsOn
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: public bool IsOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOn As Boolean
+  overload: Meadow.Foundation.Relays.Relay.IsOn*
+  implements:
+  - Meadow.Foundation.Relays.IRelay.IsOn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Relays.Relay._isOn
+  commentId: F:Meadow.Foundation.Relays.Relay._isOn
+  id: _isOn
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: _isOn
+  nameWithType: Relay._isOn
+  fullName: Meadow.Foundation.Relays.Relay._isOn
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _isOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: protected bool _isOn
+    return:
+      type: System.Boolean
+    content.vb: Protected _isOn As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Relays.Relay._onValue
+  commentId: F:Meadow.Foundation.Relays.Relay._onValue
+  id: _onValue
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: _onValue
+  nameWithType: Relay._onValue
+  fullName: Meadow.Foundation.Relays.Relay._onValue
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _onValue
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 22
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: protected bool _onValue
+    return:
+      type: System.Boolean
+    content.vb: Protected _onValue As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  id: '#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)'
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: Relay(IDigitalOutputPort, RelayType)
+  nameWithType: Relay.Relay(IDigitalOutputPort, RelayType)
+  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.IDigitalOutputPort, Meadow.Foundation.Relays.RelayType)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 31
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  summary: "\nCreates a new Relay on an IDigitalOutputPort. Allows you \nto use any peripheral that exposes ports that conform to the\nIDigitalOutputPort, such as the MCP23008.\n"
+  example: []
+  syntax:
+    content: public Relay(IDigitalOutputPort port, RelayType type = RelayType.NormallyOpen)
+    parameters:
+    - id: port
+      type: Meadow.Hardware.IDigitalOutputPort
+      description: ''
+    - id: type
+      type: Meadow.Foundation.Relays.RelayType
+      description: ''
+    content.vb: Public Sub New(port As IDigitalOutputPort, type As RelayType = RelayType.NormallyOpen)
+  overload: Meadow.Foundation.Relays.Relay.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
+  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
+  id: '#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)'
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: Relay(IDigitalChannel, RelayType)
+  nameWithType: Relay.Relay(IDigitalChannel, RelayType)
+  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.IDigitalChannel, Meadow.Foundation.Relays.RelayType)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: public Relay(IDigitalChannel pin, RelayType type = RelayType.NormallyOpen)
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IDigitalChannel
+    - id: type
+      type: Meadow.Foundation.Relays.RelayType
+    content.vb: Public Sub New(pin As IDigitalChannel, type As RelayType = RelayType.NormallyOpen)
+  overload: Meadow.Foundation.Relays.Relay.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Relays.Relay.Toggle
+  commentId: M:Meadow.Foundation.Relays.Relay.Toggle
+  id: Toggle
+  parent: Meadow.Foundation.Relays.Relay
+  langs:
+  - csharp
+  - vb
+  name: Toggle()
+  nameWithType: Relay.Toggle()
+  fullName: Meadow.Foundation.Relays.Relay.Toggle()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Relays/Relay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Toggle
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Relays/Relay.cs
+    startLine: 56
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Relays
+  syntax:
+    content: public void Toggle()
+    content.vb: Public Sub Toggle
+  overload: Meadow.Foundation.Relays.Relay.Toggle*
+  implements:
+  - Meadow.Foundation.Relays.IRelay.Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Relays
+  commentId: N:Meadow.Foundation.Relays
+  name: Meadow.Foundation.Relays
+  nameWithType: Meadow.Foundation.Relays
+  fullName: Meadow.Foundation.Relays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Relays.IRelay
+  commentId: T:Meadow.Foundation.Relays.IRelay
+  parent: Meadow.Foundation.Relays
+  name: IRelay
+  nameWithType: IRelay
+  fullName: Meadow.Foundation.Relays.IRelay
+- uid: Meadow.Foundation.Relays.Relay.DigitalOut*
+  commentId: Overload:Meadow.Foundation.Relays.Relay.DigitalOut
+  name: DigitalOut
+  nameWithType: Relay.DigitalOut
+  fullName: Meadow.Foundation.Relays.Relay.DigitalOut
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Relays.Relay.Type*
+  commentId: Overload:Meadow.Foundation.Relays.Relay.Type
+  name: Type
+  nameWithType: Relay.Type
+  fullName: Meadow.Foundation.Relays.Relay.Type
+- uid: Meadow.Foundation.Relays.IRelay.Type
+  commentId: P:Meadow.Foundation.Relays.IRelay.Type
+  parent: Meadow.Foundation.Relays.IRelay
+  name: Type
+  nameWithType: IRelay.Type
+  fullName: Meadow.Foundation.Relays.IRelay.Type
+- uid: Meadow.Foundation.Relays.RelayType
+  commentId: T:Meadow.Foundation.Relays.RelayType
+  parent: Meadow.Foundation.Relays
+  name: RelayType
+  nameWithType: RelayType
+  fullName: Meadow.Foundation.Relays.RelayType
+- uid: Meadow.Foundation.Relays.Relay.IsOn*
+  commentId: Overload:Meadow.Foundation.Relays.Relay.IsOn
+  name: IsOn
+  nameWithType: Relay.IsOn
+  fullName: Meadow.Foundation.Relays.Relay.IsOn
+- uid: Meadow.Foundation.Relays.IRelay.IsOn
+  commentId: P:Meadow.Foundation.Relays.IRelay.IsOn
+  parent: Meadow.Foundation.Relays.IRelay
+  name: IsOn
+  nameWithType: IRelay.IsOn
+  fullName: Meadow.Foundation.Relays.IRelay.IsOn
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Relays.Relay.#ctor*
+  commentId: Overload:Meadow.Foundation.Relays.Relay.#ctor
+  name: Relay
+  nameWithType: Relay.Relay
+  fullName: Meadow.Foundation.Relays.Relay.Relay
+- uid: Meadow.Hardware.IDigitalChannel
+  commentId: T:Meadow.Hardware.IDigitalChannel
+  parent: Meadow.Hardware
+  name: IDigitalChannel
+  nameWithType: IDigitalChannel
+  fullName: Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Foundation.Relays.Relay.Toggle*
+  commentId: Overload:Meadow.Foundation.Relays.Relay.Toggle
+  name: Toggle
+  nameWithType: Relay.Toggle
+  fullName: Meadow.Foundation.Relays.Relay.Toggle
+- uid: Meadow.Foundation.Relays.IRelay.Toggle
+  commentId: M:Meadow.Foundation.Relays.IRelay.Toggle
+  parent: Meadow.Foundation.Relays.IRelay
+  name: Toggle()
+  nameWithType: IRelay.Toggle()
+  fullName: Meadow.Foundation.Relays.IRelay.Toggle()
+  spec.csharp:
+  - uid: Meadow.Foundation.Relays.IRelay.Toggle
+    name: Toggle
+    nameWithType: IRelay.Toggle
+    fullName: Meadow.Foundation.Relays.IRelay.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Relays.IRelay.Toggle
+    name: Toggle
+    nameWithType: IRelay.Toggle
+    fullName: Meadow.Foundation.Relays.IRelay.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

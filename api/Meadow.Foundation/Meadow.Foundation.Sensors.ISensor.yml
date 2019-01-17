@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  id: ISensor
+  parent: Meadow.Foundation.Sensors
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/ISensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ISensor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/ISensor.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  syntax:
+    content: public interface ISensor
+    content.vb: Public Interface ISensor
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors

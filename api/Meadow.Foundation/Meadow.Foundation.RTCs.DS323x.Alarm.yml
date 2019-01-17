@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Alarm
+  id: DS323x.Alarm
+  parent: Meadow.Foundation.RTCs
+  children:
+  - Meadow.Foundation.RTCs.DS323x.Alarm.Alarm1Raised
+  - Meadow.Foundation.RTCs.DS323x.Alarm.Alarm2Raised
+  - Meadow.Foundation.RTCs.DS323x.Alarm.BothAlarmsRaised
+  - Meadow.Foundation.RTCs.DS323x.Alarm.Unknown
+  langs:
+  - csharp
+  - vb
+  name: DS323x.Alarm
+  nameWithType: DS323x.Alarm
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 93
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nPossible values for the alarm that can be set or alarm that has been raised.\n"
+  example: []
+  syntax:
+    content: 'public enum Alarm : int'
+    content.vb: Public Enum Alarm As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm.Alarm1Raised
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Alarm.Alarm1Raised
+  id: Alarm1Raised
+  parent: Meadow.Foundation.RTCs.DS323x.Alarm
+  langs:
+  - csharp
+  - vb
+  name: Alarm1Raised
+  nameWithType: DS323x.Alarm.Alarm1Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm.Alarm1Raised
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm1Raised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 95
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: Alarm1Raised = 0
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm.Alarm2Raised
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Alarm.Alarm2Raised
+  id: Alarm2Raised
+  parent: Meadow.Foundation.RTCs.DS323x.Alarm
+  langs:
+  - csharp
+  - vb
+  name: Alarm2Raised
+  nameWithType: DS323x.Alarm.Alarm2Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm.Alarm2Raised
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm2Raised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 96
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: Alarm2Raised = 1
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm.BothAlarmsRaised
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Alarm.BothAlarmsRaised
+  id: BothAlarmsRaised
+  parent: Meadow.Foundation.RTCs.DS323x.Alarm
+  langs:
+  - csharp
+  - vb
+  name: BothAlarmsRaised
+  nameWithType: DS323x.Alarm.BothAlarmsRaised
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm.BothAlarmsRaised
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BothAlarmsRaised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 97
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: BothAlarmsRaised = 2
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm.Unknown
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Alarm.Unknown
+  id: Unknown
+  parent: Meadow.Foundation.RTCs.DS323x.Alarm
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DS323x.Alarm.Unknown
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Unknown
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 98
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: Unknown = 3
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Alarm
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.Alarm
+  nameWithType: DS323x.Alarm
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm

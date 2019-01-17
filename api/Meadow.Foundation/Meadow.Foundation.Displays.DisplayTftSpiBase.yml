@@ -1,0 +1,1828 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase
+  commentId: T:Meadow.Foundation.Displays.DisplayTftSpiBase
+  id: DisplayTftSpiBase
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.UInt32,System.UInt32,Meadow.Hardware.Spi.SPI_module,System.UInt32,System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase._height
+  - Meadow.Foundation.Displays.DisplayTftSpiBase._width
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.UInt16,System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen(System.UInt16)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer(System.UInt16)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Command
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Data
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.dataCommandPort
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs(System.Int32)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.resetPort
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand(System.Byte)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte[])
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Int32)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Show
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.spi
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.spiBOneByteBuffer
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.spiBuffer
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte)
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: DisplayTftSpiBase
+  nameWithType: DisplayTftSpiBase
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayTftSpiBase
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 7
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public abstract class DisplayTftSpiBase : DisplayBase, IDisplay, IDisposable'
+    content.vb: >-
+      Public MustInherit Class DisplayTftSpiBase
+
+          Inherits DisplayBase
+
+          Implements IDisplay, IDisposable
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.DisplayBase
+  derivedClasses:
+  - Meadow.Foundation.Displays.ILI9163
+  - Meadow.Foundation.Displays.ILI9341
+  - Meadow.Foundation.Displays.S6D02A1
+  - Meadow.Foundation.Displays.SSD1331
+  - Meadow.Foundation.Displays.ST7735
+  - Meadow.Foundation.Displays.ST7789
+  implements:
+  - Meadow.Foundation.Displays.IDisplay
+  - IDisposable
+  inheritedMembers:
+  - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+  id: ColorMode
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: ColorMode
+  nameWithType: DisplayTftSpiBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ColorMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 28
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override DisplayBase.DisplayColorMode ColorMode { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+    content.vb: Public Overrides ReadOnly Property ColorMode As DisplayBase.DisplayColorMode
+  overridden: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+  id: Width
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: DisplayTftSpiBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Width
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 29
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Width { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Width As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Width
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Width*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+  id: Height
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DisplayTftSpiBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Height
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 30
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Height { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Height As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Height
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Height*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.dataCommandPort
+  id: dataCommandPort
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: dataCommandPort
+  nameWithType: DisplayTftSpiBase.dataCommandPort
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.dataCommandPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: dataCommandPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 32
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DigitalOutputPort dataCommandPort
+    return:
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Protected dataCommandPort As DigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.resetPort
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.resetPort
+  id: resetPort
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: resetPort
+  nameWithType: DisplayTftSpiBase.resetPort
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.resetPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: resetPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 33
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected DigitalOutputPort resetPort
+    return:
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Protected resetPort As DigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.spi
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.spi
+  id: spi
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: spi
+  nameWithType: DisplayTftSpiBase.spi
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.spi
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spi
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 34
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected Spi spi
+    return:
+      type: Meadow.Hardware.Spi
+    content.vb: Protected spi As Spi
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.spiBuffer
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.spiBuffer
+  id: spiBuffer
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: spiBuffer
+  nameWithType: DisplayTftSpiBase.spiBuffer
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.spiBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spiBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 36
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected readonly byte[] spiBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected ReadOnly spiBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.spiBOneByteBuffer
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.spiBOneByteBuffer
+  id: spiBOneByteBuffer
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: spiBOneByteBuffer
+  nameWithType: DisplayTftSpiBase.spiBOneByteBuffer
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.spiBOneByteBuffer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: spiBOneByteBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 37
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected readonly byte[] spiBOneByteBuffer
+    return:
+      type: System.Byte[]
+    content.vb: Protected ReadOnly spiBOneByteBuffer As Byte()
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase._width
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase._width
+  id: _width
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: _width
+  nameWithType: DisplayTftSpiBase._width
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase._width
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _width
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 39
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected uint _width
+    return:
+      type: System.UInt32
+    content.vb: Protected _width As UInteger
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase._height
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase._height
+  id: _height
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: _height
+  nameWithType: DisplayTftSpiBase._height
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase._height
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _height
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 40
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected uint _height
+    return:
+      type: System.UInt32
+    content.vb: Protected _height As UInteger
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Data
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.Data
+  id: Data
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: DisplayTftSpiBase.Data
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Data
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Data
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 42
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected const bool Data = null
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Data As Boolean = Nothing
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Command
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.Command
+  id: Command
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: DisplayTftSpiBase.Command
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Command
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Command
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 43
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected const bool Command = null
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Command As Boolean = Nothing
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
+  id: Initialize
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: DisplayTftSpiBase.Initialize()
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Initialize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 45
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected abstract void Initialize()
+    content.vb: Protected MustOverride Sub Initialize
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.UInt32,System.UInt32,Meadow.Hardware.Spi.SPI_module,System.UInt32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.UInt32,System.UInt32,Meadow.Hardware.Spi.SPI_module,System.UInt32,System.Boolean)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.UInt32,System.UInt32,Meadow.Hardware.Spi.SPI_module,System.UInt32,System.Boolean)'
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DisplayTftSpiBase(IDigitalPin, IDigitalPin, IDigitalPin, UInt32, UInt32, Spi.SPI_module, UInt32, Boolean)
+  nameWithType: DisplayTftSpiBase.DisplayTftSpiBase(IDigitalPin, IDigitalPin, IDigitalPin, UInt32, UInt32, Spi.SPI_module, UInt32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DisplayTftSpiBase(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, System.UInt32, System.UInt32, Meadow.Hardware.Spi.SPI_module, System.UInt32, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 51
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public DisplayTftSpiBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null, bool idleClockState = false)
+    parameters:
+    - id: chipSelectPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: dcPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: resetPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    - id: spiModule
+      type: Meadow.Hardware.Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+    - id: idleClockState
+      type: System.Boolean
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing, idleClockState As Boolean = False)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Boolean)
+  id: Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean)
+  nameWithType: DisplayTftSpiBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 81
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nClear the display.\n"
+  example: []
+  syntax:
+    content: public override void Clear(bool updateDisplay = false)
+    parameters:
+    - id: updateDisplay
+      type: System.Boolean
+      description: Update the dipslay once the buffer has been cleared when true.
+    content.vb: Public Overrides Sub Clear(updateDisplay As Boolean = False)
+  overridden: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color,System.Boolean)
+  id: Clear(Color,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(Color, Boolean)
+  nameWithType: DisplayTftSpiBase.Clear(Color, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(Color, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 86
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void Clear(Color color, bool updateDisplay = false)
+    parameters:
+    - id: color
+      type: Color
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Public Sub Clear(color As Color, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.UInt16,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.UInt16,System.Boolean)
+  id: Clear(System.UInt16,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Clear(UInt16, Boolean)
+  nameWithType: DisplayTftSpiBase.Clear(UInt16, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear(System.UInt16, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 91
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void Clear(ushort color, bool updateDisplay = false)
+    parameters:
+    - id: color
+      type: System.UInt16
+    - id: updateDisplay
+      type: System.Boolean
+    content.vb: Protected Sub Clear(color As UShort, updateDisplay As Boolean = False)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 110
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDisplay a 1-bit bitmap\n\nThis method simply calls a similar method in the display hardware.\n"
+  example: []
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, DisplayBase.BitmapMode bitmapMode)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the top left corner of the bitmap.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the top left corner of the bitmap.
+    - id: width
+      type: System.Int32
+      description: Width of the bitmap in bytes.
+    - id: height
+      type: System.Int32
+      description: Height of the bitmap in bytes.
+    - id: bitmap
+      type: System.Byte[]
+      description: Bitmap to display.
+    - id: bitmapMode
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+      description: How should the bitmap be transferred to the display?
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), bitmapMode As DisplayBase.BitmapMode)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap*
+  nameWithType.vb: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawBitmap
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 144
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDisplay a 1-bit bitmap\n\nThis method simply calls a similar method in the display hardware.\n"
+  example: []
+  syntax:
+    content: public override void DrawBitmap(int x, int y, int width, int height, byte[] bitmap, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: Abscissa of the top left corner of the bitmap.
+    - id: y
+      type: System.Int32
+      description: Ordinate of the top left corner of the bitmap.
+    - id: width
+      type: System.Int32
+      description: Width of the bitmap in bytes.
+    - id: height
+      type: System.Int32
+      description: Height of the bitmap in bytes.
+    - id: bitmap
+      type: System.Byte[]
+      description: Bitmap to display.
+    - id: color
+      type: Color
+      description: The color of the bitmap.
+    content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap*
+  nameWithType.vb: DisplayTftSpiBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  id: DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: DisplayTftSpiBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 174
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public override void DrawPixel(int x, int y, bool colored)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: colored
+      type: System.Boolean
+      description: Turn the pixel on (true) or off (false).
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, colored As Boolean)
+  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,Color)
+  id: DrawPixel(System.Int32,System.Int32,Color)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: DisplayTftSpiBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32, System.Int32, Color)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 185
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public override void DrawPixel(int x, int y, Color color)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: color
+      type: Color
+      description: Color of pixel.
+    content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  id: DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  nameWithType: DisplayTftSpiBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel(System.Int32, System.Int32, System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DrawPixel
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 198
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw a single pixel \n"
+  example: []
+  syntax:
+    content: public void DrawPixel(int x, int y, byte r, byte g, byte b)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'x location '
+    - id: y
+      type: System.Int32
+      description: y location
+    - id: r
+      type: System.Byte
+      description: 8 bit red value
+    - id: g
+      type: System.Byte
+      description: 8 bit green value
+    - id: b
+      type: System.Byte
+      description: 8 bit blue value
+    content.vb: Public Sub DrawPixel(x As Integer, y As Integer, r As Byte, g As Byte, b As Byte)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
+  id: Refresh
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: DisplayTftSpiBase.Refresh()
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Refresh
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 223
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDraw the display buffer to screen\n"
+  example: []
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Show
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Show
+  id: Show
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: DisplayTftSpiBase.Show()
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Show()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Show
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 255
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void Show()
+    content.vb: Public Overrides Sub Show
+  overridden: Meadow.Foundation.Displays.DisplayBase.Show
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Show*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte)
+  id: Write(System.Byte)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte)
+  nameWithType: DisplayTftSpiBase.Write(Byte)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Write
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 260
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void Write(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    content.vb: Protected Sub Write(value As Byte)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Write*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte[])
+  id: Write(System.Byte[])
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte[])
+  nameWithType: DisplayTftSpiBase.Write(Byte[])
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Write
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 266
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void Write(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    content.vb: Protected Sub Write(data As Byte())
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Write*
+  nameWithType.vb: DisplayTftSpiBase.Write(Byte())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.Write(System.Byte())
+  name.vb: Write(Byte())
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs(System.Int32)
+  id: DelayMs(System.Int32)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: DelayMs(Int32)
+  nameWithType: DisplayTftSpiBase.DelayMs(Int32)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DelayMs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 271
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void DelayMs(int millseconds)
+    parameters:
+    - id: millseconds
+      type: System.Int32
+    content.vb: Protected Sub DelayMs(millseconds As Integer)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand(System.Byte)
+  id: SendCommand(System.Byte)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: SendCommand(Byte)
+  nameWithType: DisplayTftSpiBase.SendCommand(Byte)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendCommand
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 276
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void SendCommand(byte command)
+    parameters:
+    - id: command
+      type: System.Byte
+    content.vb: Protected Sub SendCommand(command As Byte)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Int32)
+  id: SendData(System.Int32)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: SendData(Int32)
+  nameWithType: DisplayTftSpiBase.SendData(Int32)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendData
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 282
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void SendData(int data)
+    parameters:
+    - id: data
+      type: System.Int32
+    content.vb: Protected Sub SendData(data As Integer)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte)
+  id: SendData(System.Byte)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: SendData(Byte)
+  nameWithType: DisplayTftSpiBase.SendData(Byte)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendData
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 287
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void SendData(byte data)
+    parameters:
+    - id: data
+      type: System.Byte
+    content.vb: Protected Sub SendData(data As Byte)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte[])
+  id: SendData(System.Byte[])
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: SendData(Byte[])
+  nameWithType: DisplayTftSpiBase.SendData(Byte[])
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SendData
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 293
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected void SendData(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    content.vb: Protected Sub SendData(data As Byte())
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData*
+  nameWithType.vb: DisplayTftSpiBase.SendData(Byte())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData(System.Byte())
+  name.vb: SendData(Byte())
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen(System.UInt16)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen(System.UInt16)
+  id: ClearScreen(System.UInt16)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: ClearScreen(UInt16)
+  nameWithType: DisplayTftSpiBase.ClearScreen(UInt16)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen(System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearScreen
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 303
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDirectly sets the display to a 16bpp color value\n"
+  example: []
+  syntax:
+    content: public void ClearScreen(ushort color = null)
+    parameters:
+    - id: color
+      type: System.UInt16
+      description: 16bpp color value (565)
+    content.vb: Public Sub ClearScreen(color As UShort = Nothing)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer(System.UInt16)
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer(System.UInt16)
+  id: ClearWithoutFullScreenBuffer(System.UInt16)
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: ClearWithoutFullScreenBuffer(UInt16)
+  nameWithType: DisplayTftSpiBase.ClearWithoutFullScreenBuffer(UInt16)
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer(System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearWithoutFullScreenBuffer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 348
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void ClearWithoutFullScreenBuffer(ushort color)
+    parameters:
+    - id: color
+      type: System.UInt16
+    content.vb: Public Sub ClearWithoutFullScreenBuffer(color As UShort)
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
+  commentId: M:Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
+  id: Dispose
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DisplayTftSpiBase.Dispose()
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Dispose
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 363
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.DisplayBase
+  commentId: T:Meadow.Foundation.Displays.DisplayBase
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase
+  nameWithType: DisplayBase
+  fullName: Meadow.Foundation.Displays.DisplayBase
+- uid: Meadow.Foundation.Displays.IDisplay
+  commentId: T:Meadow.Foundation.Displays.IDisplay
+  parent: Meadow.Foundation.Displays
+  name: IDisplay
+  nameWithType: IDisplay
+  fullName: Meadow.Foundation.Displays.IDisplay
+- uid: IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: IgnoreOutOfBoundsPixels
+  nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
+  fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: Meadow.Foundation.Displays.DisplayBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.ColorMode
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: ColorMode
+  nameWithType: DisplayBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.ColorMode
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+  name: ColorMode
+  nameWithType: DisplayTftSpiBase.ColorMode
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.DisplayColorMode
+  nameWithType: DisplayBase.DisplayColorMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.DisplayColorMode
+- uid: Meadow.Foundation.Displays.DisplayBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Width
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Width
+  nameWithType: DisplayBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayBase.Width
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Width*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+  name: Width
+  nameWithType: DisplayTftSpiBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Width
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Foundation.Displays.DisplayBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Height
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Height
+  nameWithType: DisplayBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayBase.Height
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Height*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+  name: Height
+  nameWithType: DisplayTftSpiBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Height
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
+  parent: Meadow.Hardware
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Spi
+  commentId: T:Meadow.Hardware.Spi
+  parent: Meadow.Hardware
+  name: Spi
+  nameWithType: Spi
+  fullName: Meadow.Hardware.Spi
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
+  name: Initialize
+  nameWithType: DisplayTftSpiBase.Initialize
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Initialize
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor
+  name: DisplayTftSpiBase
+  nameWithType: DisplayTftSpiBase.DisplayTftSpiBase
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DisplayTftSpiBase
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: Clear(Boolean)
+  nameWithType: DisplayBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: DisplayBase.Clear
+    fullName: Meadow.Foundation.Displays.DisplayBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Clear
+  name: Clear
+  nameWithType: DisplayTftSpiBase.Clear
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Clear
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: DisplayBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap
+  name: DrawBitmap
+  nameWithType: DisplayTftSpiBase.DrawBitmap
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawBitmap
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.DisplayBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: DisplayBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel
+  name: DrawPixel
+  nameWithType: DisplayTftSpiBase.DrawPixel
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DrawPixel
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
+  name: Refresh
+  nameWithType: DisplayTftSpiBase.Refresh
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Refresh
+- uid: Meadow.Foundation.Displays.DisplayBase.Show
+  commentId: M:Meadow.Foundation.Displays.DisplayBase.Show
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Show()
+  nameWithType: DisplayBase.Show()
+  fullName: Meadow.Foundation.Displays.DisplayBase.Show()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.DisplayBase.Show
+    name: Show
+    nameWithType: DisplayBase.Show
+    fullName: Meadow.Foundation.Displays.DisplayBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Show*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Show
+  name: Show
+  nameWithType: DisplayTftSpiBase.Show
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Show
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Write*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Write
+  name: Write
+  nameWithType: DisplayTftSpiBase.Write
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Write
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs
+  name: DelayMs
+  nameWithType: DisplayTftSpiBase.DelayMs
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.DelayMs
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand
+  name: SendCommand
+  nameWithType: DisplayTftSpiBase.SendCommand
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendCommand
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.SendData
+  name: SendData
+  nameWithType: DisplayTftSpiBase.SendData
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.SendData
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen
+  name: ClearScreen
+  nameWithType: DisplayTftSpiBase.ClearScreen
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearScreen
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer
+  name: ClearWithoutFullScreenBuffer
+  nameWithType: DisplayTftSpiBase.ClearWithoutFullScreenBuffer
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.ClearWithoutFullScreenBuffer
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose*
+  commentId: Overload:Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose
+  name: Dispose
+  nameWithType: DisplayTftSpiBase.Dispose
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.Dispose

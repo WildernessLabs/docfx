@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  id: RotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  children:
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  langs:
+  - csharp
+  - vb
+  name: RotaryEncoder
+  nameWithType: RotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RotaryEncoder
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: 'public class RotaryEncoder : object, IRotaryEncoder'
+    content.vb: >-
+      Public Class RotaryEncoder
+
+          Inherits Object
+
+          Implements IRotaryEncoder
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  implements:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  commentId: E:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  id: Rotated
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: Rotated
+  nameWithType: RotaryEncoder.Rotated
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Rotated
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public event RotaryTurnedEventHandler Rotated
+    return:
+      type: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+    content.vb: Public Event Rotated As RotaryTurnedEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  id: APhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: APhasePin
+  nameWithType: RotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: APhasePin
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public DigitalInputPort APhasePin { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Public ReadOnly Property APhasePin As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin*
+  implements:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  id: BPhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: BPhasePin
+  nameWithType: RotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BPhasePin
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public DigitalInputPort BPhasePin { get; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Public ReadOnly Property BPhasePin As DigitalInputPort
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin*
+  implements:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  commentId: F:Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  id: _processing
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: _processing
+  nameWithType: RotaryEncoder._processing
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _processing
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected bool _processing
+    return:
+      type: System.Boolean
+    content.vb: Protected _processing As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  commentId: F:Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  id: _results
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: _results
+  nameWithType: RotaryEncoder._results
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _results
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected TwoBitGrayCode[] _results
+    return:
+      type: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode[]
+    content.vb: Protected _results As TwoBitGrayCode()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)'
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: RotaryEncoder(IDigitalPin, IDigitalPin)
+  nameWithType: RotaryEncoder.RotaryEncoder(IDigitalPin, IDigitalPin)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.RotaryEncoder(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 21
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public RotaryEncoder(IDigitalPin aPhasePin, IDigitalPin bPhasePin)
+    parameters:
+    - id: aPhasePin
+      type: Meadow.Hardware.IDigitalPin
+    - id: bPhasePin
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Public Sub New(aPhasePin As IDigitalPin, bPhasePin As IDigitalPin)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  id: ProcessRotationResults
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: ProcessRotationResults()
+  nameWithType: RotaryEncoder.ProcessRotationResults()
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ProcessRotationResults
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 54
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected void ProcessRotationResults()
+    content.vb: Protected Sub ProcessRotationResults
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  id: OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  langs:
+  - csharp
+  - vb
+  name: OnRaiseRotationEvent(RotationDirection)
+  nameWithType: RotaryEncoder.OnRaiseRotationEvent(RotationDirection)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OnRaiseRotationEvent
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoder.cs
+    startLine: 77
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected void OnRaiseRotationEvent(RotationDirection direction)
+    parameters:
+    - id: direction
+      type: Meadow.Foundation.Sensors.Rotary.RotationDirection
+    content.vb: Protected Sub OnRaiseRotationEvent(direction As RotationDirection)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: IRotaryEncoder
+  nameWithType: IRotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  commentId: E:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  name: Rotated
+  nameWithType: IRotaryEncoder.Rotated
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotaryTurnedEventHandler
+  nameWithType: RotaryTurnedEventHandler
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventHandler
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  name: APhasePin
+  nameWithType: RotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  name: APhasePin
+  nameWithType: IRotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.APhasePin
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  name: BPhasePin
+  nameWithType: RotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  name: BPhasePin
+  nameWithType: IRotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.BPhasePin
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode[]
+  isExternal: true
+  name: TwoBitGrayCode[]
+  nameWithType: TwoBitGrayCode[]
+  fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode[]
+  nameWithType.vb: TwoBitGrayCode()
+  fullName.vb: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode()
+  name.vb: TwoBitGrayCode()
+  spec.csharp:
+  - uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+    name: TwoBitGrayCode
+    nameWithType: TwoBitGrayCode
+    fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+    name: TwoBitGrayCode
+    nameWithType: TwoBitGrayCode
+    fullName: Meadow.Foundation.Sensors.Rotary.TwoBitGrayCode
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.#ctor
+  name: RotaryEncoder
+  nameWithType: RotaryEncoder.RotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.RotaryEncoder
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  name: ProcessRotationResults
+  nameWithType: RotaryEncoder.ProcessRotationResults
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent
+  name: OnRaiseRotationEvent
+  nameWithType: RotaryEncoder.OnRaiseRotationEvent
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent
+- uid: Meadow.Foundation.Sensors.Rotary.RotationDirection
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotationDirection
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotationDirection
+  nameWithType: RotationDirection
+  fullName: Meadow.Foundation.Sensors.Rotary.RotationDirection

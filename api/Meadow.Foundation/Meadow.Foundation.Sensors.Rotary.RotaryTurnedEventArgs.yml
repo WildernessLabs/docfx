@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  id: RotaryTurnedEventArgs
+  parent: Meadow.Foundation.Sensors.Rotary
+  children:
+  - Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  - Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+  langs:
+  - csharp
+  - vb
+  name: RotaryTurnedEventArgs
+  nameWithType: RotaryTurnedEventArgs
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RotaryTurnedEventArgs
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  summary: "\n"
+  example: []
+  syntax:
+    content: 'public class RotaryTurnedEventArgs : EventArgs'
+    content.vb: >-
+      Public Class RotaryTurnedEventArgs
+
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+  id: Direction
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: RotaryTurnedEventArgs.Direction
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Direction
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public RotationDirection Direction { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Rotary.RotationDirection
+    content.vb: Public Property Direction As RotationDirection
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  id: '#ctor(Meadow.Foundation.Sensors.Rotary.RotationDirection)'
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RotaryTurnedEventArgs(RotationDirection)
+  nameWithType: RotaryTurnedEventArgs.RotaryTurnedEventArgs(RotationDirection)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.RotaryTurnedEventArgs(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryTurnedEventArgs.cs
+    startLine: 18
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  summary: "\nConstructor for SensorVectorEventArgs objects.\n"
+  example: []
+  syntax:
+    content: public RotaryTurnedEventArgs(RotationDirection direction)
+    parameters:
+    - id: direction
+      type: Meadow.Foundation.Sensors.Rotary.RotationDirection
+    content.vb: Public Sub New(direction As RotationDirection)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+  name: Direction
+  nameWithType: RotaryTurnedEventArgs.Direction
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.Direction
+- uid: Meadow.Foundation.Sensors.Rotary.RotationDirection
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotationDirection
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotationDirection
+  nameWithType: RotationDirection
+  fullName: Meadow.Foundation.Sensors.Rotary.RotationDirection
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.#ctor
+  name: RotaryTurnedEventArgs
+  nameWithType: RotaryTurnedEventArgs.RotaryTurnedEventArgs
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs.RotaryTurnedEventArgs

@@ -1,0 +1,1001 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Light.TSL2561
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561
+  id: TSL2561
+  parent: Meadow.Foundation.Sensors.Light
+  children:
+  - Meadow.Foundation.Sensors.Light.TSL2561.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single)
+  - Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt
+  - Meadow.Foundation.Sensors.Light.TSL2561.Dispose
+  - Meadow.Foundation.Sensors.Light.TSL2561.ID
+  - Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChanged
+  - Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+  - Meadow.Foundation.Sensors.Light.TSL2561.ManualStart
+  - Meadow.Foundation.Sensors.Light.TSL2561.ManualStop
+  - Meadow.Foundation.Sensors.Light.TSL2561.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Light.TSL2561.ReadingOutsideThresholdWindow
+  - Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+  - Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+  - Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  - Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+  - Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+  - Meadow.Foundation.Sensors.Light.TSL2561.Timing
+  - Meadow.Foundation.Sensors.Light.TSL2561.TurnOff
+  - Meadow.Foundation.Sensors.Light.TSL2561.TurnOn
+  - Meadow.Foundation.Sensors.Light.TSL2561.Update
+  langs:
+  - csharp
+  - vb
+  name: TSL2561
+  nameWithType: TSL2561
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TSL2561
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 10
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nDriver for the TSL2561 light-to-digital converter.\n"
+  example: []
+  syntax:
+    content: 'public class TSL2561 : IDisposable, ILightSensor, ISensor'
+    content.vb: >-
+      Public Class TSL2561
+
+          Inherits IDisposable
+
+          Implements ILightSensor, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.ILightSensor
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Light.TSL2561.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: TSL2561.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 38
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nMinimum value that should be used for the polling frequency.\n"
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Dispose
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.Dispose
+  id: Dispose
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TSL2561.Dispose()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Dispose
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 139
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nImplement IDisposable interface.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+  id: SensorReading
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: SensorReading
+  nameWithType: TSL2561.SensorReading
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 158
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nGet the sensor reading\n"
+  remarks: "\nThis can be used to get the raw sensor data from the TSL2561.\n"
+  example: []
+  syntax:
+    content: public ushort[] SensorReading { get; }
+    parameters: []
+    return:
+      type: System.UInt16[]
+      description: Sensor data.
+    content.vb: Public ReadOnly Property SensorReading As UShort()
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.SensorReading*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+  id: Luminosity
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: Luminosity
+  nameWithType: TSL2561.Luminosity
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Luminosity
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 166
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nLuminosity reading from the TSL2561 sensor.\n"
+  example: []
+  syntax:
+    content: public float Luminosity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Luminosity As Single
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.Luminosity*
+  implements:
+  - Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ID
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.ID
+  id: ID
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: TSL2561.ID
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ID
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 190
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nID of the sensor.\n"
+  remarks: "\nThe ID register (page 16 of the datasheet) gives two pieces of the information:\nPart Number: bits 4-7 (0000 = TSL2560, 0001 = TSL2561)\nRevision number: bits 0-3\n"
+  example: []
+  syntax:
+    content: public byte ID { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property ID As Byte
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+  id: SensorGain
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: SensorGain
+  nameWithType: TSL2561.SensorGain
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorGain
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 204
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nGain of the sensor.\nThe sensor gain can be set to high or low.\n"
+  remarks: "\nThe sensor Gain bit can be found in the Timing Register.  This allows the gain\nto be set to High (16x) or Low (1x).\nSee page 14 of the datasheet.\n"
+  example: []
+  syntax:
+    content: public TSL2561.Gain SensorGain { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.Gain
+    content.vb: Public Property SensorGain As TSL2561.Gain
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.SensorGain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Timing
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.Timing
+  id: Timing
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: Timing
+  nameWithType: TSL2561.Timing
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Timing
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Timing
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 229
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nIntegration timing for the sensor reading.\n"
+  example: []
+  syntax:
+    content: public TSL2561.IntegrationTiming Timing { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+    content.vb: Public Property Timing As TSL2561.IntegrationTiming
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.Timing*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+  id: ThresholdLow
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ThresholdLow
+  nameWithType: TSL2561.ThresholdLow
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ThresholdLow
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 262
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nLower interrupt threshold.\n"
+  remarks: "\nGet or se the lower interrupt threshold.  Any readings below this\nvalue may trigger an interrupt <xref href=\"Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode%2cSystem.Byte%2cMeadow.Hardware.IDigitalPin)\" data-throw-if-not-resolved=\"false\"></xref>\nSee page 14/15 of the datasheet.\n"
+  example: []
+  syntax:
+    content: public ushort ThresholdLow { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property ThresholdLow As UShort
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+  id: ThresholdHigh
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ThresholdHigh
+  nameWithType: TSL2561.ThresholdHigh
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ThresholdHigh
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 279
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nHigh interrupt threshold.\n"
+  remarks: "\nGet or se the upper interrupt threshold.  Any readings above this\nvalue may trigger an interrupt <xref href=\"Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode%2cSystem.Byte%2cMeadow.Hardware.IDigitalPin)\" data-throw-if-not-resolved=\"false\"></xref>\nSee page 14/15 of the datasheet.\n"
+  example: []
+  syntax:
+    content: public ushort ThresholdHigh { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property ThresholdHigh As UShort
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+  id: LightLevelChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: LightLevelChangeNotificationThreshold
+  nameWithType: TSL2561.LightLevelChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LightLevelChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 292
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nChanges in light level greater than this value will generate an interrupt\nin auto-update mode.\n"
+  example: []
+  syntax:
+    content: public float LightLevelChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LightLevelChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ReadingOutsideThresholdWindow
+  commentId: E:Meadow.Foundation.Sensors.Light.TSL2561.ReadingOutsideThresholdWindow
+  id: ReadingOutsideThresholdWindow
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ReadingOutsideThresholdWindow
+  nameWithType: TSL2561.ReadingOutsideThresholdWindow
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ReadingOutsideThresholdWindow
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadingOutsideThresholdWindow
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 323
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nInterrupt generated when the reading is outside of the threshold window.\n"
+  remarks: "\nThis interrupt requires the threshold window to be defined <xref href=\"Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode%2cSystem.Byte%2cMeadow.Hardware.IDigitalPin)\" data-throw-if-not-resolved=\"false\"></xref>\nand for the interrupts to be enabled.\n"
+  example: []
+  syntax:
+    content: public event TSL2561.ThresholdInterrupt ReadingOutsideThresholdWindow
+    return:
+      type: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+    content.vb: Public Event ReadingOutsideThresholdWindow As TSL2561.ThresholdInterrupt
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChanged
+  commentId: E:Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChanged
+  id: LightLevelChanged
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: LightLevelChanged
+  nameWithType: TSL2561.LightLevelChanged
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LightLevelChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 329
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nEvent raised when the temperature change is greater than the \nTemperatureChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler LightLevelChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event LightLevelChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single)
+  id: '#ctor(System.Byte,System.UInt16,System.UInt16,System.Single)'
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: TSL2561(Byte, UInt16, UInt16, Single)
+  nameWithType: TSL2561.TSL2561(Byte, UInt16, UInt16, Single)
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TSL2561(System.Byte, System.UInt16, System.UInt16, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 355
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  syntax:
+    content: public TSL2561(byte address = null, ushort speed = null, ushort updateInterval = null, float lightLevelChangeNotificationThreshold = 10F)
+    parameters:
+    - id: address
+      type: System.Byte
+    - id: speed
+      type: System.UInt16
+    - id: updateInterval
+      type: System.UInt16
+    - id: lightLevelChangeNotificationThreshold
+      type: System.Single
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, updateInterval As UShort = Nothing, lightLevelChangeNotificationThreshold As Single = 10F)
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Update
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: TSL2561.Update()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 412
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nUpdate the Luminosity reading.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.TurnOff
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.TurnOff
+  id: TurnOff
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: TurnOff()
+  nameWithType: TSL2561.TurnOff()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TurnOff()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TurnOff
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 489
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nTurn the TSL2561 off.\n"
+  remarks: "\nReset the power bits in the control register (page 13 of the datasheet).\n"
+  example: []
+  syntax:
+    content: public void TurnOff()
+    content.vb: Public Sub TurnOff
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.TurnOff*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.TurnOn
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.TurnOn
+  id: TurnOn
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: TurnOn()
+  nameWithType: TSL2561.TurnOn()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TurnOn()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TurnOn
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 500
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nTurn the TSL2561 on.\n"
+  remarks: "\nSet the power bits in the control register (page 13 of the datasheet).\n"
+  example: []
+  syntax:
+    content: public void TurnOn()
+    content.vb: Public Sub TurnOn
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.TurnOn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt
+  id: ClearInterrupt
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ClearInterrupt()
+  nameWithType: TSL2561.ClearInterrupt()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearInterrupt
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 513
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nClear the interrupt flag.\nSe Command Register on page 13 of the datasheet.\n"
+  remarks: "\nAccording to the datasheet, writing a 1 into bit 6 of the command\nregister will clear any pending interrupts.\n"
+  example: []
+  syntax:
+    content: public void ClearInterrupt()
+    content.vb: Public Sub ClearInterrupt
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ManualStart
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.ManualStart
+  id: ManualStart
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ManualStart()
+  nameWithType: TSL2561.ManualStart()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ManualStart()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ManualStart
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 525
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nPut the sensor into manual integration mode.\n"
+  example: []
+  syntax:
+    content: public void ManualStart()
+    content.vb: Public Sub ManualStart
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ManualStart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ManualStop
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.ManualStop
+  id: ManualStop
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: ManualStop()
+  nameWithType: TSL2561.ManualStop()
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ManualStop()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ManualStop
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 537
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nTurn off manual integration mode.\n"
+  example: []
+  syntax:
+    content: public void ManualStop()
+    content.vb: Public Sub ManualStop
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.ManualStop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  id: SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  parent: Meadow.Foundation.Sensors.Light.TSL2561
+  langs:
+  - csharp
+  - vb
+  name: SetInterruptMode(TSL2561.InterruptMode, Byte, IDigitalPin)
+  nameWithType: TSL2561.SetInterruptMode(TSL2561.InterruptMode, Byte, IDigitalPin)
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode, System.Byte, Meadow.Hardware.IDigitalPin)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetInterruptMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Light.TSL2561/TSL2561.cs
+    startLine: 558
+  assemblies:
+  - Sensors.Light.TSL2561
+  namespace: Meadow.Foundation.Sensors.Light
+  summary: "\nTurn interrupts on or off and set the conversion trigger count.\n"
+  remarks: "\nThe conversion count is the number of conversions that must be outside\nof the upper and lower limits before and interrupt is generated.\nSee Interrupt Control Register on page 15 and 16 of the datasheet.\n"
+  example: []
+  syntax:
+    content: public void SetInterruptMode(TSL2561.InterruptMode mode, byte conversionCount, IDigitalPin pin = null)
+    parameters:
+    - id: mode
+      type: Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+      description: ''
+    - id: conversionCount
+      type: System.Byte
+      description: "\nNumber of conversions that must be outside of the threshold before an interrupt is\ngenerated.\n"
+    - id: pin
+      type: Meadow.Hardware.IDigitalPin
+      description: GPIO pin connected to the TSL2561 interrupt pin.  Set to null to use the previously supplied pin.
+    content.vb: Public Sub SetInterruptMode(mode As TSL2561.InterruptMode, conversionCount As Byte, pin As IDigitalPin = Nothing)
+  overload: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Light
+  commentId: N:Meadow.Foundation.Sensors.Light
+  name: Meadow.Foundation.Sensors.Light
+  nameWithType: Meadow.Foundation.Sensors.Light
+  fullName: Meadow.Foundation.Sensors.Light
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.ILightSensor
+  commentId: T:Meadow.Foundation.Sensors.ILightSensor
+  parent: Meadow.Foundation.Sensors
+  name: ILightSensor
+  nameWithType: ILightSensor
+  fullName: Meadow.Foundation.Sensors.ILightSensor
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Dispose*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.Dispose
+  name: Dispose
+  nameWithType: TSL2561.Dispose
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Dispose
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SensorReading*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+  name: SensorReading
+  nameWithType: TSL2561.SensorReading
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SensorReading
+- uid: System.UInt16[]
+  isExternal: true
+  name: UInt16[]
+  nameWithType: UInt16[]
+  fullName: System.UInt16[]
+  nameWithType.vb: UInt16()
+  fullName.vb: System.UInt16()
+  name.vb: UInt16()
+  spec.csharp:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Luminosity*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+  name: Luminosity
+  nameWithType: TSL2561.Luminosity
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Luminosity
+- uid: Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  commentId: P:Meadow.Foundation.Sensors.ILightSensor.Luminosity
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  name: Luminosity
+  nameWithType: ILightSensor.Luminosity
+  fullName: Meadow.Foundation.Sensors.ILightSensor.Luminosity
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ID*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ID
+  name: ID
+  nameWithType: TSL2561.ID
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ID
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SensorGain*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+  name: SensorGain
+  nameWithType: TSL2561.SensorGain
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SensorGain
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Gain
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.Gain
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.Gain
+  nameWithType: TSL2561.Gain
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Gain
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Timing*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.Timing
+  name: Timing
+  nameWithType: TSL2561.Timing
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Timing
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.IntegrationTiming
+  nameWithType: TSL2561.IntegrationTiming
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode(Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode,System.Byte,Meadow.Hardware.IDigitalPin)
+  isExternal: true
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+  name: ThresholdLow
+  nameWithType: TSL2561.ThresholdLow
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdLow
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+  name: ThresholdHigh
+  nameWithType: TSL2561.ThresholdHigh
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdHigh
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+  name: LightLevelChangeNotificationThreshold
+  nameWithType: TSL2561.LightLevelChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.LightLevelChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  name: LightLevelChangeNotificationThreshold
+  nameWithType: ILightSensor.LightLevelChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.ThresholdInterrupt
+  nameWithType: TSL2561.ThresholdInterrupt
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+- uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  commentId: E:Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+  parent: Meadow.Foundation.Sensors.ILightSensor
+  name: LightLevelChanged
+  nameWithType: ILightSensor.LightLevelChanged
+  fullName: Meadow.Foundation.Sensors.ILightSensor.LightLevelChanged
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.#ctor
+  name: TSL2561
+  nameWithType: TSL2561.TSL2561
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TSL2561
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.Update
+  name: Update
+  nameWithType: TSL2561.Update
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Update
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.TurnOff*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.TurnOff
+  name: TurnOff
+  nameWithType: TSL2561.TurnOff
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TurnOff
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.TurnOn*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.TurnOn
+  name: TurnOn
+  nameWithType: TSL2561.TurnOn
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.TurnOn
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt
+  name: ClearInterrupt
+  nameWithType: TSL2561.ClearInterrupt
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ClearInterrupt
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ManualStart*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ManualStart
+  name: ManualStart
+  nameWithType: TSL2561.ManualStart
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ManualStart
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ManualStop*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.ManualStop
+  name: ManualStop
+  nameWithType: TSL2561.ManualStop
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ManualStop
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode*
+  commentId: Overload:Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode
+  name: SetInterruptMode
+  nameWithType: TSL2561.SetInterruptMode
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.SetInterruptMode
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.InterruptMode
+  nameWithType: TSL2561.InterruptMode
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware

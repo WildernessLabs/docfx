@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Servos.NamedServoConfigs
+  commentId: T:Meadow.Foundation.Servos.NamedServoConfigs
+  id: NamedServoConfigs
+  parent: Meadow.Foundation.Servos
+  children:
+  - Meadow.Foundation.Servos.NamedServoConfigs.BlueBirdBMS120
+  - Meadow.Foundation.Servos.NamedServoConfigs.HiTecStandard
+  - Meadow.Foundation.Servos.NamedServoConfigs.Ideal180Servo
+  - Meadow.Foundation.Servos.NamedServoConfigs.Ideal270Servo
+  - Meadow.Foundation.Servos.NamedServoConfigs.IdealContinuousRotationServo
+  - Meadow.Foundation.Servos.NamedServoConfigs.JXHV180
+  langs:
+  - csharp
+  - vb
+  name: NamedServoConfigs
+  nameWithType: NamedServoConfigs
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: NamedServoConfigs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 4
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  syntax:
+    content: 'public static class NamedServoConfigs : object'
+    content.vb: >-
+      Public Module NamedServoConfigs
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.Ideal180Servo
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.Ideal180Servo
+  id: Ideal180Servo
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: Ideal180Servo
+  nameWithType: NamedServoConfigs.Ideal180Servo
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.Ideal180Servo
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Ideal180Servo
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 9
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents an ideal 180º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
+  example: []
+  syntax:
+    content: public static ServoConfig Ideal180Servo
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared Ideal180Servo As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.Ideal270Servo
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.Ideal270Servo
+  id: Ideal270Servo
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: Ideal270Servo
+  nameWithType: NamedServoConfigs.Ideal270Servo
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.Ideal270Servo
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Ideal270Servo
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 13
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents an ideal 270º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
+  example: []
+  syntax:
+    content: public static ServoConfig Ideal270Servo
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared Ideal270Servo As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.IdealContinuousRotationServo
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.IdealContinuousRotationServo
+  id: IdealContinuousRotationServo
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: IdealContinuousRotationServo
+  nameWithType: NamedServoConfigs.IdealContinuousRotationServo
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.IdealContinuousRotationServo
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IdealContinuousRotationServo
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 18
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents an ideal continuous rotation servo that has a min and max pulse of 1ms and 2ms.\n"
+  example: []
+  syntax:
+    content: public static ServoConfig IdealContinuousRotationServo
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared IdealContinuousRotationServo As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.BlueBirdBMS120
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.BlueBirdBMS120
+  id: BlueBirdBMS120
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: BlueBirdBMS120
+  nameWithType: NamedServoConfigs.BlueBirdBMS120
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.BlueBirdBMS120
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BlueBirdBMS120
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 24
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents the BlueBird BMS models. Maximum angle is 120. Pulse range is 900µs - 2,100µs.\nSee: https://www.blue-bird-model.com/products_detail/309.htm\n"
+  example: []
+  syntax:
+    content: public static ServoConfig BlueBirdBMS120
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared BlueBirdBMS120 As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.HiTecStandard
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.HiTecStandard
+  id: HiTecStandard
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: HiTecStandard
+  nameWithType: NamedServoConfigs.HiTecStandard
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.HiTecStandard
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HiTecStandard
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 29
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents the HiTec &quot;Standard&quot; servo models. Angle: 0-180, Pulse: 900 - 1,200\n"
+  example: []
+  syntax:
+    content: public static ServoConfig HiTecStandard
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared HiTecStandard As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Servos.NamedServoConfigs.JXHV180
+  commentId: F:Meadow.Foundation.Servos.NamedServoConfigs.JXHV180
+  id: JXHV180
+  parent: Meadow.Foundation.Servos.NamedServoConfigs
+  langs:
+  - csharp
+  - vb
+  name: JXHV180
+  nameWithType: NamedServoConfigs.JXHV180
+  fullName: Meadow.Foundation.Servos.NamedServoConfigs.JXHV180
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: JXHV180
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    startLine: 34
+  assemblies:
+  - Sensors.Servo.Core
+  namespace: Meadow.Foundation.Servos
+  summary: "\nRepresents the JX HV 180 degree servo models. Angle: 0-180, Pulse: 500 - 2,500\n"
+  example: []
+  syntax:
+    content: public static ServoConfig JXHV180
+    return:
+      type: Meadow.Foundation.Servos.ServoConfig
+    content.vb: Public Shared JXHV180 As ServoConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Meadow.Foundation.Servos
+  commentId: N:Meadow.Foundation.Servos
+  name: Meadow.Foundation.Servos
+  nameWithType: Meadow.Foundation.Servos
+  fullName: Meadow.Foundation.Servos
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Servos.ServoConfig
+  commentId: T:Meadow.Foundation.Servos.ServoConfig
+  parent: Meadow.Foundation.Servos
+  name: ServoConfig
+  nameWithType: ServoConfig
+  fullName: Meadow.Foundation.Servos.ServoConfig

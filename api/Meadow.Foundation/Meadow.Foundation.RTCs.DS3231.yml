@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.RTCs.DS3231
+  commentId: T:Meadow.Foundation.RTCs.DS3231
+  id: DS3231
+  parent: Meadow.Foundation.RTCs
+  children:
+  - Meadow.Foundation.RTCs.DS3231.#ctor(System.Byte,System.UInt16,Meadow.Hardware.IDigitalPin)
+  langs:
+  - csharp
+  - vb
+  name: DS3231
+  nameWithType: DS3231
+  fullName: Meadow.Foundation.RTCs.DS3231
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS3231.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DS3231
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS3231.cs
+    startLine: 9
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nCreate a new DS3231 Real Time Clock object.\n"
+  example: []
+  syntax:
+    content: 'public class DS3231 : DS323x'
+    content.vb: >-
+      Public Class DS3231
+
+          Inherits DS323x
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.RTCs.DS323x
+  inheritedMembers:
+  - Meadow.Foundation.RTCs.DS323x._ds323x
+  - Meadow.Foundation.RTCs.DS323x._interruptPort
+  - Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  - Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  - Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  - Meadow.Foundation.RTCs.DS323x.Temperature
+  - Meadow.Foundation.RTCs.DS323x.ControlRegister
+  - Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  - Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  - Meadow.Foundation.RTCs.DS323x.InterruptPin
+  - Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  - Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  - Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  - Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  - Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  - Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  - Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.RTCs.DS3231.#ctor(System.Byte,System.UInt16,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.RTCs.DS3231.#ctor(System.Byte,System.UInt16,Meadow.Hardware.IDigitalPin)
+  id: '#ctor(System.Byte,System.UInt16,Meadow.Hardware.IDigitalPin)'
+  parent: Meadow.Foundation.RTCs.DS3231
+  langs:
+  - csharp
+  - vb
+  name: DS3231(Byte, UInt16, IDigitalPin)
+  nameWithType: DS3231.DS3231(Byte, UInt16, IDigitalPin)
+  fullName: Meadow.Foundation.RTCs.DS3231.DS3231(System.Byte, System.UInt16, Meadow.Hardware.IDigitalPin)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS3231.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS3231.cs
+    startLine: 27
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nCreate a new MAG3110 object using the default parameters for the component.\n"
+  example: []
+  syntax:
+    content: public DS3231(byte address = null, ushort speed = null, IDigitalPin interruptPin = null)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Address of the DS3231 (default = 0x68).
+    - id: speed
+      type: System.UInt16
+      description: Speed of the I2C bus (default = 100 KHz).
+    - id: interruptPin
+      type: Meadow.Hardware.IDigitalPin
+      description: Digital pin connected to the alarm interrupt pin on the RTC.
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, interruptPin As IDigitalPin = Nothing)
+  overload: Meadow.Foundation.RTCs.DS3231.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.RTCs.DS323x
+  commentId: T:Meadow.Foundation.RTCs.DS323x
+  parent: Meadow.Foundation.RTCs
+  name: DS323x
+  nameWithType: DS323x
+  fullName: Meadow.Foundation.RTCs.DS323x
+- uid: Meadow.Foundation.RTCs.DS323x._ds323x
+  commentId: F:Meadow.Foundation.RTCs.DS323x._ds323x
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: _ds323x
+  nameWithType: DS323x._ds323x
+  fullName: Meadow.Foundation.RTCs.DS323x._ds323x
+- uid: Meadow.Foundation.RTCs.DS323x._interruptPort
+  commentId: F:Meadow.Foundation.RTCs.DS323x._interruptPort
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: _interruptPort
+  nameWithType: DS323x._interruptPort
+  fullName: Meadow.Foundation.RTCs.DS323x._interruptPort
+- uid: Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  commentId: E:Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: OnAlarm1Raised
+  nameWithType: DS323x.OnAlarm1Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+- uid: Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  commentId: E:Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: OnAlarm2Raised
+  nameWithType: DS323x.OnAlarm2Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+- uid: Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  commentId: P:Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: CurrentDateTime
+  nameWithType: DS323x.CurrentDateTime
+  fullName: Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+- uid: Meadow.Foundation.RTCs.DS323x.Temperature
+  commentId: P:Meadow.Foundation.RTCs.DS323x.Temperature
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: Temperature
+  nameWithType: DS323x.Temperature
+  fullName: Meadow.Foundation.RTCs.DS323x.Temperature
+- uid: Meadow.Foundation.RTCs.DS323x.ControlRegister
+  commentId: P:Meadow.Foundation.RTCs.DS323x.ControlRegister
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: ControlRegister
+  nameWithType: DS323x.ControlRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlRegister
+- uid: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  commentId: P:Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: ControlStatusRegister
+  nameWithType: DS323x.ControlStatusRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+- uid: Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  commentId: P:Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: WhichAlarm
+  nameWithType: DS323x.WhichAlarm
+  fullName: Meadow.Foundation.RTCs.DS323x.WhichAlarm
+- uid: Meadow.Foundation.RTCs.DS323x.InterruptPin
+  commentId: P:Meadow.Foundation.RTCs.DS323x.InterruptPin
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: InterruptPin
+  nameWithType: DS323x.InterruptPin
+  fullName: Meadow.Foundation.RTCs.DS323x.InterruptPin
+- uid: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  parent: Meadow.Foundation.RTCs.DS323x
+  isExternal: true
+  name: DecodeDateTimeRegisters(Byte[])
+  nameWithType: DS323x.DecodeDateTimeRegisters(Byte[])
+  fullName: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  nameWithType.vb: DS323x.DecodeDateTimeRegisters(Byte())
+  fullName.vb: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte())
+  name.vb: DecodeDateTimeRegisters(Byte())
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+    name: DecodeDateTimeRegisters
+    nameWithType: DS323x.DecodeDateTimeRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+    name: DecodeDateTimeRegisters
+    nameWithType: DS323x.DecodeDateTimeRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  parent: Meadow.Foundation.RTCs.DS323x
+  isExternal: true
+  name: EncodeDateTimeRegisters(DateTime)
+  nameWithType: DS323x.EncodeDateTimeRegisters(DateTime)
+  fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+    name: EncodeDateTimeRegisters
+    nameWithType: DS323x.EncodeDateTimeRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+    name: EncodeDateTimeRegisters
+    nameWithType: DS323x.EncodeDateTimeRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  parent: Meadow.Foundation.RTCs.DS323x
+  isExternal: true
+  name: DayOfWeekToByte(DayOfWeek)
+  nameWithType: DS323x.DayOfWeekToByte(DayOfWeek)
+  fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+    name: DayOfWeekToByte
+    nameWithType: DS323x.DayOfWeekToByte
+    fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DayOfWeek
+    name: DayOfWeek
+    nameWithType: DayOfWeek
+    fullName: DayOfWeek
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+    name: DayOfWeekToByte
+    nameWithType: DS323x.DayOfWeekToByte
+    fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DayOfWeek
+    name: DayOfWeek
+    nameWithType: DayOfWeek
+    fullName: DayOfWeek
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  parent: Meadow.Foundation.RTCs.DS323x
+  isExternal: true
+  name: SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
+  nameWithType: DS323x.SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
+  fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, DateTime, Meadow.Foundation.RTCs.DS323x.AlarmType)
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+    name: SetAlarm
+    nameWithType: DS323x.SetAlarm
+    fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.RTCs.DS323x.AlarmType
+    name: DS323x.AlarmType
+    nameWithType: DS323x.AlarmType
+    fullName: Meadow.Foundation.RTCs.DS323x.AlarmType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+    name: SetAlarm
+    nameWithType: DS323x.SetAlarm
+    fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.RTCs.DS323x.AlarmType
+    name: DS323x.AlarmType
+    nameWithType: DS323x.AlarmType
+    fullName: Meadow.Foundation.RTCs.DS323x.AlarmType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  parent: Meadow.Foundation.RTCs.DS323x
+  isExternal: true
+  name: EnableDisableAlarm(DS323x.Alarm, Boolean)
+  nameWithType: DS323x.EnableDisableAlarm(DS323x.Alarm, Boolean)
+  fullName: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+    name: EnableDisableAlarm
+    nameWithType: DS323x.EnableDisableAlarm
+    fullName: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+    name: EnableDisableAlarm
+    nameWithType: DS323x.EnableDisableAlarm
+    fullName: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: ClearInterrupt(DS323x.Alarm)
+  nameWithType: DS323x.ClearInterrupt(DS323x.Alarm)
+  fullName: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+    name: ClearInterrupt
+    nameWithType: DS323x.ClearInterrupt
+    fullName: Meadow.Foundation.RTCs.DS323x.ClearInterrupt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+    name: ClearInterrupt
+    nameWithType: DS323x.ClearInterrupt
+    fullName: Meadow.Foundation.RTCs.DS323x.ClearInterrupt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.RTCs.DS323x.Alarm
+    name: DS323x.Alarm
+    nameWithType: DS323x.Alarm
+    fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  parent: Meadow.Foundation.RTCs.DS323x
+  name: DisplayRegisters()
+  nameWithType: DS323x.DisplayRegisters()
+  fullName: Meadow.Foundation.RTCs.DS323x.DisplayRegisters()
+  spec.csharp:
+  - uid: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+    name: DisplayRegisters
+    nameWithType: DS323x.DisplayRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+    name: DisplayRegisters
+    nameWithType: DS323x.DisplayRegisters
+    fullName: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.RTCs.DS3231.#ctor*
+  commentId: Overload:Meadow.Foundation.RTCs.DS3231.#ctor
+  name: DS3231
+  nameWithType: DS3231.DS3231
+  fullName: Meadow.Foundation.RTCs.DS3231.DS3231
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware

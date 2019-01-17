@@ -1,0 +1,1185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.LEDs.RgbPwmLed
+  commentId: T:Meadow.Foundation.LEDs.RgbPwmLed
+  id: RgbPwmLed
+  parent: Meadow.Foundation.LEDs
+  children:
+  - Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,System.Single,System.Single,System.Single,System.Boolean)
+  - Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,System.Single,System.Single,System.Single,System.Boolean)
+  - Meadow.Foundation.LEDs.RgbPwmLed._animationThread
+  - Meadow.Foundation.LEDs.RgbPwmLed._color
+  - Meadow.Foundation.LEDs.RgbPwmLed._isRunning
+  - Meadow.Foundation.LEDs.RgbPwmLed._maximumBluePwmDuty
+  - Meadow.Foundation.LEDs.RgbPwmLed._maximumGreenPwmDuty
+  - Meadow.Foundation.LEDs.RgbPwmLed._maximumRedPwmDuty
+  - Meadow.Foundation.LEDs.RgbPwmLed._runningColorConfig
+  - Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+  - Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+  - Meadow.Foundation.LEDs.RgbPwmLed.Color
+  - Meadow.Foundation.LEDs.RgbPwmLed.dutyCycleMax
+  - Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+  - Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+  - Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+  - Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+  - Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+  - Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  - Meadow.Foundation.LEDs.RgbPwmLed.Stop
+  - Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
+  - Meadow.Foundation.LEDs.RgbPwmLed.TurnOn
+  langs:
+  - csharp
+  - vb
+  name: RgbPwmLed
+  nameWithType: RgbPwmLed
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RgbPwmLed
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nRepresents a Pulse-Width-Modulation (PWM) controlled RGB LED. Controlling an RGB LED with \nPWM allows for more colors to be expressed than if it were simply controlled with normal\ndigital outputs which provide only binary control at each pin. As such, a PWM controlled \nRGB LED can express millions of colors, as opposed to the 8 colors that can be expressed\nvia binary digital output.\n"
+  example: []
+  syntax:
+    content: 'public class RgbPwmLed : object'
+    content.vb: >-
+      Public Class RgbPwmLed
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+  id: IsCommonCathode
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: IsCommonCathode
+  nameWithType: RgbPwmLed.IsCommonCathode
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsCommonCathode
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public bool IsCommonCathode { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCommonCathode As Boolean
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+  id: RedPWM
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: RedPWM
+  nameWithType: RgbPwmLed.RedPWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RedPWM
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 26
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public IPwmPort RedPWM { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: Public Property RedPWM As IPwmPort
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.RedPWM*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+  id: BluePWM
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: BluePWM
+  nameWithType: RgbPwmLed.BluePWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BluePWM
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 27
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public IPwmPort BluePWM { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: Public Property BluePWM As IPwmPort
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.BluePWM*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+  id: GreenPWM
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: GreenPWM
+  nameWithType: RgbPwmLed.GreenPWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GreenPWM
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 28
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public IPwmPort GreenPWM { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IPwmPort
+    content.vb: Public Property GreenPWM As IPwmPort
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.dutyCycleMax
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed.dutyCycleMax
+  id: dutyCycleMax
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: dutyCycleMax
+  nameWithType: RgbPwmLed.dutyCycleMax
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.dutyCycleMax
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: dutyCycleMax
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 32
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected double dutyCycleMax
+    return:
+      type: System.Double
+    content.vb: Protected dutyCycleMax As Double
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._maximumRedPwmDuty
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._maximumRedPwmDuty
+  id: _maximumRedPwmDuty
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _maximumRedPwmDuty
+  nameWithType: RgbPwmLed._maximumRedPwmDuty
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._maximumRedPwmDuty
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _maximumRedPwmDuty
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 34
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected float _maximumRedPwmDuty
+    return:
+      type: System.Single
+    content.vb: Protected _maximumRedPwmDuty As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._maximumGreenPwmDuty
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._maximumGreenPwmDuty
+  id: _maximumGreenPwmDuty
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _maximumGreenPwmDuty
+  nameWithType: RgbPwmLed._maximumGreenPwmDuty
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._maximumGreenPwmDuty
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _maximumGreenPwmDuty
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 35
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected float _maximumGreenPwmDuty
+    return:
+      type: System.Single
+    content.vb: Protected _maximumGreenPwmDuty As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._maximumBluePwmDuty
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._maximumBluePwmDuty
+  id: _maximumBluePwmDuty
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _maximumBluePwmDuty
+  nameWithType: RgbPwmLed._maximumBluePwmDuty
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._maximumBluePwmDuty
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _maximumBluePwmDuty
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 36
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected float _maximumBluePwmDuty
+    return:
+      type: System.Single
+    content.vb: Protected _maximumBluePwmDuty As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+  id: RedForwardVoltage
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: RedForwardVoltage
+  nameWithType: RgbPwmLed.RedForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RedForwardVoltage
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 37
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public float RedForwardVoltage { get; protected set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RedForwardVoltage As Single
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+  id: GreenForwardVoltage
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: GreenForwardVoltage
+  nameWithType: RgbPwmLed.GreenForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GreenForwardVoltage
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 38
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public float GreenForwardVoltage { get; protected set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property GreenForwardVoltage As Single
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+  id: BlueForwardVoltage
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: BlueForwardVoltage
+  nameWithType: RgbPwmLed.BlueForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BlueForwardVoltage
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 39
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public float BlueForwardVoltage { get; protected set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BlueForwardVoltage As Single
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._animationThread
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._animationThread
+  id: _animationThread
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _animationThread
+  nameWithType: RgbPwmLed._animationThread
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._animationThread
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _animationThread
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 41
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected Thread _animationThread
+    return:
+      type: Thread
+    content.vb: Protected _animationThread As Thread
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._isRunning
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._isRunning
+  id: _isRunning
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _isRunning
+  nameWithType: RgbPwmLed._isRunning
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._isRunning
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _isRunning
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 42
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected bool _isRunning
+    return:
+      type: System.Boolean
+    content.vb: Protected _isRunning As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._runningColorConfig
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._runningColorConfig
+  id: _runningColorConfig
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _runningColorConfig
+  nameWithType: RgbPwmLed._runningColorConfig
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._runningColorConfig
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _runningColorConfig
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected RgbPwmLed.RunningColorsConfig _runningColorConfig
+    return:
+      type: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+    content.vb: Protected _runningColorConfig As RgbPwmLed.RunningColorsConfig
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.Color
+  commentId: P:Meadow.Foundation.LEDs.RgbPwmLed.Color
+  id: Color
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: RgbPwmLed.Color
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.Color
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Color
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nThe Color the LED has been set to.\n"
+  example: []
+  syntax:
+    content: public Color Color { get; }
+    parameters: []
+    return:
+      type: Color
+    content.vb: Public ReadOnly Property Color As Color
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.Color*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.LEDs.RgbPwmLed._color
+  commentId: F:Meadow.Foundation.LEDs.RgbPwmLed._color
+  id: _color
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: _color
+  nameWithType: RgbPwmLed._color
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed._color
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _color
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 51
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: protected Color _color
+    return:
+      type: Color
+    content.vb: Protected _color As Color
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,System.Single,System.Single,System.Single,System.Boolean)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,System.Single,System.Single,System.Single,System.Boolean)
+  id: '#ctor(Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,Meadow.Hardware.IPwmPin,System.Single,System.Single,System.Single,System.Boolean)'
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: RgbPwmLed(IPwmPin, IPwmPin, IPwmPin, Single, Single, Single, Boolean)
+  nameWithType: RgbPwmLed.RgbPwmLed(IPwmPin, IPwmPin, IPwmPin, Single, Single, Single, Boolean)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RgbPwmLed(Meadow.Hardware.IPwmPin, Meadow.Hardware.IPwmPin, Meadow.Hardware.IPwmPin, System.Single, System.Single, System.Single, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 53
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public RgbPwmLed(IPwmPin redPwmPin, IPwmPin greenPwmPin, IPwmPin bluePwmPin, float redLedForwardVoltage = null, float greenLedForwardVoltage = null, float blueLedForwardVoltage = null, bool isCommonCathode = true)
+    parameters:
+    - id: redPwmPin
+      type: Meadow.Hardware.IPwmPin
+    - id: greenPwmPin
+      type: Meadow.Hardware.IPwmPin
+    - id: bluePwmPin
+      type: Meadow.Hardware.IPwmPin
+    - id: redLedForwardVoltage
+      type: System.Single
+    - id: greenLedForwardVoltage
+      type: System.Single
+    - id: blueLedForwardVoltage
+      type: System.Single
+    - id: isCommonCathode
+      type: System.Boolean
+    content.vb: Public Sub New(redPwmPin As IPwmPin, greenPwmPin As IPwmPin, bluePwmPin As IPwmPin, redLedForwardVoltage As Single = Nothing, greenLedForwardVoltage As Single = Nothing, blueLedForwardVoltage As Single = Nothing, isCommonCathode As Boolean = True)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,System.Single,System.Single,System.Single,System.Boolean)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.#ctor(Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,System.Single,System.Single,System.Single,System.Boolean)
+  id: '#ctor(Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,Meadow.Hardware.IPwmPort,System.Single,System.Single,System.Single,System.Boolean)'
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: RgbPwmLed(IPwmPort, IPwmPort, IPwmPort, Single, Single, Single, Boolean)
+  nameWithType: RgbPwmLed.RgbPwmLed(IPwmPort, IPwmPort, IPwmPort, Single, Single, Single, Boolean)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RgbPwmLed(Meadow.Hardware.IPwmPort, Meadow.Hardware.IPwmPort, Meadow.Hardware.IPwmPort, System.Single, System.Single, System.Single, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 78
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\n\nImplementation notes: Architecturally, it would be much cleaner to construct this class\nas three PwmLeds. Then each one&apos;s implementation would be self-contained. However, that\nwould require three additional threads during ON; one contained by each PwmLed. For this\nreason, I&apos;m basically duplicating the functionality for all three in here. \n"
+  example: []
+  syntax:
+    content: public RgbPwmLed(IPwmPort redPWM, IPwmPort greenPWM, IPwmPort bluePWM, float redLedForwardVoltage = null, float greenLedForwardVoltage = null, float blueLedForwardVoltage = null, bool isCommonCathode = true)
+    parameters:
+    - id: redPWM
+      type: Meadow.Hardware.IPwmPort
+    - id: greenPWM
+      type: Meadow.Hardware.IPwmPort
+    - id: bluePWM
+      type: Meadow.Hardware.IPwmPort
+    - id: redLedForwardVoltage
+      type: System.Single
+    - id: greenLedForwardVoltage
+      type: System.Single
+    - id: blueLedForwardVoltage
+      type: System.Single
+    - id: isCommonCathode
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub New(redPWM As IPwmPort, greenPWM As IPwmPort, bluePWM As IPwmPort, redLedForwardVoltage As Single = Nothing, greenLedForwardVoltage As Single = Nothing, blueLedForwardVoltage As Single = Nothing, isCommonCathode As Boolean = True)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  id: SetColor(Color,System.Int32)
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: SetColor(Color, Int32)
+  nameWithType: RgbPwmLed.SetColor(Color, Int32)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetColor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 118
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nSets the current color of the LED.\n"
+  example: []
+  syntax:
+    content: public void SetColor(Color color, int duration = 0)
+    parameters:
+    - id: color
+      type: Color
+    - id: duration
+      type: System.Int32
+    content.vb: Public Sub SetColor(color As Color, duration As Integer = 0)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.SetColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  id: StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartRunningColors(ArrayList, Int32[], Boolean)
+  nameWithType: RgbPwmLed.StartRunningColors(ArrayList, Int32[], Boolean)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartRunningColors
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 156
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nAnimates through the listed colors for the specified durations. To use the same duration for all colors, \npass in an array with a length of 1 for `durations`.\n"
+  example: []
+  syntax:
+    content: public void StartRunningColors(ArrayList colors, int[] durations, bool loop = true)
+    parameters:
+    - id: colors
+      type: ArrayList
+      description: ''
+    - id: durations
+      type: System.Int32[]
+      description: ''
+    - id: loop
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub StartRunningColors(colors As ArrayList, durations As Integer(), loop As Boolean = True)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors*
+  nameWithType.vb: RgbPwmLed.StartRunningColors(ArrayList, Int32(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList, System.Int32(), System.Boolean)
+  name.vb: StartRunningColors(ArrayList, Int32(), Boolean)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  id: StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartAlternatingColors(Color, Color, Int32, Int32)
+  nameWithType: RgbPwmLed.StartAlternatingColors(Color, Color, Int32, Int32)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color, Color, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartAlternatingColors
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 230
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  syntax:
+    content: public void StartAlternatingColors(Color colorOne, Color colorTwo, int colorOneDuration, int colorTwoDuration)
+    parameters:
+    - id: colorOne
+      type: Color
+    - id: colorTwo
+      type: Color
+    - id: colorOneDuration
+      type: System.Int32
+    - id: colorTwoDuration
+      type: System.Int32
+    content.vb: Public Sub StartAlternatingColors(colorOne As Color, colorTwo As Color, colorOneDuration As Integer, colorTwoDuration As Integer)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  id: StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartBlink(Color, Int32, Int32, Single, Single)
+  nameWithType: RgbPwmLed.StartBlink(Color, Int32, Int32, Single, Single)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color, System.Int32, System.Int32, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartBlink
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 238
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStart the Blink animation which sets the brightness of the LED alternating between a low and high brightness setting, using the durations provided.\n"
+  example: []
+  syntax:
+    content: public void StartBlink(Color color, int highDuration = 200, int lowDuration = 200, float highBrightness = null, float lowBrightness = null)
+    parameters:
+    - id: color
+      type: Color
+    - id: highDuration
+      type: System.Int32
+    - id: lowDuration
+      type: System.Int32
+    - id: highBrightness
+      type: System.Single
+    - id: lowBrightness
+      type: System.Single
+    content.vb: Public Sub StartBlink(color As Color, highDuration As Integer = 200, lowDuration As Integer = 200, highBrightness As Single = Nothing, lowBrightness As Single = Nothing)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  id: StartPulse(Color,System.Int32,System.Single,System.Single)
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: StartPulse(Color, Int32, Single, Single)
+  nameWithType: RgbPwmLed.StartPulse(Color, Int32, Single, Single)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color, System.Int32, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StartPulse
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 263
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStart the Pulse animation which gradually alternates the brightness of the LED between a low and high brightness setting, using the durations provided.\n"
+  example: []
+  syntax:
+    content: public void StartPulse(Color color, int pulseDuration = 600, float highBrightness = null, float lowBrightness = 0.15F)
+    parameters:
+    - id: color
+      type: Color
+    - id: pulseDuration
+      type: System.Int32
+    - id: highBrightness
+      type: System.Single
+    - id: lowBrightness
+      type: System.Single
+    content.vb: Public Sub StartPulse(color As Color, pulseDuration As Integer = 600, highBrightness As Single = Nothing, lowBrightness As Single = 0.15F)
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.Stop
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.Stop
+  id: Stop
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: RgbPwmLed.Stop()
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Stop
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 347
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nStops any running animations.\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
+  id: TurnOff
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: TurnOff()
+  nameWithType: RgbPwmLed.TurnOff()
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.TurnOff()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TurnOff
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 355
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nTurns off the LED\n"
+  example: []
+  syntax:
+    content: public void TurnOff()
+    content.vb: Public Sub TurnOff
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.TurnOff*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.TurnOn
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.TurnOn
+  id: TurnOn
+  parent: Meadow.Foundation.LEDs.RgbPwmLed
+  langs:
+  - csharp
+  - vb
+  name: TurnOn()
+  nameWithType: RgbPwmLed.TurnOn()
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.TurnOn()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TurnOn
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/LEDs/RgbPwmLed.cs
+    startLine: 365
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.LEDs
+  summary: "\nTurns on the LED\n"
+  example: []
+  syntax:
+    content: public void TurnOn()
+    content.vb: Public Sub TurnOn
+  overload: Meadow.Foundation.LEDs.RgbPwmLed.TurnOn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.LEDs
+  commentId: N:Meadow.Foundation.LEDs
+  name: Meadow.Foundation.LEDs
+  nameWithType: Meadow.Foundation.LEDs
+  fullName: Meadow.Foundation.LEDs
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+  name: IsCommonCathode
+  nameWithType: RgbPwmLed.IsCommonCathode
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RedPWM*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+  name: RedPWM
+  nameWithType: RgbPwmLed.RedPWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
+- uid: Meadow.Hardware.IPwmPort
+  commentId: T:Meadow.Hardware.IPwmPort
+  parent: Meadow.Hardware
+  name: IPwmPort
+  nameWithType: IPwmPort
+  fullName: Meadow.Hardware.IPwmPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.BluePWM*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+  name: BluePWM
+  nameWithType: RgbPwmLed.BluePWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.BluePWM
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+  name: GreenPWM
+  nameWithType: RgbPwmLed.GreenPWM
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+  name: RedForwardVoltage
+  nameWithType: RgbPwmLed.RedForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+  name: GreenForwardVoltage
+  nameWithType: RgbPwmLed.GreenForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.GreenForwardVoltage
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+  name: BlueForwardVoltage
+  nameWithType: RgbPwmLed.BlueForwardVoltage
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
+- uid: Thread
+  isExternal: true
+  name: Thread
+  nameWithType: Thread
+  fullName: Thread
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+  commentId: T:Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+  parent: Meadow.Foundation.LEDs
+  name: RgbPwmLed.RunningColorsConfig
+  nameWithType: RgbPwmLed.RunningColorsConfig
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.Color*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.Color
+  name: Color
+  nameWithType: RgbPwmLed.Color
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.Color
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.#ctor
+  name: RgbPwmLed
+  nameWithType: RgbPwmLed.RgbPwmLed
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.RgbPwmLed
+- uid: Meadow.Hardware.IPwmPin
+  commentId: T:Meadow.Hardware.IPwmPin
+  parent: Meadow.Hardware
+  name: IPwmPin
+  nameWithType: IPwmPin
+  fullName: Meadow.Hardware.IPwmPin
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.SetColor*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.SetColor
+  name: SetColor
+  nameWithType: RgbPwmLed.SetColor
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.SetColor
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors
+  name: StartRunningColors
+  nameWithType: RgbPwmLed.StartRunningColors
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors
+- uid: ArrayList
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: ArrayList
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors
+  name: StartAlternatingColors
+  nameWithType: RgbPwmLed.StartAlternatingColors
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.StartBlink
+  name: StartBlink
+  nameWithType: RgbPwmLed.StartBlink
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.StartPulse
+  name: StartPulse
+  nameWithType: RgbPwmLed.StartPulse
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.Stop*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.Stop
+  name: Stop
+  nameWithType: RgbPwmLed.Stop
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.Stop
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.TurnOff*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
+  name: TurnOff
+  nameWithType: RgbPwmLed.TurnOff
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.TurnOn*
+  commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.TurnOn
+  name: TurnOn
+  nameWithType: RgbPwmLed.TurnOn
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.TurnOn

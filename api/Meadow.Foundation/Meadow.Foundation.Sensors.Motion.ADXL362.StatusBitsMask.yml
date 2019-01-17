@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  id: ADXL362.StatusBitsMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ActivityDetected
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.Awake
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.DataReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ErrorUserRegister
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOOverRun
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOReady
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOWatermark
+  - Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.InactivityDetected
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.StatusBitsMask
+  nameWithType: ADXL362.StatusBitsMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: StatusBitsMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 463
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nStatus bit mask.\n"
+  example: []
+  syntax:
+    content: 'protected static class StatusBitsMask : object'
+    content.vb: >-
+      Protected Module StatusBitsMask
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.DataReady
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.DataReady
+  id: DataReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: ADXL362.StatusBitsMask.DataReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.DataReady
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 468
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicates if data is ready to be read.\n"
+  example: []
+  syntax:
+    content: public const byte DataReady = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataReady As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOReady
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOReady
+  id: FIFOReady
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOReady
+  nameWithType: ADXL362.StatusBitsMask.FIFOReady
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOReady
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOReady
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 473
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate when FIFO data is ready to be read.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOReady = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOReady As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOWatermark
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOWatermark
+  id: FIFOWatermark
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOWatermark
+  nameWithType: ADXL362.StatusBitsMask.FIFOWatermark
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOWatermark
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOWatermark
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 478
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet when the FIFO watermark has been reached.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOWatermark = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOWatermark As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOOverRun
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOOverRun
+  id: FIFOOverRun
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: FIFOOverRun
+  nameWithType: ADXL362.StatusBitsMask.FIFOOverRun
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.FIFOOverRun
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FIFOOverRun
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 483
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTrue when incoming data is replacing existing data in the FIFO buffer.\n"
+  example: []
+  syntax:
+    content: public const byte FIFOOverRun = null
+    return:
+      type: System.Byte
+    content.vb: Public Const FIFOOverRun As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ActivityDetected
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ActivityDetected
+  id: ActivityDetected
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: ActivityDetected
+  nameWithType: ADXL362.StatusBitsMask.ActivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ActivityDetected
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActivityDetected
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 488
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nActivity has been detected.\n"
+  example: []
+  syntax:
+    content: public const byte ActivityDetected = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ActivityDetected As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.InactivityDetected
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.InactivityDetected
+  id: InactivityDetected
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: InactivityDetected
+  nameWithType: ADXL362.StatusBitsMask.InactivityDetected
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.InactivityDetected
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InactivityDetected
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 494
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate that the sensor is either inactive or a free-fall condition\nhas been detected.\n"
+  example: []
+  syntax:
+    content: public const byte InactivityDetected = null
+    return:
+      type: System.Byte
+    content.vb: Public Const InactivityDetected As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.Awake
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.Awake
+  id: Awake
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: Awake
+  nameWithType: ADXL362.StatusBitsMask.Awake
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.Awake
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Awake
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 499
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nIndicate if the sensor is awake (true) or inactive (false).\n"
+  example: []
+  syntax:
+    content: public const byte Awake = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Awake As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ErrorUserRegister
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ErrorUserRegister
+  id: ErrorUserRegister
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask
+  langs:
+  - csharp
+  - vb
+  name: ErrorUserRegister
+  nameWithType: ADXL362.StatusBitsMask.ErrorUserRegister
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.StatusBitsMask.ErrorUserRegister
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ErrorUserRegister
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 508
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSEU Error Detect. 1 indicates one of two conditions: either an\nSEU event, such as an alpha particle of a power glitch, has disturbed\na user register setting or the ADXL362 is not configured. This bit\nis high upon both startup and soft reset, and resets as soon as any\nregister write commands are performed.\n"
+  example: []
+  syntax:
+    content: public const byte ErrorUserRegister = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ErrorUserRegister As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

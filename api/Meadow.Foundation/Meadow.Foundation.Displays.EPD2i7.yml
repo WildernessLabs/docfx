@@ -1,0 +1,3447 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.EPD2i7
+  commentId: T:Meadow.Foundation.Displays.EPD2i7
+  id: EPD2i7
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.EPD2i7.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  - Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM
+  - Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM
+  - Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START
+  - Meadow.Foundation.Displays.EPD2i7.ClearFrame
+  - Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1
+  - Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2
+  - Meadow.Foundation.Displays.EPD2i7.DATA_STOP
+  - Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP
+  - Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH
+  - Meadow.Foundation.Displays.EPD2i7.DisplayFrame
+  - Meadow.Foundation.Displays.EPD2i7.GET_STATUS
+  - Meadow.Foundation.Displays.EPD2i7.Height
+  - Meadow.Foundation.Displays.EPD2i7.Initialize
+  - Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION
+  - Meadow.Foundation.Displays.EPD2i7.lut_bb
+  - Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK
+  - Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE
+  - Meadow.Foundation.Displays.EPD2i7.lut_bw
+  - Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM
+  - Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc
+  - Meadow.Foundation.Displays.EPD2i7.lut_wb
+  - Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK
+  - Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE
+  - Meadow.Foundation.Displays.EPD2i7.lut_ww
+  - Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1
+  - Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2
+  - Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH
+  - Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL
+  - Meadow.Foundation.Displays.EPD2i7.POWER_OFF
+  - Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.POWER_ON
+  - Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE
+  - Meadow.Foundation.Displays.EPD2i7.POWER_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE
+  - Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA
+  - Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[])
+  - Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  - Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION
+  - Meadow.Foundation.Displays.EPD2i7.TCON_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION
+  - Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND
+  - Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ
+  - Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE
+  - Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER
+  - Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING
+  - Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE
+  - Meadow.Foundation.Displays.EPD2i7.Width
+  langs:
+  - csharp
+  - vb
+  name: EPD2i7
+  nameWithType: EPD2i7
+  fullName: Meadow.Foundation.Displays.EPD2i7
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EPD2i7
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 4
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public class EPD2i7 : EPDBase, IDisplay'
+    content.vb: >-
+      Public Class EPD2i7
+
+          Inherits EPDBase
+
+          Implements IDisplay
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Displays.DisplayBase
+  - Meadow.Foundation.Displays.SPIDisplayBase
+  - Meadow.Foundation.Displays.EPDBase
+  implements:
+  - Meadow.Foundation.Displays.IDisplay
+  inheritedMembers:
+  - Meadow.Foundation.Displays.EPDBase.ColorMode
+  - Meadow.Foundation.Displays.EPDBase.imageBuffer
+  - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.EPDBase.Refresh
+  - Meadow.Foundation.Displays.EPDBase.Show
+  - Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  - Meadow.Foundation.Displays.EPDBase.Sleep
+  - Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  - Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  - Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  - Meadow.Foundation.Displays.EPDBase.SW_RESET
+  - Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  - Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  - Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  - Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  - Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  - Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  - Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  - Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  - Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  - Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  - Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  - Meadow.Foundation.Displays.SPIDisplayBase.spi
+  - Meadow.Foundation.Displays.SPIDisplayBase.Data
+  - Meadow.Foundation.Displays.SPIDisplayBase.Command
+  - Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  - Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  - Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.EPD2i7.Height
+  commentId: P:Meadow.Foundation.Displays.EPD2i7.Height
+  id: Height
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: EPD2i7.Height
+  fullName: Meadow.Foundation.Displays.EPD2i7.Height
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Height
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 6
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Height { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Height As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Height
+  overload: Meadow.Foundation.Displays.EPD2i7.Height*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPD2i7.Width
+  commentId: P:Meadow.Foundation.Displays.EPD2i7.Width
+  id: Width
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: EPD2i7.Width
+  fullName: Meadow.Foundation.Displays.EPD2i7.Width
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Width
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 8
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override uint Width { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overrides ReadOnly Property Width As UInteger
+  overridden: Meadow.Foundation.Displays.DisplayBase.Width
+  overload: Meadow.Foundation.Displays.EPD2i7.Width*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.Displays.EPD2i7.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)'
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: EPD2i7(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  nameWithType: EPD2i7.EPD2i7(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
+  fullName: Meadow.Foundation.Displays.EPD2i7.EPD2i7(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.Spi.SPI_module, System.UInt32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 10
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public EPD2i7(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)
+    parameters:
+    - id: chipSelectPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: dcPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: resetPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: busyPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: spiModule
+      type: Meadow.Hardware.Spi.SPI_module
+    - id: speedKHz
+      type: System.UInt32
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing)
+  overload: Meadow.Foundation.Displays.EPD2i7.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPD2i7.Initialize
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.Initialize
+  id: Initialize
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: EPD2i7.Initialize()
+  fullName: Meadow.Foundation.Displays.EPD2i7.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Initialize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 14
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected override void Initialize()
+    content.vb: Protected Overrides Sub Initialize
+  overridden: Meadow.Foundation.Displays.EPDBase.Initialize
+  overload: Meadow.Foundation.Displays.EPD2i7.Initialize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[])
+  id: SetFrameMemory(System.Byte[])
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: SetFrameMemory(Byte[])
+  nameWithType: EPD2i7.SetFrameMemory(Byte[])
+  fullName: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetFrameMemory
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 103
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void SetFrameMemory(byte[] image_buffer)
+    parameters:
+    - id: image_buffer
+      type: System.Byte[]
+    content.vb: Public Overrides Sub SetFrameMemory(image_buffer As Byte())
+  overridden: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  overload: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory*
+  nameWithType.vb: EPD2i7.SetFrameMemory(Byte())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte())
+  name.vb: SetFrameMemory(Byte())
+- uid: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  id: SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  nameWithType: EPD2i7.SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  fullName: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[], System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetFrameMemory
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 108
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void SetFrameMemory(byte[] buffer, int x, int y, int width, int height)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Overrides Sub SetFrameMemory(buffer As Byte(), x As Integer, y As Integer, width As Integer, height As Integer)
+  overridden: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory*
+  nameWithType.vb: EPD2i7.SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte(), System.Int32, System.Int32, System.Int32, System.Int32)
+  name.vb: SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+- uid: Meadow.Foundation.Displays.EPD2i7.DisplayFrame
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.DisplayFrame
+  id: DisplayFrame
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DisplayFrame()
+  nameWithType: EPD2i7.DisplayFrame()
+  fullName: Meadow.Foundation.Displays.EPD2i7.DisplayFrame()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayFrame
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 176
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public override void DisplayFrame()
+    content.vb: Public Overrides Sub DisplayFrame
+  overridden: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  overload: Meadow.Foundation.Displays.EPD2i7.DisplayFrame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.Displays.EPD2i7.ClearFrame
+  commentId: M:Meadow.Foundation.Displays.EPD2i7.ClearFrame
+  id: ClearFrame
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: ClearFrame()
+  nameWithType: EPD2i7.ClearFrame()
+  fullName: Meadow.Foundation.Displays.EPD2i7.ClearFrame()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearFrame
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 182
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: public void ClearFrame()
+    content.vb: Public Sub ClearFrame
+  overload: Meadow.Foundation.Displays.EPD2i7.ClearFrame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING
+  id: PANEL_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PANEL_SETTING
+  nameWithType: EPD2i7.PANEL_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PANEL_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 203
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PANEL_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PANEL_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.POWER_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.POWER_SETTING
+  id: POWER_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: POWER_SETTING
+  nameWithType: EPD2i7.POWER_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.POWER_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 204
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.POWER_OFF
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.POWER_OFF
+  id: POWER_OFF
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: POWER_OFF
+  nameWithType: EPD2i7.POWER_OFF
+  fullName: Meadow.Foundation.Displays.EPD2i7.POWER_OFF
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_OFF
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 205
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_OFF
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_OFF As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING
+  id: POWER_OFF_SEQUENCE_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: POWER_OFF_SEQUENCE_SETTING
+  nameWithType: EPD2i7.POWER_OFF_SEQUENCE_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_OFF_SEQUENCE_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 206
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_OFF_SEQUENCE_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_OFF_SEQUENCE_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.POWER_ON
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.POWER_ON
+  id: POWER_ON
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: POWER_ON
+  nameWithType: EPD2i7.POWER_ON
+  fullName: Meadow.Foundation.Displays.EPD2i7.POWER_ON
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_ON
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 207
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_ON
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_ON As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE
+  id: POWER_ON_MEASURE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: POWER_ON_MEASURE
+  nameWithType: EPD2i7.POWER_ON_MEASURE
+  fullName: Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: POWER_ON_MEASURE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 208
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte POWER_ON_MEASURE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared POWER_ON_MEASURE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START
+  id: BOOSTER_SOFT_START
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: BOOSTER_SOFT_START
+  nameWithType: EPD2i7.BOOSTER_SOFT_START
+  fullName: Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BOOSTER_SOFT_START
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 209
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte BOOSTER_SOFT_START
+    return:
+      type: System.Byte
+    content.vb: Protected Shared BOOSTER_SOFT_START As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP
+  id: DEEP_SLEEP
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DEEP_SLEEP
+  nameWithType: EPD2i7.DEEP_SLEEP
+  fullName: Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DEEP_SLEEP
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 210
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DEEP_SLEEP
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DEEP_SLEEP As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1
+  id: DATA_START_TRANSMISSION_1
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DATA_START_TRANSMISSION_1
+  nameWithType: EPD2i7.DATA_START_TRANSMISSION_1
+  fullName: Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_START_TRANSMISSION_1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 211
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_START_TRANSMISSION_1
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_START_TRANSMISSION_1 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.DATA_STOP
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.DATA_STOP
+  id: DATA_STOP
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DATA_STOP
+  nameWithType: EPD2i7.DATA_STOP
+  fullName: Meadow.Foundation.Displays.EPD2i7.DATA_STOP
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_STOP
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 212
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_STOP
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_STOP As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH
+  id: DISPLAY_REFRESH
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DISPLAY_REFRESH
+  nameWithType: EPD2i7.DISPLAY_REFRESH
+  fullName: Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DISPLAY_REFRESH
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 213
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DISPLAY_REFRESH
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DISPLAY_REFRESH As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2
+  id: DATA_START_TRANSMISSION_2
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: DATA_START_TRANSMISSION_2
+  nameWithType: EPD2i7.DATA_START_TRANSMISSION_2
+  fullName: Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DATA_START_TRANSMISSION_2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 214
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte DATA_START_TRANSMISSION_2
+    return:
+      type: System.Byte
+    content.vb: Protected Shared DATA_START_TRANSMISSION_2 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1
+  id: PARTIAL_DATA_START_TRANSMISSION_1
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_DATA_START_TRANSMISSION_1
+  nameWithType: EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1
+  fullName: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_DATA_START_TRANSMISSION_1
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 215
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_DATA_START_TRANSMISSION_1
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_DATA_START_TRANSMISSION_1 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2
+  id: PARTIAL_DATA_START_TRANSMISSION_2
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_DATA_START_TRANSMISSION_2
+  nameWithType: EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2
+  fullName: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_DATA_START_TRANSMISSION_2
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 216
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_DATA_START_TRANSMISSION_2
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_DATA_START_TRANSMISSION_2 As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH
+  id: PARTIAL_DISPLAY_REFRESH
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PARTIAL_DISPLAY_REFRESH
+  nameWithType: EPD2i7.PARTIAL_DISPLAY_REFRESH
+  fullName: Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PARTIAL_DISPLAY_REFRESH
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 217
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PARTIAL_DISPLAY_REFRESH
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PARTIAL_DISPLAY_REFRESH As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM
+  id: LUT_FOR_VCOM
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LUT_FOR_VCOM
+  nameWithType: EPD2i7.LUT_FOR_VCOM
+  fullName: Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LUT_FOR_VCOM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 218
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LUT_FOR_VCOM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LUT_FOR_VCOM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE
+  id: LUT_WHITE_TO_WHITE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LUT_WHITE_TO_WHITE
+  nameWithType: EPD2i7.LUT_WHITE_TO_WHITE
+  fullName: Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LUT_WHITE_TO_WHITE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 219
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LUT_WHITE_TO_WHITE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LUT_WHITE_TO_WHITE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE
+  id: LUT_BLACK_TO_WHITE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LUT_BLACK_TO_WHITE
+  nameWithType: EPD2i7.LUT_BLACK_TO_WHITE
+  fullName: Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LUT_BLACK_TO_WHITE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 220
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LUT_BLACK_TO_WHITE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LUT_BLACK_TO_WHITE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK
+  id: LUT_WHITE_TO_BLACK
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LUT_WHITE_TO_BLACK
+  nameWithType: EPD2i7.LUT_WHITE_TO_BLACK
+  fullName: Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LUT_WHITE_TO_BLACK
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 221
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LUT_WHITE_TO_BLACK
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LUT_WHITE_TO_BLACK As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK
+  id: LUT_BLACK_TO_BLACK
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LUT_BLACK_TO_BLACK
+  nameWithType: EPD2i7.LUT_BLACK_TO_BLACK
+  fullName: Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LUT_BLACK_TO_BLACK
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 222
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LUT_BLACK_TO_BLACK
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LUT_BLACK_TO_BLACK As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL
+  id: PLL_CONTROL
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PLL_CONTROL
+  nameWithType: EPD2i7.PLL_CONTROL
+  fullName: Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PLL_CONTROL
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 223
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PLL_CONTROL
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PLL_CONTROL As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND
+  id: TEMPERATURE_SENSOR_COMMAND
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_COMMAND
+  nameWithType: EPD2i7.TEMPERATURE_SENSOR_COMMAND
+  fullName: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_COMMAND
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 224
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_COMMAND
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_COMMAND As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION
+  id: TEMPERATURE_SENSOR_CALIBRATION
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_CALIBRATION
+  nameWithType: EPD2i7.TEMPERATURE_SENSOR_CALIBRATION
+  fullName: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_CALIBRATION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 225
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_CALIBRATION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_CALIBRATION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE
+  id: TEMPERATURE_SENSOR_WRITE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_WRITE
+  nameWithType: EPD2i7.TEMPERATURE_SENSOR_WRITE
+  fullName: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_WRITE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 226
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_WRITE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_WRITE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ
+  id: TEMPERATURE_SENSOR_READ
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TEMPERATURE_SENSOR_READ
+  nameWithType: EPD2i7.TEMPERATURE_SENSOR_READ
+  fullName: Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TEMPERATURE_SENSOR_READ
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 227
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TEMPERATURE_SENSOR_READ
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TEMPERATURE_SENSOR_READ As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING
+  id: VCOM_AND_DATA_INTERVAL_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: VCOM_AND_DATA_INTERVAL_SETTING
+  nameWithType: EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCOM_AND_DATA_INTERVAL_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 228
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCOM_AND_DATA_INTERVAL_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCOM_AND_DATA_INTERVAL_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION
+  id: LOW_POWER_DETECTION
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: LOW_POWER_DETECTION
+  nameWithType: EPD2i7.LOW_POWER_DETECTION
+  fullName: Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LOW_POWER_DETECTION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 229
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte LOW_POWER_DETECTION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared LOW_POWER_DETECTION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TCON_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TCON_SETTING
+  id: TCON_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TCON_SETTING
+  nameWithType: EPD2i7.TCON_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.TCON_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TCON_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 230
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TCON_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TCON_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION
+  id: TCON_RESOLUTION
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: TCON_RESOLUTION
+  nameWithType: EPD2i7.TCON_RESOLUTION
+  fullName: Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TCON_RESOLUTION
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 231
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte TCON_RESOLUTION
+    return:
+      type: System.Byte
+    content.vb: Protected Shared TCON_RESOLUTION As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING
+  id: SOURCE_AND_GATE_START_SETTING
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: SOURCE_AND_GATE_START_SETTING
+  nameWithType: EPD2i7.SOURCE_AND_GATE_START_SETTING
+  fullName: Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SOURCE_AND_GATE_START_SETTING
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 232
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte SOURCE_AND_GATE_START_SETTING
+    return:
+      type: System.Byte
+    content.vb: Protected Shared SOURCE_AND_GATE_START_SETTING As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.GET_STATUS
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.GET_STATUS
+  id: GET_STATUS
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: GET_STATUS
+  nameWithType: EPD2i7.GET_STATUS
+  fullName: Meadow.Foundation.Displays.EPD2i7.GET_STATUS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GET_STATUS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 233
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte GET_STATUS
+    return:
+      type: System.Byte
+    content.vb: Protected Shared GET_STATUS As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM
+  id: AUTO_MEASURE_VCOM
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: AUTO_MEASURE_VCOM
+  nameWithType: EPD2i7.AUTO_MEASURE_VCOM
+  fullName: Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AUTO_MEASURE_VCOM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 234
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte AUTO_MEASURE_VCOM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared AUTO_MEASURE_VCOM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE
+  id: VCOM_VALUE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: VCOM_VALUE
+  nameWithType: EPD2i7.VCOM_VALUE
+  fullName: Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCOM_VALUE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 235
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCOM_VALUE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCOM_VALUE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER
+  id: VCM_DC_SETTING_REGISTER
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: VCM_DC_SETTING_REGISTER
+  nameWithType: EPD2i7.VCM_DC_SETTING_REGISTER
+  fullName: Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: VCM_DC_SETTING_REGISTER
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 236
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte VCM_DC_SETTING_REGISTER
+    return:
+      type: System.Byte
+    content.vb: Protected Shared VCM_DC_SETTING_REGISTER As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE
+  id: PROGRAM_MODE
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: PROGRAM_MODE
+  nameWithType: EPD2i7.PROGRAM_MODE
+  fullName: Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PROGRAM_MODE
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 237
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte PROGRAM_MODE
+    return:
+      type: System.Byte
+    content.vb: Protected Shared PROGRAM_MODE As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM
+  id: ACTIVE_PROGRAM
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: ACTIVE_PROGRAM
+  nameWithType: EPD2i7.ACTIVE_PROGRAM
+  fullName: Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ACTIVE_PROGRAM
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 238
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte ACTIVE_PROGRAM
+    return:
+      type: System.Byte
+    content.vb: Protected Shared ACTIVE_PROGRAM As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA
+  id: READ_OTP_DATA
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: READ_OTP_DATA
+  nameWithType: EPD2i7.READ_OTP_DATA
+  fullName: Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: READ_OTP_DATA
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 239
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte READ_OTP_DATA
+    return:
+      type: System.Byte
+    content.vb: Protected Shared READ_OTP_DATA As Byte
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc
+  id: lut_vcom_dc
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: lut_vcom_dc
+  nameWithType: EPD2i7.lut_vcom_dc
+  fullName: Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: lut_vcom_dc
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 241
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte[] lut_vcom_dc
+    return:
+      type: System.Byte[]
+    content.vb: Protected Shared lut_vcom_dc As Byte()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.lut_ww
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.lut_ww
+  id: lut_ww
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: lut_ww
+  nameWithType: EPD2i7.lut_ww
+  fullName: Meadow.Foundation.Displays.EPD2i7.lut_ww
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: lut_ww
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 253
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte[] lut_ww
+    return:
+      type: System.Byte[]
+    content.vb: Protected Shared lut_ww As Byte()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.lut_bw
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.lut_bw
+  id: lut_bw
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: lut_bw
+  nameWithType: EPD2i7.lut_bw
+  fullName: Meadow.Foundation.Displays.EPD2i7.lut_bw
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: lut_bw
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 264
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte[] lut_bw
+    return:
+      type: System.Byte[]
+    content.vb: Protected Shared lut_bw As Byte()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.lut_bb
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.lut_bb
+  id: lut_bb
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: lut_bb
+  nameWithType: EPD2i7.lut_bb
+  fullName: Meadow.Foundation.Displays.EPD2i7.lut_bb
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: lut_bb
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 276
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte[] lut_bb
+    return:
+      type: System.Byte[]
+    content.vb: Protected Shared lut_bb As Byte()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Meadow.Foundation.Displays.EPD2i7.lut_wb
+  commentId: F:Meadow.Foundation.Displays.EPD2i7.lut_wb
+  id: lut_wb
+  parent: Meadow.Foundation.Displays.EPD2i7
+  langs:
+  - csharp
+  - vb
+  name: lut_wb
+  nameWithType: EPD2i7.lut_wb
+  fullName: Meadow.Foundation.Displays.EPD2i7.lut_wb
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: lut_wb
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs
+    startLine: 288
+  assemblies:
+  - Displays.WaveShare_ePaper
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: protected static byte[] lut_wb
+    return:
+      type: System.Byte[]
+    content.vb: Protected Shared lut_wb As Byte()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.DisplayBase
+  commentId: T:Meadow.Foundation.Displays.DisplayBase
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase
+  nameWithType: DisplayBase
+  fullName: Meadow.Foundation.Displays.DisplayBase
+- uid: Meadow.Foundation.Displays.SPIDisplayBase
+  commentId: T:Meadow.Foundation.Displays.SPIDisplayBase
+  parent: Meadow.Foundation.Displays
+  name: SPIDisplayBase
+  nameWithType: SPIDisplayBase
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase
+- uid: Meadow.Foundation.Displays.EPDBase
+  commentId: T:Meadow.Foundation.Displays.EPDBase
+  parent: Meadow.Foundation.Displays
+  name: EPDBase
+  nameWithType: EPDBase
+  fullName: Meadow.Foundation.Displays.EPDBase
+- uid: Meadow.Foundation.Displays.IDisplay
+  commentId: T:Meadow.Foundation.Displays.IDisplay
+  parent: Meadow.Foundation.Displays
+  name: IDisplay
+  nameWithType: IDisplay
+  fullName: Meadow.Foundation.Displays.IDisplay
+- uid: Meadow.Foundation.Displays.EPDBase.ColorMode
+  commentId: P:Meadow.Foundation.Displays.EPDBase.ColorMode
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: ColorMode
+  nameWithType: EPDBase.ColorMode
+  fullName: Meadow.Foundation.Displays.EPDBase.ColorMode
+- uid: Meadow.Foundation.Displays.EPDBase.imageBuffer
+  commentId: F:Meadow.Foundation.Displays.EPDBase.imageBuffer
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: imageBuffer
+  nameWithType: EPDBase.imageBuffer
+  fullName: Meadow.Foundation.Displays.EPDBase.imageBuffer
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: Clear(Boolean)
+  nameWithType: EPDBase.Clear(Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: Clear(Color, Boolean)
+  nameWithType: EPDBase.Clear(Color, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(Color, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: Clear(Boolean, Boolean)
+  nameWithType: EPDBase.Clear(Boolean, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
+    name: Clear
+    nameWithType: EPDBase.Clear
+    fullName: Meadow.Foundation.Displays.EPDBase.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  nameWithType: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  nameWithType.vb: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: EPDBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
+    name: DrawBitmap
+    nameWithType: EPDBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+    name: DisplayBase.BitmapMode
+    nameWithType: DisplayBase.BitmapMode
+    fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  nameWithType: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
+  nameWithType.vb: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
+  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+    name: DrawBitmap
+    nameWithType: EPDBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+    name: DrawBitmap
+    nameWithType: EPDBase.DrawBitmap
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Boolean)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Color)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, Color)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  nameWithType: EPDBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, System.Byte, System.Byte, System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
+    name: DrawPixel
+    nameWithType: EPDBase.DrawPixel
+    fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Refresh
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Refresh
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: Refresh()
+  nameWithType: EPDBase.Refresh()
+  fullName: Meadow.Foundation.Displays.EPDBase.Refresh()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Refresh
+    name: Refresh
+    nameWithType: EPDBase.Refresh
+    fullName: Meadow.Foundation.Displays.EPDBase.Refresh
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Refresh
+    name: Refresh
+    nameWithType: EPDBase.Refresh
+    fullName: Meadow.Foundation.Displays.EPDBase.Refresh
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Show
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Show
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: Show()
+  nameWithType: EPDBase.Show()
+  fullName: Meadow.Foundation.Displays.EPDBase.Show()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Show
+    name: Show
+    nameWithType: EPDBase.Show
+    fullName: Meadow.Foundation.Displays.EPDBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Show
+    name: Show
+    nameWithType: EPDBase.Show
+    fullName: Meadow.Foundation.Displays.EPDBase.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: ClearFrameMemory(Byte)
+  nameWithType: EPDBase.ClearFrameMemory(Byte)
+  fullName: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+    name: ClearFrameMemory
+    nameWithType: EPDBase.ClearFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
+    name: ClearFrameMemory
+    nameWithType: EPDBase.ClearFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.ClearFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.Sleep
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Sleep
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: Sleep()
+  nameWithType: EPDBase.Sleep()
+  fullName: Meadow.Foundation.Displays.EPDBase.Sleep()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Sleep
+    name: Sleep
+    nameWithType: EPDBase.Sleep
+    fullName: Meadow.Foundation.Displays.EPDBase.Sleep
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Sleep
+    name: Sleep
+    nameWithType: EPDBase.Sleep
+    fullName: Meadow.Foundation.Displays.EPDBase.Sleep
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DRIVER_OUTPUT_CONTROL
+  nameWithType: EPDBase.DRIVER_OUTPUT_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
+- uid: Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: BOOSTER_SOFT_START_CONTROL
+  nameWithType: EPDBase.BOOSTER_SOFT_START_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
+- uid: Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: GATE_SCAN_START_POSITION
+  nameWithType: EPDBase.GATE_SCAN_START_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
+- uid: Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DEEP_SLEEP_MODE
+  nameWithType: EPDBase.DEEP_SLEEP_MODE
+  fullName: Meadow.Foundation.Displays.EPDBase.DEEP_SLEEP_MODE
+- uid: Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DATA_ENTRY_MODE_SETTING
+  nameWithType: EPDBase.DATA_ENTRY_MODE_SETTING
+  fullName: Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
+- uid: Meadow.Foundation.Displays.EPDBase.SW_RESET
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SW_RESET
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SW_RESET
+  nameWithType: EPDBase.SW_RESET
+  fullName: Meadow.Foundation.Displays.EPDBase.SW_RESET
+- uid: Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: TEMPERATURE_SENSOR_CONTROL
+  nameWithType: EPDBase.TEMPERATURE_SENSOR_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.TEMPERATURE_SENSOR_CONTROL
+- uid: Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: MASTER_ACTIVATION
+  nameWithType: EPDBase.MASTER_ACTIVATION
+  fullName: Meadow.Foundation.Displays.EPDBase.MASTER_ACTIVATION
+- uid: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DISPLAY_UPDATE_CONTROL_1
+  nameWithType: EPDBase.DISPLAY_UPDATE_CONTROL_1
+  fullName: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
+- uid: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  commentId: F:Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DISPLAY_UPDATE_CONTROL_2
+  nameWithType: EPDBase.DISPLAY_UPDATE_CONTROL_2
+  fullName: Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: WRITE_RAM
+  nameWithType: EPDBase.WRITE_RAM
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_RAM
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: WRITE_VCOM_REGISTER
+  nameWithType: EPDBase.WRITE_VCOM_REGISTER
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_VCOM_REGISTER
+- uid: Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: WRITE_LUT_REGISTER
+  nameWithType: EPDBase.WRITE_LUT_REGISTER
+  fullName: Meadow.Foundation.Displays.EPDBase.WRITE_LUT_REGISTER
+- uid: Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_DUMMY_LINE_PERIOD
+  nameWithType: EPDBase.SET_DUMMY_LINE_PERIOD
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_DUMMY_LINE_PERIOD
+- uid: Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_GATE_TIME
+  nameWithType: EPDBase.SET_GATE_TIME
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_GATE_TIME
+- uid: Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  commentId: F:Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: BORDER_WAVEFORM_CONTROL
+  nameWithType: EPDBase.BORDER_WAVEFORM_CONTROL
+  fullName: Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_RAM_X_ADDRESS_START_END_POSITION
+  nameWithType: EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_RAM_Y_ADDRESS_START_END_POSITION
+  nameWithType: EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_RAM_X_ADDRESS_COUNTER
+  nameWithType: EPDBase.SET_RAM_X_ADDRESS_COUNTER
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_X_ADDRESS_COUNTER
+- uid: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  commentId: F:Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: SET_RAM_Y_ADDRESS_COUNTER
+  nameWithType: EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+  fullName: Meadow.Foundation.Displays.EPDBase.SET_RAM_Y_ADDRESS_COUNTER
+- uid: Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  commentId: F:Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: TERMINATE_FRAME_READ_WRITE
+  nameWithType: EPDBase.TERMINATE_FRAME_READ_WRITE
+  fullName: Meadow.Foundation.Displays.EPDBase.TERMINATE_FRAME_READ_WRITE
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spiBOneByteBuffer
+  nameWithType: SPIDisplayBase.spiBOneByteBuffer
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spiBOneByteBuffer
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: dataCommandPort
+  nameWithType: SPIDisplayBase.dataCommandPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.dataCommandPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: resetPort
+  nameWithType: SPIDisplayBase.resetPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.resetPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: busyPort
+  nameWithType: SPIDisplayBase.busyPort
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.busyPort
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.spi
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.spi
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: spi
+  nameWithType: SPIDisplayBase.spi
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.spi
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Data
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Data
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Data
+  nameWithType: SPIDisplayBase.Data
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Data
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Command
+  commentId: F:Meadow.Foundation.Displays.SPIDisplayBase.Command
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Command
+  nameWithType: SPIDisplayBase.Command
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Command
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: Write(Byte)
+  nameWithType: SPIDisplayBase.Write(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Write(System.Byte)
+    name: Write
+    nameWithType: SPIDisplayBase.Write
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: Reset()
+  nameWithType: SPIDisplayBase.Reset()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+    name: Reset
+    nameWithType: SPIDisplayBase.Reset
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: DelayMs(Int32)
+  nameWithType: SPIDisplayBase.DelayMs(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs(System.Int32)
+    name: DelayMs
+    nameWithType: SPIDisplayBase.DelayMs
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.DelayMs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendCommand(Byte)
+  nameWithType: SPIDisplayBase.SendCommand(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand(System.Byte)
+    name: SendCommand
+    nameWithType: SPIDisplayBase.SendCommand
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Int32)
+  nameWithType: SPIDisplayBase.SendData(Int32)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Int32)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte)
+  nameWithType: SPIDisplayBase.SendData(Byte)
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte)
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  isExternal: true
+  name: SendData(Byte[])
+  nameWithType: SPIDisplayBase.SendData(Byte[])
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+  nameWithType.vb: SPIDisplayBase.SendData(Byte())
+  fullName.vb: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte())
+  name.vb: SendData(Byte())
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.SendData(System.Byte[])
+    name: SendData
+    nameWithType: SPIDisplayBase.SendData
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.SendData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  commentId: M:Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  parent: Meadow.Foundation.Displays.SPIDisplayBase
+  name: WaitUntilIdle()
+  nameWithType: SPIDisplayBase.WaitUntilIdle()
+  fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+    name: WaitUntilIdle
+    nameWithType: SPIDisplayBase.WaitUntilIdle
+    fullName: Meadow.Foundation.Displays.SPIDisplayBase.WaitUntilIdle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: IgnoreOutOfBoundsPixels
+  nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
+  fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
+- uid: Meadow.Foundation.Displays.DisplayBase.Height
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Height
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Height
+  nameWithType: DisplayBase.Height
+  fullName: Meadow.Foundation.Displays.DisplayBase.Height
+- uid: Meadow.Foundation.Displays.EPD2i7.Height*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.Height
+  name: Height
+  nameWithType: EPD2i7.Height
+  fullName: Meadow.Foundation.Displays.EPD2i7.Height
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Meadow.Foundation.Displays.DisplayBase.Width
+  commentId: P:Meadow.Foundation.Displays.DisplayBase.Width
+  parent: Meadow.Foundation.Displays.DisplayBase
+  name: Width
+  nameWithType: DisplayBase.Width
+  fullName: Meadow.Foundation.Displays.DisplayBase.Width
+- uid: Meadow.Foundation.Displays.EPD2i7.Width*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.Width
+  name: Width
+  nameWithType: EPD2i7.Width
+  fullName: Meadow.Foundation.Displays.EPD2i7.Width
+- uid: Meadow.Foundation.Displays.EPD2i7.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.#ctor
+  name: EPD2i7
+  nameWithType: EPD2i7.EPD2i7
+  fullName: Meadow.Foundation.Displays.EPD2i7.EPD2i7
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
+  name: Spi.SPI_module
+  nameWithType: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Displays.EPDBase.Initialize
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Initialize
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: Initialize()
+  nameWithType: EPDBase.Initialize()
+  fullName: Meadow.Foundation.Displays.EPDBase.Initialize()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.Initialize
+    name: Initialize
+    nameWithType: EPDBase.Initialize
+    fullName: Meadow.Foundation.Displays.EPDBase.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.Initialize
+    name: Initialize
+    nameWithType: EPDBase.Initialize
+    fullName: Meadow.Foundation.Displays.EPDBase.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPD2i7.Initialize*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.Initialize
+  name: Initialize
+  nameWithType: EPD2i7.Initialize
+  fullName: Meadow.Foundation.Displays.EPD2i7.Initialize
+- uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  commentId: M:Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: SetFrameMemory(Byte[])
+  nameWithType: EPDBase.SetFrameMemory(Byte[])
+  fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+  nameWithType.vb: EPDBase.SetFrameMemory(Byte())
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte())
+  name.vb: SetFrameMemory(Byte())
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+    name: SetFrameMemory
+    nameWithType: EPDBase.SetFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[])
+    name: SetFrameMemory
+    nameWithType: EPDBase.SetFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.SetFrameMemory
+  name: SetFrameMemory
+  nameWithType: EPD2i7.SetFrameMemory
+  fullName: Meadow.Foundation.Displays.EPD2i7.SetFrameMemory
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Meadow.Foundation.Displays.EPDBase
+  isExternal: true
+  name: SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  nameWithType: EPDBase.SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)
+  fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[], System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: EPDBase.SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte(), System.Int32, System.Int32, System.Int32, System.Int32)
+  name.vb: SetFrameMemory(Byte(), Int32, Int32, Int32, Int32)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: SetFrameMemory
+    nameWithType: EPDBase.SetFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: SetFrameMemory
+    nameWithType: EPDBase.SetFrameMemory
+    fullName: Meadow.Foundation.Displays.EPDBase.SetFrameMemory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  parent: Meadow.Foundation.Displays.EPDBase
+  name: DisplayFrame()
+  nameWithType: EPDBase.DisplayFrame()
+  fullName: Meadow.Foundation.Displays.EPDBase.DisplayFrame()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+    name: DisplayFrame
+    nameWithType: EPDBase.DisplayFrame
+    fullName: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+    name: DisplayFrame
+    nameWithType: EPDBase.DisplayFrame
+    fullName: Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.EPD2i7.DisplayFrame*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.DisplayFrame
+  name: DisplayFrame
+  nameWithType: EPD2i7.DisplayFrame
+  fullName: Meadow.Foundation.Displays.EPD2i7.DisplayFrame
+- uid: Meadow.Foundation.Displays.EPD2i7.ClearFrame*
+  commentId: Overload:Meadow.Foundation.Displays.EPD2i7.ClearFrame
+  name: ClearFrame
+  nameWithType: EPD2i7.ClearFrame
+  fullName: Meadow.Foundation.Displays.EPD2i7.ClearFrame
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Relays
+  commentId: N:Meadow.Foundation.Relays
+  id: Meadow.Foundation.Relays
+  children:
+  - Meadow.Foundation.Relays.IRelay
+  - Meadow.Foundation.Relays.Relay
+  - Meadow.Foundation.Relays.RelayType
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Relays
+  nameWithType: Meadow.Foundation.Relays
+  fullName: Meadow.Foundation.Relays
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Relays.IRelay
+  commentId: T:Meadow.Foundation.Relays.IRelay
+  parent: Meadow.Foundation.Relays
+  name: IRelay
+  nameWithType: IRelay
+  fullName: Meadow.Foundation.Relays.IRelay
+- uid: Meadow.Foundation.Relays.Relay
+  commentId: T:Meadow.Foundation.Relays.Relay
+  name: Relay
+  nameWithType: Relay
+  fullName: Meadow.Foundation.Relays.Relay
+- uid: Meadow.Foundation.Relays.RelayType
+  commentId: T:Meadow.Foundation.Relays.RelayType
+  parent: Meadow.Foundation.Relays
+  name: RelayType
+  nameWithType: RelayType
+  fullName: Meadow.Foundation.Relays.RelayType
+- uid: Meadow.Foundation.Relays
+  commentId: N:Meadow.Foundation.Relays
+  name: Meadow.Foundation.Relays
+  nameWithType: Meadow.Foundation.Relays
+  fullName: Meadow.Foundation.Relays

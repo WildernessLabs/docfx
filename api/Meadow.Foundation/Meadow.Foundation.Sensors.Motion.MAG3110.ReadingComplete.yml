@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.ReadingComplete
+  commentId: T:Meadow.Foundation.Sensors.Motion.MAG3110.ReadingComplete
+  id: MAG3110.ReadingComplete
+  parent: Meadow.Foundation.Sensors.Motion
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MAG3110.ReadingComplete
+  nameWithType: MAG3110.ReadingComplete
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.ReadingComplete
+  type: Delegate
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadingComplete
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+    startLine: 55
+  assemblies:
+  - Sensors.Motion.MAG3110
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nDelegate for the OnDataReceived event.\n"
+  example: []
+  syntax:
+    content: public delegate void ReadingComplete(MAG3110.SensorReading sensorReading);
+    parameters:
+    - id: sensorReading
+      type: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+      description: Sensor readings from the MAG3110.
+    content.vb: Public Delegate Sub ReadingComplete(sensorReading As MAG3110.SensorReading)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  commentId: T:Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  parent: Meadow.Foundation.Sensors.Motion
+  name: MAG3110.SensorReading
+  nameWithType: MAG3110.SensorReading
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading

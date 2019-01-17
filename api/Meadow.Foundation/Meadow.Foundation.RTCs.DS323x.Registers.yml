@@ -1,0 +1,742 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.RTCs.DS323x.Registers
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Registers
+  id: DS323x.Registers
+  parent: Meadow.Foundation.RTCs
+  children:
+  - Meadow.Foundation.RTCs.DS323x.Registers.AgingOffset
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm1DayDate
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Hours
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Minutes
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Seconds
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm2DayDate
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Hours
+  - Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Minutes
+  - Meadow.Foundation.RTCs.DS323x.Registers.Control
+  - Meadow.Foundation.RTCs.DS323x.Registers.ControlStatus
+  - Meadow.Foundation.RTCs.DS323x.Registers.Date
+  - Meadow.Foundation.RTCs.DS323x.Registers.Day
+  - Meadow.Foundation.RTCs.DS323x.Registers.Hours
+  - Meadow.Foundation.RTCs.DS323x.Registers.Minutes
+  - Meadow.Foundation.RTCs.DS323x.Registers.Month
+  - Meadow.Foundation.RTCs.DS323x.Registers.Seconds
+  - Meadow.Foundation.RTCs.DS323x.Registers.TemperatureLSB
+  - Meadow.Foundation.RTCs.DS323x.Registers.TemperatureMSB
+  - Meadow.Foundation.RTCs.DS323x.Registers.Year
+  langs:
+  - csharp
+  - vb
+  name: DS323x.Registers
+  nameWithType: DS323x.Registers
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Registers
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 14
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nRegister addresses in the sensor.\n"
+  example: []
+  syntax:
+    content: 'protected static class Registers : object'
+    content.vb: >-
+      Protected Module Registers
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Seconds
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Seconds
+  id: Seconds
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Seconds
+  nameWithType: DS323x.Registers.Seconds
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Seconds
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Seconds
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 16
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Seconds
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Seconds As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Minutes
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Minutes
+  id: Minutes
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Minutes
+  nameWithType: DS323x.Registers.Minutes
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Minutes
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Minutes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 17
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Minutes
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Minutes As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Hours
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Hours
+  id: Hours
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Hours
+  nameWithType: DS323x.Registers.Hours
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Hours
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Hours
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 18
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Hours
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Hours As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Day
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Day
+  id: Day
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: DS323x.Registers.Day
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Day
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Day
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 19
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Day
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Day As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Date
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Date
+  id: Date
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DS323x.Registers.Date
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Date
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Date
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 20
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Date
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Date As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Month
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Month
+  id: Month
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: DS323x.Registers.Month
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Month
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Month
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 21
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Month
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Month As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Year
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Year
+  id: Year
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DS323x.Registers.Year
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Year
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Year
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 22
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Year
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Year As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Seconds
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Seconds
+  id: Alarm1Seconds
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm1Seconds
+  nameWithType: DS323x.Registers.Alarm1Seconds
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Seconds
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm1Seconds
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 23
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm1Seconds
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm1Seconds As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Minutes
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Minutes
+  id: Alarm1Minutes
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm1Minutes
+  nameWithType: DS323x.Registers.Alarm1Minutes
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Minutes
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm1Minutes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 24
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm1Minutes
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm1Minutes As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Hours
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Hours
+  id: Alarm1Hours
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm1Hours
+  nameWithType: DS323x.Registers.Alarm1Hours
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1Hours
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm1Hours
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 25
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm1Hours
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm1Hours As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1DayDate
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm1DayDate
+  id: Alarm1DayDate
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm1DayDate
+  nameWithType: DS323x.Registers.Alarm1DayDate
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm1DayDate
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm1DayDate
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 26
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm1DayDate
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm1DayDate As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Minutes
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Minutes
+  id: Alarm2Minutes
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm2Minutes
+  nameWithType: DS323x.Registers.Alarm2Minutes
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Minutes
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm2Minutes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 27
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm2Minutes
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm2Minutes As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Hours
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Hours
+  id: Alarm2Hours
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm2Hours
+  nameWithType: DS323x.Registers.Alarm2Hours
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2Hours
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm2Hours
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 28
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm2Hours
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm2Hours As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2DayDate
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Alarm2DayDate
+  id: Alarm2DayDate
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Alarm2DayDate
+  nameWithType: DS323x.Registers.Alarm2DayDate
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Alarm2DayDate
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Alarm2DayDate
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 29
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Alarm2DayDate
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Alarm2DayDate As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.Control
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.Control
+  id: Control
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Control
+  nameWithType: DS323x.Registers.Control
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.Control
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Control
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 30
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte Control
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Control As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.ControlStatus
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.ControlStatus
+  id: ControlStatus
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: ControlStatus
+  nameWithType: DS323x.Registers.ControlStatus
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.ControlStatus
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ControlStatus
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 31
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte ControlStatus
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly ControlStatus As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.AgingOffset
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.AgingOffset
+  id: AgingOffset
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: AgingOffset
+  nameWithType: DS323x.Registers.AgingOffset
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.AgingOffset
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AgingOffset
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 32
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte AgingOffset
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly AgingOffset As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.TemperatureMSB
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.TemperatureMSB
+  id: TemperatureMSB
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: TemperatureMSB
+  nameWithType: DS323x.Registers.TemperatureMSB
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.TemperatureMSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureMSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 33
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte TemperatureMSB
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly TemperatureMSB As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.Registers.TemperatureLSB
+  commentId: F:Meadow.Foundation.RTCs.DS323x.Registers.TemperatureLSB
+  id: TemperatureLSB
+  parent: Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: TemperatureLSB
+  nameWithType: DS323x.Registers.TemperatureLSB
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers.TemperatureLSB
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureLSB
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 34
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: public static readonly byte TemperatureLSB
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly TemperatureLSB As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

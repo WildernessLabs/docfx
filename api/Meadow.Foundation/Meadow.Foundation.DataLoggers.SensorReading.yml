@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.DataLoggers.SensorReading
+  commentId: T:Meadow.Foundation.DataLoggers.SensorReading
+  id: SensorReading
+  parent: Meadow.Foundation.DataLoggers
+  children:
+  - Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
+  - Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+  - Meadow.Foundation.DataLoggers.SensorReading.Key
+  - Meadow.Foundation.DataLoggers.SensorReading.Value
+  langs:
+  - csharp
+  - vb
+  name: SensorReading
+  nameWithType: SensorReading
+  fullName: Meadow.Foundation.DataLoggers.SensorReading
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+    startLine: 7
+  assemblies:
+  - DataLoggers
+  namespace: Meadow.Foundation.DataLoggers
+  summary: "\nSensor reading and the date and time the reading was taken.\n"
+  example: []
+  syntax:
+    content: 'public class SensorReading : object'
+    content.vb: >-
+      Public Class SensorReading
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.DataLoggers.SensorReading.Key
+  commentId: P:Meadow.Foundation.DataLoggers.SensorReading.Key
+  id: Key
+  parent: Meadow.Foundation.DataLoggers.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: SensorReading.Key
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.Key
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Key
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+    startLine: 14
+  assemblies:
+  - DataLoggers
+  namespace: Meadow.Foundation.DataLoggers
+  summary: "\nName of the sensor reading.\n"
+  example: []
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: Meadow.Foundation.DataLoggers.SensorReading.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.DataLoggers.SensorReading.Value
+  commentId: P:Meadow.Foundation.DataLoggers.SensorReading.Value
+  id: Value
+  parent: Meadow.Foundation.DataLoggers.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SensorReading.Value
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.Value
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Value
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+    startLine: 19
+  assemblies:
+  - DataLoggers
+  namespace: Meadow.Foundation.DataLoggers
+  summary: "\nValue read from the sensor.\n"
+  example: []
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Meadow.Foundation.DataLoggers.SensorReading.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+  commentId: P:Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+  id: CreatedAt
+  parent: Meadow.Foundation.DataLoggers.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: SensorReading.CreatedAt
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CreatedAt
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+    startLine: 24
+  assemblies:
+  - DataLoggers
+  namespace: Meadow.Foundation.DataLoggers
+  summary: "\nDate and time the reading was taken.\n"
+  example: []
+  syntax:
+    content: public DateTime CreatedAt { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property CreatedAt As DateTime
+  overload: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
+  commentId: M:Meadow.Foundation.DataLoggers.SensorReading.#ctor(System.String,System.String,DateTime)
+  id: '#ctor(System.String,System.String,DateTime)'
+  parent: Meadow.Foundation.DataLoggers.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: SensorReading(String, String, DateTime)
+  nameWithType: SensorReading.SensorReading(String, String, DateTime)
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.SensorReading(System.String, System.String, DateTime)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/DataLoggers/SensorReading.cs
+    startLine: 34
+  assemblies:
+  - DataLoggers
+  namespace: Meadow.Foundation.DataLoggers
+  summary: "\nCreate a new SensorReading object.\n"
+  example: []
+  syntax:
+    content: public SensorReading(string key, string value, DateTime createdAt)
+    parameters:
+    - id: key
+      type: System.String
+      description: Name of the reading (e.g. temperature, humidity etc.)
+    - id: value
+      type: System.String
+      description: Value read from the sensor.
+    - id: createdAt
+      type: DateTime
+      description: DateTime the sensor reading was taken.
+    content.vb: Public Sub New(key As String, value As String, createdAt As DateTime)
+  overload: Meadow.Foundation.DataLoggers.SensorReading.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.DataLoggers
+  commentId: N:Meadow.Foundation.DataLoggers
+  name: Meadow.Foundation.DataLoggers
+  nameWithType: Meadow.Foundation.DataLoggers
+  fullName: Meadow.Foundation.DataLoggers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.DataLoggers.SensorReading.Key*
+  commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.Key
+  name: Key
+  nameWithType: SensorReading.Key
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.Key
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Foundation.DataLoggers.SensorReading.Value*
+  commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.Value
+  name: Value
+  nameWithType: SensorReading.Value
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.Value
+- uid: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt*
+  commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+  name: CreatedAt
+  nameWithType: SensorReading.CreatedAt
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.CreatedAt
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Meadow.Foundation.DataLoggers.SensorReading.#ctor*
+  commentId: Overload:Meadow.Foundation.DataLoggers.SensorReading.#ctor
+  name: SensorReading
+  nameWithType: SensorReading.SensorReading
+  fullName: Meadow.Foundation.DataLoggers.SensorReading.SensorReading

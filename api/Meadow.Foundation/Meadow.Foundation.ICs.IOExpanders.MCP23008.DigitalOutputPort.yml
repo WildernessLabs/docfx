@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  id: DigitalOutputPort
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._mcp
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._pin
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+  langs:
+  - csharp
+  - vb
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DigitalOutputPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 7
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nConvenience class for writing to pins on the MCP23008\n"
+  example: []
+  syntax:
+    content: 'public class DigitalOutputPort : DigitalOutputPortBase, IDigitalOutputPort, IDigitalPort, IPort'
+    content.vb: >-
+      Public Class DigitalOutputPort
+
+          Inherits DigitalOutputPortBase
+
+          Implements IDigitalOutputPort, IDigitalPort, IPort
+  inheritance:
+  - System.Object
+  - Meadow.Hardware.DigitalPortBase
+  - Meadow.Hardware.DigitalOutputPortBase
+  implements:
+  - Meadow.Hardware.IDigitalOutputPort
+  - Meadow.Hardware.IDigitalPort
+  - Meadow.Hardware.IPort
+  inheritedMembers:
+  - Meadow.Hardware.DigitalOutputPortBase._initialState
+  - Meadow.Hardware.DigitalPortBase.DirectionType
+  - Meadow.Hardware.DigitalPortBase._direction
+  - Meadow.Hardware.DigitalPortBase.SignalType
+  - Meadow.Hardware.DigitalPortBase._state
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._pin
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._pin
+  id: _pin
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: _pin
+  nameWithType: DigitalOutputPort._pin
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._pin
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _pin
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 9
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected readonly byte _pin
+    return:
+      type: System.Byte
+    content.vb: Protected ReadOnly _pin As Byte
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._mcp
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._mcp
+  id: _mcp
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: _mcp
+  nameWithType: DigitalOutputPort._mcp
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort._mcp
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _mcp
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 10
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected readonly MCP23008 _mcp
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+    content.vb: Protected ReadOnly _mcp As MCP23008
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+  commentId: P:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+  id: State
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: DigitalOutputPort.State
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: State
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 12
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public override bool State { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property State As Boolean
+  overridden: Meadow.Hardware.DigitalPortBase.State
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+  commentId: P:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+  id: InitialState
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: InitialState
+  nameWithType: DigitalOutputPort.InitialState
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InitialState
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 21
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public override bool InitialState { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property InitialState As Boolean
+  overridden: Meadow.Hardware.DigitalOutputPortBase.InitialState
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor
+  id: '#ctor'
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: DigitalOutputPort()
+  nameWithType: DigitalOutputPort.DigitalOutputPort()
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.DigitalOutputPort()
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/DigitalOutputPort.cs
+    startLine: 26
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected DigitalOutputPort()
+    content.vb: Protected Sub New
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.DigitalPortBase
+  commentId: T:Meadow.Hardware.DigitalPortBase
+  parent: Meadow.Hardware
+  name: DigitalPortBase
+  nameWithType: DigitalPortBase
+  fullName: Meadow.Hardware.DigitalPortBase
+- uid: Meadow.Hardware.DigitalOutputPortBase
+  commentId: T:Meadow.Hardware.DigitalOutputPortBase
+  parent: Meadow.Hardware
+  name: DigitalOutputPortBase
+  nameWithType: DigitalOutputPortBase
+  fullName: Meadow.Hardware.DigitalOutputPortBase
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware.IDigitalPort
+  commentId: T:Meadow.Hardware.IDigitalPort
+  parent: Meadow.Hardware
+  name: IDigitalPort
+  nameWithType: IDigitalPort
+  fullName: Meadow.Hardware.IDigitalPort
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort
+- uid: Meadow.Hardware.DigitalOutputPortBase._initialState
+  commentId: F:Meadow.Hardware.DigitalOutputPortBase._initialState
+  parent: Meadow.Hardware.DigitalOutputPortBase
+  name: _initialState
+  nameWithType: DigitalOutputPortBase._initialState
+  fullName: Meadow.Hardware.DigitalOutputPortBase._initialState
+- uid: Meadow.Hardware.DigitalPortBase.DirectionType
+  commentId: P:Meadow.Hardware.DigitalPortBase.DirectionType
+  parent: Meadow.Hardware.DigitalPortBase
+  name: DirectionType
+  nameWithType: DigitalPortBase.DirectionType
+  fullName: Meadow.Hardware.DigitalPortBase.DirectionType
+- uid: Meadow.Hardware.DigitalPortBase._direction
+  commentId: F:Meadow.Hardware.DigitalPortBase._direction
+  parent: Meadow.Hardware.DigitalPortBase
+  name: _direction
+  nameWithType: DigitalPortBase._direction
+  fullName: Meadow.Hardware.DigitalPortBase._direction
+- uid: Meadow.Hardware.DigitalPortBase.SignalType
+  commentId: P:Meadow.Hardware.DigitalPortBase.SignalType
+  parent: Meadow.Hardware.DigitalPortBase
+  name: SignalType
+  nameWithType: DigitalPortBase.SignalType
+  fullName: Meadow.Hardware.DigitalPortBase.SignalType
+- uid: Meadow.Hardware.DigitalPortBase._state
+  commentId: F:Meadow.Hardware.DigitalPortBase._state
+  parent: Meadow.Hardware.DigitalPortBase
+  name: _state
+  nameWithType: DigitalPortBase._state
+  fullName: Meadow.Hardware.DigitalPortBase._state
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: MCP23008
+  nameWithType: MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+- uid: Meadow.Hardware.DigitalPortBase.State
+  commentId: P:Meadow.Hardware.DigitalPortBase.State
+  parent: Meadow.Hardware.DigitalPortBase
+  name: State
+  nameWithType: DigitalPortBase.State
+  fullName: Meadow.Hardware.DigitalPortBase.State
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+  name: State
+  nameWithType: DigitalOutputPort.State
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.State
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Hardware.DigitalOutputPortBase.InitialState
+  commentId: P:Meadow.Hardware.DigitalOutputPortBase.InitialState
+  parent: Meadow.Hardware.DigitalOutputPortBase
+  name: InitialState
+  nameWithType: DigitalOutputPortBase.InitialState
+  fullName: Meadow.Hardware.DigitalOutputPortBase.InitialState
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+  name: InitialState
+  nameWithType: DigitalOutputPort.InitialState
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.InitialState
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.#ctor
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort.DigitalOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort.DigitalOutputPort

@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  id: AnalogTemperature.KnownSensorType
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.Custom
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM35
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM45
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM50
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP35
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP36
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP37
+  langs:
+  - csharp
+  - vb
+  name: AnalogTemperature.KnownSensorType
+  nameWithType: AnalogTemperature.KnownSensorType
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  type: Enum
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: KnownSensorType
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 99
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nType of temperature sensor.\n"
+  example: []
+  syntax:
+    content: 'public enum KnownSensorType : int'
+    content.vb: Public Enum KnownSensorType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.Custom
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.Custom
+  id: Custom
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: AnalogTemperature.KnownSensorType.Custom
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.Custom
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Custom
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 101
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: Custom = 0
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP35
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP35
+  id: TMP35
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: TMP35
+  nameWithType: AnalogTemperature.KnownSensorType.TMP35
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP35
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TMP35
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 102
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: TMP35 = 1
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP36
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP36
+  id: TMP36
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: TMP36
+  nameWithType: AnalogTemperature.KnownSensorType.TMP36
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP36
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TMP36
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 103
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: TMP36 = 2
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP37
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP37
+  id: TMP37
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: TMP37
+  nameWithType: AnalogTemperature.KnownSensorType.TMP37
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.TMP37
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TMP37
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 104
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: TMP37 = 3
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM35
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM35
+  id: LM35
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: LM35
+  nameWithType: AnalogTemperature.KnownSensorType.LM35
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM35
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LM35
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 105
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: LM35 = 4
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM45
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM45
+  id: LM45
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: LM45
+  nameWithType: AnalogTemperature.KnownSensorType.LM45
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM45
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LM45
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 106
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: LM45 = 5
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM50
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM50
+  id: LM50
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  langs:
+  - csharp
+  - vb
+  name: LM50
+  nameWithType: AnalogTemperature.KnownSensorType.LM50
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType.LM50
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LM50
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 107
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  syntax:
+    content: LM50 = 6
+    return:
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: AnalogTemperature.KnownSensorType
+  nameWithType: AnalogTemperature.KnownSensorType
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType

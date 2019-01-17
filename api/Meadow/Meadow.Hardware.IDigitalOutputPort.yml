@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  id: IDigitalOutputPort
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.IDigitalOutputPort.InitialState
+  langs:
+  - csharp
+  - vb
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IDigitalOutputPort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public interface IDigitalOutputPort : IDigitalPort, IPort'
+    content.vb: >-
+      Public Interface IDigitalOutputPort
+
+          Inherits IDigitalPort
+  inheritedMembers:
+  - Meadow.Hardware.IDigitalPort.State
+  - Meadow.Hardware.IPort.DirectionType
+  - Meadow.Hardware.IPort.SignalType
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Hardware.IDigitalOutputPort.InitialState
+  commentId: P:Meadow.Hardware.IDigitalOutputPort.InitialState
+  id: InitialState
+  parent: Meadow.Hardware.IDigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: InitialState
+  nameWithType: IDigitalOutputPort.InitialState
+  fullName: Meadow.Hardware.IDigitalOutputPort.InitialState
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: InitialState
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  summary: "\nGets the port’s initial state, either low (false), or high (true), as typically configured during the port’s constructor.\n"
+  example: []
+  syntax:
+    content: bool InitialState { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property InitialState As Boolean
+  overload: Meadow.Hardware.IDigitalOutputPort.InitialState*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IDigitalPort.State
+  commentId: P:Meadow.Hardware.IDigitalPort.State
+  parent: Meadow.Hardware.IDigitalPort
+  name: State
+  nameWithType: IDigitalPort.State
+  fullName: Meadow.Hardware.IDigitalPort.State
+- uid: Meadow.Hardware.IPort.DirectionType
+  commentId: P:Meadow.Hardware.IPort.DirectionType
+  parent: Meadow.Hardware.IPort
+  name: DirectionType
+  nameWithType: IPort.DirectionType
+  fullName: Meadow.Hardware.IPort.DirectionType
+- uid: Meadow.Hardware.IPort.SignalType
+  commentId: P:Meadow.Hardware.IPort.SignalType
+  parent: Meadow.Hardware.IPort
+  name: SignalType
+  nameWithType: IPort.SignalType
+  fullName: Meadow.Hardware.IPort.SignalType
+- uid: Meadow.Hardware.IDigitalPort
+  commentId: T:Meadow.Hardware.IDigitalPort
+  parent: Meadow.Hardware
+  name: IDigitalPort
+  nameWithType: IDigitalPort
+  fullName: Meadow.Hardware.IDigitalPort
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort
+- uid: Meadow.Hardware.IDigitalOutputPort.InitialState*
+  commentId: Overload:Meadow.Hardware.IDigitalOutputPort.InitialState
+  name: InitialState
+  nameWithType: IDigitalOutputPort.InitialState
+  fullName: Meadow.Hardware.IDigitalOutputPort.InitialState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

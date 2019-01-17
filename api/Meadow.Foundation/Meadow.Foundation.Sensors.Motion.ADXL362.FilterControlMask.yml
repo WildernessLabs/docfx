@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  id: ADXL362.FilterControlMask
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate100Hz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate12HalfHz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate200Hz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate25Hz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate400Hz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate50Hz
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.ExternalSampling
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.HalfBandwidth
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range2g
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range4g
+  - Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range8g
+  langs:
+  - csharp
+  - vb
+  name: ADXL362.FilterControlMask
+  nameWithType: ADXL362.FilterControlMask
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FilterControlMask
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 312
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMasks for the bit in the filter control register.\n"
+  example: []
+  syntax:
+    content: 'public static class FilterControlMask : object'
+    content.vb: >-
+      Public Module FilterControlMask
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate12HalfHz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate12HalfHz
+  id: DataRate12HalfHz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate12HalfHz
+  nameWithType: ADXL362.FilterControlMask.DataRate12HalfHz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate12HalfHz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate12HalfHz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 317
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate of 12.5Hz\n"
+  example: []
+  syntax:
+    content: public const byte DataRate12HalfHz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate12HalfHz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate25Hz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate25Hz
+  id: DataRate25Hz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate25Hz
+  nameWithType: ADXL362.FilterControlMask.DataRate25Hz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate25Hz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate25Hz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 322
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate of 25 Hz\n"
+  example: []
+  syntax:
+    content: public const byte DataRate25Hz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate25Hz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate50Hz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate50Hz
+  id: DataRate50Hz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate50Hz
+  nameWithType: ADXL362.FilterControlMask.DataRate50Hz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate50Hz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate50Hz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 327
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate of 50 Hz.\n"
+  example: []
+  syntax:
+    content: public const byte DataRate50Hz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate50Hz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate100Hz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate100Hz
+  id: DataRate100Hz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate100Hz
+  nameWithType: ADXL362.FilterControlMask.DataRate100Hz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate100Hz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate100Hz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 332
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate 100 Hz.\n"
+  example: []
+  syntax:
+    content: public const byte DataRate100Hz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate100Hz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate200Hz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate200Hz
+  id: DataRate200Hz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate200Hz
+  nameWithType: ADXL362.FilterControlMask.DataRate200Hz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate200Hz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate200Hz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 337
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate of 200 Hz.\n"
+  example: []
+  syntax:
+    content: public const byte DataRate200Hz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate200Hz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate400Hz
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate400Hz
+  id: DataRate400Hz
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: DataRate400Hz
+  nameWithType: ADXL362.FilterControlMask.DataRate400Hz
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.DataRate400Hz
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DataRate400Hz
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 342
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nData rate of 400 Hz\n"
+  example: []
+  syntax:
+    content: public const byte DataRate400Hz = null
+    return:
+      type: System.Byte
+    content.vb: Public Const DataRate400Hz As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.ExternalSampling
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.ExternalSampling
+  id: ExternalSampling
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: ExternalSampling
+  nameWithType: ADXL362.FilterControlMask.ExternalSampling
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.ExternalSampling
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ExternalSampling
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 350
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nEnable the external sampling trigger.\n"
+  remarks: "\nSetting this bit to 1 enables the sampling to be controlled by the INT2 pin.\n"
+  example: []
+  syntax:
+    content: public const byte ExternalSampling = null
+    return:
+      type: System.Byte
+    content.vb: Public Const ExternalSampling As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.HalfBandwidth
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.HalfBandwidth
+  id: HalfBandwidth
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: HalfBandwidth
+  nameWithType: ADXL362.FilterControlMask.HalfBandwidth
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.HalfBandwidth
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HalfBandwidth
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 359
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nHalf or quarter bandwidth.\n"
+  remarks: "\nSetting this bit to 1 changes the anti-aliasing filters from 1/2 the output\ndata rate to 1/4 the output data rate.\n"
+  example: []
+  syntax:
+    content: public const byte HalfBandwidth = null
+    return:
+      type: System.Byte
+    content.vb: Public Const HalfBandwidth As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range2g
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range2g
+  id: Range2g
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: Range2g
+  nameWithType: ADXL362.FilterControlMask.Range2g
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range2g
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Range2g
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 364
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the range to +/- 2g.\n"
+  example: []
+  syntax:
+    content: public const byte Range2g = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Range2g As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range4g
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range4g
+  id: Range4g
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: Range4g
+  nameWithType: ADXL362.FilterControlMask.Range4g
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range4g
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Range4g
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 369
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the range to +/- 4g\n"
+  example: []
+  syntax:
+    content: public const byte Range4g = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Range4g As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range8g
+  commentId: F:Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range8g
+  id: Range8g
+  parent: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask
+  langs:
+  - csharp
+  - vb
+  name: Range8g
+  nameWithType: ADXL362.FilterControlMask.Range8g
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL362.FilterControlMask.Range8g
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Range8g
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.ADXL362/ADXL362.cs
+    startLine: 374
+  assemblies:
+  - Sensors.Motion.ADXL362
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSet the range to +/- 8g\n"
+  example: []
+  syntax:
+    content: public const byte Range8g = null
+    return:
+      type: System.Byte
+    content.vb: Public Const Range8g As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

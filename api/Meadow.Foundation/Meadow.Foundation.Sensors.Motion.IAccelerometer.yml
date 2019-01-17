@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer
+  commentId: T:Meadow.Foundation.Sensors.Motion.IAccelerometer
+  id: IAccelerometer
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+  - Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+  - Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration
+  langs:
+  - csharp
+  - vb
+  name: IAccelerometer
+  nameWithType: IAccelerometer
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IAccelerometer
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: public interface IAccelerometer
+    content.vb: Public Interface IAccelerometer
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+  commentId: P:Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+  id: XAcceleration
+  parent: Meadow.Foundation.Sensors.Motion.IAccelerometer
+  langs:
+  - csharp
+  - vb
+  name: XAcceleration
+  nameWithType: IAccelerometer.XAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XAcceleration
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: float XAcceleration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property XAcceleration As Single
+  overload: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+  commentId: P:Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+  id: YAcceleration
+  parent: Meadow.Foundation.Sensors.Motion.IAccelerometer
+  langs:
+  - csharp
+  - vb
+  name: YAcceleration
+  nameWithType: IAccelerometer.YAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: YAcceleration
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: float YAcceleration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property YAcceleration As Single
+  overload: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration
+  commentId: P:Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration
+  id: ZAcceleration
+  parent: Meadow.Foundation.Sensors.Motion.IAccelerometer
+  langs:
+  - csharp
+  - vb
+  name: ZAcceleration
+  nameWithType: IAccelerometer.ZAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ZAcceleration
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Motion/IAccelerometer.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: float ZAcceleration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: ReadOnly Property ZAcceleration As Single
+  overload: Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+  name: XAcceleration
+  nameWithType: IAccelerometer.XAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.XAcceleration
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+  name: YAcceleration
+  nameWithType: IAccelerometer.YAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.YAcceleration
+- uid: Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration*
+  commentId: Overload:Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration
+  name: ZAcceleration
+  nameWithType: IAccelerometer.ZAcceleration
+  fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer.ZAcceleration

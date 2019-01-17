@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Buttons.IButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.IButton
+  id: IButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  children:
+  - Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  - Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  - Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  - Meadow.Foundation.Sensors.Buttons.IButton.State
+  langs:
+  - csharp
+  - vb
+  name: IButton
+  nameWithType: IButton
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IButton
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Buttons
+  syntax:
+    content: public interface IButton
+    content.vb: Public Interface IButton
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  id: PressStarted
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  langs:
+  - csharp
+  - vb
+  name: PressStarted
+  nameWithType: IButton.PressStarted
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PressStarted
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Buttons
+  syntax:
+    content: event EventHandler PressStarted
+    return:
+      type: EventHandler
+    content.vb: Event PressStarted As EventHandler
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  id: PressEnded
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  langs:
+  - csharp
+  - vb
+  name: PressEnded
+  nameWithType: IButton.PressEnded
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PressEnded
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Buttons
+  syntax:
+    content: event EventHandler PressEnded
+    return:
+      type: EventHandler
+    content.vb: Event PressEnded As EventHandler
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  id: Clicked
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  langs:
+  - csharp
+  - vb
+  name: Clicked
+  nameWithType: IButton.Clicked
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clicked
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Buttons
+  syntax:
+    content: event EventHandler Clicked
+    return:
+      type: EventHandler
+    content.vb: Event Clicked As EventHandler
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.State
+  commentId: P:Meadow.Foundation.Sensors.Buttons.IButton.State
+  id: State
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: IButton.State
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.State
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: State
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Buttons/IButton.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Buttons
+  summary: "\nReturns the current raw state of the switch. If the switch \nis pressed (connected), returns true, otherwise false.\n"
+  example: []
+  syntax:
+    content: bool State { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property State As Boolean
+  overload: Meadow.Foundation.Sensors.Buttons.IButton.State*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Buttons
+  commentId: N:Meadow.Foundation.Sensors.Buttons
+  name: Meadow.Foundation.Sensors.Buttons
+  nameWithType: Meadow.Foundation.Sensors.Buttons
+  fullName: Meadow.Foundation.Sensors.Buttons
+- uid: EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.State*
+  commentId: Overload:Meadow.Foundation.Sensors.Buttons.IButton.State
+  name: State
+  nameWithType: IButton.State
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.State
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

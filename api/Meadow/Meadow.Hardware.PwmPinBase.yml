@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.PwmPinBase
+  commentId: T:Meadow.Hardware.PwmPinBase
+  id: PwmPinBase
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.PwmPinBase.#ctor(System.String,System.UInt32,System.Double,System.Double)
+  - Meadow.Hardware.PwmPinBase.MaximumFrequency
+  - Meadow.Hardware.PwmPinBase.MinimumFrequency
+  langs:
+  - csharp
+  - vb
+  name: PwmPinBase
+  nameWithType: PwmPinBase
+  fullName: Meadow.Hardware.PwmPinBase
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PwmPinBase
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public abstract class PwmPinBase : DigitalPinBase, IDigitalChannel, IPwmPin, IPin, IPwmChannel'
+    content.vb: >-
+      Public MustInherit Class PwmPinBase
+
+          Inherits DigitalPinBase
+
+          Implements IDigitalChannel, IPwmPin, IPin, IPwmChannel
+  inheritance:
+  - System.Object
+  - Meadow.Hardware.PinBase
+  - Meadow.Hardware.DigitalPinBase
+  derivedClasses:
+  - Meadow.Hardware.PwmPin
+  implements:
+  - Meadow.Hardware.IDigitalChannel
+  - Meadow.Hardware.IPwmPin
+  - Meadow.Hardware.IPin
+  - Meadow.Hardware.IPwmChannel
+  inheritedMembers:
+  - Meadow.Hardware.DigitalPinBase._interruptCapable
+  - Meadow.Hardware.DigitalPinBase.InterrruptCapable
+  - Meadow.Hardware.DigitalPinBase._pullDownCapable
+  - Meadow.Hardware.DigitalPinBase.PullDownCapable
+  - Meadow.Hardware.DigitalPinBase._pullUpCapable
+  - Meadow.Hardware.DigitalPinBase.PullUpCapable
+  - Meadow.Hardware.PinBase.Name
+  - Meadow.Hardware.PinBase.Address
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Meadow.Hardware.PwmPinBase.MinimumFrequency
+  commentId: P:Meadow.Hardware.PwmPinBase.MinimumFrequency
+  id: MinimumFrequency
+  parent: Meadow.Hardware.PwmPinBase
+  langs:
+  - csharp
+  - vb
+  name: MinimumFrequency
+  nameWithType: PwmPinBase.MinimumFrequency
+  fullName: Meadow.Hardware.PwmPinBase.MinimumFrequency
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: MinimumFrequency
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public double MinimumFrequency { get; protected set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property MinimumFrequency As Double
+  overload: Meadow.Hardware.PwmPinBase.MinimumFrequency*
+  implements:
+  - Meadow.Hardware.IPwmChannel.MinimumFrequency
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Hardware.PwmPinBase.MaximumFrequency
+  commentId: P:Meadow.Hardware.PwmPinBase.MaximumFrequency
+  id: MaximumFrequency
+  parent: Meadow.Hardware.PwmPinBase
+  langs:
+  - csharp
+  - vb
+  name: MaximumFrequency
+  nameWithType: PwmPinBase.MaximumFrequency
+  fullName: Meadow.Hardware.PwmPinBase.MaximumFrequency
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: MaximumFrequency
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public double MaximumFrequency { get; protected set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property MaximumFrequency As Double
+  overload: Meadow.Hardware.PwmPinBase.MaximumFrequency*
+  implements:
+  - Meadow.Hardware.IPwmChannel.MaximumFrequency
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Hardware.PwmPinBase.#ctor(System.String,System.UInt32,System.Double,System.Double)
+  commentId: M:Meadow.Hardware.PwmPinBase.#ctor(System.String,System.UInt32,System.Double,System.Double)
+  id: '#ctor(System.String,System.UInt32,System.Double,System.Double)'
+  parent: Meadow.Hardware.PwmPinBase
+  langs:
+  - csharp
+  - vb
+  name: PwmPinBase(String, UInt32, Double, Double)
+  nameWithType: PwmPinBase.PwmPinBase(String, UInt32, Double, Double)
+  fullName: Meadow.Hardware.PwmPinBase.PwmPinBase(System.String, System.UInt32, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: protected PwmPinBase(string name, uint address, double minimumFrequency, double maximumFrequency)
+    parameters:
+    - id: name
+      type: System.String
+    - id: address
+      type: System.UInt32
+    - id: minimumFrequency
+      type: System.Double
+    - id: maximumFrequency
+      type: System.Double
+    content.vb: Protected Sub New(name As String, address As UInteger, minimumFrequency As Double, maximumFrequency As Double)
+  overload: Meadow.Hardware.PwmPinBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.PinBase
+  commentId: T:Meadow.Hardware.PinBase
+  parent: Meadow.Hardware
+  name: PinBase
+  nameWithType: PinBase
+  fullName: Meadow.Hardware.PinBase
+- uid: Meadow.Hardware.DigitalPinBase
+  commentId: T:Meadow.Hardware.DigitalPinBase
+  parent: Meadow.Hardware
+  name: DigitalPinBase
+  nameWithType: DigitalPinBase
+  fullName: Meadow.Hardware.DigitalPinBase
+- uid: Meadow.Hardware.IDigitalChannel
+  commentId: T:Meadow.Hardware.IDigitalChannel
+  parent: Meadow.Hardware
+  name: IDigitalChannel
+  nameWithType: IDigitalChannel
+  fullName: Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.IPwmPin
+  commentId: T:Meadow.Hardware.IPwmPin
+  parent: Meadow.Hardware
+  name: IPwmPin
+  nameWithType: IPwmPin
+  fullName: Meadow.Hardware.IPwmPin
+- uid: Meadow.Hardware.IPin
+  commentId: T:Meadow.Hardware.IPin
+  parent: Meadow.Hardware
+  name: IPin
+  nameWithType: IPin
+  fullName: Meadow.Hardware.IPin
+- uid: Meadow.Hardware.IPwmChannel
+  commentId: T:Meadow.Hardware.IPwmChannel
+  parent: Meadow.Hardware
+  name: IPwmChannel
+  nameWithType: IPwmChannel
+  fullName: Meadow.Hardware.IPwmChannel
+- uid: Meadow.Hardware.DigitalPinBase._interruptCapable
+  commentId: F:Meadow.Hardware.DigitalPinBase._interruptCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: _interruptCapable
+  nameWithType: DigitalPinBase._interruptCapable
+  fullName: Meadow.Hardware.DigitalPinBase._interruptCapable
+- uid: Meadow.Hardware.DigitalPinBase.InterrruptCapable
+  commentId: P:Meadow.Hardware.DigitalPinBase.InterrruptCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: InterrruptCapable
+  nameWithType: DigitalPinBase.InterrruptCapable
+  fullName: Meadow.Hardware.DigitalPinBase.InterrruptCapable
+- uid: Meadow.Hardware.DigitalPinBase._pullDownCapable
+  commentId: F:Meadow.Hardware.DigitalPinBase._pullDownCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: _pullDownCapable
+  nameWithType: DigitalPinBase._pullDownCapable
+  fullName: Meadow.Hardware.DigitalPinBase._pullDownCapable
+- uid: Meadow.Hardware.DigitalPinBase.PullDownCapable
+  commentId: P:Meadow.Hardware.DigitalPinBase.PullDownCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: PullDownCapable
+  nameWithType: DigitalPinBase.PullDownCapable
+  fullName: Meadow.Hardware.DigitalPinBase.PullDownCapable
+- uid: Meadow.Hardware.DigitalPinBase._pullUpCapable
+  commentId: F:Meadow.Hardware.DigitalPinBase._pullUpCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: _pullUpCapable
+  nameWithType: DigitalPinBase._pullUpCapable
+  fullName: Meadow.Hardware.DigitalPinBase._pullUpCapable
+- uid: Meadow.Hardware.DigitalPinBase.PullUpCapable
+  commentId: P:Meadow.Hardware.DigitalPinBase.PullUpCapable
+  parent: Meadow.Hardware.DigitalPinBase
+  name: PullUpCapable
+  nameWithType: DigitalPinBase.PullUpCapable
+  fullName: Meadow.Hardware.DigitalPinBase.PullUpCapable
+- uid: Meadow.Hardware.PinBase.Name
+  commentId: P:Meadow.Hardware.PinBase.Name
+  parent: Meadow.Hardware.PinBase
+  name: Name
+  nameWithType: PinBase.Name
+  fullName: Meadow.Hardware.PinBase.Name
+- uid: Meadow.Hardware.PinBase.Address
+  commentId: P:Meadow.Hardware.PinBase.Address
+  parent: Meadow.Hardware.PinBase
+  name: Address
+  nameWithType: PinBase.Address
+  fullName: Meadow.Hardware.PinBase.Address
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.PwmPinBase.MinimumFrequency*
+  commentId: Overload:Meadow.Hardware.PwmPinBase.MinimumFrequency
+  name: MinimumFrequency
+  nameWithType: PwmPinBase.MinimumFrequency
+  fullName: Meadow.Hardware.PwmPinBase.MinimumFrequency
+- uid: Meadow.Hardware.IPwmChannel.MinimumFrequency
+  commentId: P:Meadow.Hardware.IPwmChannel.MinimumFrequency
+  parent: Meadow.Hardware.IPwmChannel
+  name: MinimumFrequency
+  nameWithType: IPwmChannel.MinimumFrequency
+  fullName: Meadow.Hardware.IPwmChannel.MinimumFrequency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Hardware.PwmPinBase.MaximumFrequency*
+  commentId: Overload:Meadow.Hardware.PwmPinBase.MaximumFrequency
+  name: MaximumFrequency
+  nameWithType: PwmPinBase.MaximumFrequency
+  fullName: Meadow.Hardware.PwmPinBase.MaximumFrequency
+- uid: Meadow.Hardware.IPwmChannel.MaximumFrequency
+  commentId: P:Meadow.Hardware.IPwmChannel.MaximumFrequency
+  parent: Meadow.Hardware.IPwmChannel
+  name: MaximumFrequency
+  nameWithType: IPwmChannel.MaximumFrequency
+  fullName: Meadow.Hardware.IPwmChannel.MaximumFrequency
+- uid: Meadow.Hardware.PwmPinBase.#ctor*
+  commentId: Overload:Meadow.Hardware.PwmPinBase.#ctor
+  name: PwmPinBase
+  nameWithType: PwmPinBase.PwmPinBase
+  fullName: Meadow.Hardware.PwmPinBase.PwmPinBase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32

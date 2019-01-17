@@ -1,0 +1,855 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.RTCs.DS323x
+  commentId: T:Meadow.Foundation.RTCs.DS323x
+  id: DS323x
+  parent: Meadow.Foundation.RTCs
+  children:
+  - Meadow.Foundation.RTCs.DS323x._ds323x
+  - Meadow.Foundation.RTCs.DS323x._interruptPort
+  - Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  - Meadow.Foundation.RTCs.DS323x.ControlRegister
+  - Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  - Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  - Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  - Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  - Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  - Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  - Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  - Meadow.Foundation.RTCs.DS323x.InterruptPin
+  - Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  - Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  - Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  - Meadow.Foundation.RTCs.DS323x.Temperature
+  - Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  langs:
+  - csharp
+  - vb
+  name: DS323x
+  nameWithType: DS323x
+  fullName: Meadow.Foundation.RTCs.DS323x
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DS323x
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 7
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: 'public class DS323x : object'
+    content.vb: >-
+      Public Class DS323x
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Meadow.Foundation.RTCs.DS3231
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.RTCs.DS323x._ds323x
+  commentId: F:Meadow.Foundation.RTCs.DS323x._ds323x
+  id: _ds323x
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: _ds323x
+  nameWithType: DS323x._ds323x
+  fullName: Meadow.Foundation.RTCs.DS323x._ds323x
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _ds323x
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 174
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nDS323x Real Time Clock object.\n"
+  example: []
+  syntax:
+    content: protected ICommunicationBus _ds323x
+    return:
+      type: Meadow.Hardware.Communications.ICommunicationBus
+    content.vb: Protected _ds323x As ICommunicationBus
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x._interruptPort
+  commentId: F:Meadow.Foundation.RTCs.DS323x._interruptPort
+  id: _interruptPort
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: _interruptPort
+  nameWithType: DS323x._interruptPort
+  fullName: Meadow.Foundation.RTCs.DS323x._interruptPort
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _interruptPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 179
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nInterrupt port attached to the DS323x RTC module.\n"
+  example: []
+  syntax:
+    content: protected DigitalInputPort _interruptPort
+    return:
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Protected _interruptPort As DigitalInputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  commentId: E:Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  id: OnAlarm1Raised
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: OnAlarm1Raised
+  nameWithType: DS323x.OnAlarm1Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.OnAlarm1Raised
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OnAlarm1Raised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 193
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nEvent raised when Alarm1 is triggered.\n"
+  example: []
+  syntax:
+    content: public event DS323x.AlarmRaised OnAlarm1Raised
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+    content.vb: Public Event OnAlarm1Raised As DS323x.AlarmRaised
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  commentId: E:Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  id: OnAlarm2Raised
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: OnAlarm2Raised
+  nameWithType: DS323x.OnAlarm2Raised
+  fullName: Meadow.Foundation.RTCs.DS323x.OnAlarm2Raised
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OnAlarm2Raised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 198
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nEvent raised when Alarm2 is triggered.\n"
+  example: []
+  syntax:
+    content: public event DS323x.AlarmRaised OnAlarm2Raised
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+    content.vb: Public Event OnAlarm2Raised As DS323x.AlarmRaised
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  commentId: P:Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  id: CurrentDateTime
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: CurrentDateTime
+  nameWithType: DS323x.CurrentDateTime
+  fullName: Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CurrentDateTime
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 207
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nGet / Set the current date and time.\n"
+  example: []
+  syntax:
+    content: public DateTime CurrentDateTime { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property CurrentDateTime As DateTime
+  overload: Meadow.Foundation.RTCs.DS323x.CurrentDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.Temperature
+  commentId: P:Meadow.Foundation.RTCs.DS323x.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: DS323x.Temperature
+  fullName: Meadow.Foundation.RTCs.DS323x.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 220
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nGet the current die temperature.\n"
+  example: []
+  syntax:
+    content: public double Temperature { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Temperature As Double
+  overload: Meadow.Foundation.RTCs.DS323x.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.ControlRegister
+  commentId: P:Meadow.Foundation.RTCs.DS323x.ControlRegister
+  id: ControlRegister
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: ControlRegister
+  nameWithType: DS323x.ControlRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlRegister
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ControlRegister
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 237
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nControl register.\n"
+  remarks: "\nControl register contains the following bit (in sequence b7 - b0):\nEOSC - BBSQW - CONV - RS1 - RS2 - INTCN - A2IE - A1IE\n"
+  example: []
+  syntax:
+    content: protected byte ControlRegister { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Protected Property ControlRegister As Byte
+  overload: Meadow.Foundation.RTCs.DS323x.ControlRegister*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  commentId: P:Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  id: ControlStatusRegister
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: ControlStatusRegister
+  nameWithType: DS323x.ControlStatusRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ControlStatusRegister
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 250
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nControl and status register.\n"
+  remarks: "\nControl and status register contains the following bit (in sequence b7 - b0):\nOSF - 0 - 0 - 0 - EN32KHZ - BSY - A2F - A1F\n"
+  example: []
+  syntax:
+    content: protected byte ControlStatusRegister { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Protected Property ControlStatusRegister As Byte
+  overload: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  commentId: P:Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  id: WhichAlarm
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: WhichAlarm
+  nameWithType: DS323x.WhichAlarm
+  fullName: Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WhichAlarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 259
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nDetermine which alarm has been raised.\n"
+  example: []
+  syntax:
+    content: protected DS323x.Alarm WhichAlarm { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+    content.vb: Protected ReadOnly Property WhichAlarm As DS323x.Alarm
+  overload: Meadow.Foundation.RTCs.DS323x.WhichAlarm*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Meadow.Foundation.RTCs.DS323x.InterruptPin
+  commentId: P:Meadow.Foundation.RTCs.DS323x.InterruptPin
+  id: InterruptPin
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: InterruptPin
+  nameWithType: DS323x.InterruptPin
+  fullName: Meadow.Foundation.RTCs.DS323x.InterruptPin
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InterruptPin
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 288
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  syntax:
+    content: protected IDigitalPin InterruptPin { set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Protected WriteOnly Property InterruptPin As IDigitalPin
+  overload: Meadow.Foundation.RTCs.DS323x.InterruptPin*
+  modifiers.csharp:
+  - protected
+  - set
+  modifiers.vb:
+  - Protected
+  - WriteOnly
+- uid: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  id: DecodeDateTimeRegisters(System.Byte[])
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: DecodeDateTimeRegisters(Byte[])
+  nameWithType: DS323x.DecodeDateTimeRegisters(Byte[])
+  fullName: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DecodeDateTimeRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 332
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nDecode the register contents and create a DateTime version of the\nregister contents.\n"
+  example: []
+  syntax:
+    content: protected DateTime DecodeDateTimeRegisters(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Register contents.
+    return:
+      type: DateTime
+      description: DateTime object version of the data.
+    content.vb: Protected Function DecodeDateTimeRegisters(data As Byte()) As DateTime
+  overload: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters*
+  nameWithType.vb: DS323x.DecodeDateTimeRegisters(Byte())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte())
+  name.vb: DecodeDateTimeRegisters(Byte())
+- uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  id: EncodeDateTimeRegisters(DateTime)
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: EncodeDateTimeRegisters(DateTime)
+  nameWithType: DS323x.EncodeDateTimeRegisters(DateTime)
+  fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EncodeDateTimeRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 365
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nEncode the a DateTime object into the format used by the DS323x chips.\n"
+  example: []
+  syntax:
+    content: protected byte[] EncodeDateTimeRegisters(DateTime dt)
+    parameters:
+    - id: dt
+      type: DateTime
+      description: DateTime object to encode.
+    return:
+      type: System.Byte[]
+      description: Bytes to send to the DS323x chip.
+    content.vb: Protected Function EncodeDateTimeRegisters(dt As DateTime) As Byte()
+  overload: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  id: DayOfWeekToByte(DayOfWeek)
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: DayOfWeekToByte(DayOfWeek)
+  nameWithType: DS323x.DayOfWeekToByte(DayOfWeek)
+  fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DayOfWeekToByte
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 392
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nConvert the day of the week to a byte.\n"
+  example: []
+  syntax:
+    content: protected byte DayOfWeekToByte(DayOfWeek day)
+    parameters:
+    - id: day
+      type: DayOfWeek
+      description: Day of the week
+    return:
+      type: System.Byte
+      description: Byte representation of the day of the week (Sunday = 1).
+    content.vb: Protected Function DayOfWeekToByte(day As DayOfWeek) As Byte
+  overload: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  id: SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
+  nameWithType: DS323x.SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
+  fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, DateTime, Meadow.Foundation.RTCs.DS323x.AlarmType)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetAlarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 428
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nSet one of the two alarms on the DS323x module.\n"
+  example: []
+  syntax:
+    content: public void SetAlarm(DS323x.Alarm alarm, DateTime time, DS323x.AlarmType type)
+    parameters:
+    - id: alarm
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+      description: Define the alarm to be set.
+    - id: time
+      type: DateTime
+      description: Date and time for the alarm.
+    - id: type
+      type: Meadow.Foundation.RTCs.DS323x.AlarmType
+      description: Type of alarm to set.
+    content.vb: Public Sub SetAlarm(alarm As DS323x.Alarm, time As DateTime, type As DS323x.AlarmType)
+  overload: Meadow.Foundation.RTCs.DS323x.SetAlarm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  id: EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: EnableDisableAlarm(DS323x.Alarm, Boolean)
+  nameWithType: DS323x.EnableDisableAlarm(DS323x.Alarm, Boolean)
+  fullName: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: EnableDisableAlarm
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 524
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nEnable or disable the specified alarm.\n"
+  example: []
+  syntax:
+    content: public void EnableDisableAlarm(DS323x.Alarm alarm, bool enable)
+    parameters:
+    - id: alarm
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+      description: Alarm to enable / disable.
+    - id: enable
+      type: System.Boolean
+      description: Alarm state, true = on, false = off.
+    content.vb: Public Sub EnableDisableAlarm(alarm As DS323x.Alarm, enable As Boolean)
+  overload: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  id: ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: ClearInterrupt(DS323x.Alarm)
+  nameWithType: DS323x.ClearInterrupt(DS323x.Alarm)
+  fullName: Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearInterrupt
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 556
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nClear the alarm interrupt flag for the specified alarm.\n"
+  example: []
+  syntax:
+    content: public void ClearInterrupt(DS323x.Alarm alarm)
+    parameters:
+    - id: alarm
+      type: Meadow.Foundation.RTCs.DS323x.Alarm
+      description: Alarm to clear.
+    content.vb: Public Sub ClearInterrupt(alarm As DS323x.Alarm)
+  overload: Meadow.Foundation.RTCs.DS323x.ClearInterrupt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  id: DisplayRegisters
+  parent: Meadow.Foundation.RTCs.DS323x
+  langs:
+  - csharp
+  - vb
+  name: DisplayRegisters()
+  nameWithType: DS323x.DisplayRegisters()
+  fullName: Meadow.Foundation.RTCs.DS323x.DisplayRegisters()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayRegisters
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/RTCs.DS323x/DS323x.cs
+    startLine: 578
+  assemblies:
+  - RTCs.DS323x
+  namespace: Meadow.Foundation.RTCs
+  summary: "\nDisplay the registers.\n"
+  example: []
+  syntax:
+    content: public void DisplayRegisters()
+    content.vb: Public Sub DisplayRegisters
+  overload: Meadow.Foundation.RTCs.DS323x.DisplayRegisters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.Communications.ICommunicationBus
+  commentId: T:Meadow.Hardware.Communications.ICommunicationBus
+  parent: Meadow.Hardware.Communications
+  name: ICommunicationBus
+  nameWithType: ICommunicationBus
+  fullName: Meadow.Hardware.Communications.ICommunicationBus
+- uid: Meadow.Hardware.Communications
+  commentId: N:Meadow.Hardware.Communications
+  name: Meadow.Hardware.Communications
+  nameWithType: Meadow.Hardware.Communications
+  fullName: Meadow.Hardware.Communications
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+  commentId: T:Meadow.Foundation.RTCs.DS323x.AlarmRaised
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.AlarmRaised
+  nameWithType: DS323x.AlarmRaised
+  fullName: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+- uid: Meadow.Foundation.RTCs.DS323x.CurrentDateTime*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+  name: CurrentDateTime
+  nameWithType: DS323x.CurrentDateTime
+  fullName: Meadow.Foundation.RTCs.DS323x.CurrentDateTime
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Meadow.Foundation.RTCs.DS323x.Temperature*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.Temperature
+  name: Temperature
+  nameWithType: DS323x.Temperature
+  fullName: Meadow.Foundation.RTCs.DS323x.Temperature
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Meadow.Foundation.RTCs.DS323x.ControlRegister*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.ControlRegister
+  name: ControlRegister
+  nameWithType: DS323x.ControlRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlRegister
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+  name: ControlStatusRegister
+  nameWithType: DS323x.ControlStatusRegister
+  fullName: Meadow.Foundation.RTCs.DS323x.ControlStatusRegister
+- uid: Meadow.Foundation.RTCs.DS323x.WhichAlarm*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.WhichAlarm
+  name: WhichAlarm
+  nameWithType: DS323x.WhichAlarm
+  fullName: Meadow.Foundation.RTCs.DS323x.WhichAlarm
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Alarm
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.Alarm
+  nameWithType: DS323x.Alarm
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+- uid: Meadow.Foundation.RTCs.DS323x.InterruptPin*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.InterruptPin
+  name: InterruptPin
+  nameWithType: DS323x.InterruptPin
+  fullName: Meadow.Foundation.RTCs.DS323x.InterruptPin
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters
+  name: DecodeDateTimeRegisters
+  nameWithType: DS323x.DecodeDateTimeRegisters
+  fullName: Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
+  name: EncodeDateTimeRegisters
+  nameWithType: DS323x.EncodeDateTimeRegisters
+  fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
+- uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
+  name: DayOfWeekToByte
+  nameWithType: DS323x.DayOfWeekToByte
+  fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
+- uid: DayOfWeek
+  commentId: '!:DayOfWeek'
+  isExternal: true
+  name: DayOfWeek
+  nameWithType: DayOfWeek
+  fullName: DayOfWeek
+- uid: Meadow.Foundation.RTCs.DS323x.SetAlarm*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.SetAlarm
+  name: SetAlarm
+  nameWithType: DS323x.SetAlarm
+  fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm
+- uid: Meadow.Foundation.RTCs.DS323x.AlarmType
+  commentId: T:Meadow.Foundation.RTCs.DS323x.AlarmType
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.AlarmType
+  nameWithType: DS323x.AlarmType
+  fullName: Meadow.Foundation.RTCs.DS323x.AlarmType
+- uid: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm
+  name: EnableDisableAlarm
+  nameWithType: DS323x.EnableDisableAlarm
+  fullName: Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.RTCs.DS323x.ClearInterrupt*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.ClearInterrupt
+  name: ClearInterrupt
+  nameWithType: DS323x.ClearInterrupt
+  fullName: Meadow.Foundation.RTCs.DS323x.ClearInterrupt
+- uid: Meadow.Foundation.RTCs.DS323x.DisplayRegisters*
+  commentId: Overload:Meadow.Foundation.RTCs.DS323x.DisplayRegisters
+  name: DisplayRegisters
+  nameWithType: DS323x.DisplayRegisters
+  fullName: Meadow.Foundation.RTCs.DS323x.DisplayRegisters

@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  id: RotaryEncoderWithButton
+  parent: Meadow.Foundation.Sensors.Rotary
+  children:
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.Int32)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked(System.Object,EventArgs)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded(System.Object,EventArgs)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted(System.Object,EventArgs)
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Clicked
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressEnded
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressStarted
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+  langs:
+  - csharp
+  - vb
+  name: RotaryEncoderWithButton
+  nameWithType: RotaryEncoderWithButton
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RotaryEncoderWithButton
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: 'public class RotaryEncoderWithButton : RotaryEncoder, IRotaryEncoderWithButton, IRotaryEncoder, IButton'
+    content.vb: >-
+      Public Class RotaryEncoderWithButton
+
+          Inherits RotaryEncoder
+
+          Implements IRotaryEncoderWithButton, IRotaryEncoder, IButton
+  inheritance:
+  - System.Object
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  implements:
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton
+  - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  - Meadow.Foundation.Sensors.Buttons.IButton
+  inheritedMembers:
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  - Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressStarted
+  commentId: E:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressStarted
+  id: PressStarted
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: PressStarted
+  nameWithType: RotaryEncoderWithButton.PressStarted
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressStarted
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PressStarted
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public event EventHandler PressStarted
+    return:
+      type: EventHandler
+    content.vb: Public Event PressStarted As EventHandler
+  implements:
+  - Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressEnded
+  commentId: E:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressEnded
+  id: PressEnded
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: PressEnded
+  nameWithType: RotaryEncoderWithButton.PressEnded
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.PressEnded
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PressEnded
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public event EventHandler PressEnded
+    return:
+      type: EventHandler
+    content.vb: Public Event PressEnded As EventHandler
+  implements:
+  - Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Clicked
+  commentId: E:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Clicked
+  id: Clicked
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: Clicked
+  nameWithType: RotaryEncoderWithButton.Clicked
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Clicked
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clicked
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public event EventHandler Clicked
+    return:
+      type: EventHandler
+    content.vb: Public Event Clicked As EventHandler
+  implements:
+  - Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+  id: State
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: RotaryEncoderWithButton.State
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: State
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public bool State { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property State As Boolean
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State*
+  implements:
+  - Meadow.Foundation.Sensors.Buttons.IButton.State
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+  id: Button
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: RotaryEncoderWithButton.Button
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Button
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public PushButton Button { get; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Sensors.Buttons.PushButton
+    content.vb: Public ReadOnly Property Button As PushButton
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.Int32)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.Int32)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Foundation.CircuitTerminationType,System.Int32)'
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: RotaryEncoderWithButton(IDigitalPin, IDigitalPin, IDigitalPin, CircuitTerminationType, Int32)
+  nameWithType: RotaryEncoderWithButton.RotaryEncoderWithButton(IDigitalPin, IDigitalPin, IDigitalPin, CircuitTerminationType, Int32)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.RotaryEncoderWithButton(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Foundation.CircuitTerminationType, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 18
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: public RotaryEncoderWithButton(IDigitalPin aPhasePin, IDigitalPin bPhasePin, IDigitalPin buttonPin, CircuitTerminationType buttonCircuitTerminationType, int debounceDuration = 20)
+    parameters:
+    - id: aPhasePin
+      type: Meadow.Hardware.IDigitalPin
+    - id: bPhasePin
+      type: Meadow.Hardware.IDigitalPin
+    - id: buttonPin
+      type: Meadow.Hardware.IDigitalPin
+    - id: buttonCircuitTerminationType
+      type: Meadow.Foundation.CircuitTerminationType
+    - id: debounceDuration
+      type: System.Int32
+    content.vb: Public Sub New(aPhasePin As IDigitalPin, bPhasePin As IDigitalPin, buttonPin As IDigitalPin, buttonCircuitTerminationType As CircuitTerminationType, debounceDuration As Integer = 20)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded(System.Object,EventArgs)
+  id: Button_PressEnded(System.Object,EventArgs)
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: Button_PressEnded(Object, EventArgs)
+  nameWithType: RotaryEncoderWithButton.Button_PressEnded(Object, EventArgs)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Button_PressEnded
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 29
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected void Button_PressEnded(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Sub Button_PressEnded(sender As Object, e As EventArgs)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted(System.Object,EventArgs)
+  id: Button_PressStarted(System.Object,EventArgs)
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: Button_PressStarted(Object, EventArgs)
+  nameWithType: RotaryEncoderWithButton.Button_PressStarted(Object, EventArgs)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Button_PressStarted
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 34
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected void Button_PressStarted(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Sub Button_PressStarted(sender As Object, e As EventArgs)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked(System.Object,EventArgs)
+  id: Button_Clicked(System.Object,EventArgs)
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton
+  langs:
+  - csharp
+  - vb
+  name: Button_Clicked(Object, EventArgs)
+  nameWithType: RotaryEncoderWithButton.Button_Clicked(Object, EventArgs)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked(System.Object, EventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Button_Clicked
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Rotary/RotaryEncoderWithButton.cs
+    startLine: 39
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Rotary
+  syntax:
+    content: protected void Button_Clicked(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: EventArgs
+    content.vb: Protected Sub Button_Clicked(sender As Object, e As EventArgs)
+  overload: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: RotaryEncoder
+  nameWithType: RotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton
+  commentId: T:Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: IRotaryEncoderWithButton
+  nameWithType: IRotaryEncoderWithButton
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoderWithButton
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: IRotaryEncoder
+  nameWithType: IRotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+- uid: Meadow.Foundation.Sensors.Buttons.IButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.IButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  name: IButton
+  nameWithType: IButton
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  commentId: E:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: Rotated
+  nameWithType: RotaryEncoder.Rotated
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.Rotated
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: APhasePin
+  nameWithType: RotaryEncoder.APhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.APhasePin
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  commentId: P:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: BPhasePin
+  nameWithType: RotaryEncoder.BPhasePin
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.BPhasePin
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  commentId: F:Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: _processing
+  nameWithType: RotaryEncoder._processing
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._processing
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  commentId: F:Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: _results
+  nameWithType: RotaryEncoder._results
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder._results
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: ProcessRotationResults()
+  nameWithType: RotaryEncoder.ProcessRotationResults()
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults()
+  spec.csharp:
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+    name: ProcessRotationResults
+    nameWithType: RotaryEncoder.ProcessRotationResults
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+    name: ProcessRotationResults
+    nameWithType: RotaryEncoder.ProcessRotationResults
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.ProcessRotationResults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  commentId: M:Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  parent: Meadow.Foundation.Sensors.Rotary.RotaryEncoder
+  name: OnRaiseRotationEvent(RotationDirection)
+  nameWithType: RotaryEncoder.OnRaiseRotationEvent(RotationDirection)
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+  spec.csharp:
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+    name: OnRaiseRotationEvent
+    nameWithType: RotaryEncoder.OnRaiseRotationEvent
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Sensors.Rotary.RotationDirection
+    name: RotationDirection
+    nameWithType: RotationDirection
+    fullName: Meadow.Foundation.Sensors.Rotary.RotationDirection
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent(Meadow.Foundation.Sensors.Rotary.RotationDirection)
+    name: OnRaiseRotationEvent
+    nameWithType: RotaryEncoder.OnRaiseRotationEvent
+    fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoder.OnRaiseRotationEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Meadow.Foundation.Sensors.Rotary.RotationDirection
+    name: RotationDirection
+    nameWithType: RotationDirection
+    fullName: Meadow.Foundation.Sensors.Rotary.RotationDirection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Sensors.Buttons
+  commentId: N:Meadow.Foundation.Sensors.Buttons
+  name: Meadow.Foundation.Sensors.Buttons
+  nameWithType: Meadow.Foundation.Sensors.Buttons
+  fullName: Meadow.Foundation.Sensors.Buttons
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  name: PressStarted
+  nameWithType: IButton.PressStarted
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.PressStarted
+- uid: EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  name: PressEnded
+  nameWithType: IButton.PressEnded
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.PressEnded
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  commentId: E:Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  name: Clicked
+  nameWithType: IButton.Clicked
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.Clicked
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+  name: State
+  nameWithType: RotaryEncoderWithButton.State
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.State
+- uid: Meadow.Foundation.Sensors.Buttons.IButton.State
+  commentId: P:Meadow.Foundation.Sensors.Buttons.IButton.State
+  parent: Meadow.Foundation.Sensors.Buttons.IButton
+  name: State
+  nameWithType: IButton.State
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton.State
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+  name: Button
+  nameWithType: RotaryEncoderWithButton.Button
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button
+- uid: Meadow.Foundation.Sensors.Buttons.PushButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.PushButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  name: PushButton
+  nameWithType: PushButton
+  fullName: Meadow.Foundation.Sensors.Buttons.PushButton
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.#ctor
+  name: RotaryEncoderWithButton
+  nameWithType: RotaryEncoderWithButton.RotaryEncoderWithButton
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.RotaryEncoderWithButton
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Foundation.CircuitTerminationType
+  commentId: T:Meadow.Foundation.CircuitTerminationType
+  parent: Meadow.Foundation
+  name: CircuitTerminationType
+  nameWithType: CircuitTerminationType
+  fullName: Meadow.Foundation.CircuitTerminationType
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation
+  commentId: N:Meadow.Foundation
+  name: Meadow.Foundation
+  nameWithType: Meadow.Foundation
+  fullName: Meadow.Foundation
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded
+  name: Button_PressEnded
+  nameWithType: RotaryEncoderWithButton.Button_PressEnded
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressEnded
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted
+  name: Button_PressStarted
+  nameWithType: RotaryEncoderWithButton.Button_PressStarted
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_PressStarted
+- uid: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked*
+  commentId: Overload:Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked
+  name: Button_Clicked
+  nameWithType: RotaryEncoderWithButton.Button_Clicked
+  fullName: Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton.Button_Clicked

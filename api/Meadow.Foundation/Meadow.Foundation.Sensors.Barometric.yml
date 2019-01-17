@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Barometric
+  commentId: N:Meadow.Foundation.Sensors.Barometric
+  id: Meadow.Foundation.Sensors.Barometric
+  children:
+  - Meadow.Foundation.Sensors.Barometric.MPL115A2
+  - Meadow.Foundation.Sensors.Barometric.MPL3115A2
+  - Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Sensors.Barometric
+  nameWithType: Meadow.Foundation.Sensors.Barometric
+  fullName: Meadow.Foundation.Sensors.Barometric
+  type: Namespace
+  assemblies:
+  - Sensors.Barometric.MPL3115A2
+references:
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2
+  commentId: T:Meadow.Foundation.Sensors.Barometric.MPL3115A2
+  name: MPL3115A2
+  nameWithType: MPL3115A2
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2
+- uid: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  commentId: T:Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+  name: MPL3115A2.ConfigurationRegisterBits
+  nameWithType: MPL3115A2.ConfigurationRegisterBits
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL3115A2.ConfigurationRegisterBits
+- uid: Meadow.Foundation.Sensors.Barometric.MPL115A2
+  commentId: T:Meadow.Foundation.Sensors.Barometric.MPL115A2
+  name: MPL115A2
+  nameWithType: MPL115A2
+  fullName: Meadow.Foundation.Sensors.Barometric.MPL115A2

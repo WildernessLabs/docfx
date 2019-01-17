@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  commentId: T:Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  id: AnalogTemperature
+  parent: Meadow.Foundation.Sensors.Temperature
+  children:
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration,System.UInt16,System.Single)
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChanged
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update
+  langs:
+  - csharp
+  - vb
+  name: AnalogTemperature
+  nameWithType: AnalogTemperature
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AnalogTemperature
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 30
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nProvide the ability to read the temperature from the following sensors:\n- TMP35 / 36 / 37\n- LM35 / 45\n"
+  remarks: "\n<em>AnalogTemperature</em> provides a method of reading the temperature from\nlinear analog temperature sensors.  There are a number of these sensors available\nincluding the commonly available TMP and LM series.\nSensors of this type obey the following equation:\ny = mx + c\nwhere y is the reading in millivolts, m is the gradient (number of millivolts per\ndegree centigrade and C is the point where the line would intercept the y axis.\nThe <em>SensorType</em> enum defines the list of sensors with default settings in the\nlibrary.  Unsupported sensors that use the same linear algorithm can be constructed\nby setting the sensor type to <em>SensorType.Custom</em> and providing the settings for\nthe linear calculations.\nThe default sensors have the following settings:\nSensor              Millivolts at 25C    Millivolts per degree C\nTMP35, LM35, LM45       250                     10\nTMP36, LM50             750                     10\nTMP37                   500                     20\n"
+  example: []
+  syntax:
+    content: 'public class AnalogTemperature : object, ITemperatureSensor, ISensor'
+    content.vb: >-
+      Public Class AnalogTemperature
+
+          Inherits Object
+
+          Implements ITemperatureSensor, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: AnalogTemperature.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 90
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nMinimum value that should be used for the polling frequency.\n"
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: AnalogTemperature.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 149
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nTemperature in degrees centigrade.\n"
+  remarks: "\nThe temperature is given by the following calculation:\ntemperature = (reading in millivolts - yIntercept) / millivolts per degree centigrade\n"
+  example: []
+  syntax:
+    content: public float Temperature { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Temperature As Single
+  overload: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+  id: TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: AnalogTemperature.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 175
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nAny changes in the temperature that are greater than the temperature\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float TemperatureChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TemperatureChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChanged
+  id: TemperatureChanged
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChanged
+  nameWithType: AnalogTemperature.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChanged
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 185
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nEvent raised when the temperature change is greater than the \nTemperatureChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler TemperatureChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event TemperatureChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration,System.UInt16,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration,System.UInt16,System.Single)
+  id: '#ctor(Meadow.Hardware.Cpu.AnalogChannel,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType,Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration,System.UInt16,System.Single)'
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: AnalogTemperature(Cpu.AnalogChannel, AnalogTemperature.KnownSensorType, AnalogTemperature.Calibration, UInt16, Single)
+  nameWithType: AnalogTemperature.AnalogTemperature(Cpu.AnalogChannel, AnalogTemperature.KnownSensorType, AnalogTemperature.Calibration, UInt16, Single)
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.AnalogTemperature(Meadow.Hardware.Cpu.AnalogChannel, Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType, Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration, System.UInt16, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 206
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nNew instance of the AnalogTemperatureSensor class.\n"
+  example: []
+  syntax:
+    content: public AnalogTemperature(Cpu.AnalogChannel analogPin, AnalogTemperature.KnownSensorType sensorType, AnalogTemperature.Calibration calibration = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)
+    parameters:
+    - id: analogPin
+      type: Meadow.Hardware.Cpu.AnalogChannel
+      description: Analog pin the temperature sensor is connected to.
+    - id: sensorType
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+      description: Type of sensor attached to the analog port.
+    - id: calibration
+      type: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration
+      description: Calibration for the analog temperature sensor.
+    - id: updateInterval
+      type: System.UInt16
+      description: Number of milliseconds between samples (0 indicates polling to be used)
+    - id: temperatureChangeNotificationThreshold
+      type: System.Single
+      description: Changes in temperature greater than this value will trigger an event when updatePeriod > 0.
+    content.vb: Public Sub New(analogPin As Cpu.AnalogChannel, sensorType As AnalogTemperature.KnownSensorType, calibration As AnalogTemperature.Calibration = Nothing, updateInterval As UShort = Nothing, temperatureChangeNotificationThreshold As Single = 0.001F)
+  overload: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update
+  commentId: M:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Temperature.AnalogTemperature
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: AnalogTemperature.Update()
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Temperature/AnalogTemperatureSensor.cs
+    startLine: 290
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Temperature
+  summary: "\nGet the current temperature and update the Temperature property.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Temperature
+  commentId: N:Meadow.Foundation.Sensors.Temperature
+  name: Meadow.Foundation.Sensors.Temperature
+  nameWithType: Meadow.Foundation.Sensors.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor
+  commentId: T:Meadow.Foundation.Sensors.ITemperatureSensor
+  parent: Meadow.Foundation.Sensors
+  name: ITemperatureSensor
+  nameWithType: ITemperatureSensor
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+  name: Temperature
+  nameWithType: AnalogTemperature.Temperature
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Temperature
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: AnalogTemperature.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChanged
+  nameWithType: ITemperatureSensor.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.#ctor
+  name: AnalogTemperature
+  nameWithType: AnalogTemperature.AnalogTemperature
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.AnalogTemperature
+- uid: Meadow.Hardware.Cpu.AnalogChannel
+  commentId: T:Meadow.Hardware.Cpu.AnalogChannel
+  parent: Meadow.Hardware
+  name: Cpu.AnalogChannel
+  nameWithType: Cpu.AnalogChannel
+  fullName: Meadow.Hardware.Cpu.AnalogChannel
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  commentId: T:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: AnalogTemperature.KnownSensorType
+  nameWithType: AnalogTemperature.KnownSensorType
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.KnownSensorType
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration
+  commentId: T:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration
+  parent: Meadow.Foundation.Sensors.Temperature
+  name: AnalogTemperature.Calibration
+  nameWithType: AnalogTemperature.Calibration
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Calibration
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update
+  name: Update
+  nameWithType: AnalogTemperature.Update
+  fullName: Meadow.Foundation.Sensors.Temperature.AnalogTemperature.Update

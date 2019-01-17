@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch
+  commentId: T:Meadow.Foundation.Sensors.Switches.DipSwitch
+  id: DipSwitch
+  parent: Meadow.Foundation.Sensors.Switches
+  children:
+  - Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor(Meadow.Hardware.IDigitalPin[],Meadow.Foundation.CircuitTerminationType)
+  - Meadow.Foundation.Sensors.Switches.DipSwitch._switches
+  - Meadow.Foundation.Sensors.Switches.DipSwitch.Changed
+  - Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange(System.Int32)
+  - Meadow.Foundation.Sensors.Switches.DipSwitch.Item(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DipSwitch
+  nameWithType: DipSwitch
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DipSwitch
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  summary: "\nRepresents a DIP-switch wired in a bus configuration, in which all switches \nare terminated to the same ground/common or high pin.\n\nNote: this is untested, as I don&apos;t have a dip switches at the moment :D\n"
+  example: []
+  syntax:
+    content: 'public class DipSwitch : object'
+    content.vb: >-
+      Public Class DipSwitch
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.Changed
+  commentId: E:Meadow.Foundation.Sensors.Switches.DipSwitch.Changed
+  id: Changed
+  parent: Meadow.Foundation.Sensors.Switches.DipSwitch
+  langs:
+  - csharp
+  - vb
+  name: Changed
+  nameWithType: DipSwitch.Changed
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.Changed
+  type: Event
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Changed
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public event ArrayEventHandler Changed
+    return:
+      type: Meadow.Foundation.ArrayEventHandler
+    content.vb: Public Event Changed As ArrayEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.Item(System.Int32)
+  commentId: P:Meadow.Foundation.Sensors.Switches.DipSwitch.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Meadow.Foundation.Sensors.Switches.DipSwitch
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: DipSwitch.Item[Int32]
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: this[]
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public ISwitch this[int i] { get; }
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: Meadow.Foundation.Sensors.Switches.ISwitch
+    content.vb: Public ReadOnly Property Item(i As Integer) As ISwitch
+  overload: Meadow.Foundation.Sensors.Switches.DipSwitch.Item*
+  nameWithType.vb: DipSwitch.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Meadow.Foundation.Sensors.Switches.DipSwitch.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch._switches
+  commentId: F:Meadow.Foundation.Sensors.Switches.DipSwitch._switches
+  id: _switches
+  parent: Meadow.Foundation.Sensors.Switches.DipSwitch
+  langs:
+  - csharp
+  - vb
+  name: _switches
+  nameWithType: DipSwitch._switches
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch._switches
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _switches
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public ISwitch[] _switches
+    return:
+      type: Meadow.Foundation.Sensors.Switches.ISwitch[]
+    content.vb: Public _switches As ISwitch()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor(Meadow.Hardware.IDigitalPin[],Meadow.Foundation.CircuitTerminationType)
+  commentId: M:Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor(Meadow.Hardware.IDigitalPin[],Meadow.Foundation.CircuitTerminationType)
+  id: '#ctor(Meadow.Hardware.IDigitalPin[],Meadow.Foundation.CircuitTerminationType)'
+  parent: Meadow.Foundation.Sensors.Switches.DipSwitch
+  langs:
+  - csharp
+  - vb
+  name: DipSwitch(IDigitalPin[], CircuitTerminationType)
+  nameWithType: DipSwitch.DipSwitch(IDigitalPin[], CircuitTerminationType)
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.DipSwitch(Meadow.Hardware.IDigitalPin[], Meadow.Foundation.CircuitTerminationType)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: public DipSwitch(IDigitalPin[] switchPins, CircuitTerminationType type)
+    parameters:
+    - id: switchPins
+      type: Meadow.Hardware.IDigitalPin[]
+    - id: type
+      type: Meadow.Foundation.CircuitTerminationType
+    content.vb: Public Sub New(switchPins As IDigitalPin(), type As CircuitTerminationType)
+  overload: Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor*
+  nameWithType.vb: DipSwitch.DipSwitch(IDigitalPin(), CircuitTerminationType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Foundation.Sensors.Switches.DipSwitch.DipSwitch(Meadow.Hardware.IDigitalPin(), Meadow.Foundation.CircuitTerminationType)
+  name.vb: DipSwitch(IDigitalPin(), CircuitTerminationType)
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange(System.Int32)
+  commentId: M:Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange(System.Int32)
+  id: HandleSwitchChange(System.Int32)
+  parent: Meadow.Foundation.Sensors.Switches.DipSwitch
+  langs:
+  - csharp
+  - vb
+  name: HandleSwitchChange(Int32)
+  nameWithType: DipSwitch.HandleSwitchChange(Int32)
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HandleSwitchChange
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/Switches/DipSwitch.cs
+    startLine: 40
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors.Switches
+  syntax:
+    content: protected void HandleSwitchChange(int switchNumber)
+    parameters:
+    - id: switchNumber
+      type: System.Int32
+    content.vb: Protected Sub HandleSwitchChange(switchNumber As Integer)
+  overload: Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.Sensors.Switches
+  commentId: N:Meadow.Foundation.Sensors.Switches
+  name: Meadow.Foundation.Sensors.Switches
+  nameWithType: Meadow.Foundation.Sensors.Switches
+  fullName: Meadow.Foundation.Sensors.Switches
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.ArrayEventHandler
+  commentId: T:Meadow.Foundation.ArrayEventHandler
+  parent: Meadow.Foundation
+  name: ArrayEventHandler
+  nameWithType: ArrayEventHandler
+  fullName: Meadow.Foundation.ArrayEventHandler
+- uid: Meadow.Foundation
+  commentId: N:Meadow.Foundation
+  name: Meadow.Foundation
+  nameWithType: Meadow.Foundation
+  fullName: Meadow.Foundation
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.Item*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.DipSwitch.Item
+  name: Item
+  nameWithType: DipSwitch.Item
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.Item
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Foundation.Sensors.Switches.ISwitch
+  commentId: T:Meadow.Foundation.Sensors.Switches.ISwitch
+  parent: Meadow.Foundation.Sensors.Switches
+  name: ISwitch
+  nameWithType: ISwitch
+  fullName: Meadow.Foundation.Sensors.Switches.ISwitch
+- uid: Meadow.Foundation.Sensors.Switches.ISwitch[]
+  isExternal: true
+  name: ISwitch[]
+  nameWithType: ISwitch[]
+  fullName: Meadow.Foundation.Sensors.Switches.ISwitch[]
+  nameWithType.vb: ISwitch()
+  fullName.vb: Meadow.Foundation.Sensors.Switches.ISwitch()
+  name.vb: ISwitch()
+  spec.csharp:
+  - uid: Meadow.Foundation.Sensors.Switches.ISwitch
+    name: ISwitch
+    nameWithType: ISwitch
+    fullName: Meadow.Foundation.Sensors.Switches.ISwitch
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Meadow.Foundation.Sensors.Switches.ISwitch
+    name: ISwitch
+    nameWithType: ISwitch
+    fullName: Meadow.Foundation.Sensors.Switches.ISwitch
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.DipSwitch.#ctor
+  name: DipSwitch
+  nameWithType: DipSwitch.DipSwitch
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.DipSwitch
+- uid: Meadow.Hardware.IDigitalPin[]
+  isExternal: true
+  name: IDigitalPin[]
+  nameWithType: IDigitalPin[]
+  fullName: Meadow.Hardware.IDigitalPin[]
+  nameWithType.vb: IDigitalPin()
+  fullName.vb: Meadow.Hardware.IDigitalPin()
+  name.vb: IDigitalPin()
+  spec.csharp:
+  - uid: Meadow.Hardware.IDigitalPin
+    name: IDigitalPin
+    nameWithType: IDigitalPin
+    fullName: Meadow.Hardware.IDigitalPin
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Meadow.Hardware.IDigitalPin
+    name: IDigitalPin
+    nameWithType: IDigitalPin
+    fullName: Meadow.Hardware.IDigitalPin
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.CircuitTerminationType
+  commentId: T:Meadow.Foundation.CircuitTerminationType
+  parent: Meadow.Foundation
+  name: CircuitTerminationType
+  nameWithType: CircuitTerminationType
+  fullName: Meadow.Foundation.CircuitTerminationType
+- uid: Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange*
+  commentId: Overload:Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange
+  name: HandleSwitchChange
+  nameWithType: DipSwitch.HandleSwitchChange
+  fullName: Meadow.Foundation.Sensors.Switches.DipSwitch.HandleSwitchChange

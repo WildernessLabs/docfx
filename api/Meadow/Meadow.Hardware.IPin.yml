@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IPin
+  commentId: T:Meadow.Hardware.IPin
+  id: IPin
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IPin.Name
+  langs:
+  - csharp
+  - vb
+  name: IPin
+  nameWithType: IPin
+  fullName: Meadow.Hardware.IPin
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IPin
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPin.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public interface IPin
+    content.vb: Public Interface IPin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Hardware.IPin.Name
+  commentId: P:Meadow.Hardware.IPin.Name
+  id: Name
+  parent: Meadow.Hardware.IPin
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IPin.Name
+  fullName: Meadow.Hardware.IPin.Name
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Name
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPin.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Meadow.Hardware.IPin.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Meadow.Hardware.IPin.Address
+  commentId: P:Meadow.Hardware.IPin.Address
+  id: Address
+  parent: Meadow.Hardware.IPin
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: IPin.Address
+  fullName: Meadow.Hardware.IPin.Address
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Address
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPin.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: uint Address { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property Address As UInteger
+  overload: Meadow.Hardware.IPin.Address*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IPin.Name*
+  commentId: Overload:Meadow.Hardware.IPin.Name
+  name: Name
+  nameWithType: IPin.Name
+  fullName: Meadow.Hardware.IPin.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.IPin.Address*
+  commentId: Overload:Meadow.Hardware.IPin.Address
+  name: Address
+  nameWithType: IPin.Address
+  fullName: Meadow.Hardware.IPin.Address
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32

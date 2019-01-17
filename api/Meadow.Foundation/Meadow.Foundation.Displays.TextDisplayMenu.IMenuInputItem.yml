@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  id: IMenuInputItem
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  children:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput(System.String,System.Object)
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.ValueChanged
+  langs:
+  - csharp
+  - vb
+  name: IMenuInputItem
+  nameWithType: IMenuInputItem
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  type: Interface
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IMenuInputItem
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+    startLine: 8
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public interface IMenuInputItem
+    content.vb: Public Interface IMenuInputItem
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  id: Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Rotary.IRotaryEncoder,Meadow.Foundation.Sensors.Buttons.IButton)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  langs:
+  - csharp
+  - vb
+  name: Init(ITextDisplay, IRotaryEncoder, IButton)
+  nameWithType: IMenuInputItem.Init(ITextDisplay, IRotaryEncoder, IButton)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay, Meadow.Foundation.Sensors.Rotary.IRotaryEncoder, Meadow.Foundation.Sensors.Buttons.IButton)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Init
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+    startLine: 10
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: void Init(ITextDisplay display, IRotaryEncoder encoder, IButton buttonSelect)
+    parameters:
+    - id: display
+      type: Meadow.Foundation.Displays.ITextDisplay
+    - id: encoder
+      type: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+    - id: buttonSelect
+      type: Meadow.Foundation.Sensors.Buttons.IButton
+    content.vb: Sub Init(display As ITextDisplay, encoder As IRotaryEncoder, buttonSelect As IButton)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init*
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  id: Init(Meadow.Foundation.Displays.ITextDisplay,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton,Meadow.Foundation.Sensors.Buttons.IButton)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  langs:
+  - csharp
+  - vb
+  name: Init(ITextDisplay, IButton, IButton, IButton)
+  nameWithType: IMenuInputItem.Init(ITextDisplay, IButton, IButton, IButton)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init(Meadow.Foundation.Displays.ITextDisplay, Meadow.Foundation.Sensors.Buttons.IButton, Meadow.Foundation.Sensors.Buttons.IButton, Meadow.Foundation.Sensors.Buttons.IButton)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Init
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+    startLine: 11
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: void Init(ITextDisplay display, IButton buttonNext, IButton buttonPrevious, IButton buttonSelect)
+    parameters:
+    - id: display
+      type: Meadow.Foundation.Displays.ITextDisplay
+    - id: buttonNext
+      type: Meadow.Foundation.Sensors.Buttons.IButton
+    - id: buttonPrevious
+      type: Meadow.Foundation.Sensors.Buttons.IButton
+    - id: buttonSelect
+      type: Meadow.Foundation.Sensors.Buttons.IButton
+    content.vb: Sub Init(display As ITextDisplay, buttonNext As IButton, buttonPrevious As IButton, buttonSelect As IButton)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init*
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput(System.String,System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput(System.String,System.Object)
+  id: GetInput(System.String,System.Object)
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  langs:
+  - csharp
+  - vb
+  name: GetInput(String, Object)
+  nameWithType: IMenuInputItem.GetInput(String, Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: GetInput
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+    startLine: 12
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: void GetInput(string itemID, object currentValue)
+    parameters:
+    - id: itemID
+      type: System.String
+    - id: currentValue
+      type: System.Object
+    content.vb: Sub GetInput(itemID As String, currentValue As Object)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput*
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.ValueChanged
+  commentId: E:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.ValueChanged
+  id: ValueChanged
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem
+  langs:
+  - csharp
+  - vb
+  name: ValueChanged
+  nameWithType: IMenuInputItem.ValueChanged
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.ValueChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ValueChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/IMenuInputItem.cs
+    startLine: 13
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: event ValueChangedHandler ValueChanged
+    return:
+      type: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+    content.vb: Event ValueChanged As ValueChangedHandler
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init
+  name: Init
+  nameWithType: IMenuInputItem.Init
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.Init
+- uid: Meadow.Foundation.Displays.ITextDisplay
+  commentId: T:Meadow.Foundation.Displays.ITextDisplay
+  parent: Meadow.Foundation.Displays
+  name: ITextDisplay
+  nameWithType: ITextDisplay
+  fullName: Meadow.Foundation.Displays.ITextDisplay
+- uid: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  commentId: T:Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+  parent: Meadow.Foundation.Sensors.Rotary
+  name: IRotaryEncoder
+  nameWithType: IRotaryEncoder
+  fullName: Meadow.Foundation.Sensors.Rotary.IRotaryEncoder
+- uid: Meadow.Foundation.Sensors.Buttons.IButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.IButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  name: IButton
+  nameWithType: IButton
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Sensors.Rotary
+  commentId: N:Meadow.Foundation.Sensors.Rotary
+  name: Meadow.Foundation.Sensors.Rotary
+  nameWithType: Meadow.Foundation.Sensors.Rotary
+  fullName: Meadow.Foundation.Sensors.Rotary
+- uid: Meadow.Foundation.Sensors.Buttons
+  commentId: N:Meadow.Foundation.Sensors.Buttons
+  name: Meadow.Foundation.Sensors.Buttons
+  nameWithType: Meadow.Foundation.Sensors.Buttons
+  fullName: Meadow.Foundation.Sensors.Buttons
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput
+  name: GetInput
+  nameWithType: IMenuInputItem.GetInput
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuInputItem.GetInput
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: ValueChangedHandler
+  nameWithType: ValueChangedHandler
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler

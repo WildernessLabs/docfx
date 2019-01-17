@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.NMEA
+  commentId: T:Meadow.Foundation.Sensors.GPS.NMEA
+  id: NMEA
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.NMEA.#ctor(System.String,System.Int32,Meadow.Hardware.Parity,System.Int32,Meadow.Hardware.StopBits)
+  - Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder(Meadow.Foundation.Sensors.GPS.NMEADecoder)
+  - Meadow.Foundation.Sensors.GPS.NMEA.Close
+  - Meadow.Foundation.Sensors.GPS.NMEA.Open
+  langs:
+  - csharp
+  - vb
+  name: NMEA
+  nameWithType: NMEA
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: NMEA
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+    startLine: 11
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nGeneric NMEA GPS object.\n"
+  example: []
+  syntax:
+    content: 'public class NMEA : object'
+    content.vb: >-
+      Public Class NMEA
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.#ctor(System.String,System.Int32,Meadow.Hardware.Parity,System.Int32,Meadow.Hardware.StopBits)
+  commentId: M:Meadow.Foundation.Sensors.GPS.NMEA.#ctor(System.String,System.Int32,Meadow.Hardware.Parity,System.Int32,Meadow.Hardware.StopBits)
+  id: '#ctor(System.String,System.Int32,Meadow.Hardware.Parity,System.Int32,Meadow.Hardware.StopBits)'
+  parent: Meadow.Foundation.Sensors.GPS.NMEA
+  langs:
+  - csharp
+  - vb
+  name: NMEA(String, Int32, Parity, Int32, StopBits)
+  nameWithType: NMEA.NMEA(String, Int32, Parity, Int32, StopBits)
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.NMEA(System.String, System.Int32, Meadow.Hardware.Parity, System.Int32, Meadow.Hardware.StopBits)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+    startLine: 45
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nCreate a new NMEA GPS object and attach to the specified serial port.\n"
+  example: []
+  syntax:
+    content: public NMEA(string port, int baudRate, Parity parity, int dataBits, StopBits stopBits)
+    parameters:
+    - id: port
+      type: System.String
+      description: Serial port attached to the GPS.
+    - id: baudRate
+      type: System.Int32
+      description: Baud rate.
+    - id: parity
+      type: Meadow.Hardware.Parity
+      description: Parity.
+    - id: dataBits
+      type: System.Int32
+      description: Number of data bits.
+    - id: stopBits
+      type: Meadow.Hardware.StopBits
+      description: Number of stop bits.
+    content.vb: Public Sub New(port As String, baudRate As Integer, parity As Parity, dataBits As Integer, stopBits As StopBits)
+  overload: Meadow.Foundation.Sensors.GPS.NMEA.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder(Meadow.Foundation.Sensors.GPS.NMEADecoder)
+  commentId: M:Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder(Meadow.Foundation.Sensors.GPS.NMEADecoder)
+  id: AddDecoder(Meadow.Foundation.Sensors.GPS.NMEADecoder)
+  parent: Meadow.Foundation.Sensors.GPS.NMEA
+  langs:
+  - csharp
+  - vb
+  name: AddDecoder(NMEADecoder)
+  nameWithType: NMEA.AddDecoder(NMEADecoder)
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder(Meadow.Foundation.Sensors.GPS.NMEADecoder)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AddDecoder
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+    startLine: 59
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nAdd a new NMEA decoder to the GPS.\n"
+  example: []
+  syntax:
+    content: public void AddDecoder(NMEADecoder decoder)
+    parameters:
+    - id: decoder
+      type: Meadow.Foundation.Sensors.GPS.NMEADecoder
+      description: NMEA decoder.
+    content.vb: Public Sub AddDecoder(decoder As NMEADecoder)
+  overload: Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.Open
+  commentId: M:Meadow.Foundation.Sensors.GPS.NMEA.Open
+  id: Open
+  parent: Meadow.Foundation.Sensors.GPS.NMEA
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: NMEA.Open()
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.Open()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Open
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+    startLine: 71
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nOpen the connection to the GPS and start processing data.\n"
+  example: []
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open
+  overload: Meadow.Foundation.Sensors.GPS.NMEA.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.Close
+  commentId: M:Meadow.Foundation.Sensors.GPS.NMEA.Close
+  id: Close
+  parent: Meadow.Foundation.Sensors.GPS.NMEA
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: NMEA.Close()
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.Close()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Close
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/NMEA.cs
+    startLine: 79
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nClose the connection to the GPS and stop processing data.\n"
+  example: []
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: Meadow.Foundation.Sensors.GPS.NMEA.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.NMEA.#ctor
+  name: NMEA
+  nameWithType: NMEA.NMEA
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.NMEA
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Hardware.Parity
+  commentId: T:Meadow.Hardware.Parity
+  parent: Meadow.Hardware
+  name: Parity
+  nameWithType: Parity
+  fullName: Meadow.Hardware.Parity
+- uid: Meadow.Hardware.StopBits
+  commentId: T:Meadow.Hardware.StopBits
+  parent: Meadow.Hardware
+  name: StopBits
+  nameWithType: StopBits
+  fullName: Meadow.Hardware.StopBits
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder
+  name: AddDecoder
+  nameWithType: NMEA.AddDecoder
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.AddDecoder
+- uid: Meadow.Foundation.Sensors.GPS.NMEADecoder
+  commentId: T:Meadow.Foundation.Sensors.GPS.NMEADecoder
+  parent: Meadow.Foundation.Sensors.GPS
+  name: NMEADecoder
+  nameWithType: NMEADecoder
+  fullName: Meadow.Foundation.Sensors.GPS.NMEADecoder
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.Open*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.NMEA.Open
+  name: Open
+  nameWithType: NMEA.Open
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.Open
+- uid: Meadow.Foundation.Sensors.GPS.NMEA.Close*
+  commentId: Overload:Meadow.Foundation.Sensors.GPS.NMEA.Close
+  name: Close
+  nameWithType: NMEA.Close
+  fullName: Meadow.Foundation.Sensors.GPS.NMEA.Close

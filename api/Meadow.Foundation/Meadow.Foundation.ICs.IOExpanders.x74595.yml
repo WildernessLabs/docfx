@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.x74595
+  id: Meadow.Foundation.ICs.IOExpanders.x74595
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.ICs.IOExpanders.x74595
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.x74595
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595
+  type: Namespace
+  assemblies:
+  - ICs.IOExpanders.x74595
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  name: x74595
+  nameWithType: x74595
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595

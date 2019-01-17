@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Spatial
+  commentId: N:Meadow.Foundation.Spatial
+  id: Meadow.Foundation.Spatial
+  children:
+  - Meadow.Foundation.Spatial.EulerAngles
+  - Meadow.Foundation.Spatial.Quaternion
+  - Meadow.Foundation.Spatial.Vector
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Spatial
+  nameWithType: Meadow.Foundation.Spatial
+  fullName: Meadow.Foundation.Spatial
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Spatial.EulerAngles
+  commentId: T:Meadow.Foundation.Spatial.EulerAngles
+  parent: Meadow.Foundation.Spatial
+  name: EulerAngles
+  nameWithType: EulerAngles
+  fullName: Meadow.Foundation.Spatial.EulerAngles
+- uid: Meadow.Foundation.Spatial.Quaternion
+  commentId: T:Meadow.Foundation.Spatial.Quaternion
+  parent: Meadow.Foundation.Spatial
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Meadow.Foundation.Spatial.Quaternion
+- uid: Meadow.Foundation.Spatial.Vector
+  commentId: T:Meadow.Foundation.Spatial.Vector
+  parent: Meadow.Foundation.Spatial
+  name: Vector
+  nameWithType: Vector
+  fullName: Meadow.Foundation.Spatial.Vector
+- uid: Meadow.Foundation.Spatial
+  commentId: N:Meadow.Foundation.Spatial
+  name: Meadow.Foundation.Spatial
+  nameWithType: Meadow.Foundation.Spatial
+  fullName: Meadow.Foundation.Spatial

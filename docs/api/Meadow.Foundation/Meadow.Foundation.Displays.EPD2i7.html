@@ -1,0 +1,1781 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EPD2i7
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EPD2i7
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Meadow.Foundation.Displays.EPD2i7">
+  
+  
+  <h1 id="Meadow_Foundation_Displays_EPD2i7" data-uid="Meadow.Foundation.Displays.EPD2i7" class="text-break">Class EPD2i7
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html">DisplayBase</a></div>
+    <div class="level2"><a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html">SPIDisplayBase</a></div>
+    <div class="level3"><a class="xref" href="Meadow.Foundation.Displays.EPDBase.html">EPDBase</a></div>
+    <div class="level4"><span class="xref">EPD2i7</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Meadow.Foundation.Displays.IDisplay.html">IDisplay</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_ColorMode">EPDBase.ColorMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_imageBuffer">EPDBase.imageBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Clear_System_Boolean_">EPDBase.Clear(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Clear_Color_System_Boolean_">EPDBase.Clear(Color, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Clear_System_Boolean_System_Boolean_">EPDBase.Clear(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Meadow_Foundation_Displays_DisplayBase_BitmapMode_">EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], DisplayBase.BitmapMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DrawBitmap_System_Int32_System_Int32_System_Int32_System_Int32_System_Byte___Color_">EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DrawPixel_System_Int32_System_Int32_System_Boolean_">EPDBase.DrawPixel(Int32, Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DrawPixel_System_Int32_System_Int32_Color_">EPDBase.DrawPixel(Int32, Int32, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DrawPixel_System_Int32_System_Int32_System_Byte_System_Byte_System_Byte_">EPDBase.DrawPixel(Int32, Int32, Byte, Byte, Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Refresh">EPDBase.Refresh()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Show">EPDBase.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_ClearFrameMemory_System_Byte_">EPDBase.ClearFrameMemory(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Sleep">EPDBase.Sleep()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DRIVER_OUTPUT_CONTROL">EPDBase.DRIVER_OUTPUT_CONTROL</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_BOOSTER_SOFT_START_CONTROL">EPDBase.BOOSTER_SOFT_START_CONTROL</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_GATE_SCAN_START_POSITION">EPDBase.GATE_SCAN_START_POSITION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DEEP_SLEEP_MODE">EPDBase.DEEP_SLEEP_MODE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DATA_ENTRY_MODE_SETTING">EPDBase.DATA_ENTRY_MODE_SETTING</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SW_RESET">EPDBase.SW_RESET</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_TEMPERATURE_SENSOR_CONTROL">EPDBase.TEMPERATURE_SENSOR_CONTROL</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_MASTER_ACTIVATION">EPDBase.MASTER_ACTIVATION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DISPLAY_UPDATE_CONTROL_1">EPDBase.DISPLAY_UPDATE_CONTROL_1</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DISPLAY_UPDATE_CONTROL_2">EPDBase.DISPLAY_UPDATE_CONTROL_2</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_WRITE_RAM">EPDBase.WRITE_RAM</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_WRITE_VCOM_REGISTER">EPDBase.WRITE_VCOM_REGISTER</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_WRITE_LUT_REGISTER">EPDBase.WRITE_LUT_REGISTER</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_DUMMY_LINE_PERIOD">EPDBase.SET_DUMMY_LINE_PERIOD</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_GATE_TIME">EPDBase.SET_GATE_TIME</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_BORDER_WAVEFORM_CONTROL">EPDBase.BORDER_WAVEFORM_CONTROL</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_RAM_X_ADDRESS_START_END_POSITION">EPDBase.SET_RAM_X_ADDRESS_START_END_POSITION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_RAM_Y_ADDRESS_START_END_POSITION">EPDBase.SET_RAM_Y_ADDRESS_START_END_POSITION</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_RAM_X_ADDRESS_COUNTER">EPDBase.SET_RAM_X_ADDRESS_COUNTER</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SET_RAM_Y_ADDRESS_COUNTER">EPDBase.SET_RAM_Y_ADDRESS_COUNTER</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_TERMINATE_FRAME_READ_WRITE">EPDBase.TERMINATE_FRAME_READ_WRITE</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_spiBOneByteBuffer">SPIDisplayBase.spiBOneByteBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_dataCommandPort">SPIDisplayBase.dataCommandPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_resetPort">SPIDisplayBase.resetPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_busyPort">SPIDisplayBase.busyPort</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_spi">SPIDisplayBase.spi</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Data">SPIDisplayBase.Data</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Command">SPIDisplayBase.Command</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Write_System_Byte_">SPIDisplayBase.Write(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_Reset">SPIDisplayBase.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_DelayMs_System_Int32_">SPIDisplayBase.DelayMs(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendCommand_System_Byte_">SPIDisplayBase.SendCommand(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Int32_">SPIDisplayBase.SendData(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Byte_">SPIDisplayBase.SendData(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_SendData_System_Byte___">SPIDisplayBase.SendData(Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.SPIDisplayBase.html#Meadow_Foundation_Displays_SPIDisplayBase_WaitUntilIdle">SPIDisplayBase.WaitUntilIdle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_IgnoreOutOfBoundsPixels">DisplayBase.IgnoreOutOfBoundsPixels</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Meadow.Foundation.Displays.html">Meadow.Foundation.Displays</a></h6>
+  <h6><strong>Assembly</strong>: Displays.WaveShare_ePaper.dll</h6>
+  <h5 id="Meadow_Foundation_Displays_EPD2i7_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EPD2i7 : EPDBase, IDisplay</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.%23ctor(Meadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.IDigitalPin%2CMeadow.Hardware.Spi.SPI_module%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L11">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7__ctor_" data-uid="Meadow.Foundation.Displays.EPD2i7.#ctor*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7__ctor_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_IDigitalPin_Meadow_Hardware_Spi_SPI_module_System_UInt32_" data-uid="Meadow.Foundation.Displays.EPD2i7.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)">EPD2i7(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPD2i7(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">chipSelectPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">dcPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">resetPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">busyPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.Spi.SPI_module.html">Spi.SPI_module</a></td>
+        <td><span class="parametername">spiModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">speedKHz</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_ACTIVE_PROGRAM.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L239">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_ACTIVE_PROGRAM" data-uid="Meadow.Foundation.Displays.EPD2i7.ACTIVE_PROGRAM">ACTIVE_PROGRAM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte ACTIVE_PROGRAM</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_AUTO_MEASURE_VCOM.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L235">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_AUTO_MEASURE_VCOM" data-uid="Meadow.Foundation.Displays.EPD2i7.AUTO_MEASURE_VCOM">AUTO_MEASURE_VCOM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte AUTO_MEASURE_VCOM</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_BOOSTER_SOFT_START.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L210">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_BOOSTER_SOFT_START" data-uid="Meadow.Foundation.Displays.EPD2i7.BOOSTER_SOFT_START">BOOSTER_SOFT_START</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte BOOSTER_SOFT_START</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DATA_START_TRANSMISSION_1.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L212">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DATA_START_TRANSMISSION_1" data-uid="Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_1">DATA_START_TRANSMISSION_1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte DATA_START_TRANSMISSION_1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DATA_START_TRANSMISSION_2.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L215">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DATA_START_TRANSMISSION_2" data-uid="Meadow.Foundation.Displays.EPD2i7.DATA_START_TRANSMISSION_2">DATA_START_TRANSMISSION_2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte DATA_START_TRANSMISSION_2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DATA_STOP.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DATA_STOP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L213">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DATA_STOP" data-uid="Meadow.Foundation.Displays.EPD2i7.DATA_STOP">DATA_STOP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte DATA_STOP</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DEEP_SLEEP.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L211">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DEEP_SLEEP" data-uid="Meadow.Foundation.Displays.EPD2i7.DEEP_SLEEP">DEEP_SLEEP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte DEEP_SLEEP</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DISPLAY_REFRESH.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L214">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DISPLAY_REFRESH" data-uid="Meadow.Foundation.Displays.EPD2i7.DISPLAY_REFRESH">DISPLAY_REFRESH</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte DISPLAY_REFRESH</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_GET_STATUS.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.GET_STATUS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L234">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_GET_STATUS" data-uid="Meadow.Foundation.Displays.EPD2i7.GET_STATUS">GET_STATUS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte GET_STATUS</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LOW_POWER_DETECTION.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L230">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LOW_POWER_DETECTION" data-uid="Meadow.Foundation.Displays.EPD2i7.LOW_POWER_DETECTION">LOW_POWER_DETECTION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LOW_POWER_DETECTION</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_lut_bb.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.lut_bb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L277">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_lut_bb" data-uid="Meadow.Foundation.Displays.EPD2i7.lut_bb">lut_bb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte[] lut_bb</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LUT_BLACK_TO_BLACK.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L223">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LUT_BLACK_TO_BLACK" data-uid="Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_BLACK">LUT_BLACK_TO_BLACK</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LUT_BLACK_TO_BLACK</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LUT_BLACK_TO_WHITE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L221">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LUT_BLACK_TO_WHITE" data-uid="Meadow.Foundation.Displays.EPD2i7.LUT_BLACK_TO_WHITE">LUT_BLACK_TO_WHITE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LUT_BLACK_TO_WHITE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_lut_bw.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.lut_bw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L265">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_lut_bw" data-uid="Meadow.Foundation.Displays.EPD2i7.lut_bw">lut_bw</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte[] lut_bw</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LUT_FOR_VCOM.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L219">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LUT_FOR_VCOM" data-uid="Meadow.Foundation.Displays.EPD2i7.LUT_FOR_VCOM">LUT_FOR_VCOM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LUT_FOR_VCOM</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_lut_vcom_dc.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L242">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_lut_vcom_dc" data-uid="Meadow.Foundation.Displays.EPD2i7.lut_vcom_dc">lut_vcom_dc</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte[] lut_vcom_dc</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_lut_wb.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.lut_wb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L289">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_lut_wb" data-uid="Meadow.Foundation.Displays.EPD2i7.lut_wb">lut_wb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte[] lut_wb</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LUT_WHITE_TO_BLACK.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L222">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LUT_WHITE_TO_BLACK" data-uid="Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_BLACK">LUT_WHITE_TO_BLACK</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LUT_WHITE_TO_BLACK</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_LUT_WHITE_TO_WHITE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L220">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_LUT_WHITE_TO_WHITE" data-uid="Meadow.Foundation.Displays.EPD2i7.LUT_WHITE_TO_WHITE">LUT_WHITE_TO_WHITE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte LUT_WHITE_TO_WHITE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_lut_ww.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.lut_ww%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L254">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_lut_ww" data-uid="Meadow.Foundation.Displays.EPD2i7.lut_ww">lut_ww</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte[] lut_ww</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PANEL_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L204">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PANEL_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.PANEL_SETTING">PANEL_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PANEL_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PARTIAL_DATA_START_TRANSMISSION_1.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L216">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PARTIAL_DATA_START_TRANSMISSION_1" data-uid="Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_1">PARTIAL_DATA_START_TRANSMISSION_1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PARTIAL_DATA_START_TRANSMISSION_1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PARTIAL_DATA_START_TRANSMISSION_2.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L217">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PARTIAL_DATA_START_TRANSMISSION_2" data-uid="Meadow.Foundation.Displays.EPD2i7.PARTIAL_DATA_START_TRANSMISSION_2">PARTIAL_DATA_START_TRANSMISSION_2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PARTIAL_DATA_START_TRANSMISSION_2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PARTIAL_DISPLAY_REFRESH.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L218">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PARTIAL_DISPLAY_REFRESH" data-uid="Meadow.Foundation.Displays.EPD2i7.PARTIAL_DISPLAY_REFRESH">PARTIAL_DISPLAY_REFRESH</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PARTIAL_DISPLAY_REFRESH</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PLL_CONTROL.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L224">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PLL_CONTROL" data-uid="Meadow.Foundation.Displays.EPD2i7.PLL_CONTROL">PLL_CONTROL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PLL_CONTROL</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_POWER_OFF.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.POWER_OFF%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L206">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_POWER_OFF" data-uid="Meadow.Foundation.Displays.EPD2i7.POWER_OFF">POWER_OFF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte POWER_OFF</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_POWER_OFF_SEQUENCE_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L207">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_POWER_OFF_SEQUENCE_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.POWER_OFF_SEQUENCE_SETTING">POWER_OFF_SEQUENCE_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte POWER_OFF_SEQUENCE_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_POWER_ON.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.POWER_ON%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L208">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_POWER_ON" data-uid="Meadow.Foundation.Displays.EPD2i7.POWER_ON">POWER_ON</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte POWER_ON</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_POWER_ON_MEASURE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L209">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_POWER_ON_MEASURE" data-uid="Meadow.Foundation.Displays.EPD2i7.POWER_ON_MEASURE">POWER_ON_MEASURE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte POWER_ON_MEASURE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_POWER_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.POWER_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L205">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_POWER_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.POWER_SETTING">POWER_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte POWER_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_PROGRAM_MODE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L238">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_PROGRAM_MODE" data-uid="Meadow.Foundation.Displays.EPD2i7.PROGRAM_MODE">PROGRAM_MODE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte PROGRAM_MODE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_READ_OTP_DATA.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L240">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_READ_OTP_DATA" data-uid="Meadow.Foundation.Displays.EPD2i7.READ_OTP_DATA">READ_OTP_DATA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte READ_OTP_DATA</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_SOURCE_AND_GATE_START_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L233">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_SOURCE_AND_GATE_START_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.SOURCE_AND_GATE_START_SETTING">SOURCE_AND_GATE_START_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte SOURCE_AND_GATE_START_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TCON_RESOLUTION.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L232">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TCON_RESOLUTION" data-uid="Meadow.Foundation.Displays.EPD2i7.TCON_RESOLUTION">TCON_RESOLUTION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TCON_RESOLUTION</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TCON_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TCON_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L231">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TCON_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.TCON_SETTING">TCON_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TCON_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_CALIBRATION.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L226">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_CALIBRATION" data-uid="Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_CALIBRATION">TEMPERATURE_SENSOR_CALIBRATION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TEMPERATURE_SENSOR_CALIBRATION</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_COMMAND.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L225">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_COMMAND" data-uid="Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_COMMAND">TEMPERATURE_SENSOR_COMMAND</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TEMPERATURE_SENSOR_COMMAND</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_READ.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L228">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_READ" data-uid="Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_READ">TEMPERATURE_SENSOR_READ</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TEMPERATURE_SENSOR_READ</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_WRITE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L227">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_TEMPERATURE_SENSOR_WRITE" data-uid="Meadow.Foundation.Displays.EPD2i7.TEMPERATURE_SENSOR_WRITE">TEMPERATURE_SENSOR_WRITE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte TEMPERATURE_SENSOR_WRITE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_VCM_DC_SETTING_REGISTER.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L237">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_VCM_DC_SETTING_REGISTER" data-uid="Meadow.Foundation.Displays.EPD2i7.VCM_DC_SETTING_REGISTER">VCM_DC_SETTING_REGISTER</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte VCM_DC_SETTING_REGISTER</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_VCOM_AND_DATA_INTERVAL_SETTING.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L229">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_VCOM_AND_DATA_INTERVAL_SETTING" data-uid="Meadow.Foundation.Displays.EPD2i7.VCOM_AND_DATA_INTERVAL_SETTING">VCOM_AND_DATA_INTERVAL_SETTING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte VCOM_AND_DATA_INTERVAL_SETTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_VCOM_VALUE.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L236">View Source</a>
+  </span>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_VCOM_VALUE" data-uid="Meadow.Foundation.Displays.EPD2i7.VCOM_VALUE">VCOM_VALUE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static byte VCOM_VALUE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_Height.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L7">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_Height_" data-uid="Meadow.Foundation.Displays.EPD2i7.Height*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_Height" data-uid="Meadow.Foundation.Displays.EPD2i7.Height">Height</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_Height">DisplayBase.Height</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_Width.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L9">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_Width_" data-uid="Meadow.Foundation.Displays.EPD2i7.Width*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_Width" data-uid="Meadow.Foundation.Displays.EPD2i7.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.DisplayBase.html#Meadow_Foundation_Displays_DisplayBase_Width">DisplayBase.Width</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_ClearFrame.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.ClearFrame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L183">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_ClearFrame_" data-uid="Meadow.Foundation.Displays.EPD2i7.ClearFrame*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_ClearFrame" data-uid="Meadow.Foundation.Displays.EPD2i7.ClearFrame">ClearFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFrame()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_DisplayFrame.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.DisplayFrame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L177">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_DisplayFrame_" data-uid="Meadow.Foundation.Displays.EPD2i7.DisplayFrame*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_DisplayFrame" data-uid="Meadow.Foundation.Displays.EPD2i7.DisplayFrame">DisplayFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DisplayFrame()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_DisplayFrame">EPDBase.DisplayFrame()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_Initialize.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L15">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_Initialize_" data-uid="Meadow.Foundation.Displays.EPD2i7.Initialize*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_Initialize" data-uid="Meadow.Foundation.Displays.EPD2i7.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_Initialize">EPDBase.Initialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_System_Byte___.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L104">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_" data-uid="Meadow.Foundation.Displays.EPD2i7.SetFrameMemory*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_System_Byte___" data-uid="Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[])">SetFrameMemory(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetFrameMemory(byte[] image_buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">image_buffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SetFrameMemory_System_Byte___">EPDBase.SetFrameMemory(Byte[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L109">View Source</a>
+  </span>
+  <a id="Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_" data-uid="Meadow.Foundation.Displays.EPD2i7.SetFrameMemory*"></a>
+  <h4 id="Meadow_Foundation_Displays_EPD2i7_SetFrameMemory_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Meadow.Foundation.Displays.EPD2i7.SetFrameMemory(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetFrameMemory(byte[] buffer, int x, int y, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Meadow.Foundation.Displays.EPDBase.html#Meadow_Foundation_Displays_EPDBase_SetFrameMemory_System_Byte___System_Int32_System_Int32_System_Int32_System_Int32_">EPDBase.SetFrameMemory(Byte[], Int32, Int32, Int32, Int32)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Meadow.Foundation.Displays.IDisplay.html">IDisplay</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Displays_EPD2i7.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Displays.EPD2i7%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Displays.WaveShare_ePaper/Drivers/EPD2i7.cs/#L5" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

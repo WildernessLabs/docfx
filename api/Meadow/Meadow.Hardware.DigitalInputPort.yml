@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  id: DigitalInputPort
+  parent: Meadow.Hardware
+  children:
+  - Meadow.Hardware.DigitalInputPort.#ctor
+  - Meadow.Hardware.DigitalInputPort.#ctor(Meadow.Hardware.IDigitalChannel,System.Boolean,Meadow.Hardware.ResistorMode)
+  - Meadow.Hardware.DigitalInputPort.GlitchFilter
+  - Meadow.Hardware.DigitalInputPort.Resistor
+  - Meadow.Hardware.DigitalInputPort.Value
+  langs:
+  - csharp
+  - vb
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: DigitalInputPort
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public class DigitalInputPort : DigitalInputPortBase, IDigitalPort, IPort'
+    content.vb: >-
+      Public Class DigitalInputPort
+
+          Inherits DigitalInputPortBase
+
+          Implements IDigitalPort, IPort
+  inheritance:
+  - System.Object
+  - Meadow.Hardware.DigitalPortBase
+  - Meadow.Hardware.DigitalInputPortBase
+  implements:
+  - Meadow.Hardware.IDigitalPort
+  - Meadow.Hardware.IPort
+  inheritedMembers:
+  - Meadow.Hardware.DigitalInputPortBase.Changed
+  - Meadow.Hardware.DigitalInputPortBase.InterruptEnabled
+  - Meadow.Hardware.DigitalInputPortBase._interruptEnabled
+  - Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+  - Meadow.Hardware.DigitalPortBase.DirectionType
+  - Meadow.Hardware.DigitalPortBase._direction
+  - Meadow.Hardware.DigitalPortBase.SignalType
+  - Meadow.Hardware.DigitalPortBase.State
+  - Meadow.Hardware.DigitalPortBase._state
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Hardware.DigitalInputPort.GlitchFilter
+  commentId: P:Meadow.Hardware.DigitalInputPort.GlitchFilter
+  id: GlitchFilter
+  parent: Meadow.Hardware.DigitalInputPort
+  langs:
+  - csharp
+  - vb
+  name: GlitchFilter
+  nameWithType: DigitalInputPort.GlitchFilter
+  fullName: Meadow.Hardware.DigitalInputPort.GlitchFilter
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: GlitchFilter
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public bool GlitchFilter { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property GlitchFilter As Boolean
+  overload: Meadow.Hardware.DigitalInputPort.GlitchFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.DigitalInputPort.Resistor
+  commentId: P:Meadow.Hardware.DigitalInputPort.Resistor
+  id: Resistor
+  parent: Meadow.Hardware.DigitalInputPort
+  langs:
+  - csharp
+  - vb
+  name: Resistor
+  nameWithType: DigitalInputPort.Resistor
+  fullName: Meadow.Hardware.DigitalInputPort.Resistor
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Resistor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public ResistorMode Resistor { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Hardware.ResistorMode
+    content.vb: Public Property Resistor As ResistorMode
+  overload: Meadow.Hardware.DigitalInputPort.Resistor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.DigitalInputPort.#ctor(Meadow.Hardware.IDigitalChannel,System.Boolean,Meadow.Hardware.ResistorMode)
+  commentId: M:Meadow.Hardware.DigitalInputPort.#ctor(Meadow.Hardware.IDigitalChannel,System.Boolean,Meadow.Hardware.ResistorMode)
+  id: '#ctor(Meadow.Hardware.IDigitalChannel,System.Boolean,Meadow.Hardware.ResistorMode)'
+  parent: Meadow.Hardware.DigitalInputPort
+  langs:
+  - csharp
+  - vb
+  name: DigitalInputPort(IDigitalChannel, Boolean, ResistorMode)
+  nameWithType: DigitalInputPort.DigitalInputPort(IDigitalChannel, Boolean, ResistorMode)
+  fullName: Meadow.Hardware.DigitalInputPort.DigitalInputPort(Meadow.Hardware.IDigitalChannel, System.Boolean, Meadow.Hardware.ResistorMode)
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public DigitalInputPort(IDigitalChannel pin, bool glitchFilter, ResistorMode resistorMode)
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IDigitalChannel
+    - id: glitchFilter
+      type: System.Boolean
+    - id: resistorMode
+      type: Meadow.Hardware.ResistorMode
+    content.vb: Public Sub New(pin As IDigitalChannel, glitchFilter As Boolean, resistorMode As ResistorMode)
+  overload: Meadow.Hardware.DigitalInputPort.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.DigitalInputPort.#ctor
+  commentId: M:Meadow.Hardware.DigitalInputPort.#ctor
+  id: '#ctor'
+  parent: Meadow.Hardware.DigitalInputPort
+  langs:
+  - csharp
+  - vb
+  name: DigitalInputPort()
+  nameWithType: DigitalInputPort.DigitalInputPort()
+  fullName: Meadow.Hardware.DigitalInputPort.DigitalInputPort()
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public DigitalInputPort()
+    content.vb: Public Sub New
+  overload: Meadow.Hardware.DigitalInputPort.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.DigitalInputPort.Value
+  commentId: P:Meadow.Hardware.DigitalInputPort.Value
+  id: Value
+  parent: Meadow.Hardware.DigitalInputPort
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DigitalInputPort.Value
+  fullName: Meadow.Hardware.DigitalInputPort.Value
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/DigitalInputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Value
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: public override bool Value { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property Value As Boolean
+  overridden: Meadow.Hardware.DigitalInputPortBase.Value
+  overload: Meadow.Hardware.DigitalInputPort.Value*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Hardware.DigitalPortBase
+  commentId: T:Meadow.Hardware.DigitalPortBase
+  parent: Meadow.Hardware
+  name: DigitalPortBase
+  nameWithType: DigitalPortBase
+  fullName: Meadow.Hardware.DigitalPortBase
+- uid: Meadow.Hardware.DigitalInputPortBase
+  commentId: T:Meadow.Hardware.DigitalInputPortBase
+  parent: Meadow.Hardware
+  name: DigitalInputPortBase
+  nameWithType: DigitalInputPortBase
+  fullName: Meadow.Hardware.DigitalInputPortBase
+- uid: Meadow.Hardware.IDigitalPort
+  commentId: T:Meadow.Hardware.IDigitalPort
+  parent: Meadow.Hardware
+  name: IDigitalPort
+  nameWithType: IDigitalPort
+  fullName: Meadow.Hardware.IDigitalPort
+- uid: Meadow.Hardware.IPort
+  commentId: T:Meadow.Hardware.IPort
+  parent: Meadow.Hardware
+  name: IPort
+  nameWithType: IPort
+  fullName: Meadow.Hardware.IPort
+- uid: Meadow.Hardware.DigitalInputPortBase.Changed
+  commentId: E:Meadow.Hardware.DigitalInputPortBase.Changed
+  parent: Meadow.Hardware.DigitalInputPortBase
+  name: Changed
+  nameWithType: DigitalInputPortBase.Changed
+  fullName: Meadow.Hardware.DigitalInputPortBase.Changed
+- uid: Meadow.Hardware.DigitalInputPortBase.InterruptEnabled
+  commentId: P:Meadow.Hardware.DigitalInputPortBase.InterruptEnabled
+  parent: Meadow.Hardware.DigitalInputPortBase
+  name: InterruptEnabled
+  nameWithType: DigitalInputPortBase.InterruptEnabled
+  fullName: Meadow.Hardware.DigitalInputPortBase.InterruptEnabled
+- uid: Meadow.Hardware.DigitalInputPortBase._interruptEnabled
+  commentId: F:Meadow.Hardware.DigitalInputPortBase._interruptEnabled
+  parent: Meadow.Hardware.DigitalInputPortBase
+  name: _interruptEnabled
+  nameWithType: DigitalInputPortBase._interruptEnabled
+  fullName: Meadow.Hardware.DigitalInputPortBase._interruptEnabled
+- uid: Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+  commentId: M:Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+  parent: Meadow.Hardware.DigitalInputPortBase
+  isExternal: true
+  name: RaiseChanged(Boolean)
+  nameWithType: DigitalInputPortBase.RaiseChanged(Boolean)
+  fullName: Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+  spec.csharp:
+  - uid: Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+    name: RaiseChanged
+    nameWithType: DigitalInputPortBase.RaiseChanged
+    fullName: Meadow.Hardware.DigitalInputPortBase.RaiseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.DigitalInputPortBase.RaiseChanged(System.Boolean)
+    name: RaiseChanged
+    nameWithType: DigitalInputPortBase.RaiseChanged
+    fullName: Meadow.Hardware.DigitalInputPortBase.RaiseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.DigitalPortBase.DirectionType
+  commentId: P:Meadow.Hardware.DigitalPortBase.DirectionType
+  parent: Meadow.Hardware.DigitalPortBase
+  name: DirectionType
+  nameWithType: DigitalPortBase.DirectionType
+  fullName: Meadow.Hardware.DigitalPortBase.DirectionType
+- uid: Meadow.Hardware.DigitalPortBase._direction
+  commentId: F:Meadow.Hardware.DigitalPortBase._direction
+  parent: Meadow.Hardware.DigitalPortBase
+  name: _direction
+  nameWithType: DigitalPortBase._direction
+  fullName: Meadow.Hardware.DigitalPortBase._direction
+- uid: Meadow.Hardware.DigitalPortBase.SignalType
+  commentId: P:Meadow.Hardware.DigitalPortBase.SignalType
+  parent: Meadow.Hardware.DigitalPortBase
+  name: SignalType
+  nameWithType: DigitalPortBase.SignalType
+  fullName: Meadow.Hardware.DigitalPortBase.SignalType
+- uid: Meadow.Hardware.DigitalPortBase.State
+  commentId: P:Meadow.Hardware.DigitalPortBase.State
+  parent: Meadow.Hardware.DigitalPortBase
+  name: State
+  nameWithType: DigitalPortBase.State
+  fullName: Meadow.Hardware.DigitalPortBase.State
+- uid: Meadow.Hardware.DigitalPortBase._state
+  commentId: F:Meadow.Hardware.DigitalPortBase._state
+  parent: Meadow.Hardware.DigitalPortBase
+  name: _state
+  nameWithType: DigitalPortBase._state
+  fullName: Meadow.Hardware.DigitalPortBase._state
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Hardware.DigitalInputPort.GlitchFilter*
+  commentId: Overload:Meadow.Hardware.DigitalInputPort.GlitchFilter
+  name: GlitchFilter
+  nameWithType: DigitalInputPort.GlitchFilter
+  fullName: Meadow.Hardware.DigitalInputPort.GlitchFilter
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Hardware.DigitalInputPort.Resistor*
+  commentId: Overload:Meadow.Hardware.DigitalInputPort.Resistor
+  name: Resistor
+  nameWithType: DigitalInputPort.Resistor
+  fullName: Meadow.Hardware.DigitalInputPort.Resistor
+- uid: Meadow.Hardware.ResistorMode
+  commentId: T:Meadow.Hardware.ResistorMode
+  parent: Meadow.Hardware
+  name: ResistorMode
+  nameWithType: ResistorMode
+  fullName: Meadow.Hardware.ResistorMode
+- uid: Meadow.Hardware.DigitalInputPort.#ctor*
+  commentId: Overload:Meadow.Hardware.DigitalInputPort.#ctor
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort.DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort.DigitalInputPort
+- uid: Meadow.Hardware.IDigitalChannel
+  commentId: T:Meadow.Hardware.IDigitalChannel
+  parent: Meadow.Hardware
+  name: IDigitalChannel
+  nameWithType: IDigitalChannel
+  fullName: Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.DigitalInputPortBase.Value
+  commentId: P:Meadow.Hardware.DigitalInputPortBase.Value
+  parent: Meadow.Hardware.DigitalInputPortBase
+  name: Value
+  nameWithType: DigitalInputPortBase.Value
+  fullName: Meadow.Hardware.DigitalInputPortBase.Value
+- uid: Meadow.Hardware.DigitalInputPort.Value*
+  commentId: Overload:Meadow.Hardware.DigitalInputPort.Value
+  name: Value
+  nameWithType: DigitalInputPort.Value
+  fullName: Meadow.Hardware.DigitalInputPort.Value

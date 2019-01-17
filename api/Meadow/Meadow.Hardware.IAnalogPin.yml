@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Hardware.IAnalogPin
+  commentId: T:Meadow.Hardware.IAnalogPin
+  id: IAnalogPin
+  parent: Meadow.Hardware
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAnalogPin
+  nameWithType: IAnalogPin
+  fullName: Meadow.Hardware.IAnalogPin
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IAnalogPin.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IAnalogPin
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogPin.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: 'public interface IAnalogPin : IPin, IAnalogChannel'
+    content.vb: >-
+      Public Interface IAnalogPin
+
+          Inherits IPin, IAnalogChannel
+  inheritedMembers:
+  - Meadow.Hardware.IPin.Name
+  - Meadow.Hardware.IPin.Address
+  - Meadow.Hardware.IAnalogChannel.Precision
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.IPin.Name
+  commentId: P:Meadow.Hardware.IPin.Name
+  parent: Meadow.Hardware.IPin
+  name: Name
+  nameWithType: IPin.Name
+  fullName: Meadow.Hardware.IPin.Name
+- uid: Meadow.Hardware.IPin.Address
+  commentId: P:Meadow.Hardware.IPin.Address
+  parent: Meadow.Hardware.IPin
+  name: Address
+  nameWithType: IPin.Address
+  fullName: Meadow.Hardware.IPin.Address
+- uid: Meadow.Hardware.IAnalogChannel.Precision
+  commentId: P:Meadow.Hardware.IAnalogChannel.Precision
+  parent: Meadow.Hardware.IAnalogChannel
+  name: Precision
+  nameWithType: IAnalogChannel.Precision
+  fullName: Meadow.Hardware.IAnalogChannel.Precision
+- uid: Meadow.Hardware.IPin
+  commentId: T:Meadow.Hardware.IPin
+  parent: Meadow.Hardware
+  name: IPin
+  nameWithType: IPin
+  fullName: Meadow.Hardware.IPin
+- uid: Meadow.Hardware.IAnalogChannel
+  commentId: T:Meadow.Hardware.IAnalogChannel
+  parent: Meadow.Hardware
+  name: IAnalogChannel
+  nameWithType: IAnalogChannel
+  fullName: Meadow.Hardware.IAnalogChannel

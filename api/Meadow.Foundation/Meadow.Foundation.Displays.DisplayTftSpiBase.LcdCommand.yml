@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  commentId: T:Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  id: DisplayTftSpiBase.LcdCommand
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.CASET
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RAMWR
+  - Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RASET
+  langs:
+  - csharp
+  - vb
+  name: DisplayTftSpiBase.LcdCommand
+  nameWithType: DisplayTftSpiBase.LcdCommand
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LcdCommand
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 10
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: 'public enum LcdCommand : int'
+    content.vb: Public Enum LcdCommand As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.CASET
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.CASET
+  id: CASET
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  langs:
+  - csharp
+  - vb
+  name: CASET
+  nameWithType: DisplayTftSpiBase.LcdCommand.CASET
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.CASET
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CASET
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 12
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: CASET = null
+    return:
+      type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: CASET = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RASET
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RASET
+  id: RASET
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  langs:
+  - csharp
+  - vb
+  name: RASET
+  nameWithType: DisplayTftSpiBase.LcdCommand.RASET
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RASET
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RASET
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 13
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: RASET = null
+    return:
+      type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: RASET = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RAMWR
+  commentId: F:Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RAMWR
+  id: RAMWR
+  parent: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  langs:
+  - csharp
+  - vb
+  name: RAMWR
+  nameWithType: DisplayTftSpiBase.LcdCommand.RAMWR
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand.RAMWR
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RAMWR
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TFTSPI/DisplayTFTSPIBase.cs
+    startLine: 14
+  assemblies:
+  - Displays.TFTSPI
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: RAMWR = null
+    return:
+      type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: RAMWR = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  commentId: T:Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+  parent: Meadow.Foundation.Displays
+  name: DisplayTftSpiBase.LcdCommand
+  nameWithType: DisplayTftSpiBase.LcdCommand
+  fullName: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand

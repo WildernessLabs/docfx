@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateways.Bluetooth
+  commentId: N:Meadow.Gateways.Bluetooth
+  id: Meadow.Gateways.Bluetooth
+  children:
+  - Meadow.Gateways.Bluetooth.AdapterCapabilities
+  - Meadow.Gateways.Bluetooth.BluetoothAdapter
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Gateways.Bluetooth
+  nameWithType: Meadow.Gateways.Bluetooth
+  fullName: Meadow.Gateways.Bluetooth
+  type: Namespace
+  assemblies:
+  - Meadow.Core
+references:
+- uid: Meadow.Gateways.Bluetooth.AdapterCapabilities
+  commentId: T:Meadow.Gateways.Bluetooth.AdapterCapabilities
+  parent: Meadow.Gateways.Bluetooth
+  name: AdapterCapabilities
+  nameWithType: AdapterCapabilities
+  fullName: Meadow.Gateways.Bluetooth.AdapterCapabilities
+- uid: Meadow.Gateways.Bluetooth.BluetoothAdapter
+  commentId: T:Meadow.Gateways.Bluetooth.BluetoothAdapter
+  name: BluetoothAdapter
+  nameWithType: BluetoothAdapter
+  fullName: Meadow.Gateways.Bluetooth.BluetoothAdapter
+- uid: Meadow.Gateways.Bluetooth
+  commentId: N:Meadow.Gateways.Bluetooth
+  name: Meadow.Gateways.Bluetooth
+  nameWithType: Meadow.Gateways.Bluetooth
+  fullName: Meadow.Gateways.Bluetooth

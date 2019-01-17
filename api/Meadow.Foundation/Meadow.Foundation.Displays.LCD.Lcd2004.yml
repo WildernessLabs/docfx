@@ -1,0 +1,1110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004
+  commentId: T:Meadow.Foundation.Displays.LCD.Lcd2004
+  id: Lcd2004
+  parent: Meadow.Foundation.Displays.LCD
+  children:
+  - Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.Clear
+  - Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine(System.Byte)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D4
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D5
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D6
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D7
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_E
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LCD_RS
+  - Meadow.Foundation.Displays.LCD.Lcd2004.LED_ON
+  - Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter(System.Byte[],System.Byte)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness(System.Single)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition(System.Byte,System.Byte)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.Write(System.String)
+  - Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine(System.String,System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: Lcd2004
+  nameWithType: Lcd2004
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Lcd2004
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 14
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: 'public class Lcd2004 : object, ITextDisplay'
+    content.vb: >-
+      Public Class Lcd2004
+
+          Inherits Object
+
+          Implements ITextDisplay
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_E
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_E
+  id: LCD_E
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_E
+  nameWithType: Lcd2004.LCD_E
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_E
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_E
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 24
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_E
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_E As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_RS
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_RS
+  id: LCD_RS
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_RS
+  nameWithType: Lcd2004.LCD_RS
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_RS
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_RS
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 25
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_RS
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_RS As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D4
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D4
+  id: LCD_D4
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_D4
+  nameWithType: Lcd2004.LCD_D4
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D4
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_D4
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 26
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_D4
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_D4 As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D5
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D5
+  id: LCD_D5
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_D5
+  nameWithType: Lcd2004.LCD_D5
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D5
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_D5
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 27
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_D5
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_D5 As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D6
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D6
+  id: LCD_D6
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_D6
+  nameWithType: Lcd2004.LCD_D6
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D6
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_D6
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 28
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_D6
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_D6 As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D7
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D7
+  id: LCD_D7
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LCD_D7
+  nameWithType: Lcd2004.LCD_D7
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LCD_D7
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LCD_D7
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 29
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LCD_D7
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LCD_D7 As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.LED_ON
+  commentId: F:Meadow.Foundation.Displays.LCD.Lcd2004.LED_ON
+  id: LED_ON
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: LED_ON
+  nameWithType: Lcd2004.LED_ON
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.LED_ON
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LED_ON
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 30
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: protected IDigitalOutputPort LED_ON
+    return:
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Protected LED_ON As IDigitalOutputPort
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+  commentId: P:Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+  id: DisplayConfig
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfig
+  nameWithType: Lcd2004.DisplayConfig
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayConfig
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 36
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public TextDisplayConfig DisplayConfig { get; protected set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.TextDisplayConfig
+    content.vb: Public Property DisplayConfig As TextDisplayConfig
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.DisplayConfig
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)'
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: Lcd2004(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin)
+  nameWithType: Lcd2004.Lcd2004(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Lcd2004(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 38
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public Lcd2004(IDigitalPin RS, IDigitalPin E, IDigitalPin D4, IDigitalPin D5, IDigitalPin D6, IDigitalPin D7)
+    parameters:
+    - id: RS
+      type: Meadow.Hardware.IDigitalPin
+    - id: E
+      type: Meadow.Hardware.IDigitalPin
+    - id: D4
+      type: Meadow.Hardware.IDigitalPin
+    - id: D5
+      type: Meadow.Hardware.IDigitalPin
+    - id: D6
+      type: Meadow.Hardware.IDigitalPin
+    - id: D7
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Public Sub New(RS As IDigitalPin, E As IDigitalPin, D4 As IDigitalPin, D5 As IDigitalPin, D6 As IDigitalPin, D7 As IDigitalPin)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.#ctor(Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008)
+  id: '#ctor(Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008)'
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: Lcd2004(MCP23008)
+  nameWithType: Lcd2004.Lcd2004(MCP23008)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Lcd2004(Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 52
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public Lcd2004(MCP23008 mcp)
+    parameters:
+    - id: mcp
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+    content.vb: Public Sub New(mcp As MCP23008)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine(System.String,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine(System.String,System.Byte)
+  id: WriteLine(System.String,System.Byte)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(String, Byte)
+  nameWithType: Lcd2004.WriteLine(String, Byte)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine(System.String, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteLine
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 133
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void WriteLine(string text, byte lineNumber)
+    parameters:
+    - id: text
+      type: System.String
+    - id: lineNumber
+      type: System.Byte
+    content.vb: Public Sub WriteLine(text As String, lineNumber As Byte)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String,System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.Write(System.String)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.Write(System.String)
+  id: Write(System.String)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: Write(String)
+  nameWithType: Lcd2004.Write(String)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Write(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Write
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 145
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void Write(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub Write(text As String)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.Write*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition(System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition(System.Byte,System.Byte)
+  id: SetCursorPosition(System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: SetCursorPosition(Byte, Byte)
+  nameWithType: Lcd2004.SetCursorPosition(Byte, Byte)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition(System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetCursorPosition
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 154
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void SetCursorPosition(byte column, byte line)
+    parameters:
+    - id: column
+      type: System.Byte
+    - id: line
+      type: System.Byte
+    content.vb: Public Sub SetCursorPosition(column As Byte, line As Byte)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte,System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.Clear
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.Clear
+  id: Clear
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: Lcd2004.Clear()
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Clear()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 161
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.Clear*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.Clear
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine(System.Byte)
+  id: ClearLine(System.Byte)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: ClearLine(Byte)
+  nameWithType: Lcd2004.ClearLine(Byte)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ClearLine
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 168
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void ClearLine(byte lineNumber)
+    parameters:
+    - id: lineNumber
+      type: System.Byte
+    content.vb: Public Sub ClearLine(lineNumber As Byte)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness(System.Single)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness(System.Single)
+  id: SetBrightness(System.Single)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: SetBrightness(Single)
+  nameWithType: Lcd2004.SetBrightness(Single)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetBrightness
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 178
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void SetBrightness(float brightness = 0.75F)
+    parameters:
+    - id: brightness
+      type: System.Single
+    content.vb: Public Sub SetBrightness(brightness As Single = 0.75F)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter(System.Byte[],System.Byte)
+  commentId: M:Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter(System.Byte[],System.Byte)
+  id: SaveCustomCharacter(System.Byte[],System.Byte)
+  parent: Meadow.Foundation.Displays.LCD.Lcd2004
+  langs:
+  - csharp
+  - vb
+  name: SaveCustomCharacter(Byte[], Byte)
+  nameWithType: Lcd2004.SaveCustomCharacter(Byte[], Byte)
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter(System.Byte[], System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SaveCustomCharacter
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LCD.Lcd2004/Lcd2004.cs
+    startLine: 183
+  assemblies:
+  - Displays.LCD.Lcd2004
+  namespace: Meadow.Foundation.Displays.LCD
+  syntax:
+    content: public void SaveCustomCharacter(byte[] characterMap, byte address)
+    parameters:
+    - id: characterMap
+      type: System.Byte[]
+    - id: address
+      type: System.Byte
+    content.vb: Public Sub SaveCustomCharacter(characterMap As Byte(), address As Byte)
+  overload: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter*
+  implements:
+  - Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[],System.Byte)
+  nameWithType.vb: Lcd2004.SaveCustomCharacter(Byte(), Byte)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter(System.Byte(), System.Byte)
+  name.vb: SaveCustomCharacter(Byte(), Byte)
+references:
+- uid: Meadow.Foundation.Displays.LCD
+  commentId: N:Meadow.Foundation.Displays.LCD
+  name: Meadow.Foundation.Displays.LCD
+  nameWithType: Meadow.Foundation.Displays.LCD
+  fullName: Meadow.Foundation.Displays.LCD
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.ITextDisplay
+  commentId: T:Meadow.Foundation.Displays.ITextDisplay
+  parent: Meadow.Foundation.Displays
+  name: ITextDisplay
+  nameWithType: ITextDisplay
+  fullName: Meadow.Foundation.Displays.ITextDisplay
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
+  parent: Meadow.Hardware
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+  name: DisplayConfig
+  nameWithType: Lcd2004.DisplayConfig
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.DisplayConfig
+- uid: Meadow.Foundation.Displays.ITextDisplay.DisplayConfig
+  commentId: P:Meadow.Foundation.Displays.ITextDisplay.DisplayConfig
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  name: DisplayConfig
+  nameWithType: ITextDisplay.DisplayConfig
+  fullName: Meadow.Foundation.Displays.ITextDisplay.DisplayConfig
+- uid: Meadow.Foundation.Displays.TextDisplayConfig
+  commentId: T:Meadow.Foundation.Displays.TextDisplayConfig
+  parent: Meadow.Foundation.Displays
+  name: TextDisplayConfig
+  nameWithType: TextDisplayConfig
+  fullName: Meadow.Foundation.Displays.TextDisplayConfig
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.#ctor
+  name: Lcd2004
+  nameWithType: Lcd2004.Lcd2004
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Lcd2004
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: MCP23008
+  nameWithType: MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine
+  name: WriteLine
+  nameWithType: Lcd2004.WriteLine
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.WriteLine
+- uid: Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String,System.Byte)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: WriteLine(String, Byte)
+  nameWithType: ITextDisplay.WriteLine(String, Byte)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String, System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String,System.Byte)
+    name: WriteLine
+    nameWithType: ITextDisplay.WriteLine
+    fullName: Meadow.Foundation.Displays.ITextDisplay.WriteLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.WriteLine(System.String,System.Byte)
+    name: WriteLine
+    nameWithType: ITextDisplay.WriteLine
+    fullName: Meadow.Foundation.Displays.ITextDisplay.WriteLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.Write*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.Write
+  name: Write
+  nameWithType: Lcd2004.Write
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Write
+- uid: Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: Write(String)
+  nameWithType: ITextDisplay.Write(String)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+    name: Write
+    nameWithType: ITextDisplay.Write
+    fullName: Meadow.Foundation.Displays.ITextDisplay.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.Write(System.String)
+    name: Write
+    nameWithType: ITextDisplay.Write
+    fullName: Meadow.Foundation.Displays.ITextDisplay.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition
+  name: SetCursorPosition
+  nameWithType: Lcd2004.SetCursorPosition
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SetCursorPosition
+- uid: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte,System.Byte)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte,System.Byte)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: SetCursorPosition(Byte, Byte)
+  nameWithType: ITextDisplay.SetCursorPosition(Byte, Byte)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte, System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte,System.Byte)
+    name: SetCursorPosition
+    nameWithType: ITextDisplay.SetCursorPosition
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition(System.Byte,System.Byte)
+    name: SetCursorPosition
+    nameWithType: ITextDisplay.SetCursorPosition
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SetCursorPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.Clear*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.Clear
+  name: Clear
+  nameWithType: Lcd2004.Clear
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.Clear
+- uid: Meadow.Foundation.Displays.ITextDisplay.Clear
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.Clear
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  name: Clear()
+  nameWithType: ITextDisplay.Clear()
+  fullName: Meadow.Foundation.Displays.ITextDisplay.Clear()
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.Clear
+    name: Clear
+    nameWithType: ITextDisplay.Clear
+    fullName: Meadow.Foundation.Displays.ITextDisplay.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.Clear
+    name: Clear
+    nameWithType: ITextDisplay.Clear
+    fullName: Meadow.Foundation.Displays.ITextDisplay.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine
+  name: ClearLine
+  nameWithType: Lcd2004.ClearLine
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.ClearLine
+- uid: Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: ClearLine(Byte)
+  nameWithType: ITextDisplay.ClearLine(Byte)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+    name: ClearLine
+    nameWithType: ITextDisplay.ClearLine
+    fullName: Meadow.Foundation.Displays.ITextDisplay.ClearLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.ClearLine(System.Byte)
+    name: ClearLine
+    nameWithType: ITextDisplay.ClearLine
+    fullName: Meadow.Foundation.Displays.ITextDisplay.ClearLine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness
+  name: SetBrightness
+  nameWithType: Lcd2004.SetBrightness
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SetBrightness
+- uid: Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: SetBrightness(Single)
+  nameWithType: ITextDisplay.SetBrightness(Single)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+    name: SetBrightness
+    nameWithType: ITextDisplay.SetBrightness
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SetBrightness
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SetBrightness(System.Single)
+    name: SetBrightness
+    nameWithType: ITextDisplay.SetBrightness
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SetBrightness
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter*
+  commentId: Overload:Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter
+  name: SaveCustomCharacter
+  nameWithType: Lcd2004.SaveCustomCharacter
+  fullName: Meadow.Foundation.Displays.LCD.Lcd2004.SaveCustomCharacter
+- uid: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[],System.Byte)
+  commentId: M:Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[],System.Byte)
+  parent: Meadow.Foundation.Displays.ITextDisplay
+  isExternal: true
+  name: SaveCustomCharacter(Byte[], Byte)
+  nameWithType: ITextDisplay.SaveCustomCharacter(Byte[], Byte)
+  fullName: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[], System.Byte)
+  nameWithType.vb: ITextDisplay.SaveCustomCharacter(Byte(), Byte)
+  fullName.vb: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte(), System.Byte)
+  name.vb: SaveCustomCharacter(Byte(), Byte)
+  spec.csharp:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[],System.Byte)
+    name: SaveCustomCharacter
+    nameWithType: ITextDisplay.SaveCustomCharacter
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter(System.Byte[],System.Byte)
+    name: SaveCustomCharacter
+    nameWithType: ITextDisplay.SaveCustomCharacter
+    fullName: Meadow.Foundation.Displays.ITextDisplay.SaveCustomCharacter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

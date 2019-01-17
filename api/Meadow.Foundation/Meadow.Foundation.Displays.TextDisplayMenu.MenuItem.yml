@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  id: MenuItem
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  children:
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String)
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String,System.String,System.String,System.String,System.Object)
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+  - Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+  langs:
+  - csharp
+  - vb
+  name: MenuItem
+  nameWithType: MenuItem
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MenuItem
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 6
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: 'public class MenuItem : object, IMenuItem'
+    content.vb: >-
+      Public Class MenuItem
+
+          Inherits Object
+
+          Implements IMenuItem
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+  id: SubMenu
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: SubMenu
+  nameWithType: MenuItem.SubMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SubMenu
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 8
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public MenuPage SubMenu { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+    content.vb: Public Property SubMenu As MenuPage
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu*
+  implements:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.SubMenu
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+  id: Text
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: MenuItem.Text
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Text
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 11
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text*
+  implements:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+  id: Command
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: MenuItem.Command
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Command
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 13
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public string Command { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Command As String
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+  id: Type
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MenuItem.Type
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Type
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 15
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+  id: ItemID
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: ItemID
+  nameWithType: MenuItem.ItemID
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ItemID
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 17
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public string ItemID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ItemID As String
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+  id: Value
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MenuItem.Value
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Value
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 19
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public object Value { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Value As Object
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value*
+  implements:
+  - Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: MenuItem(String)
+  nameWithType: MenuItem.MenuItem(String)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.MenuItem(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 21
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public MenuItem(string displayText)
+    parameters:
+    - id: displayText
+      type: System.String
+    content.vb: Public Sub New(displayText As String)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String,System.String,System.String,System.String,System.Object)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor(System.String,System.String,System.String,System.String,System.Object)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.Object)'
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem
+  langs:
+  - csharp
+  - vb
+  name: MenuItem(String, String, String, String, Object)
+  nameWithType: MenuItem.MenuItem(String, String, String, String, Object)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.MenuItem(System.String, System.String, System.String, System.String, System.Object)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/MenuItemBase.cs
+    startLine: 26
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public MenuItem(string displayText, string command, string id, string type, object value)
+    parameters:
+    - id: displayText
+      type: System.String
+    - id: command
+      type: System.String
+    - id: id
+      type: System.String
+    - id: type
+      type: System.String
+    - id: value
+      type: System.Object
+    content.vb: Public Sub New(displayText As String, command As String, id As String, type As String, value As Object)
+  overload: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: IMenuItem
+  nameWithType: IMenuItem
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+  name: SubMenu
+  nameWithType: MenuItem.SubMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.SubMenu
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.SubMenu
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.SubMenu
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  name: SubMenu
+  nameWithType: IMenuItem.SubMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.SubMenu
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: MenuPage
+  nameWithType: MenuPage
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuPage
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+  name: Text
+  nameWithType: MenuItem.Text
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Text
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Text
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Text
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  name: Text
+  nameWithType: IMenuItem.Text
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+  name: Command
+  nameWithType: MenuItem.Command
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Command
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+  name: Type
+  nameWithType: MenuItem.Type
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Type
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+  name: ItemID
+  nameWithType: MenuItem.ItemID
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.ItemID
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+  name: Value
+  nameWithType: MenuItem.Value
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.Value
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
+  commentId: P:Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
+  parent: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem
+  name: Value
+  nameWithType: IMenuItem.Value
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.IMenuItem.Value
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor*
+  commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.#ctor
+  name: MenuItem
+  nameWithType: MenuItem.MenuItem
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuItem.MenuItem

@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Controllers.PID.IPidController
+  commentId: T:Meadow.Foundation.Controllers.PID.IPidController
+  id: IPidController
+  parent: Meadow.Foundation.Controllers.PID
+  children:
+  - Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+  - Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput
+  - Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+  - Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+  - Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+  - Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+  - Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+  - Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+  - Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator
+  - Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+  langs:
+  - csharp
+  - vb
+  name: IPidController
+  nameWithType: IPidController
+  fullName: Meadow.Foundation.Controllers.PID.IPidController
+  type: Interface
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IPidController
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 2
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: public interface IPidController
+    content.vb: Public Interface IPidController
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+  id: ProportionalComponent
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: ProportionalComponent
+  nameWithType: IPidController.ProportionalComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ProportionalComponent
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 4
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float ProportionalComponent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property ProportionalComponent As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+  id: IntegralComponent
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: IntegralComponent
+  nameWithType: IPidController.IntegralComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IntegralComponent
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float IntegralComponent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property IntegralComponent As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+  id: DerivativeComponent
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: DerivativeComponent
+  nameWithType: IPidController.DerivativeComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DerivativeComponent
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float DerivativeComponent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property DerivativeComponent As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+  id: OutputMin
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: OutputMin
+  nameWithType: IPidController.OutputMin
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OutputMin
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float OutputMin { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property OutputMin As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.OutputMin*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+  id: OutputMax
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: OutputMax
+  nameWithType: IPidController.OutputMax
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OutputMax
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float OutputMax { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property OutputMax As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.OutputMax*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+  id: OutputTuningInformation
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: OutputTuningInformation
+  nameWithType: IPidController.OutputTuningInformation
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OutputTuningInformation
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: bool OutputTuningInformation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property OutputTuningInformation As Boolean
+  overload: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+  id: ActualInput
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: ActualInput
+  nameWithType: IPidController.ActualInput
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActualInput
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 10
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float ActualInput { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property ActualInput As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.ActualInput*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+  commentId: P:Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+  id: TargetInput
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: TargetInput
+  nameWithType: IPidController.TargetInput
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TargetInput
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 11
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float TargetInput { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property TargetInput As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.TargetInput*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator
+  commentId: M:Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator
+  id: ResetIntegrator
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: ResetIntegrator()
+  nameWithType: IPidController.ResetIntegrator()
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ResetIntegrator
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: void ResetIntegrator()
+    content.vb: Sub ResetIntegrator
+  overload: Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator*
+- uid: Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput
+  commentId: M:Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput
+  id: CalculateControlOutput
+  parent: Meadow.Foundation.Controllers.PID.IPidController
+  langs:
+  - csharp
+  - vb
+  name: CalculateControlOutput()
+  nameWithType: IPidController.CalculateControlOutput()
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput()
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CalculateControlOutput
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Controllers/PID/IPidController.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Controllers.PID
+  syntax:
+    content: float CalculateControlOutput()
+    return:
+      type: System.Single
+    content.vb: Function CalculateControlOutput As Single
+  overload: Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput*
+references:
+- uid: Meadow.Foundation.Controllers.PID
+  commentId: N:Meadow.Foundation.Controllers.PID
+  name: Meadow.Foundation.Controllers.PID
+  nameWithType: Meadow.Foundation.Controllers.PID
+  fullName: Meadow.Foundation.Controllers.PID
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+  name: ProportionalComponent
+  nameWithType: IPidController.ProportionalComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ProportionalComponent
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+  name: IntegralComponent
+  nameWithType: IPidController.IntegralComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.IntegralComponent
+- uid: Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+  name: DerivativeComponent
+  nameWithType: IPidController.DerivativeComponent
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.DerivativeComponent
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputMin*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+  name: OutputMin
+  nameWithType: IPidController.OutputMin
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputMin
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputMax*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+  name: OutputMax
+  nameWithType: IPidController.OutputMax
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputMax
+- uid: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+  name: OutputTuningInformation
+  nameWithType: IPidController.OutputTuningInformation
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.OutputTuningInformation
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ActualInput*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+  name: ActualInput
+  nameWithType: IPidController.ActualInput
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ActualInput
+- uid: Meadow.Foundation.Controllers.PID.IPidController.TargetInput*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+  name: TargetInput
+  nameWithType: IPidController.TargetInput
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.TargetInput
+- uid: Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator
+  name: ResetIntegrator
+  nameWithType: IPidController.ResetIntegrator
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.ResetIntegrator
+- uid: Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput*
+  commentId: Overload:Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput
+  name: CalculateControlOutput
+  nameWithType: IPidController.CalculateControlOutput
+  fullName: Meadow.Foundation.Controllers.PID.IPidController.CalculateControlOutput

@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  commentId: T:Meadow.Foundation.Sensors.SensorVectorEventArgs
+  id: SensorVectorEventArgs
+  parent: Meadow.Foundation.Sensors
+  children:
+  - Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor(Meadow.Foundation.Spatial.Vector,Meadow.Foundation.Spatial.Vector)
+  - Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+  - Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+  langs:
+  - csharp
+  - vb
+  name: SensorVectorEventArgs
+  nameWithType: SensorVectorEventArgs
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorVectorEventArgs
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nClass to be used when sending Vector sensor data to the application\nthrough the eventing mechanism.\n"
+  example: []
+  syntax:
+    content: 'public class SensorVectorEventArgs : EventArgs'
+    content.vb: >-
+      Public Class SensorVectorEventArgs
+
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+  commentId: P:Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+  id: LastNotifiedValue
+  parent: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: LastNotifiedValue
+  nameWithType: SensorVectorEventArgs.LastNotifiedValue
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LastNotifiedValue
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nLast value read from the sensor AND sent to the user in a notification.\n"
+  example: []
+  syntax:
+    content: public Vector LastNotifiedValue { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public Property LastNotifiedValue As Vector
+  overload: Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+  commentId: P:Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+  id: CurrentValue
+  parent: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: CurrentValue
+  nameWithType: SensorVectorEventArgs.CurrentValue
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+  type: Property
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CurrentValue
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nCurrent sensor reading.\n"
+  example: []
+  syntax:
+    content: public Vector CurrentValue { get; set; }
+    parameters: []
+    return:
+      type: Meadow.Foundation.Spatial.Vector
+    content.vb: Public Property CurrentValue As Vector
+  overload: Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor(Meadow.Foundation.Spatial.Vector,Meadow.Foundation.Spatial.Vector)
+  commentId: M:Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor(Meadow.Foundation.Spatial.Vector,Meadow.Foundation.Spatial.Vector)
+  id: '#ctor(Meadow.Foundation.Spatial.Vector,Meadow.Foundation.Spatial.Vector)'
+  parent: Meadow.Foundation.Sensors.SensorVectorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SensorVectorEventArgs(Vector, Vector)
+  nameWithType: SensorVectorEventArgs.SensorVectorEventArgs(Vector, Vector)
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.SensorVectorEventArgs(Meadow.Foundation.Spatial.Vector, Meadow.Foundation.Spatial.Vector)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Sensors/SensorVectorEventArgs.cs
+    startLine: 26
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Sensors
+  summary: "\nConstructor for SensorVectorEventArgs objects.\n"
+  example: []
+  syntax:
+    content: public SensorVectorEventArgs(Vector lastValue, Vector currentValue)
+    parameters:
+    - id: lastValue
+      type: Meadow.Foundation.Spatial.Vector
+      description: Last sensor value sent through the eventing mechanism.
+    - id: currentValue
+      type: Meadow.Foundation.Spatial.Vector
+      description: Current sensor reading.
+    content.vb: Public Sub New(lastValue As Vector, currentValue As Vector)
+  overload: Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue*
+  commentId: Overload:Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+  name: LastNotifiedValue
+  nameWithType: SensorVectorEventArgs.LastNotifiedValue
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.LastNotifiedValue
+- uid: Meadow.Foundation.Spatial.Vector
+  commentId: T:Meadow.Foundation.Spatial.Vector
+  parent: Meadow.Foundation.Spatial
+  name: Vector
+  nameWithType: Vector
+  fullName: Meadow.Foundation.Spatial.Vector
+- uid: Meadow.Foundation.Spatial
+  commentId: N:Meadow.Foundation.Spatial
+  name: Meadow.Foundation.Spatial
+  nameWithType: Meadow.Foundation.Spatial
+  fullName: Meadow.Foundation.Spatial
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue*
+  commentId: Overload:Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+  name: CurrentValue
+  nameWithType: SensorVectorEventArgs.CurrentValue
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.CurrentValue
+- uid: Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.SensorVectorEventArgs.#ctor
+  name: SensorVectorEventArgs
+  nameWithType: SensorVectorEventArgs.SensorVectorEventArgs
+  fullName: Meadow.Foundation.Sensors.SensorVectorEventArgs.SensorVectorEventArgs

@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  id: BNO055.SystemStatusCodes
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmNotUsed
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmRunning
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.Idle
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.PeripheralInitializationInProgess
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SelfTestInProgress
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemError
+  - Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemInitializationInProgress
+  langs:
+  - csharp
+  - vb
+  name: BNO055.SystemStatusCodes
+  nameWithType: BNO055.SystemStatusCodes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SystemStatusCodes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 84
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSystem status codes.\n"
+  example: []
+  syntax:
+    content: 'public enum SystemStatusCodes : byte'
+    content.vb: Public Enum SystemStatusCodes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.Idle
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.Idle
+  id: Idle
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: BNO055.SystemStatusCodes.Idle
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.Idle
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Idle
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 89
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSystem is idle.\n"
+  example: []
+  syntax:
+    content: Idle = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: Idle = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemError
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemError
+  id: SystemError
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: SystemError
+  nameWithType: BNO055.SystemStatusCodes.SystemError
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemError
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SystemError
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 94
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSystem error.\n"
+  example: []
+  syntax:
+    content: SystemError = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: SystemError = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.PeripheralInitializationInProgess
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.PeripheralInitializationInProgess
+  id: PeripheralInitializationInProgess
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: PeripheralInitializationInProgess
+  nameWithType: BNO055.SystemStatusCodes.PeripheralInitializationInProgess
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.PeripheralInitializationInProgess
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PeripheralInitializationInProgess
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 99
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPeripheral initialization in progess.\n"
+  example: []
+  syntax:
+    content: PeripheralInitializationInProgess = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: PeripheralInitializationInProgess = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemInitializationInProgress
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemInitializationInProgress
+  id: SystemInitializationInProgress
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: SystemInitializationInProgress
+  nameWithType: BNO055.SystemStatusCodes.SystemInitializationInProgress
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SystemInitializationInProgress
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SystemInitializationInProgress
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 104
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSystem is initializing.\n"
+  example: []
+  syntax:
+    content: SystemInitializationInProgress = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: SystemInitializationInProgress = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SelfTestInProgress
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SelfTestInProgress
+  id: SelfTestInProgress
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: SelfTestInProgress
+  nameWithType: BNO055.SystemStatusCodes.SelfTestInProgress
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.SelfTestInProgress
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SelfTestInProgress
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 109
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSelf test is running.\n"
+  example: []
+  syntax:
+    content: SelfTestInProgress = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: SelfTestInProgress = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmRunning
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmRunning
+  id: FusionAlgorithmRunning
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: FusionAlgorithmRunning
+  nameWithType: BNO055.SystemStatusCodes.FusionAlgorithmRunning
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmRunning
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FusionAlgorithmRunning
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 114
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFusion algorithm is running.\n"
+  example: []
+  syntax:
+    content: FusionAlgorithmRunning = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: FusionAlgorithmRunning = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmNotUsed
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmNotUsed
+  id: FusionAlgorithmNotUsed
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  langs:
+  - csharp
+  - vb
+  name: FusionAlgorithmNotUsed
+  nameWithType: BNO055.SystemStatusCodes.FusionAlgorithmNotUsed
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes.FusionAlgorithmNotUsed
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: FusionAlgorithmNotUsed
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 119
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSystem is running without using the fusion algorithm.\n"
+  example: []
+  syntax:
+    content: FusionAlgorithmNotUsed = null
+    return:
+      type: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+    content.vb: FusionAlgorithmNotUsed = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.SystemStatusCodes
+  nameWithType: BNO055.SystemStatusCodes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes

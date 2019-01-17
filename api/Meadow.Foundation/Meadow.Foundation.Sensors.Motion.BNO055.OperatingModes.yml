@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  id: BNO055.OperatingModes
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Accelerometer
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometeraGyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometer
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometerGyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Compass
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.ConfigurationMode
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Gyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.InertialMeasurementUnit
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetForGyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Magnetometer
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetometerGyroscope
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MaximumValue
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedom
+  - Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedomMagnetometerCalibrationOff
+  langs:
+  - csharp
+  - vb
+  name: BNO055.OperatingModes
+  nameWithType: BNO055.OperatingModes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: OperatingModes
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1347
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPossible operating modes for the sensor.\n"
+  example: []
+  syntax:
+    content: 'public static class OperatingModes : object'
+    content.vb: >-
+      Public Module OperatingModes
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.ConfigurationMode
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.ConfigurationMode
+  id: ConfigurationMode
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationMode
+  nameWithType: BNO055.OperatingModes.ConfigurationMode
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.ConfigurationMode
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigurationMode
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1352
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPut the sensor into configuration mode.\n"
+  example: []
+  syntax:
+    content: public static readonly byte ConfigurationMode
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly ConfigurationMode As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Accelerometer
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Accelerometer
+  id: Accelerometer
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: Accelerometer
+  nameWithType: BNO055.OperatingModes.Accelerometer
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Accelerometer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Accelerometer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1357
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the accelerometer only.\n"
+  example: []
+  syntax:
+    content: public static readonly byte Accelerometer
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Accelerometer As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Magnetometer
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Magnetometer
+  id: Magnetometer
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: Magnetometer
+  nameWithType: BNO055.OperatingModes.Magnetometer
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Magnetometer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Magnetometer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1362
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the magnetometer only.\n"
+  example: []
+  syntax:
+    content: public static readonly byte Magnetometer
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Magnetometer As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Gyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Gyroscope
+  id: Gyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: Gyroscope
+  nameWithType: BNO055.OperatingModes.Gyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Gyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Gyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1367
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the gyroscope only.\n"
+  example: []
+  syntax:
+    content: public static readonly byte Gyroscope
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Gyroscope As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometer
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometer
+  id: AccelerometerMagnetometer
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: AccelerometerMagnetometer
+  nameWithType: BNO055.OperatingModes.AccelerometerMagnetometer
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometer
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerometerMagnetometer
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1372
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the accelerometer and the magnetometer.\n"
+  example: []
+  syntax:
+    content: public static readonly byte AccelerometerMagnetometer
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly AccelerometerMagnetometer As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometeraGyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometeraGyroscope
+  id: AccelerometeraGyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: AccelerometeraGyroscope
+  nameWithType: BNO055.OperatingModes.AccelerometeraGyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometeraGyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerometeraGyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1377
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the accelerometer and the gyroscope.\n"
+  example: []
+  syntax:
+    content: public static readonly byte AccelerometeraGyroscope
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly AccelerometeraGyroscope As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetometerGyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetometerGyroscope
+  id: MagnetometerGyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: MagnetometerGyroscope
+  nameWithType: BNO055.OperatingModes.MagnetometerGyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetometerGyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MagnetometerGyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1382
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the magnetometer and the gyroscope.\n"
+  example: []
+  syntax:
+    content: public static readonly byte MagnetometerGyroscope
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly MagnetometerGyroscope As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometerGyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometerGyroscope
+  id: AccelerometerMagnetometerGyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: AccelerometerMagnetometerGyroscope
+  nameWithType: BNO055.OperatingModes.AccelerometerMagnetometerGyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.AccelerometerMagnetometerGyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: AccelerometerMagnetometerGyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1387
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nTurn on the accelerometer, megnetometer and the gyroscope.\n"
+  example: []
+  syntax:
+    content: public static readonly byte AccelerometerMagnetometerGyroscope
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly AccelerometerMagnetometerGyroscope As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.InertialMeasurementUnit
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.InertialMeasurementUnit
+  id: InertialMeasurementUnit
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: InertialMeasurementUnit
+  nameWithType: BNO055.OperatingModes.InertialMeasurementUnit
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.InertialMeasurementUnit
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InertialMeasurementUnit
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1392
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nPut the sensor into fusion mode intertial measurement unit mode.\n"
+  example: []
+  syntax:
+    content: public static readonly byte InertialMeasurementUnit
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly InertialMeasurementUnit As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Compass
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Compass
+  id: Compass
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: Compass
+  nameWithType: BNO055.OperatingModes.Compass
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.Compass
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Compass
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1397
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nOperate as a compass (fusion mode).\n"
+  example: []
+  syntax:
+    content: public static readonly byte Compass
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly Compass As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetForGyroscope
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetForGyroscope
+  id: MagnetForGyroscope
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: MagnetForGyroscope
+  nameWithType: BNO055.OperatingModes.MagnetForGyroscope
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MagnetForGyroscope
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MagnetForGyroscope
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1402
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSimilar to IMU mode but uses the magnetometer instead of the gyroscope (fusion mode).\n"
+  example: []
+  syntax:
+    content: public static readonly byte MagnetForGyroscope
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly MagnetForGyroscope As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedomMagnetometerCalibrationOff
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedomMagnetometerCalibrationOff
+  id: NineDegreesOfFreedomMagnetometerCalibrationOff
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: NineDegreesOfFreedomMagnetometerCalibrationOff
+  nameWithType: BNO055.OperatingModes.NineDegreesOfFreedomMagnetometerCalibrationOff
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedomMagnetometerCalibrationOff
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: NineDegreesOfFreedomMagnetometerCalibrationOff
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1407
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSame as the NineDegreesOfFreedom but with the Fast Magnetometer Calibration turned off (fusion mode).\n"
+  example: []
+  syntax:
+    content: public static readonly byte NineDegreesOfFreedomMagnetometerCalibrationOff
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly NineDegreesOfFreedomMagnetometerCalibrationOff As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedom
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedom
+  id: NineDegreesOfFreedom
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: NineDegreesOfFreedom
+  nameWithType: BNO055.OperatingModes.NineDegreesOfFreedom
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.NineDegreesOfFreedom
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: NineDegreesOfFreedom
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1412
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nFusion of the accelerometer, gyroscope and megnetometer readings (fusion mode).\n"
+  example: []
+  syntax:
+    content: public static readonly byte NineDegreesOfFreedom
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly NineDegreesOfFreedom As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MaximumValue
+  commentId: F:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MaximumValue
+  id: MaximumValue
+  parent: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  langs:
+  - csharp
+  - vb
+  name: MaximumValue
+  nameWithType: BNO055.OperatingModes.MaximumValue
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes.MaximumValue
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MaximumValue
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.BNO055/BNO055.cs
+    startLine: 1417
+  assemblies:
+  - Sensors.Motion.BNO055
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nMaximum value for the operating modes.\n"
+  example: []
+  syntax:
+    content: public static readonly byte MaximumValue
+    return:
+      type: System.Byte
+    content.vb: Public Shared ReadOnly MaximumValue As Byte
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Communications
+  commentId: N:Meadow.Foundation.Communications
+  id: Meadow.Foundation.Communications
+  children:
+  - Meadow.Foundation.Communications.SerialTextFile
+  - Meadow.Foundation.Communications.SerialTextFile.LineReceived
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Communications
+  nameWithType: Meadow.Foundation.Communications
+  fullName: Meadow.Foundation.Communications
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Communications.SerialTextFile
+  commentId: T:Meadow.Foundation.Communications.SerialTextFile
+  name: SerialTextFile
+  nameWithType: SerialTextFile
+  fullName: Meadow.Foundation.Communications.SerialTextFile
+- uid: Meadow.Foundation.Communications.SerialTextFile.LineReceived
+  commentId: T:Meadow.Foundation.Communications.SerialTextFile.LineReceived
+  parent: Meadow.Foundation.Communications
+  name: SerialTextFile.LineReceived
+  nameWithType: SerialTextFile.LineReceived
+  fullName: Meadow.Foundation.Communications.SerialTextFile.LineReceived
+- uid: Meadow.Foundation.Communications
+  commentId: N:Meadow.Foundation.Communications
+  name: Meadow.Foundation.Communications
+  nameWithType: Meadow.Foundation.Communications
+  fullName: Meadow.Foundation.Communications

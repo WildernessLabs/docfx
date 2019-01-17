@@ -1,0 +1,431 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateway.WiFi.PhyType
+  commentId: T:Meadow.Gateway.WiFi.PhyType
+  id: PhyType
+  parent: Meadow.Gateway.WiFi
+  children:
+  - Meadow.Gateway.WiFi.PhyType.Dmg
+  - Meadow.Gateway.WiFi.PhyType.Dsss
+  - Meadow.Gateway.WiFi.PhyType.Erp
+  - Meadow.Gateway.WiFi.PhyType.Fhss
+  - Meadow.Gateway.WiFi.PhyType.HE
+  - Meadow.Gateway.WiFi.PhyType.Hrdsss
+  - Meadow.Gateway.WiFi.PhyType.HT
+  - Meadow.Gateway.WiFi.PhyType.IRBaseband
+  - Meadow.Gateway.WiFi.PhyType.Ofdm
+  - Meadow.Gateway.WiFi.PhyType.Unknown
+  - Meadow.Gateway.WiFi.PhyType.Vht
+  langs:
+  - csharp
+  - vb
+  name: PhyType
+  nameWithType: PhyType
+  fullName: Meadow.Gateway.WiFi.PhyType
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: PhyType
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public enum PhyType
+    content.vb: Public Enum PhyType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Gateway.WiFi.PhyType.Unknown
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Unknown
+  id: Unknown
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: PhyType.Unknown
+  fullName: Meadow.Gateway.WiFi.PhyType.Unknown
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Unknown
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nUnspecified PHY type.\n"
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Fhss
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Fhss
+  id: Fhss
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Fhss
+  nameWithType: PhyType.Fhss
+  fullName: Meadow.Gateway.WiFi.PhyType.Fhss
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Fhss
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nFrequency-hopping, spread-spectrum (FHSS) PHY.\n"
+  example: []
+  syntax:
+    content: Fhss = 1
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Dsss
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Dsss
+  id: Dsss
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Dsss
+  nameWithType: PhyType.Dsss
+  fullName: Meadow.Gateway.WiFi.PhyType.Dsss
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Dsss
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 18
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nDirect sequence, spread-spectrum (DSSS) PHY.\n"
+  example: []
+  syntax:
+    content: Dsss = 2
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.IRBaseband
+  commentId: F:Meadow.Gateway.WiFi.PhyType.IRBaseband
+  id: IRBaseband
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: IRBaseband
+  nameWithType: PhyType.IRBaseband
+  fullName: Meadow.Gateway.WiFi.PhyType.IRBaseband
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IRBaseband
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 23
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nInfrared (IR) baseband PHY.\n"
+  example: []
+  syntax:
+    content: IRBaseband = 3
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Ofdm
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Ofdm
+  id: Ofdm
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Ofdm
+  nameWithType: PhyType.Ofdm
+  fullName: Meadow.Gateway.WiFi.PhyType.Ofdm
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Ofdm
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 28
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nOrthogonal frequency division multiplex (OFDM) PHY.\n"
+  example: []
+  syntax:
+    content: Ofdm = 4
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Hrdsss
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Hrdsss
+  id: Hrdsss
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Hrdsss
+  nameWithType: PhyType.Hrdsss
+  fullName: Meadow.Gateway.WiFi.PhyType.Hrdsss
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Hrdsss
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 33
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nHigh-rated DSSS (HRDSSS) PHY.\n"
+  example: []
+  syntax:
+    content: Hrdsss = 5
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Erp
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Erp
+  id: Erp
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Erp
+  nameWithType: PhyType.Erp
+  fullName: Meadow.Gateway.WiFi.PhyType.Erp
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Erp
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 38
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nExtended Rate (ERP) PHY.\n"
+  example: []
+  syntax:
+    content: Erp = 6
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.HT
+  commentId: F:Meadow.Gateway.WiFi.PhyType.HT
+  id: HT
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: HT
+  nameWithType: PhyType.HT
+  fullName: Meadow.Gateway.WiFi.PhyType.HT
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HT
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nHigh Throughput (HT) PHY for 802.11n PHY.\n"
+  example: []
+  syntax:
+    content: HT = 7
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Vht
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Vht
+  id: Vht
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Vht
+  nameWithType: PhyType.Vht
+  fullName: Meadow.Gateway.WiFi.PhyType.Vht
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Vht
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nVery High Throughput (VHT) PHY for 802.11ac PHY.\n"
+  example: []
+  syntax:
+    content: Vht = 8
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.Dmg
+  commentId: F:Meadow.Gateway.WiFi.PhyType.Dmg
+  id: Dmg
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: Dmg
+  nameWithType: PhyType.Dmg
+  fullName: Meadow.Gateway.WiFi.PhyType.Dmg
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Dmg
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 53
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nDirectional multi-gigabit (DMG) PHY for 802.11ad.\n"
+  example: []
+  syntax:
+    content: Dmg = 9
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.PhyType.HE
+  commentId: F:Meadow.Gateway.WiFi.PhyType.HE
+  id: HE
+  parent: Meadow.Gateway.WiFi.PhyType
+  langs:
+  - csharp
+  - vb
+  name: HE
+  nameWithType: PhyType.HE
+  fullName: Meadow.Gateway.WiFi.PhyType.HE
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: HE
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
+    startLine: 58
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  summary: "\nHigh-Efficiency Wireless (HEW) PHY for 802.11ax.\n"
+  example: []
+  syntax:
+    content: HE = 10
+    return:
+      type: Meadow.Gateway.WiFi.PhyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Gateway.WiFi
+  commentId: N:Meadow.Gateway.WiFi
+  name: Meadow.Gateway.WiFi
+  nameWithType: Meadow.Gateway.WiFi
+  fullName: Meadow.Gateway.WiFi
+- uid: Meadow.Gateway.WiFi.PhyType
+  commentId: T:Meadow.Gateway.WiFi.PhyType
+  parent: Meadow.Gateway.WiFi
+  name: PhyType
+  nameWithType: PhyType
+  fullName: Meadow.Gateway.WiFi.PhyType

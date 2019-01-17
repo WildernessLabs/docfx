@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  commentId: T:Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  id: ActiveSatelliteSelection
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Automatic
+  - Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Manual
+  - Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ActiveSatelliteSelection
+  nameWithType: ActiveSatelliteSelection
+  fullName: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ActiveSatelliteSelection
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 33
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nActive satelite selection for GSA messages.\n"
+  example: []
+  syntax:
+    content: 'public enum ActiveSatelliteSelection : int'
+    content.vb: Public Enum ActiveSatelliteSelection As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Unknown
+  commentId: F:Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Unknown
+  id: Unknown
+  parent: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ActiveSatelliteSelection.Unknown
+  fullName: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Unknown
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 35
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Automatic
+  commentId: F:Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Automatic
+  id: Automatic
+  parent: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  langs:
+  - csharp
+  - vb
+  name: Automatic
+  nameWithType: ActiveSatelliteSelection.Automatic
+  fullName: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Automatic
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Automatic
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 36
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: Automatic = 1
+    return:
+      type: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Manual
+  commentId: F:Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Manual
+  id: Manual
+  parent: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: ActiveSatelliteSelection.Manual
+  fullName: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection.Manual
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Manual
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 37
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: Manual = 2
+    return:
+      type: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  commentId: T:Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection
+  parent: Meadow.Foundation.Sensors.GPS
+  name: ActiveSatelliteSelection
+  nameWithType: ActiveSatelliteSelection
+  fullName: Meadow.Foundation.Sensors.GPS.ActiveSatelliteSelection

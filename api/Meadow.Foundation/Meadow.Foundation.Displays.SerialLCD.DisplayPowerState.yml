@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  id: SerialLCD.DisplayPowerState
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.Off
+  - Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.On
+  langs:
+  - csharp
+  - vb
+  name: SerialLCD.DisplayPowerState
+  nameWithType: SerialLCD.DisplayPowerState
+  fullName: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DisplayPowerState
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 43
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDisplay power state.\n"
+  example: []
+  syntax:
+    content: 'public enum DisplayPowerState : int'
+    content.vb: Public Enum DisplayPowerState As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.On
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.On
+  id: On
+  parent: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  langs:
+  - csharp
+  - vb
+  name: On
+  nameWithType: SerialLCD.DisplayPowerState.On
+  fullName: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.On
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: On
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 45
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: On = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+    content.vb: On = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.Off
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.Off
+  id: Off
+  parent: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: SerialLCD.DisplayPowerState.Off
+  fullName: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState.Off
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Off
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 46
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Off = null
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+    content.vb: Off = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.DisplayPowerState
+  parent: Meadow.Foundation.Displays
+  name: SerialLCD.DisplayPowerState
+  nameWithType: SerialLCD.DisplayPowerState
+  fullName: Meadow.Foundation.Displays.SerialLCD.DisplayPowerState

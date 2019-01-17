@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.SerialLCD.Direction
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.Direction
+  id: SerialLCD.Direction
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.SerialLCD.Direction.Left
+  - Meadow.Foundation.Displays.SerialLCD.Direction.Right
+  langs:
+  - csharp
+  - vb
+  name: SerialLCD.Direction
+  nameWithType: SerialLCD.Direction
+  fullName: Meadow.Foundation.Displays.SerialLCD.Direction
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Direction
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 76
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  summary: "\nDirection to move the cursor or the display.\n"
+  example: []
+  syntax:
+    content: 'public enum Direction : int'
+    content.vb: Public Enum Direction As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.SerialLCD.Direction.Left
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.Direction.Left
+  id: Left
+  parent: Meadow.Foundation.Displays.SerialLCD.Direction
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: SerialLCD.Direction.Left
+  fullName: Meadow.Foundation.Displays.SerialLCD.Direction.Left
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Left
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 78
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Left = 0
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.Direction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SerialLCD.Direction.Right
+  commentId: F:Meadow.Foundation.Displays.SerialLCD.Direction.Right
+  id: Right
+  parent: Meadow.Foundation.Displays.SerialLCD.Direction
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SerialLCD.Direction.Right
+  fullName: Meadow.Foundation.Displays.SerialLCD.Direction.Right
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Right
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SerialLCD/SerialLCD.cs
+    startLine: 79
+  assemblies:
+  - Displays.SerialLCD
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Right = 1
+    return:
+      type: Meadow.Foundation.Displays.SerialLCD.Direction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.SerialLCD.Direction
+  commentId: T:Meadow.Foundation.Displays.SerialLCD.Direction
+  parent: Meadow.Foundation.Displays
+  name: SerialLCD.Direction
+  nameWithType: SerialLCD.Direction
+  fullName: Meadow.Foundation.Displays.SerialLCD.Direction

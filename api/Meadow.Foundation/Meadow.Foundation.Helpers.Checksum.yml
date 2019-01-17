@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Helpers.Checksum
+  commentId: T:Meadow.Foundation.Helpers.Checksum
+  id: Checksum
+  parent: Meadow.Foundation.Helpers
+  children:
+  - Meadow.Foundation.Helpers.Checksum.PolynomialCRC(System.Byte[],System.Byte)
+  - Meadow.Foundation.Helpers.Checksum.XOR(System.Byte[])
+  - Meadow.Foundation.Helpers.Checksum.XOR(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Checksum
+  nameWithType: Checksum
+  fullName: Meadow.Foundation.Helpers.Checksum
+  type: Class
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Helpers/Checksum.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Checksum
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Helpers/Checksum.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Helpers
+  summary: "\nProvide CRC and checksum methods.\n"
+  example: []
+  syntax:
+    content: 'public class Checksum : object'
+    content.vb: >-
+      Public Class Checksum
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Helpers.Checksum.XOR(System.String)
+  commentId: M:Meadow.Foundation.Helpers.Checksum.XOR(System.String)
+  id: XOR(System.String)
+  parent: Meadow.Foundation.Helpers.Checksum
+  langs:
+  - csharp
+  - vb
+  name: XOR(String)
+  nameWithType: Checksum.XOR(String)
+  fullName: Meadow.Foundation.Helpers.Checksum.XOR(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Helpers/Checksum.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XOR
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Helpers/Checksum.cs
+    startLine: 33
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Helpers
+  summary: "\nCalculate a checksum for the string by XORing the bytes in the string.\n"
+  example: []
+  syntax:
+    content: public static byte XOR(string data)
+    parameters:
+    - id: data
+      type: System.String
+      description: String to calculate the checksum for.
+    return:
+      type: System.Byte
+      description: XOR checksum for the sting.
+    content.vb: Public Shared Function XOR(data As String) As Byte
+  overload: Meadow.Foundation.Helpers.Checksum.XOR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Meadow.Foundation.Helpers.Checksum.XOR(System.Byte[])
+  commentId: M:Meadow.Foundation.Helpers.Checksum.XOR(System.Byte[])
+  id: XOR(System.Byte[])
+  parent: Meadow.Foundation.Helpers.Checksum
+  langs:
+  - csharp
+  - vb
+  name: XOR(Byte[])
+  nameWithType: Checksum.XOR(Byte[])
+  fullName: Meadow.Foundation.Helpers.Checksum.XOR(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Helpers/Checksum.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XOR
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Helpers/Checksum.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Helpers
+  summary: "\nGenerate a checksum by XORing all of the data in the array.\n"
+  example: []
+  syntax:
+    content: public static byte XOR(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Data to calculate the checksum for.
+    return:
+      type: System.Byte
+      description: XOR Checksum of the array of bytes.
+    content.vb: Public Shared Function XOR(data As Byte()) As Byte
+  overload: Meadow.Foundation.Helpers.Checksum.XOR*
+  nameWithType.vb: Checksum.XOR(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Meadow.Foundation.Helpers.Checksum.XOR(System.Byte())
+  name.vb: XOR(Byte())
+- uid: Meadow.Foundation.Helpers.Checksum.PolynomialCRC(System.Byte[],System.Byte)
+  commentId: M:Meadow.Foundation.Helpers.Checksum.PolynomialCRC(System.Byte[],System.Byte)
+  id: PolynomialCRC(System.Byte[],System.Byte)
+  parent: Meadow.Foundation.Helpers.Checksum
+  langs:
+  - csharp
+  - vb
+  name: PolynomialCRC(Byte[], Byte)
+  nameWithType: Checksum.PolynomialCRC(Byte[], Byte)
+  fullName: Meadow.Foundation.Helpers.Checksum.PolynomialCRC(System.Byte[], System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Helpers/Checksum.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: PolynomialCRC
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Helpers/Checksum.cs
+    startLine: 84
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Helpers
+  summary: "\nCalculate the 8-bit CRC using the specified polynomial.\n"
+  example: []
+  syntax:
+    content: public static byte PolynomialCRC(byte[] data, byte polynomial)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Data bytes to generate a CRC for.
+    - id: polynomial
+      type: System.Byte
+      description: Polynomial byte to use in the CRC calculation.
+    return:
+      type: System.Byte
+    content.vb: Public Shared Function PolynomialCRC(data As Byte(), polynomial As Byte) As Byte
+  overload: Meadow.Foundation.Helpers.Checksum.PolynomialCRC*
+  nameWithType.vb: Checksum.PolynomialCRC(Byte(), Byte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Meadow.Foundation.Helpers.Checksum.PolynomialCRC(System.Byte(), System.Byte)
+  name.vb: PolynomialCRC(Byte(), Byte)
+references:
+- uid: Meadow.Foundation.Helpers
+  commentId: N:Meadow.Foundation.Helpers
+  name: Meadow.Foundation.Helpers
+  nameWithType: Meadow.Foundation.Helpers
+  fullName: Meadow.Foundation.Helpers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Helpers.Checksum.XOR*
+  commentId: Overload:Meadow.Foundation.Helpers.Checksum.XOR
+  name: XOR
+  nameWithType: Checksum.XOR
+  fullName: Meadow.Foundation.Helpers.Checksum.XOR
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Meadow.Foundation.Helpers.Checksum.PolynomialCRC*
+  commentId: Overload:Meadow.Foundation.Helpers.Checksum.PolynomialCRC
+  name: PolynomialCRC
+  nameWithType: Checksum.PolynomialCRC
+  fullName: Meadow.Foundation.Helpers.Checksum.PolynomialCRC

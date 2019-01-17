@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  id: DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.DisplayBase.BitmapMode.And
+  - Meadow.Foundation.Displays.DisplayBase.BitmapMode.Copy
+  - Meadow.Foundation.Displays.DisplayBase.BitmapMode.Or
+  - Meadow.Foundation.Displays.DisplayBase.BitmapMode.XOr
+  langs:
+  - csharp
+  - vb
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  type: Enum
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: BitmapMode
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 12
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public enum BitmapMode : int'
+    content.vb: Public Enum BitmapMode As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode.And
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.BitmapMode.And
+  id: And
+  parent: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: DisplayBase.BitmapMode.And
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode.And
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: And
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 14
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: And = 0
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode.Or
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.BitmapMode.Or
+  id: Or
+  parent: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  langs:
+  - csharp
+  - vb
+  name: Or
+  nameWithType: DisplayBase.BitmapMode.Or
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode.Or
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Or
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Or = 1
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode.XOr
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.BitmapMode.XOr
+  id: XOr
+  parent: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  langs:
+  - csharp
+  - vb
+  name: XOr
+  nameWithType: DisplayBase.BitmapMode.XOr
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode.XOr
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: XOr
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: XOr = 2
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode.Copy
+  commentId: F:Meadow.Foundation.Displays.DisplayBase.BitmapMode.Copy
+  id: Copy
+  parent: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: DisplayBase.BitmapMode.Copy
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode.Copy
+  type: Field
+  source:
+    remote:
+      path: Source/Meadow.Foundation/Displays/DisplayBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Copy
+    path: ../Meadow.Foundation/Source/Meadow.Foundation/Displays/DisplayBase.cs
+    startLine: 17
+  assemblies:
+  - Meadow.Foundation
+  namespace: Meadow.Foundation.Displays
+  syntax:
+    content: Copy = 3
+    return:
+      type: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  commentId: T:Meadow.Foundation.Displays.DisplayBase.BitmapMode
+  parent: Meadow.Foundation.Displays
+  name: DisplayBase.BitmapMode
+  nameWithType: DisplayBase.BitmapMode
+  fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode

@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedHandler
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedHandler
+  id: MenuSelectedHandler
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MenuSelectedHandler
+  nameWithType: MenuSelectedHandler
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.TextDisplayMenu/EventHandlers.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MenuSelectedHandler
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.TextDisplayMenu/EventHandlers.cs
+    startLine: 17
+  assemblies:
+  - Displays.TextDisplayMenu
+  namespace: Meadow.Foundation.Displays.TextDisplayMenu
+  syntax:
+    content: public delegate void MenuSelectedHandler(object sender, MenuSelectedEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs
+    content.vb: Public Delegate Sub MenuSelectedHandler(sender As Object, e As MenuSelectedEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Meadow.Foundation.Displays.TextDisplayMenu
+  commentId: N:Meadow.Foundation.Displays.TextDisplayMenu
+  name: Meadow.Foundation.Displays.TextDisplayMenu
+  nameWithType: Meadow.Foundation.Displays.TextDisplayMenu
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs
+  commentId: T:Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs
+  parent: Meadow.Foundation.Displays.TextDisplayMenu
+  name: MenuSelectedEventArgs
+  nameWithType: MenuSelectedEventArgs
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.MenuSelectedEventArgs

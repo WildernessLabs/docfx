@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Light
+  commentId: N:Meadow.Foundation.Sensors.Light
+  id: Meadow.Foundation.Sensors.Light
+  children:
+  - Meadow.Foundation.Sensors.Light.SI1145
+  - Meadow.Foundation.Sensors.Light.TSL2561
+  - Meadow.Foundation.Sensors.Light.TSL2561.Addresses
+  - Meadow.Foundation.Sensors.Light.TSL2561.Gain
+  - Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  - Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+  - Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Sensors.Light
+  nameWithType: Meadow.Foundation.Sensors.Light
+  fullName: Meadow.Foundation.Sensors.Light
+  type: Namespace
+  assemblies:
+  - Sensors.Light.SI1145
+references:
+- uid: Meadow.Foundation.Sensors.Light.SI1145
+  commentId: T:Meadow.Foundation.Sensors.Light.SI1145
+  name: SI1145
+  nameWithType: SI1145
+  fullName: Meadow.Foundation.Sensors.Light.SI1145
+- uid: Meadow.Foundation.Sensors.Light.TSL2561
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561
+  name: TSL2561
+  nameWithType: TSL2561
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Addresses
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.Addresses
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.Addresses
+  nameWithType: TSL2561.Addresses
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Addresses
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.IntegrationTiming
+  nameWithType: TSL2561.IntegrationTiming
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.IntegrationTiming
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.Gain
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.Gain
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.Gain
+  nameWithType: TSL2561.Gain
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.Gain
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.InterruptMode
+  nameWithType: TSL2561.InterruptMode
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.InterruptMode
+- uid: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+  commentId: T:Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+  parent: Meadow.Foundation.Sensors.Light
+  name: TSL2561.ThresholdInterrupt
+  nameWithType: TSL2561.ThresholdInterrupt
+  fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+- uid: Meadow.Foundation.Sensors.Light
+  commentId: N:Meadow.Foundation.Sensors.Light
+  name: Meadow.Foundation.Sensors.Light
+  nameWithType: Meadow.Foundation.Sensors.Light
+  fullName: Meadow.Foundation.Sensors.Light

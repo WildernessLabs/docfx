@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  commentId: T:Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  id: MAG3110.SensorReading
+  parent: Meadow.Foundation.Sensors.Motion
+  children:
+  - Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.X
+  - Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Y
+  - Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Z
+  langs:
+  - csharp
+  - vb
+  name: MAG3110.SensorReading
+  nameWithType: MAG3110.SensorReading
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  type: Struct
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SensorReading
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+    startLine: 15
+  assemblies:
+  - Sensors.Motion.MAG3110
+  namespace: Meadow.Foundation.Sensors.Motion
+  summary: "\nSensor readings to be passed back when an interrupt is generated.\n"
+  example: []
+  syntax:
+    content: public struct SensorReading
+    content.vb: Public Structure SensorReading
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.X
+  commentId: F:Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.X
+  id: X
+  parent: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: MAG3110.SensorReading.X
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.X
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: X
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+    startLine: 17
+  assemblies:
+  - Sensors.Motion.MAG3110
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: public short X
+    return:
+      type: System.Int16
+    content.vb: Public X As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Y
+  commentId: F:Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Y
+  id: Y
+  parent: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: MAG3110.SensorReading.Y
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Y
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Y
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+    startLine: 18
+  assemblies:
+  - Sensors.Motion.MAG3110
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: public short Y
+    return:
+      type: System.Int16
+    content.vb: Public Y As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Z
+  commentId: F:Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Z
+  id: Z
+  parent: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: MAG3110.SensorReading.Z
+  fullName: Meadow.Foundation.Sensors.Motion.MAG3110.SensorReading.Z
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Z
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Motion.MAG3110/MAG3110.cs
+    startLine: 19
+  assemblies:
+  - Sensors.Motion.MAG3110
+  namespace: Meadow.Foundation.Sensors.Motion
+  syntax:
+    content: public short Z
+    return:
+      type: System.Int16
+    content.vb: Public Z As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Motion
+  commentId: N:Meadow.Foundation.Sensors.Motion
+  name: Meadow.Foundation.Sensors.Motion
+  nameWithType: Meadow.Foundation.Sensors.Motion
+  fullName: Meadow.Foundation.Sensors.Motion
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

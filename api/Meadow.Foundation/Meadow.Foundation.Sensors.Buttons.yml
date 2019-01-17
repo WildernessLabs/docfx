@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Buttons
+  commentId: N:Meadow.Foundation.Sensors.Buttons
+  id: Meadow.Foundation.Sensors.Buttons
+  children:
+  - Meadow.Foundation.Sensors.Buttons.IButton
+  - Meadow.Foundation.Sensors.Buttons.PushButton
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.Sensors.Buttons
+  nameWithType: Meadow.Foundation.Sensors.Buttons
+  fullName: Meadow.Foundation.Sensors.Buttons
+  type: Namespace
+  assemblies:
+  - Meadow.Foundation
+references:
+- uid: Meadow.Foundation.Sensors.Buttons.IButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.IButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  name: IButton
+  nameWithType: IButton
+  fullName: Meadow.Foundation.Sensors.Buttons.IButton
+- uid: Meadow.Foundation.Sensors.Buttons.PushButton
+  commentId: T:Meadow.Foundation.Sensors.Buttons.PushButton
+  parent: Meadow.Foundation.Sensors.Buttons
+  name: PushButton
+  nameWithType: PushButton
+  fullName: Meadow.Foundation.Sensors.Buttons.PushButton
+- uid: Meadow.Foundation.Sensors.Buttons
+  commentId: N:Meadow.Foundation.Sensors.Buttons
+  name: Meadow.Foundation.Sensors.Buttons
+  nameWithType: Meadow.Foundation.Sensors.Buttons
+  fullName: Meadow.Foundation.Sensors.Buttons

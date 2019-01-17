@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.IApp
+  commentId: T:Meadow.IApp
+  id: IApp
+  parent: Meadow
+  children:
+  - Meadow.IApp.OnWake
+  - Meadow.IApp.Run
+  - Meadow.IApp.WillReset
+  - Meadow.IApp.WillSleep
+  langs:
+  - csharp
+  - vb
+  name: IApp
+  nameWithType: IApp
+  fullName: Meadow.IApp
+  type: Interface
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IApp.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: IApp
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nTODO: Is this necessary? We&apos;ve decided that we want to use the app model, \nas opposed to allowing users to create `Static void main()` implementations,\nbut if we type the App.Current to the user&apos;s app somehow, we can potentially\nget rid of this.\n"
+  example: []
+  syntax:
+    content: public interface IApp
+    content.vb: Public Interface IApp
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Meadow.IApp.Run
+  commentId: M:Meadow.IApp.Run
+  id: Run
+  parent: Meadow.IApp
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: IApp.Run()
+  fullName: Meadow.IApp.Run()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IApp.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Run
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
+    startLine: 15
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled the first time the application is started.\nTODO: Is this necessary? Why not just use the ctor?\n"
+  example: []
+  syntax:
+    content: void Run()
+    content.vb: Sub Run
+  overload: Meadow.IApp.Run*
+- uid: Meadow.IApp.WillSleep
+  commentId: M:Meadow.IApp.WillSleep
+  id: WillSleep
+  parent: Meadow.IApp
+  langs:
+  - csharp
+  - vb
+  name: WillSleep()
+  nameWithType: IApp.WillSleep()
+  fullName: Meadow.IApp.WillSleep()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IApp.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WillSleep
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
+    startLine: 20
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled when the application is going to be sleep.\n"
+  example: []
+  syntax:
+    content: void WillSleep()
+    content.vb: Sub WillSleep
+  overload: Meadow.IApp.WillSleep*
+- uid: Meadow.IApp.OnWake
+  commentId: M:Meadow.IApp.OnWake
+  id: OnWake
+  parent: Meadow.IApp
+  langs:
+  - csharp
+  - vb
+  name: OnWake()
+  nameWithType: IApp.OnWake()
+  fullName: Meadow.IApp.OnWake()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IApp.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnWake
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
+    startLine: 25
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled when the application wakes up from sleep.\n"
+  example: []
+  syntax:
+    content: void OnWake()
+    content.vb: Sub OnWake
+  overload: Meadow.IApp.OnWake*
+- uid: Meadow.IApp.WillReset
+  commentId: M:Meadow.IApp.WillReset
+  id: WillReset
+  parent: Meadow.IApp
+  langs:
+  - csharp
+  - vb
+  name: WillReset()
+  nameWithType: IApp.WillReset()
+  fullName: Meadow.IApp.WillReset()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Contracts/IApp.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WillReset
+    path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
+    startLine: 31
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled in case the OS needs to restart the app. Will have limited \nprocessing time.\n"
+  example: []
+  syntax:
+    content: void WillReset()
+    content.vb: Sub WillReset
+  overload: Meadow.IApp.WillReset*
+references:
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow
+- uid: Meadow.IApp.Run*
+  commentId: Overload:Meadow.IApp.Run
+  name: Run
+  nameWithType: IApp.Run
+  fullName: Meadow.IApp.Run
+- uid: Meadow.IApp.WillSleep*
+  commentId: Overload:Meadow.IApp.WillSleep
+  name: WillSleep
+  nameWithType: IApp.WillSleep
+  fullName: Meadow.IApp.WillSleep
+- uid: Meadow.IApp.OnWake*
+  commentId: Overload:Meadow.IApp.OnWake
+  name: OnWake
+  nameWithType: IApp.OnWake
+  fullName: Meadow.IApp.OnWake
+- uid: Meadow.IApp.WillReset*
+  commentId: Overload:Meadow.IApp.WillReset
+  name: WillReset
+  nameWithType: IApp.WillReset
+  fullName: Meadow.IApp.WillReset

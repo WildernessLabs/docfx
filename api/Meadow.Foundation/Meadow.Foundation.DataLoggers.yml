@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.DataLoggers
+  commentId: N:Meadow.Foundation.DataLoggers
+  id: Meadow.Foundation.DataLoggers
+  children:
+  - Meadow.Foundation.DataLoggers.AdafruitIO
+  - Meadow.Foundation.DataLoggers.SensorReading
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.DataLoggers
+  nameWithType: Meadow.Foundation.DataLoggers
+  fullName: Meadow.Foundation.DataLoggers
+  type: Namespace
+  assemblies:
+  - DataLoggers
+references:
+- uid: Meadow.Foundation.DataLoggers.SensorReading
+  commentId: T:Meadow.Foundation.DataLoggers.SensorReading
+  parent: Meadow.Foundation.DataLoggers
+  name: SensorReading
+  nameWithType: SensorReading
+  fullName: Meadow.Foundation.DataLoggers.SensorReading
+- uid: Meadow.Foundation.DataLoggers.AdafruitIO
+  commentId: T:Meadow.Foundation.DataLoggers.AdafruitIO
+  name: AdafruitIO
+  nameWithType: AdafruitIO
+  fullName: Meadow.Foundation.DataLoggers.AdafruitIO
+- uid: Meadow.Foundation.DataLoggers
+  commentId: N:Meadow.Foundation.DataLoggers
+  name: Meadow.Foundation.DataLoggers
+  nameWithType: Meadow.Foundation.DataLoggers
+  fullName: Meadow.Foundation.DataLoggers

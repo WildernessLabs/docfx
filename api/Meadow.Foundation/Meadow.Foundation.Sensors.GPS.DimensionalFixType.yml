@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  commentId: T:Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  id: DimensionalFixType
+  parent: Meadow.Foundation.Sensors.GPS
+  children:
+  - Meadow.Foundation.Sensors.GPS.DimensionalFixType.None
+  - Meadow.Foundation.Sensors.GPS.DimensionalFixType.ThreeD
+  - Meadow.Foundation.Sensors.GPS.DimensionalFixType.TwoD
+  langs:
+  - csharp
+  - vb
+  name: DimensionalFixType
+  nameWithType: DimensionalFixType
+  fullName: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: DimensionalFixType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 43
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  summary: "\nDiemensions type of the fix.\n"
+  example: []
+  syntax:
+    content: 'public enum DimensionalFixType : int'
+    content.vb: Public Enum DimensionalFixType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Sensors.GPS.DimensionalFixType.None
+  commentId: F:Meadow.Foundation.Sensors.GPS.DimensionalFixType.None
+  id: None
+  parent: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DimensionalFixType.None
+  fullName: Meadow.Foundation.Sensors.GPS.DimensionalFixType.None
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: None
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 45
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: None = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: None = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.DimensionalFixType.TwoD
+  commentId: F:Meadow.Foundation.Sensors.GPS.DimensionalFixType.TwoD
+  id: TwoD
+  parent: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  langs:
+  - csharp
+  - vb
+  name: TwoD
+  nameWithType: DimensionalFixType.TwoD
+  fullName: Meadow.Foundation.Sensors.GPS.DimensionalFixType.TwoD
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TwoD
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 46
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: TwoD = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: TwoD = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.GPS.DimensionalFixType.ThreeD
+  commentId: F:Meadow.Foundation.Sensors.GPS.DimensionalFixType.ThreeD
+  id: ThreeD
+  parent: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  langs:
+  - csharp
+  - vb
+  name: ThreeD
+  nameWithType: DimensionalFixType.ThreeD
+  fullName: Meadow.Foundation.Sensors.GPS.DimensionalFixType.ThreeD
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ThreeD
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.GPS.NMEA/Enums.cs
+    startLine: 47
+  assemblies:
+  - Sensors.GPS.NMEA
+  namespace: Meadow.Foundation.Sensors.GPS
+  syntax:
+    content: ThreeD = null
+    return:
+      type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: ThreeD = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Sensors.GPS
+  commentId: N:Meadow.Foundation.Sensors.GPS
+  name: Meadow.Foundation.Sensors.GPS
+  nameWithType: Meadow.Foundation.Sensors.GPS
+  fullName: Meadow.Foundation.Sensors.GPS
+- uid: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  commentId: T:Meadow.Foundation.Sensors.GPS.DimensionalFixType
+  parent: Meadow.Foundation.Sensors.GPS
+  name: DimensionalFixType
+  nameWithType: DimensionalFixType
+  fullName: Meadow.Foundation.Sensors.GPS.DimensionalFixType

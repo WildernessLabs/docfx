@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HYSRF05
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HYSRF05
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05">
+  
+  
+  <h1 id="Netduino_Foundation_Sensors_Distance_HYSRF05" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05" class="text-break">Class HYSRF05
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HYSRF05</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Netduino.Foundation.Sensors.Distance.IRangeFinder.html">IRangeFinder</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Netduino.Foundation.Sensors.Distance.html">Netduino.Foundation.Sensors.Distance</a></h6>
+  <h6><strong>Assembly</strong>: Sensors.Distance.HYSRF05.dll</h6>
+  <h5 id="Netduino_Foundation_Sensors_Distance_HYSRF05_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HYSRF05 : object, IRangeFinder</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05__ctor_IDigitalPin_IDigitalPin_.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.%23ctor(IDigitalPin%2CIDigitalPin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L52">View Source</a>
+  </span>
+  <a id="Netduino_Foundation_Sensors_Distance_HYSRF05__ctor_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.#ctor*"></a>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05__ctor_IDigitalPin_IDigitalPin_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.#ctor(IDigitalPin,IDigitalPin)">HYSRF05(IDigitalPin, IDigitalPin)</h4>
+  <div class="markdown level1 summary"><p>Create a new HYSRF05 object and hook up the interrupt handler
+HSSRF05 must be running the default 4/5 pin mode
+3 pin mode is not supported on Netduino</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HYSRF05(IDigitalPin triggerPin, IDigitalPin echoPin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDigitalPin</span></td>
+        <td><span class="parametername">triggerPin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDigitalPin</span></td>
+        <td><span class="parametername">echoPin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05__echoPort.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05._echoPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L30">View Source</a>
+  </span>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05__echoPort" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05._echoPort">_echoPort</h4>
+  <div class="markdown level1 summary"><p>Echo Pin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DigitalInputPort _echoPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DigitalInputPort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05__tickStart.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05._tickStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L32">View Source</a>
+  </span>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05__tickStart" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05._tickStart">_tickStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected long _tickStart</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05__triggerPort.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05._triggerPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L25">View Source</a>
+  </span>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05__triggerPort" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05._triggerPort">_triggerPort</h4>
+  <div class="markdown level1 summary"><p>Trigger Pin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DigitalOutputPort _triggerPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DigitalOutputPort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05_CurrentDistance.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.CurrentDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L11">View Source</a>
+  </span>
+  <a id="Netduino_Foundation_Sensors_Distance_HYSRF05_CurrentDistance_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.CurrentDistance*"></a>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05_CurrentDistance" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.CurrentDistance">CurrentDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05_MaximumDistance.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.MaximumDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L14">View Source</a>
+  </span>
+  <a id="Netduino_Foundation_Sensors_Distance_HYSRF05_MaximumDistance_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MaximumDistance*"></a>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05_MaximumDistance" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MaximumDistance">MaximumDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaximumDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05_MinimumDistance.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.MinimumDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L13">View Source</a>
+  </span>
+  <a id="Netduino_Foundation_Sensors_Distance_HYSRF05_MinimumDistance_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MinimumDistance*"></a>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05_MinimumDistance" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MinimumDistance">MinimumDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinimumDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05_MeasureDistance.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.MeasureDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L67">View Source</a>
+  </span>
+  <a id="Netduino_Foundation_Sensors_Distance_HYSRF05_MeasureDistance_" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MeasureDistance*"></a>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05_MeasureDistance" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.MeasureDistance">MeasureDistance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MeasureDistance()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05_DistanceDetected.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05.DistanceDetected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L16">View Source</a>
+  </span>
+  <h4 id="Netduino_Foundation_Sensors_Distance_HYSRF05_DistanceDetected" data-uid="Netduino.Foundation.Sensors.Distance.HYSRF05.DistanceDetected">DistanceDetected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event DistanceDetectedEventHandler DistanceDetected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Netduino.Foundation.Sensors.Distance.DistanceDetectedEventHandler.html">DistanceDetectedEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Netduino.Foundation.Sensors.Distance.IRangeFinder.html">IRangeFinder</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Netduino_Foundation_Sensors_Distance_HYSRF05.md&amp;value=---%0Auid%3A%20Netduino.Foundation.Sensors.Distance.HYSRF05%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Peripheral_Libs/Sensors.Distance.HYSRF05/HYSRF05.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

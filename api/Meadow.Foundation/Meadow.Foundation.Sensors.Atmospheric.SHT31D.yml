@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  id: SHT31D
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  children:
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+  - Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update
+  langs:
+  - csharp
+  - vb
+  name: SHT31D
+  nameWithType: SHT31D
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SHT31D
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 13
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nProvide a mechanism for reading the temperature and humidity from\na SHT31D temperature / humidity sensor.\n"
+  remarks: "\nReadings from the sensor are made in Single-shot mode.\n"
+  example: []
+  syntax:
+    content: 'public class SHT31D : object, ITemperatureSensor, IHumiditySensor, ISensor'
+    content.vb: >-
+      Public Class SHT31D
+
+          Inherits Object
+
+          Implements ITemperatureSensor, IHumiditySensor, ISensor
+  inheritance:
+  - System.Object
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor
+  - Meadow.Foundation.Sensors.IHumiditySensor
+  - Meadow.Foundation.Sensors.ISensor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod
+  commentId: F:Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod
+  id: MinimumPollingPeriod
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: MinimumPollingPeriod
+  nameWithType: SHT31D.MinimumPollingPeriod
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.MinimumPollingPeriod
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MinimumPollingPeriod
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 20
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nMinimum value that should be used for the polling frequency.\n"
+  example: []
+  syntax:
+    content: public const ushort MinimumPollingPeriod = null
+    return:
+      type: System.UInt16
+    content.vb: Public Const MinimumPollingPeriod As UShort = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+  id: Humidity
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: Humidity
+  nameWithType: SHT31D.Humidity
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Humidity
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 47
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet the last humidity reading from the sensor.\n"
+  remarks: "\nThe Update method should be called before the data in this property\ncontains valid data.\n"
+  example: []
+  syntax:
+    content: public float Humidity { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Humidity As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity*
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+  id: Temperature
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: SHT31D.Temperature
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Temperature
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 73
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet the last temperature reading.\n"
+  remarks: "\nThe Update method should be called before the data in this property\ncontains valid data.\n"
+  example: []
+  syntax:
+    content: public float Temperature { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Temperature As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+  id: TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: SHT31D.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 97
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nAny changes in the temperature that are greater than the temperature\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float TemperatureChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TemperatureChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+  id: HumidityChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: HumidityChangeNotificationThreshold
+  nameWithType: SHT31D.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HumidityChangeNotificationThreshold
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 104
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nAny changes in the humidity that are greater than the humidity\nthreshold will cause an event to be raised when the instance is\nset to update automatically.\n"
+  example: []
+  syntax:
+    content: public float HumidityChangeNotificationThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HumidityChangeNotificationThreshold As Single
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold*
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged
+  id: TemperatureChanged
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: TemperatureChanged
+  nameWithType: SHT31D.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: TemperatureChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 114
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nEvent raised when the temperature change is greater than the \nTemperatureChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler TemperatureChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event TemperatureChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged
+  commentId: E:Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged
+  id: HumidityChanged
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: HumidityChanged
+  nameWithType: SHT31D.HumidityChanged
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChanged
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: HumidityChanged
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 120
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nEvent raised when the humidity change is greater than the\nHumidityChangeNotificationThreshold value.\n"
+  example: []
+  syntax:
+    content: public event SensorFloatEventHandler HumidityChanged
+    return:
+      type: Meadow.Foundation.Sensors.SensorFloatEventHandler
+    content.vb: Public Event HumidityChanged As SensorFloatEventHandler
+  implements:
+  - Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)
+  id: '#ctor(System.Byte,System.UInt16,System.UInt16,System.Single,System.Single)'
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: SHT31D(Byte, UInt16, UInt16, Single, Single)
+  nameWithType: SHT31D.SHT31D(Byte, UInt16, UInt16, Single, Single)
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.SHT31D(System.Byte, System.UInt16, System.UInt16, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 141
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nCreate a new SHT31D object.\n"
+  example: []
+  syntax:
+    content: public SHT31D(byte address = null, ushort speed = null, ushort updateInterval = null, float humidityChangeNotificationThreshold = 0.001F, float temperatureChangeNotificationThreshold = 0.001F)
+    parameters:
+    - id: address
+      type: System.Byte
+      description: Sensor address (should be 0x44 or 0x45).
+    - id: speed
+      type: System.UInt16
+      description: Bus speed (0-1000 KHz).
+    - id: updateInterval
+      type: System.UInt16
+      description: Number of milliseconds between samples (0 indicates polling to be used)
+    - id: humidityChangeNotificationThreshold
+      type: System.Single
+      description: Changes in humidity greater than this value will trigger an event when updatePeriod > 0.
+    - id: temperatureChangeNotificationThreshold
+      type: System.Single
+      description: Changes in temperature greater than this value will trigger an event when updatePeriod > 0.
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, updateInterval As UShort = Nothing, humidityChangeNotificationThreshold As Single = 0.001F, temperatureChangeNotificationThreshold As Single = 0.001F)
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update
+  commentId: M:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update
+  id: Update
+  parent: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: SHT31D.Update()
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Update
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Atmospheric.SHT31D/SHT31D.cs
+    startLine: 201
+  assemblies:
+  - Sensors.Atmospheric.SHT31D
+  namespace: Meadow.Foundation.Sensors.Atmospheric
+  summary: "\nGet a reading from the sensor and set the Temperature and Humidity properties.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation.Sensors.Atmospheric
+  commentId: N:Meadow.Foundation.Sensors.Atmospheric
+  name: Meadow.Foundation.Sensors.Atmospheric
+  nameWithType: Meadow.Foundation.Sensors.Atmospheric
+  fullName: Meadow.Foundation.Sensors.Atmospheric
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor
+  commentId: T:Meadow.Foundation.Sensors.ITemperatureSensor
+  parent: Meadow.Foundation.Sensors
+  name: ITemperatureSensor
+  nameWithType: ITemperatureSensor
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor
+- uid: Meadow.Foundation.Sensors.IHumiditySensor
+  commentId: T:Meadow.Foundation.Sensors.IHumiditySensor
+  parent: Meadow.Foundation.Sensors
+  name: IHumiditySensor
+  nameWithType: IHumiditySensor
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor
+- uid: Meadow.Foundation.Sensors.ISensor
+  commentId: T:Meadow.Foundation.Sensors.ISensor
+  parent: Meadow.Foundation.Sensors
+  name: ISensor
+  nameWithType: ISensor
+  fullName: Meadow.Foundation.Sensors.ISensor
+- uid: Meadow.Foundation.Sensors
+  commentId: N:Meadow.Foundation.Sensors
+  name: Meadow.Foundation.Sensors
+  nameWithType: Meadow.Foundation.Sensors
+  fullName: Meadow.Foundation.Sensors
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+  name: Humidity
+  nameWithType: SHT31D.Humidity
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Humidity
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  commentId: P:Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: Humidity
+  nameWithType: IHumiditySensor.Humidity
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.Humidity
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+  name: Temperature
+  nameWithType: SHT31D.Temperature
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Temperature
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: Temperature
+  nameWithType: ITemperatureSensor.Temperature
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: SHT31D.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChangeNotificationThreshold
+  nameWithType: ITemperatureSensor.TemperatureChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+  name: HumidityChangeNotificationThreshold
+  nameWithType: SHT31D.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.HumidityChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  commentId: P:Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: HumidityChangeNotificationThreshold
+  nameWithType: IHumiditySensor.HumidityChangeNotificationThreshold
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChangeNotificationThreshold
+- uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  commentId: E:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+  parent: Meadow.Foundation.Sensors.ITemperatureSensor
+  name: TemperatureChanged
+  nameWithType: ITemperatureSensor.TemperatureChanged
+  fullName: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChanged
+- uid: Meadow.Foundation.Sensors.SensorFloatEventHandler
+  commentId: T:Meadow.Foundation.Sensors.SensorFloatEventHandler
+  parent: Meadow.Foundation.Sensors
+  name: SensorFloatEventHandler
+  nameWithType: SensorFloatEventHandler
+  fullName: Meadow.Foundation.Sensors.SensorFloatEventHandler
+- uid: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  commentId: E:Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+  parent: Meadow.Foundation.Sensors.IHumiditySensor
+  name: HumidityChanged
+  nameWithType: IHumiditySensor.HumidityChanged
+  fullName: Meadow.Foundation.Sensors.IHumiditySensor.HumidityChanged
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.#ctor
+  name: SHT31D
+  nameWithType: SHT31D.SHT31D
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.SHT31D
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update*
+  commentId: Overload:Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update
+  name: Update
+  nameWithType: SHT31D.Update
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D.Update

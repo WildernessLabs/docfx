@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  id: x74595
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor(System.Int32,Meadow.Hardware.Spi.Configuration)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear(System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin(System.Byte)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item(System.Int32)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort(System.Byte,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts(System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: x74595
+  nameWithType: x74595
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: x74595
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 14
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nProvide an interface to connect to a 74595 shift register.\n"
+  remarks: "\nControl the outputs from a 74595 shift register (or a chain of shift registers)\nusing a SPI interface.\n"
+  example: []
+  syntax:
+    content: 'public class x74595 : object'
+    content.vb: >-
+      Public Class x74595
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor(System.Int32,Meadow.Hardware.Spi.Configuration)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor(System.Int32,Meadow.Hardware.Spi.Configuration)
+  id: '#ctor(System.Int32,Meadow.Hardware.Spi.Configuration)'
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: x74595(Int32, Spi.Configuration)
+  nameWithType: x74595.x74595(Int32, Spi.Configuration)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.x74595(System.Int32, Meadow.Hardware.Spi.Configuration)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 61
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nConstructor a ShiftRegister74595 object.\n"
+  example: []
+  syntax:
+    content: public x74595(int pins, Spi.Configuration config)
+    parameters:
+    - id: pins
+      type: System.Int32
+      description: Number of pins in the shift register (should be a multiple of 8 pins).
+    - id: config
+      type: Meadow.Hardware.Spi.Configuration
+      description: SPI Configuration object.
+    content.vb: Public Sub New(pins As Integer, config As Spi.Configuration)
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item(System.Int32)
+  commentId: P:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: x74595.Item[Int32]
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: this[]
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 87
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nOverload the index operator to allow the user to get/set a particular\npin in the shift register.\n"
+  example: []
+  syntax:
+    content: public bool this[int pin] { get; set; }
+    parameters:
+    - id: pin
+      type: System.Int32
+      description: Bit number to get/set.
+    return:
+      type: System.Boolean
+      description: Value in the specified pin.
+    content.vb: Public Property Item(pin As Integer) As Boolean
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item*
+  nameWithType.vb: x74595.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  id: CreateOutputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: CreateOutputPort(IDigitalPin, Boolean)
+  nameWithType: x74595.CreateOutputPort(IDigitalPin, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort(Meadow.Hardware.IDigitalPin, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CreateOutputPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 117
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nCreates a new DigitalOutputPort using the specified pin and initial state.\n"
+  example: []
+  syntax:
+    content: public DigitalOutputPort CreateOutputPort(IDigitalPin pin, bool initialState)
+    parameters:
+    - id: pin
+      type: Meadow.Hardware.IDigitalPin
+      description: The pin number to create the port on.
+    - id: initialState
+      type: System.Boolean
+      description: Whether the pin is initially high or low.
+    return:
+      type: Meadow.Hardware.DigitalOutputPort
+      description: ''
+    content.vb: Public Function CreateOutputPort(pin As IDigitalPin, initialState As Boolean) As DigitalOutputPort
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort(System.Byte,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort(System.Byte,System.Boolean)
+  id: WriteToPort(System.Byte,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: WriteToPort(Byte, Boolean)
+  nameWithType: x74595.WriteToPort(Byte, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort(System.Byte, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteToPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 129
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nSets a particular pin&apos;s value. \n"
+  example: []
+  syntax:
+    content: public void WriteToPort(byte pin, bool value)
+    parameters:
+    - id: pin
+      type: System.Byte
+      description: The pin to write to.
+    - id: value
+      type: System.Boolean
+      description: The value to write. True for high, false for low.
+    content.vb: Public Sub WriteToPort(pin As Byte, value As Boolean)
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts(System.Byte)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts(System.Byte)
+  id: WriteToPorts(System.Byte)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: WriteToPorts(Byte)
+  nameWithType: x74595.WriteToPorts(Byte)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteToPorts
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 150
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nOutputs a byte value across all of the pins by writing directly \nto the shift register.\n"
+  example: []
+  syntax:
+    content: public void WriteToPorts(byte mask)
+    parameters:
+    - id: mask
+      type: System.Byte
+      description: ''
+    content.vb: Public Sub WriteToPorts(mask As Byte)
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear(System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear(System.Boolean)
+  id: Clear(System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: Clear(Boolean)
+  nameWithType: x74595.Clear(Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Clear
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 165
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nClear all of the pins in the shift register.\n"
+  example: []
+  syntax:
+    content: public void Clear(bool latch = false)
+    parameters:
+    - id: latch
+      type: System.Boolean
+      description: If true, latch the data after the shift register is cleared (default is false)?
+    content.vb: Public Sub Clear(latch As Boolean = False)
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData
+  id: LatchData
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: LatchData()
+  nameWithType: x74595.LatchData()
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LatchData
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 181
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nSend the data to the SPI interface.\n"
+  example: []
+  syntax:
+    content: protected void LatchData()
+    content.vb: Protected Sub LatchData
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin(System.Byte)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin(System.Byte)
+  id: IsValidPin(System.Byte)
+  parent: Meadow.Foundation.ICs.IOExpanders.x74595.x74595
+  langs:
+  - csharp
+  - vb
+  name: IsValidPin(Byte)
+  nameWithType: x74595.IsValidPin(Byte)
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsValidPin
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.x74595/x74595.cs
+    startLine: 208
+  assemblies:
+  - ICs.IOExpanders.x74595
+  namespace: Meadow.Foundation.ICs.IOExpanders.x74595
+  summary: "\nCheck if the specified pin is valid.\n"
+  example: []
+  syntax:
+    content: protected bool IsValidPin(byte pin)
+    parameters:
+    - id: pin
+      type: System.Byte
+      description: Pin number
+    return:
+      type: System.Boolean
+      description: True if the pin number is valid, false if it not.
+    content.vb: Protected Function IsValidPin(pin As Byte) As Boolean
+  overload: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.x74595
+  name: Meadow.Foundation.ICs.IOExpanders.x74595
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.x74595
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.#ctor
+  name: x74595
+  nameWithType: x74595.x74595
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.x74595
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Meadow.Hardware.Spi.Configuration
+  commentId: T:Meadow.Hardware.Spi.Configuration
+  parent: Meadow.Hardware
+  name: Spi.Configuration
+  nameWithType: Spi.Configuration
+  fullName: Meadow.Hardware.Spi.Configuration
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item
+  name: Item
+  nameWithType: x74595.Item
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort
+  name: CreateOutputPort
+  nameWithType: x74595.CreateOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.CreateOutputPort
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
+  parent: Meadow.Hardware
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort
+  name: WriteToPort
+  nameWithType: x74595.WriteToPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts
+  name: WriteToPorts
+  nameWithType: x74595.WriteToPorts
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPorts
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear
+  name: Clear
+  nameWithType: x74595.Clear
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Clear
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData
+  name: LatchData
+  nameWithType: x74595.LatchData
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.LatchData
+- uid: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin
+  name: IsValidPin
+  nameWithType: x74595.IsValidPin
+  fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.IsValidPin

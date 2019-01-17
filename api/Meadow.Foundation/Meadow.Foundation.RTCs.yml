@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  id: Meadow.Foundation.RTCs
+  children:
+  - Meadow.Foundation.RTCs.DS3231
+  - Meadow.Foundation.RTCs.DS323x
+  - Meadow.Foundation.RTCs.DS323x.Alarm
+  - Meadow.Foundation.RTCs.DS323x.AlarmRaised
+  - Meadow.Foundation.RTCs.DS323x.AlarmType
+  - Meadow.Foundation.RTCs.DS323x.RateSelect
+  - Meadow.Foundation.RTCs.DS323x.Registers
+  langs:
+  - csharp
+  - vb
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs
+  type: Namespace
+  assemblies:
+  - RTCs.DS323x
+references:
+- uid: Meadow.Foundation.RTCs.DS3231
+  commentId: T:Meadow.Foundation.RTCs.DS3231
+  name: DS3231
+  nameWithType: DS3231
+  fullName: Meadow.Foundation.RTCs.DS3231
+- uid: Meadow.Foundation.RTCs.DS323x
+  commentId: T:Meadow.Foundation.RTCs.DS323x
+  parent: Meadow.Foundation.RTCs
+  name: DS323x
+  nameWithType: DS323x
+  fullName: Meadow.Foundation.RTCs.DS323x
+- uid: Meadow.Foundation.RTCs.DS323x.Registers
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Registers
+  name: DS323x.Registers
+  nameWithType: DS323x.Registers
+  fullName: Meadow.Foundation.RTCs.DS323x.Registers
+- uid: Meadow.Foundation.RTCs.DS323x.Alarm
+  commentId: T:Meadow.Foundation.RTCs.DS323x.Alarm
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.Alarm
+  nameWithType: DS323x.Alarm
+  fullName: Meadow.Foundation.RTCs.DS323x.Alarm
+- uid: Meadow.Foundation.RTCs.DS323x.RateSelect
+  commentId: T:Meadow.Foundation.RTCs.DS323x.RateSelect
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.RateSelect
+  nameWithType: DS323x.RateSelect
+  fullName: Meadow.Foundation.RTCs.DS323x.RateSelect
+- uid: Meadow.Foundation.RTCs.DS323x.AlarmType
+  commentId: T:Meadow.Foundation.RTCs.DS323x.AlarmType
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.AlarmType
+  nameWithType: DS323x.AlarmType
+  fullName: Meadow.Foundation.RTCs.DS323x.AlarmType
+- uid: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+  commentId: T:Meadow.Foundation.RTCs.DS323x.AlarmRaised
+  parent: Meadow.Foundation.RTCs
+  name: DS323x.AlarmRaised
+  nameWithType: DS323x.AlarmRaised
+  fullName: Meadow.Foundation.RTCs.DS323x.AlarmRaised
+- uid: Meadow.Foundation.RTCs
+  commentId: N:Meadow.Foundation.RTCs
+  name: Meadow.Foundation.RTCs
+  nameWithType: Meadow.Foundation.RTCs
+  fullName: Meadow.Foundation.RTCs

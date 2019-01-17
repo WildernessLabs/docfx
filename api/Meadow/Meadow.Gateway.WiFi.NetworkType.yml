@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Gateway.WiFi.NetworkType
+  commentId: T:Meadow.Gateway.WiFi.NetworkType
+  id: NetworkType
+  parent: Meadow.Gateway.WiFi
+  children:
+  - Meadow.Gateway.WiFi.NetworkType.AdHoc
+  - Meadow.Gateway.WiFi.NetworkType.Any
+  - Meadow.Gateway.WiFi.NetworkType.Infrastructure
+  langs:
+  - csharp
+  - vb
+  name: NetworkType
+  nameWithType: NetworkType
+  fullName: Meadow.Gateway.WiFi.NetworkType
+  type: Enum
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: NetworkType
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: public enum NetworkType
+    content.vb: Public Enum NetworkType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Gateway.WiFi.NetworkType.Any
+  commentId: F:Meadow.Gateway.WiFi.NetworkType.Any
+  id: Any
+  parent: Meadow.Gateway.WiFi.NetworkType
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: NetworkType.Any
+  fullName: Meadow.Gateway.WiFi.NetworkType.Any
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Any
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+    startLine: 5
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: Any = 0
+    return:
+      type: Meadow.Gateway.WiFi.NetworkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkType.Infrastructure
+  commentId: F:Meadow.Gateway.WiFi.NetworkType.Infrastructure
+  id: Infrastructure
+  parent: Meadow.Gateway.WiFi.NetworkType
+  langs:
+  - csharp
+  - vb
+  name: Infrastructure
+  nameWithType: NetworkType.Infrastructure
+  fullName: Meadow.Gateway.WiFi.NetworkType.Infrastructure
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Infrastructure
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+    startLine: 6
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: Infrastructure = 1
+    return:
+      type: Meadow.Gateway.WiFi.NetworkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Gateway.WiFi.NetworkType.AdHoc
+  commentId: F:Meadow.Gateway.WiFi.NetworkType.AdHoc
+  id: AdHoc
+  parent: Meadow.Gateway.WiFi.NetworkType
+  langs:
+  - csharp
+  - vb
+  name: AdHoc
+  nameWithType: NetworkType.AdHoc
+  fullName: Meadow.Gateway.WiFi.NetworkType.AdHoc
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: AdHoc
+    path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Gateway.WiFi
+  syntax:
+    content: AdHoc = 2
+    return:
+      type: Meadow.Gateway.WiFi.NetworkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Gateway.WiFi
+  commentId: N:Meadow.Gateway.WiFi
+  name: Meadow.Gateway.WiFi
+  nameWithType: Meadow.Gateway.WiFi
+  fullName: Meadow.Gateway.WiFi
+- uid: Meadow.Gateway.WiFi.NetworkType
+  commentId: T:Meadow.Gateway.WiFi.NetworkType
+  parent: Meadow.Gateway.WiFi
+  name: NetworkType
+  nameWithType: NetworkType
+  fullName: Meadow.Gateway.WiFi.NetworkType

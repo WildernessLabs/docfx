@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  id: MCP23008
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  children:
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Boolean,System.Boolean,System.Boolean,System.UInt16)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Byte,System.UInt16)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008._lock
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort(System.Byte,System.Boolean,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort(System.Byte,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.InterruptRaised
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin(System.Byte)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort(System.Byte)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection(System.Byte,Meadow.Hardware.PortDirectionType)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort(System.Byte,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts(System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: MCP23008
+  nameWithType: MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: MCP23008
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 8
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: 'public class MCP23008 : object'
+    content.vb: >-
+      Public Class MCP23008
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.InterruptRaised
+  commentId: E:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.InterruptRaised
+  id: InterruptRaised
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: InterruptRaised
+  nameWithType: MCP23008.InterruptRaised
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.InterruptRaised
+  type: Event
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: InterruptRaised
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 10
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public event EventHandler InterruptRaised
+    return:
+      type: EventHandler
+    content.vb: Public Event InterruptRaised As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008._lock
+  commentId: F:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008._lock
+  id: _lock
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: _lock
+  nameWithType: MCP23008._lock
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008._lock
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: _lock
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 23
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nobject for using lock() to do thread synch\n"
+  example: []
+  syntax:
+    content: protected object _lock
+    return:
+      type: System.Object
+    content.vb: Protected _lock As Object
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor
+  id: '#ctor'
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: MCP23008()
+  nameWithType: MCP23008.MCP23008()
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.MCP23008()
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 52
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected MCP23008()
+    content.vb: Protected Sub New
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Boolean,System.Boolean,System.Boolean,System.UInt16)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Boolean,System.Boolean,System.Boolean,System.UInt16)
+  id: '#ctor(System.Boolean,System.Boolean,System.Boolean,System.UInt16)'
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: MCP23008(Boolean, Boolean, Boolean, UInt16)
+  nameWithType: MCP23008.MCP23008(Boolean, Boolean, Boolean, UInt16)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.MCP23008(System.Boolean, System.Boolean, System.Boolean, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 55
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public MCP23008(bool pinA0, bool pinA1, bool pinA2, ushort speed = null)
+    parameters:
+    - id: pinA0
+      type: System.Boolean
+    - id: pinA1
+      type: System.Boolean
+    - id: pinA2
+      type: System.Boolean
+    - id: speed
+      type: System.UInt16
+    content.vb: Public Sub New(pinA0 As Boolean, pinA1 As Boolean, pinA2 As Boolean, speed As UShort = Nothing)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Byte,System.UInt16)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Byte,System.UInt16)
+  id: '#ctor(System.Byte,System.UInt16)'
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: MCP23008(Byte, UInt16)
+  nameWithType: MCP23008.MCP23008(Byte, UInt16)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.MCP23008(System.Byte, System.UInt16)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 61
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public MCP23008(byte address = null, ushort speed = null)
+    parameters:
+    - id: address
+      type: System.Byte
+    - id: speed
+      type: System.UInt16
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
+  id: Initialize
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: MCP23008.Initialize()
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Initialize
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 92
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected void Initialize()
+    content.vb: Protected Sub Initialize
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort(System.Byte,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort(System.Byte,System.Boolean)
+  id: CreateOutputPort(System.Byte,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: CreateOutputPort(Byte, Boolean)
+  nameWithType: MCP23008.CreateOutputPort(Byte, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort(System.Byte, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CreateOutputPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 120
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nCreates a new DigitalOutputPort using the specified pin and initial state.\n"
+  example: []
+  syntax:
+    content: public DigitalOutputPort CreateOutputPort(byte pin, bool initialState)
+    parameters:
+    - id: pin
+      type: System.Byte
+      description: The pin number to create the port on.
+    - id: initialState
+      type: System.Boolean
+      description: Whether the pin is initially high or low.
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+      description: ''
+    content.vb: Public Function CreateOutputPort(pin As Byte, initialState As Boolean) As DigitalOutputPort
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
+  id: CreateInputPort(System.Byte,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: CreateInputPort(Byte, Boolean)
+  nameWithType: MCP23008.CreateInputPort(Byte, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CreateInputPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 137
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public DigitalInputPort CreateInputPort(byte pin, bool enablePullUp = false)
+    parameters:
+    - id: pin
+      type: System.Byte
+    - id: enablePullUp
+      type: System.Boolean
+    return:
+      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+    content.vb: Public Function CreateInputPort(pin As Byte, enablePullUp As Boolean = False) As DigitalInputPort
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection(System.Byte,Meadow.Hardware.PortDirectionType)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection(System.Byte,Meadow.Hardware.PortDirectionType)
+  id: SetPortDirection(System.Byte,Meadow.Hardware.PortDirectionType)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: SetPortDirection(Byte, PortDirectionType)
+  nameWithType: MCP23008.SetPortDirection(Byte, PortDirectionType)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection(System.Byte, Meadow.Hardware.PortDirectionType)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetPortDirection
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 158
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nSets the direction of a particulare port.\n"
+  example: []
+  syntax:
+    content: public void SetPortDirection(byte pin, PortDirectionType direction)
+    parameters:
+    - id: pin
+      type: System.Byte
+      description: ''
+    - id: direction
+      type: Meadow.Hardware.PortDirectionType
+      description: ''
+    content.vb: Public Sub SetPortDirection(pin As Byte, direction As PortDirectionType)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort(System.Byte,System.Boolean,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort(System.Byte,System.Boolean,System.Boolean)
+  id: ConfigureInputPort(System.Byte,System.Boolean,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: ConfigureInputPort(Byte, Boolean, Boolean)
+  nameWithType: MCP23008.ConfigureInputPort(Byte, Boolean, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort(System.Byte, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ConfigureInputPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 184
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public void ConfigureInputPort(byte pin, bool enablePullUp = false, bool enableInterrupt = true)
+    parameters:
+    - id: pin
+      type: System.Byte
+    - id: enablePullUp
+      type: System.Boolean
+    - id: enableInterrupt
+      type: System.Boolean
+    content.vb: Public Sub ConfigureInputPort(pin As Byte, enablePullUp As Boolean = False, enableInterrupt As Boolean = True)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort(System.Byte,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort(System.Byte,System.Boolean)
+  id: WriteToPort(System.Byte,System.Boolean)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: WriteToPort(Byte, Boolean)
+  nameWithType: MCP23008.WriteToPort(Byte, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort(System.Byte, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteToPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 225
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nSets a particular pin&apos;s value. If that pin is not \nin output mode, this method will first set its \nmode to output.\n"
+  example: []
+  syntax:
+    content: public void WriteToPort(byte pin, bool value)
+    parameters:
+    - id: pin
+      type: System.Byte
+      description: The pin to write to.
+    - id: value
+      type: System.Boolean
+      description: The value to write. True for high, false for low.
+    content.vb: Public Sub WriteToPort(pin As Byte, value As Boolean)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort(System.Byte)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort(System.Byte)
+  id: ReadPort(System.Byte)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: ReadPort(Byte)
+  nameWithType: MCP23008.ReadPort(Byte)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ReadPort
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 244
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: public bool ReadPort(byte pin)
+    parameters:
+    - id: pin
+      type: System.Byte
+    return:
+      type: System.Boolean
+    content.vb: Public Function ReadPort(pin As Byte) As Boolean
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts(System.Byte)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts(System.Byte)
+  id: WriteToPorts(System.Byte)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: WriteToPorts(Byte)
+  nameWithType: MCP23008.WriteToPorts(Byte)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: WriteToPorts
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 266
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  summary: "\nOutputs a byte value across all of the pins by writing directly \nto the output latch (OLAT) register.\n"
+  example: []
+  syntax:
+    content: public void WriteToPorts(byte mask)
+    parameters:
+    - id: mask
+      type: System.Byte
+      description: ''
+    content.vb: Public Sub WriteToPorts(mask As Byte)
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin(System.Byte)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin(System.Byte)
+  id: IsValidPin(System.Byte)
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
+  langs:
+  - csharp
+  - vb
+  name: IsValidPin(Byte)
+  nameWithType: MCP23008.IsValidPin(Byte)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: IsValidPin
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
+    startLine: 278
+  assemblies:
+  - ICs.IOExpanders.MCP23008
+  namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  syntax:
+    content: protected bool IsValidPin(byte pin)
+    parameters:
+    - id: pin
+      type: System.Byte
+    return:
+      type: System.Boolean
+    content.vb: Protected Function IsValidPin(pin As Byte) As Boolean
+  overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  nameWithType: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor
+  name: MCP23008
+  nameWithType: MCP23008.MCP23008
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.MCP23008
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
+  name: Initialize
+  nameWithType: MCP23008.Initialize
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort
+  name: CreateOutputPort
+  nameWithType: MCP23008.CreateOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort
+  name: CreateInputPort
+  nameWithType: MCP23008.CreateInputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+  name: DigitalInputPort
+  nameWithType: DigitalInputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection
+  name: SetPortDirection
+  nameWithType: MCP23008.SetPortDirection
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection
+- uid: Meadow.Hardware.PortDirectionType
+  commentId: T:Meadow.Hardware.PortDirectionType
+  parent: Meadow.Hardware
+  name: PortDirectionType
+  nameWithType: PortDirectionType
+  fullName: Meadow.Hardware.PortDirectionType
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort
+  name: ConfigureInputPort
+  nameWithType: MCP23008.ConfigureInputPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort
+  name: WriteToPort
+  nameWithType: MCP23008.WriteToPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort
+  name: ReadPort
+  nameWithType: MCP23008.ReadPort
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ReadPort
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts
+  name: WriteToPorts
+  nameWithType: MCP23008.WriteToPorts
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.WriteToPorts
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin*
+  commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin
+  name: IsValidPin
+  nameWithType: MCP23008.IsValidPin
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.IsValidPin

@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  id: SSD1306.ScrollDirection
+  parent: Meadow.Foundation.Displays
+  children:
+  - Meadow.Foundation.Displays.SSD1306.ScrollDirection.Left
+  - Meadow.Foundation.Displays.SSD1306.ScrollDirection.LeftAndVertical
+  - Meadow.Foundation.Displays.SSD1306.ScrollDirection.Right
+  - Meadow.Foundation.Displays.SSD1306.ScrollDirection.RightAndVertical
+  langs:
+  - csharp
+  - vb
+  name: SSD1306.ScrollDirection
+  nameWithType: SSD1306.ScrollDirection
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: ScrollDirection
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 16
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nAllow the programmer to set the scroll direction.\n"
+  example: []
+  syntax:
+    content: 'public enum ScrollDirection : int'
+    content.vb: Public Enum ScrollDirection As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection.Left
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ScrollDirection.Left
+  id: Left
+  parent: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: SSD1306.ScrollDirection.Left
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection.Left
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Left
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 21
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nScroll the display to the left.\n"
+  example: []
+  syntax:
+    content: Left = 0
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection.Right
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ScrollDirection.Right
+  id: Right
+  parent: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SSD1306.ScrollDirection.Right
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection.Right
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Right
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 26
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nScroll the display to the right.\n"
+  example: []
+  syntax:
+    content: Right = 1
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection.RightAndVertical
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ScrollDirection.RightAndVertical
+  id: RightAndVertical
+  parent: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  langs:
+  - csharp
+  - vb
+  name: RightAndVertical
+  nameWithType: SSD1306.ScrollDirection.RightAndVertical
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection.RightAndVertical
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: RightAndVertical
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 31
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nScroll the display from the bottom left and vertically.\n"
+  example: []
+  syntax:
+    content: RightAndVertical = 2
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection.LeftAndVertical
+  commentId: F:Meadow.Foundation.Displays.SSD1306.ScrollDirection.LeftAndVertical
+  id: LeftAndVertical
+  parent: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  langs:
+  - csharp
+  - vb
+  name: LeftAndVertical
+  nameWithType: SSD1306.ScrollDirection.LeftAndVertical
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection.LeftAndVertical
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: LeftAndVertical
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.SSD1306/SSD1306.cs
+    startLine: 36
+  assemblies:
+  - Displays.SSD1306
+  namespace: Meadow.Foundation.Displays
+  summary: "\nScroll the display from the bottom right and vertically.\n"
+  example: []
+  syntax:
+    content: LeftAndVertical = 3
+    return:
+      type: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation.Displays
+  commentId: N:Meadow.Foundation.Displays
+  name: Meadow.Foundation.Displays
+  nameWithType: Meadow.Foundation.Displays
+  fullName: Meadow.Foundation.Displays
+- uid: Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  commentId: T:Meadow.Foundation.Displays.SSD1306.ScrollDirection
+  parent: Meadow.Foundation.Displays
+  name: SSD1306.ScrollDirection
+  nameWithType: SSD1306.ScrollDirection
+  fullName: Meadow.Foundation.Displays.SSD1306.ScrollDirection

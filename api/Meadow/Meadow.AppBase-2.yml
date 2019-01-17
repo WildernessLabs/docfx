@@ -1,0 +1,818 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.AppBase`2
+  commentId: T:Meadow.AppBase`2
+  id: AppBase`2
+  parent: Meadow
+  children:
+  - Meadow.AppBase`2.#ctor
+  - Meadow.AppBase`2.Current
+  - Meadow.AppBase`2.Device
+  - Meadow.AppBase`2.OnWake
+  - Meadow.AppBase`2.Run
+  - Meadow.AppBase`2.WillReset
+  - Meadow.AppBase`2.WillSleep
+  langs:
+  - csharp
+  - vb
+  name: AppBase<D, A>
+  nameWithType: AppBase<D, A>
+  fullName: Meadow.AppBase<D, A>
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: AppBase
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 3
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  syntax:
+    content: 'public abstract class AppBase<D, A> : IApp where D : class, IDevice where A : class, IApp'
+    typeParameters:
+    - id: D
+    - id: A
+    content.vb: >-
+      Public MustInherit Class AppBase(Of D As {Class, IDevice}, A As {Class, IApp})
+
+          Implements IApp
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - MeadowApplication.MyApp
+  implements:
+  - Meadow.IApp
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: AppBase(Of D, A)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Meadow.AppBase(Of D, A)
+  name.vb: AppBase(Of D, A)
+- uid: Meadow.AppBase`2.Current
+  commentId: P:Meadow.AppBase`2.Current
+  id: Current
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: AppBase<D, A>.Current
+  fullName: Meadow.AppBase<D, A>.Current
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Current
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 8
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\n"
+  example: []
+  syntax:
+    content: public static A Current { get; }
+    parameters: []
+    return:
+      type: '{A}'
+      description: The current.
+    content.vb: Public Shared ReadOnly Property Current As A
+  overload: Meadow.AppBase`2.Current*
+  nameWithType.vb: AppBase(Of D, A).Current
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: Meadow.AppBase(Of D, A).Current
+- uid: Meadow.AppBase`2.#ctor
+  commentId: M:Meadow.AppBase`2.#ctor
+  id: '#ctor'
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: AppBase()
+  nameWithType: AppBase<D, A>.AppBase()
+  fullName: Meadow.AppBase<D, A>.AppBase()
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 13
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  syntax:
+    content: protected AppBase()
+    content.vb: Protected Sub New
+  overload: Meadow.AppBase`2.#ctor*
+  nameWithType.vb: AppBase(Of D, A).AppBase()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Meadow.AppBase(Of D, A).AppBase()
+- uid: Meadow.AppBase`2.Device
+  commentId: P:Meadow.AppBase`2.Device
+  id: Device
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: Device
+  nameWithType: AppBase<D, A>.Device
+  fullName: Meadow.AppBase<D, A>.Device
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Device
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 19
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  syntax:
+    content: public static D Device { get; }
+    parameters: []
+    return:
+      type: '{D}'
+    content.vb: Public Shared ReadOnly Property Device As D
+  overload: Meadow.AppBase`2.Device*
+  nameWithType.vb: AppBase(Of D, A).Device
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: Meadow.AppBase(Of D, A).Device
+- uid: Meadow.AppBase`2.Run
+  commentId: M:Meadow.AppBase`2.Run
+  id: Run
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: AppBase<D, A>.Run()
+  fullName: Meadow.AppBase<D, A>.Run()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Run
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 28
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled the first time the application is started.\nTODO: Is this necessary? Why not just use the ctor?\n"
+  example: []
+  syntax:
+    content: public abstract void Run()
+    content.vb: Public MustOverride Sub Run
+  overload: Meadow.AppBase`2.Run*
+  implements:
+  - Meadow.IApp.Run
+  nameWithType.vb: AppBase(Of D, A).Run()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Meadow.AppBase(Of D, A).Run()
+- uid: Meadow.AppBase`2.WillSleep
+  commentId: M:Meadow.AppBase`2.WillSleep
+  id: WillSleep
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: WillSleep()
+  nameWithType: AppBase<D, A>.WillSleep()
+  fullName: Meadow.AppBase<D, A>.WillSleep()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WillSleep
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 33
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled when the application is put to sleep.\n"
+  example: []
+  syntax:
+    content: public virtual void WillSleep()
+    content.vb: Public Overridable Sub WillSleep
+  overload: Meadow.AppBase`2.WillSleep*
+  implements:
+  - Meadow.IApp.WillSleep
+  nameWithType.vb: AppBase(Of D, A).WillSleep()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Meadow.AppBase(Of D, A).WillSleep()
+- uid: Meadow.AppBase`2.OnWake
+  commentId: M:Meadow.AppBase`2.OnWake
+  id: OnWake
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: OnWake()
+  nameWithType: AppBase<D, A>.OnWake()
+  fullName: Meadow.AppBase<D, A>.OnWake()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: OnWake
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 38
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\nCalled when the application wakes up from sleep.\n"
+  example: []
+  syntax:
+    content: public virtual void OnWake()
+    content.vb: Public Overridable Sub OnWake
+  overload: Meadow.AppBase`2.OnWake*
+  implements:
+  - Meadow.IApp.OnWake
+  nameWithType.vb: AppBase(Of D, A).OnWake()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Meadow.AppBase(Of D, A).OnWake()
+- uid: Meadow.AppBase`2.WillReset
+  commentId: M:Meadow.AppBase`2.WillReset
+  id: WillReset
+  parent: Meadow.AppBase`2
+  langs:
+  - csharp
+  - vb
+  name: WillReset()
+  nameWithType: AppBase<D, A>.WillReset()
+  fullName: Meadow.AppBase<D, A>.WillReset()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/AppBase.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WillReset
+    path: ../Meadow.Core/source/Meadow.Core/AppBase.cs
+    startLine: 43
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public virtual void WillReset()
+    content.vb: Public Overridable Sub WillReset
+  overload: Meadow.AppBase`2.WillReset*
+  implements:
+  - Meadow.IApp.WillReset
+  nameWithType.vb: AppBase(Of D, A).WillReset()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Meadow.AppBase(Of D, A).WillReset()
+references:
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.IApp
+  commentId: T:Meadow.IApp
+  parent: Meadow
+  name: IApp
+  nameWithType: IApp
+  fullName: Meadow.IApp
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.AppBase`2.Current*
+  commentId: Overload:Meadow.AppBase`2.Current
+  name: Current
+  nameWithType: AppBase<D, A>.Current
+  fullName: Meadow.AppBase<D, A>.Current
+  nameWithType.vb: AppBase(Of D, A).Current
+  fullName.vb: Meadow.AppBase(Of D, A).Current
+- uid: '{A}'
+  commentId: '!:A'
+  definition: A
+  name: A
+  nameWithType: A
+  fullName: A
+- uid: A
+  commentId: '!:A'
+  name: A
+  nameWithType: A
+  fullName: A
+- uid: Meadow.AppBase`2.#ctor*
+  commentId: Overload:Meadow.AppBase`2.#ctor
+  name: AppBase
+  nameWithType: AppBase<D, A>.AppBase
+  fullName: Meadow.AppBase<D, A>.AppBase
+  nameWithType.vb: AppBase(Of D, A).AppBase
+  fullName.vb: Meadow.AppBase(Of D, A).AppBase
+- uid: Meadow.AppBase`2.Device*
+  commentId: Overload:Meadow.AppBase`2.Device
+  name: Device
+  nameWithType: AppBase<D, A>.Device
+  fullName: Meadow.AppBase<D, A>.Device
+  nameWithType.vb: AppBase(Of D, A).Device
+  fullName.vb: Meadow.AppBase(Of D, A).Device
+- uid: '{D}'
+  commentId: '!:D'
+  definition: D
+  name: D
+  nameWithType: D
+  fullName: D
+- uid: D
+  commentId: '!:D'
+  name: D
+  nameWithType: D
+  fullName: D
+- uid: Meadow.AppBase`2.Run*
+  commentId: Overload:Meadow.AppBase`2.Run
+  name: Run
+  nameWithType: AppBase<D, A>.Run
+  fullName: Meadow.AppBase<D, A>.Run
+  nameWithType.vb: AppBase(Of D, A).Run
+  fullName.vb: Meadow.AppBase(Of D, A).Run
+- uid: Meadow.IApp.Run
+  commentId: M:Meadow.IApp.Run
+  parent: Meadow.IApp
+  name: Run()
+  nameWithType: IApp.Run()
+  fullName: Meadow.IApp.Run()
+  spec.csharp:
+  - uid: Meadow.IApp.Run
+    name: Run
+    nameWithType: IApp.Run
+    fullName: Meadow.IApp.Run
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.IApp.Run
+    name: Run
+    nameWithType: IApp.Run
+    fullName: Meadow.IApp.Run
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.AppBase`2.WillSleep*
+  commentId: Overload:Meadow.AppBase`2.WillSleep
+  name: WillSleep
+  nameWithType: AppBase<D, A>.WillSleep
+  fullName: Meadow.AppBase<D, A>.WillSleep
+  nameWithType.vb: AppBase(Of D, A).WillSleep
+  fullName.vb: Meadow.AppBase(Of D, A).WillSleep
+- uid: Meadow.IApp.WillSleep
+  commentId: M:Meadow.IApp.WillSleep
+  parent: Meadow.IApp
+  name: WillSleep()
+  nameWithType: IApp.WillSleep()
+  fullName: Meadow.IApp.WillSleep()
+  spec.csharp:
+  - uid: Meadow.IApp.WillSleep
+    name: WillSleep
+    nameWithType: IApp.WillSleep
+    fullName: Meadow.IApp.WillSleep
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.IApp.WillSleep
+    name: WillSleep
+    nameWithType: IApp.WillSleep
+    fullName: Meadow.IApp.WillSleep
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.AppBase`2.OnWake*
+  commentId: Overload:Meadow.AppBase`2.OnWake
+  name: OnWake
+  nameWithType: AppBase<D, A>.OnWake
+  fullName: Meadow.AppBase<D, A>.OnWake
+  nameWithType.vb: AppBase(Of D, A).OnWake
+  fullName.vb: Meadow.AppBase(Of D, A).OnWake
+- uid: Meadow.IApp.OnWake
+  commentId: M:Meadow.IApp.OnWake
+  parent: Meadow.IApp
+  name: OnWake()
+  nameWithType: IApp.OnWake()
+  fullName: Meadow.IApp.OnWake()
+  spec.csharp:
+  - uid: Meadow.IApp.OnWake
+    name: OnWake
+    nameWithType: IApp.OnWake
+    fullName: Meadow.IApp.OnWake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.IApp.OnWake
+    name: OnWake
+    nameWithType: IApp.OnWake
+    fullName: Meadow.IApp.OnWake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.AppBase`2.WillReset*
+  commentId: Overload:Meadow.AppBase`2.WillReset
+  name: WillReset
+  nameWithType: AppBase<D, A>.WillReset
+  fullName: Meadow.AppBase<D, A>.WillReset
+  nameWithType.vb: AppBase(Of D, A).WillReset
+  fullName.vb: Meadow.AppBase(Of D, A).WillReset
+- uid: Meadow.IApp.WillReset
+  commentId: M:Meadow.IApp.WillReset
+  parent: Meadow.IApp
+  name: WillReset()
+  nameWithType: IApp.WillReset()
+  fullName: Meadow.IApp.WillReset()
+  spec.csharp:
+  - uid: Meadow.IApp.WillReset
+    name: WillReset
+    nameWithType: IApp.WillReset
+    fullName: Meadow.IApp.WillReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.IApp.WillReset
+    name: WillReset
+    nameWithType: IApp.WillReset
+    fullName: Meadow.IApp.WillReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

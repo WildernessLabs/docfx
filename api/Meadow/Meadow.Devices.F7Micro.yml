@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Devices.F7Micro
+  commentId: T:Meadow.Devices.F7Micro
+  id: F7Micro
+  parent: Meadow.Devices
+  children:
+  - Meadow.Devices.F7Micro.#ctor
+  - Meadow.Devices.F7Micro._pins
+  - Meadow.Devices.F7Micro.Pins
+  - Meadow.Devices.F7Micro.WiFiAdapters
+  langs:
+  - csharp
+  - vb
+  name: F7Micro
+  nameWithType: F7Micro
+  fullName: Meadow.Devices.F7Micro
+  type: Class
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: F7Micro
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 7
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: 'public class F7Micro : DeviceBase, IDevice'
+    content.vb: >-
+      Public Class F7Micro
+
+          Inherits DeviceBase
+
+          Implements IDevice
+  inheritance:
+  - System.Object
+  - Meadow.DeviceBase
+  implements:
+  - Meadow.IDevice
+  inheritedMembers:
+  - Meadow.DeviceBase.Capabilities
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Devices.F7Micro.WiFiAdapters
+  commentId: P:Meadow.Devices.F7Micro.WiFiAdapters
+  id: WiFiAdapters
+  parent: Meadow.Devices.F7Micro
+  langs:
+  - csharp
+  - vb
+  name: WiFiAdapters
+  nameWithType: F7Micro.WiFiAdapters
+  fullName: Meadow.Devices.F7Micro.WiFiAdapters
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: WiFiAdapters
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public List<WiFiAdapter> WiFiAdapters { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Meadow.Gateway.WiFi.WiFiAdapter}
+    content.vb: Public ReadOnly Property WiFiAdapters As List(Of WiFiAdapter)
+  overload: Meadow.Devices.F7Micro.WiFiAdapters*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Meadow.Devices.F7Micro.#ctor
+  commentId: M:Meadow.Devices.F7Micro.#ctor
+  id: '#ctor'
+  parent: Meadow.Devices.F7Micro
+  langs:
+  - csharp
+  - vb
+  name: F7Micro()
+  nameWithType: F7Micro.F7Micro()
+  fullName: Meadow.Devices.F7Micro.F7Micro()
+  type: Constructor
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: .ctor
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 16
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public F7Micro()
+    content.vb: Public Sub New
+  overload: Meadow.Devices.F7Micro.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Devices.F7Micro._pins
+  commentId: F:Meadow.Devices.F7Micro._pins
+  id: _pins
+  parent: Meadow.Devices.F7Micro
+  langs:
+  - csharp
+  - vb
+  name: _pins
+  nameWithType: F7Micro._pins
+  fullName: Meadow.Devices.F7Micro._pins
+  type: Field
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: _pins
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 26
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: protected F7Micro.PinDefinitions _pins
+    return:
+      type: Meadow.Devices.F7Micro.PinDefinitions
+    content.vb: Protected _pins As F7Micro.PinDefinitions
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Meadow.Devices.F7Micro.Pins
+  commentId: P:Meadow.Devices.F7Micro.Pins
+  id: Pins
+  parent: Meadow.Devices.F7Micro
+  langs:
+  - csharp
+  - vb
+  name: Pins
+  nameWithType: F7Micro.Pins
+  fullName: Meadow.Devices.F7Micro.Pins
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Devices/F7Micro.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: Pins
+    path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
+    startLine: 27
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Devices
+  syntax:
+    content: public F7Micro.PinDefinitions Pins { get; }
+    parameters: []
+    return:
+      type: Meadow.Devices.F7Micro.PinDefinitions
+    content.vb: Public ReadOnly Property Pins As F7Micro.PinDefinitions
+  overload: Meadow.Devices.F7Micro.Pins*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Meadow.Devices
+  commentId: N:Meadow.Devices
+  name: Meadow.Devices
+  nameWithType: Meadow.Devices
+  fullName: Meadow.Devices
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Meadow.DeviceBase
+  commentId: T:Meadow.DeviceBase
+  parent: Meadow
+  name: DeviceBase
+  nameWithType: DeviceBase
+  fullName: Meadow.DeviceBase
+- uid: Meadow.IDevice
+  commentId: T:Meadow.IDevice
+  parent: Meadow
+  name: IDevice
+  nameWithType: IDevice
+  fullName: Meadow.IDevice
+- uid: Meadow.DeviceBase.Capabilities
+  commentId: P:Meadow.DeviceBase.Capabilities
+  parent: Meadow.DeviceBase
+  name: Capabilities
+  nameWithType: DeviceBase.Capabilities
+  fullName: Meadow.DeviceBase.Capabilities
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow
+  commentId: N:Meadow
+  name: Meadow
+  nameWithType: Meadow
+  fullName: Meadow
+- uid: Meadow.Devices.F7Micro.WiFiAdapters*
+  commentId: Overload:Meadow.Devices.F7Micro.WiFiAdapters
+  name: WiFiAdapters
+  nameWithType: F7Micro.WiFiAdapters
+  fullName: Meadow.Devices.F7Micro.WiFiAdapters
+- uid: System.Collections.Generic.List{Meadow.Gateway.WiFi.WiFiAdapter}
+  commentId: T:System.Collections.Generic.List{Meadow.Gateway.WiFi.WiFiAdapter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<WiFiAdapter>
+  nameWithType: List<WiFiAdapter>
+  fullName: System.Collections.Generic.List<Meadow.Gateway.WiFi.WiFiAdapter>
+  nameWithType.vb: List(Of WiFiAdapter)
+  fullName.vb: System.Collections.Generic.List(Of Meadow.Gateway.WiFi.WiFiAdapter)
+  name.vb: List(Of WiFiAdapter)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Meadow.Gateway.WiFi.WiFiAdapter
+    name: WiFiAdapter
+    nameWithType: WiFiAdapter
+    fullName: Meadow.Gateway.WiFi.WiFiAdapter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Meadow.Gateway.WiFi.WiFiAdapter
+    name: WiFiAdapter
+    nameWithType: WiFiAdapter
+    fullName: Meadow.Gateway.WiFi.WiFiAdapter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Meadow.Devices.F7Micro.#ctor*
+  commentId: Overload:Meadow.Devices.F7Micro.#ctor
+  name: F7Micro
+  nameWithType: F7Micro.F7Micro
+  fullName: Meadow.Devices.F7Micro.F7Micro
+- uid: Meadow.Devices.F7Micro.PinDefinitions
+  commentId: T:Meadow.Devices.F7Micro.PinDefinitions
+  parent: Meadow.Devices
+  name: F7Micro.PinDefinitions
+  nameWithType: F7Micro.PinDefinitions
+  fullName: Meadow.Devices.F7Micro.PinDefinitions
+- uid: Meadow.Devices.F7Micro.Pins*
+  commentId: Overload:Meadow.Devices.F7Micro.Pins
+  name: Pins
+  nameWithType: F7Micro.Pins
+  fullName: Meadow.Devices.F7Micro.Pins
