@@ -26,8 +26,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum SerialData : int'
-    content.vb: Public Enum SerialData As Integer
+    content: public enum SerialData
+    content.vb: Public Enum SerialData
   modifiers.csharp:
   - public
   - enum
@@ -57,10 +57,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Chars = null
+    content: Chars = 0
     return:
       type: Meadow.Hardware.SerialData
-    content.vb: Chars = Nothing
   modifiers.csharp:
   - public
   - const
@@ -90,10 +89,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Eof = null
+    content: Eof = 1
     return:
       type: Meadow.Hardware.SerialData
-    content.vb: Eof = Nothing
   modifiers.csharp:
   - public
   - const

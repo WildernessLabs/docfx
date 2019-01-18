@@ -33,8 +33,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum PWMChannel : int'
-    content.vb: Public Enum PWMChannel As Integer
+    content: public enum PWMChannel
+    content.vb: Public Enum PWMChannel
   modifiers.csharp:
   - public
   - enum
@@ -64,10 +64,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_NONE = null
+    content: PWM_NONE = -1
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -97,10 +96,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_0 = null
+    content: PWM_0 = 0
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_0 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -130,10 +128,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_1 = null
+    content: PWM_1 = 1
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -163,10 +160,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_2 = null
+    content: PWM_2 = 2
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -196,10 +192,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_3 = null
+    content: PWM_3 = 3
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -229,10 +224,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_4 = null
+    content: PWM_4 = 4
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -262,10 +256,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_5 = null
+    content: PWM_5 = 5
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_5 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -295,10 +288,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_6 = null
+    content: PWM_6 = 6
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_6 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -328,10 +320,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PWM_7 = null
+    content: PWM_7 = 7
     return:
       type: Meadow.Hardware.Cpu.PWMChannel
-    content.vb: PWM_7 = Nothing
   modifiers.csharp:
   - public
   - const

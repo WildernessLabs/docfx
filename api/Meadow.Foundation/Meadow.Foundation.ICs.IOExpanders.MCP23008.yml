@@ -4,7 +4,6 @@ items:
   commentId: N:Meadow.Foundation.ICs.IOExpanders.MCP23008
   id: Meadow.Foundation.ICs.IOExpanders.MCP23008
   children:
-  - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
@@ -19,12 +18,6 @@ items:
   assemblies:
   - ICs.IOExpanders.MCP23008
 references:
-- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
-  name: DigitalInputPort
-  nameWithType: DigitalInputPort
-  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
 - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
   commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
   parent: Meadow.Foundation.ICs.IOExpanders.MCP23008

@@ -28,8 +28,18 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum PinValidResistorMode : byte'
-    content.vb: Public Enum PinValidResistorMode As Byte
+    content: >-
+      [Flags]
+
+      public enum PinValidResistorMode : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum PinValidResistorMode As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - enum
@@ -59,10 +69,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: NONE = null
+    content: NONE = 0
     return:
       type: Meadow.Hardware.Cpu.PinValidResistorMode
-    content.vb: NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -92,10 +101,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Disabled = null
+    content: Disabled = 1
     return:
       type: Meadow.Hardware.Cpu.PinValidResistorMode
-    content.vb: Disabled = Nothing
   modifiers.csharp:
   - public
   - const
@@ -125,10 +133,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PullUp = null
+    content: PullUp = 2
     return:
       type: Meadow.Hardware.Cpu.PinValidResistorMode
-    content.vb: PullUp = Nothing
   modifiers.csharp:
   - public
   - const
@@ -158,10 +165,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: PullDown = null
+    content: PullDown = 4
     return:
       type: Meadow.Hardware.Cpu.PinValidResistorMode
-    content.vb: PullDown = Nothing
   modifiers.csharp:
   - public
   - const

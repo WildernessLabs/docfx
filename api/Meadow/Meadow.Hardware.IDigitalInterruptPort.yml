@@ -29,7 +29,6 @@ items:
     content: 'public interface IDigitalInterruptPort : IDigitalInputPort, IDigitalPort, IPort'
     content.vb: >-
       Public Interface IDigitalInterruptPort
-
           Inherits IDigitalInputPort
   inheritedMembers:
   - Meadow.Hardware.IDigitalInputPort.State
@@ -66,7 +65,7 @@ items:
   syntax:
     content: event EventHandler<PortEventArgs> Changed
     return:
-      type: EventHandler{Meadow.Hardware.PortEventArgs}
+      type: System.EventHandler{Meadow.Hardware.PortEventArgs}
     content.vb: Event Changed As EventHandler(Of PortEventArgs)
 - uid: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
   commentId: P:Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
@@ -136,20 +135,21 @@ references:
   name: IPort
   nameWithType: IPort
   fullName: Meadow.Hardware.IPort
-- uid: EventHandler{Meadow.Hardware.PortEventArgs}
-  commentId: '!:EventHandler{Meadow.Hardware.PortEventArgs}'
-  definition: EventHandler`1
+- uid: System.EventHandler{Meadow.Hardware.PortEventArgs}
+  commentId: T:System.EventHandler{Meadow.Hardware.PortEventArgs}
+  parent: System
+  definition: System.EventHandler`1
   name: EventHandler<PortEventArgs>
   nameWithType: EventHandler<PortEventArgs>
-  fullName: EventHandler<Meadow.Hardware.PortEventArgs>
+  fullName: System.EventHandler<Meadow.Hardware.PortEventArgs>
   nameWithType.vb: EventHandler(Of PortEventArgs)
-  fullName.vb: EventHandler(Of Meadow.Hardware.PortEventArgs)
+  fullName.vb: System.EventHandler(Of Meadow.Hardware.PortEventArgs)
   name.vb: EventHandler(Of PortEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -162,10 +162,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -177,44 +177,51 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventHandler`1
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
   isExternal: true
-  name: EventHandler<>
-  nameWithType: EventHandler<>
-  fullName: EventHandler<>
-  nameWithType.vb: EventHandler(Of )
-  fullName.vb: EventHandler(Of )
-  name.vb: EventHandler(Of )
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled*
   commentId: Overload:Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
   name: InterrupEnabled
@@ -227,9 +234,3 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

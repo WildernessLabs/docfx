@@ -552,7 +552,7 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public DisplayTftSpiBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, bool idleClockState = false)
+    content: public DisplayTftSpiBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = 9500U, bool idleClockState = false)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -570,7 +570,7 @@ items:
       type: System.UInt32
     - id: idleClockState
       type: System.Boolean
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI, idleClockState As Boolean = False)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = 9500UI, idleClockState As Boolean = False)
   overload: Meadow.Foundation.Displays.DisplayTftSpiBase.#ctor*
   modifiers.csharp:
   - public

@@ -119,7 +119,7 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public ST7735(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, ST7735.DisplayType displayType = ST7735.DisplayType.ST7735R)
+    content: public ST7735(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, uint width, uint height, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = 9500U, ST7735.DisplayType displayType = ST7735.DisplayType.ST7735R)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -137,7 +137,7 @@ items:
       type: System.UInt32
     - id: displayType
       type: Meadow.Foundation.Displays.ST7735.DisplayType
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI, displayType As ST7735.DisplayType = ST7735.DisplayType.ST7735R)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, width As UInteger, height As UInteger, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = 9500UI, displayType As ST7735.DisplayType = ST7735.DisplayType.ST7735R)
   overload: Meadow.Foundation.Displays.ST7735.#ctor*
   modifiers.csharp:
   - public

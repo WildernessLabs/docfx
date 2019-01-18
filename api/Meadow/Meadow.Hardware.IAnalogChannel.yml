@@ -80,7 +80,15 @@ references:
   nameWithType: IAnalogChannel.Precision
   fullName: Meadow.Hardware.IAnalogChannel.Precision
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

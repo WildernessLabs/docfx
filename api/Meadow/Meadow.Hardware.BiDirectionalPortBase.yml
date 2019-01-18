@@ -41,12 +41,9 @@ items:
   summary: "\nProvides a base implementation for BiDirectional Ports; digital ports \nthat can be both input and output.\n"
   example: []
   syntax:
-    content: 'public abstract class BiDirectionalPortBase : object, IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable'
+    content: 'public abstract class BiDirectionalPortBase : IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable'
     content.vb: >-
       Public MustInherit Class BiDirectionalPortBase
-
-          Inherits Object
-
           Implements IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable
   inheritance:
   - System.Object
@@ -59,7 +56,15 @@ items:
   - Meadow.Hardware.IDigitalOutputPort
   - Meadow.Hardware.IDigitalPort
   - Meadow.Hardware.IPort
-  - IDisposable
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - abstract
@@ -93,7 +98,7 @@ items:
   syntax:
     content: public event EventHandler<PortEventArgs> Changed
     return:
-      type: EventHandler{Meadow.Hardware.PortEventArgs}
+      type: System.EventHandler{Meadow.Hardware.PortEventArgs}
     content.vb: Public Event Changed As EventHandler(Of PortEventArgs)
   implements:
   - Meadow.Hardware.IDigitalInterruptPort.Changed
@@ -392,7 +397,7 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: protected BiDirectionalPortBase(IDigitalPin pin, bool initialState = false, bool glitchFilter = false, ResistorMode resistorMode = default(ResistorMode))
+    content: protected BiDirectionalPortBase(IDigitalPin pin, bool initialState = false, bool glitchFilter = false, ResistorMode resistorMode = ResistorMode.Disabled)
     parameters:
     - id: pin
       type: Meadow.Hardware.IDigitalPin
@@ -402,7 +407,7 @@ items:
       type: System.Boolean
     - id: resistorMode
       type: Meadow.Hardware.ResistorMode
-    content.vb: Protected Sub New(pin As IDigitalPin, initialState As Boolean = False, glitchFilter As Boolean = False, resistorMode As ResistorMode = Nothing)
+    content.vb: Protected Sub New(pin As IDigitalPin, initialState As Boolean = False, glitchFilter As Boolean = False, resistorMode As ResistorMode = ResistorMode.Disabled)
   overload: Meadow.Hardware.BiDirectionalPortBase.#ctor*
   modifiers.csharp:
   - protected
@@ -434,6 +439,8 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: Meadow.Hardware.BiDirectionalPortBase.Dispose*
+  implements:
+  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -578,6 +585,7 @@ items:
   overload: Meadow.Hardware.BiDirectionalPortBase.State*
   implements:
   - Meadow.Hardware.IDigitalInputPort.State
+  - Meadow.Hardware.IDigitalOutputPort.State
   - Meadow.Hardware.IDigitalPort.State
   modifiers.csharp:
   - public
@@ -636,11 +644,292 @@ references:
   name: IPort
   nameWithType: IPort
   fullName: Meadow.Hardware.IPort
-- uid: IDisposable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
-  fullName: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -653,20 +942,21 @@ references:
   name: Changed
   nameWithType: IDigitalInterruptPort.Changed
   fullName: Meadow.Hardware.IDigitalInterruptPort.Changed
-- uid: EventHandler{Meadow.Hardware.PortEventArgs}
-  commentId: '!:EventHandler{Meadow.Hardware.PortEventArgs}'
-  definition: EventHandler`1
+- uid: System.EventHandler{Meadow.Hardware.PortEventArgs}
+  commentId: T:System.EventHandler{Meadow.Hardware.PortEventArgs}
+  parent: System
+  definition: System.EventHandler`1
   name: EventHandler<PortEventArgs>
   nameWithType: EventHandler<PortEventArgs>
-  fullName: EventHandler<Meadow.Hardware.PortEventArgs>
+  fullName: System.EventHandler<Meadow.Hardware.PortEventArgs>
   nameWithType.vb: EventHandler(Of PortEventArgs)
-  fullName.vb: EventHandler(Of Meadow.Hardware.PortEventArgs)
+  fullName.vb: System.EventHandler(Of Meadow.Hardware.PortEventArgs)
   name.vb: EventHandler(Of PortEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -679,10 +969,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -694,41 +984,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventHandler`1
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
   isExternal: true
-  name: EventHandler<>
-  nameWithType: EventHandler<>
-  fullName: EventHandler<>
-  nameWithType.vb: EventHandler(Of )
-  fullName.vb: EventHandler(Of )
-  name.vb: EventHandler(Of )
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: )
     nameWithType: )
     fullName: )
@@ -805,6 +1096,37 @@ references:
   name: Dispose
   nameWithType: BiDirectionalPortBase.Dispose
   fullName: Meadow.Hardware.BiDirectionalPortBase.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled*
   commentId: Overload:Meadow.Hardware.BiDirectionalPortBase.InterrupEnabled
   name: InterrupEnabled
@@ -838,6 +1160,12 @@ references:
   name: State
   nameWithType: IDigitalInputPort.State
   fullName: Meadow.Hardware.IDigitalInputPort.State
+- uid: Meadow.Hardware.IDigitalOutputPort.State
+  commentId: P:Meadow.Hardware.IDigitalOutputPort.State
+  parent: Meadow.Hardware.IDigitalOutputPort
+  name: State
+  nameWithType: IDigitalOutputPort.State
+  fullName: Meadow.Hardware.IDigitalOutputPort.State
 - uid: Meadow.Hardware.IDigitalPort.State
   commentId: P:Meadow.Hardware.IDigitalPort.State
   parent: Meadow.Hardware.IDigitalPort

@@ -5,8 +5,8 @@ items:
   id: Relay
   parent: Meadow.Foundation.Relays
   children:
-  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
-  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.DigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  - Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.Relays.RelayType)
   - Meadow.Foundation.Relays.Relay._isOn
   - Meadow.Foundation.Relays.Relay._onValue
   - Meadow.Foundation.Relays.Relay.DigitalOut
@@ -78,11 +78,11 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Relays
   syntax:
-    content: public IDigitalOutputPort DigitalOut { get; protected set; }
+    content: public DigitalOutputPort DigitalOut { get; protected set; }
     parameters: []
     return:
-      type: Meadow.Hardware.IDigitalOutputPort
-    content.vb: Public Property DigitalOut As IDigitalOutputPort
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Public Property DigitalOut As DigitalOutputPort
   overload: Meadow.Foundation.Relays.Relay.DigitalOut*
   modifiers.csharp:
   - public
@@ -230,16 +230,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
-  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)
-  id: '#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)'
+- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.DigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.DigitalOutputPort,Meadow.Foundation.Relays.RelayType)
+  id: '#ctor(Meadow.Hardware.DigitalOutputPort,Meadow.Foundation.Relays.RelayType)'
   parent: Meadow.Foundation.Relays.Relay
   langs:
   - csharp
   - vb
-  name: Relay(IDigitalOutputPort, RelayType)
-  nameWithType: Relay.Relay(IDigitalOutputPort, RelayType)
-  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.IDigitalOutputPort, Meadow.Foundation.Relays.RelayType)
+  name: Relay(DigitalOutputPort, RelayType)
+  nameWithType: Relay.Relay(DigitalOutputPort, RelayType)
+  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.DigitalOutputPort, Meadow.Foundation.Relays.RelayType)
   type: Constructor
   source:
     remote:
@@ -255,30 +255,30 @@ items:
   summary: "\nCreates a new Relay on an IDigitalOutputPort. Allows you \nto use any peripheral that exposes ports that conform to the\nIDigitalOutputPort, such as the MCP23008.\n"
   example: []
   syntax:
-    content: public Relay(IDigitalOutputPort port, RelayType type = RelayType.NormallyOpen)
+    content: public Relay(DigitalOutputPort port, RelayType type = RelayType.NormallyOpen)
     parameters:
     - id: port
-      type: Meadow.Hardware.IDigitalOutputPort
+      type: Meadow.Hardware.DigitalOutputPort
       description: ''
     - id: type
       type: Meadow.Foundation.Relays.RelayType
       description: ''
-    content.vb: Public Sub New(port As IDigitalOutputPort, type As RelayType = RelayType.NormallyOpen)
+    content.vb: Public Sub New(port As DigitalOutputPort, type As RelayType = RelayType.NormallyOpen)
   overload: Meadow.Foundation.Relays.Relay.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
-  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)
-  id: '#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)'
+- uid: Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.Relays.RelayType)
+  commentId: M:Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.Relays.RelayType)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.Relays.RelayType)'
   parent: Meadow.Foundation.Relays.Relay
   langs:
   - csharp
   - vb
-  name: Relay(IDigitalChannel, RelayType)
-  nameWithType: Relay.Relay(IDigitalChannel, RelayType)
-  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.IDigitalChannel, Meadow.Foundation.Relays.RelayType)
+  name: Relay(IDigitalPin, RelayType)
+  nameWithType: Relay.Relay(IDigitalPin, RelayType)
+  fullName: Meadow.Foundation.Relays.Relay.Relay(Meadow.Hardware.IDigitalPin, Meadow.Foundation.Relays.RelayType)
   type: Constructor
   source:
     remote:
@@ -292,13 +292,13 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Relays
   syntax:
-    content: public Relay(IDigitalChannel pin, RelayType type = RelayType.NormallyOpen)
+    content: public Relay(IDigitalPin pin, RelayType type = RelayType.NormallyOpen)
     parameters:
     - id: pin
-      type: Meadow.Hardware.IDigitalChannel
+      type: Meadow.Hardware.IDigitalPin
     - id: type
       type: Meadow.Foundation.Relays.RelayType
-    content.vb: Public Sub New(pin As IDigitalChannel, type As RelayType = RelayType.NormallyOpen)
+    content.vb: Public Sub New(pin As IDigitalPin, type As RelayType = RelayType.NormallyOpen)
   overload: Meadow.Foundation.Relays.Relay.#ctor*
   modifiers.csharp:
   - public
@@ -645,12 +645,12 @@ references:
   name: DigitalOut
   nameWithType: Relay.DigitalOut
   fullName: Meadow.Foundation.Relays.Relay.DigitalOut
-- uid: Meadow.Hardware.IDigitalOutputPort
-  commentId: T:Meadow.Hardware.IDigitalOutputPort
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
   parent: Meadow.Hardware
-  name: IDigitalOutputPort
-  nameWithType: IDigitalOutputPort
-  fullName: Meadow.Hardware.IDigitalOutputPort
+  name: DigitalOutputPort
+  nameWithType: DigitalOutputPort
+  fullName: Meadow.Hardware.DigitalOutputPort
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
   name: Meadow.Hardware
@@ -696,12 +696,12 @@ references:
   name: Relay
   nameWithType: Relay.Relay
   fullName: Meadow.Foundation.Relays.Relay.Relay
-- uid: Meadow.Hardware.IDigitalChannel
-  commentId: T:Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
   parent: Meadow.Hardware
-  name: IDigitalChannel
-  nameWithType: IDigitalChannel
-  fullName: Meadow.Hardware.IDigitalChannel
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
 - uid: Meadow.Foundation.Relays.Relay.Toggle*
   commentId: Overload:Meadow.Foundation.Relays.Relay.Toggle
   name: Toggle

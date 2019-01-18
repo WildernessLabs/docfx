@@ -27,7 +27,6 @@ items:
     content: 'public interface IAnalogPort : IPort'
     content.vb: >-
       Public Interface IAnalogPort
-
           Inherits IPort
   inheritedMembers:
   - Meadow.Hardware.IPort.Direction

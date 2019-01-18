@@ -10,7 +10,7 @@ items:
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.#ctor(System.Byte,System.UInt16)
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008._lock
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort(System.Byte,System.Boolean,System.Boolean)
-  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
+  - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateOutputPort(System.Byte,System.Boolean)
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.Initialize
   - Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.InterruptRaised
@@ -296,16 +296,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
-  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte,System.Boolean)
-  id: CreateInputPort(System.Byte,System.Boolean)
+- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  commentId: M:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
+  id: CreateInputPort(Meadow.Hardware.IDigitalPin,System.Boolean)
   parent: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
   langs:
   - csharp
   - vb
-  name: CreateInputPort(Byte, Boolean)
-  nameWithType: MCP23008.CreateInputPort(Byte, Boolean)
-  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(System.Byte, System.Boolean)
+  name: CreateInputPort(IDigitalPin, Boolean)
+  nameWithType: MCP23008.CreateInputPort(IDigitalPin, Boolean)
+  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort(Meadow.Hardware.IDigitalPin, System.Boolean)
   type: Method
   source:
     remote:
@@ -319,15 +319,15 @@ items:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
   syntax:
-    content: public DigitalInputPort CreateInputPort(byte pin, bool enablePullUp = false)
+    content: public DigitalInputPort CreateInputPort(IDigitalPin pin, bool enablePullUp = false)
     parameters:
     - id: pin
-      type: System.Byte
+      type: Meadow.Hardware.IDigitalPin
     - id: enablePullUp
       type: System.Boolean
     return:
-      type: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-    content.vb: Public Function CreateInputPort(pin As Byte, enablePullUp As Boolean = False) As DigitalInputPort
+      type: Meadow.Hardware.DigitalInputPort
+    content.vb: Public Function CreateInputPort(pin As IDigitalPin, enablePullUp As Boolean = False) As DigitalInputPort
   overload: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort*
   modifiers.csharp:
   - public
@@ -351,7 +351,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: SetPortDirection
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 158
+    startLine: 155
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -390,7 +390,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ConfigureInputPort
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 184
+    startLine: 181
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -427,7 +427,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: WriteToPort
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 225
+    startLine: 222
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -466,7 +466,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ReadPort
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 244
+    startLine: 241
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -501,7 +501,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: WriteToPorts
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 266
+    startLine: 263
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -537,7 +537,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: IsValidPin
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 278
+    startLine: 275
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -906,12 +906,23 @@ references:
   name: CreateInputPort
   nameWithType: MCP23008.CreateInputPort
   fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.CreateInputPort
-- uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-  commentId: T:Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-  parent: Meadow.Foundation.ICs.IOExpanders.MCP23008
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.DigitalInputPort
+  commentId: T:Meadow.Hardware.DigitalInputPort
+  parent: Meadow.Hardware
   name: DigitalInputPort
   nameWithType: DigitalInputPort
-  fullName: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
+  fullName: Meadow.Hardware.DigitalInputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
 - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection*
   commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.SetPortDirection
   name: SetPortDirection
@@ -923,11 +934,6 @@ references:
   name: PortDirectionType
   nameWithType: PortDirectionType
   fullName: Meadow.Hardware.PortDirectionType
-- uid: Meadow.Hardware
-  commentId: N:Meadow.Hardware
-  name: Meadow.Hardware
-  nameWithType: Meadow.Hardware
-  fullName: Meadow.Hardware
 - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort*
   commentId: Overload:Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ConfigureInputPort
   name: ConfigureInputPort

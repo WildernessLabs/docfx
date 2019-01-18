@@ -33,8 +33,8 @@ items:
   summary: "\nDescribes the status of a WiFi network connection.\n"
   example: []
   syntax:
-    content: 'public enum ConnectionStatus : int'
-    content.vb: Public Enum ConnectionStatus As Integer
+    content: public enum ConnectionStatus
+    content.vb: Public Enum ConnectionStatus
   modifiers.csharp:
   - public
   - enum
@@ -66,10 +66,9 @@ items:
   summary: "\nConnection failed for a reason other than those in this list.\n"
   example: []
   syntax:
-    content: UnspecifiedFailure = null
+    content: UnspecifiedFailure = 0
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: UnspecifiedFailure = Nothing
   modifiers.csharp:
   - public
   - const
@@ -101,10 +100,9 @@ items:
   summary: "\nConnection succeeded.\n"
   example: []
   syntax:
-    content: Success = null
+    content: Success = 1
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: Success = Nothing
   modifiers.csharp:
   - public
   - const
@@ -136,10 +134,9 @@ items:
   summary: "\nConnection failed because access to the network has been revoked.\n"
   example: []
   syntax:
-    content: AccessRevoked = null
+    content: AccessRevoked = 2
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: AccessRevoked = Nothing
   modifiers.csharp:
   - public
   - const
@@ -171,10 +168,9 @@ items:
   summary: "\nConnection failed because an invalid credential was presented.\n"
   example: []
   syntax:
-    content: InvalidCredential = null
+    content: InvalidCredential = 3
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: InvalidCredential = Nothing
   modifiers.csharp:
   - public
   - const
@@ -206,10 +202,9 @@ items:
   summary: "\nConnection failed because the network is not available.\n"
   example: []
   syntax:
-    content: NetworkNotAvailable = null
+    content: NetworkNotAvailable = 4
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: NetworkNotAvailable = Nothing
   modifiers.csharp:
   - public
   - const
@@ -241,10 +236,9 @@ items:
   summary: "\nConnection failed because the connection attempt timed out.\n"
   example: []
   syntax:
-    content: Timeout = null
+    content: Timeout = 5
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: Timeout = Nothing
   modifiers.csharp:
   - public
   - const
@@ -276,10 +270,9 @@ items:
   summary: "\nConnection failed because the authentication protocol is not supported.\n"
   example: []
   syntax:
-    content: UnsupportedAuthenticationProtocol = null
+    content: UnsupportedAuthenticationProtocol = 6
     return:
       type: Meadow.Gateway.WiFi.ConnectionStatus
-    content.vb: UnsupportedAuthenticationProtocol = Nothing
   modifiers.csharp:
   - public
   - const

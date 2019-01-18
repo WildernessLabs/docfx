@@ -36,8 +36,8 @@ items:
   summary: "\nTODO: revisit this structure. Ultimately, it would be nice to know, specifically\nwhat a channel is cofigured for, i.e. DigitalInput, I2C TX, UART RX, etc.\n"
   example: []
   syntax:
-    content: 'public enum ChannelConfigurationType : int'
-    content.vb: Public Enum ChannelConfigurationType As Integer
+    content: public enum ChannelConfigurationType
+    content.vb: Public Enum ChannelConfigurationType
   modifiers.csharp:
   - public
   - enum

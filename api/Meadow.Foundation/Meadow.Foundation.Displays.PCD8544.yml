@@ -5,7 +5,7 @@ items:
   id: PCD8544
   parent: Meadow.Foundation.Displays
   children:
-  - Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
+  - Meadow.Foundation.Displays.PCD8544.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
   - Meadow.Foundation.Displays.PCD8544._invertDisplay
   - Meadow.Foundation.Displays.PCD8544.Clear(System.Boolean)
   - Meadow.Foundation.Displays.PCD8544.ColorMode
@@ -267,7 +267,7 @@ items:
   syntax:
     content: protected DigitalOutputPort dataCommandPort
     return:
-      type: DigitalOutputPort
+      type: Meadow.Hardware.DigitalOutputPort
     content.vb: Protected dataCommandPort As DigitalOutputPort
   modifiers.csharp:
   - protected
@@ -296,10 +296,10 @@ items:
   - Displays.PCD8544
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: protected DgitalOutputPort resetPort
+    content: protected DigitalOutputPort resetPort
     return:
-      type: DgitalOutputPort
-    content.vb: Protected resetPort As DgitalOutputPort
+      type: Meadow.Hardware.DigitalOutputPort
+    content.vb: Protected resetPort As DigitalOutputPort
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -327,10 +327,10 @@ items:
   - Displays.PCD8544
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: protected SPI spi
+    content: protected Spi spi
     return:
-      type: SPI
-    content.vb: Protected spi As SPI
+      type: Meadow.Hardware.Spi
+    content.vb: Protected spi As Spi
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -366,16 +366,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
-  commentId: M:Meadow.Foundation.Displays.PCD8544.#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)
-  id: '#ctor(IDigitalPin,IDigitalPin,IDigitalPin,Spi.SPI_module,System.UInt32)'
+- uid: Meadow.Foundation.Displays.PCD8544.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  commentId: M:Meadow.Foundation.Displays.PCD8544.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)'
   parent: Meadow.Foundation.Displays.PCD8544
   langs:
   - csharp
   - vb
   name: PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
   nameWithType: PCD8544.PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, UInt32)
-  fullName: Meadow.Foundation.Displays.PCD8544.PCD8544(IDigitalPin, IDigitalPin, IDigitalPin, Spi.SPI_module, System.UInt32)
+  fullName: Meadow.Foundation.Displays.PCD8544.PCD8544(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.Spi.SPI_module, System.UInt32)
   type: Constructor
   source:
     remote:
@@ -389,19 +389,19 @@ items:
   - Displays.PCD8544
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public PCD8544(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = null, uint speedKHz = null)
+    content: public PCD8544(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)
     parameters:
     - id: chipSelectPin
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
     - id: dcPin
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
     - id: resetPin
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
     - id: spiModule
-      type: Spi.SPI_module
+      type: Meadow.Hardware.Spi.SPI_module
     - id: speedKHz
       type: System.UInt32
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = Nothing)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing)
   overload: Meadow.Foundation.Displays.PCD8544.#ctor*
   modifiers.csharp:
   - public
@@ -960,24 +960,23 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: DigitalOutputPort
-  commentId: '!:DigitalOutputPort'
-  isExternal: true
+- uid: Meadow.Hardware.DigitalOutputPort
+  commentId: T:Meadow.Hardware.DigitalOutputPort
+  parent: Meadow.Hardware
   name: DigitalOutputPort
   nameWithType: DigitalOutputPort
-  fullName: DigitalOutputPort
-- uid: DgitalOutputPort
-  commentId: '!:DgitalOutputPort'
-  isExternal: true
-  name: DgitalOutputPort
-  nameWithType: DgitalOutputPort
-  fullName: DgitalOutputPort
-- uid: SPI
-  commentId: '!:SPI'
-  isExternal: true
-  name: SPI
-  nameWithType: SPI
-  fullName: SPI
+  fullName: Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Spi
+  commentId: T:Meadow.Hardware.Spi
+  parent: Meadow.Hardware
+  name: Spi
+  nameWithType: Spi
+  fullName: Meadow.Hardware.Spi
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -1009,17 +1008,18 @@ references:
   name: PCD8544
   nameWithType: PCD8544.PCD8544
   fullName: Meadow.Foundation.Displays.PCD8544.PCD8544
-- uid: IDigitalPin
-  isExternal: true
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
   name: IDigitalPin
   nameWithType: IDigitalPin
-  fullName: IDigitalPin
-- uid: Spi.SPI_module
-  commentId: '!:Spi.SPI_module'
-  isExternal: true
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware.Spi.SPI_module
+  commentId: T:Meadow.Hardware.Spi.SPI_module
+  parent: Meadow.Hardware
   name: Spi.SPI_module
   nameWithType: Spi.SPI_module
-  fullName: Spi.SPI_module
+  fullName: Meadow.Hardware.Spi.SPI_module
 - uid: Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
   commentId: M:Meadow.Foundation.Displays.DisplayBase.Clear(System.Boolean)
   parent: Meadow.Foundation.Displays.DisplayBase

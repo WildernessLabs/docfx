@@ -28,8 +28,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum SPI_module : int'
-    content.vb: Public Enum SPI_module As Integer
+    content: public enum SPI_module
+    content.vb: Public Enum SPI_module
   modifiers.csharp:
   - public
   - enum
@@ -59,10 +59,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: SPI1 = null
+    content: SPI1 = 0
     return:
       type: Meadow.Hardware.Spi.SPI_module
-    content.vb: SPI1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -92,10 +91,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: SPI2 = null
+    content: SPI2 = 1
     return:
       type: Meadow.Hardware.Spi.SPI_module
-    content.vb: SPI2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -125,10 +123,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: SPI3 = null
+    content: SPI3 = 2
     return:
       type: Meadow.Hardware.Spi.SPI_module
-    content.vb: SPI3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -158,10 +155,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: SPI4 = null
+    content: SPI4 = 3
     return:
       type: Meadow.Hardware.Spi.SPI_module
-    content.vb: SPI4 = Nothing
   modifiers.csharp:
   - public
   - const

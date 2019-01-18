@@ -19,6 +19,10 @@
     name: Converters
   - uid: Meadow.Foundation.NumericExtensions
     name: NumericExtensions
+  - uid: Meadow.Foundation.SevenSegmentDisplay
+    name: SevenSegmentDisplay
+  - uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+    name: SevenSegmentDisplay.CharacterType
 - uid: Meadow.Foundation.Communications
   name: Meadow.Foundation.Communications
   items:
@@ -221,8 +225,6 @@
 - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
   name: Meadow.Foundation.ICs.IOExpanders.MCP23008
   items:
-  - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalInputPort
-    name: DigitalInputPort
   - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.DigitalOutputPort
     name: DigitalOutputPort
   - uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008

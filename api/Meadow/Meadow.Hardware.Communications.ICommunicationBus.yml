@@ -505,10 +505,18 @@ references:
   nameWithType: ICommunicationBus.WriteByte
   fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteByte
 - uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes*
   commentId: Overload:Meadow.Hardware.Communications.ICommunicationBus.WriteBytes
   name: WriteBytes
@@ -546,6 +554,8 @@ references:
   nameWithType: ICommunicationBus.WriteUShort
   fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort
 - uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16

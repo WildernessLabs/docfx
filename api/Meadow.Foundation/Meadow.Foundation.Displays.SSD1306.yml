@@ -520,7 +520,7 @@ items:
   remarks: "\nNote that by default, any pixels out of bounds will throw and exception.\nThis can be changed by setting the <seealso cref=\"!:IgnoreOutOfBoundsPixels\"></seealso>\nproperty to true.\n"
   example: []
   syntax:
-    content: public SSD1306(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)
+    content: public SSD1306(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = 9500U, SSD1306.DisplayType displayType = SSD1306.DisplayType.OLED128x64)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -536,7 +536,7 @@ items:
     - id: displayType
       type: Meadow.Foundation.Displays.SSD1306.DisplayType
       description: Type of SSD1306 display (default = 128x64 pixel display).
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI, displayType As SSD1306.DisplayType = SSD1306.DisplayType.OLED128x64)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = 9500UI, displayType As SSD1306.DisplayType = SSD1306.DisplayType.OLED128x64)
   overload: Meadow.Foundation.Displays.SSD1306.#ctor*
   modifiers.csharp:
   - public

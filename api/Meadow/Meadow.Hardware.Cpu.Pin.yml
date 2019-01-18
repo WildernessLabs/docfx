@@ -41,8 +41,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum Pin : int'
-    content.vb: Public Enum Pin As Integer
+    content: public enum Pin
+    content.vb: Public Enum Pin
   modifiers.csharp:
   - public
   - enum
@@ -72,10 +72,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_NONE = null
+    content: GPIO_NONE = -1
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_NONE = Nothing
   modifiers.csharp:
   - public
   - const
@@ -105,10 +104,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin0 = null
+    content: GPIO_Pin0 = 0
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin0 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -138,10 +136,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin1 = null
+    content: GPIO_Pin1 = 1
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -171,10 +168,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin2 = null
+    content: GPIO_Pin2 = 2
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -204,10 +200,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin3 = null
+    content: GPIO_Pin3 = 3
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin3 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -237,10 +232,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin4 = null
+    content: GPIO_Pin4 = 4
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -270,10 +264,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin5 = null
+    content: GPIO_Pin5 = 5
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin5 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -303,10 +296,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin6 = null
+    content: GPIO_Pin6 = 6
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin6 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -336,10 +328,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin7 = null
+    content: GPIO_Pin7 = 7
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin7 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -369,10 +360,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin8 = null
+    content: GPIO_Pin8 = 8
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin8 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -402,10 +392,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin9 = null
+    content: GPIO_Pin9 = 9
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin9 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -435,10 +424,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin10 = null
+    content: GPIO_Pin10 = 10
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin10 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -468,10 +456,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin11 = null
+    content: GPIO_Pin11 = 11
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin11 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -501,10 +488,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin12 = null
+    content: GPIO_Pin12 = 12
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin12 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -534,10 +520,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin13 = null
+    content: GPIO_Pin13 = 13
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin13 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -567,10 +552,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin14 = null
+    content: GPIO_Pin14 = 14
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin14 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -600,10 +584,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: GPIO_Pin15 = null
+    content: GPIO_Pin15 = 15
     return:
       type: Meadow.Hardware.Cpu.Pin
-    content.vb: GPIO_Pin15 = Nothing
   modifiers.csharp:
   - public
   - const

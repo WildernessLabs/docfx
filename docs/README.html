@@ -82,6 +82,13 @@
 docfx docfx.json --serve
 </code></pre></li>
 </ol>
+<h2 id="commiting-changes">Commiting Changes</h2>
+<p>Before committing back to the repo, run <code>./build-docs.sh</code>. This will ensure you have the latest from  <code>Meadow.Core</code> and <code>Meadow.Foundation</code> repos.  Here&#39;s a breakdown of helper scripts:  </p>
+<ul>
+<li><code>./build-docs.sh</code> - runs <code>./get-latest.sh</code>, then runs <code>docfx docfx.json</code>       </li>
+<li><code>./build-serve-docs.sh</code> - runs <code>./get-latest.sh</code>, then runs <code>docfx docfx.json --serve</code>  </li>
+<li><code>./get-latest.sh</code> - gets latest from <code>Meadow.Core</code> and <code>Meadow.Foundation</code><br>(remember to run <code>chmod +x yourscript.sh</code> before executing)</li>
+</ul>
 <h2 id="troubleshooting">Troubleshooting</h2>
 <p>If it fails on Mac/Linux with some <code>SQLitePCLRaw</code> nonsense, run this:</p>
 <pre><code>nuget install -OutputDirectory $TMPDIR SQLitePCLRaw.core -ExcludeVersion

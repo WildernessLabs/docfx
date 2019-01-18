@@ -112,10 +112,18 @@ references:
   nameWithType: IPin.Name
   fullName: Meadow.Hardware.IPin.Name
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IPin.Key*
   commentId: Overload:Meadow.Hardware.IPin.Key
   name: Key
@@ -128,9 +136,3 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

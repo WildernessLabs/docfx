@@ -10,6 +10,8 @@ items:
   - Meadow.Foundation.ColorExtensions
   - Meadow.Foundation.Converters
   - Meadow.Foundation.NumericExtensions
+  - Meadow.Foundation.SevenSegmentDisplay
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType
   langs:
   - csharp
   - vb
@@ -53,6 +55,17 @@ references:
   name: NumericExtensions
   nameWithType: NumericExtensions
   fullName: Meadow.Foundation.NumericExtensions
+- uid: Meadow.Foundation.SevenSegmentDisplay
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay
+  name: SevenSegmentDisplay
+  nameWithType: SevenSegmentDisplay
+  fullName: Meadow.Foundation.SevenSegmentDisplay
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  parent: Meadow.Foundation
+  name: SevenSegmentDisplay.CharacterType
+  nameWithType: SevenSegmentDisplay.CharacterType
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType
 - uid: Meadow.Foundation
   commentId: N:Meadow.Foundation
   name: Meadow.Foundation

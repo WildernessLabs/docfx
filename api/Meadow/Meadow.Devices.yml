@@ -17,6 +17,11 @@ items:
   assemblies:
   - Meadow.Core
 references:
+- uid: Meadow.Devices.F7GPIOManager
+  commentId: T:Meadow.Devices.F7GPIOManager
+  name: F7GPIOManager
+  nameWithType: F7GPIOManager
+  fullName: Meadow.Devices.F7GPIOManager
 - uid: Meadow.Devices.F7Micro
   commentId: T:Meadow.Devices.F7Micro
   name: F7Micro
@@ -28,11 +33,6 @@ references:
   name: F7Micro.PinDefinitions
   nameWithType: F7Micro.PinDefinitions
   fullName: Meadow.Devices.F7Micro.PinDefinitions
-- uid: Meadow.Devices.F7GPIOManager
-  commentId: T:Meadow.Devices.F7GPIOManager
-  name: F7GPIOManager
-  nameWithType: F7GPIOManager
-  fullName: Meadow.Devices.F7GPIOManager
 - uid: Meadow.Devices
   commentId: N:Meadow.Devices
   name: Meadow.Devices

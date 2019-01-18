@@ -5,7 +5,7 @@ items:
   id: DS18B20
   parent: Meadow.Foundation.Sensors.Temperature
   children:
-  - Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
+  - Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(Meadow.Hardware.IDigitalPin,UInt64,System.UInt16,System.Single)
   - Meadow.Foundation.Sensors.Temperature.DS18B20.BusMode
   - Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceID
   - Meadow.Foundation.Sensors.Temperature.DS18B20.DeviceIDLength
@@ -197,7 +197,7 @@ items:
     content: protected OneWireBus.Devices Sensor { get; }
     parameters: []
     return:
-      type: OneWireBus.Devices
+      type: Meadow.Hardware.Communications.OneWireBus.Devices
     content.vb: Protected ReadOnly Property Sensor As OneWireBus.Devices
   overload: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor*
   modifiers.csharp:
@@ -464,16 +464,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
-  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)
-  id: '#ctor(IDigitalPin,UInt64,System.UInt16,System.Single)'
+- uid: Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(Meadow.Hardware.IDigitalPin,UInt64,System.UInt16,System.Single)
+  commentId: M:Meadow.Foundation.Sensors.Temperature.DS18B20.#ctor(Meadow.Hardware.IDigitalPin,UInt64,System.UInt16,System.Single)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,UInt64,System.UInt16,System.Single)'
   parent: Meadow.Foundation.Sensors.Temperature.DS18B20
   langs:
   - csharp
   - vb
   name: DS18B20(IDigitalPin, UInt64, UInt16, Single)
   nameWithType: DS18B20.DS18B20(IDigitalPin, UInt64, UInt16, Single)
-  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DS18B20(IDigitalPin, UInt64, System.UInt16, System.Single)
+  fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DS18B20(Meadow.Hardware.IDigitalPin, UInt64, System.UInt16, System.Single)
   type: Constructor
   source:
     remote:
@@ -492,7 +492,7 @@ items:
     content: public DS18B20(IDigitalPin oneWirePin, UInt64 deviceID = null, ushort updateInterval = null, float temperatureChangeNotificationThreshold = 0.001F)
     parameters:
     - id: oneWirePin
-      type: IDigitalPin
+      type: Meadow.Hardware.IDigitalPin
       description: GPIO pin the DS18B20 is connected to.
     - id: deviceID
       type: UInt64
@@ -793,12 +793,17 @@ references:
   name: Sensor
   nameWithType: DS18B20.Sensor
   fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.Sensor
-- uid: OneWireBus.Devices
-  commentId: '!:OneWireBus.Devices'
-  isExternal: true
+- uid: Meadow.Hardware.Communications.OneWireBus.Devices
+  commentId: T:Meadow.Hardware.Communications.OneWireBus.Devices
+  parent: Meadow.Hardware.Communications
   name: OneWireBus.Devices
   nameWithType: OneWireBus.Devices
-  fullName: OneWireBus.Devices
+  fullName: Meadow.Hardware.Communications.OneWireBus.Devices
+- uid: Meadow.Hardware.Communications
+  commentId: N:Meadow.Hardware.Communications
+  name: Meadow.Hardware.Communications
+  nameWithType: Meadow.Hardware.Communications
+  fullName: Meadow.Hardware.Communications
 - uid: Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
   commentId: T:Meadow.Foundation.Sensors.Temperature.DS18B20.BusModeType
   parent: Meadow.Foundation.Sensors.Temperature
@@ -878,11 +883,17 @@ references:
   name: DS18B20
   nameWithType: DS18B20.DS18B20
   fullName: Meadow.Foundation.Sensors.Temperature.DS18B20.DS18B20
-- uid: IDigitalPin
-  isExternal: true
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
   name: IDigitalPin
   nameWithType: IDigitalPin
-  fullName: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
 - uid: Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID*
   commentId: Overload:Meadow.Foundation.Sensors.Temperature.DS18B20.SendDeviceID
   name: SendDeviceID

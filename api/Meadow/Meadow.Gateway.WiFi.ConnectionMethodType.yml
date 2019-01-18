@@ -29,8 +29,8 @@ items:
   summary: "\nDescrbies the Wifi connection method type.\n"
   example: []
   syntax:
-    content: 'public enum ConnectionMethodType : int'
-    content.vb: Public Enum ConnectionMethodType As Integer
+    content: public enum ConnectionMethodType
+    content.vb: Public Enum ConnectionMethodType
   modifiers.csharp:
   - public
   - enum
@@ -62,10 +62,9 @@ items:
   summary: "\nDefault.\n"
   example: []
   syntax:
-    content: Default = null
+    content: Default = 0
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
-    content.vb: Default = Nothing
   modifiers.csharp:
   - public
   - const
@@ -97,10 +96,9 @@ items:
   summary: "\nWPS pin.\n"
   example: []
   syntax:
-    content: WpsPin = null
+    content: WpsPin = 1
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
-    content.vb: WpsPin = Nothing
   modifiers.csharp:
   - public
   - const
@@ -132,10 +130,9 @@ items:
   summary: "\nWPS protected setup.\n"
   example: []
   syntax:
-    content: WpsPushButton = null
+    content: WpsPushButton = 2
     return:
       type: Meadow.Gateway.WiFi.ConnectionMethodType
-    content.vb: WpsPushButton = Nothing
   modifiers.csharp:
   - public
   - const

@@ -55,9 +55,11 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md"
+          "api/**.md"
         ],
         "exclude": [
+          "api/Meadow/index.md",
+          "api/Meadow.Foundation/index.md",
           "obj/**",
           "docs/**"
         ]

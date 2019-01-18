@@ -167,7 +167,7 @@ items:
   summary: "\nCreate a new SerialLCD object.\n"
   example: []
   syntax:
-    content: public SerialLCD(TextDisplayConfig config = null, string port = "COM1", int baudRate = 9600, Parity parity = default(Parity), int dataBits = 8, StopBits stopBits = default(StopBits))
+    content: public SerialLCD(TextDisplayConfig config = null, string port = "COM1", int baudRate = 9600, Parity parity = Parity.None, int dataBits = 8, StopBits stopBits = StopBits.One)
     parameters:
     - id: config
       type: Meadow.Foundation.Displays.TextDisplayConfig
@@ -187,7 +187,7 @@ items:
     - id: stopBits
       type: Meadow.Hardware.StopBits
       description: Number of stop bits (default is one stop bit).
-    content.vb: Public Sub New(config As TextDisplayConfig = Nothing, port As String = "COM1", baudRate As Integer = 9600, parity As Parity = Nothing, dataBits As Integer = 8, stopBits As StopBits = Nothing)
+    content.vb: Public Sub New(config As TextDisplayConfig = Nothing, port As String = "COM1", baudRate As Integer = 9600, parity As Parity = Parity.None, dataBits As Integer = 8, stopBits As StopBits = StopBits.One)
   overload: Meadow.Foundation.Displays.SerialLCD.#ctor*
   modifiers.csharp:
   - public

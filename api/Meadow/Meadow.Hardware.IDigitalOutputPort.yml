@@ -6,6 +6,7 @@ items:
   parent: Meadow.Hardware
   children:
   - Meadow.Hardware.IDigitalOutputPort.InitialState
+  - Meadow.Hardware.IDigitalOutputPort.State
   langs:
   - csharp
   - vb
@@ -28,10 +29,8 @@ items:
     content: 'public interface IDigitalOutputPort : IDigitalPort, IPort'
     content.vb: >-
       Public Interface IDigitalOutputPort
-
           Inherits IDigitalPort
   inheritedMembers:
-  - Meadow.Hardware.IDigitalPort.State
   - Meadow.Hardware.IPort.Direction
   - Meadow.Hardware.IPort.SignalType
   modifiers.csharp:
@@ -75,18 +74,44 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
+- uid: Meadow.Hardware.IDigitalOutputPort.State
+  commentId: P:Meadow.Hardware.IDigitalOutputPort.State
+  id: State
+  parent: Meadow.Hardware.IDigitalOutputPort
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: IDigitalOutputPort.State
+  fullName: Meadow.Hardware.IDigitalOutputPort.State
+  type: Property
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Core.git
+    id: State
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalOutputPort.cs
+    startLine: 9
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware
+  syntax:
+    content: bool State { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property State As Boolean
+  overload: Meadow.Hardware.IDigitalOutputPort.State*
+  modifiers.csharp:
+  - get
+  - set
 references:
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
   name: Meadow.Hardware
   nameWithType: Meadow.Hardware
   fullName: Meadow.Hardware
-- uid: Meadow.Hardware.IDigitalPort.State
-  commentId: P:Meadow.Hardware.IDigitalPort.State
-  parent: Meadow.Hardware.IDigitalPort
-  name: State
-  nameWithType: IDigitalPort.State
-  fullName: Meadow.Hardware.IDigitalPort.State
 - uid: Meadow.Hardware.IPort.Direction
   commentId: P:Meadow.Hardware.IPort.Direction
   parent: Meadow.Hardware.IPort
@@ -99,12 +124,6 @@ references:
   name: SignalType
   nameWithType: IPort.SignalType
   fullName: Meadow.Hardware.IPort.SignalType
-- uid: Meadow.Hardware.IDigitalPort
-  commentId: T:Meadow.Hardware.IDigitalPort
-  parent: Meadow.Hardware
-  name: IDigitalPort
-  nameWithType: IDigitalPort
-  fullName: Meadow.Hardware.IDigitalPort
 - uid: Meadow.Hardware.IPort
   commentId: T:Meadow.Hardware.IPort
   parent: Meadow.Hardware
@@ -129,3 +148,8 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Meadow.Hardware.IDigitalOutputPort.State*
+  commentId: Overload:Meadow.Hardware.IDigitalOutputPort.State
+  name: State
+  nameWithType: IDigitalOutputPort.State
+  fullName: Meadow.Hardware.IDigitalOutputPort.State

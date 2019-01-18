@@ -29,8 +29,8 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: 'public enum Parity : int'
-    content.vb: Public Enum Parity As Integer
+    content: public enum Parity
+    content.vb: Public Enum Parity
   modifiers.csharp:
   - public
   - enum
@@ -60,10 +60,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: None = null
+    content: None = 0
     return:
       type: Meadow.Hardware.Parity
-    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,10 +92,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Odd = null
+    content: Odd = 1
     return:
       type: Meadow.Hardware.Parity
-    content.vb: Odd = Nothing
   modifiers.csharp:
   - public
   - const
@@ -126,10 +124,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Even = null
+    content: Even = 2
     return:
       type: Meadow.Hardware.Parity
-    content.vb: Even = Nothing
   modifiers.csharp:
   - public
   - const
@@ -159,10 +156,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Mark = null
+    content: Mark = 3
     return:
       type: Meadow.Hardware.Parity
-    content.vb: Mark = Nothing
   modifiers.csharp:
   - public
   - const
@@ -192,10 +188,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Hardware
   syntax:
-    content: Space = null
+    content: Space = 4
     return:
       type: Meadow.Hardware.Parity
-    content.vb: Space = Nothing
   modifiers.csharp:
   - public
   - const

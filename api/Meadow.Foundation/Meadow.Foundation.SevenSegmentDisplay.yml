@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.SevenSegmentDisplay
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay
+  id: SevenSegmentDisplay
+  parent: Meadow.Foundation
+  children:
+  - Meadow.Foundation.SevenSegmentDisplay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.Boolean)
+  - Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Char,System.Boolean)
+  - Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType,System.Boolean)
+  - Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SevenSegmentDisplay
+  nameWithType: SevenSegmentDisplay
+  fullName: Meadow.Foundation.SevenSegmentDisplay
+  type: Class
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SevenSegmentDisplay
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 5
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: 'public class SevenSegmentDisplay : object'
+    content.vb: >-
+      Public Class SevenSegmentDisplay
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Meadow.Foundation.SevenSegmentDisplay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.Boolean)
+  commentId: M:Meadow.Foundation.SevenSegmentDisplay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.Boolean)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.Boolean)'
+  parent: Meadow.Foundation.SevenSegmentDisplay
+  langs:
+  - csharp
+  - vb
+  name: SevenSegmentDisplay(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Boolean)
+  nameWithType: SevenSegmentDisplay.SevenSegmentDisplay(IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, IDigitalPin, Boolean)
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SevenSegmentDisplay(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: .ctor
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 62
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: public SevenSegmentDisplay(IDigitalPin pinA, IDigitalPin pinB, IDigitalPin pinC, IDigitalPin pinD, IDigitalPin pinE, IDigitalPin pinF, IDigitalPin pinG, IDigitalPin pinDecimal, bool isCommonCathode)
+    parameters:
+    - id: pinA
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinB
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinC
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinD
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinE
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinF
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinG
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinDecimal
+      type: Meadow.Hardware.IDigitalPin
+    - id: isCommonCathode
+      type: System.Boolean
+    content.vb: Public Sub New(pinA As IDigitalPin, pinB As IDigitalPin, pinC As IDigitalPin, pinD As IDigitalPin, pinE As IDigitalPin, pinF As IDigitalPin, pinG As IDigitalPin, pinDecimal As IDigitalPin, isCommonCathode As Boolean)
+  overload: Meadow.Foundation.SevenSegmentDisplay.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType,System.Boolean)
+  commentId: M:Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType,System.Boolean)
+  id: SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType,System.Boolean)
+  parent: Meadow.Foundation.SevenSegmentDisplay
+  langs:
+  - csharp
+  - vb
+  name: SetDisplay(SevenSegmentDisplay.CharacterType, Boolean)
+  nameWithType: SevenSegmentDisplay.SetDisplay(SevenSegmentDisplay.CharacterType, Boolean)
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetDisplay
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 80
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: public void SetDisplay(SevenSegmentDisplay.CharacterType character, bool showDecimal = false)
+    parameters:
+    - id: character
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+    - id: showDecimal
+      type: System.Boolean
+    content.vb: Public Sub SetDisplay(character As SevenSegmentDisplay.CharacterType, showDecimal As Boolean = False)
+  overload: Meadow.Foundation.SevenSegmentDisplay.SetDisplay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Char,System.Boolean)
+  commentId: M:Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Char,System.Boolean)
+  id: SetDisplay(Char,System.Boolean)
+  parent: Meadow.Foundation.SevenSegmentDisplay
+  langs:
+  - csharp
+  - vb
+  name: SetDisplay(Char, Boolean)
+  nameWithType: SevenSegmentDisplay.SetDisplay(Char, Boolean)
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Char, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetDisplay
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 100
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: public void SetDisplay(Char character, bool showDecimal = false)
+    parameters:
+    - id: character
+      type: Char
+    - id: showDecimal
+      type: System.Boolean
+    content.vb: Public Sub SetDisplay(character As Char, showDecimal As Boolean = False)
+  overload: Meadow.Foundation.SevenSegmentDisplay.SetDisplay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
+  commentId: M:Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
+  id: SetDisplayOld(Char,System.Boolean)
+  parent: Meadow.Foundation.SevenSegmentDisplay
+  langs:
+  - csharp
+  - vb
+  name: SetDisplayOld(Char, Boolean)
+  nameWithType: SevenSegmentDisplay.SetDisplayOld(Char, Boolean)
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: SetDisplayOld
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 116
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: public void SetDisplayOld(Char character, bool showDecimal = false)
+    parameters:
+    - id: character
+      type: Char
+    - id: showDecimal
+      type: System.Boolean
+    content.vb: Public Sub SetDisplayOld(character As Char, showDecimal As Boolean = False)
+  overload: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Meadow.Foundation
+  commentId: N:Meadow.Foundation
+  name: Meadow.Foundation
+  nameWithType: Meadow.Foundation
+  fullName: Meadow.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Meadow.Foundation.SevenSegmentDisplay.#ctor*
+  commentId: Overload:Meadow.Foundation.SevenSegmentDisplay.#ctor
+  name: SevenSegmentDisplay
+  nameWithType: SevenSegmentDisplay.SevenSegmentDisplay
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SevenSegmentDisplay
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplay*
+  commentId: Overload:Meadow.Foundation.SevenSegmentDisplay.SetDisplay
+  name: SetDisplay
+  nameWithType: SevenSegmentDisplay.SetDisplay
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplay
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  parent: Meadow.Foundation
+  name: SevenSegmentDisplay.CharacterType
+  nameWithType: SevenSegmentDisplay.CharacterType
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+- uid: Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: Char
+- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld*
+  commentId: Overload:Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld
+  name: SetDisplayOld
+  nameWithType: SevenSegmentDisplay.SetDisplayOld
+  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld

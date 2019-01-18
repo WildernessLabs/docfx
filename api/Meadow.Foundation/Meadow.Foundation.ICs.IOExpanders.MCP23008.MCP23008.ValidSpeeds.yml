@@ -22,7 +22,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ValidSpeeds
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 284
+    startLine: 281
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -53,7 +53,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: hundredk
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 286
+    startLine: 283
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -85,7 +85,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: fourhundredk
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 287
+    startLine: 284
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
@@ -117,7 +117,7 @@ items:
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: onepointsevenmegs
     path: ../Meadow.Foundation/Source/Peripheral_Libs/ICs.IOExpanders.MCP23008/MCP23008.cs
-    startLine: 288
+    startLine: 285
   assemblies:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008

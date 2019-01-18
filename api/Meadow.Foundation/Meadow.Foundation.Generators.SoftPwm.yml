@@ -5,7 +5,7 @@ items:
   id: SoftPwm
   parent: Meadow.Foundation.Generators
   children:
-  - Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalChannel,System.Single,System.Single)
+  - Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalPin,System.Single,System.Single)
   - Meadow.Foundation.Generators.SoftPwm._dutyCycle
   - Meadow.Foundation.Generators.SoftPwm._frequency
   - Meadow.Foundation.Generators.SoftPwm._offTimeMilliseconds
@@ -81,11 +81,11 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Generators
   syntax:
-    content: public DigitalOutputPort DigitalOutputPort { get; }
+    content: public IDigitalOutputPort DigitalOutputPort { get; }
     parameters: []
     return:
-      type: Meadow.Hardware.DigitalOutputPort
-    content.vb: Public ReadOnly Property DigitalOutputPort As DigitalOutputPort
+      type: Meadow.Hardware.IDigitalOutputPort
+    content.vb: Public ReadOnly Property DigitalOutputPort As IDigitalOutputPort
   overload: Meadow.Foundation.Generators.SoftPwm.DigitalOutputPort*
   modifiers.csharp:
   - public
@@ -349,16 +349,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalChannel,System.Single,System.Single)
-  commentId: M:Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalChannel,System.Single,System.Single)
-  id: '#ctor(Meadow.Hardware.IDigitalChannel,System.Single,System.Single)'
+- uid: Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalPin,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.Generators.SoftPwm.#ctor(Meadow.Hardware.IDigitalPin,System.Single,System.Single)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,System.Single,System.Single)'
   parent: Meadow.Foundation.Generators.SoftPwm
   langs:
   - csharp
   - vb
-  name: SoftPwm(IDigitalChannel, Single, Single)
-  nameWithType: SoftPwm.SoftPwm(IDigitalChannel, Single, Single)
-  fullName: Meadow.Foundation.Generators.SoftPwm.SoftPwm(Meadow.Hardware.IDigitalChannel, System.Single, System.Single)
+  name: SoftPwm(IDigitalPin, Single, Single)
+  nameWithType: SoftPwm.SoftPwm(IDigitalPin, Single, Single)
+  fullName: Meadow.Foundation.Generators.SoftPwm.SoftPwm(Meadow.Hardware.IDigitalPin, System.Single, System.Single)
   type: Constructor
   source:
     remote:
@@ -372,15 +372,15 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Generators
   syntax:
-    content: public SoftPwm(IDigitalChannel outputPin, float dutyCycle = 0.5F, float frequency = 1F)
+    content: public SoftPwm(IDigitalPin outputPin, float dutyCycle = 0.5F, float frequency = 1F)
     parameters:
     - id: outputPin
-      type: Meadow.Hardware.IDigitalChannel
+      type: Meadow.Hardware.IDigitalPin
     - id: dutyCycle
       type: System.Single
     - id: frequency
       type: System.Single
-    content.vb: Public Sub New(outputPin As IDigitalChannel, dutyCycle As Single = 0.5F, frequency As Single = 1F)
+    content.vb: Public Sub New(outputPin As IDigitalPin, dutyCycle As Single = 0.5F, frequency As Single = 1F)
   overload: Meadow.Foundation.Generators.SoftPwm.#ctor*
   modifiers.csharp:
   - public
@@ -815,12 +815,12 @@ references:
   name: DigitalOutputPort
   nameWithType: SoftPwm.DigitalOutputPort
   fullName: Meadow.Foundation.Generators.SoftPwm.DigitalOutputPort
-- uid: Meadow.Hardware.DigitalOutputPort
-  commentId: T:Meadow.Hardware.DigitalOutputPort
+- uid: Meadow.Hardware.IDigitalOutputPort
+  commentId: T:Meadow.Hardware.IDigitalOutputPort
   parent: Meadow.Hardware
-  name: DigitalOutputPort
-  nameWithType: DigitalOutputPort
-  fullName: Meadow.Hardware.DigitalOutputPort
+  name: IDigitalOutputPort
+  nameWithType: IDigitalOutputPort
+  fullName: Meadow.Hardware.IDigitalOutputPort
 - uid: Meadow.Hardware
   commentId: N:Meadow.Hardware
   name: Meadow.Hardware
@@ -875,12 +875,12 @@ references:
   name: SoftPwm
   nameWithType: SoftPwm.SoftPwm
   fullName: Meadow.Foundation.Generators.SoftPwm.SoftPwm
-- uid: Meadow.Hardware.IDigitalChannel
-  commentId: T:Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
   parent: Meadow.Hardware
-  name: IDigitalChannel
-  nameWithType: IDigitalChannel
-  fullName: Meadow.Hardware.IDigitalChannel
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
 - uid: Meadow.Foundation.Generators.SoftPwm.Start*
   commentId: Overload:Meadow.Foundation.Generators.SoftPwm.Start
   name: Start

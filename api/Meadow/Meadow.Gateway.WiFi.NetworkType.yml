@@ -29,8 +29,8 @@ items:
   summary: "\nDescribes teh type of WiFi network.\n"
   example: []
   syntax:
-    content: 'public enum NetworkType : int'
-    content.vb: Public Enum NetworkType As Integer
+    content: public enum NetworkType
+    content.vb: Public Enum NetworkType
   modifiers.csharp:
   - public
   - enum
@@ -60,10 +60,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: Any = null
+    content: Any = 0
     return:
       type: Meadow.Gateway.WiFi.NetworkType
-    content.vb: Any = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,10 +92,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: Infrastructure = null
+    content: Infrastructure = 1
     return:
       type: Meadow.Gateway.WiFi.NetworkType
-    content.vb: Infrastructure = Nothing
   modifiers.csharp:
   - public
   - const
@@ -126,10 +124,9 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: AdHoc = null
+    content: AdHoc = 2
     return:
       type: Meadow.Gateway.WiFi.NetworkType
-    content.vb: AdHoc = Nothing
   modifiers.csharp:
   - public
   - const

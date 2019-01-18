@@ -136,7 +136,7 @@ items:
   - Displays.WaveShare_ePaper
   namespace: Meadow.Foundation.Displays.Drivers
   syntax:
-    content: public EPD2i9(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = default(Spi.SPI_module), uint speedKHz = 9500U)
+    content: public EPD2i9(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = 9500U)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -150,7 +150,7 @@ items:
       type: Meadow.Hardware.Spi.SPI_module
     - id: speedKHz
       type: System.UInt32
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Nothing, speedKHz As UInteger = 9500UI)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = 9500UI)
   overload: Meadow.Foundation.Displays.Drivers.EPD2i9.#ctor*
   modifiers.csharp:
   - public

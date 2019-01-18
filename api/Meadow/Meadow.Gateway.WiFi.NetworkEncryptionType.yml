@@ -36,8 +36,8 @@ items:
   summary: "\nDescribes the type of encryption employed by a WiFi network.\n"
   example: []
   syntax:
-    content: 'public enum NetworkEncryptionType : int'
-    content.vb: Public Enum NetworkEncryptionType As Integer
+    content: public enum NetworkEncryptionType
+    content.vb: Public Enum NetworkEncryptionType
   modifiers.csharp:
   - public
   - enum
@@ -69,10 +69,9 @@ items:
   summary: "\nNo authentication enabled.\n"
   example: []
   syntax:
-    content: None = null
+    content: None = 0
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -104,10 +103,9 @@ items:
   summary: "\nUnknown authentication method.\n"
   example: []
   syntax:
-    content: Unknown = null
+    content: Unknown = 1
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -139,10 +137,9 @@ items:
   summary: "\nOpen authentication over 802.11 wireless. Devices are authenticated and can connect to an access point, but communication with the network requires a matching Wired Equivalent Privacy (WEP) key.\n"
   example: []
   syntax:
-    content: Open80211 = null
+    content: Open80211 = 2
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: Open80211 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -174,10 +171,9 @@ items:
   summary: "\nSpecifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared Wired Equivalent Privacy (WEP) key for the 802.11 authentication.\n"
   example: []
   syntax:
-    content: SharedKey80211 = null
+    content: SharedKey80211 = 3
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: SharedKey80211 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -209,10 +205,9 @@ items:
   summary: "\nSpecifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process.\n"
   example: []
   syntax:
-    content: Wpa = null
+    content: Wpa = 4
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: Wpa = Nothing
   modifiers.csharp:
   - public
   - const
@@ -244,10 +239,9 @@ items:
   summary: "\nSpecifies a Wi-Fi Protected Access (WPA) algorithm that uses pre-shared keys (PSK). IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator.\n"
   example: []
   syntax:
-    content: WpaPsk = null
+    content: WpaPsk = 5
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: WpaPsk = Nothing
   modifiers.csharp:
   - public
   - const
@@ -279,10 +273,9 @@ items:
   summary: "\nWi-Fi Protected Access.\n"
   example: []
   syntax:
-    content: WpaNone = null
+    content: WpaNone = 6
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: WpaNone = Nothing
   modifiers.csharp:
   - public
   - const
@@ -314,10 +307,9 @@ items:
   summary: "\nSpecifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process.\n"
   example: []
   syntax:
-    content: Rsna = null
+    content: Rsna = 7
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: Rsna = Nothing
   modifiers.csharp:
   - public
   - const
@@ -349,10 +341,9 @@ items:
   summary: "\nSpecifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator.\n"
   example: []
   syntax:
-    content: RsnaPsk = null
+    content: RsnaPsk = 8
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: RsnaPsk = Nothing
   modifiers.csharp:
   - public
   - const
@@ -384,10 +375,9 @@ items:
   summary: "\nSpecifies an authentication type defined by an independent hardware vendor (IHV).\n"
   example: []
   syntax:
-    content: Ihv = null
+    content: Ihv = 9
     return:
       type: Meadow.Gateway.WiFi.NetworkEncryptionType
-    content.vb: Ihv = Nothing
   modifiers.csharp:
   - public
   - const

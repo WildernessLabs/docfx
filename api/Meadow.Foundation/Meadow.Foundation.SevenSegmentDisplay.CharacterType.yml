@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  id: SevenSegmentDisplay.CharacterType
+  parent: Meadow.Foundation
+  children:
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.A
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.B
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Blank
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.C
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.count
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.D
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.E
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Eight
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.F
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Five
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Four
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Nine
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.One
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Seven
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Six
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Three
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Two
+  - Meadow.Foundation.SevenSegmentDisplay.CharacterType.Zero
+  langs:
+  - csharp
+  - vb
+  name: SevenSegmentDisplay.CharacterType
+  nameWithType: SevenSegmentDisplay.CharacterType
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  type: Enum
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: CharacterType
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 7
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: 'public enum CharacterType : int'
+    content.vb: Public Enum CharacterType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Zero
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Zero
+  id: Zero
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: SevenSegmentDisplay.CharacterType.Zero
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Zero
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Zero
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 9
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Zero = 0
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.One
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.One
+  id: One
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: SevenSegmentDisplay.CharacterType.One
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.One
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: One
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 10
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: One = 1
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Two
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Two
+  id: Two
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Two
+  nameWithType: SevenSegmentDisplay.CharacterType.Two
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Two
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Two
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 11
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Two = 2
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Three
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Three
+  id: Three
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Three
+  nameWithType: SevenSegmentDisplay.CharacterType.Three
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Three
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Three
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 12
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Three = 3
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Four
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Four
+  id: Four
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Four
+  nameWithType: SevenSegmentDisplay.CharacterType.Four
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Four
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Four
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 13
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Four = 4
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Five
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Five
+  id: Five
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Five
+  nameWithType: SevenSegmentDisplay.CharacterType.Five
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Five
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Five
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 14
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Five = 5
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Six
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Six
+  id: Six
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Six
+  nameWithType: SevenSegmentDisplay.CharacterType.Six
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Six
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Six
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 15
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Six = 6
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Seven
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Seven
+  id: Seven
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Seven
+  nameWithType: SevenSegmentDisplay.CharacterType.Seven
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Seven
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Seven
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 16
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Seven = 7
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Eight
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Eight
+  id: Eight
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Eight
+  nameWithType: SevenSegmentDisplay.CharacterType.Eight
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Eight
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Eight
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 17
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Eight = 8
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Nine
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Nine
+  id: Nine
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Nine
+  nameWithType: SevenSegmentDisplay.CharacterType.Nine
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Nine
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Nine
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 18
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Nine = 9
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.A
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.A
+  id: A
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: SevenSegmentDisplay.CharacterType.A
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.A
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: A
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 19
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: A = 10
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.B
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.B
+  id: B
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: SevenSegmentDisplay.CharacterType.B
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.B
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: B
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 20
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: B = 11
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.C
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.C
+  id: C
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: SevenSegmentDisplay.CharacterType.C
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.C
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: C
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 21
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: C = 12
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.D
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.D
+  id: D
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: SevenSegmentDisplay.CharacterType.D
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.D
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: D
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 22
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: D = 13
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.E
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.E
+  id: E
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: SevenSegmentDisplay.CharacterType.E
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.E
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: E
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 23
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: E = 14
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.F
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.F
+  id: F
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: F
+  nameWithType: SevenSegmentDisplay.CharacterType.F
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.F
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: F
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 24
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: F = 15
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Blank
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.Blank
+  id: Blank
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: Blank
+  nameWithType: SevenSegmentDisplay.CharacterType.Blank
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.Blank
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: Blank
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 25
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: Blank = 16
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType.count
+  commentId: F:Meadow.Foundation.SevenSegmentDisplay.CharacterType.count
+  id: count
+  parent: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  langs:
+  - csharp
+  - vb
+  name: count
+  nameWithType: SevenSegmentDisplay.CharacterType.count
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType.count
+  type: Field
+  source:
+    remote:
+      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+      branch: master
+      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
+    id: count
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
+    startLine: 26
+  assemblies:
+  - Displays.LED.SevenSegment
+  namespace: Meadow.Foundation
+  syntax:
+    content: count = 17
+    return:
+      type: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Meadow.Foundation
+  commentId: N:Meadow.Foundation
+  name: Meadow.Foundation
+  nameWithType: Meadow.Foundation
+  fullName: Meadow.Foundation
+- uid: Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  commentId: T:Meadow.Foundation.SevenSegmentDisplay.CharacterType
+  parent: Meadow.Foundation
+  name: SevenSegmentDisplay.CharacterType
+  nameWithType: SevenSegmentDisplay.CharacterType
+  fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType

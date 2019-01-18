@@ -28,8 +28,8 @@ items:
   summary: "\nDescribes the WiFi network reconnection behavior.\n"
   example: []
   syntax:
-    content: 'public enum ReconnectionType : int'
-    content.vb: Public Enum ReconnectionType As Integer
+    content: public enum ReconnectionType
+    content.vb: Public Enum ReconnectionType
   modifiers.csharp:
   - public
   - enum
@@ -61,10 +61,9 @@ items:
   summary: "\nReconnect automatically.\n"
   example: []
   syntax:
-    content: Automatic = null
+    content: Automatic = 0
     return:
       type: Meadow.Gateway.WiFi.ReconnectionType
-    content.vb: Automatic = Nothing
   modifiers.csharp:
   - public
   - const
@@ -96,10 +95,9 @@ items:
   summary: "\nAllow user to reconnect manually.\n"
   example: []
   syntax:
-    content: Manual = null
+    content: Manual = 1
     return:
       type: Meadow.Gateway.WiFi.ReconnectionType
-    content.vb: Manual = Nothing
   modifiers.csharp:
   - public
   - const

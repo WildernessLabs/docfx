@@ -112,10 +112,18 @@ references:
   nameWithType: IPwmChannel.MinimumFrequency
   fullName: Meadow.Hardware.IPwmChannel.MinimumFrequency
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Meadow.Hardware.IPwmChannel.MaximumFrequency*
   commentId: Overload:Meadow.Hardware.IPwmChannel.MaximumFrequency
   name: MaximumFrequency

@@ -27,7 +27,6 @@ items:
     content: 'public interface IPwmPin : IPin, IPwmChannel'
     content.vb: >-
       Public Interface IPwmPin
-
           Inherits IPin, IPwmChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name

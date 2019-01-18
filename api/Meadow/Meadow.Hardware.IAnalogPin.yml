@@ -27,7 +27,6 @@ items:
     content: 'public interface IAnalogPin : IPin, IAnalogChannel'
     content.vb: >-
       Public Interface IAnalogPin
-
           Inherits IPin, IAnalogChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name

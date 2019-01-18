@@ -7,6 +7,8 @@
     name.vb: AppBase(Of D, A)
   - uid: Meadow.ByteOrder
     name: ByteOrder
+  - uid: Meadow.DeviceBase
+    name: DeviceBase
   - uid: Meadow.DeviceCapabilities
     name: DeviceCapabilities
   - uid: Meadow.IApp
@@ -113,16 +115,16 @@
     name: DigitalPortBase
   - uid: Meadow.Hardware.Handshake
     name: Handshake
-  - uid: Meadow.Hardware.I2cDevice
-    name: I2cDevice
-  - uid: Meadow.Hardware.I2cDevice.Configuration
-    name: I2cDevice.Configuration
-  - uid: Meadow.Hardware.I2cDevice.I2CReadTransaction
-    name: I2cDevice.I2CReadTransaction
-  - uid: Meadow.Hardware.I2cDevice.I2CTransaction
-    name: I2cDevice.I2CTransaction
-  - uid: Meadow.Hardware.I2cDevice.I2CWriteTransaction
-    name: I2cDevice.I2CWriteTransaction
+  - uid: Meadow.Hardware.I2cPeripheral
+    name: I2cPeripheral
+  - uid: Meadow.Hardware.I2cPeripheral.Configuration
+    name: I2cPeripheral.Configuration
+  - uid: Meadow.Hardware.I2cPeripheral.I2CReadTransaction
+    name: I2cPeripheral.I2CReadTransaction
+  - uid: Meadow.Hardware.I2cPeripheral.I2CTransaction
+    name: I2cPeripheral.I2CTransaction
+  - uid: Meadow.Hardware.I2cPeripheral.I2CWriteTransaction
+    name: I2cPeripheral.I2CWriteTransaction
   - uid: Meadow.Hardware.IAnalogChannel
     name: IAnalogChannel
   - uid: Meadow.Hardware.IAnalogPin

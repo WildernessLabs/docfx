@@ -37,8 +37,8 @@ items:
   summary: "\nDescribes the type of PHYsical layer employed by a WiFi adapter.\n"
   example: []
   syntax:
-    content: 'public enum PhyType : int'
-    content.vb: Public Enum PhyType As Integer
+    content: public enum PhyType
+    content.vb: Public Enum PhyType
   modifiers.csharp:
   - public
   - enum
@@ -70,10 +70,9 @@ items:
   summary: "\nUnspecified PHY type.\n"
   example: []
   syntax:
-    content: Unknown = null
+    content: Unknown = 0
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -105,10 +104,9 @@ items:
   summary: "\nFrequency-hopping, spread-spectrum (FHSS) PHY.\n"
   example: []
   syntax:
-    content: Fhss = null
+    content: Fhss = 1
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Fhss = Nothing
   modifiers.csharp:
   - public
   - const
@@ -140,10 +138,9 @@ items:
   summary: "\nDirect sequence, spread-spectrum (DSSS) PHY.\n"
   example: []
   syntax:
-    content: Dsss = null
+    content: Dsss = 2
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Dsss = Nothing
   modifiers.csharp:
   - public
   - const
@@ -175,10 +172,9 @@ items:
   summary: "\nInfrared (IR) baseband PHY.\n"
   example: []
   syntax:
-    content: IRBaseband = null
+    content: IRBaseband = 3
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: IRBaseband = Nothing
   modifiers.csharp:
   - public
   - const
@@ -210,10 +206,9 @@ items:
   summary: "\nOrthogonal frequency division multiplex (OFDM) PHY.\n"
   example: []
   syntax:
-    content: Ofdm = null
+    content: Ofdm = 4
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Ofdm = Nothing
   modifiers.csharp:
   - public
   - const
@@ -245,10 +240,9 @@ items:
   summary: "\nHigh-rated DSSS (HRDSSS) PHY.\n"
   example: []
   syntax:
-    content: Hrdsss = null
+    content: Hrdsss = 5
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Hrdsss = Nothing
   modifiers.csharp:
   - public
   - const
@@ -280,10 +274,9 @@ items:
   summary: "\nExtended Rate (ERP) PHY.\n"
   example: []
   syntax:
-    content: Erp = null
+    content: Erp = 6
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Erp = Nothing
   modifiers.csharp:
   - public
   - const
@@ -315,10 +308,9 @@ items:
   summary: "\nHigh Throughput (HT) PHY for 802.11n PHY.\n"
   example: []
   syntax:
-    content: HT = null
+    content: HT = 7
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: HT = Nothing
   modifiers.csharp:
   - public
   - const
@@ -350,10 +342,9 @@ items:
   summary: "\nVery High Throughput (VHT) PHY for 802.11ac PHY.\n"
   example: []
   syntax:
-    content: Vht = null
+    content: Vht = 8
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Vht = Nothing
   modifiers.csharp:
   - public
   - const
@@ -385,10 +376,9 @@ items:
   summary: "\nDirectional multi-gigabit (DMG) PHY for 802.11ad.\n"
   example: []
   syntax:
-    content: Dmg = null
+    content: Dmg = 9
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: Dmg = Nothing
   modifiers.csharp:
   - public
   - const
@@ -420,10 +410,9 @@ items:
   summary: "\nHigh-Efficiency Wireless (HEW) PHY for 802.11ax.\n"
   example: []
   syntax:
-    content: HE = null
+    content: HE = 10
     return:
       type: Meadow.Gateway.WiFi.PhyType
-    content.vb: HE = Nothing
   modifiers.csharp:
   - public
   - const

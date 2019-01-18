@@ -28,7 +28,6 @@ items:
     content: 'public interface IDigitalPin : IPin, IDigitalChannel'
     content.vb: >-
       Public Interface IDigitalPin
-
           Inherits IPin, IDigitalChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name

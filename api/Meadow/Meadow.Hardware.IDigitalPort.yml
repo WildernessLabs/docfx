@@ -28,7 +28,6 @@ items:
     content: 'public interface IDigitalPort : IPort'
     content.vb: >-
       Public Interface IDigitalPort
-
           Inherits IPort
   inheritedMembers:
   - Meadow.Hardware.IPort.Direction

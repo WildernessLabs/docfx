@@ -27,7 +27,6 @@ items:
     content: 'public interface IBiDirectionalPort : IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort'
     content.vb: >-
       Public Interface IBiDirectionalPort
-
           Inherits IDigitalInterruptPort, IDigitalOutputPort
   inheritedMembers:
   - Meadow.Hardware.IDigitalInterruptPort.Changed

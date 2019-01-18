@@ -118,18 +118,21 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalChannel_Meadow_Foundation_Relays_RelayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Relays.Relay.%23ctor(Meadow.Hardware.IDigitalChannel%2CMeadow.Foundation.Relays.RelayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_DigitalOutputPort_Meadow_Foundation_Relays_RelayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Relays.Relay.%23ctor(Meadow.Hardware.DigitalOutputPort%2CMeadow.Foundation.Relays.RelayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/Relays/Relay.cs/#L44">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/Relays/Relay.cs/#L32">View Source</a>
   </span>
   <a id="Meadow_Foundation_Relays_Relay__ctor_" data-uid="Meadow.Foundation.Relays.Relay.#ctor*"></a>
-  <h4 id="Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalChannel_Meadow_Foundation_Relays_RelayType_" data-uid="Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalChannel,Meadow.Foundation.Relays.RelayType)">Relay(IDigitalChannel, RelayType)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_DigitalOutputPort_Meadow_Foundation_Relays_RelayType_" data-uid="Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.DigitalOutputPort,Meadow.Foundation.Relays.RelayType)">Relay(DigitalOutputPort, RelayType)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Relay on an IDigitalOutputPort. Allows you 
+to use any peripheral that exposes ports that conform to the
+IDigitalOutputPort, such as the MCP23008.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Relay(IDigitalChannel pin, RelayType type = RelayType.NormallyOpen)</code></pre>
+    <pre><code class="lang-csharp hljs">public Relay(DigitalOutputPort port, RelayType type = RelayType.NormallyOpen)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,8 +145,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalChannel.html">IDigitalChannel</a></td>
-        <td><span class="parametername">pin</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.DigitalOutputPort.html">DigitalOutputPort</a></td>
+        <td><span class="parametername">port</span></td>
         <td></td>
       </tr>
       <tr>
@@ -155,21 +158,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalOutputPort_Meadow_Foundation_Relays_RelayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Relays.Relay.%23ctor(Meadow.Hardware.IDigitalOutputPort%2CMeadow.Foundation.Relays.RelayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/new/master/apiSpec/new?filename=Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalPin_Meadow_Foundation_Relays_RelayType_.md&amp;value=---%0Auid%3A%20Meadow.Foundation.Relays.Relay.%23ctor(Meadow.Hardware.IDigitalPin%2CMeadow.Foundation.Relays.RelayType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/Relays/Relay.cs/#L32">View Source</a>
+    <a href="https://github.com/WildernessLabs/Meadow.Foundation/blob/master/Source/Meadow.Foundation/Relays/Relay.cs/#L44">View Source</a>
   </span>
   <a id="Meadow_Foundation_Relays_Relay__ctor_" data-uid="Meadow.Foundation.Relays.Relay.#ctor*"></a>
-  <h4 id="Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalOutputPort_Meadow_Foundation_Relays_RelayType_" data-uid="Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalOutputPort,Meadow.Foundation.Relays.RelayType)">Relay(IDigitalOutputPort, RelayType)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Relay on an IDigitalOutputPort. Allows you 
-to use any peripheral that exposes ports that conform to the
-IDigitalOutputPort, such as the MCP23008.</p>
-</div>
+  <h4 id="Meadow_Foundation_Relays_Relay__ctor_Meadow_Hardware_IDigitalPin_Meadow_Foundation_Relays_RelayType_" data-uid="Meadow.Foundation.Relays.Relay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Foundation.Relays.RelayType)">Relay(IDigitalPin, RelayType)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Relay(IDigitalOutputPort port, RelayType type = RelayType.NormallyOpen)</code></pre>
+    <pre><code class="lang-csharp hljs">public Relay(IDigitalPin pin, RelayType type = RelayType.NormallyOpen)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,8 +182,8 @@ IDigitalOutputPort, such as the MCP23008.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalOutputPort.html">IDigitalOutputPort</a></td>
-        <td><span class="parametername">port</span></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalPin.html">IDigitalPin</a></td>
+        <td><span class="parametername">pin</span></td>
         <td></td>
       </tr>
       <tr>
@@ -268,7 +268,7 @@ IDigitalOutputPort, such as the MCP23008.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDigitalOutputPort DigitalOut { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DigitalOutputPort DigitalOut { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,7 +280,7 @@ IDigitalOutputPort, such as the MCP23008.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="../Meadow/Meadow.Hardware.IDigitalOutputPort.html">IDigitalOutputPort</a></td>
+        <td><a class="xref" href="../Meadow/Meadow.Hardware.DigitalOutputPort.html">DigitalOutputPort</a></td>
         <td></td>
       </tr>
     </tbody>

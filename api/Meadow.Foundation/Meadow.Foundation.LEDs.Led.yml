@@ -5,8 +5,8 @@ items:
   id: Led
   parent: Meadow.Foundation.LEDs
   children:
-  - Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalChannel)
   - Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalOutputPort)
+  - Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalPin)
   - Meadow.Foundation.LEDs.Led._animationTask
   - Meadow.Foundation.LEDs.Led._isOn
   - Meadow.Foundation.LEDs.Led._onValue
@@ -257,16 +257,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalChannel)
-  commentId: M:Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalChannel)
-  id: '#ctor(Meadow.Hardware.IDigitalChannel)'
+- uid: Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Foundation.LEDs.Led.#ctor(Meadow.Hardware.IDigitalPin)
+  id: '#ctor(Meadow.Hardware.IDigitalPin)'
   parent: Meadow.Foundation.LEDs.Led
   langs:
   - csharp
   - vb
-  name: Led(IDigitalChannel)
-  nameWithType: Led.Led(IDigitalChannel)
-  fullName: Meadow.Foundation.LEDs.Led.Led(Meadow.Hardware.IDigitalChannel)
+  name: Led(IDigitalPin)
+  nameWithType: Led.Led(IDigitalPin)
+  fullName: Meadow.Foundation.LEDs.Led.Led(Meadow.Hardware.IDigitalPin)
   type: Constructor
   source:
     remote:
@@ -282,12 +282,12 @@ items:
   summary: "\nCreates a LED through a pin directly from the Digital IO of the board\n"
   example: []
   syntax:
-    content: public Led(IDigitalChannel pin)
+    content: public Led(IDigitalPin pin)
     parameters:
     - id: pin
-      type: Meadow.Hardware.IDigitalChannel
+      type: Meadow.Hardware.IDigitalPin
       description: ''
-    content.vb: Public Sub New(pin As IDigitalChannel)
+    content.vb: Public Sub New(pin As IDigitalPin)
   overload: Meadow.Foundation.LEDs.Led.#ctor*
   modifiers.csharp:
   - public
@@ -762,12 +762,12 @@ references:
   name: Led
   nameWithType: Led.Led
   fullName: Meadow.Foundation.LEDs.Led.Led
-- uid: Meadow.Hardware.IDigitalChannel
-  commentId: T:Meadow.Hardware.IDigitalChannel
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
   parent: Meadow.Hardware
-  name: IDigitalChannel
-  nameWithType: IDigitalChannel
-  fullName: Meadow.Hardware.IDigitalChannel
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
 - uid: Meadow.Foundation.LEDs.Led.StartBlink*
   commentId: Overload:Meadow.Foundation.LEDs.Led.StartBlink
   name: StartBlink

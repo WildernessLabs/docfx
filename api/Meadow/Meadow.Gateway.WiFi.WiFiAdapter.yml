@@ -36,13 +36,18 @@ items:
   summary: "\nRepresents a WiFi network adapter.\n"
   example: []
   syntax:
-    content: 'public class WiFiAdapter : object'
-    content.vb: >-
-      Public Class WiFiAdapter
-
-          Inherits Object
+    content: public class WiFiAdapter
+    content.vb: Public Class WiFiAdapter
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -75,7 +80,7 @@ items:
     content: public ObservableCollection<WifiNetwork> Networks { get; set; }
     parameters: []
     return:
-      type: ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}
+      type: System.Collections.ObjectModel.ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}
     content.vb: Public Property Networks As ObservableCollection(Of WifiNetwork)
   overload: Meadow.Gateway.WiFi.WiFiAdapter.Networks*
   modifiers.csharp:
@@ -237,15 +242,15 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: public Task<ConnectionResult> Connect(WifiNetwork network, ReconnectionType reconnection = default(ReconnectionType))
+    content: public Task<ConnectionResult> Connect(WifiNetwork network, ReconnectionType reconnection = ReconnectionType.Automatic)
     parameters:
     - id: network
       type: Meadow.Gateway.WiFi.WifiNetwork
     - id: reconnection
       type: Meadow.Gateway.WiFi.ReconnectionType
     return:
-      type: Task{Meadow.Gateway.WiFi.ConnectionResult}
-    content.vb: Public Function Connect(network As WifiNetwork, reconnection As ReconnectionType = Nothing) As Task(Of ConnectionResult)
+      type: System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+    content.vb: Public Function Connect(network As WifiNetwork, reconnection As ReconnectionType = ReconnectionType.Automatic) As Task(Of ConnectionResult)
   overload: Meadow.Gateway.WiFi.WiFiAdapter.Connect*
   modifiers.csharp:
   - public
@@ -274,7 +279,7 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, ReconnectionType reconnection = default(ReconnectionType))
+    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, ReconnectionType reconnection = ReconnectionType.Automatic)
     parameters:
     - id: network
       type: Meadow.Gateway.WiFi.WifiNetwork
@@ -283,8 +288,8 @@ items:
     - id: reconnection
       type: Meadow.Gateway.WiFi.ReconnectionType
     return:
-      type: Task{Meadow.Gateway.WiFi.ConnectionResult}
-    content.vb: Public Function Connect(network As WifiNetwork, password As String, reconnection As ReconnectionType = Nothing) As Task(Of ConnectionResult)
+      type: System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+    content.vb: Public Function Connect(network As WifiNetwork, password As String, reconnection As ReconnectionType = ReconnectionType.Automatic) As Task(Of ConnectionResult)
   overload: Meadow.Gateway.WiFi.WiFiAdapter.Connect*
   modifiers.csharp:
   - public
@@ -313,7 +318,7 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, string ssid, ReconnectionType reconnection = default(ReconnectionType))
+    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, string ssid, ReconnectionType reconnection = ReconnectionType.Automatic)
     parameters:
     - id: network
       type: Meadow.Gateway.WiFi.WifiNetwork
@@ -324,8 +329,8 @@ items:
     - id: reconnection
       type: Meadow.Gateway.WiFi.ReconnectionType
     return:
-      type: Task{Meadow.Gateway.WiFi.ConnectionResult}
-    content.vb: Public Function Connect(network As WifiNetwork, password As String, ssid As String, reconnection As ReconnectionType = Nothing) As Task(Of ConnectionResult)
+      type: System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+    content.vb: Public Function Connect(network As WifiNetwork, password As String, ssid As String, reconnection As ReconnectionType = ReconnectionType.Automatic) As Task(Of ConnectionResult)
   overload: Meadow.Gateway.WiFi.WiFiAdapter.Connect*
   modifiers.csharp:
   - public
@@ -354,7 +359,7 @@ items:
   - Meadow.Core
   namespace: Meadow.Gateway.WiFi
   syntax:
-    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, string ssid, ConnectionMethodType connectionMethodType, ReconnectionType reconnection = default(ReconnectionType))
+    content: public Task<ConnectionResult> Connect(WifiNetwork network, string password, string ssid, ConnectionMethodType connectionMethodType, ReconnectionType reconnection = ReconnectionType.Automatic)
     parameters:
     - id: network
       type: Meadow.Gateway.WiFi.WifiNetwork
@@ -367,8 +372,8 @@ items:
     - id: reconnection
       type: Meadow.Gateway.WiFi.ReconnectionType
     return:
-      type: Task{Meadow.Gateway.WiFi.ConnectionResult}
-    content.vb: Public Function Connect(network As WifiNetwork, password As String, ssid As String, connectionMethodType As ConnectionMethodType, reconnection As ReconnectionType = Nothing) As Task(Of ConnectionResult)
+      type: System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+    content.vb: Public Function Connect(network As WifiNetwork, password As String, ssid As String, connectionMethodType As ConnectionMethodType, reconnection As ReconnectionType = ReconnectionType.Automatic) As Task(Of ConnectionResult)
   overload: Meadow.Gateway.WiFi.WiFiAdapter.Connect*
   modifiers.csharp:
   - public
@@ -417,6 +422,285 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -428,20 +712,21 @@ references:
   name: Networks
   nameWithType: WiFiAdapter.Networks
   fullName: Meadow.Gateway.WiFi.WiFiAdapter.Networks
-- uid: ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}
-  commentId: '!:ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}'
-  definition: ObservableCollection`1
+- uid: System.Collections.ObjectModel.ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{Meadow.Gateway.WiFi.WifiNetwork}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
   name: ObservableCollection<WifiNetwork>
   nameWithType: ObservableCollection<WifiNetwork>
-  fullName: ObservableCollection<Meadow.Gateway.WiFi.WifiNetwork>
+  fullName: System.Collections.ObjectModel.ObservableCollection<Meadow.Gateway.WiFi.WifiNetwork>
   nameWithType.vb: ObservableCollection(Of WifiNetwork)
-  fullName.vb: ObservableCollection(Of Meadow.Gateway.WiFi.WifiNetwork)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of Meadow.Gateway.WiFi.WifiNetwork)
   name.vb: ObservableCollection(Of WifiNetwork)
   spec.csharp:
-  - uid: ObservableCollection`1
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
     name: ObservableCollection
     nameWithType: ObservableCollection
-    fullName: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
     isExternal: true
   - name: <
     nameWithType: <
@@ -454,10 +739,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ObservableCollection`1
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
     name: ObservableCollection
     nameWithType: ObservableCollection
-    fullName: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -469,45 +754,51 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: ObservableCollection`1
-  commentId: '!:ObservableCollection`1'
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
   isExternal: true
-  name: ObservableCollection<>
-  nameWithType: ObservableCollection<>
-  fullName: ObservableCollection<>
-  nameWithType.vb: ObservableCollection(Of )
-  fullName.vb: ObservableCollection(Of )
-  name.vb: ObservableCollection(Of )
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
   spec.csharp:
-  - uid: ObservableCollection`1
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
     name: ObservableCollection
     nameWithType: ObservableCollection
-    fullName: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ObservableCollection`1
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
     name: ObservableCollection
     nameWithType: ObservableCollection
-    fullName: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
 - uid: Meadow.Gateway.WiFi.WiFiAdapter.IsConnected*
   commentId: Overload:Meadow.Gateway.WiFi.WiFiAdapter.IsConnected
   name: IsConnected
@@ -552,20 +843,21 @@ references:
   name: ReconnectionType
   nameWithType: ReconnectionType
   fullName: Meadow.Gateway.WiFi.ReconnectionType
-- uid: Task{Meadow.Gateway.WiFi.ConnectionResult}
-  commentId: '!:Task{Meadow.Gateway.WiFi.ConnectionResult}'
-  definition: Task`1
+- uid: System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+  commentId: T:System.Threading.Tasks.Task{Meadow.Gateway.WiFi.ConnectionResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
   name: Task<ConnectionResult>
   nameWithType: Task<ConnectionResult>
-  fullName: Task<Meadow.Gateway.WiFi.ConnectionResult>
+  fullName: System.Threading.Tasks.Task<Meadow.Gateway.WiFi.ConnectionResult>
   nameWithType.vb: Task(Of ConnectionResult)
-  fullName.vb: Task(Of Meadow.Gateway.WiFi.ConnectionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Meadow.Gateway.WiFi.ConnectionResult)
   name.vb: Task(Of ConnectionResult)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -578,10 +870,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -593,45 +885,54 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Task`1
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: Task(Of )
-  name.vb: Task(Of )
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
