@@ -31,13 +31,22 @@ If you haven't cloned [Meadow.Core](https://github.com/WildernessLabs/Meadow.Cor
   docfx docfx.json --serve
   ```
 
+### Configuring Scripts First Time
+
+To make the helper scripts executable, run these commands in the terminal after cloning:
+
+```
+chmod +x ./build-serve-docs.sh
+chmod +x ./build-docs.sh
+chmod +x ./get-latest.sh
+```
+
 ## Commiting Changes
 
 Before committing back to the repo, run `./build-docs.sh`. This will ensure you have the latest from  `Meadow.Core` and `Meadow.Foundation` repos.  Here's a breakdown of helper scripts:  
 - `./build-docs.sh` - runs `./get-latest.sh`, then runs `docfx docfx.json`       
 - `./build-serve-docs.sh` - runs `./get-latest.sh`, then runs `docfx docfx.json --serve`  
-- `./get-latest.sh` - gets latest from `Meadow.Core` and `Meadow.Foundation`  
-(remember to run `chmod +x yourscript.sh` before executing)
+- `./get-latest.sh` - gets latest from `Meadow.Core` and `Meadow.Foundation`
 
 ## Troubleshooting
 
