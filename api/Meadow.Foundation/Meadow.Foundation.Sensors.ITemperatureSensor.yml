@@ -32,7 +32,6 @@ items:
     content: 'public interface ITemperatureSensor : ISensor'
     content.vb: >-
       Public Interface ITemperatureSensor
-
           Inherits ISensor
   modifiers.csharp:
   - public
@@ -156,18 +155,10 @@ references:
   nameWithType: ITemperatureSensor.Temperature
   fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold*
   commentId: Overload:Meadow.Foundation.Sensors.ITemperatureSensor.TemperatureChangeNotificationThreshold
   name: TemperatureChangeNotificationThreshold

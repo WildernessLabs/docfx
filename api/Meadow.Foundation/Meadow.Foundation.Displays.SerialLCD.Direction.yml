@@ -28,8 +28,8 @@ items:
   summary: "\nDirection to move the cursor or the display.\n"
   example: []
   syntax:
-    content: public enum Direction
-    content.vb: Public Enum Direction
+    content: 'public enum Direction : int'
+    content.vb: Public Enum Direction As Integer
   modifiers.csharp:
   - public
   - enum

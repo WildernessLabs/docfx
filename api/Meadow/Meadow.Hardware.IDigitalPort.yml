@@ -17,7 +17,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IDigitalPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IDigitalPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPort.cs
     startLine: 3
@@ -28,6 +28,7 @@ items:
     content: 'public interface IDigitalPort : IPort'
     content.vb: >-
       Public Interface IDigitalPort
+
           Inherits IPort
   inheritedMembers:
   - Meadow.Hardware.IPort.Direction
@@ -53,7 +54,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IDigitalPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPort.cs
     startLine: 8

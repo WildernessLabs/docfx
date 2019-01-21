@@ -26,7 +26,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ChannelConfigurationType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 89
@@ -59,7 +59,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: None
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 91
@@ -91,7 +91,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalOutput
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 92
@@ -123,7 +123,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalInput
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 93
@@ -155,7 +155,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AnalogOutput
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 94
@@ -187,7 +187,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AnalogInput
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 95
@@ -219,7 +219,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 96
@@ -251,7 +251,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 97
@@ -283,7 +283,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: I2C
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 98
@@ -315,7 +315,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: CAN
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 99
@@ -347,7 +347,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: UART
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Internals/DeviceChannelManager.cs
     startLine: 100

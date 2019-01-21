@@ -26,8 +26,8 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Relays
   syntax:
-    content: public enum RelayType
-    content.vb: Public Enum RelayType
+    content: 'public enum RelayType : int'
+    content.vb: Public Enum RelayType As Integer
   modifiers.csharp:
   - public
   - enum

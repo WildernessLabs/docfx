@@ -20,7 +20,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IApp.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IApp
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
     startLine: 7
@@ -53,7 +53,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IApp.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Run
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
     startLine: 13
@@ -81,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IApp.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WillSleep
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
     startLine: 18
@@ -109,7 +109,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IApp.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: OnWake
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
     startLine: 23
@@ -137,7 +137,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IApp.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WillReset
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IApp.cs
     startLine: 29

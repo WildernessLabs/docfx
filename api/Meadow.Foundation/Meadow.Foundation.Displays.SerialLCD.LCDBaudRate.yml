@@ -32,8 +32,8 @@ items:
   summary: "\nPossible baud rates for the display.\n"
   example: []
   syntax:
-    content: public enum LCDBaudRate
-    content.vb: Public Enum LCDBaudRate
+    content: 'public enum LCDBaudRate : int'
+    content.vb: Public Enum LCDBaudRate As Integer
   modifiers.csharp:
   - public
   - enum
@@ -63,9 +63,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud2400 = 11
+    content: Baud2400 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud2400 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -95,9 +96,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud4800 = 12
+    content: Baud4800 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud4800 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -127,9 +129,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud9600 = 13
+    content: Baud9600 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud9600 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -159,9 +162,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud14400 = 14
+    content: Baud14400 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud14400 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -191,9 +195,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud19200 = 15
+    content: Baud19200 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud19200 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -223,9 +228,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Baud38400 = 16
+    content: Baud38400 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDBaudRate
+    content.vb: Baud38400 = Nothing
   modifiers.csharp:
   - public
   - const

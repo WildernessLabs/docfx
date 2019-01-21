@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NetworkSecuritySettings
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
     startLine: 6
@@ -62,7 +62,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AuthenticationType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
     startLine: 8
@@ -99,7 +99,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: EncryptionType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
     startLine: 9
@@ -136,7 +136,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkSecuritySettings.cs
     startLine: 11

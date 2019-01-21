@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IDevice.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IDevice
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
     startLine: 7
@@ -51,7 +51,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IDevice.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Capabilities
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
     startLine: 9
@@ -84,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IDevice.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IDevice.cs
     startLine: 11

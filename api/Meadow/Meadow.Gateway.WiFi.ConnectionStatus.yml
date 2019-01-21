@@ -23,7 +23,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConnectionStatus
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 6
@@ -56,7 +56,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: UnspecifiedFailure
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 11
@@ -90,7 +90,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Success
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 16
@@ -124,7 +124,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AccessRevoked
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 21
@@ -158,7 +158,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InvalidCredential
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 26
@@ -192,7 +192,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NetworkNotAvailable
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 31
@@ -226,7 +226,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Timeout
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 36
@@ -260,7 +260,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: UnsupportedAuthenticationProtocol
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionStatus.cs
     startLine: 41

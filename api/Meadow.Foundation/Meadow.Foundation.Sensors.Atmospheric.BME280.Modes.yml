@@ -61,9 +61,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Sleep = 0
+    content: Sleep = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Sleep = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,9 +94,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Forced = 1
+    content: Forced = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Forced = Nothing
   modifiers.csharp:
   - public
   - const
@@ -125,9 +127,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Normal = 3
+    content: Normal = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Modes
+    content.vb: Normal = Nothing
   modifiers.csharp:
   - public
   - const

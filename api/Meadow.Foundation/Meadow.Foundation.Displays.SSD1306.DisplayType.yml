@@ -30,8 +30,8 @@ items:
   summary: "\nSupported display types.\n"
   example: []
   syntax:
-    content: public enum DisplayType
-    content.vb: Public Enum DisplayType
+    content: 'public enum DisplayType : int'
+    content.vb: Public Enum DisplayType As Integer
   modifiers.csharp:
   - public
   - enum

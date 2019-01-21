@@ -16,7 +16,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IAnalogPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IAnalogPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogPort.cs
     startLine: 4
@@ -27,6 +27,7 @@ items:
     content: 'public interface IAnalogPort : IPort'
     content.vb: >-
       Public Interface IAnalogPort
+
           Inherits IPort
   inheritedMembers:
   - Meadow.Hardware.IPort.Direction

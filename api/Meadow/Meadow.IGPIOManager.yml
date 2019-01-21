@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IGPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 4
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Initialize
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 6
@@ -78,7 +78,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SetDiscrete
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 7
@@ -109,7 +109,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GetDiscrete
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 8
@@ -140,7 +140,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConfigureOutput
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 10
@@ -171,7 +171,7 @@ items:
     remote:
       path: source/Meadow.Core/Contracts/IGPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConfigureInput
     path: ../Meadow.Core/source/Meadow.Core/Contracts/IGPIOManager.cs
     startLine: 11

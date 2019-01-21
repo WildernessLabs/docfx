@@ -29,8 +29,8 @@ items:
   remarks: "\nPossible gain values are low (x1) and high (x16).\n"
   example: []
   syntax:
-    content: public enum Gain
-    content.vb: Public Enum Gain
+    content: 'public enum Gain : int'
+    content.vb: Public Enum Gain As Integer
   modifiers.csharp:
   - public
   - enum

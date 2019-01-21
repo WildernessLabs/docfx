@@ -24,7 +24,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalPinBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 6
@@ -37,7 +37,9 @@ items:
     content: 'public abstract class DigitalPinBase : PinBase, IDigitalPin, IPin, IDigitalChannel'
     content.vb: >-
       Public MustInherit Class DigitalPinBase
+
           Inherits PinBase
+
           Implements IDigitalPin, IPin, IDigitalChannel
   inheritance:
   - System.Object
@@ -82,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 8
@@ -123,7 +125,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _interruptCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 20
@@ -154,7 +156,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterrruptCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 21
@@ -191,7 +193,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _pullDownCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 23
@@ -222,7 +224,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PullDownCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 24
@@ -259,7 +261,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _pullUpCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 26
@@ -290,7 +292,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PullUpCapable
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 27
@@ -327,7 +329,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPinBase.cs
     startLine: 29

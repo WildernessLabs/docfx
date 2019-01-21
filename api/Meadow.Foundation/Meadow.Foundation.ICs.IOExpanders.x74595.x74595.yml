@@ -38,7 +38,6 @@ items:
     content: 'public class x74595 : object'
     content.vb: >-
       Public Class x74595
-
           Inherits Object
   inheritance:
   - System.Object
@@ -380,8 +379,6 @@ references:
   nameWithType: x74595.x74595
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.x74595
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -403,8 +400,6 @@ references:
   nameWithType: x74595.Item
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.Item
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -432,8 +427,6 @@ references:
   nameWithType: x74595.WriteToPort
   fullName: Meadow.Foundation.ICs.IOExpanders.x74595.x74595.WriteToPort
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

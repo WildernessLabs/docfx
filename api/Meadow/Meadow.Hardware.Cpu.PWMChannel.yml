@@ -25,7 +25,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWMChannel
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 82
@@ -56,7 +56,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_NONE
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 84
@@ -88,7 +88,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_0
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 85
@@ -120,7 +120,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_1
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 86
@@ -152,7 +152,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_2
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 87
@@ -184,7 +184,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_3
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 88
@@ -216,7 +216,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_4
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 89
@@ -248,7 +248,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_5
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 90
@@ -280,7 +280,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_6
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 91
@@ -312,7 +312,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PWM_7
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 92

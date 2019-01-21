@@ -28,7 +28,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WifiNetwork
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 6
@@ -71,7 +71,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Ssid
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 12
@@ -111,7 +111,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Bssid
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 18
@@ -151,7 +151,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IsDirect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 24
@@ -191,7 +191,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NetworkKind
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 26
@@ -228,7 +228,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: BeaconInterval
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 28
@@ -265,7 +265,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalDbStrength
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 34
@@ -303,7 +303,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Phy
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 38
@@ -340,7 +340,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SecuritySettings
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 40
@@ -377,7 +377,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: UpTime
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 46
@@ -415,7 +415,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ChannelCenterFrequency
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 52
@@ -455,7 +455,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalBarStrength
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 58
@@ -493,7 +493,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiNetwork.cs
     startLine: 66

@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Parity
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 7
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: None
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 9
@@ -84,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Odd
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 10
@@ -116,7 +116,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Even
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 11
@@ -148,7 +148,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Mark
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 12
@@ -180,7 +180,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Space
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 13

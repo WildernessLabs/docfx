@@ -26,8 +26,8 @@ items:
   - Displays.SSD1306
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public enum ConnectionType
-    content.vb: Public Enum ConnectionType
+    content: 'public enum ConnectionType : int'
+    content.vb: Public Enum ConnectionType As Integer
   modifiers.csharp:
   - public
   - enum

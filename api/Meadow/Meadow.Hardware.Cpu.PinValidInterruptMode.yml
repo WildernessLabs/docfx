@@ -22,7 +22,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PinValidInterruptMode
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 64
@@ -63,7 +63,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NONE
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 67
@@ -95,7 +95,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLow
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 68
@@ -127,7 +127,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeHigh
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 69
@@ -159,7 +159,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeBoth
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 70
@@ -191,7 +191,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLevelHigh
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 71
@@ -223,7 +223,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLevelLow
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 72

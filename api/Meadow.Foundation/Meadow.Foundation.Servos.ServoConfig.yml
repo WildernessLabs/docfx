@@ -20,11 +20,11 @@ items:
   type: Class
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ServoConfig
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 4
   assemblies:
   - Servos.Servo.Core
@@ -33,7 +33,6 @@ items:
     content: 'public class ServoConfig : object'
     content.vb: >-
       Public Class ServoConfig
-
           Inherits Object
   inheritance:
   - System.Object
@@ -56,11 +55,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: MinimumAngle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 6
   assemblies:
   - Servos.Servo.Core
@@ -91,11 +90,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: MaximumAngle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 7
   assemblies:
   - Servos.Servo.Core
@@ -126,11 +125,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: MinimumPulseDuration
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 8
   assemblies:
   - Servos.Servo.Core
@@ -161,11 +160,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: MaximumPulseDuration
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 9
   assemblies:
   - Servos.Servo.Core
@@ -196,11 +195,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Frequency
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 11
   assemblies:
   - Servos.Servo.Core
@@ -231,11 +230,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: .ctor
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoConfig.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoConfig.cs
     startLine: 21
   assemblies:
   - Servos.Servo.Core
@@ -291,8 +290,6 @@ references:
   nameWithType: ServoConfig.MinimumAngle
   fullName: Meadow.Foundation.Servos.ServoConfig.MinimumAngle
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

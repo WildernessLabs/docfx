@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PinUsage
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 55
@@ -62,7 +62,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NONE
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 58
@@ -94,7 +94,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: INPUT
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 59
@@ -126,7 +126,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: OUTPUT
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 60
@@ -158,7 +158,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ALTERNATE_A
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 61
@@ -190,7 +190,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ALTERNATE_B
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 62

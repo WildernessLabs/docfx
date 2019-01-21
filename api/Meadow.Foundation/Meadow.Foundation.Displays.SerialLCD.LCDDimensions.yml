@@ -30,8 +30,8 @@ items:
   summary: "\nDescribe the number of lines and characters on the display.\n"
   example: []
   syntax:
-    content: public enum LCDDimensions
-    content.vb: Public Enum LCDDimensions
+    content: 'public enum LCDDimensions : int'
+    content.vb: Public Enum LCDDimensions As Integer
   modifiers.csharp:
   - public
   - enum
@@ -61,9 +61,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Characters20Wide = 3
+    content: Characters20Wide = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Characters20Wide = Nothing
   modifiers.csharp:
   - public
   - const
@@ -93,9 +94,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Characters16Wide = 4
+    content: Characters16Wide = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Characters16Wide = Nothing
   modifiers.csharp:
   - public
   - const
@@ -125,9 +127,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Lines4 = 5
+    content: Lines4 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Lines4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -157,9 +160,10 @@ items:
   - Displays.SerialLCD
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: Lines2 = 6
+    content: Lines2 = null
     return:
       type: Meadow.Foundation.Displays.SerialLCD.LCDDimensions
+    content.vb: Lines2 = Nothing
   modifiers.csharp:
   - public
   - const

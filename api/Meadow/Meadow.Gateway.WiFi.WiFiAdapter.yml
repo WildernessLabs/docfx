@@ -26,7 +26,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WiFiAdapter
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 10
@@ -69,7 +69,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Networks
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 12
@@ -104,7 +104,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IsConnected
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 14
@@ -139,7 +139,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasInternetAccess
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 15
@@ -174,7 +174,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 17
@@ -204,7 +204,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: BeginScan
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 22
@@ -234,7 +234,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Connect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 29
@@ -271,7 +271,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Connect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 38
@@ -310,7 +310,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Connect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 49
@@ -351,7 +351,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Connect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 60
@@ -394,7 +394,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Disconect
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/WiFiAdapter.cs
     startLine: 73

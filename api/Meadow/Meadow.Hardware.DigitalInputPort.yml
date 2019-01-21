@@ -22,7 +22,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalInputPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 4
@@ -33,7 +33,9 @@ items:
     content: 'public class DigitalInputPort : DigitalInputPortBase, IDigitalPort, IPort'
     content.vb: >-
       Public Class DigitalInputPort
+
           Inherits DigitalInputPortBase
+
           Implements IDigitalPort, IPort
   inheritance:
   - System.Object
@@ -79,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _pin
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 6
@@ -110,7 +112,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _disposed
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 7
@@ -141,7 +143,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GlitchFilter
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 9
@@ -176,7 +178,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Resistor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 10
@@ -211,7 +213,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 12
@@ -248,7 +250,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalInputPort.cs
     startLine: 30

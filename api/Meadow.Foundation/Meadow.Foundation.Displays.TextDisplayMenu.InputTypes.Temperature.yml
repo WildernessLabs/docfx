@@ -28,9 +28,7 @@ items:
     content: 'public class Temperature : NumericBase, IMenuInputItem'
     content.vb: >-
       Public Class Temperature
-
           Inherits NumericBase
-
           Implements IMenuInputItem
   inheritance:
   - System.Object
@@ -41,10 +39,10 @@ items:
   inheritedMembers:
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.ValueChanged
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.GetInput(System.String,System.Object)
-  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,System.EventArgs)
-  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,System.EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,EventArgs)
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleRotated(System.Object,Meadow.Foundation.Sensors.Rotary.RotaryTurnedEventArgs)
-  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,System.EventArgs)
+  - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,EventArgs)
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.ParseValue(System.Object)
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._encoder
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase._buttonNext
@@ -58,13 +56,6 @@ items:
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RewriteInputLine(System.String)
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.RegisterHandlers
   - Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -193,15 +184,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,System.EventArgs)
-  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,System.EventArgs)
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,EventArgs)
   parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase
   isExternal: true
   name: HandlePrevious(Object, EventArgs)
   nameWithType: NumericBase.HandlePrevious(Object, EventArgs)
-  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object, System.EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object, EventArgs)
   spec.csharp:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,EventArgs)
     name: HandlePrevious
     nameWithType: NumericBase.HandlePrevious
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious
@@ -216,16 +207,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious(System.Object,EventArgs)
     name: HandlePrevious
     nameWithType: NumericBase.HandlePrevious
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandlePrevious
@@ -240,23 +231,23 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,System.EventArgs)
-  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,System.EventArgs)
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,EventArgs)
   parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase
   isExternal: true
   name: HandleNext(Object, EventArgs)
   nameWithType: NumericBase.HandleNext(Object, EventArgs)
-  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object, System.EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object, EventArgs)
   spec.csharp:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,EventArgs)
     name: HandleNext
     nameWithType: NumericBase.HandleNext
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext
@@ -271,16 +262,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext(System.Object,EventArgs)
     name: HandleNext
     nameWithType: NumericBase.HandleNext
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleNext
@@ -295,10 +286,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
@@ -356,15 +347,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,System.EventArgs)
-  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,System.EventArgs)
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,EventArgs)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,EventArgs)
   parent: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase
   isExternal: true
   name: HandleClicked(Object, EventArgs)
   nameWithType: NumericBase.HandleClicked(Object, EventArgs)
-  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object, System.EventArgs)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object, EventArgs)
   spec.csharp:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,EventArgs)
     name: HandleClicked
     nameWithType: NumericBase.HandleClicked
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked
@@ -379,16 +370,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,System.EventArgs)
+  - uid: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked(System.Object,EventArgs)
     name: HandleClicked
     nameWithType: NumericBase.HandleClicked
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.NumericBase.HandleClicked
@@ -403,10 +394,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.EventArgs
+  - uid: EventArgs
     name: EventArgs
     nameWithType: EventArgs
-    fullName: System.EventArgs
+    fullName: EventArgs
     isExternal: true
   - name: )
     nameWithType: )
@@ -723,285 +714,6 @@ references:
     name: UnregisterHandlers
     nameWithType: InputBase.UnregisterHandlers
     fullName: Meadow.Foundation.Displays.TextDisplayMenu.InputTypes.InputBase.UnregisterHandlers
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
   - name: (
     nameWithType: (
     fullName: (

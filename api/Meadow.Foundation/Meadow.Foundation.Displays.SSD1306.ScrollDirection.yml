@@ -30,8 +30,8 @@ items:
   summary: "\nAllow the programmer to set the scroll direction.\n"
   example: []
   syntax:
-    content: public enum ScrollDirection
-    content.vb: Public Enum ScrollDirection
+    content: 'public enum ScrollDirection : int'
+    content.vb: Public Enum ScrollDirection As Integer
   modifiers.csharp:
   - public
   - enum

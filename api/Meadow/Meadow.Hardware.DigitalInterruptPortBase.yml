@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalInterruptPortBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
     startLine: 7
@@ -32,7 +32,9 @@ items:
     content: 'public class DigitalInterruptPortBase : DigitalInputPortBase, IDigitalInterruptPort, IDigitalInputPort, IDigitalPort, IPort'
     content.vb: >-
       Public Class DigitalInterruptPortBase
+
           Inherits DigitalInputPortBase
+
           Implements IDigitalInterruptPort, IDigitalInputPort, IDigitalPort, IPort
   inheritance:
   - System.Object
@@ -80,7 +82,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
     startLine: 9
@@ -110,7 +112,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
     startLine: 13
@@ -152,7 +154,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Meadow.Hardware.IDigitalInterruptPort.InterrupEnabled
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalInterruptPortBase.cs
     startLine: 15

@@ -30,9 +30,9 @@ items:
     content: public delegate void ThresholdInterrupt(DateTime time);
     parameters:
     - id: time
-      type: System.DateTime
+      type: DateTime
       description: Date and time the interrupt was generated.
-    content.vb: Public Delegate Sub ThresholdInterrupt(time As Date)
+    content.vb: Public Delegate Sub ThresholdInterrupt(time As DateTime)
   modifiers.csharp:
   - public
   - delegate
@@ -48,16 +48,8 @@ references:
   name: Meadow.Foundation.Sensors.Light
   nameWithType: Meadow.Foundation.Sensors.Light
   fullName: Meadow.Foundation.Sensors.Light
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
+- uid: DateTime
   isExternal: true
   name: DateTime
   nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  fullName: DateTime

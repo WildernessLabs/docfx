@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/SignalType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/SignalType.cs
     startLine: 2
@@ -49,7 +49,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/SignalType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Analog
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/SignalType.cs
     startLine: 4
@@ -81,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/SignalType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Digital
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/SignalType.cs
     startLine: 5

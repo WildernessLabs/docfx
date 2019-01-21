@@ -37,16 +37,16 @@ references:
   name: IRangeFinder
   nameWithType: IRangeFinder
   fullName: Netduino.Foundation.Sensors.Distance.IRangeFinder
-- uid: Netduino.Foundation.Sensors.Distance.HCSR04
-  commentId: T:Netduino.Foundation.Sensors.Distance.HCSR04
-  name: HCSR04
-  nameWithType: HCSR04
-  fullName: Netduino.Foundation.Sensors.Distance.HCSR04
 - uid: Netduino.Foundation.Sensors.Distance.HYSRF05
   commentId: T:Netduino.Foundation.Sensors.Distance.HYSRF05
   name: HYSRF05
   nameWithType: HYSRF05
   fullName: Netduino.Foundation.Sensors.Distance.HYSRF05
+- uid: Netduino.Foundation.Sensors.Distance.HCSR04
+  commentId: T:Netduino.Foundation.Sensors.Distance.HCSR04
+  name: HCSR04
+  nameWithType: HCSR04
+  fullName: Netduino.Foundation.Sensors.Distance.HCSR04
 - uid: Netduino.Foundation.Sensors.Distance
   commentId: N:Netduino.Foundation.Sensors.Distance
   name: Netduino.Foundation.Sensors.Distance

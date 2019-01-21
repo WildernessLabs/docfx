@@ -316,8 +316,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
@@ -354,8 +352,6 @@ references:
   nameWithType: ITextDisplay.SetBrightness
   fullName: Meadow.Foundation.Displays.ITextDisplay.SetBrightness
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

@@ -17,11 +17,11 @@ items:
   type: Enum
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: RotationDirection
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
     startLine: 7
   assemblies:
   - Servos.Servo.Core
@@ -50,11 +50,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Clockwise
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
     startLine: 9
   assemblies:
   - Servos.Servo.Core
@@ -82,11 +82,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: CounterClockwise
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
     startLine: 10
   assemblies:
   - Servos.Servo.Core
@@ -114,11 +114,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: None
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/RotationDirection.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/RotationDirection.cs
     startLine: 11
   assemblies:
   - Servos.Servo.Core

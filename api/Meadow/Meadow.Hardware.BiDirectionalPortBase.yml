@@ -31,7 +31,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: BiDirectionalPortBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 7
@@ -44,6 +44,7 @@ items:
     content: 'public abstract class BiDirectionalPortBase : IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable'
     content.vb: >-
       Public MustInherit Class BiDirectionalPortBase
+
           Implements IBiDirectionalPort, IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort, IDisposable
   inheritance:
   - System.Object
@@ -88,7 +89,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Changed
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 9
@@ -121,7 +122,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _disposed
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 12
@@ -152,7 +153,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _currentState
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 13
@@ -183,7 +184,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _interruptEnabled
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 14
@@ -214,7 +215,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _currentDirection
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 15
@@ -245,7 +246,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 17
@@ -282,7 +283,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GlitchFilter
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 22
@@ -317,7 +318,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InitialState
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 23
@@ -354,7 +355,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Resistor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 24
@@ -389,7 +390,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 26
@@ -428,7 +429,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 36
@@ -460,7 +461,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 42
@@ -495,7 +496,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterrupEnabled
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 44
@@ -532,7 +533,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 54
@@ -569,7 +570,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/BiDirectionalPortBase.cs
     startLine: 59

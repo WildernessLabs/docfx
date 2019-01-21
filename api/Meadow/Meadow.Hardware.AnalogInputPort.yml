@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AnalogInputPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 4
@@ -32,6 +32,7 @@ items:
     content: 'public class AnalogInputPort : IAnalogPort, IPort'
     content.vb: >-
       Public Class AnalogInputPort
+
           Implements IAnalogPort, IPort
   inheritance:
   - System.Object
@@ -67,7 +68,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Value
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 9
@@ -102,7 +103,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 11
@@ -135,7 +136,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 17
@@ -168,7 +169,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 22
@@ -205,7 +206,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/AnalogInputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/AnalogInputPort.cs
     startLine: 24

@@ -29,8 +29,8 @@ items:
   summary: "\nDiemensions type of the fix.\n"
   example: []
   syntax:
-    content: public enum DimensionalFixType
-    content.vb: Public Enum DimensionalFixType
+    content: 'public enum DimensionalFixType : int'
+    content.vb: Public Enum DimensionalFixType As Integer
   modifiers.csharp:
   - public
   - enum
@@ -60,9 +60,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: None = 1
+    content: None = null
     return:
       type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: None = Nothing
   modifiers.csharp:
   - public
   - const
@@ -92,9 +93,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: TwoD = 2
+    content: TwoD = null
     return:
       type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: TwoD = Nothing
   modifiers.csharp:
   - public
   - const
@@ -124,9 +126,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: ThreeD = 3
+    content: ThreeD = null
     return:
       type: Meadow.Foundation.Sensors.GPS.DimensionalFixType
+    content.vb: ThreeD = Nothing
   modifiers.csharp:
   - public
   - const

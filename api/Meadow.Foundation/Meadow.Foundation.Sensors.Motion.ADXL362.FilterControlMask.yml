@@ -37,18 +37,12 @@ items:
   summary: "\nMasks for the bit in the filter control register.\n"
   example: []
   syntax:
-    content: public static class FilterControlMask
-    content.vb: Public Module FilterControlMask
+    content: 'public static class FilterControlMask : object'
+    content.vb: >-
+      Public Module FilterControlMask
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - static
@@ -81,10 +75,10 @@ items:
   summary: "\nData rate of 12.5Hz\n"
   example: []
   syntax:
-    content: public const byte DataRate12HalfHz = 0
+    content: public const byte DataRate12HalfHz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate12HalfHz As Byte = 0
+    content.vb: Public Const DataRate12HalfHz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -116,10 +110,10 @@ items:
   summary: "\nData rate of 25 Hz\n"
   example: []
   syntax:
-    content: public const byte DataRate25Hz = 1
+    content: public const byte DataRate25Hz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate25Hz As Byte = 1
+    content.vb: Public Const DataRate25Hz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -151,10 +145,10 @@ items:
   summary: "\nData rate of 50 Hz.\n"
   example: []
   syntax:
-    content: public const byte DataRate50Hz = 2
+    content: public const byte DataRate50Hz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate50Hz As Byte = 2
+    content.vb: Public Const DataRate50Hz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -186,10 +180,10 @@ items:
   summary: "\nData rate 100 Hz.\n"
   example: []
   syntax:
-    content: public const byte DataRate100Hz = 3
+    content: public const byte DataRate100Hz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate100Hz As Byte = 3
+    content.vb: Public Const DataRate100Hz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -221,10 +215,10 @@ items:
   summary: "\nData rate of 200 Hz.\n"
   example: []
   syntax:
-    content: public const byte DataRate200Hz = 4
+    content: public const byte DataRate200Hz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate200Hz As Byte = 4
+    content.vb: Public Const DataRate200Hz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -256,10 +250,10 @@ items:
   summary: "\nData rate of 400 Hz\n"
   example: []
   syntax:
-    content: public const byte DataRate400Hz = 5
+    content: public const byte DataRate400Hz = null
     return:
       type: System.Byte
-    content.vb: Public Const DataRate400Hz As Byte = 5
+    content.vb: Public Const DataRate400Hz As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -292,10 +286,10 @@ items:
   remarks: "\nSetting this bit to 1 enables the sampling to be controlled by the INT2 pin.\n"
   example: []
   syntax:
-    content: public const byte ExternalSampling = 8
+    content: public const byte ExternalSampling = null
     return:
       type: System.Byte
-    content.vb: Public Const ExternalSampling As Byte = 8
+    content.vb: Public Const ExternalSampling As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -328,10 +322,10 @@ items:
   remarks: "\nSetting this bit to 1 changes the anti-aliasing filters from 1/2 the output\ndata rate to 1/4 the output data rate.\n"
   example: []
   syntax:
-    content: public const byte HalfBandwidth = 16
+    content: public const byte HalfBandwidth = null
     return:
       type: System.Byte
-    content.vb: Public Const HalfBandwidth As Byte = 16
+    content.vb: Public Const HalfBandwidth As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -363,10 +357,10 @@ items:
   summary: "\nSet the range to +/- 2g.\n"
   example: []
   syntax:
-    content: public const byte Range2g = 0
+    content: public const byte Range2g = null
     return:
       type: System.Byte
-    content.vb: Public Const Range2g As Byte = 0
+    content.vb: Public Const Range2g As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -398,10 +392,10 @@ items:
   summary: "\nSet the range to +/- 4g\n"
   example: []
   syntax:
-    content: public const byte Range4g = 64
+    content: public const byte Range4g = null
     return:
       type: System.Byte
-    content.vb: Public Const Range4g As Byte = 64
+    content.vb: Public Const Range4g As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -433,10 +427,10 @@ items:
   summary: "\nSet the range to +/- 8g\n"
   example: []
   syntax:
-    content: public const byte Range8g = 128
+    content: public const byte Range8g = null
     return:
       type: System.Byte
-    content.vb: Public Const Range8g As Byte = 128
+    content.vb: Public Const Range8g As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -456,285 +450,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -742,8 +457,6 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

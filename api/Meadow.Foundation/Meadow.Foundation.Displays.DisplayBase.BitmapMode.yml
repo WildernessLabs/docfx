@@ -30,8 +30,8 @@ items:
   summary: "\n\n"
   example: []
   syntax:
-    content: public enum BitmapMode
-    content.vb: Public Enum BitmapMode
+    content: 'public enum BitmapMode : int'
+    content.vb: Public Enum BitmapMode As Integer
   modifiers.csharp:
   - public
   - enum

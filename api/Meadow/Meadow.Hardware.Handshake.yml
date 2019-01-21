@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Handshake
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 24
@@ -50,7 +50,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: None
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 26
@@ -82,7 +82,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: RequestToSend
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 27
@@ -114,7 +114,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: XOnXOff
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 28

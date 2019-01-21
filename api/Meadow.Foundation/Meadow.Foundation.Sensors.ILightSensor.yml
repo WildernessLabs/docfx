@@ -32,7 +32,6 @@ items:
     content: 'public interface ILightSensor : ISensor'
     content.vb: >-
       Public Interface ILightSensor
-
           Inherits ISensor
   modifiers.csharp:
   - public
@@ -156,18 +155,10 @@ references:
   nameWithType: ILightSensor.Luminosity
   fullName: Meadow.Foundation.Sensors.ILightSensor.Luminosity
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold*
   commentId: Overload:Meadow.Foundation.Sensors.ILightSensor.LightLevelChangeNotificationThreshold
   name: LightLevelChangeNotificationThreshold

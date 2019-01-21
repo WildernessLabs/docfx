@@ -33,18 +33,12 @@ items:
   summary: "\nControl bits determining how the activity / inactivity functionality is configured.\n"
   example: []
   syntax:
-    content: protected static class ActivityInactivityControlMask
-    content.vb: Protected Module ActivityInactivityControlMask
+    content: 'protected static class ActivityInactivityControlMask : object'
+    content.vb: >-
+      Protected Module ActivityInactivityControlMask
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - protected
   - static
@@ -77,10 +71,10 @@ items:
   summary: "\nDetermine if the activity functionality is enabled (1) or disabled (0).\n"
   example: []
   syntax:
-    content: public const byte ActivityEnable = 1
+    content: public const byte ActivityEnable = null
     return:
       type: System.Byte
-    content.vb: Public Const ActivityEnable As Byte = 1
+    content.vb: Public Const ActivityEnable As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -112,10 +106,10 @@ items:
   summary: "\nDetermine is activity mode is in reference (1) or absolute mode (0).\n"
   example: []
   syntax:
-    content: public const byte ActivityMode = 2
+    content: public const byte ActivityMode = null
     return:
       type: System.Byte
-    content.vb: Public Const ActivityMode As Byte = 2
+    content.vb: Public Const ActivityMode As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -147,10 +141,10 @@ items:
   summary: "\nDetermine if inactivity mode is enabled (1) or disabled (0).\n"
   example: []
   syntax:
-    content: public const byte InactivityEnable = 4
+    content: public const byte InactivityEnable = null
     return:
       type: System.Byte
-    content.vb: Public Const InactivityEnable As Byte = 4
+    content.vb: Public Const InactivityEnable As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -182,10 +176,10 @@ items:
   summary: "\nDetermine is inactivity mode is in reference (1) or absolute mode (0).\n"
   example: []
   syntax:
-    content: public const byte Inactivitymode = 8
+    content: public const byte Inactivitymode = null
     return:
       type: System.Byte
-    content.vb: Public Const Inactivitymode As Byte = 8
+    content.vb: Public Const Inactivitymode As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -218,10 +212,10 @@ items:
   remarks: "\nActivity and inactivity detection are both enabled, and their interrupts\n(if mapped) must be acknowledged by the host processor by reading the STATUS\nregister. Auto-sleep is disabled in this mode. Use this mode for free fall\ndetection applications.\n"
   example: []
   syntax:
-    content: public const byte DefaultMode = 0
+    content: public const byte DefaultMode = null
     return:
       type: System.Byte
-    content.vb: Public Const DefaultMode As Byte = 0
+    content.vb: Public Const DefaultMode As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -254,10 +248,10 @@ items:
   remarks: "\nActivity and inactivity detection are linked sequentially such that only one\nis enabled at a time. Their interrupts (if mapped) must be acknowledged by\nthe host processor by reading the STATUS register.\n"
   example: []
   syntax:
-    content: public const byte LinkedMode = 16
+    content: public const byte LinkedMode = null
     return:
       type: System.Byte
-    content.vb: Public Const LinkedMode As Byte = 16
+    content.vb: Public Const LinkedMode As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -290,10 +284,10 @@ items:
   remarks: "\nActivity and inactivity detection are linked sequentially such that only one is\nenabled at a time, and their interrupts are internally acknowledged (do not\nneed to be serviced by the host processor).\nTo use either linked or looped mode, both ACT_EN (Bit 0) and INACT_EN (Bit 2)\nmust be set to 1; otherwise, the default mode is used. For additional information,\nrefer to the Linking Activity and Inactivity Detection section.\n"
   example: []
   syntax:
-    content: public const byte LoopMode = 48
+    content: public const byte LoopMode = null
     return:
       type: System.Byte
-    content.vb: Public Const LoopMode As Byte = 48
+    content.vb: Public Const LoopMode As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -313,285 +307,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -599,8 +314,6 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

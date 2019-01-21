@@ -17,7 +17,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PortEventArgs.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PortEventArgs
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PortEventArgs.cs
     startLine: 3
@@ -28,6 +28,7 @@ items:
     content: 'public class PortEventArgs : EventArgs'
     content.vb: >-
       Public Class PortEventArgs
+
           Inherits EventArgs
   inheritance:
   - System.Object
@@ -62,7 +63,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PortEventArgs.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Value
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PortEventArgs.cs
     startLine: 5

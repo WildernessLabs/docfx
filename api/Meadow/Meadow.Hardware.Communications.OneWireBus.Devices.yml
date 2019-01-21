@@ -20,7 +20,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/OneWireBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Devices
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWireBus.cs
     startLine: 27
@@ -63,7 +63,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/OneWireBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Pin
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWireBus.cs
     startLine: 34
@@ -100,7 +100,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/OneWireBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DeviceBus
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWireBus.cs
     startLine: 44
@@ -137,7 +137,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/OneWireBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DeviceIDs
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWireBus.cs
     startLine: 49
@@ -174,7 +174,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/OneWireBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/OneWireBus.cs
     startLine: 66

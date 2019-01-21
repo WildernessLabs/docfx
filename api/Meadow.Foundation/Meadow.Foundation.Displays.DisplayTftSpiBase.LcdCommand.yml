@@ -27,8 +27,8 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public enum LcdCommand
-    content.vb: Public Enum LcdCommand
+    content: 'public enum LcdCommand : int'
+    content.vb: Public Enum LcdCommand As Integer
   modifiers.csharp:
   - public
   - enum
@@ -58,9 +58,10 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: CASET = 42
+    content: CASET = null
     return:
       type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: CASET = Nothing
   modifiers.csharp:
   - public
   - const
@@ -90,9 +91,10 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RASET = 43
+    content: RASET = null
     return:
       type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: RASET = Nothing
   modifiers.csharp:
   - public
   - const
@@ -122,9 +124,10 @@ items:
   - Displays.TFTSPI
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: RAMWR = 44
+    content: RAMWR = null
     return:
       type: Meadow.Foundation.Displays.DisplayTftSpiBase.LcdCommand
+    content.vb: RAMWR = Nothing
   modifiers.csharp:
   - public
   - const

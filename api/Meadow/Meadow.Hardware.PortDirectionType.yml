@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PortDirectionType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
     startLine: 2
@@ -49,7 +49,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Output
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
     startLine: 4
@@ -81,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Input
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/PortDirectionType.cs
     startLine: 5

@@ -17,7 +17,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SerialErrorReceivedEventArgs
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 99
@@ -58,7 +58,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: EventType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 101

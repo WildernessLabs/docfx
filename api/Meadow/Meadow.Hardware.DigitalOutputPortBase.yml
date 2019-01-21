@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalOutputPortBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
     startLine: 5
@@ -32,7 +32,9 @@ items:
     content: 'public abstract class DigitalOutputPortBase : DigitalPortBase, IDigitalOutputPort, IDigitalPort, IPort'
     content.vb: >-
       Public MustInherit Class DigitalOutputPortBase
+
           Inherits DigitalPortBase
+
           Implements IDigitalOutputPort, IDigitalPort, IPort
   inheritance:
   - System.Object
@@ -79,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InitialState
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
     startLine: 11
@@ -120,7 +122,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _initialState
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
     startLine: 12
@@ -153,7 +155,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalOutputPortBase.cs
     startLine: 14

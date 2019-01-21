@@ -31,8 +31,8 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public enum DisplayColorMode
-    content.vb: Public Enum DisplayColorMode
+    content: 'public enum DisplayColorMode : int'
+    content.vb: Public Enum DisplayColorMode As Integer
   modifiers.csharp:
   - public
   - enum

@@ -19,13 +19,8 @@ items:
   fullName: Meadow.Foundation.Sensors.Light
   type: Namespace
   assemblies:
-  - Sensors.Light.SI1145
+  - Sensors.Light.TSL2561
 references:
-- uid: Meadow.Foundation.Sensors.Light.SI1145
-  commentId: T:Meadow.Foundation.Sensors.Light.SI1145
-  name: SI1145
-  nameWithType: SI1145
-  fullName: Meadow.Foundation.Sensors.Light.SI1145
 - uid: Meadow.Foundation.Sensors.Light.TSL2561
   commentId: T:Meadow.Foundation.Sensors.Light.TSL2561
   name: TSL2561
@@ -61,6 +56,11 @@ references:
   name: TSL2561.ThresholdInterrupt
   nameWithType: TSL2561.ThresholdInterrupt
   fullName: Meadow.Foundation.Sensors.Light.TSL2561.ThresholdInterrupt
+- uid: Meadow.Foundation.Sensors.Light.SI1145
+  commentId: T:Meadow.Foundation.Sensors.Light.SI1145
+  name: SI1145
+  nameWithType: SI1145
+  fullName: Meadow.Foundation.Sensors.Light.SI1145
 - uid: Meadow.Foundation.Sensors.Light
   commentId: N:Meadow.Foundation.Sensors.Light
   name: Meadow.Foundation.Sensors.Light

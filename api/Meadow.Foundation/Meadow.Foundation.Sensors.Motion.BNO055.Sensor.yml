@@ -29,8 +29,8 @@ items:
   summary: "\nSensor type.\n"
   example: []
   syntax:
-    content: public enum Sensor
-    content.vb: Public Enum Sensor
+    content: 'public enum Sensor : int'
+    content.vb: Public Enum Sensor As Integer
   modifiers.csharp:
   - public
   - enum
@@ -62,9 +62,10 @@ items:
   summary: "\nAccelerometer sensor.\n"
   example: []
   syntax:
-    content: Accelerometer = 0
+    content: Accelerometer = null
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Accelerometer = Nothing
   modifiers.csharp:
   - public
   - const
@@ -96,9 +97,10 @@ items:
   summary: "\nGyroscope sensor.\n"
   example: []
   syntax:
-    content: Gyroscope = 1
+    content: Gyroscope = null
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Gyroscope = Nothing
   modifiers.csharp:
   - public
   - const
@@ -130,9 +132,10 @@ items:
   summary: "\nMagnetometer sensor.\n"
   example: []
   syntax:
-    content: Magnetometer = 2
+    content: Magnetometer = null
     return:
       type: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+    content.vb: Magnetometer = Nothing
   modifiers.csharp:
   - public
   - const

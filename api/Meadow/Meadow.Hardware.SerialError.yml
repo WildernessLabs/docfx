@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SerialError
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 104
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: TXFull
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 106
@@ -84,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: RXOver
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 107
@@ -116,7 +116,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Overrun
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 108
@@ -148,7 +148,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: RXParity
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 109
@@ -180,7 +180,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Frame
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 110

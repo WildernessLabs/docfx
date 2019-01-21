@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/MeadowOS.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: MeadowOS
     path: ../Meadow.Core/source/Meadow.Core/MeadowOS.cs
     startLine: 3
@@ -61,7 +61,7 @@ items:
     remote:
       path: source/Meadow.Core/MeadowOS.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Sleep
     path: ../Meadow.Core/source/Meadow.Core/MeadowOS.cs
     startLine: 9
@@ -96,7 +96,7 @@ items:
     remote:
       path: source/Meadow.Core/MeadowOS.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Sleep
     path: ../Meadow.Core/source/Meadow.Core/MeadowOS.cs
     startLine: 13
@@ -131,7 +131,7 @@ items:
     remote:
       path: source/Meadow.Core/MeadowOS.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Sleep
     path: ../Meadow.Core/source/Meadow.Core/MeadowOS.cs
     startLine: 17

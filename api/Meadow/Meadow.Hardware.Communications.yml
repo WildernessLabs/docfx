@@ -9,6 +9,7 @@ items:
   - Meadow.Hardware.Communications.OneWire
   - Meadow.Hardware.Communications.OneWireBus
   - Meadow.Hardware.Communications.OneWireBus.Devices
+  - Meadow.Hardware.Communications.SoftwareI2C
   - Meadow.Hardware.Communications.SoftwareSPIBus
   - Meadow.Hardware.Communications.SPIBus
   langs:
@@ -50,6 +51,11 @@ references:
   name: OneWireBus.Devices
   nameWithType: OneWireBus.Devices
   fullName: Meadow.Hardware.Communications.OneWireBus.Devices
+- uid: Meadow.Hardware.Communications.SoftwareI2C
+  commentId: T:Meadow.Hardware.Communications.SoftwareI2C
+  name: SoftwareI2C
+  nameWithType: SoftwareI2C
+  fullName: Meadow.Hardware.Communications.SoftwareI2C
 - uid: Meadow.Hardware.Communications.SoftwareSPIBus
   commentId: T:Meadow.Hardware.Communications.SoftwareSPIBus
   name: SoftwareSPIBus

@@ -31,7 +31,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPIBus
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 8
@@ -44,6 +44,7 @@ items:
     content: 'public class SPIBus : ICommunicationBus'
     content.vb: >-
       Public Class SPIBus
+
           Implements ICommunicationBus
   inheritance:
   - System.Object
@@ -78,7 +79,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 40
@@ -114,7 +115,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 54
@@ -162,7 +163,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 74
@@ -208,7 +209,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 137
@@ -246,7 +247,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 149
@@ -288,7 +289,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 161
@@ -332,7 +333,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 186
@@ -380,7 +381,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 210
@@ -421,7 +422,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 220
@@ -464,7 +465,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRead
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 236
@@ -511,7 +512,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 249
@@ -552,7 +553,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 258
@@ -592,7 +593,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 268
@@ -635,7 +636,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 279
@@ -679,7 +680,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SpiBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SpiBus.cs
     startLine: 292

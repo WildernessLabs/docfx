@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/DeviceCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DeviceCapabilities
     path: ../Meadow.Core/source/Meadow.Core/DeviceCapabilities.cs
     startLine: 3
@@ -59,7 +59,7 @@ items:
     remote:
       path: source/Meadow.Core/DeviceCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Network
     path: ../Meadow.Core/source/Meadow.Core/DeviceCapabilities.cs
     startLine: 5
@@ -96,7 +96,7 @@ items:
     remote:
       path: source/Meadow.Core/DeviceCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/DeviceCapabilities.cs
     startLine: 10

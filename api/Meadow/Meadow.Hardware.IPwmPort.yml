@@ -24,7 +24,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IPwmPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 2
@@ -35,6 +35,7 @@ items:
     content: 'public interface IPwmPort : IPort'
     content.vb: >-
       Public Interface IPwmPort
+
           Inherits IPort
   inheritedMembers:
   - Meadow.Hardware.IPort.Direction
@@ -60,7 +61,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Start
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 5
@@ -86,7 +87,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Stop
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 6
@@ -112,7 +113,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Duration
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 9
@@ -144,7 +145,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Period
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 10
@@ -176,7 +177,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DutyCycle
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 13
@@ -208,7 +209,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Frequency
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 14
@@ -240,7 +241,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Inverted
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 16
@@ -272,7 +273,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Scale
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 18

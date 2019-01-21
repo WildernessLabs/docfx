@@ -17,11 +17,11 @@ items:
   type: Interface
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: IServo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
     startLine: 4
   assemblies:
   - Servos.Servo.Core
@@ -48,11 +48,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Config
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
     startLine: 6
   assemblies:
   - Servos.Servo.Core
@@ -81,11 +81,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: RotateTo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
     startLine: 8
   assemblies:
   - Servos.Servo.Core
@@ -110,11 +110,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Angle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IServo.cs
     startLine: 12
   assemblies:
   - Servos.Servo.Core
@@ -153,18 +153,10 @@ references:
   nameWithType: IServo.RotateTo
   fullName: Meadow.Foundation.Servos.IServo.RotateTo
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Foundation.Servos.IServo.Angle*
   commentId: Overload:Meadow.Foundation.Servos.IServo.Angle
   name: Angle

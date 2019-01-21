@@ -19,11 +19,11 @@ items:
   type: Interface
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: IContinuousRotationServo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 4
   assemblies:
   - Servos.Servo.Core
@@ -50,11 +50,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Config
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 6
   assemblies:
   - Servos.Servo.Core
@@ -83,11 +83,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: CurrentDirection
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 8
   assemblies:
   - Servos.Servo.Core
@@ -116,11 +116,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: CurrentSpeed
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 10
   assemblies:
   - Servos.Servo.Core
@@ -149,11 +149,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Rotate
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 12
   assemblies:
   - Servos.Servo.Core
@@ -180,11 +180,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Stop
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/IContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/IContinuousRotationServo.cs
     startLine: 14
   assemblies:
   - Servos.Servo.Core
@@ -227,18 +227,10 @@ references:
   nameWithType: IContinuousRotationServo.CurrentSpeed
   fullName: Meadow.Foundation.Servos.IContinuousRotationServo.CurrentSpeed
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Meadow.Foundation.Servos.IContinuousRotationServo.Rotate*
   commentId: Overload:Meadow.Foundation.Servos.IContinuousRotationServo.Rotate
   name: Rotate

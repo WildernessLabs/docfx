@@ -37,7 +37,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PwmPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 5
@@ -48,6 +48,7 @@ items:
     content: 'public class PwmPort : IPwmPort, IPort, IDisposable'
     content.vb: >-
       Public Class PwmPort
+
           Implements IPwmPort, IPort, IDisposable
   inheritance:
   - System.Object
@@ -84,7 +85,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 7
@@ -123,7 +124,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 10
@@ -162,7 +163,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 11
@@ -203,7 +204,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Finalize
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 13
@@ -233,7 +234,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Duration
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 15
@@ -270,7 +271,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DutyCycle
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 16
@@ -307,7 +308,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Frequency
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 17
@@ -344,7 +345,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Period
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 18
@@ -381,7 +382,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Inverted
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 19
@@ -418,7 +419,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Scale
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 21
@@ -455,7 +456,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 23
@@ -492,7 +493,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 24
@@ -529,7 +530,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Start
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 26
@@ -567,7 +568,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Stop
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 27
@@ -605,7 +606,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 28
@@ -637,7 +638,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Start
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 29
@@ -669,7 +670,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Stop
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 30
@@ -701,7 +702,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Commit
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 31
@@ -731,7 +732,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 32
@@ -764,7 +765,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Init
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 33
@@ -794,7 +795,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/PwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Uninit
     path: ../Meadow.Core/source/Meadow.Core/Hardware/PwmPort.cs
     startLine: 34

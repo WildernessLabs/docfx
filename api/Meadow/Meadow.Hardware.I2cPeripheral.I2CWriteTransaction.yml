@@ -16,7 +16,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: I2CWriteTransaction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 38
@@ -27,6 +27,7 @@ items:
     content: 'public sealed class I2CWriteTransaction : I2cPeripheral.I2CTransaction'
     content.vb: >-
       Public NotInheritable Class I2CWriteTransaction
+
           Inherits I2cPeripheral.I2CTransaction
   inheritance:
   - System.Object

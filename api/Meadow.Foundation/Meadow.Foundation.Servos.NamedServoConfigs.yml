@@ -20,11 +20,11 @@ items:
   type: Class
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: NamedServoConfigs
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 4
   assemblies:
   - Servos.Servo.Core
@@ -33,7 +33,6 @@ items:
     content: 'public static class NamedServoConfigs : object'
     content.vb: >-
       Public Module NamedServoConfigs
-
           Inherits Object
   inheritance:
   - System.Object
@@ -57,16 +56,16 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Ideal180Servo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 9
   assemblies:
   - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
-  summary: "\nRepresents an ideal 180º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
+  summary: "\nRepresents an ideal 180� servo that has a minimum pulse of 1ms and a max of 2ms.\n"
   example: []
   syntax:
     content: public static ServoConfig Ideal180Servo
@@ -92,16 +91,16 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Ideal270Servo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 13
   assemblies:
   - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
-  summary: "\nRepresents an ideal 270º servo that has a minimum pulse of 1ms and a max of 2ms.\n"
+  summary: "\nRepresents an ideal 270� servo that has a minimum pulse of 1ms and a max of 2ms.\n"
   example: []
   syntax:
     content: public static ServoConfig Ideal270Servo
@@ -127,11 +126,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: IdealContinuousRotationServo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 18
   assemblies:
   - Servos.Servo.Core
@@ -162,16 +161,16 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: BlueBirdBMS120
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 24
   assemblies:
   - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
-  summary: "\nRepresents the BlueBird BMS models. Maximum angle is 120. Pulse range is 900µs - 2,100µs.\nSee: https://www.blue-bird-model.com/products_detail/309.htm\n"
+  summary: "\nRepresents the BlueBird BMS models. Maximum angle is 120. Pulse range is 900�s - 2,100�s.\nSee: https://www.blue-bird-model.com/products_detail/309.htm\n"
   example: []
   syntax:
     content: public static ServoConfig BlueBirdBMS120
@@ -197,11 +196,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: HiTecStandard
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 29
   assemblies:
   - Servos.Servo.Core
@@ -232,11 +231,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: JXHV180
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/NamedServoConfigs.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/NamedServoConfigs.cs
     startLine: 34
   assemblies:
   - Servos.Servo.Core

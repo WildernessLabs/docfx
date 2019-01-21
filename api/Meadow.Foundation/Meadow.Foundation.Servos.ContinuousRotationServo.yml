@@ -15,11 +15,11 @@ items:
   type: Class
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ContinuousRotationServo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ContinuousRotationServo.cs
     startLine: 7
   assemblies:
   - Servos.Servo.Core
@@ -30,9 +30,7 @@ items:
     content: 'public class ContinuousRotationServo : ContinuousRotationServoBase, IContinuousRotationServo'
     content.vb: >-
       Public Class ContinuousRotationServo
-
           Inherits ContinuousRotationServoBase
-
           Implements IContinuousRotationServo
   inheritance:
   - System.Object
@@ -71,11 +69,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ContinuousRotationServo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: .ctor
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ContinuousRotationServo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ContinuousRotationServo.cs
     startLine: 15
   assemblies:
   - Servos.Servo.Core

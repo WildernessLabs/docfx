@@ -16,7 +16,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IAnalogPin.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IAnalogPin
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IAnalogPin.cs
     startLine: 3
@@ -27,6 +27,7 @@ items:
     content: 'public interface IAnalogPin : IPin, IAnalogChannel'
     content.vb: >-
       Public Interface IAnalogPin
+
           Inherits IPin, IAnalogChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name

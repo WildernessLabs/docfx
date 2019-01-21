@@ -64,9 +64,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Skip = 0
+    content: Skip = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: Skip = Nothing
   modifiers.csharp:
   - public
   - const
@@ -96,9 +97,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: OversampleX1 = 1
+    content: OversampleX1 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX1 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -128,9 +130,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: OversampleX2 = 2
+    content: OversampleX2 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX2 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -160,9 +163,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: OversampleX4 = 3
+    content: OversampleX4 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX4 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -192,9 +196,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: OversampleX8 = 4
+    content: OversampleX8 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX8 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -224,9 +229,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: OversampleX16 = 5
+    content: OversampleX16 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.Oversample
+    content.vb: OversampleX16 = Nothing
   modifiers.csharp:
   - public
   - const

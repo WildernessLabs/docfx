@@ -28,7 +28,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ICommunicationBus
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 6
@@ -61,7 +61,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 14
@@ -93,7 +93,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 23
@@ -129,7 +129,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 31
@@ -167,7 +167,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 42
@@ -209,7 +209,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 49
@@ -244,7 +244,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 56
@@ -282,7 +282,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRead
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 66
@@ -323,7 +323,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 73
@@ -358,7 +358,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 79
@@ -392,7 +392,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 86
@@ -429,7 +429,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 94
@@ -467,7 +467,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/ICommunicationBus.cs
     startLine: 104

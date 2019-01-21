@@ -25,7 +25,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalOutputPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 4
@@ -36,7 +36,9 @@ items:
     content: 'public class DigitalOutputPort : DigitalOutputPortBase, IDigitalOutputPort, IDigitalPort, IPort, IDisposable'
     content.vb: >-
       Public Class DigitalOutputPort
+
           Inherits DigitalOutputPortBase
+
           Implements IDigitalOutputPort, IDigitalPort, IPort, IDisposable
   inheritance:
   - System.Object
@@ -81,7 +83,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _pin
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 6
@@ -112,7 +114,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _disposed
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 7
@@ -143,7 +145,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InitialState
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 9
@@ -181,7 +183,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 11
@@ -219,7 +221,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 22
@@ -249,7 +251,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 32
@@ -288,7 +290,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 54
@@ -320,7 +322,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 60
@@ -355,7 +357,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/DigitalOutputPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Finalize
     path: ../Meadow.Core/source/Meadow.Core/Hardware/DigitalOutputPort.cs
     startLine: 78

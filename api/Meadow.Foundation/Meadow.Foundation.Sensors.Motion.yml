@@ -46,6 +46,55 @@ references:
   name: IAccelerometer
   nameWithType: IAccelerometer
   fullName: Meadow.Foundation.Sensors.Motion.IAccelerometer
+- uid: Meadow.Foundation.Sensors.Motion.ADXL335
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL335
+  name: ADXL335
+  nameWithType: ADXL335
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL335
+- uid: Meadow.Foundation.Sensors.Motion.BNO055
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055
+  name: BNO055
+  nameWithType: BNO055
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.ErrorCodes
+  nameWithType: BNO055.ErrorCodes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.SystemStatusCodes
+  nameWithType: BNO055.SystemStatusCodes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Units
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.Units
+  nameWithType: BNO055.Units
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+  parent: Meadow.Foundation.Sensors.Motion
+  name: BNO055.Sensor
+  nameWithType: BNO055.Sensor
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
+  name: BNO055.SelfTestResultMask
+  nameWithType: BNO055.SelfTestResultMask
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
+  name: BNO055.PowerModes
+  nameWithType: BNO055.PowerModes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
+- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
+  name: BNO055.OperatingModes
+  nameWithType: BNO055.OperatingModes
+  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
 - uid: Meadow.Foundation.Sensors.Motion.ADXL362
   commentId: T:Meadow.Foundation.Sensors.Motion.ADXL362
   name: ADXL362
@@ -91,72 +140,6 @@ references:
   name: ADXL362.ActivityInactivityControlMask
   nameWithType: ADXL362.ActivityInactivityControlMask
   fullName: Meadow.Foundation.Sensors.Motion.ADXL362.ActivityInactivityControlMask
-- uid: Meadow.Foundation.Sensors.Motion.BNO055
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055
-  name: BNO055
-  nameWithType: BNO055
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-  parent: Meadow.Foundation.Sensors.Motion
-  name: BNO055.ErrorCodes
-  nameWithType: BNO055.ErrorCodes
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.ErrorCodes
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-  parent: Meadow.Foundation.Sensors.Motion
-  name: BNO055.SystemStatusCodes
-  nameWithType: BNO055.SystemStatusCodes
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SystemStatusCodes
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.Units
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Units
-  parent: Meadow.Foundation.Sensors.Motion
-  name: BNO055.Units
-  nameWithType: BNO055.Units
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Units
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.Sensor
-  parent: Meadow.Foundation.Sensors.Motion
-  name: BNO055.Sensor
-  nameWithType: BNO055.Sensor
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.Sensor
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
-  name: BNO055.SelfTestResultMask
-  nameWithType: BNO055.SelfTestResultMask
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.SelfTestResultMask
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
-  name: BNO055.PowerModes
-  nameWithType: BNO055.PowerModes
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.PowerModes
-- uid: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
-  commentId: T:Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
-  name: BNO055.OperatingModes
-  nameWithType: BNO055.OperatingModes
-  fullName: Meadow.Foundation.Sensors.Motion.BNO055.OperatingModes
-- uid: Meadow.Foundation.Sensors.Motion.ADXL345
-  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345
-  name: ADXL345
-  nameWithType: ADXL345
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL345
-- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Range
-  parent: Meadow.Foundation.Sensors.Motion
-  name: ADXL345.Range
-  nameWithType: ADXL345.Range
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range
-- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
-  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
-  parent: Meadow.Foundation.Sensors.Motion
-  name: ADXL345.Frequency
-  nameWithType: ADXL345.Frequency
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
-- uid: Meadow.Foundation.Sensors.Motion.ADXL335
-  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL335
-  name: ADXL335
-  nameWithType: ADXL335
-  fullName: Meadow.Foundation.Sensors.Motion.ADXL335
 - uid: Meadow.Foundation.Sensors.Motion.MAG3110
   commentId: T:Meadow.Foundation.Sensors.Motion.MAG3110
   name: MAG3110
@@ -185,6 +168,23 @@ references:
   name: ParallaxPIR.MotionChange
   nameWithType: ParallaxPIR.MotionChange
   fullName: Meadow.Foundation.Sensors.Motion.ParallaxPIR.MotionChange
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345
+  name: ADXL345
+  nameWithType: ADXL345
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Range
+  parent: Meadow.Foundation.Sensors.Motion
+  name: ADXL345.Range
+  nameWithType: ADXL345.Range
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Range
+- uid: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+  commentId: T:Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+  parent: Meadow.Foundation.Sensors.Motion
+  name: ADXL345.Frequency
+  nameWithType: ADXL345.Frequency
+  fullName: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
 - uid: Meadow.Foundation.Sensors.Motion
   commentId: N:Meadow.Foundation.Sensors.Motion
   name: Meadow.Foundation.Sensors.Motion

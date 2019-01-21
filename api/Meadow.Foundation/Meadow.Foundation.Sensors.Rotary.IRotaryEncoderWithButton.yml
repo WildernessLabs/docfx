@@ -27,7 +27,6 @@ items:
     content: 'public interface IRotaryEncoderWithButton : IRotaryEncoder, IButton'
     content.vb: >-
       Public Interface IRotaryEncoderWithButton
-
           Inherits IRotaryEncoder, IButton
   inheritedMembers:
   - Meadow.Foundation.Sensors.Rotary.IRotaryEncoder.Rotated

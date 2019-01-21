@@ -37,7 +37,6 @@ items:
     content: 'protected class Commands : object'
     content.vb: >-
       Protected Class Commands
-
           Inherits Object
   inheritance:
   - System.Object
@@ -354,8 +353,6 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

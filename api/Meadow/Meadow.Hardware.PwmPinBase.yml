@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PwmPinBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
     startLine: 7
@@ -32,7 +32,9 @@ items:
     content: 'public abstract class PwmPinBase : DigitalPinBase, IDigitalPin, IDigitalChannel, IPwmPin, IPin, IPwmChannel'
     content.vb: >-
       Public MustInherit Class PwmPinBase
+
           Inherits DigitalPinBase
+
           Implements IDigitalPin, IDigitalChannel, IPwmPin, IPin, IPwmChannel
   inheritance:
   - System.Object
@@ -86,7 +88,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: MinimumFrequency
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
     startLine: 13
@@ -128,7 +130,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: MaximumFrequency
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
     startLine: 18
@@ -170,7 +172,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PwmPinBase.cs
     startLine: 20

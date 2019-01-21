@@ -36,9 +36,7 @@ items:
     content: 'public class TMP102 : object, ITemperatureSensor, ISensor'
     content.vb: >-
       Public Class TMP102
-
           Inherits Object
-
           Implements ITemperatureSensor, ISensor
   inheritance:
   - System.Object
@@ -348,8 +346,6 @@ references:
   nameWithType: Meadow.Foundation.Sensors
   fullName: Meadow.Foundation.Sensors
 - uid: System.UInt16
-  commentId: T:System.UInt16
-  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16
@@ -377,8 +373,6 @@ references:
   nameWithType: ITemperatureSensor.Temperature
   fullName: Meadow.Foundation.Sensors.ITemperatureSensor.Temperature
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -412,8 +406,6 @@ references:
   nameWithType: TMP102.TMP102
   fullName: Netduino.Foundation.Sensors.Temperature.TMP102.TMP102
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

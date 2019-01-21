@@ -22,7 +22,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptMode
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 2
@@ -53,7 +53,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptNone
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 4
@@ -85,7 +85,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLow
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 5
@@ -117,7 +117,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeHigh
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 6
@@ -149,7 +149,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeBoth
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 7
@@ -181,7 +181,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLevelHigh
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 8
@@ -213,7 +213,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/InteruptMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: InterruptEdgeLevelLow
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/InteruptMode.cs
     startLine: 9

@@ -23,11 +23,11 @@ items:
   - Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
   - Meadow.Foundation.LEDs.RgbPwmLed.RedForwardVoltage
   - Meadow.Foundation.LEDs.RgbPwmLed.RedPWM
-  - Meadow.Foundation.LEDs.RgbPwmLed.SetColor(System.Drawing.Color,System.Int32)
-  - Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(System.Drawing.Color,System.Drawing.Color,System.Int32,System.Int32)
-  - Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(System.Drawing.Color,System.Int32,System.Int32,System.Single,System.Single)
-  - Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(System.Drawing.Color,System.Int32,System.Single,System.Single)
-  - Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(System.Collections.ArrayList,System.Int32[],System.Boolean)
+  - Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  - Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
   - Meadow.Foundation.LEDs.RgbPwmLed.Stop
   - Meadow.Foundation.LEDs.RgbPwmLed.TurnOff
   - Meadow.Foundation.LEDs.RgbPwmLed.TurnOn
@@ -52,18 +52,12 @@ items:
   summary: "\nRepresents a Pulse-Width-Modulation (PWM) controlled RGB LED. Controlling an RGB LED with \nPWM allows for more colors to be expressed than if it were simply controlled with normal\ndigital outputs which provide only binary control at each pin. As such, a PWM controlled \nRGB LED can express millions of colors, as opposed to the 8 colors that can be expressed\nvia binary digital output.\n"
   example: []
   syntax:
-    content: public class RgbPwmLed
-    content.vb: Public Class RgbPwmLed
+    content: 'public class RgbPwmLed : object'
+    content.vb: >-
+      Public Class RgbPwmLed
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -478,7 +472,7 @@ items:
   syntax:
     content: protected Thread _animationThread
     return:
-      type: System.Threading.Thread
+      type: Thread
     content.vb: Protected _animationThread As Thread
   modifiers.csharp:
   - protected
@@ -574,7 +568,7 @@ items:
     content: public Color Color { get; }
     parameters: []
     return:
-      type: System.Drawing.Color
+      type: Color
     content.vb: Public ReadOnly Property Color As Color
   overload: Meadow.Foundation.LEDs.RgbPwmLed.Color*
   modifiers.csharp:
@@ -608,7 +602,7 @@ items:
   syntax:
     content: protected Color _color
     return:
-      type: System.Drawing.Color
+      type: Color
     content.vb: Protected _color As Color
   modifiers.csharp:
   - protected
@@ -637,7 +631,7 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.LEDs
   syntax:
-    content: public RgbPwmLed(IPwmPin redPwmPin, IPwmPin greenPwmPin, IPwmPin bluePwmPin, float redLedForwardVoltage = 3.3F, float greenLedForwardVoltage = 3.3F, float blueLedForwardVoltage = 3.3F, bool isCommonCathode = true)
+    content: public RgbPwmLed(IPwmPin redPwmPin, IPwmPin greenPwmPin, IPwmPin bluePwmPin, float redLedForwardVoltage = null, float greenLedForwardVoltage = null, float blueLedForwardVoltage = null, bool isCommonCathode = true)
     parameters:
     - id: redPwmPin
       type: Meadow.Hardware.IPwmPin
@@ -653,7 +647,7 @@ items:
       type: System.Single
     - id: isCommonCathode
       type: System.Boolean
-    content.vb: Public Sub New(redPwmPin As IPwmPin, greenPwmPin As IPwmPin, bluePwmPin As IPwmPin, redLedForwardVoltage As Single = 3.3F, greenLedForwardVoltage As Single = 3.3F, blueLedForwardVoltage As Single = 3.3F, isCommonCathode As Boolean = True)
+    content.vb: Public Sub New(redPwmPin As IPwmPin, greenPwmPin As IPwmPin, bluePwmPin As IPwmPin, redLedForwardVoltage As Single = Nothing, greenLedForwardVoltage As Single = Nothing, blueLedForwardVoltage As Single = Nothing, isCommonCathode As Boolean = True)
   overload: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
   modifiers.csharp:
   - public
@@ -684,7 +678,7 @@ items:
   summary: "\n\nImplementation notes: Architecturally, it would be much cleaner to construct this class\nas three PwmLeds. Then each one&apos;s implementation would be self-contained. However, that\nwould require three additional threads during ON; one contained by each PwmLed. For this\nreason, I&apos;m basically duplicating the functionality for all three in here. \n"
   example: []
   syntax:
-    content: public RgbPwmLed(IPwmPort redPWM, IPwmPort greenPWM, IPwmPort bluePWM, float redLedForwardVoltage = 3.3F, float greenLedForwardVoltage = 3.3F, float blueLedForwardVoltage = 3.3F, bool isCommonCathode = true)
+    content: public RgbPwmLed(IPwmPort redPWM, IPwmPort greenPWM, IPwmPort bluePWM, float redLedForwardVoltage = null, float greenLedForwardVoltage = null, float blueLedForwardVoltage = null, bool isCommonCathode = true)
     parameters:
     - id: redPWM
       type: Meadow.Hardware.IPwmPort
@@ -701,22 +695,22 @@ items:
     - id: isCommonCathode
       type: System.Boolean
       description: ''
-    content.vb: Public Sub New(redPWM As IPwmPort, greenPWM As IPwmPort, bluePWM As IPwmPort, redLedForwardVoltage As Single = 3.3F, greenLedForwardVoltage As Single = 3.3F, blueLedForwardVoltage As Single = 3.3F, isCommonCathode As Boolean = True)
+    content.vb: Public Sub New(redPWM As IPwmPort, greenPWM As IPwmPort, bluePWM As IPwmPort, redLedForwardVoltage As Single = Nothing, greenLedForwardVoltage As Single = Nothing, blueLedForwardVoltage As Single = Nothing, isCommonCathode As Boolean = True)
   overload: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(System.Drawing.Color,System.Int32)
-  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.SetColor(System.Drawing.Color,System.Int32)
-  id: SetColor(System.Drawing.Color,System.Int32)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color,System.Int32)
+  id: SetColor(Color,System.Int32)
   parent: Meadow.Foundation.LEDs.RgbPwmLed
   langs:
   - csharp
   - vb
   name: SetColor(Color, Int32)
   nameWithType: RgbPwmLed.SetColor(Color, Int32)
-  fullName: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(System.Drawing.Color, System.Int32)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.SetColor(Color, System.Int32)
   type: Method
   source:
     remote:
@@ -735,7 +729,7 @@ items:
     content: public void SetColor(Color color, int duration = 0)
     parameters:
     - id: color
-      type: System.Drawing.Color
+      type: Color
     - id: duration
       type: System.Int32
     content.vb: Public Sub SetColor(color As Color, duration As Integer = 0)
@@ -744,16 +738,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(System.Collections.ArrayList,System.Int32[],System.Boolean)
-  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(System.Collections.ArrayList,System.Int32[],System.Boolean)
-  id: StartRunningColors(System.Collections.ArrayList,System.Int32[],System.Boolean)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList,System.Int32[],System.Boolean)
+  id: StartRunningColors(ArrayList,System.Int32[],System.Boolean)
   parent: Meadow.Foundation.LEDs.RgbPwmLed
   langs:
   - csharp
   - vb
   name: StartRunningColors(ArrayList, Int32[], Boolean)
   nameWithType: RgbPwmLed.StartRunningColors(ArrayList, Int32[], Boolean)
-  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(System.Collections.ArrayList, System.Int32[], System.Boolean)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList, System.Int32[], System.Boolean)
   type: Method
   source:
     remote:
@@ -772,7 +766,7 @@ items:
     content: public void StartRunningColors(ArrayList colors, int[] durations, bool loop = true)
     parameters:
     - id: colors
-      type: System.Collections.ArrayList
+      type: ArrayList
       description: ''
     - id: durations
       type: System.Int32[]
@@ -787,18 +781,18 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(System.Collections.ArrayList, System.Int32(), System.Boolean)
+  fullName.vb: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors(ArrayList, System.Int32(), System.Boolean)
   name.vb: StartRunningColors(ArrayList, Int32(), Boolean)
-- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(System.Drawing.Color,System.Drawing.Color,System.Int32,System.Int32)
-  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(System.Drawing.Color,System.Drawing.Color,System.Int32,System.Int32)
-  id: StartAlternatingColors(System.Drawing.Color,System.Drawing.Color,System.Int32,System.Int32)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color,Color,System.Int32,System.Int32)
+  id: StartAlternatingColors(Color,Color,System.Int32,System.Int32)
   parent: Meadow.Foundation.LEDs.RgbPwmLed
   langs:
   - csharp
   - vb
   name: StartAlternatingColors(Color, Color, Int32, Int32)
   nameWithType: RgbPwmLed.StartAlternatingColors(Color, Color, Int32, Int32)
-  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(System.Drawing.Color, System.Drawing.Color, System.Int32, System.Int32)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors(Color, Color, System.Int32, System.Int32)
   type: Method
   source:
     remote:
@@ -815,9 +809,9 @@ items:
     content: public void StartAlternatingColors(Color colorOne, Color colorTwo, int colorOneDuration, int colorTwoDuration)
     parameters:
     - id: colorOne
-      type: System.Drawing.Color
+      type: Color
     - id: colorTwo
-      type: System.Drawing.Color
+      type: Color
     - id: colorOneDuration
       type: System.Int32
     - id: colorTwoDuration
@@ -828,16 +822,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(System.Drawing.Color,System.Int32,System.Int32,System.Single,System.Single)
-  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(System.Drawing.Color,System.Int32,System.Int32,System.Single,System.Single)
-  id: StartBlink(System.Drawing.Color,System.Int32,System.Int32,System.Single,System.Single)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
+  id: StartBlink(Color,System.Int32,System.Int32,System.Single,System.Single)
   parent: Meadow.Foundation.LEDs.RgbPwmLed
   langs:
   - csharp
   - vb
   name: StartBlink(Color, Int32, Int32, Single, Single)
   nameWithType: RgbPwmLed.StartBlink(Color, Int32, Int32, Single, Single)
-  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(System.Drawing.Color, System.Int32, System.Int32, System.Single, System.Single)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink(Color, System.Int32, System.Int32, System.Single, System.Single)
   type: Method
   source:
     remote:
@@ -853,10 +847,10 @@ items:
   summary: "\nStart the Blink animation which sets the brightness of the LED alternating between a low and high brightness setting, using the durations provided.\n"
   example: []
   syntax:
-    content: public void StartBlink(Color color, int highDuration = 200, int lowDuration = 200, float highBrightness = 1F, float lowBrightness = 0F)
+    content: public void StartBlink(Color color, int highDuration = 200, int lowDuration = 200, float highBrightness = null, float lowBrightness = null)
     parameters:
     - id: color
-      type: System.Drawing.Color
+      type: Color
     - id: highDuration
       type: System.Int32
     - id: lowDuration
@@ -865,22 +859,22 @@ items:
       type: System.Single
     - id: lowBrightness
       type: System.Single
-    content.vb: Public Sub StartBlink(color As Color, highDuration As Integer = 200, lowDuration As Integer = 200, highBrightness As Single = 1F, lowBrightness As Single = 0F)
+    content.vb: Public Sub StartBlink(color As Color, highDuration As Integer = 200, lowDuration As Integer = 200, highBrightness As Single = Nothing, lowBrightness As Single = Nothing)
   overload: Meadow.Foundation.LEDs.RgbPwmLed.StartBlink*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(System.Drawing.Color,System.Int32,System.Single,System.Single)
-  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(System.Drawing.Color,System.Int32,System.Single,System.Single)
-  id: StartPulse(System.Drawing.Color,System.Int32,System.Single,System.Single)
+- uid: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  commentId: M:Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color,System.Int32,System.Single,System.Single)
+  id: StartPulse(Color,System.Int32,System.Single,System.Single)
   parent: Meadow.Foundation.LEDs.RgbPwmLed
   langs:
   - csharp
   - vb
   name: StartPulse(Color, Int32, Single, Single)
   nameWithType: RgbPwmLed.StartPulse(Color, Int32, Single, Single)
-  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(System.Drawing.Color, System.Int32, System.Single, System.Single)
+  fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse(Color, System.Int32, System.Single, System.Single)
   type: Method
   source:
     remote:
@@ -896,17 +890,17 @@ items:
   summary: "\nStart the Pulse animation which gradually alternates the brightness of the LED between a low and high brightness setting, using the durations provided.\n"
   example: []
   syntax:
-    content: public void StartPulse(Color color, int pulseDuration = 600, float highBrightness = 1F, float lowBrightness = 0.15F)
+    content: public void StartPulse(Color color, int pulseDuration = 600, float highBrightness = null, float lowBrightness = 0.15F)
     parameters:
     - id: color
-      type: System.Drawing.Color
+      type: Color
     - id: pulseDuration
       type: System.Int32
     - id: highBrightness
       type: System.Single
     - id: lowBrightness
       type: System.Single
-    content.vb: Public Sub StartPulse(color As Color, pulseDuration As Integer = 600, highBrightness As Single = 1F, lowBrightness As Single = 0.15F)
+    content.vb: Public Sub StartPulse(color As Color, pulseDuration As Integer = 600, highBrightness As Single = Nothing, lowBrightness As Single = 0.15F)
   overload: Meadow.Foundation.LEDs.RgbPwmLed.StartPulse*
   modifiers.csharp:
   - public
@@ -1021,285 +1015,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1312,8 +1027,6 @@ references:
   nameWithType: RgbPwmLed.IsCommonCathode
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.IsCommonCathode
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1345,15 +1058,11 @@ references:
   nameWithType: RgbPwmLed.GreenPWM
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.GreenPWM
 - uid: System.Double
-  commentId: T:System.Double
-  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -1373,19 +1082,11 @@ references:
   name: BlueForwardVoltage
   nameWithType: RgbPwmLed.BlueForwardVoltage
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.BlueForwardVoltage
-- uid: System.Threading.Thread
-  commentId: T:System.Threading.Thread
-  parent: System.Threading
+- uid: Thread
   isExternal: true
   name: Thread
   nameWithType: Thread
-  fullName: System.Threading.Thread
-- uid: System.Threading
-  commentId: N:System.Threading
-  isExternal: true
-  name: System.Threading
-  nameWithType: System.Threading
-  fullName: System.Threading
+  fullName: Thread
 - uid: Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
   commentId: T:Meadow.Foundation.LEDs.RgbPwmLed.RunningColorsConfig
   parent: Meadow.Foundation.LEDs
@@ -1397,19 +1098,11 @@ references:
   name: Color
   nameWithType: RgbPwmLed.Color
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.Color
-- uid: System.Drawing.Color
-  commentId: T:System.Drawing.Color
-  parent: System.Drawing
+- uid: Color
   isExternal: true
   name: Color
   nameWithType: Color
-  fullName: System.Drawing.Color
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
+  fullName: Color
 - uid: Meadow.Foundation.LEDs.RgbPwmLed.#ctor*
   commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.#ctor
   name: RgbPwmLed
@@ -1427,8 +1120,6 @@ references:
   nameWithType: RgbPwmLed.SetColor
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.SetColor
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1438,13 +1129,11 @@ references:
   name: StartRunningColors
   nameWithType: RgbPwmLed.StartRunningColors
   fullName: Meadow.Foundation.LEDs.RgbPwmLed.StartRunningColors
-- uid: System.Collections.ArrayList
-  commentId: T:System.Collections.ArrayList
-  parent: System.Collections
+- uid: ArrayList
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
-  fullName: System.Collections.ArrayList
+  fullName: ArrayList
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1471,12 +1160,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors*
   commentId: Overload:Meadow.Foundation.LEDs.RgbPwmLed.StartAlternatingColors
   name: StartAlternatingColors

@@ -17,7 +17,7 @@ items:
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu._navigatedDepth
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu._rootMenuPage
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu._topDisplayLine
-  - Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(System.Collections.ArrayList,System.Boolean)
+  - Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(ArrayList,System.Boolean)
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.Disable
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.Enable
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.Exited
@@ -30,7 +30,7 @@ items:
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.SelectCurrentItem
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.Selected
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdatedCurrentMenuPage
-  - Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(System.Collections.Hashtable)
+  - Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(Hashtable)
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(System.String,System.Object)
   - Meadow.Foundation.Displays.TextDisplayMenu.Menu.ValueChanged
   langs:
@@ -52,18 +52,12 @@ items:
   - Displays.TextDisplayMenu
   namespace: Meadow.Foundation.Displays.TextDisplayMenu
   syntax:
-    content: public class Menu
-    content.vb: Public Class Menu
+    content: 'public class Menu : object'
+    content.vb: >-
+      Public Class Menu
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -436,7 +430,7 @@ items:
   syntax:
     content: public event EventHandler Exited
     return:
-      type: System.EventHandler
+      type: EventHandler
     content.vb: Public Event Exited As EventHandler
   modifiers.csharp:
   - public
@@ -671,16 +665,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(System.Collections.ArrayList,System.Boolean)
-  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(System.Collections.ArrayList,System.Boolean)
-  id: CreateMenuPage(System.Collections.ArrayList,System.Boolean)
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(ArrayList,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(ArrayList,System.Boolean)
+  id: CreateMenuPage(ArrayList,System.Boolean)
   parent: Meadow.Foundation.Displays.TextDisplayMenu.Menu
   langs:
   - csharp
   - vb
   name: CreateMenuPage(ArrayList, Boolean)
   nameWithType: Menu.CreateMenuPage(ArrayList, Boolean)
-  fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(System.Collections.ArrayList, System.Boolean)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage(ArrayList, System.Boolean)
   type: Method
   source:
     remote:
@@ -697,7 +691,7 @@ items:
     content: protected MenuPage CreateMenuPage(ArrayList nodes, bool addBack)
     parameters:
     - id: nodes
-      type: System.Collections.ArrayList
+      type: ArrayList
     - id: addBack
       type: System.Boolean
     return:
@@ -938,16 +932,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(System.Collections.Hashtable)
-  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(System.Collections.Hashtable)
-  id: UpdateItemValue(System.Collections.Hashtable)
+- uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(Hashtable)
+  commentId: M:Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(Hashtable)
+  id: UpdateItemValue(Hashtable)
   parent: Meadow.Foundation.Displays.TextDisplayMenu.Menu
   langs:
   - csharp
   - vb
   name: UpdateItemValue(Hashtable)
   nameWithType: Menu.UpdateItemValue(Hashtable)
-  fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(System.Collections.Hashtable)
+  fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue(Hashtable)
   type: Method
   source:
     remote:
@@ -964,7 +958,7 @@ items:
     content: public void UpdateItemValue(Hashtable values)
     parameters:
     - id: values
-      type: System.Collections.Hashtable
+      type: Hashtable
     content.vb: Public Sub UpdateItemValue(values As Hashtable)
   overload: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue*
   modifiers.csharp:
@@ -1021,285 +1015,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1340,8 +1055,6 @@ references:
   nameWithType: Meadow.Foundation.Sensors.Rotary
   fullName: Meadow.Foundation.Sensors.Rotary
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1364,21 +1077,17 @@ references:
   name: ValueChangedHandler
   nameWithType: ValueChangedHandler
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.ValueChangedHandler
-- uid: System.EventHandler
-  commentId: T:System.EventHandler
-  parent: System
+- uid: EventHandler
   isExternal: true
   name: EventHandler
   nameWithType: EventHandler
-  fullName: System.EventHandler
+  fullName: EventHandler
 - uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.IsEnabled*
   commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.Menu.IsEnabled
   name: IsEnabled
   nameWithType: Menu.IsEnabled
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.IsEnabled
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1435,19 +1144,11 @@ references:
   name: CreateMenuPage
   nameWithType: Menu.CreateMenuPage
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.CreateMenuPage
-- uid: System.Collections.ArrayList
-  commentId: T:System.Collections.ArrayList
-  parent: System.Collections
+- uid: ArrayList
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
-  fullName: System.Collections.ArrayList
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
+  fullName: ArrayList
 - uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.RenderCurrentMenuPage*
   commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.Menu.RenderCurrentMenuPage
   name: RenderCurrentMenuPage
@@ -1496,21 +1197,18 @@ references:
   name: UpdateItemValue
   nameWithType: Menu.UpdateItemValue
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.UpdateItemValue
-- uid: System.Collections.Hashtable
-  commentId: T:System.Collections.Hashtable
-  parent: System.Collections
+- uid: Hashtable
+  commentId: '!:Hashtable'
   isExternal: true
   name: Hashtable
   nameWithType: Hashtable
-  fullName: System.Collections.Hashtable
+  fullName: Hashtable
 - uid: Meadow.Foundation.Displays.TextDisplayMenu.Menu.Max*
   commentId: Overload:Meadow.Foundation.Displays.TextDisplayMenu.Menu.Max
   name: Max
   nameWithType: Menu.Max
   fullName: Meadow.Foundation.Displays.TextDisplayMenu.Menu.Max
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

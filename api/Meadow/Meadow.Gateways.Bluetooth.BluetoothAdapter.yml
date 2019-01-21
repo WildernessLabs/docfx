@@ -20,7 +20,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: BluetoothAdapter
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
     startLine: 6
@@ -63,7 +63,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DeviceID
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
     startLine: 8
@@ -100,7 +100,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Address
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
     startLine: 9
@@ -137,7 +137,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Capabilities
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
     startLine: 10
@@ -172,7 +172,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/BluetoothAdapter.cs
     startLine: 12

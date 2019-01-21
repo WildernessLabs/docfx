@@ -16,7 +16,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IBiDirectionalPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IBiDirectionalPort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IBiDirectionalPort.cs
     startLine: 2
@@ -27,6 +27,7 @@ items:
     content: 'public interface IBiDirectionalPort : IDigitalInterruptPort, IDigitalInputPort, IDigitalOutputPort, IDigitalPort, IPort'
     content.vb: >-
       Public Interface IBiDirectionalPort
+
           Inherits IDigitalInterruptPort, IDigitalOutputPort
   inheritedMembers:
   - Meadow.Hardware.IDigitalInterruptPort.Changed

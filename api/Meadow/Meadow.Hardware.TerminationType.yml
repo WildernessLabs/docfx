@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/TerminationType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: TerminationType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/TerminationType.cs
     startLine: 9
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/TerminationType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: CommonGround
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/TerminationType.cs
     startLine: 11
@@ -84,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/TerminationType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: High
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/TerminationType.cs
     startLine: 12
@@ -116,7 +116,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/TerminationType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Floating
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/TerminationType.cs
     startLine: 13

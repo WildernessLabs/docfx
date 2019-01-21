@@ -24,7 +24,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: I2cPeripheral
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 8
@@ -37,6 +37,7 @@ items:
     content: 'public class I2cPeripheral : IDisposable'
     content.vb: >-
       Public Class I2cPeripheral
+
           Implements IDisposable
   inheritance:
   - System.Object
@@ -71,7 +72,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Config
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 10
@@ -102,7 +103,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: m_disposed
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 11
@@ -133,7 +134,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 13
@@ -166,7 +167,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Finalize
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 15
@@ -196,7 +197,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: CreateReadTransaction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 17
@@ -236,7 +237,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: CreateWriteTransaction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 18
@@ -276,7 +277,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dispose
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 19
@@ -308,7 +309,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Execute
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 20

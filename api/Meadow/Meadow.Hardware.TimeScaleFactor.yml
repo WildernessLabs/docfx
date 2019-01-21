@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: TimeScaleFactor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 23
@@ -50,7 +50,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Milliseconds
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 25
@@ -83,7 +83,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Microseconds
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 26
@@ -116,7 +116,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Nanoseconds
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IPwmPort.cs
     startLine: 27

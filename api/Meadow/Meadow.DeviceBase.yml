@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Bases/DeviceBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DeviceBase
     path: ../Meadow.Core/source/Meadow.Core/Bases/DeviceBase.cs
     startLine: 9
@@ -32,6 +32,7 @@ items:
     content: 'public abstract class DeviceBase : IDevice'
     content.vb: >-
       Public MustInherit Class DeviceBase
+
           Implements IDevice
   inheritance:
   - System.Object
@@ -70,7 +71,7 @@ items:
     remote:
       path: source/Meadow.Core/Bases/DeviceBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Capabilities
     path: ../Meadow.Core/source/Meadow.Core/Bases/DeviceBase.cs
     startLine: 11
@@ -109,7 +110,7 @@ items:
     remote:
       path: source/Meadow.Core/Bases/DeviceBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Bases/DeviceBase.cs
     startLine: 12
@@ -148,7 +149,7 @@ items:
     remote:
       path: source/Meadow.Core/Bases/DeviceBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Bases/DeviceBase.cs
     startLine: 15

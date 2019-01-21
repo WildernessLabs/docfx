@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NetworkType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
     startLine: 6
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Any
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
     startLine: 8
@@ -84,7 +84,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Infrastructure
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
     startLine: 9
@@ -116,7 +116,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AdHoc
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkType.cs
     startLine: 10

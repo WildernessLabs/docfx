@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PinBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
     startLine: 6
@@ -32,6 +32,7 @@ items:
     content: 'public abstract class PinBase : IPin'
     content.vb: >-
       Public MustInherit Class PinBase
+
           Implements IPin
   inheritance:
   - System.Object
@@ -72,7 +73,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Name
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
     startLine: 8
@@ -111,7 +112,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Key
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
     startLine: 13
@@ -153,7 +154,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/PinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/PinBase.cs
     startLine: 15

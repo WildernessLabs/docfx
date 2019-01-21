@@ -25,11 +25,11 @@ items:
   type: Class
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: ServoBase
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 5
   assemblies:
   - Servos.Servo.Core
@@ -38,9 +38,7 @@ items:
     content: 'public abstract class ServoBase : object, IServo'
     content.vb: >-
       Public MustInherit Class ServoBase
-
           Inherits Object
-
           Implements IServo
   inheritance:
   - System.Object
@@ -69,11 +67,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: _pwm
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 7
   assemblies:
   - Servos.Servo.Core
@@ -100,11 +98,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Config
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 12
   assemblies:
   - Servos.Servo.Core
@@ -139,11 +137,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: _config
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 16
   assemblies:
   - Servos.Servo.Core
@@ -170,11 +168,11 @@ items:
   type: Property
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Angle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 21
   assemblies:
   - Servos.Servo.Core
@@ -209,11 +207,11 @@ items:
   type: Field
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: _angle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 23
   assemblies:
   - Servos.Servo.Core
@@ -240,11 +238,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: .ctor
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 30
   assemblies:
   - Servos.Servo.Core
@@ -278,11 +276,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: RotateTo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 45
   assemblies:
   - Servos.Servo.Core
@@ -316,16 +314,16 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Stop
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 71
   assemblies:
   - Servos.Servo.Core
   namespace: Meadow.Foundation.Servos
-  summary: "\nStops the signal that controls the servo angle. For many servos, this will \nreturn the servo to its nuetral position (usually 0º).\n"
+  summary: "\nStops the signal that controls the servo angle. For many servos, this will \nreturn the servo to its nuetral position (usually 0�).\n"
   example: []
   syntax:
     content: public void Stop()
@@ -348,11 +346,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: CalculatePulseDuration
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 77
   assemblies:
   - Servos.Servo.Core
@@ -383,11 +381,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: CalculateDutyCycle
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 87
   assemblies:
   - Servos.Servo.Core
@@ -418,11 +416,11 @@ items:
   type: Method
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: SendCommandPulse
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/ServoBase.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/ServoBase.cs
     startLine: 93
   assemblies:
   - Servos.Servo.Core
@@ -503,8 +501,6 @@ references:
   nameWithType: IServo.Angle
   fullName: Meadow.Foundation.Servos.IServo.Angle
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -569,8 +565,6 @@ references:
   nameWithType: ServoBase.CalculatePulseDuration
   fullName: Meadow.Foundation.Servos.ServoBase.CalculatePulseDuration
 - uid: System.Double
-  commentId: T:System.Double
-  parent: System
   isExternal: true
   name: Double
   nameWithType: Double

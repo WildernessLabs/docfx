@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Utilities/BitHelpers.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: BitHelpers
     path: ../Meadow.Core/source/Meadow.Core/Utilities/BitHelpers.cs
     startLine: 3
@@ -61,7 +61,7 @@ items:
     remote:
       path: source/Meadow.Core/Utilities/BitHelpers.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SetBit
     path: ../Meadow.Core/source/Meadow.Core/Utilities/BitHelpers.cs
     startLine: 12
@@ -107,7 +107,7 @@ items:
     remote:
       path: source/Meadow.Core/Utilities/BitHelpers.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SetBit
     path: ../Meadow.Core/source/Meadow.Core/Utilities/BitHelpers.cs
     startLine: 25
@@ -154,7 +154,7 @@ items:
     remote:
       path: source/Meadow.Core/Utilities/BitHelpers.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GetBitValue
     path: ../Meadow.Core/source/Meadow.Core/Utilities/BitHelpers.cs
     startLine: 47

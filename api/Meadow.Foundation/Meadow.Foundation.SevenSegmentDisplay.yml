@@ -8,7 +8,6 @@ items:
   - Meadow.Foundation.SevenSegmentDisplay.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,System.Boolean)
   - Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Char,System.Boolean)
   - Meadow.Foundation.SevenSegmentDisplay.SetDisplay(Meadow.Foundation.SevenSegmentDisplay.CharacterType,System.Boolean)
-  - Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
   langs:
   - csharp
   - vb
@@ -31,7 +30,6 @@ items:
     content: 'public class SevenSegmentDisplay : object'
     content.vb: >-
       Public Class SevenSegmentDisplay
-
           Inherits Object
   inheritance:
   - System.Object
@@ -160,41 +158,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
-  commentId: M:Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char,System.Boolean)
-  id: SetDisplayOld(Char,System.Boolean)
-  parent: Meadow.Foundation.SevenSegmentDisplay
-  langs:
-  - csharp
-  - vb
-  name: SetDisplayOld(Char, Boolean)
-  nameWithType: SevenSegmentDisplay.SetDisplayOld(Char, Boolean)
-  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld(Char, System.Boolean)
-  type: Method
-  source:
-    remote:
-      path: Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
-      branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Foundation.git
-    id: SetDisplayOld
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Displays.LED.SevenSegment/SevenSegmentDisplay.cs
-    startLine: 116
-  assemblies:
-  - Displays.LED.SevenSegment
-  namespace: Meadow.Foundation
-  syntax:
-    content: public void SetDisplayOld(Char character, bool showDecimal = false)
-    parameters:
-    - id: character
-      type: Char
-    - id: showDecimal
-      type: System.Boolean
-    content.vb: Public Sub SetDisplayOld(character As Char, showDecimal As Boolean = False)
-  overload: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Meadow.Foundation
   commentId: N:Meadow.Foundation
@@ -226,8 +189,6 @@ references:
   nameWithType: IDigitalPin
   fullName: Meadow.Hardware.IDigitalPin
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -249,12 +210,8 @@ references:
   nameWithType: SevenSegmentDisplay.CharacterType
   fullName: Meadow.Foundation.SevenSegmentDisplay.CharacterType
 - uid: Char
+  commentId: '!:Char'
   isExternal: true
   name: Char
   nameWithType: Char
   fullName: Char
-- uid: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld*
-  commentId: Overload:Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld
-  name: SetDisplayOld
-  nameWithType: SevenSegmentDisplay.SetDisplayOld
-  fullName: Meadow.Foundation.SevenSegmentDisplay.SetDisplayOld

@@ -218,6 +218,8 @@
     name: OneWireBus
   - uid: Meadow.Hardware.Communications.OneWireBus.Devices
     name: OneWireBus.Devices
+  - uid: Meadow.Hardware.Communications.SoftwareI2C
+    name: SoftwareI2C
   - uid: Meadow.Hardware.Communications.SoftwareSPIBus
     name: SoftwareSPIBus
   - uid: Meadow.Hardware.Communications.SPIBus

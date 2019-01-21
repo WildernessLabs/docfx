@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Cpu
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 5
@@ -61,7 +61,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GlitchFilterTime
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 7
@@ -98,7 +98,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SlowClock
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 8
@@ -135,7 +135,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Cpu.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SystemClock
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Cpu.cs
     startLine: 9

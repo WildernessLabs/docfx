@@ -37,8 +37,8 @@ items:
   summary: "\nDetermine which alarm should be raised.\n"
   example: []
   syntax:
-    content: public enum AlarmType
-    content.vb: Public Enum AlarmType
+    content: 'public enum AlarmType : int'
+    content.vb: Public Enum AlarmType As Integer
   modifiers.csharp:
   - public
   - enum

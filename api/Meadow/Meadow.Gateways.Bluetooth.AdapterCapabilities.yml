@@ -24,7 +24,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AdapterCapabilities
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 6
@@ -67,7 +67,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasClassicSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 8
@@ -104,7 +104,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasSecureClassicSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 9
@@ -141,7 +141,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasLowEnergySupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 10
@@ -178,7 +178,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasLowEnergySecureSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 11
@@ -215,7 +215,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasLowEnergyCentralRoleSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 12
@@ -252,7 +252,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasLowEnergyPeripheralRoleSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 13
@@ -289,7 +289,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HasAdvertisementOffloadSupport
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 20
@@ -327,7 +327,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Gateways/Bluetooth/AdapterCapabilities.cs
     startLine: 22

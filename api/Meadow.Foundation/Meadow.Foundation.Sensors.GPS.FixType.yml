@@ -35,8 +35,8 @@ items:
   summary: "\nFix type / quality.\n"
   example: []
   syntax:
-    content: public enum FixType
-    content.vb: Public Enum FixType
+    content: 'public enum FixType : int'
+    content.vb: Public Enum FixType As Integer
   modifiers.csharp:
   - public
   - enum
@@ -66,9 +66,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: Invalid = 0
+    content: Invalid = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: Invalid = Nothing
   modifiers.csharp:
   - public
   - const
@@ -98,9 +99,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: SPS = 1
+    content: SPS = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: SPS = Nothing
   modifiers.csharp:
   - public
   - const
@@ -130,9 +132,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: DGPS = 2
+    content: DGPS = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: DGPS = Nothing
   modifiers.csharp:
   - public
   - const
@@ -162,9 +165,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: PPS = 3
+    content: PPS = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: PPS = Nothing
   modifiers.csharp:
   - public
   - const
@@ -194,9 +198,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: RealTimeKinematic = 4
+    content: RealTimeKinematic = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: RealTimeKinematic = Nothing
   modifiers.csharp:
   - public
   - const
@@ -226,9 +231,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: FloatRTK = 5
+    content: FloatRTK = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: FloatRTK = Nothing
   modifiers.csharp:
   - public
   - const
@@ -258,9 +264,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: DeadReckoning = 6
+    content: DeadReckoning = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: DeadReckoning = Nothing
   modifiers.csharp:
   - public
   - const
@@ -290,9 +297,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: ManualInput = 7
+    content: ManualInput = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: ManualInput = Nothing
   modifiers.csharp:
   - public
   - const
@@ -322,9 +330,10 @@ items:
   - Sensors.GPS.NMEA
   namespace: Meadow.Foundation.Sensors.GPS
   syntax:
-    content: Simulation = 8
+    content: Simulation = null
     return:
       type: Meadow.Foundation.Sensors.GPS.FixType
+    content.vb: Simulation = Nothing
   modifiers.csharp:
   - public
   - const

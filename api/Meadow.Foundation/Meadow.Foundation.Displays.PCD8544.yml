@@ -43,9 +43,7 @@ items:
     content: 'public class PCD8544 : DisplayBase, IDisplay'
     content.vb: >-
       Public Class PCD8544
-
           Inherits DisplayBase
-
           Implements IDisplay
   inheritance:
   - System.Object
@@ -54,8 +52,6 @@ items:
   - Meadow.Foundation.Displays.IDisplay
   inheritedMembers:
   - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
-  - Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  - Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   modifiers.csharp:
   - public
   - class
@@ -697,205 +693,6 @@ references:
   name: IgnoreOutOfBoundsPixels
   nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
   fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
-- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  parent: Meadow.Foundation.Displays.DisplayBase
-  isExternal: true
-  name: DrawPixel(Int32, Int32, Color)
-  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Color)
-  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
-  spec.csharp:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-    name: DrawPixel
-    nameWithType: DisplayBase.DrawPixel
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-    name: DrawPixel
-    nameWithType: DisplayBase.DrawPixel
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  parent: Meadow.Foundation.Displays.DisplayBase
-  isExternal: true
-  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
-  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
-  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
-  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
-  spec.csharp:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-    name: DrawBitmap
-    nameWithType: DisplayBase.DrawBitmap
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-    name: DrawBitmap
-    nameWithType: DisplayBase.DrawBitmap
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -931,8 +728,6 @@ references:
   nameWithType: PCD8544.Height
   fullName: Meadow.Foundation.Displays.PCD8544.Height
 - uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
   isExternal: true
   name: UInt32
   nameWithType: UInt32
@@ -954,8 +749,6 @@ references:
   nameWithType: PCD8544.InvertDisplay
   fullName: Meadow.Foundation.Displays.PCD8544.InvertDisplay
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1196,8 +989,6 @@ references:
   nameWithType: PCD8544.DrawBitmap
   fullName: Meadow.Foundation.Displays.PCD8544.DrawBitmap
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

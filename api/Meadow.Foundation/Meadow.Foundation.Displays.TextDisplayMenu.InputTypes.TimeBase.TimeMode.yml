@@ -29,8 +29,8 @@ items:
   summary: "\nTime mode for the input, HH:MM:SS, HH:MM, or MM:SS\n"
   example: []
   syntax:
-    content: public enum TimeMode
-    content.vb: Public Enum TimeMode
+    content: 'public enum TimeMode : int'
+    content.vb: Public Enum TimeMode As Integer
   modifiers.csharp:
   - public
   - enum

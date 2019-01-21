@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConnectionMethodType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
     startLine: 6
@@ -52,7 +52,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Default
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
     startLine: 11
@@ -86,7 +86,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WpsPin
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
     startLine: 16
@@ -120,7 +120,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WpsPushButton
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/ConnectionMethodType.cs
     startLine: 21

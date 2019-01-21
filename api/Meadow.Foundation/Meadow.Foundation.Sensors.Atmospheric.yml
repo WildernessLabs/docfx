@@ -22,29 +22,8 @@ items:
   fullName: Meadow.Foundation.Sensors.Atmospheric
   type: Namespace
   assemblies:
-  - Sensors.Atmospheric.HIH6130
+  - Sensors.Atmospheric.BME280
 references:
-- uid: Meadow.Foundation.Sensors.Atmospheric.HIH6130
-  commentId: T:Meadow.Foundation.Sensors.Atmospheric.HIH6130
-  name: HIH6130
-  nameWithType: HIH6130
-  fullName: Meadow.Foundation.Sensors.Atmospheric.HIH6130
-- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021
-  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021
-  name: SI7021
-  nameWithType: SI7021
-  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021
-- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
-  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
-  parent: Meadow.Foundation.Sensors.Atmospheric
-  name: SI7021.DeviceType
-  nameWithType: SI7021.DeviceType
-  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
-- uid: Meadow.Foundation.Sensors.Atmospheric.GroveTH02
-  commentId: T:Meadow.Foundation.Sensors.Atmospheric.GroveTH02
-  name: GroveTH02
-  nameWithType: GroveTH02
-  fullName: Meadow.Foundation.Sensors.Atmospheric.GroveTH02
 - uid: Meadow.Foundation.Sensors.Atmospheric.BME280
   commentId: T:Meadow.Foundation.Sensors.Atmospheric.BME280
   name: BME280
@@ -74,11 +53,32 @@ references:
   name: BME280.FilterCoefficient
   nameWithType: BME280.FilterCoefficient
   fullName: Meadow.Foundation.Sensors.Atmospheric.BME280.FilterCoefficient
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021
+  name: SI7021
+  nameWithType: SI7021
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021
+- uid: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+  parent: Meadow.Foundation.Sensors.Atmospheric
+  name: SI7021.DeviceType
+  nameWithType: SI7021.DeviceType
+  fullName: Meadow.Foundation.Sensors.Atmospheric.SI7021.DeviceType
+- uid: Meadow.Foundation.Sensors.Atmospheric.GroveTH02
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.GroveTH02
+  name: GroveTH02
+  nameWithType: GroveTH02
+  fullName: Meadow.Foundation.Sensors.Atmospheric.GroveTH02
 - uid: Meadow.Foundation.Sensors.Atmospheric.SHT31D
   commentId: T:Meadow.Foundation.Sensors.Atmospheric.SHT31D
   name: SHT31D
   nameWithType: SHT31D
   fullName: Meadow.Foundation.Sensors.Atmospheric.SHT31D
+- uid: Meadow.Foundation.Sensors.Atmospheric.HIH6130
+  commentId: T:Meadow.Foundation.Sensors.Atmospheric.HIH6130
+  name: HIH6130
+  nameWithType: HIH6130
+  fullName: Meadow.Foundation.Sensors.Atmospheric.HIH6130
 - uid: Meadow.Foundation.Sensors.Atmospheric
   commentId: N:Meadow.Foundation.Sensors.Atmospheric
   name: Meadow.Foundation.Sensors.Atmospheric

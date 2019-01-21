@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Configuration
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 22
@@ -60,7 +60,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Address
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 24
@@ -93,7 +93,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ClockRateKhz
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 25
@@ -126,7 +126,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/I2cPeripheral.cs
     startLine: 27

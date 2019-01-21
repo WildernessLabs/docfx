@@ -19,7 +19,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ResistorMode
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
     startLine: 2
@@ -50,7 +50,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Disabled
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
     startLine: 4
@@ -82,7 +82,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PullDown
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
     startLine: 5
@@ -114,7 +114,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Enums/ResistorMode.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PullUp
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Enums/ResistorMode.cs
     startLine: 6

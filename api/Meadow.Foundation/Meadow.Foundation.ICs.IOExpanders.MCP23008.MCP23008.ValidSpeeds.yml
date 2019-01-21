@@ -58,9 +58,10 @@ items:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
   syntax:
-    content: hundredk = 100
+    content: hundredk = null
     return:
       type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: hundredk = Nothing
   modifiers.csharp:
   - public
   - const
@@ -90,9 +91,10 @@ items:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
   syntax:
-    content: fourhundredk = 400
+    content: fourhundredk = null
     return:
       type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: fourhundredk = Nothing
   modifiers.csharp:
   - public
   - const
@@ -122,9 +124,10 @@ items:
   - ICs.IOExpanders.MCP23008
   namespace: Meadow.Foundation.ICs.IOExpanders.MCP23008
   syntax:
-    content: onepointsevenmegs = 17000
+    content: onepointsevenmegs = null
     return:
       type: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008.ValidSpeeds
+    content.vb: onepointsevenmegs = Nothing
   modifiers.csharp:
   - public
   - const

@@ -574,8 +574,8 @@
 - uid: Netduino.Foundation.Sensors.Atmospheric
   name: Netduino.Foundation.Sensors.Atmospheric
   items:
-  - uid: Netduino.Foundation.Sensors.Atmospheric.Class1
-    name: Class1
+  - uid: Netduino.Foundation.Sensors.Atmospheric.BMP085
+    name: BMP085
   - uid: Netduino.Foundation.Sensors.Atmospheric.HTU21DF
     name: HTU21DF
 - uid: Netduino.Foundation.Sensors.Distance

@@ -26,8 +26,8 @@ items:
   - Meadow.Foundation
   namespace: Meadow.Foundation.Sensors.Rotary
   syntax:
-    content: public enum RotationDirection
-    content.vb: Public Enum RotationDirection
+    content: 'public enum RotationDirection : int'
+    content.vb: Public Enum RotationDirection As Integer
   modifiers.csharp:
   - public
   - enum

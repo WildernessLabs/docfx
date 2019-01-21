@@ -27,7 +27,6 @@ items:
     content: 'public class FXAS21002 : object'
     content.vb: >-
       Public Class FXAS21002
-
           Inherits Object
   inheritance:
   - System.Object

@@ -15,11 +15,11 @@ items:
   type: Class
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/Servo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: Servo
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/Servo.cs
     startLine: 4
   assemblies:
   - Servos.Servo.Core
@@ -28,9 +28,7 @@ items:
     content: 'public class Servo : ServoBase, IServo'
     content.vb: >-
       Public Class Servo
-
           Inherits ServoBase
-
           Implements IServo
   inheritance:
   - System.Object
@@ -67,11 +65,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+      path: Source/Peripheral_Libs/Servos.Servo.Core/Servo.cs
       branch: master
       repo: https://github.com/WildernessLabs/Meadow.Foundation.git
     id: .ctor
-    path: ../Meadow.Foundation/Source/Peripheral_Libs/Sensors.Servo.Core/Servo.cs
+    path: ../Meadow.Foundation/Source/Peripheral_Libs/Servos.Servo.Core/Servo.cs
     startLine: 6
   assemblies:
   - Servos.Servo.Core

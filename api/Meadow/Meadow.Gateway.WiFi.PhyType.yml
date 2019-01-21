@@ -27,7 +27,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: PhyType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 6
@@ -60,7 +60,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Unknown
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 11
@@ -94,7 +94,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Fhss
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 16
@@ -128,7 +128,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dsss
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 21
@@ -162,7 +162,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IRBaseband
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 26
@@ -196,7 +196,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Ofdm
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 31
@@ -230,7 +230,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Hrdsss
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 36
@@ -264,7 +264,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Erp
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 41
@@ -298,7 +298,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HT
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 46
@@ -332,7 +332,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Vht
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 51
@@ -366,7 +366,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Dmg
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 56
@@ -400,7 +400,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/PhyType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: HE
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/PhyType.cs
     startLine: 61

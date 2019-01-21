@@ -20,7 +20,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7Micro.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: F7Micro
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
     startLine: 10
@@ -33,7 +33,9 @@ items:
     content: 'public class F7Micro : DeviceBase, IDevice'
     content.vb: >-
       Public Class F7Micro
+
           Inherits DeviceBase
+
           Implements IDevice
   inheritance:
   - System.Object
@@ -71,7 +73,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7Micro.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WiFiAdapters
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
     startLine: 12
@@ -106,7 +108,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7Micro.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
     startLine: 19
@@ -136,7 +138,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7Micro.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _pins
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
     startLine: 33
@@ -167,7 +169,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7Micro.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Pins
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7Micro.cs
     startLine: 34

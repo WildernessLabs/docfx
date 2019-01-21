@@ -66,9 +66,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: MsHalf = 0
+    content: MsHalf = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: MsHalf = Nothing
   modifiers.csharp:
   - public
   - const
@@ -98,9 +99,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms62Half = 1
+    content: Ms62Half = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms62Half = Nothing
   modifiers.csharp:
   - public
   - const
@@ -130,9 +132,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms125 = 2
+    content: Ms125 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms125 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -162,9 +165,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms250 = 3
+    content: Ms250 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms250 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -194,9 +198,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms500 = 4
+    content: Ms500 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms500 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -226,9 +231,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms1000 = 5
+    content: Ms1000 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms1000 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -258,9 +264,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms10 = 6
+    content: Ms10 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms10 = Nothing
   modifiers.csharp:
   - public
   - const
@@ -290,9 +297,10 @@ items:
   - Sensors.Atmospheric.BME280
   namespace: Meadow.Foundation.Sensors.Atmospheric
   syntax:
-    content: Ms20 = 7
+    content: Ms20 = null
     return:
       type: Meadow.Foundation.Sensors.Atmospheric.BME280.StandbyDuration
+    content.vb: Ms20 = Nothing
   modifiers.csharp:
   - public
   - const

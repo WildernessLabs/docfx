@@ -62,9 +62,10 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: EightHz = 0
+    content: EightHz = null
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+    content.vb: EightHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -94,9 +95,10 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: FourHz = 1
+    content: FourHz = null
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+    content.vb: FourHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -126,9 +128,10 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: TwoHz = 2
+    content: TwoHz = null
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+    content.vb: TwoHz = Nothing
   modifiers.csharp:
   - public
   - const
@@ -158,9 +161,10 @@ items:
   - Sensors.Motion.ADXL345
   namespace: Meadow.Foundation.Sensors.Motion
   syntax:
-    content: OneHz = 3
+    content: OneHz = null
     return:
       type: Meadow.Foundation.Sensors.Motion.ADXL345.Frequency
+    content.vb: OneHz = Nothing
   modifiers.csharp:
   - public
   - const

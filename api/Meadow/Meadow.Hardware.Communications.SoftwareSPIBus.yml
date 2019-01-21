@@ -29,7 +29,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SoftwareSPIBus
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 9
@@ -42,6 +42,7 @@ items:
     content: 'public class SoftwareSPIBus : ICommunicationBus'
     content.vb: >-
       Public Class SoftwareSPIBus
+
           Implements ICommunicationBus
   inheritance:
   - System.Object
@@ -76,7 +77,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 63
@@ -127,7 +128,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteByte
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 108
@@ -165,7 +166,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 124
@@ -207,7 +208,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 140
@@ -248,7 +249,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 151
@@ -292,7 +293,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 164
@@ -336,7 +337,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 189
@@ -384,7 +385,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRead
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 256
@@ -431,7 +432,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadBytes
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 288
@@ -472,7 +473,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegister
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 302
@@ -512,7 +513,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegisters
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 312
@@ -555,7 +556,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShort
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 324
@@ -599,7 +600,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShorts
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareSPIBus.cs
     startLine: 347

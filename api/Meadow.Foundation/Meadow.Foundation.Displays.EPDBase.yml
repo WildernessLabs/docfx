@@ -8,9 +8,9 @@ items:
   - Meadow.Foundation.Displays.EPDBase.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin,Meadow.Hardware.Spi.SPI_module,System.UInt32)
   - Meadow.Foundation.Displays.EPDBase.BOOSTER_SOFT_START_CONTROL
   - Meadow.Foundation.Displays.EPDBase.BORDER_WAVEFORM_CONTROL
+  - Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
   - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean)
   - Meadow.Foundation.Displays.EPDBase.Clear(System.Boolean,System.Boolean)
-  - Meadow.Foundation.Displays.EPDBase.Clear(System.Drawing.Color,System.Boolean)
   - Meadow.Foundation.Displays.EPDBase.ClearFrameMemory(System.Byte)
   - Meadow.Foundation.Displays.EPDBase.ColorMode
   - Meadow.Foundation.Displays.EPDBase.DATA_ENTRY_MODE_SETTING
@@ -18,11 +18,11 @@ items:
   - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_1
   - Meadow.Foundation.Displays.EPDBase.DISPLAY_UPDATE_CONTROL_2
   - Meadow.Foundation.Displays.EPDBase.DisplayFrame
+  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
   - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
-  - Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
   - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Byte,System.Byte,System.Byte)
-  - Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   - Meadow.Foundation.Displays.EPDBase.DRIVER_OUTPUT_CONTROL
   - Meadow.Foundation.Displays.EPDBase.GATE_SCAN_START_POSITION
   - Meadow.Foundation.Displays.EPDBase.imageBuffer
@@ -69,9 +69,7 @@ items:
     content: 'public abstract class EPDBase : SPIDisplayBase, IDisplay'
     content.vb: >-
       Public MustInherit Class EPDBase
-
           Inherits SPIDisplayBase
-
           Implements IDisplay
   inheritance:
   - System.Object
@@ -102,13 +100,6 @@ items:
   - Meadow.Foundation.Displays.DisplayBase.Width
   - Meadow.Foundation.Displays.DisplayBase.Height
   - Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - abstract
@@ -211,7 +202,7 @@ items:
   - Displays.WaveShare_ePaper
   namespace: Meadow.Foundation.Displays
   syntax:
-    content: public EPDBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = 9500U)
+    content: public EPDBase(IDigitalPin chipSelectPin, IDigitalPin dcPin, IDigitalPin resetPin, IDigitalPin busyPin, Spi.SPI_module spiModule = Spi.SPI_module.SPI1, uint speedKHz = null)
     parameters:
     - id: chipSelectPin
       type: Meadow.Hardware.IDigitalPin
@@ -225,7 +216,7 @@ items:
       type: Meadow.Hardware.Spi.SPI_module
     - id: speedKHz
       type: System.UInt32
-    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = 9500UI)
+    content.vb: Public Sub New(chipSelectPin As IDigitalPin, dcPin As IDigitalPin, resetPin As IDigitalPin, busyPin As IDigitalPin, spiModule As Spi.SPI_module = Spi.SPI_module.SPI1, speedKHz As UInteger = Nothing)
   overload: Meadow.Foundation.Displays.EPDBase.#ctor*
   modifiers.csharp:
   - public
@@ -299,16 +290,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: Meadow.Foundation.Displays.EPDBase.Clear(System.Drawing.Color,System.Boolean)
-  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(System.Drawing.Color,System.Boolean)
-  id: Clear(System.Drawing.Color,System.Boolean)
+- uid: Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.Clear(Color,System.Boolean)
+  id: Clear(Color,System.Boolean)
   parent: Meadow.Foundation.Displays.EPDBase
   langs:
   - csharp
   - vb
   name: Clear(Color, Boolean)
   nameWithType: EPDBase.Clear(Color, Boolean)
-  fullName: Meadow.Foundation.Displays.EPDBase.Clear(System.Drawing.Color, System.Boolean)
+  fullName: Meadow.Foundation.Displays.EPDBase.Clear(Color, System.Boolean)
   type: Method
   source:
     remote:
@@ -327,7 +318,7 @@ items:
     content: public void Clear(Color color, bool updateDisplay = false)
     parameters:
     - id: color
-      type: System.Drawing.Color
+      type: Color
       description: Color to set the display (not used on ePaper displays)
     - id: updateDisplay
       type: System.Boolean
@@ -434,16 +425,16 @@ items:
   - Overrides
   fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Meadow.Foundation.Displays.DisplayBase.BitmapMode)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), DisplayBase.BitmapMode)
-- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
+- uid: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
+  id: DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Color)
   parent: Meadow.Foundation.Displays.EPDBase
   langs:
   - csharp
   - vb
   name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
   nameWithType: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], Color)
   type: Method
   source:
     remote:
@@ -477,10 +468,9 @@ items:
       type: System.Byte[]
       description: Bitmap to display.
     - id: color
-      type: System.Drawing.Color
+      type: Color
       description: The color of the bitmap (not used on ePaper displays).
     content.vb: Public Overrides Sub DrawBitmap(x As Integer, y As Integer, width As Integer, height As Integer, bitmap As Byte(), color As Color)
-  overridden: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
   overload: Meadow.Foundation.Displays.EPDBase.DrawBitmap*
   nameWithType.vb: EPDBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
   modifiers.csharp:
@@ -489,7 +479,7 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
+  fullName.vb: Meadow.Foundation.Displays.EPDBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), Color)
   name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
 - uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
@@ -536,16 +526,16 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  id: DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
+- uid: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  commentId: M:Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32,System.Int32,Color)
+  id: DrawPixel(System.Int32,System.Int32,Color)
   parent: Meadow.Foundation.Displays.EPDBase
   langs:
   - csharp
   - vb
   name: DrawPixel(Int32, Int32, Color)
   nameWithType: EPDBase.DrawPixel(Int32, Int32, Color)
-  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
+  fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel(System.Int32, System.Int32, Color)
   type: Method
   source:
     remote:
@@ -570,10 +560,9 @@ items:
       type: System.Int32
       description: y location
     - id: color
-      type: System.Drawing.Color
+      type: Color
       description: Color of pixel.
     content.vb: Public Overrides Sub DrawPixel(x As Integer, y As Integer, color As Color)
-  overridden: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
   overload: Meadow.Foundation.Displays.EPDBase.DrawPixel*
   modifiers.csharp:
   - public
@@ -1960,285 +1949,6 @@ references:
   name: IgnoreOutOfBoundsPixels
   nameWithType: DisplayBase.IgnoreOutOfBoundsPixels
   fullName: Meadow.Foundation.Displays.DisplayBase.IgnoreOutOfBoundsPixels
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2306,8 +2016,6 @@ references:
   nameWithType: Spi.SPI_module
   fullName: Meadow.Hardware.Spi.SPI_module
 - uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
   isExternal: true
   name: UInt32
   nameWithType: UInt32
@@ -2367,25 +2075,15 @@ references:
   nameWithType: EPDBase.Clear
   fullName: Meadow.Foundation.Displays.EPDBase.Clear
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Drawing.Color
-  commentId: T:System.Drawing.Color
-  parent: System.Drawing
+- uid: Color
   isExternal: true
   name: Color
   nameWithType: Color
-  fullName: System.Drawing.Color
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
+  fullName: Color
 - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
   commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],Meadow.Foundation.Displays.DisplayBase.BitmapMode)
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -2518,8 +2216,6 @@ references:
   nameWithType: EPDBase.DrawBitmap
   fullName: Meadow.Foundation.Displays.EPDBase.DrawBitmap
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -2530,134 +2226,6 @@ references:
   name: DisplayBase.BitmapMode
   nameWithType: DisplayBase.BitmapMode
   fullName: Meadow.Foundation.Displays.DisplayBase.BitmapMode
-- uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-  parent: Meadow.Foundation.Displays.DisplayBase
-  isExternal: true
-  name: DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  nameWithType: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte[], Color)
-  fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte[], System.Drawing.Color)
-  nameWithType.vb: DisplayBase.DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
-  fullName.vb: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32, System.Int32, System.Int32, System.Int32, System.Byte(), System.Drawing.Color)
-  name.vb: DrawBitmap(Int32, Int32, Int32, Int32, Byte(), Color)
-  spec.csharp:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-    name: DrawBitmap
-    nameWithType: DisplayBase.DrawBitmap
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawBitmap(System.Int32,System.Int32,System.Int32,System.Int32,System.Byte[],System.Drawing.Color)
-    name: DrawBitmap
-    nameWithType: DisplayBase.DrawBitmap
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawBitmap
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Boolean)
   parent: Meadow.Foundation.Displays.DisplayBase
@@ -2734,80 +2302,7 @@ references:
   name: DrawPixel
   nameWithType: EPDBase.DrawPixel
   fullName: Meadow.Foundation.Displays.EPDBase.DrawPixel
-- uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  commentId: M:Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-  parent: Meadow.Foundation.Displays.DisplayBase
-  isExternal: true
-  name: DrawPixel(Int32, Int32, Color)
-  nameWithType: DisplayBase.DrawPixel(Int32, Int32, Color)
-  fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32, System.Int32, System.Drawing.Color)
-  spec.csharp:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-    name: DrawPixel
-    nameWithType: DisplayBase.DrawPixel
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Meadow.Foundation.Displays.DisplayBase.DrawPixel(System.Int32,System.Int32,System.Drawing.Color)
-    name: DrawPixel
-    nameWithType: DisplayBase.DrawPixel
-    fullName: Meadow.Foundation.Displays.DisplayBase.DrawPixel
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Drawing.Color
-    name: Color
-    nameWithType: Color
-    fullName: System.Drawing.Color
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

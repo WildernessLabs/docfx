@@ -17,7 +17,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: IDigitalPin
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
     startLine: 3
@@ -28,6 +28,7 @@ items:
     content: 'public interface IDigitalPin : IPin, IDigitalChannel'
     content.vb: >-
       Public Interface IDigitalPin
+
           Inherits IPin, IDigitalChannel
   inheritedMembers:
   - Meadow.Hardware.IPin.Name
@@ -56,7 +57,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Contracts/IDigitalPin.cs
     startLine: 5

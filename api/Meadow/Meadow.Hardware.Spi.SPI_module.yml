@@ -20,7 +20,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Spi.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI_module
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
     startLine: 8
@@ -51,7 +51,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Spi.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI1
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
     startLine: 10
@@ -83,7 +83,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Spi.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI2
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
     startLine: 11
@@ -115,7 +115,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Spi.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI3
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
     startLine: 12
@@ -147,7 +147,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Spi.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SPI4
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Spi.cs
     startLine: 13

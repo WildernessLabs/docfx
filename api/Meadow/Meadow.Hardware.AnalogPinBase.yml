@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: AnalogPinBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
     startLine: 6
@@ -31,7 +31,9 @@ items:
     content: 'public abstract class AnalogPinBase : PinBase, IPin, IAnalogChannel'
     content.vb: >-
       Public MustInherit Class AnalogPinBase
+
           Inherits PinBase
+
           Implements IPin, IAnalogChannel
   inheritance:
   - System.Object
@@ -74,7 +76,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
     startLine: 8
@@ -111,7 +113,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Precision
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/AnalogPinBase.cs
     startLine: 13

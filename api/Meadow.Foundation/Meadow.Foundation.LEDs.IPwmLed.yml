@@ -30,7 +30,6 @@ items:
     content: 'public interface IPwmLed : ILed'
     content.vb: >-
       Public Interface IPwmLed
-
           Inherits ILed
   inheritedMembers:
   - Meadow.Foundation.LEDs.ILed.IsOn

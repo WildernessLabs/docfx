@@ -29,8 +29,8 @@ items:
   summary: "\nActive satelite selection for GSA messages.\n"
   example: []
   syntax:
-    content: public enum ActiveSatelliteSelection
-    content.vb: Public Enum ActiveSatelliteSelection
+    content: 'public enum ActiveSatelliteSelection : int'
+    content.vb: Public Enum ActiveSatelliteSelection As Integer
   modifiers.csharp:
   - public
   - enum

@@ -22,7 +22,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: DigitalPortBase
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 6
@@ -35,6 +35,7 @@ items:
     content: 'public abstract class DigitalPortBase : IDigitalPort, IPort'
     content.vb: >-
       Public MustInherit Class DigitalPortBase
+
           Implements IDigitalPort, IPort
   inheritance:
   - System.Object
@@ -75,7 +76,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 13
@@ -114,7 +115,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _direction
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 17
@@ -147,7 +148,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SignalType
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 22
@@ -186,7 +187,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: State
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 27
@@ -227,7 +228,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: _state
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 32
@@ -258,7 +259,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
     path: ../Meadow.Core/source/Meadow.Core/Hardware/Bases/DigitalPortBase.cs
     startLine: 34

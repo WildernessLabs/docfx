@@ -26,7 +26,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: NetworkEncryptionType
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 6
@@ -59,7 +59,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: None
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 11
@@ -93,7 +93,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Unknown
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 16
@@ -127,7 +127,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Open80211
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 21
@@ -161,7 +161,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SharedKey80211
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 26
@@ -195,7 +195,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Wpa
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 31
@@ -229,7 +229,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WpaPsk
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 36
@@ -263,7 +263,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WpaNone
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 41
@@ -297,7 +297,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Rsna
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 46
@@ -331,7 +331,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: RsnaPsk
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 51
@@ -365,7 +365,7 @@ items:
     remote:
       path: source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Ihv
     path: ../Meadow.Core/source/Meadow.Core/Gateways/WiFi/NetworkEncryptionType.cs
     startLine: 56

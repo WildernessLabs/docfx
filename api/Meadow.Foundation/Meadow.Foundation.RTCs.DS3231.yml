@@ -30,7 +30,6 @@ items:
     content: 'public class DS3231 : DS323x'
     content.vb: >-
       Public Class DS3231
-
           Inherits DS323x
   inheritance:
   - System.Object
@@ -47,19 +46,12 @@ items:
   - Meadow.Foundation.RTCs.DS323x.WhichAlarm
   - Meadow.Foundation.RTCs.DS323x.InterruptPin
   - Meadow.Foundation.RTCs.DS323x.DecodeDateTimeRegisters(System.Byte[])
-  - Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
-  - Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
-  - Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  - Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  - Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  - Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
   - Meadow.Foundation.RTCs.DS323x.EnableDisableAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.Boolean)
   - Meadow.Foundation.RTCs.DS323x.ClearInterrupt(Meadow.Foundation.RTCs.DS323x.Alarm)
   - Meadow.Foundation.RTCs.DS323x.DisplayRegisters
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -91,7 +83,7 @@ items:
   summary: "\nCreate a new MAG3110 object using the default parameters for the component.\n"
   example: []
   syntax:
-    content: public DS3231(byte address = 104, ushort speed = 100, IDigitalPin interruptPin = null)
+    content: public DS3231(byte address = null, ushort speed = null, IDigitalPin interruptPin = null)
     parameters:
     - id: address
       type: System.Byte
@@ -102,7 +94,7 @@ items:
     - id: interruptPin
       type: Meadow.Hardware.IDigitalPin
       description: Digital pin connected to the alarm interrupt pin on the RTC.
-    content.vb: Public Sub New(address As Byte = 104, speed As UShort = 100, interruptPin As IDigitalPin = Nothing)
+    content.vb: Public Sub New(address As Byte = Nothing, speed As UShort = Nothing, interruptPin As IDigitalPin = Nothing)
   overload: Meadow.Foundation.RTCs.DS3231.#ctor*
   modifiers.csharp:
   - public
@@ -235,93 +227,93 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
-  commentId: M:Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
+- uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
   parent: Meadow.Foundation.RTCs.DS323x
   isExternal: true
   name: EncodeDateTimeRegisters(DateTime)
   nameWithType: DS323x.EncodeDateTimeRegisters(DateTime)
-  fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
+  fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
   spec.csharp:
-  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
+  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
     name: EncodeDateTimeRegisters
     nameWithType: DS323x.EncodeDateTimeRegisters
     fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.DateTime
+  - uid: DateTime
     name: DateTime
     nameWithType: DateTime
-    fullName: System.DateTime
+    fullName: DateTime
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(System.DateTime)
+  - uid: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters(DateTime)
     name: EncodeDateTimeRegisters
     nameWithType: DS323x.EncodeDateTimeRegisters
     fullName: Meadow.Foundation.RTCs.DS323x.EncodeDateTimeRegisters
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.DateTime
+  - uid: DateTime
     name: DateTime
     nameWithType: DateTime
-    fullName: System.DateTime
+    fullName: DateTime
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
-  commentId: M:Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
+- uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
   parent: Meadow.Foundation.RTCs.DS323x
   isExternal: true
   name: DayOfWeekToByte(DayOfWeek)
   nameWithType: DS323x.DayOfWeekToByte(DayOfWeek)
-  fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
+  fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
   spec.csharp:
-  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
+  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
     name: DayOfWeekToByte
     nameWithType: DS323x.DayOfWeekToByte
     fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.DayOfWeek
+  - uid: DayOfWeek
     name: DayOfWeek
     nameWithType: DayOfWeek
-    fullName: System.DayOfWeek
+    fullName: DayOfWeek
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(System.DayOfWeek)
+  - uid: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte(DayOfWeek)
     name: DayOfWeekToByte
     nameWithType: DS323x.DayOfWeekToByte
     fullName: Meadow.Foundation.RTCs.DS323x.DayOfWeekToByte
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.DayOfWeek
+  - uid: DayOfWeek
     name: DayOfWeek
     nameWithType: DayOfWeek
-    fullName: System.DayOfWeek
+    fullName: DayOfWeek
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
-  commentId: M:Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+- uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  commentId: M:Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
   parent: Meadow.Foundation.RTCs.DS323x
   isExternal: true
   name: SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
   nameWithType: DS323x.SetAlarm(DS323x.Alarm, DateTime, DS323x.AlarmType)
-  fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, System.DateTime, Meadow.Foundation.RTCs.DS323x.AlarmType)
+  fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm, DateTime, Meadow.Foundation.RTCs.DS323x.AlarmType)
   spec.csharp:
-  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
     name: SetAlarm
     nameWithType: DS323x.SetAlarm
     fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm
@@ -335,10 +327,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.DateTime
+  - uid: DateTime
     name: DateTime
     nameWithType: DateTime
-    fullName: System.DateTime
+    fullName: DateTime
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -351,7 +343,7 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,System.DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
+  - uid: Meadow.Foundation.RTCs.DS323x.SetAlarm(Meadow.Foundation.RTCs.DS323x.Alarm,DateTime,Meadow.Foundation.RTCs.DS323x.AlarmType)
     name: SetAlarm
     nameWithType: DS323x.SetAlarm
     fullName: Meadow.Foundation.RTCs.DS323x.SetAlarm
@@ -365,10 +357,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.DateTime
+  - uid: DateTime
     name: DateTime
     nameWithType: DateTime
-    fullName: System.DateTime
+    fullName: DateTime
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -497,285 +489,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -788,15 +501,11 @@ references:
   nameWithType: DS3231.DS3231
   fullName: Meadow.Foundation.RTCs.DS3231.DS3231
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
 - uid: System.UInt16
-  commentId: T:System.UInt16
-  parent: System
   isExternal: true
   name: UInt16
   nameWithType: UInt16

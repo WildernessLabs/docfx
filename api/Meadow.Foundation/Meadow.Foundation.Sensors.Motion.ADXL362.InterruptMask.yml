@@ -34,18 +34,12 @@ items:
   summary: "\nBit masks for the interrupt 1 / 2 control.\n"
   example: []
   syntax:
-    content: public static class InterruptMask
-    content.vb: Public Module InterruptMask
+    content: 'public static class InterruptMask : object'
+    content.vb: >-
+      Public Module InterruptMask
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - static
@@ -78,10 +72,10 @@ items:
   summary: "\nBit indicating that data is ready for processing.\n"
   example: []
   syntax:
-    content: public const byte DataReady = 1
+    content: public const byte DataReady = null
     return:
       type: System.Byte
-    content.vb: Public Const DataReady As Byte = 1
+    content.vb: Public Const DataReady As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -113,10 +107,10 @@ items:
   summary: "\nBit indicating that data is ready in the FIFO buffer.\n"
   example: []
   syntax:
-    content: public const byte FIFODataReady = 2
+    content: public const byte FIFODataReady = null
     return:
       type: System.Byte
-    content.vb: Public Const FIFODataReady As Byte = 2
+    content.vb: Public Const FIFODataReady As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -148,10 +142,10 @@ items:
   summary: "\nBit indicating that the FIFO buffer has reached the high watermark.\n"
   example: []
   syntax:
-    content: public const byte FIFOHighWatermarkReached = 4
+    content: public const byte FIFOHighWatermarkReached = null
     return:
       type: System.Byte
-    content.vb: Public Const FIFOHighWatermarkReached As Byte = 4
+    content.vb: Public Const FIFOHighWatermarkReached As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -183,10 +177,10 @@ items:
   summary: "\nBit indicating that the FIFO buffer has overrun.\n"
   example: []
   syntax:
-    content: public const byte FIFOOverrun = 8
+    content: public const byte FIFOOverrun = null
     return:
       type: System.Byte
-    content.vb: Public Const FIFOOverrun As Byte = 8
+    content.vb: Public Const FIFOOverrun As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -218,10 +212,10 @@ items:
   summary: "\nActivity interrupt bit.\n"
   example: []
   syntax:
-    content: public const byte Activity = 16
+    content: public const byte Activity = null
     return:
       type: System.Byte
-    content.vb: Public Const Activity As Byte = 16
+    content.vb: Public Const Activity As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -253,10 +247,10 @@ items:
   summary: "\nInactivity interrupt.\n"
   example: []
   syntax:
-    content: public const byte Inactivity = 32
+    content: public const byte Inactivity = null
     return:
       type: System.Byte
-    content.vb: Public Const Inactivity As Byte = 32
+    content.vb: Public Const Inactivity As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -288,10 +282,10 @@ items:
   summary: "\nAwake interrupt.\n"
   example: []
   syntax:
-    content: public const byte Awake = 64
+    content: public const byte Awake = null
     return:
       type: System.Byte
-    content.vb: Public Const Awake As Byte = 64
+    content.vb: Public Const Awake As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -323,10 +317,10 @@ items:
   summary: "\nInterrupt active high / low (1 = low, 0 = high).\n"
   example: []
   syntax:
-    content: public const byte ActiveLow = 128
+    content: public const byte ActiveLow = null
     return:
       type: System.Byte
-    content.vb: Public Const ActiveLow As Byte = 128
+    content.vb: Public Const ActiveLow As Byte = Nothing
   modifiers.csharp:
   - public
   - const
@@ -346,285 +340,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -632,8 +347,6 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Byte
-  commentId: T:System.Byte
-  parent: System
   isExternal: true
   name: Byte
   nameWithType: Byte

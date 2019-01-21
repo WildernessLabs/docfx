@@ -1,47 +1,48 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Meadow.Hardware.Communications.I2cBus
-  commentId: T:Meadow.Hardware.Communications.I2cBus
-  id: I2cBus
+- uid: Meadow.Hardware.Communications.SoftwareI2C
+  commentId: T:Meadow.Hardware.Communications.SoftwareI2C
+  id: SoftwareI2C
   parent: Meadow.Hardware.Communications
   children:
-  - Meadow.Hardware.Communications.I2cBus.#ctor(System.Byte,System.UInt16,System.UInt16)
-  - Meadow.Hardware.Communications.I2cBus.ReadBytes(System.UInt16)
-  - Meadow.Hardware.Communications.I2cBus.ReadRegister(System.Byte)
-  - Meadow.Hardware.Communications.I2cBus.ReadRegisters(System.Byte,System.UInt16)
-  - Meadow.Hardware.Communications.I2cBus.ReadUShort(System.Byte,Meadow.ByteOrder)
-  - Meadow.Hardware.Communications.I2cBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
-  - Meadow.Hardware.Communications.I2cBus.WriteByte(System.Byte)
-  - Meadow.Hardware.Communications.I2cBus.WriteBytes(System.Byte[])
-  - Meadow.Hardware.Communications.I2cBus.WriteRead(System.Byte[],System.UInt16)
-  - Meadow.Hardware.Communications.I2cBus.WriteRegister(System.Byte,System.Byte)
-  - Meadow.Hardware.Communications.I2cBus.WriteRegisters(System.Byte,System.Byte[])
-  - Meadow.Hardware.Communications.I2cBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
-  - Meadow.Hardware.Communications.I2cBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SoftwareI2C.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadByte(System.Boolean)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadBytes(System.UInt16)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadRegister(System.Byte)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters(System.Byte,System.UInt16)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadUShort(System.Byte,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SoftwareI2C.Start(System.Byte)
+  - Meadow.Hardware.Communications.SoftwareI2C.Stop
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteByte(System.Byte)
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteBytes(System.Byte[])
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteRead(System.Byte[],System.UInt16)
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteRegister(System.Byte,System.Byte)
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters(System.Byte,System.Byte[])
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  - Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
   langs:
   - csharp
   - vb
-  name: I2cBus
-  nameWithType: I2cBus
-  fullName: Meadow.Hardware.Communications.I2cBus
+  name: SoftwareI2C
+  nameWithType: SoftwareI2C
+  fullName: Meadow.Hardware.Communications.SoftwareI2C
   type: Class
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
-    id: I2cBus
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 9
+    id: SoftwareI2C
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 7
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRepresents an I2C communication channel that conforms to the ICommunicationBus\ncontract.\n"
-  example: []
   syntax:
-    content: 'public class I2cBus : ICommunicationBus'
+    content: 'public class SoftwareI2C : ICommunicationBus'
     content.vb: >-
-      Public Class I2cBus
+      Public Class SoftwareI2C
 
           Implements ICommunicationBus
   inheritance:
@@ -62,562 +63,599 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Meadow.Hardware.Communications.I2cBus.#ctor(System.Byte,System.UInt16,System.UInt16)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.#ctor(System.Byte,System.UInt16,System.UInt16)
-  id: '#ctor(System.Byte,System.UInt16,System.UInt16)'
-  parent: Meadow.Hardware.Communications.I2cBus
+- uid: Meadow.Hardware.Communications.SoftwareI2C.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)
+  id: '#ctor(Meadow.Hardware.IDigitalPin,Meadow.Hardware.IDigitalPin)'
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
-  name: I2cBus(Byte, UInt16, UInt16)
-  nameWithType: I2cBus.I2cBus(Byte, UInt16, UInt16)
-  fullName: Meadow.Hardware.Communications.I2cBus.I2cBus(System.Byte, System.UInt16, System.UInt16)
+  name: SoftwareI2C(IDigitalPin, IDigitalPin)
+  nameWithType: SoftwareI2C.SoftwareI2C(IDigitalPin, IDigitalPin)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.SoftwareI2C(Meadow.Hardware.IDigitalPin, Meadow.Hardware.IDigitalPin)
   type: Constructor
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: .ctor
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 50
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 14
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nInitializes a new instance of the <xref href=\"Meadow.Foundation.Core.I2CBus\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
-  example: []
   syntax:
-    content: public I2cBus(byte address, ushort speed, ushort transactionTimeout = 100)
+    content: public SoftwareI2C(IDigitalPin pinSda, IDigitalPin pinScl)
     parameters:
-    - id: address
-      type: System.Byte
-      description: Address of the device.
-    - id: speed
-      type: System.UInt16
-      description: Bus speed in kHz.
-    - id: transactionTimeout
-      type: System.UInt16
-      description: Transaction timeout in milliseconds.
-    content.vb: Public Sub New(address As Byte, speed As UShort, transactionTimeout As UShort = 100)
-  overload: Meadow.Hardware.Communications.I2cBus.#ctor*
+    - id: pinSda
+      type: Meadow.Hardware.IDigitalPin
+    - id: pinScl
+      type: Meadow.Hardware.IDigitalPin
+    content.vb: Public Sub New(pinSda As IDigitalPin, pinScl As IDigitalPin)
+  overload: Meadow.Hardware.Communications.SoftwareI2C.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.WriteByte(System.Byte)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteByte(System.Byte)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.Start(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.Start(System.Byte)
+  id: Start(System.Byte)
+  parent: Meadow.Hardware.Communications.SoftwareI2C
+  langs:
+  - csharp
+  - vb
+  name: Start(Byte)
+  nameWithType: SoftwareI2C.Start(Byte)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.Start(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+      branch: master
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
+    id: Start
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 40
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  syntax:
+    content: public void Start(byte address)
+    parameters:
+    - id: address
+      type: System.Byte
+    content.vb: Public Sub Start(address As Byte)
+  overload: Meadow.Hardware.Communications.SoftwareI2C.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SoftwareI2C.Stop
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.Stop
+  id: Stop
+  parent: Meadow.Hardware.Communications.SoftwareI2C
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: SoftwareI2C.Stop()
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.Stop()
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+      branch: master
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
+    id: Stop
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 48
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Meadow.Hardware.Communications.SoftwareI2C.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteByte(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteByte(System.Byte)
   id: WriteByte(System.Byte)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteByte(Byte)
-  nameWithType: I2cBus.WriteByte(Byte)
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteByte(System.Byte)
+  nameWithType: SoftwareI2C.WriteByte(Byte)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteByte(System.Byte)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteByte
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 68
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 58
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a single byte to the device.\n"
-  example: []
   syntax:
     content: public void WriteByte(byte value)
     parameters:
     - id: value
       type: System.Byte
-      description: Value to be written (8-bits).
     content.vb: Public Sub WriteByte(value As Byte)
-  overload: Meadow.Hardware.Communications.I2cBus.WriteByte*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteByte*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.WriteBytes(System.Byte[])
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteBytes(System.Byte[])
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadByte(System.Boolean)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadByte(System.Boolean)
+  id: ReadByte(System.Boolean)
+  parent: Meadow.Hardware.Communications.SoftwareI2C
+  langs:
+  - csharp
+  - vb
+  name: ReadByte(Boolean)
+  nameWithType: SoftwareI2C.ReadByte(Boolean)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadByte(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+      branch: master
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
+    id: ReadByte
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 82
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  syntax:
+    content: public byte ReadByte(bool last = false)
+    parameters:
+    - id: last
+      type: System.Boolean
+    return:
+      type: System.Byte
+    content.vb: Public Function ReadByte(last As Boolean = False) As Byte
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadByte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes(System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteBytes(System.Byte[])
   id: WriteBytes(System.Byte[])
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteBytes(Byte[])
-  nameWithType: I2cBus.WriteBytes(Byte[])
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteBytes(System.Byte[])
+  nameWithType: SoftwareI2C.WriteBytes(Byte[])
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes(System.Byte[])
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteBytes
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 81
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 128
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a number of bytes to the device.\n"
-  remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
-  example: []
   syntax:
     content: public void WriteBytes(byte[] values)
     parameters:
     - id: values
       type: System.Byte[]
-      description: Values to be written.
     content.vb: Public Sub WriteBytes(values As Byte())
-  overload: Meadow.Hardware.Communications.I2cBus.WriteBytes*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
-  nameWithType.vb: I2cBus.WriteBytes(Byte())
+  nameWithType.vb: SoftwareI2C.WriteBytes(Byte())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Meadow.Hardware.Communications.I2cBus.WriteBytes(System.Byte())
+  fullName.vb: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes(System.Byte())
   name.vb: WriteBytes(Byte())
-- uid: Meadow.Hardware.Communications.I2cBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
   id: WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteUShort(Byte, UInt16, ByteOrder)
-  nameWithType: I2cBus.WriteUShort(Byte, UInt16, ByteOrder)
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteUShort(System.Byte, System.UInt16, Meadow.ByteOrder)
+  nameWithType: SoftwareI2C.WriteUShort(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteUShort(System.Byte, System.UInt16, Meadow.ByteOrder)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShort
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 106
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 136
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite an unsigned short to the device.\n"
-  example: []
   syntax:
     content: public void WriteUShort(byte address, ushort value, ByteOrder order = ByteOrder.LittleEndian)
     parameters:
     - id: address
       type: System.Byte
-      description: Address to write the first byte to.
     - id: value
       type: System.UInt16
-      description: Value to be written (16-bits).
     - id: order
       type: Meadow.ByteOrder
-      description: Indicate if the data should be written as big or little endian.
     content.vb: Public Sub WriteUShort(address As Byte, value As UShort, order As ByteOrder = ByteOrder.LittleEndian)
-  overload: Meadow.Hardware.Communications.I2cBus.WriteUShort*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteUShort*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
   id: WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteUShorts(Byte, UInt16[], ByteOrder)
-  nameWithType: I2cBus.WriteUShorts(Byte, UInt16[], ByteOrder)
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteUShorts(System.Byte, System.UInt16[], Meadow.ByteOrder)
+  nameWithType: SoftwareI2C.WriteUShorts(Byte, UInt16[], ByteOrder)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts(System.Byte, System.UInt16[], Meadow.ByteOrder)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteUShorts
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 131
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 141
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite a number of unsigned shorts to the device.\n"
-  remarks: "\nThe number of bytes to be written will be determined by the length of the byte array.\n"
-  example: []
   syntax:
     content: public void WriteUShorts(byte address, ushort[] values, ByteOrder order = ByteOrder.LittleEndian)
     parameters:
     - id: address
       type: System.Byte
-      description: Address to write the first byte to.
     - id: values
       type: System.UInt16[]
-      description: Values to be written.
     - id: order
       type: Meadow.ByteOrder
-      description: Indicate if the data should be written as big or little endian.
     content.vb: Public Sub WriteUShorts(address As Byte, values As UShort(), order As ByteOrder = ByteOrder.LittleEndian)
-  overload: Meadow.Hardware.Communications.I2cBus.WriteUShorts*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
-  nameWithType.vb: I2cBus.WriteUShorts(Byte, UInt16(), ByteOrder)
+  nameWithType.vb: SoftwareI2C.WriteUShorts(Byte, UInt16(), ByteOrder)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Meadow.Hardware.Communications.I2cBus.WriteUShorts(System.Byte, System.UInt16(), Meadow.ByteOrder)
+  fullName.vb: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts(System.Byte, System.UInt16(), Meadow.ByteOrder)
   name.vb: WriteUShorts(Byte, UInt16(), ByteOrder)
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRead(System.Byte[],System.UInt16)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteRead(System.Byte[],System.UInt16)
-  id: WriteRead(System.Byte[],System.UInt16)
-  parent: Meadow.Hardware.Communications.I2cBus
-  langs:
-  - csharp
-  - vb
-  name: WriteRead(Byte[], UInt16)
-  nameWithType: I2cBus.WriteRead(Byte[], UInt16)
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRead(System.Byte[], System.UInt16)
-  type: Method
-  source:
-    remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
-      branch: master
-      repo: git@github.com:WildernessLabs/Meadow.Core.git
-    id: WriteRead
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 158
-  assemblies:
-  - Meadow.Core
-  namespace: Meadow.Hardware.Communications
-  summary: "\nWrite data to the device and also read some data from the device.\n"
-  remarks: "\nThe number of bytes to be written and read will be determined by the length of the byte arrays.\n"
-  example: []
-  syntax:
-    content: public byte[] WriteRead(byte[] write, ushort length)
-    parameters:
-    - id: write
-      type: System.Byte[]
-      description: Array of bytes to be written to the device.
-    - id: length
-      type: System.UInt16
-      description: Amount of data to read from the device.
-    return:
-      type: System.Byte[]
-    content.vb: Public Function WriteRead(write As Byte(), length As UShort) As Byte()
-  overload: Meadow.Hardware.Communications.I2cBus.WriteRead*
-  implements:
-  - Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
-  nameWithType.vb: I2cBus.WriteRead(Byte(), UInt16)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: Meadow.Hardware.Communications.I2cBus.WriteRead(System.Byte(), System.UInt16)
-  name.vb: WriteRead(Byte(), UInt16)
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRegister(System.Byte,System.Byte)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteRegister(System.Byte,System.Byte)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRegister(System.Byte,System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteRegister(System.Byte,System.Byte)
   id: WriteRegister(System.Byte,System.Byte)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteRegister(Byte, Byte)
-  nameWithType: I2cBus.WriteRegister(Byte, Byte)
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRegister(System.Byte, System.Byte)
+  nameWithType: SoftwareI2C.WriteRegister(Byte, Byte)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRegister(System.Byte, System.Byte)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegister
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 197
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 146
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite data into a single register.\n"
-  example: []
   syntax:
     content: public void WriteRegister(byte address, byte value)
     parameters:
     - id: address
       type: System.Byte
-      description: Address of the register to write to.
     - id: value
       type: System.Byte
-      description: Value to write into the register.
     content.vb: Public Sub WriteRegister(address As Byte, value As Byte)
-  overload: Meadow.Hardware.Communications.I2cBus.WriteRegister*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteRegister*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRegisters(System.Byte,System.Byte[])
-  commentId: M:Meadow.Hardware.Communications.I2cBus.WriteRegisters(System.Byte,System.Byte[])
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters(System.Byte,System.Byte[])
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters(System.Byte,System.Byte[])
   id: WriteRegisters(System.Byte,System.Byte[])
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: WriteRegisters(Byte, Byte[])
-  nameWithType: I2cBus.WriteRegisters(Byte, Byte[])
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRegisters(System.Byte, System.Byte[])
+  nameWithType: SoftwareI2C.WriteRegisters(Byte, Byte[])
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters(System.Byte, System.Byte[])
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: WriteRegisters
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 212
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 151
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nWrite data to one or more registers.\n"
-  remarks: "\nThis method assumes that the register address is written first followed by the data to be\nwritten into the first register followed by the data for subsequent registers.\n"
-  example: []
   syntax:
     content: public void WriteRegisters(byte address, byte[] data)
     parameters:
     - id: address
       type: System.Byte
-      description: Address of the first register to write to.
     - id: data
       type: System.Byte[]
-      description: Data to write into the registers.
     content.vb: Public Sub WriteRegisters(address As Byte, data As Byte())
-  overload: Meadow.Hardware.Communications.I2cBus.WriteRegisters*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
-  nameWithType.vb: I2cBus.WriteRegisters(Byte, Byte())
+  nameWithType.vb: SoftwareI2C.WriteRegisters(Byte, Byte())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Meadow.Hardware.Communications.I2cBus.WriteRegisters(System.Byte, System.Byte())
+  fullName.vb: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters(System.Byte, System.Byte())
   name.vb: WriteRegisters(Byte, Byte())
-- uid: Meadow.Hardware.Communications.I2cBus.ReadBytes(System.UInt16)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.ReadBytes(System.UInt16)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRead(System.Byte[],System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.WriteRead(System.Byte[],System.UInt16)
+  id: WriteRead(System.Byte[],System.UInt16)
+  parent: Meadow.Hardware.Communications.SoftwareI2C
+  langs:
+  - csharp
+  - vb
+  name: WriteRead(Byte[], UInt16)
+  nameWithType: SoftwareI2C.WriteRead(Byte[], UInt16)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRead(System.Byte[], System.UInt16)
+  type: Method
+  source:
+    remote:
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+      branch: master
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
+    id: WriteRead
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 156
+  assemblies:
+  - Meadow.Core
+  namespace: Meadow.Hardware.Communications
+  syntax:
+    content: public byte[] WriteRead(byte[] write, ushort length)
+    parameters:
+    - id: write
+      type: System.Byte[]
+    - id: length
+      type: System.UInt16
+    return:
+      type: System.Byte[]
+    content.vb: Public Function WriteRead(write As Byte(), length As UShort) As Byte()
+  overload: Meadow.Hardware.Communications.SoftwareI2C.WriteRead*
+  implements:
+  - Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  nameWithType.vb: SoftwareI2C.WriteRead(Byte(), UInt16)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Meadow.Hardware.Communications.SoftwareI2C.WriteRead(System.Byte(), System.UInt16)
+  name.vb: WriteRead(Byte(), UInt16)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadBytes(System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadBytes(System.UInt16)
   id: ReadBytes(System.UInt16)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: ReadBytes(UInt16)
-  nameWithType: I2cBus.ReadBytes(UInt16)
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadBytes(System.UInt16)
+  nameWithType: SoftwareI2C.ReadBytes(UInt16)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadBytes(System.UInt16)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadBytes
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 225
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 161
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead the specified number of bytes from the I2C device.\n"
-  example: []
   syntax:
     content: public byte[] ReadBytes(ushort numberOfBytes)
     parameters:
     - id: numberOfBytes
       type: System.UInt16
-      description: Number of bytes.
     return:
       type: System.Byte[]
-      description: The bytes.
     content.vb: Public Function ReadBytes(numberOfBytes As UShort) As Byte()
-  overload: Meadow.Hardware.Communications.I2cBus.ReadBytes*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadBytes*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.ReadRegister(System.Byte)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.ReadRegister(System.Byte)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadRegister(System.Byte)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadRegister(System.Byte)
   id: ReadRegister(System.Byte)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: ReadRegister(Byte)
-  nameWithType: I2cBus.ReadRegister(Byte)
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadRegister(System.Byte)
+  nameWithType: SoftwareI2C.ReadRegister(Byte)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadRegister(System.Byte)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegister
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 250
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 172
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead a register from the device.\n"
-  example: []
   syntax:
     content: public byte ReadRegister(byte address)
     parameters:
     - id: address
       type: System.Byte
-      description: Address of the register to read.
     return:
       type: System.Byte
     content.vb: Public Function ReadRegister(address As Byte) As Byte
-  overload: Meadow.Hardware.Communications.I2cBus.ReadRegister*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadRegister*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.ReadRegisters(System.Byte,System.UInt16)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.ReadRegisters(System.Byte,System.UInt16)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters(System.Byte,System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters(System.Byte,System.UInt16)
   id: ReadRegisters(System.Byte,System.UInt16)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: ReadRegisters(Byte, UInt16)
-  nameWithType: I2cBus.ReadRegisters(Byte, UInt16)
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadRegisters(System.Byte, System.UInt16)
+  nameWithType: SoftwareI2C.ReadRegisters(Byte, UInt16)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters(System.Byte, System.UInt16)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadRegisters
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 262
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 177
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead one or more registers from the device.\n"
-  example: []
   syntax:
     content: public byte[] ReadRegisters(byte address, ushort length)
     parameters:
     - id: address
       type: System.Byte
-      description: Address of the first register to read.
     - id: length
       type: System.UInt16
-      description: Number of bytes to read from the device.
     return:
       type: System.Byte[]
     content.vb: Public Function ReadRegisters(address As Byte, length As UShort) As Byte()
-  overload: Meadow.Hardware.Communications.I2cBus.ReadRegisters*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.ReadUShort(System.Byte,Meadow.ByteOrder)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.ReadUShort(System.Byte,Meadow.ByteOrder)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadUShort(System.Byte,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadUShort(System.Byte,Meadow.ByteOrder)
   id: ReadUShort(System.Byte,Meadow.ByteOrder)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: ReadUShort(Byte, ByteOrder)
-  nameWithType: I2cBus.ReadUShort(Byte, ByteOrder)
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadUShort(System.Byte, Meadow.ByteOrder)
+  nameWithType: SoftwareI2C.ReadUShort(Byte, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadUShort(System.Byte, Meadow.ByteOrder)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShort
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 274
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 182
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead an usingned short from a pair of registers.\n"
-  example: []
   syntax:
-    content: public ushort ReadUShort(byte address, ByteOrder order = ByteOrder.LittleEndian)
+    content: public ushort ReadUShort(byte address, ByteOrder order)
     parameters:
     - id: address
       type: System.Byte
-      description: Register address of the low byte (the high byte will follow).
     - id: order
       type: Meadow.ByteOrder
-      description: Order of the bytes in the register (little endian is the default).
     return:
       type: System.UInt16
-      description: Value read from the register.
-    content.vb: Public Function ReadUShort(address As Byte, order As ByteOrder = ByteOrder.LittleEndian) As UShort
-  overload: Meadow.Hardware.Communications.I2cBus.ReadUShort*
+    content.vb: Public Function ReadUShort(address As Byte, order As ByteOrder) As UShort
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadUShort*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Meadow.Hardware.Communications.I2cBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
-  commentId: M:Meadow.Hardware.Communications.I2cBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
+  commentId: M:Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
   id: ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
-  parent: Meadow.Hardware.Communications.I2cBus
+  parent: Meadow.Hardware.Communications.SoftwareI2C
   langs:
   - csharp
   - vb
   name: ReadUShorts(Byte, UInt16, ByteOrder)
-  nameWithType: I2cBus.ReadUShorts(Byte, UInt16, ByteOrder)
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadUShorts(System.Byte, System.UInt16, Meadow.ByteOrder)
+  nameWithType: SoftwareI2C.ReadUShorts(Byte, UInt16, ByteOrder)
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts(System.Byte, System.UInt16, Meadow.ByteOrder)
   type: Method
   source:
     remote:
-      path: source/Meadow.Core/Hardware/Communications/I2cBus.cs
+      path: source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
       branch: master
       repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ReadUShorts
-    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/I2cBus.cs
-    startLine: 297
+    path: ../Meadow.Core/source/Meadow.Core/Hardware/Communications/SoftwareI2C.cs
+    startLine: 187
   assemblies:
   - Meadow.Core
   namespace: Meadow.Hardware.Communications
-  summary: "\nRead the specified number of unsigned shorts starting at the register\naddress specified.\n"
-  example: []
   syntax:
     content: public ushort[] ReadUShorts(byte address, ushort number, ByteOrder order = ByteOrder.LittleEndian)
     parameters:
     - id: address
       type: System.Byte
-      description: First register address to read from.
     - id: number
       type: System.UInt16
-      description: Number of unsigned shorts to read.
     - id: order
       type: Meadow.ByteOrder
-      description: Order of the bytes (Little or Big endian)
     return:
       type: System.UInt16[]
-      description: Array of unsigned shorts.
     content.vb: Public Function ReadUShorts(address As Byte, number As UShort, order As ByteOrder = ByteOrder.LittleEndian) As UShort()
-  overload: Meadow.Hardware.Communications.I2cBus.ReadUShorts*
+  overload: Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts*
   implements:
   - Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
   modifiers.csharp:
@@ -928,14 +966,27 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Meadow.Foundation.Core.I2CBus
-  commentId: T:Meadow.Foundation.Core.I2CBus
-  isExternal: true
-- uid: Meadow.Hardware.Communications.I2cBus.#ctor*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.#ctor
-  name: I2cBus
-  nameWithType: I2cBus.I2cBus
-  fullName: Meadow.Hardware.Communications.I2cBus.I2cBus
+- uid: Meadow.Hardware.Communications.SoftwareI2C.#ctor*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.#ctor
+  name: SoftwareI2C
+  nameWithType: SoftwareI2C.SoftwareI2C
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.SoftwareI2C
+- uid: Meadow.Hardware.IDigitalPin
+  commentId: T:Meadow.Hardware.IDigitalPin
+  parent: Meadow.Hardware
+  name: IDigitalPin
+  nameWithType: IDigitalPin
+  fullName: Meadow.Hardware.IDigitalPin
+- uid: Meadow.Hardware
+  commentId: N:Meadow.Hardware
+  name: Meadow.Hardware
+  nameWithType: Meadow.Hardware
+  fullName: Meadow.Hardware
+- uid: Meadow.Hardware.Communications.SoftwareI2C.Start*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.Start
+  name: Start
+  nameWithType: SoftwareI2C.Start
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.Start
 - uid: System.Byte
   commentId: T:System.Byte
   parent: System
@@ -943,18 +994,16 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System.UInt16
-  commentId: T:System.UInt16
-  parent: System
-  isExternal: true
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
-- uid: Meadow.Hardware.Communications.I2cBus.WriteByte*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteByte
+- uid: Meadow.Hardware.Communications.SoftwareI2C.Stop*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.Stop
+  name: Stop
+  nameWithType: SoftwareI2C.Stop
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.Stop
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteByte*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteByte
   name: WriteByte
-  nameWithType: I2cBus.WriteByte
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteByte
+  nameWithType: SoftwareI2C.WriteByte
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteByte
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteByte(System.Byte)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -994,11 +1043,23 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.WriteBytes*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteBytes
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadByte*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadByte
+  name: ReadByte
+  nameWithType: SoftwareI2C.ReadByte
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadByte
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteBytes
   name: WriteBytes
-  nameWithType: I2cBus.WriteBytes
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteBytes
+  nameWithType: SoftwareI2C.WriteBytes
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteBytes
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteBytes(System.Byte[])
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1073,11 +1134,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Meadow.Hardware.Communications.I2cBus.WriteUShort*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteUShort
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteUShort*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteUShort
   name: WriteUShort
-  nameWithType: I2cBus.WriteUShort
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteUShort
+  nameWithType: SoftwareI2C.WriteUShort
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteUShort
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteUShort(System.Byte,System.UInt16,Meadow.ByteOrder)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1147,6 +1208,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
 - uid: Meadow.ByteOrder
   commentId: T:Meadow.ByteOrder
   parent: Meadow
@@ -1158,11 +1226,11 @@ references:
   name: Meadow
   nameWithType: Meadow
   fullName: Meadow
-- uid: Meadow.Hardware.Communications.I2cBus.WriteUShorts*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteUShorts
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts
   name: WriteUShorts
-  nameWithType: I2cBus.WriteUShorts
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteUShorts
+  nameWithType: SoftwareI2C.WriteUShorts
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteUShorts
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteUShorts(System.Byte,System.UInt16[],Meadow.ByteOrder)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1267,80 +1335,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRead*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteRead
-  name: WriteRead
-  nameWithType: I2cBus.WriteRead
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRead
-- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
-  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
-  parent: Meadow.Hardware.Communications.ICommunicationBus
-  isExternal: true
-  name: WriteRead(Byte[], UInt16)
-  nameWithType: ICommunicationBus.WriteRead(Byte[], UInt16)
-  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[], System.UInt16)
-  nameWithType.vb: ICommunicationBus.WriteRead(Byte(), UInt16)
-  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte(), System.UInt16)
-  name.vb: WriteRead(Byte(), UInt16)
-  spec.csharp:
-  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
-    name: WriteRead
-    nameWithType: ICommunicationBus.WriteRead
-    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.UInt16
-    name: UInt16
-    nameWithType: UInt16
-    fullName: System.UInt16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
-    name: WriteRead
-    nameWithType: ICommunicationBus.WriteRead
-    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.UInt16
-    name: UInt16
-    nameWithType: UInt16
-    fullName: System.UInt16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRegister*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteRegister
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRegister*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteRegister
   name: WriteRegister
-  nameWithType: I2cBus.WriteRegister
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRegister
+  nameWithType: SoftwareI2C.WriteRegister
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRegister
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRegister(System.Byte,System.Byte)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1396,11 +1395,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.WriteRegisters*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.WriteRegisters
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters
   name: WriteRegisters
-  nameWithType: I2cBus.WriteRegisters
-  fullName: Meadow.Hardware.Communications.I2cBus.WriteRegisters
+  nameWithType: SoftwareI2C.WriteRegisters
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRegisters
 - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRegisters(System.Byte,System.Byte[])
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1465,11 +1464,80 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.ReadBytes*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.ReadBytes
+- uid: Meadow.Hardware.Communications.SoftwareI2C.WriteRead*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.WriteRead
+  name: WriteRead
+  nameWithType: SoftwareI2C.WriteRead
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.WriteRead
+- uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  commentId: M:Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+  parent: Meadow.Hardware.Communications.ICommunicationBus
+  isExternal: true
+  name: WriteRead(Byte[], UInt16)
+  nameWithType: ICommunicationBus.WriteRead(Byte[], UInt16)
+  fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[], System.UInt16)
+  nameWithType.vb: ICommunicationBus.WriteRead(Byte(), UInt16)
+  fullName.vb: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte(), System.UInt16)
+  name.vb: WriteRead(Byte(), UInt16)
+  spec.csharp:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+    name: WriteRead
+    nameWithType: ICommunicationBus.WriteRead
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Meadow.Hardware.Communications.ICommunicationBus.WriteRead(System.Byte[],System.UInt16)
+    name: WriteRead
+    nameWithType: ICommunicationBus.WriteRead
+    fullName: Meadow.Hardware.Communications.ICommunicationBus.WriteRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadBytes*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadBytes
   name: ReadBytes
-  nameWithType: I2cBus.ReadBytes
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadBytes
+  nameWithType: SoftwareI2C.ReadBytes
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadBytes
 - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadBytes(System.UInt16)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1509,11 +1577,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.ReadRegister*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.ReadRegister
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadRegister*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadRegister
   name: ReadRegister
-  nameWithType: I2cBus.ReadRegister
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadRegister
+  nameWithType: SoftwareI2C.ReadRegister
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadRegister
 - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadRegister(System.Byte)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1553,11 +1621,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.ReadRegisters*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.ReadRegisters
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters
   name: ReadRegisters
-  nameWithType: I2cBus.ReadRegisters
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadRegisters
+  nameWithType: SoftwareI2C.ReadRegisters
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadRegisters
 - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadRegisters(System.Byte,System.UInt16)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1613,11 +1681,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.ReadUShort*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.ReadUShort
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadUShort*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadUShort
   name: ReadUShort
-  nameWithType: I2cBus.ReadUShort
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadUShort
+  nameWithType: SoftwareI2C.ReadUShort
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadUShort
 - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadUShort(System.Byte,Meadow.ByteOrder)
   parent: Meadow.Hardware.Communications.ICommunicationBus
@@ -1671,11 +1739,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Meadow.Hardware.Communications.I2cBus.ReadUShorts*
-  commentId: Overload:Meadow.Hardware.Communications.I2cBus.ReadUShorts
+- uid: Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts*
+  commentId: Overload:Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts
   name: ReadUShorts
-  nameWithType: I2cBus.ReadUShorts
-  fullName: Meadow.Hardware.Communications.I2cBus.ReadUShorts
+  nameWithType: SoftwareI2C.ReadUShorts
+  fullName: Meadow.Hardware.Communications.SoftwareI2C.ReadUShorts
 - uid: Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
   commentId: M:Meadow.Hardware.Communications.ICommunicationBus.ReadUShorts(System.Byte,System.UInt16,Meadow.ByteOrder)
   parent: Meadow.Hardware.Communications.ICommunicationBus

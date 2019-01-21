@@ -21,7 +21,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: F7GPIOManager
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 8
@@ -32,6 +32,7 @@ items:
     content: 'public class F7GPIOManager : IGPIOManager'
     content.vb: >-
       Public Class F7GPIOManager
+
           Implements IGPIOManager
   inheritance:
   - System.Object
@@ -66,7 +67,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConfigureOutput
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 22
@@ -103,7 +104,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: ConfigureInput
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 43
@@ -145,7 +146,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Meadow.IGPIOManager.SetDiscrete
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 79
@@ -184,7 +185,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: GetDiscrete
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 235
@@ -225,7 +226,7 @@ items:
     remote:
       path: source/Meadow.Core/Devices/F7GPIOManager.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Initialize
     path: ../Meadow.Core/source/Meadow.Core/Devices/F7GPIOManager.cs
     startLine: 247

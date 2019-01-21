@@ -18,7 +18,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: SerialData
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 118
@@ -49,7 +49,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Chars
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 120
@@ -81,7 +81,7 @@ items:
     remote:
       path: source/Meadow.Core/Hardware/SerialPort.cs
       branch: master
-      repo: https://github.com/WildernessLabs/Meadow.Core.git
+      repo: git@github.com:WildernessLabs/Meadow.Core.git
     id: Eof
     path: ../Meadow.Core/source/Meadow.Core/Hardware/SerialPort.cs
     startLine: 121
