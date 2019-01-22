@@ -1,2 +1,2 @@
 ## Meadow.Foundation
-This is ze homepage
+Meadow.Foundation homepage

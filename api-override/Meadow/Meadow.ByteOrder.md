@@ -3,7 +3,7 @@ uid: Meadow.ByteOrder
 remarks: *content
 ---
 
-Here are some remarks about `MyService`.
+Here are some remarks about `MyService`. Updated!
 
 ---
 uid: Meadow.ByteOrder

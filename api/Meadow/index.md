@@ -1,2 +1,2 @@
 ## Meadow
-This is ze homepage
+Meadow hompage
