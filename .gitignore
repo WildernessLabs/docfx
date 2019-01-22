@@ -8,4 +8,7 @@
 /**/obj/
 
 # Site stuff
-/docs
+docs
+api
+!api/Meadow/index.md
+!api/Meadow.Foundation/index.md

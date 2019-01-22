@@ -55,11 +55,9 @@
     "overwrite": [
       {
         "files": [
-          "api/**.md"
+          "api-override/**.md"
         ],
         "exclude": [
-          "api/Meadow/index.md",
-          "api/Meadow.Foundation/index.md",
           "obj/**",
           "docs/**"
         ]
