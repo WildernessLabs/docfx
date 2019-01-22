@@ -9,6 +9,5 @@
 
 # Site stuff
 docs
-api
-!api/Meadow/index.md
-!api/Meadow.Foundation/index.md
+/api/**/*.yml
+/api/**/*.manifest
