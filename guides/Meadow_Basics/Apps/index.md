@@ -37,7 +37,7 @@ The main Meadow application class should inherit @"Meadow.AppBase", which provid
 
 Currently, we don't enforce the use of `AppBase`, but in a future build of Meadow, it'll scan your Meadow application assembly for a class that implements `IApp` and launch that automatically, so it's a good practice to use the pattern now.
 
-The `AppBase` declaration requires two generic parameters; `D`, and `A`, representing the device type and the application class type, respectively. For `D`, you'll need to pass an @"Meadow.IDevice` that represents the board you're using, such as `F7Micro`. For `A`, you should pass the typename of your application class itself. 
+The `AppBase` declaration requires two generic parameters; `D`, and `A`, representing the device type and the application class type, respectively. For `D`, you'll need to pass a `Meadow.IDevice` that represents the board you're using, such as `F7Micro`. For `A`, you should pass the typename of your application class itself. 
 
 For example, if your app class is called `LEDApp`, and you're using a Meadow F7 Micro board, your `LEDApp` declaration would look like the following:
 
@@ -45,7 +45,27 @@ For example, if your app class is called `LEDApp`, and you're using a Meadow F7 
 public class LEDApp : AppBase<F7Micro, LEDApp>
 ```
 
-[why D,A]
+### `D` = Device
+
+Specifying the `D` parameter sets the current device so that it can be accessed via the [Device](xref:Meadow.AppBase.Device) property of the `IApp`:
+
+```csharp
+var redLED = new DigitalOutputPort(Device.Pins.OnboardLEDRed, false);
+```
+
+### `A` = App
+
+Specifying the `A` type parameter in `AppBase` allows the app class instance to be available via the `Current` property and strongly typed:
+
+```
+MyApp myApp = MyApp.Current;
+```
+
+Therefore, any public members are also available without having to cast. For instance, if your app class had a property called `InstalledName`, it could be accessed as follows:
+
+```
+var name = MyApp.Current.InstalledName;
+```
 
 ## Sample Meadow Application
 
@@ -101,3 +121,5 @@ namespace HelloLED
     }
 }
 ```
+
+# [Next - App Deployment](Deployment)
