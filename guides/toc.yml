@@ -1,5 +1,5 @@
 - name: Introduction
-  href: intro.md
+  href: index.md
 - name: Getting Started
   href: Getting_Started/index.md
   items:
@@ -28,4 +28,8 @@
           href: Meadow_Basics/IO/Digital/index.md
         - name: Analog IO
           href: Meadow_Basics/IO/Analog/index.md
+    - name: Networking
+      href: Meadow_Basics/Networking/index.md
+    - name: Bluetooth
+      href: Meadow_Basics/Bluetooth/index.md
   
