@@ -48,6 +48,17 @@ Before committing back to the repo, run `./build-docs.sh`. This will ensure you 
 - `./build-serve-docs.sh` - runs `./get-latest.sh`, then runs `docfx docfx.json --serve`  
 - `./get-latest.sh` - gets latest from `Meadow.Core` and `Meadow.Foundation`
 
+## DocFX stuff
+
+You can link to APIs this way:
+
+* MD link notation: `[IApp](xref:Meadow.IApp)`
+* `@` notation: `@"Meadow.IApp"`
+
+Both will resolve at build time to the `Meadow.IApp` api doc entry.
+
+The `@` notation is shorter, but the MD notation allows you to set the link title.
+
 ## Troubleshooting
 
 If it fails on Mac/Linux with some `SQLitePCLRaw` nonsense, run this:
