@@ -1,0 +1,31 @@
+- name: Introduction
+  href: intro.md
+- name: Getting Started
+  href: Getting_Started/index.md
+  items:
+    - name: Setting up your Build Environment
+      href: Getting_Started/Setup/index.md
+      expanded: true
+      items:
+        - name: macos
+          href: Getting_Started/Setup/macos/index.md
+        - name: Windows
+          href: Getting_Started/Setup/Windows/index.md
+- name: "Meadow Basics"
+  href: Meadow_Basics/index.md
+  items:
+    - name: App Fundamentals
+      href: Meadow_Basics/Apps/index.md
+      items:
+        - name: Deployment
+          href: Meadow_Basics/Apps/Deployment/index.md
+    - name: Meadow.Foundation
+      href: Meadow_Basics/Meadow.Foundation/index.md
+    - name: Input/Output (IO)
+      href: Meadow_Basics/IO/index.md
+      items:
+        - name: Digital IO
+          href: Meadow_Basics/IO/Digital/index.md
+        - name: Analog IO
+          href: Meadow_Basics/IO/Analog/index.md
+  

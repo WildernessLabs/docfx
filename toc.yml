@@ -1,6 +1,6 @@
-- name: Articles
-  href: articles/
-- name: Meadow
+- name: Guides
+  homepage: guides/index.md
+- name: Meadow API
   homepage: api/Meadow/index.md
-- name: Meadow.Foundation
+- name: Meadow.Foundation API
   homepage: api/Meadow.Foundation/index.md
