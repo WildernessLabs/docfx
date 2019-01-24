@@ -11,16 +11,13 @@
           href: Getting_Started/Setup/macos/index.md
         - name: Windows
           href: Getting_Started/Setup/Windows/index.md
-- name: "Meadow Basics"
+    - name: Deployment
+      href: Getting_Started/Deployment/index.md
+- name: Meadow Basics
   href: Meadow_Basics/index.md
   items:
     - name: App Fundamentals
       href: Meadow_Basics/Apps/index.md
-      items:
-        - name: Deployment
-          href: Meadow_Basics/Apps/Deployment/index.md
-    - name: Meadow.Foundation
-      href: Meadow_Basics/Meadow.Foundation/index.md
     - name: Input/Output (IO)
       href: Meadow_Basics/IO/index.md
       items:
@@ -32,3 +29,13 @@
       href: Meadow_Basics/Networking/index.md
     - name: Bluetooth
       href: Meadow_Basics/Bluetooth/index.md
+- name: Meadow.Foundation
+  href: Meadow.Foundation/index.md
+  items:
+    - name: Getting Started
+      href: Meadow.Foundation/Getting_Started/index.md
+      items:
+        - name: Working w/Sensors
+          href: Meadow.Foundation/Getting_Started/Working_w_Sensors/index.md
+        - name: Unified GPIO Architecture
+          href: Meadow.Foundation/Getting_Started/Unified_GPIO_Arch/index.md
