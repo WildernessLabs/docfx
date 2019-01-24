@@ -34,8 +34,7 @@
   items:
     - name: Getting Started
       href: Meadow.Foundation/Getting_Started/index.md
-      items:
-        - name: Working w/Sensors
-          href: Meadow.Foundation/Getting_Started/Working_w_Sensors/index.md
-        - name: Unified GPIO Architecture
-          href: Meadow.Foundation/Getting_Started/Unified_GPIO_Arch/index.md
+    - name: Working w/Sensors
+      href: Meadow.Foundation/Working_w_Sensors/index.md
+    - name: Unified GPIO Architecture
+      href: Meadow.Foundation/Unified_GPIO_Arch/index.md
