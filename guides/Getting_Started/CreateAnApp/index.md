@@ -53,3 +53,18 @@ Install the lastest version of Visual Studio for Mac.
 1. Select *Add -> Add Nuget Packages...*
 1. Search for **Meadow.Core**
 1. Check the package in the search results and press **Add Package**
+
+## Set the App assembly name
+Currently, Meadow is configured to run a .NET console app named **app.exe**. You can either manually rename your application after its compiled or change the assembly name in Visual Studio.
+
+### Windows
+1. Right-click on the project in the Solution Explorer
+1. Select **Options**
+1. Open the **Application** secion
+1. Change the **Assembly name** to **app**
+
+### macOS
+1. Control-click or right-click on the project in the Solution Explorer
+1. Select **Options**
+1. Go to *Build -> Output*
+1. Change the **Assembly name** to **app**
