@@ -16,6 +16,8 @@
 - name: Meadow Basics
   href: Meadow_Basics/index.md
   items:
+    - name: Beta Status
+      href: Meadow_Basics/Status
     - name: App Fundamentals
       href: Meadow_Basics/Apps/index.md
     - name: Input/Output (IO)
@@ -38,3 +40,7 @@
       href: Meadow.Foundation/Working_w_Sensors/index.md
     - name: Unified GPIO Architecture
       href: Meadow.Foundation/Unified_GPIO_Arch/index.md
+    - name: Peripherals
+      href: Meadow.Foundation/Peripherals
+    - name: Libraries and Frameworks
+      href: Meadow.Foundation/Libraries_and_Frameworks

@@ -1,5 +1,7 @@
 # IO
 
+![](/Common_Assets/Meadow_F7_Micro_Pinout.svg)
+
 ## General-Purpose Input/Output (GPIO)
 
 # Pin vs. Port vs. Channel
