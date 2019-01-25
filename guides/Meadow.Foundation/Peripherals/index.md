@@ -9,8 +9,8 @@
 
 | Driver           | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
-| LED              | Yes                 | |
-| RgbLed           |                     | Blocked on PWM |
+| @"Meadow.Foundation.LEDs.Led" | Yes                 | |
+| @"Meadow.Foundation.LEDs.PwmLed" |                     | Blocked on PWM |
 | [Driver]         | [Yes or blank]      | |
 
 
