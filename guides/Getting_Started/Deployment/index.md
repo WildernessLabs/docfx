@@ -1,17 +1,23 @@
 # Deploying a Meadow App (beta - WIP)
 
+To deploy an app to Meadow you'll need several things:
+1. A Linux virtual machine with st-util and gdb installed - see the Setup guide
+1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
+1. A copy of [meadow.core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/meadow.core.dll)
+1. A .NET 4.7 console application that references meadow.core.dll
+
 ## Setup
 
 1. Follow the steps in the **Setup** guide to create your virtual machine (VM) using Vagrant
-1. Open the command prompt 
+1. Open the command prompt or terminal
 1. Navigate to the folder (working folder) where you created your VM
 1. Enter *vagrant up* to ensure your VM is running 
 1. From the command prompt, connect to your VM by entering 'vagrant ssh'
 
 ## Prepare your app for deployment
-1. Compile your app in Visual Studio 2017
-1. Copy **app.exe**, **Meadow.Foundation.dll** from the release folder into into the tmp sub folder of your working folder - this was created automatically by Vagrant
-1. Copy the provided **mscorlib.dll** into the tmp folder
+1. Compile your .NET 4.7 consolue app in Visual Studio 2017 or Visual Studio for Mac
+1. Copy **app.exe**, **meadow.core.dll** from the **bin** folder of your project into into the **tmp** sub folder of your working folder (tmp was was created automatically by Vagrant)
+1. Copy the provided **[mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)** into the tmp folder
 
 ## Connect Meadow to the the VM
 1. Connect your ST-Link V2 to Meadow
