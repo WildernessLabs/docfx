@@ -38,8 +38,8 @@
       },
       {
         "files": [
-          "Guides/**.md",
-          "Guides/**/toc.yml",
+          "guides/**.md",
+          "guides/**/toc.yml",
           "toc.yml",
           "*.md"
         ]

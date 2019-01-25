@@ -28,14 +28,14 @@ public class HelloBlinky
 }
 ```
 
-### [Get Started](/Guides/Meadow.Foundation/Getting_Started/index.html)
+### [Get Started](/guides/Meadow.Foundation/Getting_Started/index.html)
 
 ## Huge Peripheral Driver Library
 
 Meadow.Foundation has built in support for most common sensors, motors, and other peripherals available on the market.
 
-### [See the full list](/Guides/Meadow.Foundation/Peripherals/index.html)
+### [See the full list](/guides/Meadow.Foundation/Peripherals/index.html)
 
 ## Powerful Frameworks and Libraries
 
-### [See the full list](/Guides/Meadow.Foundation/Libraries_and_Frameworks/index.html)
+### [See the full list](/guides/Meadow.Foundation/Libraries_and_Frameworks/index.html)
