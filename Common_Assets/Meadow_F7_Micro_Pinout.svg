@@ -177,7 +177,7 @@
         </g>
         <g id="Digital_Right" transform="translate(538.000000, 277.000000)">
             <g id="D05" transform="translate(0.000000, 217.800000)">
-                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="210.5 10.5 106.863636 10.5 0.5 10.5"></polyline>
+                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="110.5 10.5 56.2142857 10.5 0.5 10.5"></polyline>
                 <g id="D05-Label" transform="translate(35.000000, 0.000000)">
                     <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
                     <text id="D05" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
@@ -192,7 +192,7 @@
                 </text>
             </g>
             <g id="D06" transform="translate(0.000000, 196.100000)">
-                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="210.5 10.5 106.863636 10.5 0.5 10.5"></polyline>
+                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="110.5 10.5 56.2142857 10.5 0.5 10.5"></polyline>
                 <g id="D06-Label" transform="translate(35.000000, 0.000000)">
                     <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
                     <text id="D06" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
@@ -206,7 +206,37 @@
                     <tspan x="5" y="16">~</tspan>
                 </text>
             </g>
-            <g id="I2C" transform="translate(125.000000, 195.000000)">
+            <g id="D07" transform="translate(0.000000, 174.400000)">
+                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="215.5 10.5 109.396104 10.5 0.5 10.5"></polyline>
+                <g id="D07-Label" transform="translate(35.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
+                    <text id="Do7" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
+                        <tspan x="6.5" y="16">Do7</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="~" transform="translate(95.000000, 174.100000)">
+                <rect id="Rectangle" stroke="#98A645" fill="#F8FAE4" x="0.5" y="0.5" width="19" height="20.5" rx="4"></rect>
+                <text font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
+                    <tspan x="5" y="16">~</tspan>
+                </text>
+            </g>
+            <g id="D08" transform="translate(0.000000, 152.700000)">
+                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="215.5 10.5 109.396104 10.5 0.5 10.5"></polyline>
+                <g id="D08-Label" transform="translate(35.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
+                    <text id="D08" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
+                        <tspan x="5" y="17">D08</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="~" transform="translate(95.000000, 153.100000)">
+                <rect id="Rectangle" stroke="#98A645" fill="#F8FAE4" x="0.5" y="0.5" width="19" height="20.5" rx="4"></rect>
+                <text font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
+                    <tspan x="5" y="16">~</tspan>
+                </text>
+            </g>
+            <g id="I2C" transform="translate(125.000000, 152.000000)">
                 <g id="RX" transform="translate(85.000000, 22.400000)">
                     <g id="RX-Label">
                         <rect id="Rectangle" stroke="#14607F" fill="#E3F4FB" x="0.5" y="0.5" width="54" height="20.5" rx="4"></rect>
@@ -231,36 +261,6 @@
                         </text>
                     </g>
                 </g>
-            </g>
-            <g id="D07" transform="translate(0.000000, 174.400000)">
-                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="95.5 10.5 48.6168831 10.5 0.5 10.5"></polyline>
-                <g id="D07-Label" transform="translate(35.000000, 0.000000)">
-                    <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
-                    <text id="Do7" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
-                        <tspan x="6.5" y="16">Do7</tspan>
-                    </text>
-                </g>
-            </g>
-            <g id="~" transform="translate(95.000000, 174.100000)">
-                <rect id="Rectangle" stroke="#98A645" fill="#F8FAE4" x="0.5" y="0.5" width="19" height="20.5" rx="4"></rect>
-                <text font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
-                    <tspan x="5" y="16">~</tspan>
-                </text>
-            </g>
-            <g id="D08" transform="translate(0.000000, 152.700000)">
-                <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="95.5 10.5 48.6168831 10.5 0.5 10.5"></polyline>
-                <g id="D08-Label" transform="translate(35.000000, 0.000000)">
-                    <rect id="Rectangle" stroke="#14607F" fill="#F8FAE4" x="0.5" y="0.5" width="49" height="20.5" rx="4"></rect>
-                    <text id="D08" font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
-                        <tspan x="5" y="17">D08</tspan>
-                    </text>
-                </g>
-            </g>
-            <g id="~" transform="translate(95.000000, 153.100000)">
-                <rect id="Rectangle" stroke="#98A645" fill="#F8FAE4" x="0.5" y="0.5" width="19" height="20.5" rx="4"></rect>
-                <text font-family="MrsEavesOT-Roman, Mrs Eaves OT" font-size="22" font-weight="normal" line-spacing="20" fill="#1A80AA">
-                    <tspan x="5" y="16">~</tspan>
-                </text>
             </g>
             <g id="D09" transform="translate(0.000000, 131.000000)">
                 <polyline id="Path-3" stroke="#23ABE3" stroke-width="2" points="95.5 10.5 48.6168831 10.5 0.5 10.5"></polyline>
