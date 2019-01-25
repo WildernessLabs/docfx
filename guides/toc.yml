@@ -40,7 +40,7 @@
       href: Meadow.Foundation/Working_w_Sensors/index.md
     - name: Unified GPIO Architecture
       href: Meadow.Foundation/Unified_GPIO_Arch/index.md
-    - name: Peripherals/index.md
+    - name: Peripherals
       href: Meadow.Foundation/Peripherals/index.md
     - name: Libraries and Frameworks
       href: Meadow.Foundation/Libraries_and_Frameworks/index.md
