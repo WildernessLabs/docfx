@@ -1,4 +1,4 @@
-## Create a new Meadow app
+# Create a new Meadow app
 
 Meadow applications are .NET Framework 4.7.1 console applications. To access the GPIO and Meadow-specific features, your project needs to reference the Meadow.Core library which is avaliable from NuGet.
 
@@ -9,7 +9,7 @@ You'll need to install Visual Studio: [available here](https://visualstudio.micr
 You can any edition including Enterprise, Professional, or the free Community edition.  
 
 ### Windows
-Install Visual Studio 2017. Visual Studio 2019 *should* work but won't be officially supported until it's final. 
+Install Visual Studio 2017. Visual Studio 2019 beta *should* work but isn't officially supported yet. 
 
 You'll need to ensure the **.NET Framework 4.7.1 development tools** are installed. To verify, run the Visual Studio Installer and click **Modify**. Under **Installation details**, expand **.NET desktop development** and ensure that **.NET Framework 4.7.1 development tools** is checked.
 
