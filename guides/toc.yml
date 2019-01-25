@@ -22,11 +22,6 @@
       href: Meadow_Basics/Apps/index.md
     - name: Input/Output (IO)
       href: Meadow_Basics/IO/index.md
-      items:
-        - name: Digital IO
-          href: Meadow_Basics/IO/Digital/index.md
-        - name: Analog IO
-          href: Meadow_Basics/IO/Analog/index.md
     - name: Networking
       href: Meadow_Basics/Networking/index.md
     - name: Bluetooth
