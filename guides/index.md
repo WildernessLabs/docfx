@@ -4,8 +4,9 @@
 
 If you're just beginning, check out the [Getting Started](/guides/Getting_Started/index.html) walkthrough to get your development environment configured and deploy your first Meadow application:
 
- * [Setting up your Build Environment](/guides/Getting_Started/Setup/index.html)
- * [Deploying a Meadow Application](/guides/Getting_Started/Deployment/index.html)
+ * [Set up your Build Environment](/guides/Getting_Started/Setup/index.html)
+ * [Create a Meadow App](/guides/Getting_Started/CreateAnApp/index.html)
+ * [Deploy a Meadow Application](/guides/Getting_Started/Deployment/index.html)
 
 ## Meadow Basics
 
