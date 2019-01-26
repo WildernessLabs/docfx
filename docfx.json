@@ -50,7 +50,13 @@
         "files": [
           "images/**",
           "Common_Assets/**",
-          "API_Assets/**"
+          "API_Assets/**",
+          "guides/**/*.png",
+          "guides/**/*.svg",
+          "guides/**/*.jpg",
+          "guides/**/*.jpeg",
+          "guides/**/*.giv",
+          "guides/**/*.bmp"
         ]
       }
     ],
