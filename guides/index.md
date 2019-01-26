@@ -5,9 +5,8 @@
 If you're just beginning, check out the [Getting Started](/guides/Getting_Started/index.html) walkthrough to get your development environment configured and deploy your first Meadow application:
 
  * [Set up your Build Environment](/guides/Getting_Started/Setup/index.html)
- * [Create a Meadow Application](/guides/Getting_Started/CreateAnApp/index.html)
- * [Control the onboard LED](/guides/Getting_Started/CreateAnApp/HelloLed/index.html)
- * [Deploy a Meadow Application](/guides/Getting_Started/Deployment/index.html)
+ * [Deploy Meadow OS](/guides/Getting_Started/Deploying_Meadow/index.html)
+ * [Deploy a Sample Meadow App](/guides/Getting_Started/Deployment/index.html)
 
 ## Meadow Basics
 
@@ -16,8 +15,6 @@ Then continue on to the [Meadow Basics](/guides/Meadow_Basics/index.html) guides
  * [Beta Status](/guides/Meadow_Basics/Status/index.html)
  * [App Fundamentals](/guides/Meadow_Basics/Apps/index.html)
  * [Input/Output (IO)](/guides/Meadow_Basics/IO/index.html)
- * [Networking](/guides/Meadow_Basics/Networking/index.html)
- * [Bluetooth](/guides/Meadow_Basics/Bluetooth/index.html)
 
 ## Meadow.Foundation
 
