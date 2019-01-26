@@ -1,5 +1,5 @@
 - name: Guides
-  homepage: Guides/index.md
+  homepage: Guides/
 - name: Meadow API
   homepage: api/Meadow/index.md
 - name: Meadow.Foundation API
