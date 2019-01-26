@@ -6,6 +6,8 @@
     - name: Setting up your Build Environment
       href: Getting_Started/Setup/index.md
       items:
+        - name: Connecting JTAG -> Meadow
+          href: Getting_Started/Setup/stlink/index.md
         - name: macos
           href: Getting_Started/Setup/macos/index.md
         - name: Windows
