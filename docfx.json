@@ -49,7 +49,8 @@
       {
         "files": [
           "images/**",
-          "Common_Assets/**"
+          "Common_Assets/**",
+          "API_Assets/**"
         ]
       }
     ],
