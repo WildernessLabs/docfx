@@ -67,6 +67,8 @@ var minFreq = PwmPort.ChannelInfo.MaximumFrequency;
 
 [simplifies much of this, but you still need to know which pins can support which functions]
 
+## [Next - Meadow.Foundation](/guides/Meadow.Foundation/index.html)
+
 
 ### IO Function Reference Table (TODO: move this to advanced IO docs)
 
