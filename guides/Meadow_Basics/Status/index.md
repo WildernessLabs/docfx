@@ -1,7 +1,7 @@
 # Meadow F7 Micro Beta Status
 
 
-# GPIO
+## GPIO
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
@@ -13,7 +13,7 @@
 | CAN              | | Blocked on interrupts. |
 | DAC              | | Not implemented. |
 
-# Working Ports
+## Working GPIO Ports
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
@@ -21,14 +21,14 @@
 | @"Meadow.Hardware.DigitalInputPort" | Yes, no interrupts. | Interrupts blocked. |
 | @"Meadow.Hardware.BiDirectionalPort" | Yes, no interrupts. | Interrupts blocked. |
 
-# Communications
+## Communications
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
 | WiFi	| | Working on co-proc. Not hooked to API. |
 | Bluetooth | | Working on co-proc. Not hooked to API. |
 
-# Other Features
+## Other Features
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
