@@ -47,4 +47,4 @@ namespace LedSample
 
 ##### Example Circuit
 
-![](/API_Assets/Meadow.Peripherals.Leds.ILed/Led_bb.svg)
+![](/API_Assets/Meadow.Foundation.LEDs.Led/Led_bb.svg)
