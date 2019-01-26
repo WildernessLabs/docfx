@@ -1,8 +1,8 @@
  # Connect Meadow to the ST-Link V2
 
- * [ST-Link connection guide](stlink/index.md)
+ * [ST-Link connection guide](stlink/index.html)
 
 # Configure Your Development Environment
 
- * [macOS](macos/index.md)
- * [Windows](Windows/index.md)
+ * [macOS](macos/index.html)
+ * [Windows](Windows/index.html)
