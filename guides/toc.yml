@@ -5,7 +5,6 @@
   items:
     - name: Setting up your Build Environment
       href: Getting_Started/Setup/index.md
-      expanded: true
       items:
         - name: macos
           href: Getting_Started/Setup/macos/index.md
@@ -22,10 +21,6 @@
       href: Meadow_Basics/Apps/index.md
     - name: Input/Output (IO)
       href: Meadow_Basics/IO/index.md
-    - name: Networking
-      href: Meadow_Basics/Networking/index.md
-    - name: Bluetooth
-      href: Meadow_Basics/Bluetooth/index.md
 - name: Meadow.Foundation
   href: Meadow.Foundation/index.md
   items:
