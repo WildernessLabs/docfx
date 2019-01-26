@@ -13,6 +13,8 @@ Install Visual Studio 2017. Visual Studio 2019 beta *should* work but isn't offi
 
 You'll need to ensure the **.NET Framework 4.7.1 development tools** are installed. To verify, run the Visual Studio Installer and click **Modify**. Under **Installation details**, expand **.NET desktop development** and ensure that **.NET Framework 4.7.1 development tools** is checked.
 
+![VS2017 Installer](./vs2017_install.png)
+
 ### macOS
 Install the lastest version of Visual Studio for Mac.
 

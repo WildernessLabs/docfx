@@ -1,7 +1,7 @@
 # Deploying a Meadow App (beta - WIP)
 
 To deploy an app to Meadow you'll need several things:
-1. A Linux virtual machine with st-util and gdb installed - see the Setup guide
+1. A Linux virtual machine with st-util and gdb installed - [see the Setup guide](../Setup/index.md).
 1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
 1. A copy of [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/meadow.core.dll)
 1. A .NET 4.7 console application that references Meadow.Core.dll
