@@ -1,6 +1,9 @@
-# Deploying a Meadow App (beta - WIP)
+# Deploying a Meadow test App
+
+To verify that your Meadow OS is installed correctly and everything is setup, you should deploy a known working test app.
 
 To deploy an app to Meadow you'll need several things:
+
 1. A Linux virtual machine with st-util and gdb installed - [see the Setup guide](../Setup/index.html).
 1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
 1. A copy of [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/meadow.core.dll)
