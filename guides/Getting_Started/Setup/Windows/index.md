@@ -19,6 +19,8 @@ http://downloads.wildernesslabs.co/Meadow_Beta/config.sh)** to the folder (worki
 
 Vagrant will automatically start your virtual machine. You can access your VM by entering 'vagrant ssh' from the command prompt.
 
+![VM initializing](./vm_start.png)
+
 ## Stop the VM
 1. If you're still connected to the VM via ssh, enter *exit* to return to the Windows Command Prompt.
 1. You can suspend the VM from the Command Prompt by entering **vagrant suspend**. 
