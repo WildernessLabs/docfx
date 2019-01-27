@@ -4,14 +4,16 @@ Before you deploy and run a Meadow application, you must flash the board with Me
 
 The Meadow OS is distributed in two files: **Meadow.bin** and **Meadow_Runtime.bin**.
 
-## dfu-util
+## Installing dfu-util
 
-We'll use the dfu-util app to flash the firmware files to Meadow. dfu-util is already installed in Meadow development virtual machine.
+We'll use the _dfu-util_ app to flash the firmware files to Meadow. dfu-util is already installed in Meadow development virtual machine.
 Alternatively, you can install it and run it locally from Windows, macOS or Linux.
+
+**Note:** If you're using the provided Linux VM, you can skip this step, as it's already installed.
 
 ### Windows
 
-You can download here: http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip 
+You can download from [Sourceforge](http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip).
 
 Extract the zip to a convenient location that you can access using the Command Prompt.
 
@@ -19,26 +21,33 @@ Extract the zip to a convenient location that you can access using the Command P
 
 For macOS, you'll need Brew. To install:
 
- 1. Open the terminal.
- * (Install Brew)[https://brew.sh/] if it isn't installed already.
- * Install dfu-util by entering the command **brew install dfu-util**
+ 1. Install [Brew](https://brew.sh/) if it isn't installed already.
+ * Open the terminal.
+ * Install _dfu-util_ by executing the command:
+  
+   ```bash
+   brew install dfu-util
+   ```
 
 ### Linux (Debian/Ubuntu)
 
-You can install Dfu-Util using the apt package manager.
+You can install dfu-util using the **apt** package manager.
 
  1. Open the terminal.
- * Enter **sudo apt-get install dfu-util**.
+ * Execute:
 
-Note: dfu-util is already installed in the provided Linux development VM.
+   ```bash
+   sudo apt-get install dfu-util
+   ```
 
 ## Bootloader Mode
 
 To update the OS, Meadow must be in bootloader mode. To enter bootloader mode:
 
- 1. Disconnect Meadow, including USB cables and the ST-Link
- * Hold down the **boot** button on Meadow
+ 1. Disconnect Meadow, including USB cables and the ST-Link.
+ * Hold down the **boot** button on Meadow.
  * With the boot button pressed, connect Meadow to your PC using a Micro USB cable. If you have a board with two microUSB ports, use the *primary* port, or the port *not* on the debug extension.
+ 
   ![Primary USB port](./primary_usb.png)
 
 ## Flashing Meadow
@@ -71,7 +80,7 @@ To flash Meadow to the board:
  * Note the serial number of your Meadow board.
  * Execute:
   
-   ```
+   ```bash
    dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow.bin -s 0x08000000 && dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow_Runtime.bin -s 0x08040000
    ```
    
@@ -82,9 +91,10 @@ Notes:
  * If you only have one dfu enabled device connected to your PC, you can omit the serial number.
  * Linux may require sudo to access USB devices.
  * The provided Linux VM requires sudo and should only have one dfu device - so the command would be:
- ``` 
- sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000
- ```
+
+   ```bash
+   sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000
+   ```
 
 You're now ready to deploy a C# applications to Meadow!
 
