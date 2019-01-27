@@ -69,3 +69,5 @@ Currently, Meadow is configured to run a .NET console app named **app.exe**. You
 1. Select **Options**
 1. Go to *Build -> Output*
 1. Change the **Assembly name** to **app**
+
+## [Next - Hello, World](/guides/Getting_Started/Hello_World/index.html)
