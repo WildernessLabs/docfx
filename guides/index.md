@@ -1,5 +1,11 @@
 # Welcome to the Meadow Guides
 
+Pardon our dust! Meadow is still an early beta project. Deployment is a bit tricky right now, and the docs are in progress, but things are getting better every day!
+
+Meadow OS issues can be filed at the Wilderness Labs [Meadow_Issues](https://github.com/WildernessLabs/Meadow_Issues) repo.
+
+Also, make sure to join the [Wilderness Labs Slack](http://slackinvite.wildernesslabs.co) to chat with us!
+
 ## Getting Started
 
 If you're just beginning, check out the [Getting Started](/guides/Getting_Started/index.html) walkthrough to get your development environment configured and deploy your first Meadow application:
