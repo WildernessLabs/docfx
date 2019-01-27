@@ -96,6 +96,6 @@ Notes:
    sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000
    ```
 
-You're now ready to deploy a C# applications to Meadow!
+You're now ready to deploy C# applications to Meadow!
 
 ## [Next - Deploy a Test App](/guides/Getting_Started/Deployment/index.html)
