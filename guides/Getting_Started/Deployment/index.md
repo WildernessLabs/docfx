@@ -39,4 +39,4 @@ The application may take several minutes to deploy. You'll now see periods appea
 1. Enter *quit* to close gdb
 1. st-util will continue listening on port 4242 - you can now update the application in the tmp folder and start restart gdp to deploy your new or updated app
 
-## [Next - Meadow Basics](/guides/Meadow_Basics/index.html)
+## [Next - Hello, World](/guides/Getting_Started/Hello_World/index.html)

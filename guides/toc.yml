@@ -16,6 +16,8 @@
       href: Getting_Started/Deploying_Meadow/index.md
     - name: Deploying an App
       href: Getting_Started/Deployment/index.md
+    - name: Hello, World
+      href: Getting_Started/Hello_World/index.md
     - name: Downloads
       href: Getting_Started/Downloads/index.md
 - name: Meadow Basics
