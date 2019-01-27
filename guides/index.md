@@ -7,6 +7,7 @@ If you're just beginning, check out the [Getting Started](/guides/Getting_Starte
  * [Set up your Build Environment](/guides/Getting_Started/Setup/index.html)
  * [Deploy Meadow OS](/guides/Getting_Started/Deploying_Meadow/index.html)
  * [Deploy a Sample Meadow App](/guides/Getting_Started/Deployment/index.html)
+ * [Hello, World](/guides/Getting_Started/Hello_World/index.html)
 
 ## Meadow Basics
 
