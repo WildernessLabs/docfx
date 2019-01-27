@@ -19,6 +19,9 @@
           "files": [
             "/**.csproj"
           ],
+          "exclude": [
+            "/Source/Samples/**"
+          ],
           "src": "../Meadow.Foundation"
         }
       ],
