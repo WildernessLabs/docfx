@@ -47,14 +47,18 @@ On Windows, you'll need to make the dfu-util.exe application accessible. You can
 1. Open the Command Prompt (Windows) or Terminal (macOS/Linux)
 1. Navigate to the folder the contains the meadow bin files
 1. Enter **dfu-util --list** to see a list of dfu enabled devices
-1. Note the serial number of your Meadow board
+
+![dfu-util --list (Windows)](./dfu_serial.png)
+Note - Meadow will show four (4) dfu devices when in bootloader mode. All four devices will have the same serial number.
+
+5. Note the serial number of your Meadow board
 1. Enter **dfu-util -a 0 -S DEVICE_SERIAL -D Meadow.bin -s 0x08000000 && dfu-util -a 0 -S DEVICE_SERIAL -D Meadow_Runtime.bin -s 0x08040000** replacing *DEVICE_SERIAL* with the serial number you found in the previous step
 
 Notes
-1. If you only have one dfu enabled device connected to your PC, you can omit the serial number 
-2. Linux may require sudo to access USB devices
-3. The provided Linux VM requires sudo and should only have one dfu device - so the command would be **sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000**
+* If you only have one dfu enabled device connected to your PC, you can omit the serial number 
+* Linux may require sudo to access USB devices
+* The provided Linux VM requires sudo and should only have one dfu device - so the command would be **sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000**
 
-You're now ready to deploy C# applications to Meadow!
+You're now ready to deploy a C# applications to Meadow!
 
 ## [Next - Deploying an App](/guides/Getting_Started/Deployment/index.html)
