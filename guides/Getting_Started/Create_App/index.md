@@ -1,6 +1,6 @@
 # Create a new Meadow app
 
-Meadow applications are .NET Framework 4.7.1 console applications. To access the GPIO and Meadow-specific features, your project needs to reference the Meadow.Core library which is avaliable from NuGet.
+Meadow applications are .NET Framework 4.7.1 console applications. To access the GPIO and Meadow-specific features, your project needs to reference the Meadow.Core library which is available from NuGet.
 
 ## Prerequisites
 
@@ -16,8 +16,7 @@ You'll need to ensure the **.NET Framework 4.7.1 development tools** are install
 ![VS2017 Installer](./vs2017_install.png)
 
 ### macOS
-Install the lastest version of Visual Studio for Mac.
-
+Install the latest version of Visual Studio for Mac.
 
 ## Create a new project
 ### Windows
