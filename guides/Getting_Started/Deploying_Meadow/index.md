@@ -31,6 +31,7 @@ To update the OS, Meadow must be in bootloader mode. To enter bootloader mode:
 1. Disconnect Meadow, including USB cables and the ST-Link
 1. Hold down the **boot** button on Meadow
 1. With the boot button pressed, connect Meadow to your PC using a Micro USB cable. If you have a board with two microUSB ports, use the *primary* port, or the port *not* on the debug extension.
+![Primary USB port](./primary_usb.png)
 
 ## Flashing Meadow
 To flash Meadow, you'll need dfu-util installed and you'll need a microUSB cable.
