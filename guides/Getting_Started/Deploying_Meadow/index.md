@@ -1,6 +1,6 @@
 # Deploying Meadow OS
 
-Before you deploy and run a Meadow application, you must flash the board with Meadow OS.
+Before you deploy and run a Meadow application, you must flash the board with Meadow OS. This step only needs to be done once per update of Meadow OS.
 
 The Meadow OS is distributed in two files: **Meadow.bin** and **Meadow_Runtime.bin**.
 
@@ -8,8 +8,6 @@ The Meadow OS is distributed in two files: **Meadow.bin** and **Meadow_Runtime.b
 
 We'll use the _dfu-util_ app to flash the firmware files to Meadow. dfu-util is already installed in Meadow development virtual machine.
 Alternatively, you can install it and run it locally from Windows, macOS or Linux.
-
-**Note:** If you're using the provided Linux VM, you can skip this step, as it's already installed.
 
 ### Windows
 
@@ -20,7 +18,6 @@ Extract the zip to a convenient location that you can access using the Command P
 ### macOS
 
 For macOS, you'll need Brew. To install:
-
  1. Install [Brew](https://brew.sh/) if it isn't installed already.
  * Open the terminal.
  * Install _dfu-util_ by executing the command:
@@ -56,7 +53,7 @@ To flash Meadow, you'll need _dfu-util_ installed and you'll need a microUSB cab
 
 The instructions are essentially the same on all supported platforms (Windows, macOS, Linux).
 
-On Windows, you'll need to make the `dfu-util.exe` application accessible. You can either:
+On Windows, you'll need to make the `dfu-util.exe` executable accessible. You can either:
 
  1. Add it's location to the PATH.
   
