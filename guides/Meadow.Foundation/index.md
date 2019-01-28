@@ -1,4 +1,4 @@
-# Meadow.Foundation
+![Meadow.Foundation Logo](Meadow.Foundation_Logo.svg)
 
 Meadow.Foundation greatly simplifies the task of building connected things with Meadow, by providing a unified driver and library framework that includes drivers and abstractions for common peripherals such as sensors, displays, motors, and more. Additionally, it includes utility functions and helpers for common tasks when building connected things.
 
@@ -28,14 +28,14 @@ public class HelloBlinky
 }
 ```
 
-### [Get Started](/guides/Meadow.Foundation/Getting_Started/index.html)
+**[Get Started with Netduino Foundation](/guides/Meadow.Foundation/Getting_Started/index.html)**
 
 ## Huge Peripheral Driver Library
 
 Meadow.Foundation has built in support for most common sensors, motors, and other peripherals available on the market.
 
-### [See the full list](/guides/Meadow.Foundation/Peripherals/index.html)
+**[See the full peripheral list](/guides/Meadow.Foundation/Peripherals/index.html)**
 
 ## Powerful Frameworks and Libraries
 
-### [See the full list](/guides/Meadow.Foundation/Libraries_and_Frameworks/index.html)
+**[See the full list](/guides/Meadow.Foundation/Libraries_and_Frameworks/index.html)**
