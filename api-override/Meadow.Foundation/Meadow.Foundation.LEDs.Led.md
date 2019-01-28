@@ -25,7 +25,7 @@ namespace LedSample
         public static void Main()
         {
             // create a new Led on pin 8
-            var led = new Netduino.Foundation.LEDs.Led(N.Pins.GPIO_PIN_D8);
+            var led = new Meadow.Foundation.LEDs.Led(Device.Pins.D08);
 
             while(true)
             {
