@@ -1,5 +1,33 @@
 # macOS Setup
 
-The macOS setup instructions are almost identical to the Windows instructions. You'll use the macOS terminal in place of the Windows Command Prompt.
+To configure your Mac you'll install several tools.
 
-You can follow [the Windows instructions here](/guides/Getting_Started/Setup/Windows/index.html).
+## Install Brew
+First, verify that you have [Brew package manager for macOS](https://brew.sh) installed.
+
+1. Open the terminal
+1. Run the following command: 
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Install Brew packages
+
+We need two Brew packages installed, **arm-ggc-bin** and **dfu-util**. To install, run the following commands:
+```
+brew install osx-cross/arm/arm-gcc-bin
+brew install dfu-install
+```
+
+## Download ST-Link
+We have a custom version of the open-sorouce st-tools developed by [ST](https://www.st.com).
+
+[Download ST-tools](http://downloads.wildernesslabs.co/Meadow_Beta/STLink.zip), unzip if needed (macOS will do this by default) and save to a convenient location.
+
+## Vagrant (Optional)
+
+We recommend installing the tools directly as described above. If you run into issues, you can alternatively use the provided prebuilt virtual machine. This requires you install Vagrant and VirualBox.
+
+You can follow [the Windows instructions](/guides/Getting_Started/Setup/Windows/index.html); you'll use the macOS terminal in place of the Windows Command Prompt.
+
+.
