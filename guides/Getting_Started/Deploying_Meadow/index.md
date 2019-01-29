@@ -17,6 +17,8 @@ Extract the zip to a convenient location that you can access using the Command P
 
 ### macOS
 
+If you followed the (macOS Setup guide)[/guides/Getting_Started/Setup/macos/index.html], you're all set. Otherwise follow the steps below.
+
 For macOS, you'll need Brew. To install:
  1. Install [Brew](https://brew.sh/) if it isn't installed already.
  * Open the terminal.
@@ -53,7 +55,7 @@ To flash Meadow, you'll need _dfu-util_ installed and you'll need a microUSB cab
 
 The instructions are essentially the same on all supported platforms (Windows, macOS, Linux).
 
-On Windows, you'll need to make the `dfu-util.exe` executable accessible. You can either:
+On **Windows**, you'll need to make the `dfu-util.exe` executable accessible. You can either:
 
  1. Add it's location to the PATH.
   

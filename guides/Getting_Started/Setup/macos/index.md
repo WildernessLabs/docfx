@@ -30,4 +30,4 @@ We recommend installing the tools directly as described above. If you run into i
 
 You can follow [the Windows instructions](/guides/Getting_Started/Setup/Windows/index.html); you'll use the macOS terminal in place of the Windows Command Prompt.
 
-.
+## [Next - Deploy Meadow OS](/guides/Getting_Started/Deploying_Meadow/index.html)
