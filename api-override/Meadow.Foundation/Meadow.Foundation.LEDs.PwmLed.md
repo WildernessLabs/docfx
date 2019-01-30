@@ -3,8 +3,6 @@ uid: Meadow.Foundation.LEDs.PwmLed
 remarks: *content
 ---
 
-##This driver is not fully implemented yet.
-
 Represents an LED whose voltage (and brightness) is controlled by the duty-cycle of a PWM signal. Can be used both with LEDs that have been current limited with in-series resistors, or LEDs without resistors.
 
 Controlling an LED via a PWM signal is more power efficient than using a current-limiting resistor, and it provides more control; allowing multiple grades of brightness. However, it uses a PWM channel.

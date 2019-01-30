@@ -3,8 +3,6 @@ uid: Meadow.Foundation.Sensors.Buttons.PushButton
 remarks: *content
 ---
 
-##This driver is not fully implemented yet.
-
 The PushButton class represents a simple push button, such as a tactile momentary button. To get notified when it’s clicked, subscribe to the Clicked event. If you need to know when the button is held down, subscribe to the PressStarted and PressEnded events.
 
 ---
