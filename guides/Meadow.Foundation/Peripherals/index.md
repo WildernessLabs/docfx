@@ -28,44 +28,44 @@ The peripherals are split into two groups; the first group is general, core peri
 
 #### Buttons
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [PushButton](/API/Sensors/Buttons/PushButton)       | Simple push-button. |
 
 #### Rotary Encoders
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [RotaryEncoder](/API/Sensors/Rotary/RotaryEncoder)  | A simple rotary encoder. |
 | [RotaryEncoderWithButton](/API/Sensors/Rotary/RotaryEncoderWithButton)  | A rotary encoder that includes a push button. |
 
 #### Switches
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [SpstSwitch](/API/Sensors/Switches/SpstSwitch)      | A simple single-pole, single-throw (SPST), switch. |
 | [DipSwitch](/API/Sensors/Switches/DipSwitch)        | A multi-pole dip switch. |
 
 #### Temperature
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [AnalogTemperature](/API/Sensors/Temperature/Analog)      | Analog temperature sensor (TMP35 / TMP36 / TMP37 / LM35) |
 
 ## Additional Peripherals
 
 ### Integrated Circuits (ICs)
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [74595 Shift Register](/Library/ICs/74595)          | 74595 shift register for digital output expansion. |
 | [AT24Cxx EEPROMS](/Library/ICs/EEPROM/AT24Cxx)      | AT24Cxx Family of EEPROMs including AT24C32. |
 | [DS323x RTCs](/Library/RTCs/DS323x)                 | Real Time Clock modules. |
 
 ### Display and Graphics Drivers
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [GraphicsLibrary](/Library/Displays/GraphicsLibrary) | General purpose graphics library. |
 | [MicroLiquidCrystal library](/Library/Displays/MicroLiquidCrystal) | I2C/SPI LCD Library. |
 | [Serial LCD](/Library/Displays/SerialLCD)            | SparkFun serial LCD backpack driver.|
@@ -75,8 +75,8 @@ The peripherals are split into two groups; the first group is general, core peri
 
 #### Atmospheric (Temperature, Humidity, Barometer, Altitude) Sensors
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [BME280](/Library/Sensors/Atmospheric/BME280)      | Combined I2C/SPI temperature, humidity, and pressure sensor. |
 | BMP085                    | In development |
 | DS18B20                   | In development |
@@ -91,28 +91,28 @@ The peripherals are split into two groups; the first group is general, core peri
 
 #### Distance Sensors
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | SharpGP2D12               | In Development |
 
 #### GPS Sensors & Libraries
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [NMEA GPS Decoder](/Library/Sensors/GPS/NMEA)      | Generic GPS sentence decoder library. |
 
 #### Light Sensors
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [ALS-PT19](/Library/Sensors/Light/ALSPT19315C)     | Analog light sensor. |
 | [SI1145](/Library/Sensors/Light/SI1145)            | I2C infrared, ultraviolet, and ambient light sensor. |
 | [TSL2561](/Library/Sensors/Light/TSL2561)          | I2C infrared-compensated light sensor. |
 
 #### Motion and Orientation Sensors
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [ADXL335](/Library/Sensors/Motion/ADXL335)         | Analog triple axis, +/-3g accelerometer. |
 | [ADXL345](/Library/Sensors/Motion/ADXL345)         | I2C triple axis accelerometer, +/-16g accelerometer. |
 | ADXL362 Accelerometer     | In Development |
@@ -127,14 +127,14 @@ The peripherals are split into two groups; the first group is general, core peri
 
 ### Shields
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | Adafruit Motor Shield     | In Development |
 | SparkFun Weather Shield   | In Development |
 
 ### Servos
 
-| Peripheral                | Description                         |
-|---------------------------|-------------------------------------|
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
 | [ServoCore](/Library/ServoCore/)                | Generic servo library. |
 
