@@ -30,7 +30,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [PushButton](/API/Sensors/Buttons/PushButton)       | Simple push-button. |
+| @"Meadow.Foundation.Sensors.Buttons.PushButton" | Simple push-button. |
 
 #### Rotary Encoders
 
@@ -43,8 +43,9 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [SpstSwitch](/API/Sensors/Switches/SpstSwitch)      | A simple single-pole, single-throw (SPST), switch. |
-| [DipSwitch](/API/Sensors/Switches/DipSwitch)        | A multi-pole dip switch. |
+| @"Meadow.Foundation.Sensors.Switches.SpstSwitch" | A simple single-pole, single-throw (SPST) switch. |
+| @"Meadow.Foundation.Sensors.Switches.SpdtSwitch" | A simple single-pole, dual-throw (SPDT) switch. |
+| @"Meadow.Foundation.Sensors.Switches.DipSwitch" | A multi-pole dip switch. |
 
 #### Temperature
 
