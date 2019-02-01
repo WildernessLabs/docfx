@@ -21,7 +21,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [Relay](/API/Relays/Relay) | Electrically isolated switch. | Yes | |
+| @"Meadow.Foundation.Relays.Relay" | Electrically isolated switch. | Yes | |
 
 ### Sensors
 
