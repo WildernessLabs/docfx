@@ -26,7 +26,16 @@ namespace PwmLedSample
 {
     public class Program
     {
+        static IApp _app; 
         public static void Main()
+        {
+            _app = new App();
+        }
+    }
+
+    public class App : AppBase<F7Micro, App>
+    {
+        public App()
         {
             // create a new PwmLed on pin 8
             var pwmLed = new Meadow.Foundation.LEDs.PwmLed(

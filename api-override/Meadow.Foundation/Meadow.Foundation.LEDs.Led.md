@@ -28,6 +28,7 @@ namespace LedSample
             _app = new App();
         }
     }
+    
     public class App : AppBase<F7Micro, App>
     {
         public App ()
