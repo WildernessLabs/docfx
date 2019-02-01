@@ -23,6 +23,7 @@ The following example code loops through the entire 360º of hue spectrum and di
 ```csharp
 using System.Threading;
 using Meadow;
+using Meadow.Foundation.LEDs;
 
 namespace PwmLedSample
 {
@@ -40,10 +41,10 @@ namespace PwmLedSample
         public App()
         {
             // create a new RgbPwmLed on pin 8
-            var pwmLed = new Meadow.Foundation.LEDs.RgbPwmLed(
-                redPin: N.PWMChannels.PWM_PIN_D11, // RED
-                greenPin: N.PWMChannels.PWM_PIN_D10, // GREEN
-                bluePin: N.PWMChannels.PWM_PIN_D9,  // BLUE
+            var pwmLed = new RgbPwmLed(
+                redPin: Device.Pins.D11,
+                greenPin: Device.Pins.D10,
+                bluePin: Device.Pins.D09,
                 redLedForwardVoltage: 1.05f,
                 greenLedForwardVoltage: 1.5f,
                 blueLedForwardVoltage: 1.5f);

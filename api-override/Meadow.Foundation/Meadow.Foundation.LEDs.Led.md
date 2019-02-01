@@ -17,6 +17,7 @@ The following example shows how to turn on and off the LED using the `IsOn` prop
 ```csharp
 using System.Threading;
 using Meadow;
+using Meadow.Foundation.LEDs;
 
 namespace LedSample
 {
@@ -34,7 +35,7 @@ namespace LedSample
         public App ()
         {
             // create a new Led on pin 8
-            var led = new Meadow.Foundation.LEDs.Led(Device.Pins.D08);
+            var led = new Led(Device.Pins.D08);
 
             while(true)
             {
