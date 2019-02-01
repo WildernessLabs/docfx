@@ -22,7 +22,15 @@ namespace LedSample
 {
     public class Program
     {
+        static IApp _app; 
         public static void Main()
+        {
+            _app = new App();
+        }
+    }
+    public class App : AppBase<F7Micro, App>
+    {
+        public App ()
         {
             // create a new Led on pin 8
             var led = new Meadow.Foundation.LEDs.Led(Device.Pins.D08);
