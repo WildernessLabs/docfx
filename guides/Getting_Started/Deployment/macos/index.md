@@ -6,7 +6,7 @@ To deploy an app to Meadow you'll need several things:
 
 1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
 1. A copy of [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/meadow.core.dll)
-1. A .NET 4.7 console application that references Meadow.Core.dll (your app) - to validate your setup, you can download the provided sample [app.exe](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/ap.exe)
+1. A .NET 4.7.1 console application that references Meadow.Core.dll (your app) - to validate your setup, you can download the provided sample [app.exe](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/ap.exe)
 
 ## Setup
 
@@ -15,7 +15,7 @@ To deploy an app to Meadow you'll need several things:
 
 
 ## Prepare your app for deployment
-1. Compile your .NET 4.7 console app in Visual Studio for Mac
+1. Compile your .NET 4.7.1 console app in Visual Studio for Mac
 1. Copy **app.exe**, **Meadow.Core.dll** from the **bin** folder of your project into into the **/tmp** root folder on your mac (hint - use *Finder -> Go -> Go to Folder...*)
 We've provided sample binaries for you to deploy. You can download a compiled app.exe and Meadow.Core.dll using the links below and copy them to your **/tmp** folder.
  * [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/Meadow.Core.dll)
@@ -34,7 +34,7 @@ We've provided sample binaries for you to deploy. You can download a compiled ap
 
 ## Start the application
 1. Open a second terminal
-1. Enter `gdb` to start a gdb debug session (no debug symbols are currently available)
+1. Enter `arm-none-eabi-gdb` to start a gdb debug session (no debug symbols are currently available)
 1. From the gdb prompt, enter `target remote :4242`
 1. Enter `c` to start the application
 
