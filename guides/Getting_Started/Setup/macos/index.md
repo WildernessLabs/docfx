@@ -5,22 +5,25 @@ To configure your Mac you'll install several tools.
 ## Install Brew
 First, verify that you have [Brew package manager for macOS](https://brew.sh) installed.
 
-1. Open the terminal
-1. Run the following command: 
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+ 1. Open the terminal
+ 1. Run the following command:
+   
+   ```bash
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   ```
 
 ## Install Brew packages
 
 We need two Brew packages installed, **arm-ggc-bin** and **dfu-util**. To install, run the following commands:
-```
+
+```bash
 brew install osx-cross/arm/arm-gcc-bin
 brew install dfu-install
 ```
 
 ## Download ST-Link
-We have a custom version of the open-sorouce st-tools developed by [ST](https://www.st.com).
+
+We have a custom version of the open-source st-tools developed by [ST](https://www.st.com).
 
 [Download ST-tools](http://downloads.wildernesslabs.co/Meadow_Beta/STLink.zip), unzip if needed (macOS will do this by default) and save to a convenient location.
 
