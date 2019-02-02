@@ -19,11 +19,11 @@ And because they’re not rotation bound, they are especially useful in the case
 
 For this reason, rotary encoders are particularly useful in connected things, in which parameters might be controlled remotely.
 
-##Two-bit Gray Code
+###Two-bit Gray Code
 
 This rotary encoder driver works with most rotary encoders which return a two-bit Gray Code which is the minimum number of bits necessary to describe direction. Most common rotary encoders use two-bit Gray Code, so this driver should work with most common rotary encoders.
 
-##PushButton
+###PushButton
 
 Some rotary encoders, such as the ones pictured above, have an integrated push button. This driver exposes that button as a PushButton via the Button property.
 
