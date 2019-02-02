@@ -23,8 +23,13 @@ The peripherals are split into two groups; the first group is general, core peri
 |------------------|-------------|---------------------|-----------------------------------|
 | @"Meadow.Foundation.Relays.Relay" | Electrically isolated switch. | Yes | |
 
-### Sensors
+### Speakers
 
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
+| @"Meadow.Foundation.Audio.PiezoSpeaker" | A 2 pin piezo-electric speaker capable of generating tones. | | |
+
+### Sensors
 
 #### Buttons
 
