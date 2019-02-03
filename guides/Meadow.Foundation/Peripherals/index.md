@@ -17,6 +17,12 @@ The peripherals are split into two groups; the first group is general, core peri
 | @"Meadow.Foundation.LEDs.PwmLed" | Pulse-Width-Modulation powered LED. | | Blocked on PWM |  
 | @"Meadow.Foundation.LEDs.RgbPwmLed" | Pulse-Width-Modulation powered RGB LED. | | |
 
+### Motors
+
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
+| @"Meadow.Foundation.Motors.HBridgeMotor" | Generic h-bridge motor controller. | | |
+
 ### Relays
 
 | Driver           | Description | Tested Working      | Notes                             |
