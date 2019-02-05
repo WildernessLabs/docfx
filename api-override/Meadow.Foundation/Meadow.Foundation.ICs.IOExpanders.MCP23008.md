@@ -1,5 +1,5 @@
 ---
-uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
 remarks: *content
 ---
 
@@ -48,7 +48,7 @@ In addition to the address pins, there are a number of other pins that must be c
  * **VSS** and **VDD** - These go to ground and 3.3V power, respectively, and power the chip.
 
 ---
-uid: Meadow.Foundation.ICs.IOExpanders.MCP23008
+uid: Meadow.Foundation.ICs.IOExpanders.MCP23008.MCP23008
 example: [*content]
 ---
 

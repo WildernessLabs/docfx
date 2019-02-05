@@ -70,7 +70,8 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [74595 Shift Register](/Library/ICs/74595)          | 74595 shift register for digital output expansion. |
+| @"Meadow.Foundation.ICs.IOExpanders.x74595" | 74595 shift register for digital output expansion. |
+| @"Meadow.Foundation.ICs.IOExpanders.MCP23008" | MCP23008 for digital output expansion. |
 | [AT24Cxx EEPROMS](/Library/ICs/EEPROM/AT24Cxx)      | AT24Cxx Family of EEPROMs including AT24C32. |
 | [DS323x RTCs](/Library/RTCs/DS323x)                 | Real Time Clock modules. |
 
