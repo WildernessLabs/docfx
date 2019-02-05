@@ -106,6 +106,8 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
+| @"Meadow.Foundation.Sensors.Distance.HCSR04" | HCSR04 distance sensor. |
+| @"Meadow.Foundation.Sensors.Distance.HYSRF05" | HYSRF05 distance sensor. |
 | SharpGP2D12               | In Development |
 
 #### GPS Sensors & Libraries
