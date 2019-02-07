@@ -3,7 +3,11 @@ uid: Meadow.Foundation.Audio.PiezoSpeaker
 remarks: *content
 ---
 
-Piezo speakers (or piezoelectric speaker) is a loudspeaker that uses the piezoelectric effect for generating sound. The initial mechanical motion is created by applying a voltage to a piezoelectric material, and this motion is typically converted into audible sound using diaphragms and resonators.
+The PiezoSpeaker class represents a simple piezo speaker that can be used to generate tones across a range of frequencies. They typically perform well between 1-5kHz but may go as high as 100kHz. Implements IToneGenerator.
+
+The positive pin of the piezo speaker connects to a PWM capable pin on the Netduino and the negative pin connects to common/ground. A resistor can be placed in-line to reduce volume.
+
+![](/API_Assets/Meadow.Foundation.Audio.PiezoSpeaker/Piezo_Speakers.png)
 
 ---
 uid: Meadow.Foundation.Audio.PiezoSpeaker
