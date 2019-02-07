@@ -64,6 +64,12 @@ The peripherals are split into two groups; the first group is general, core peri
 |------------------|-------------|---------------------|-----------------------------------|
 | @"Meadow.Foundation.Sensors.Temperature.AnalogTemperature" | Analog temperature sensor (TMP35 / TMP36 / TMP37 / LM35) |
 
+#### Hall Effect
+
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
+| @"Meadow.Foundation.Sensors.HallEffect.LinearHallEffectTachometer" | Hall Effect Linear Tachometer sensor. | | |
+
 ## Additional Peripherals
 
 ### Integrated Circuits (ICs)
