@@ -13,9 +13,10 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.LEDs.Led" | Pulse-Width-Modulation powered LED. | Yes    | |
+| @"Meadow.Foundation.LEDs.Led" | Simple LED. | Yes    | |
 | @"Meadow.Foundation.LEDs.PwmLed" | Pulse-Width-Modulation powered LED. | | Blocked on PWM |  
-| @"Meadow.Foundation.LEDs.RgbPwmLed" | Pulse-Width-Modulation powered RGB LED. | | |
+| @"Meadow.Foundation.LEDs.RgbPwmLed" | Pulse-Width-Modulation powered RGB LED. | | Blocked on PWM |
+| @"Meadow.Foundation.LEDs.SegmentedLedBar" | Generic segmented LED bar. | | |
 
 ### Motors
 
