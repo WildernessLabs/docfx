@@ -73,23 +73,28 @@ The peripherals are split into two groups; the first group is general, core peri
 
 ## Additional Peripherals
 
-### Integrated Circuits (ICs)
-
-| Driver           | Description | Tested Working      | Notes                             |
-|------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.ICs.IOExpanders.x74595" | 74595 shift register for digital output expansion. |
-| @"Meadow.Foundation.ICs.IOExpanders.MCP23008" | MCP23008 for digital output expansion. |
-| [AT24Cxx EEPROMS](/Library/ICs/EEPROM/AT24Cxx)      | AT24Cxx Family of EEPROMs including AT24C32. |
-| [DS323x RTCs](/Library/RTCs/DS323x)                 | Real Time Clock modules. |
-
 ### Display and Graphics Drivers
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [GraphicsLibrary](/Library/Displays/GraphicsLibrary) | General purpose graphics library. |
-| [MicroLiquidCrystal library](/Library/Displays/MicroLiquidCrystal) | I2C/SPI LCD Library. |
-| [Serial LCD](/Library/Displays/SerialLCD)            | SparkFun serial LCD backpack driver.|
-| [SSD1306](/Library/Displays/SSD1306)                 | SSD1306 OLED Display.  Currently supports 128x64 and 128x32 pixel I2C displays. |
+| [Graphics Library](/api/Meadow.Foundation/Meadow.Foundation.Displays.GraphicsLibrary.html) | General purpose graphics library. |
+| [Lcd2004](/api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.Lcd2004.html) | LCD display | | |
+| [Seven Segment Display](/api/Meadow.Foundation/Meadow.Foundation.Displays.LCD.Lcd2004.html) | Seven Segment Display | | |
+| [PCD8544](/api/Meadow.Foundation/Meadow.Foundation.Displays.PCD8544.html) | PCD8544 LCD driver (Nokia 5110) | | |
+| [Serial LCD](/api/Meadow.Foundation/Meadow.Foundation.Displays.SerialLCD.html) | SparkFun serial LCD backpack driver.|
+| [SSD1306](/api/Meadow.Foundation/Meadow.Foundation.Displays.SSD1306.html) | SSD1306 OLED Display.  Currently supports 128x64 and 128x32 pixel I2C displays. |
+| [Text Display Menu](/api/Meadow.Foundation/Meadow.Foundation.Displays.TextDisplayMenu.html) | Text Display Menu for LCD displays. |
+| [TFTSPI](/api/Meadow.Foundation/Meadow.Foundation.Displays.html) | Thin Film Transistor (TFT) SPI Library. |
+| [WaveShare ePaper](/api/Meadow.Foundation/Meadow.Foundation.Displays.html) | Electronic paper display. |
+
+### Integrated Circuits (ICs)
+
+| Driver           | Description | Tested Working      | Notes                             |
+|------------------|-------------|---------------------|-----------------------------------|
+| [AT24Cxx EEPROMS](/api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.AT24Cxx.html) | AT24Cxx Family of EEPROMs including AT24C32. |
+| @"Meadow.Foundation.ICs.IOExpanders.x74595" | 74595 shift register for digital output expansion. |
+| @"Meadow.Foundation.ICs.IOExpanders.MCP23008" | MCP23008 for digital output expansion. |
+| [DS323x RTCs](/api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.html)                 | Real Time Clock modules. |
 
 ### Sensors
 
