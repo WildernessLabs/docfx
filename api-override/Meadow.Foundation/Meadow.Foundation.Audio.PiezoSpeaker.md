@@ -5,9 +5,9 @@ remarks: *content
 
 The PiezoSpeaker class represents a simple piezo speaker that can be used to generate tones across a range of frequencies. They typically perform well between 1-5kHz but may go as high as 100kHz. Implements IToneGenerator.
 
-The positive pin of the piezo speaker connects to a PWM capable pin on the Netduino and the negative pin connects to common/ground. A resistor can be placed in-line to reduce volume.
+The positive pin of the piezo speaker connects to a PWM capable pin on the Meadow and the negative pin connects to common/ground. A resistor can be placed in-line to reduce volume.
 
-![](/API_Assets/Meadow.Foundation.Audio.PiezoSpeaker/Piezo_Speakers.png)
+![](/API_Assets/Meadow.Foundation.Audio.PiezoSpeaker/img_PiezoSpeaker.jpg)
 
 ---
 uid: Meadow.Foundation.Audio.PiezoSpeaker
