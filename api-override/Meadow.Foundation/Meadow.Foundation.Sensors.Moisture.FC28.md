@@ -49,7 +49,7 @@ namespace FC28_Sample
             while (true)
             {
                 float moisture = await _FC28.Read();
-                Console.WriteLine($"Moisture: {moisture}");
+                Console.WriteLine($"Moisture: {0}", moisture);
                 Thread.Sleep(1000);
             }
         }

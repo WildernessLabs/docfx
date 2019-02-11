@@ -49,7 +49,7 @@ namespace Capacitive_Sample
             while (true)
             {
                 float moisture = await _Capacitive.Read();
-                Console.WriteLine($"Moisture: {moisture}");
+                Console.WriteLine($"Moisture: {0}", moisture);
                 Thread.Sleep(1000);
             }
         }
