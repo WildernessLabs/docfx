@@ -5,7 +5,7 @@ remarks: *content
 
 Represents a DIP-switch wired in a bus configuration, in which all switches are terminated to the same ground/common or high pin.
 
-![](DIP_Switches.jpg)
+![](/API_Assets/Meadow.Foundation.Sensors.Switches.DipSwitch/DIP_Switches.jpg)
 
 ---
 uid: Meadow.Foundation.Sensors.Switches.DipSwitch
@@ -17,7 +17,7 @@ using Meadow;
 using System.Threading;
 using Meadow.Foundation.Sensors.Switches;
 
-namespace Meadow.Foundation.Core.Samples
+namespace DipSwitch_Sample
 {
     public class Program
     {
@@ -33,10 +33,10 @@ namespace Meadow.Foundation.Core.Samples
         public void App()
         {
             var dipSwitch = new DipSwitch(IDigitalPin[] {
-                Device.Pins.D01, Device.Pins.D02, 
-                Device.Pins.D03, Device.Pins.D04, 
                 Device.Pins.D05, Device.Pins.D06, 
-                Device.Pins.D07, Device.Pins.D08,  },
+                Device.Pins.D07, Device.Pins.D08, 
+                Device.Pins.D09, Device.Pins.D10, 
+                Device.Pins.D11, Device.Pins.D12,  },
                 CircuitTerminationType.CommonGround);
 
             dipSwitch.Changed += (object s, ArrayEventArgs e) =>
@@ -50,3 +50,7 @@ namespace Meadow.Foundation.Core.Samples
     }
 }
 ```
+
+##### Example Circuit
+
+![](/API_Assets/Meadow.Foundation.Sensors.Switches.DipSwitch/DipSwitch.svg)
