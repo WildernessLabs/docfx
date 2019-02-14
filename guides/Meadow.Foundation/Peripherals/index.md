@@ -156,7 +156,7 @@ The peripherals are split into two groups; the first group is general, core peri
 | [MAG3110](/Library/Sensors/Motion/MAG3110)         | I2C three axis magnetometer. |
 | Memsic2125                | In Development |
 | MPU6050                   | In Development |
-| [Parallax PIR](/Library/Sensors/Motion/ParallaxPIR)| Parallax PIR Rev B digital motion detector. |
+| @"Meadow.Foundation.Sensors.Motion.ParallaxPIR" | Parallax PIR Rev B digital motion detector. |
 
 ### Shields
 
