@@ -91,7 +91,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [AT24Cxx EEPROMS](/api/Meadow.Foundation/Meadow.Foundation.ICs.EEPROM.AT24Cxx.html) | AT24Cxx Family of EEPROMs including AT24C32. |
+| @"Meadow.Foundation.ICs.EEPROM.AT24Cxx" | AT24Cxx Family of EEPROMs including AT24C32. |
 | @"Meadow.Foundation.ICs.IOExpanders.x74595"                                         | 74595 shift register for digital output expansion. |
 | @"Meadow.Foundation.ICs.IOExpanders.MCP23008"                                       | MCP23008 for digital output expansion.           |
 | [DS323x RTCs](/api/Meadow.Foundation/Meadow.Foundation.RTCs.DS323x.html)            | Real Time Clock modules. |
@@ -109,7 +109,7 @@ The peripherals are split into two groups; the first group is general, core peri
 | HTU21DF                                            | In development |
 | [SHT31D](/Library/Sensors/Atmospheric/SHT31D)      | Combined I2C temperature and humidity sensor. |
 | [SiI7021](/Library/Sensors/Atmospheric/SI7021)     | Combined I2C temperature and humidity sensor. |
-| [MPL115A2](/Library/Sensors/Barometric/MPL115A2)   | MPL115A2 Barometric sensor. |
+| @"Meadow.Foundation.Sensors.Barometric.MPL115A2"   | MPL115A2 Barometric sensor. |
 | [MPL3115A2](/Library/Sensors/Barometric/MPL3115A2) | MPL3115A2 Barometric sensor. |
 | [DS18B20](/Library/Sensors/Temperature/TMP102)     | DS18B20 temperature sensor. |
 | [TMP102](/Library/Sensors/Temperature/TMP102)      | TMP102 temperature sensor. |
