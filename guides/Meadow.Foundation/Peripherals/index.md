@@ -110,7 +110,7 @@ The peripherals are split into two groups; the first group is general, core peri
 | [SHT31D](/Library/Sensors/Atmospheric/SHT31D)      | Combined I2C temperature and humidity sensor. |
 | [SiI7021](/Library/Sensors/Atmospheric/SI7021)     | Combined I2C temperature and humidity sensor. |
 | @"Meadow.Foundation.Sensors.Barometric.MPL115A2"   | MPL115A2 Barometric sensor. |
-| [MPL3115A2](/Library/Sensors/Barometric/MPL3115A2) | MPL3115A2 Barometric sensor. |
+| @"Meadow.Foundation.Sensors.Barometric.MPL3115A2"  | MPL3115A2 Barometric sensor. |
 | [DS18B20](/Library/Sensors/Temperature/TMP102)     | DS18B20 temperature sensor. |
 | [TMP102](/Library/Sensors/Temperature/TMP102)      | TMP102 temperature sensor. |
 
