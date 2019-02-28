@@ -147,15 +147,12 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| [ADXL335](/Library/Sensors/Motion/ADXL335)         | Analog triple axis, +/-3g accelerometer. |
-| [ADXL345](/Library/Sensors/Motion/ADXL345)         | I2C triple axis accelerometer, +/-16g accelerometer. |
-| ADXL362 Accelerometer     | In Development |
-| [BNO055](/Library/Sensors/Motion/BNO055)           | I2C 9-Axis absolute orientation sensor. |
-| FXAS21002                 | In Development |
-| FXOS8700CQ                | In Development |
-| [MAG3110](/Library/Sensors/Motion/MAG3110)         | I2C three axis magnetometer. |
-| Memsic2125                | In Development |
-| MPU6050                   | In Development |
+| @"Meadow.Foundation.Sensors.Motion.ADXL335" | Analog triple axis, +/-3g accelerometer. |
+| @"Meadow.Foundation.Sensors.Motion.ADXL345" | I2C triple axis accelerometer, +/-16g accelerometer. |
+| @"Meadow.Foundation.Sensors.Motion.ADXL362" | In Development |
+| @"Meadow.Foundation.Sensors.Motion.BNO055" | I2C 9-Axis absolute orientation sensor. |
+| @"Meadow.Foundation.Sensors.Motion.FXAS21002" | In Development |
+| @"Meadow.Foundation.Sensors.Motion.MAG3110" | I2C three axis magnetometer. |
 | @"Meadow.Foundation.Sensors.Motion.ParallaxPIR" | Parallax PIR Rev B digital motion detector. |
 
 ### Shields
