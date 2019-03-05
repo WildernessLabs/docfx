@@ -151,7 +151,6 @@ The peripherals are split into two groups; the first group is general, core peri
 | @"Meadow.Foundation.Sensors.Motion.ADXL345" | I2C triple axis accelerometer, +/-16g accelerometer |
 | @"Meadow.Foundation.Sensors.Motion.ADXL362" | In Development |
 | @"Meadow.Foundation.Sensors.Motion.BNO055" | I2C 9-Axis absolute orientation sensor |
-| @"Meadow.Foundation.Sensors.Motion.FXAS21002" | In Development |
 | @"Meadow.Foundation.Sensors.Motion.MAG3110" | I2C three axis magnetometer |
 | @"Meadow.Foundation.Sensors.Motion.ParallaxPIR" | Parallax PIR Rev B digital motion detector |
 
