@@ -77,7 +77,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Displays.GraphicsLibrary"        | General purpose graphics library |
+| @"Meadow.Foundation.Graphics.GraphicsLibrary"        | General purpose graphics library |
 | @"Meadow.Foundation.Displays.LCD.Lcd2004"            | LCD display | | |
 | @"Meadow.Foundation.Displays.LED.SevenSegment"       | Seven Segment Display | | |
 | @"Meadow.Foundation.Displays.PCD8544"                | PCD8544 LCD driver (Nokia 5110) | | |
