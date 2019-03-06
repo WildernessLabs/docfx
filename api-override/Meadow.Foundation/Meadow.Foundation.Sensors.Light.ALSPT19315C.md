@@ -3,7 +3,7 @@ uid: Meadow.Foundation.Sensors.Light.ALSPT19315C
 remarks: *content
 ---
 
-This library and documentation is currently under development.
+The ALS-PT19-315C is a low cost ambient light sensor, consisting of phototransistor in miniature SMD.
 
 ## Purchasing
 
@@ -18,7 +18,7 @@ uid: Meadow.Foundation.Sensors.Light.ALSPT19315C
 example: [*content]
 ---
 
-The following application reads the sensor output voltage once per scond and outputs the result on the Console.WriteLineger console:
+The following application reads the sensor output voltage once per second and outputs the result on the output console:
 
 ```csharp
 using System.Threading;
