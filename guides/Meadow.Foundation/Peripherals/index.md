@@ -103,10 +103,8 @@ The peripherals are split into two groups; the first group is general, core peri
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
 | @"Meadow.Foundation.Sensors.Atmospheric.BME280"      | Combined I2C/SPI temperature, humidity, and pressure sensor |
-| @"Meadow.Foundation.Sensors.Atmospheric.BMP085"      | In development |
-| @"Meadow.Foundation.Sensors.Atmospheric.GroveTH02"   | In development |
+| @"Meadow.Foundation.Sensors.Atmospheric.GroveTH02"   | Grove TH02 temperature and humidity sensor |
 | @"Meadow.Foundation.Sensors.Atmospheric.HIH6130"     | Combined I2C temperature and humidity sensor |
-| @"Meadow.Foundation.Sensors.Atmospheric.HTU21DF"     | In development |
 | @"Meadow.Foundation.Sensors.Atmospheric.SHT31D"      | Combined I2C temperature and humidity sensor |
 | @"Meadow.Foundation.Sensors.Atmospheric.SI7021"      | Combined I2C temperature and humidity sensor |
 | @"Meadow.Foundation.Sensors.Barometric.MPL115A2"     | MPL115A2 Barometric sensor |
@@ -118,7 +116,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Sensors.Distance.HCSR04" | HCSR04 distance sensor |
+| @"Meadow.Foundation.Sensors.Distance.HCSR04"  | HCSR04 distance sensor |
 | @"Meadow.Foundation.Sensors.Distance.HYSRF05" | HYSRF05 distance sensor |
 
 #### GPS Sensors & Libraries
@@ -140,17 +138,17 @@ The peripherals are split into two groups; the first group is general, core peri
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
 | @"Meadow.Foundation.Sensors.Moisture.Capacitive" | Capacitive Soil Moisture Sensor |
-| @"Meadow.Foundation.Sensors.Moisture.FC28" | FC-28 Soil Moisture Sensor |
+| @"Meadow.Foundation.Sensors.Moisture.FC28"       | FC-28 Soil Moisture Sensor |
 
 #### Motion and Orientation Sensors
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Sensors.Motion.ADXL335" | Analog triple axis, +/-3g accelerometer |
-| @"Meadow.Foundation.Sensors.Motion.ADXL345" | I2C triple axis accelerometer, +/-16g accelerometer |
-| @"Meadow.Foundation.Sensors.Motion.ADXL362" | In Development |
-| @"Meadow.Foundation.Sensors.Motion.BNO055" | I2C 9-Axis absolute orientation sensor |
-| @"Meadow.Foundation.Sensors.Motion.MAG3110" | I2C three axis magnetometer |
+| @"Meadow.Foundation.Sensors.Motion.ADXL335"     | Analog triple axis, +/-3g accelerometer |
+| @"Meadow.Foundation.Sensors.Motion.ADXL345"     | I2C triple axis accelerometer, +/-16g accelerometer |
+| @"Meadow.Foundation.Sensors.Motion.ADXL362"     | I2C ultralow power, 3-axis MEMS accelerometer |
+| @"Meadow.Foundation.Sensors.Motion.BNO055"      | I2C 9-Axis absolute orientation sensor |
+| @"Meadow.Foundation.Sensors.Motion.MAG3110"     | I2C three axis magnetometer |
 | @"Meadow.Foundation.Sensors.Motion.ParallaxPIR" | Parallax PIR Rev B digital motion detector |
 
 ### Servos
