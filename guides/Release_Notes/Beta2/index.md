@@ -2,6 +2,8 @@
 
 ## New Features
 
+### Device-Centric API
+
 ### Analog Input
 
 ### Notifications + `IObservable` Reactive Pattern
