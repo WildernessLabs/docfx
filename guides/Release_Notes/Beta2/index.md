@@ -64,6 +64,12 @@ var ledPort = mcp.CreateDigitalOutputPort(mcp.Pins.D04);
 
 This provides a more intuitive mental map of the hardware and also simplifies the IO control under the hood.
 
+### New Meadow Samples Repo
+
+It occurred to us recently that our Meadow core samples were locked behind a source code auth wall. Not anymore! We've moved them to their own repo at [github.com/WildernessLabs/Meadow_Samples](http://github.com/WildernessLabs/Meadow_Samples).
+
+Check them out and see how to use the new APIs!
+
 ### Analog Input
 
 In the process we’ve got Analog inputs up, and we’re in the process or wiring up the Digital Input Events, as well as our new `IObservable`/Reactive pattern.
