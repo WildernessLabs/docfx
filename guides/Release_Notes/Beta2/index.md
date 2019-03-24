@@ -72,6 +72,8 @@ Check them out and see how to use the new APIs!
 
 ### Analog Input
 
+It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors.Temperature.AnalogTemperature), because we've got analog input!
+
 In the process we’ve got Analog inputs up, and we’re in the process or wiring up the Digital Input Events, as well as our new `IObservable`/Reactive pattern.
 
 
@@ -92,5 +94,6 @@ In the process we’ve got Analog inputs up, and we’re in the process or wirin
 
 ## Known Issues
 
-* [Tasks Behave Strangely](https://github.com/WildernessLabs/Meadow_Issues/issues/2) - Workaround is to use `Thread`, as seen in the [Basic_Threading](https://github.com/WildernessLabs/Meadow.Core/tree/master/source/Tests/Basic_Threading) sample app.
+* `DebounceDuration` and `GlitchFilterCycleCount` are not implemented in `DigitalInputPort`. These are coming soon.
+* [Tasks Behave Strangely](https://github.com/WildernessLabs/Meadow_Issues/issues/2) - Workaround is to use `Thread`, as seen in the [Basic_Threading](https://github.com/WildernessLabs/Meadow_Samples/blob/master/Source/MeadowSamples/Basic_Threading/ThreadingApp.cs) sample app.
 * [`Debug.Write` calls don't output to the console](https://github.com/WildernessLabs/Meadow_Issues/issues/3) - Workaround is to use `Console.Write` calls.
