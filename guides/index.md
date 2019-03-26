@@ -23,6 +23,11 @@ Then continue on to the [Meadow Basics](/guides/Meadow_Basics/index.html) guides
  * [App Fundamentals](/guides/Meadow_Basics/Apps/index.html)
  * [Input/Output (IO)](/guides/Meadow_Basics/IO/index.html)
 
+### Roadmap + Release Notes
+
+ * [Roadmap](/guides/Release_Notes/Roadmap/index.html)
+ * [Release Notes](/guides/Release_Notes/index.html)
+
 ## Meadow.Foundation
 
 Finally, check out [Meadow.Foundation](/guides/Meadow.Foundation/index.html) to learn how it can greatly simplify building connected things.
