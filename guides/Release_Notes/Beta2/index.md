@@ -87,6 +87,8 @@ In the process we’ve got Analog inputs up, and we’re in the process or wirin
 
 ### Eventing Peripherals
 
+@"Meadow.Foundation.Sensors.Buttons.PushButton"
+
 
 ## Fixed Bugs
 
