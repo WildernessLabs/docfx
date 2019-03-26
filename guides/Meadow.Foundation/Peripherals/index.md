@@ -42,7 +42,7 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Sensors.Buttons.PushButton" | Simple push-button | | |
+| @"Meadow.Foundation.Sensors.Buttons.PushButton" | Simple push-button | Yes | |
 
 #### Rotary Encoders
 
