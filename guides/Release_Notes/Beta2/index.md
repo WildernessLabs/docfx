@@ -61,6 +61,61 @@ var ledPort = mcp.CreateDigitalOutputPort(mcp.Pins.D04);
 
 This provides a more intuitive mental map of the hardware and also simplifies the IO control under the hood.
 
+### Interrupts, Notifications + `IObservable`/Reactive Pattern
+
+Another big part of this release is that we got interrupts to propagate properly from the OS kernel to the Meadow runtime. The upshot is that events now work, so when a change occurs on `DigitalInputPort`, the `Changed` event is called properly. This also unlocked a lot of Meadow.Foundation peripheral drivers that we were able to implement.
+
+Here is a simple example of using an input `Changed` event:
+
+```csharp
+public class ButtonEventsApp : AppBase<F7Micro, ButtonEventsApp>
+{
+    IDigitalInputPort _input;
+
+    public ButtonEventsApp()
+    {
+        _input = Device.CreateDigitalInputPort(Device.Pins.D02, InterruptMode.EdgeBoth, debounceDuration: 20);
+        _input.Changed += Input_Changed;
+    }
+
+    private void Input_Changed(object sender, DigitalInputPortEventArgs e)
+    {
+        Console.WriteLine("Changed: " + e.Value.ToString() + ", Time: " + e.Time.ToString());
+    }
+}
+```
+
+#### `IObservable`/Reactive Pattern
+
+However, we didn't stop with just traditional events. We also added `System.IObservable` support, along with a `FilterableObserver` that allows you to subscribe to an observable, with an optional filter on the events, as well as a handler shortcut. Consider the following code:
+
+```csharp
+public class InputObservableApp : AppBase<F7Micro, InputObservableApp>
+{
+    IDigitalInputPort _input;
+
+    public InputObservableApp()
+    {
+        // create an input port on D02. 
+        _input = Device.CreateDigitalInputPort(Device.Pins.D02);
+
+        // Note that the filter is an optional parameter. If you're
+        // interested in all notifications, don't pass a filter/predicate.
+        _input.Subscribe(new FilterableObserver<DigitalInputPortEventArgs>(
+            e => {
+                Console.WriteLine($"Observer Observing the Observable, Observably speaking, Time: {e.Time.Millisecond}, Value: {e.Value}");
+            },
+            f => {
+                return (f.Time - f.PreviousTime > new TimeSpan(0, 0, 0, 0, 1000));
+            }));
+    }
+}
+```
+
+In the case of the code above, it uses a `FilterableObserver` to filter out events that occur less than a second after the last notification.
+
+However, the `Subscribe` method will take any `IObservable`, so you can also use whatever Reactive pattern and framework you choose.
+
 ### New Meadow Samples Repo
 
 It occurred to us recently that our Meadow core samples were locked behind a source code auth wall. Not anymore! We've moved them to their own repo at [github.com/WildernessLabs/Meadow_Samples](http://github.com/WildernessLabs/Meadow_Samples).
@@ -70,10 +125,6 @@ Check them out and see how to use the new APIs!
 ### Analog Input
 
 It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors.Temperature.AnalogTemperature), because we've got analog input! Ok, well, maybe not _quite_ yet. ;) The API is there, and none of it will crash, but the readings aren't quite right. We debated publishing this as is, but you can at least build against it, as long as you ignore the bogus values.
-
-### Interrupts, Notifications + `IObservable` Reactive Pattern
-
-
 
 
 ## New Meadow.Foundation Features
