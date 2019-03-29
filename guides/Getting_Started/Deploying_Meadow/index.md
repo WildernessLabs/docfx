@@ -60,10 +60,10 @@ On **Windows**, you'll need to make the `dfu-util.exe` executable accessible. Yo
  1. Add it's location to the PATH.
   
    **OR**
- * Copy `dfu-util.exe` and `libusb.dll` to your working folder
+ * Copy `dfu-util.exe` and `libusb.dll` to your working folder.
   
    **OR**
- * Use a full qualified path when launching dfu-util (e.g. `c:\Meadow\dfu-util-0.9-win64\dfu-util.exe`)
+ * Use a full qualified path when launching dfu-util. (e.g. `c:\Meadow\dfu-util-0.9-win64\dfu-util.exe`)
 
 To flash Meadow to the board:
 
@@ -87,9 +87,9 @@ To flash Meadow to the board:
 
 Notes:
 
- * If you only have one dfu enabled device connected to your PC, you can omit the serial number.
+ * If you only have one dfu enabled device connected to your PC, you can omit -S [DEVICE_SERIAL].
  * Linux may require sudo to access USB devices.
- * The provided Linux VM requires sudo and should only have one dfu device - so the command would be:
+ * The provided Linux VM requires sudo and should only have one dfu device so the command would be:
 
    ```bash
    sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000

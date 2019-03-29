@@ -3,21 +3,20 @@
 Meadow applications are basically just .NET console applications. In fact, for now, to create a new Meadow application, you'll create a regular console application and in `static void Main`, launch a [`Meadow.IApp`](xref:Meadow.IApp):
 
 ```csharp
-using System;
+using System.Threading;
 using Meadow;
 
 namespace HelloLED
 {
-
     class MainClass
     {
-        static IApp _app;
+        static IApp app;
 
         static void Main(string[] args)
         {
-            // instantiate and run new meadow app
-            _app = new LEDApp();
-            _app.Run();
+            // instantiate new meadow app
+            app = new LEDApp();
+            Thread.Sleep(Timeout.Infinite);
         }
     }
 }
@@ -83,9 +82,9 @@ namespace HelloLED
 {
     class LEDApp : AppBase<F7Micro, LEDApp>
     {
-        private DigitalOutputPort _redLED;
-        private DigitalOutputPort _blueLED;
-        private DigitalOutputPort _greenLED;
+        private DigitalOutputPort redLED;
+        private DigitalOutputPort blueLED;
+        private DigitalOutputPort greenLED;
 
         public override void Run()
         {
@@ -95,9 +94,9 @@ namespace HelloLED
 
         public void CreateOutputs()
         {
-            _redLED = new DigitalOutputPort(Device.Pins.OnboardLEDRed, false);
-            _blueLED = new DigitalOutputPort(Device.Pins.OnboardLEDBlue, false);
-            _greenLED = new DigitalOutputPort(Device.Pins.OnboardLEDGreen, false);
+            redLED = new DigitalOutputPort(Device.Pins.OnboardLEDRed, false);
+            blueLED = new DigitalOutputPort(Device.Pins.OnboardLEDBlue, false);
+            greenLED = new DigitalOutputPort(Device.Pins.OnboardLEDGreen, false);
         }
 
         public void ShowLights()
@@ -110,11 +109,11 @@ namespace HelloLED
 
                 Console.WriteLine($"State: {state}");
 
-                _redLED.State = state;
+                redLED.State = state;
                 Thread.Sleep(200);
-                _greenLED.State = state;
+                greenLED.State = state;
                 Thread.Sleep(200);
-                _blueLED.State = state;
+                blueLED.State = state;
                 Thread.Sleep(200);
             }
         }
