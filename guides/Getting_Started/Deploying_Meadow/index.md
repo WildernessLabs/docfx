@@ -2,7 +2,7 @@
 
 Before you deploy and run a Meadow application, you must flash the board with Meadow OS. This step only needs to be done once per update of Meadow OS.
 
-The Meadow OS is distributed in two files: **Meadow.bin** and **Meadow_Runtime.bin**.
+The Meadow OS is distributed in two files: **Meadow.OS_Kernel.bin** and **Meadow.OS_Runtime.bin**.
 
 ## Installing dfu-util
 
