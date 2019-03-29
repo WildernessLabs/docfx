@@ -61,7 +61,7 @@ var ledPort = mcp.CreateDigitalOutputPort(mcp.Pins.D04);
 
 This provides a more intuitive mental map of the hardware and also simplifies the IO control under the hood.
 
-### Interrupts, Notifications + `IObservable`/Reactive Pattern
+### Interrupts & Events/Notifications
 
 Another big part of this release is that we got interrupts to propagate properly from the OS kernel to the Meadow runtime. The upshot is that events now work, so when a change occurs on `DigitalInputPort`, the `Changed` event is called properly. This also unlocked a lot of Meadow.Foundation peripheral drivers that we were able to implement.
 
@@ -74,7 +74,7 @@ public class ButtonEventsApp : AppBase<F7Micro, ButtonEventsApp>
 
     public ButtonEventsApp()
     {
-        _input = Device.CreateDigitalInputPort(Device.Pins.D02, InterruptMode.EdgeBoth, debounceDuration: 20);
+        _input = Device.CreateDigitalInputPort(Device.Pins.D02, debounceDuration: 20);
         _input.Changed += Input_Changed;
     }
 
@@ -87,7 +87,7 @@ public class ButtonEventsApp : AppBase<F7Micro, ButtonEventsApp>
 
 #### `IObservable`/Reactive Pattern
 
-However, we didn't stop with just traditional events. We also added `System.IObservable` support, along with a `FilterableObserver` that allows you to subscribe to an observable, with an optional filter on the events, as well as a handler shortcut. Consider the following code:
+However, we didn't stop with just traditional events. We also added `System.IObservable` support, along with a [`FilterableObserver`](xref:Meadow.FilterableObserver) that allows you to subscribe to an observable, with an optional filter on the events, as well as a handler shortcut. Consider the following code:
 
 ```csharp
 public class InputObservableApp : AppBase<F7Micro, InputObservableApp>
@@ -129,13 +129,9 @@ It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors
 
 ## New Meadow.Foundation Features
 
-### SoftPwm
+Meadow.Foundation got quite a few more core [peripheral drivers](/guides/Meadow.Foundation/Peripherals/index.html) added, as well as a few non-core drivers.
 
-### Analog Peripherals
-
-### Eventing Peripherals
-
-@"Meadow.Foundation.Sensors.Buttons.PushButton"
+We'll be releasing additional Meadow.Foundation updates out-of-band from the beta releases, so make sure to check the [peripheral drivers list page](/guides/Meadow.Foundation/Peripherals/index.html) for updates often, and update your nuget packages.
 
 
 ## Fixed Bugs
@@ -144,7 +140,7 @@ It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors
 
 ## Known Issues
 
-* [`AnalogInputPort`](https://github.com/WildernessLabs/Meadow_Issues/issues/7) readings are not right.
+* [`AnalogInputPort`](https://github.com/WildernessLabs/Meadow_Issues/issues/7) readings are not correct.
 * [Internal PullUp and PullDown resistors are not working in `DigitalInputPort`](https://github.com/WildernessLabs/Meadow_Issues/issues/6) - Workaround is to use an external `10k` resistor as illustrated [here](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/)
 * `GlitchFilterCycleCount` is not implemented in `DigitalInputPort`. This is coming soon.
 * [Tasks Behave Strangely](https://github.com/WildernessLabs/Meadow_Issues/issues/2) - Workaround is to use `Thread`, as seen in the [Basic_Threading](https://github.com/WildernessLabs/Meadow_Samples/blob/master/Source/MeadowSamples/Basic_Threading/ThreadingApp.cs) sample app.
