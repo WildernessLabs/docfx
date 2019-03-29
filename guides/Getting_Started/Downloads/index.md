@@ -13,5 +13,4 @@
  * [Sample App](http://downloads.wildernesslabs.co/Meadow_Beta/app.exe)
 
 ## Meadow OS
-* [Meadow.bin](http://downloads.wildernesslabs.co/Meadow_Beta/Meadow.bin)
-* [Meadow_Runtime.bin](http://downloads.wildernesslabs.co/Meadow_Beta/Meadow_Runtime.bin)
+* [Meadow OS](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/MeadowOS.zip)  
