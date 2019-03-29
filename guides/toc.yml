@@ -42,3 +42,10 @@
       href: Meadow.Foundation/Peripherals/index.md
     - name: Libraries and Frameworks
       href: Meadow.Foundation/Libraries_and_Frameworks/index.md
+- name: Release Notes & Roadmap
+  href: Release_Notes/index.md
+  items:
+    - name: Beta2
+    - href: Release_Notes/Beta2/index.html
+    - name: Roadmap
+    - href: Release_Notes/Roadmap/index.html

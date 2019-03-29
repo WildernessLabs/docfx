@@ -5,21 +5,23 @@
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
-| Basic Digital IO | Yes. | Output, Input, no interrupts. |
-| PWM              | | Blocked on interrupts. |
-| Serial (UART)    | | Blocked on interrupts. |
-| I2C              | | Blocked on interrupts. |
-| SPI              | | Blocked on interrupts. |
-| CAN              | | Blocked on interrupts. |
+| Basic Digital IO | Yes. | |
+| Analog           | Yes, with caveat. | Returning invalid values. |
+| PWM              | | In Progress |
+| Serial (UART)    | | Planned |
+| I2C              | | Planned |
+| SPI              | | Planned |
+| CAN              | | Planned |
 | DAC              | | Not implemented. |
 
 ## Working GPIO Ports
 
 | Feature          | Tested Working      | Notes                             |
 |------------------|---------------------|-----------------------------------|
+| @"Meadow.Hardware.AnalogInputPort" | Yes, see notes. | Returning invalid values. |
 | @"Meadow.Hardware.DigitalOutputPort" | Yes | |
-| @"Meadow.Hardware.DigitalInputPort" | Yes, no interrupts. | Interrupts blocked. |
-| @"Meadow.Hardware.BiDirectionalPort" | Yes, no interrupts. | Interrupts blocked. |
+| @"Meadow.Hardware.DigitalInputPort" | Yes | |
+| @"Meadow.Hardware.BiDirectionalPort" | Yes | |
 
 ## Communications
 

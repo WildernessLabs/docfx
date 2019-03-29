@@ -4,7 +4,7 @@
 
 [Vagrant](https://www.vagrantup.com), this guide was written for version 2.2.3
 
-[VirtualBox](https://www.virtualbox.org), the guide was written for version 6.0
+[VirtualBox](https://www.virtualbox.org), this guide was written for version 6.0
 
 ### Windows only
 
