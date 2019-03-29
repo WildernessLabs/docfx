@@ -7,8 +7,8 @@ The steps in this guide have been tested on Ubunutu 18.10 and should work on any
 To deploy an app to Meadow you'll need several things:
 
 1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
-1. A copy of [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/meadow.core.dll)
-1. A .NET 4.7.1 console application that references Meadow.Core.dll (your app) - to validate your setup, you can download the provided sample [app.exe](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/app.exe)
+1. A copy of [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/meadow.core.dll)
+1. A .NET 4.7.1 console application that references Meadow.Core.dll (your app) - to validate your setup, you can download the provided sample [app.exe](http://downloads.wildernesslabs.co/Meadow_Beta/app.exe)
 
 ## Setup
 
