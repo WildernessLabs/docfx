@@ -69,12 +69,12 @@ Check them out and see how to use the new APIs!
 
 ### Analog Input
 
-It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors.Temperature.AnalogTemperature), because we've got analog input!
-
-In the process we’ve got Analog inputs up, and we’re in the process or wiring up the Digital Input Events, as well as our new `IObservable`/Reactive pattern.
-
+It's time to break out your [analog temp sensors](xref:Meadow.Foundation.Sensors.Temperature.AnalogTemperature), because we've got analog input! Ok, well, maybe not _quite_ yet. ;) The API is there, and none of it will crash, but the readings aren't quite right. We debated publishing this as is, but you can at least build against it, as long as you ignore the bogus values.
 
 ### Interrupts, Notifications + `IObservable` Reactive Pattern
+
+
+
 
 ## New Meadow.Foundation Features
 
@@ -93,6 +93,7 @@ In the process we’ve got Analog inputs up, and we’re in the process or wirin
 
 ## Known Issues
 
+* AnalogInputPort readings are not right.
 * [Internal PullUp and PullDown resistors are not working in `DigitalInputPort`](https://github.com/WildernessLabs/Meadow_Issues/issues/6) - Workaround is to use an external `10k` resistor as illustrated [here](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/)
 * `GlitchFilterCycleCount` is not implemented in `DigitalInputPort`. This is coming soon.
 * [Tasks Behave Strangely](https://github.com/WildernessLabs/Meadow_Issues/issues/2) - Workaround is to use `Thread`, as seen in the [Basic_Threading](https://github.com/WildernessLabs/Meadow_Samples/blob/master/Source/MeadowSamples/Basic_Threading/ThreadingApp.cs) sample app.
