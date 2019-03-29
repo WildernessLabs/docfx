@@ -46,6 +46,6 @@
   href: Release_Notes/index.md
   items:
     - name: Beta2
-    - href: Release_Notes/Beta2/index.md
+    - href: Release_Notes/Beta2/index.html
     - name: Roadmap
-    - href: Release_Notes/Roadmap/index.md
+    - href: Release_Notes/Roadmap/index.html
