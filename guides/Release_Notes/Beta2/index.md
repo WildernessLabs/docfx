@@ -96,6 +96,7 @@ In the process we’ve got Analog inputs up, and we’re in the process or wirin
 
 ## Known Issues
 
-* `DebounceDuration` and `GlitchFilterCycleCount` are not implemented in `DigitalInputPort`. These are coming soon.
+* [Internal PullUp and PullDown resistors are not working in `DigitalInputPort`](https://github.com/WildernessLabs/Meadow_Issues/issues/6) - Workaround is to use an external `10k` resistor as illustrated [here](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/)
+* `GlitchFilterCycleCount` is not implemented in `DigitalInputPort`. This is coming soon.
 * [Tasks Behave Strangely](https://github.com/WildernessLabs/Meadow_Issues/issues/2) - Workaround is to use `Thread`, as seen in the [Basic_Threading](https://github.com/WildernessLabs/Meadow_Samples/blob/master/Source/MeadowSamples/Basic_Threading/ThreadingApp.cs) sample app.
 * [`Debug.Write` calls don't output to the console](https://github.com/WildernessLabs/Meadow_Issues/issues/3) - Workaround is to use `Console.Write` calls.
