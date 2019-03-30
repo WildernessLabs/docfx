@@ -25,7 +25,7 @@ brew install dfu-install
 
 We have a custom version of the open-source st-tools developed by [ST](https://www.st.com).
 
-[Download ST-tools](http://downloads.wildernesslabs.co/Meadow_Beta/STLink.zip), unzip if needed (macOS will do this by default) and save to a convenient location.
+[Download ST Utils](http://downloads.wildernesslabs.co/Meadow_Beta/STLink.zip), unzip if needed (macOS will do this by default) and save to a convenient location.
 
 ## Vagrant (Optional)
 
