@@ -82,9 +82,9 @@ namespace HelloLED
 {
     class LEDApp : AppBase<F7Micro, LEDApp>
     {
-        private DigitalOutputPort redLED;
-        private DigitalOutputPort blueLED;
-        private DigitalOutputPort greenLED;
+        private IDigitalOutputPort redLED;
+        private IDigitalOutputPort blueLED;
+        private IDigitalOutputPort greenLED;
 
         public override void Run()
         {
@@ -94,9 +94,9 @@ namespace HelloLED
 
         public void CreateOutputs()
         {
-            redLED = new DigitalOutputPort(Device.Pins.OnboardLEDRed, false);
-            blueLED = new DigitalOutputPort(Device.Pins.OnboardLEDBlue, false);
-            greenLED = new DigitalOutputPort(Device.Pins.OnboardLEDGreen, false);
+            redLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDRed);
+            blueLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDBlue);
+            greenLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDGreen);
         }
 
         public void ShowLights()
