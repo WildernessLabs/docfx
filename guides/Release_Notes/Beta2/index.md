@@ -2,6 +2,12 @@
 
 ## New Core Features
 
+### Meadow Core Now Published as a Nuget Package
+
+Meadow is now published as a [Nuget package](https://www.nuget.org/packages/Meadow/), so you don't have to manually reference the dll.
+
+To use it, your application must target .NET 4.7.2.
+
 ### New IO APIs
 
 One of the big things we’ve been working on is a major rewrite of how IO is handled between the underlying OS and Mono (the managed runtime) where we’ve been able to simplify a lot of the underpinning there and make it much more efficient. 
