@@ -7,10 +7,10 @@
 |------------------|---------------------|-----------------------------------|
 | Basic Digital IO | Yes. | |
 | Analog           | Yes, with caveat. | Returning invalid values. |
-| PWM              | | In Progress |
+| PWM              | | In Progress. SoftPwmPort available in Meadow.Foundation as a low-speed workaround for now. |
 | Serial (UART)    | | Planned |
 | I2C              | | Planned |
-| SPI              | | Planned |
+| SPI              | | Planned. SoftSpi available as a workaround for now. |
 | CAN              | | Planned |
 | DAC              | | Not implemented. |
 
