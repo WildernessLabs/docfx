@@ -1,6 +1,6 @@
 # Hello, World
 
-Meadow applications are just familiar .NET Framework 4.7.1 console applications. To access the GPIO and Meadow-specific features, your project references the **Meadow.Core** library.
+Meadow applications are just familiar .NET Framework 4.7.2 console applications. To access the GPIO and Meadow-specific features, your project references the **Meadow.Core** library.
 
 Let's create a new Meadow app!
 
@@ -14,7 +14,7 @@ You can use any edition including Enterprise, Professional, or the free Communit
 
 Install Visual Studio 2017. Visual Studio 2019 beta *should* work but isn't officially supported yet. 
 
-You'll need to ensure the **.NET Framework 4.7.1 development tools** are installed. To verify, run the Visual Studio Installer and click **Modify**. Under **Installation details**, expand **.NET desktop development** and ensure that **.NET Framework 4.7.1 development tools** is checked.
+You'll need to ensure the **.NET Framework 4.7.2 development tools** are installed. To verify, run the Visual Studio Installer and click **Modify**. Under **Installation details**, expand **.NET desktop development** and ensure that **.NET Framework 4.7.2 development tools** is checked.
 
 ![VS2017 Installer](vs2017_install.png)
 
@@ -29,7 +29,7 @@ Install the latest version of Visual Studio for Mac.
  1. Open Visual Studio.
  * Create a new Project: *File -> New -> Project...*.
  * Choose the **Console App (.NET Framework)** C# template.
- * Choose an app name, a location, and set the framework to **4.7.1**, and press **OK**.
+ * Choose an app name, a location, and set the framework to **4.7.2**, and press **OK**.
 
 ### macOS
 
@@ -44,23 +44,23 @@ Install the latest version of Visual Studio for Mac.
  1. Control-click or right-click on the project in the Solution Explorer.
  * Select **Options**.
  * Go to *Build -> General*.
- * Set the **Target framework:* to *.NET Framework 4.7.1*.
+ * Set the **Target framework:* to *.NET Framework 4.7.2*.
  * Press **OK**.
 
-## Add the Meadow.Core NuGet package
+## Add the Meadow NuGet package
 
 ### Windows
 
  1. Right-click on the project in the Solution Explorer.
  * Select *Manage Nuget Packages...*.
- * In the **Browse** tab, search for **Meadow.Core**.
+ * In the **Browse** tab, search for **Meadow**.
  * Click the **Install** button to add the Nuget package to your project.
 
 ### macOS
 
  1. Control-click or right-click on the project in the Solution Explorer.
  * Select *Add -> Add Nuget Packages...*.
- * Search for **Meadow.Core**.
+ * Search for **Meadow**.
  * Check the package in the search results and press **Add Package**.
 
 ## Set the App assembly name
@@ -98,6 +98,7 @@ Wilderness Labs recommends placing your logic in an application class that's ins
   ```csharp
   using Meadow;
   using Meadow.Devices;
+  using Meadow.Hardware;
 
   namespace HelloLED
   {
@@ -117,7 +118,7 @@ Wilderness Labs recommends placing your logic in an application class that's ins
 
 ## Control the Onboard LED
 
-Now we'll add fields to control the onboard leds and toggle them off and on periodically.
+Now we'll add fields to control the onboard LED and toggle its red, green, and blue components off and on periodically.
 
  1. Add three (3) fields of type `DigitalOutputPort` named `redLed`, `greenLed`, and `blueLed`.
  * In the `InitializeHardware method, instantiate each output port using `Device.Pins` to reference the onboard internal pins to control each color of the led:
@@ -130,9 +131,9 @@ Now we'll add fields to control the onboard leds and toggle them off and on peri
 
   void InitializeHardware()
   {
-      redLed = new DigitalOutputPort(Device.Pins.OnboardLEDRed, false);
-      blueLed = new DigitalOutputPort(Device.Pins.OnboardLEDBlue, false);
-      greenLed = new DigitalOutputPort(Device.Pins.OnboardLEDGreen, false);
+    redLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDRed);
+    blueLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDBlue);
+    greenLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDGreen);
   }
   ```
 
@@ -209,7 +210,7 @@ You're now ready to build and deploy your Meadow app.
 
  1. Build the application.
  * Using Finder or the File Explorer, navigate to the folder that contains your application.
- * Open the **bin->Debug** folder, you should see **app.exe** and **Meadow.Core.dll** - you'll need both to deploy your app to Meadow.
+ * Open the **bin->Debug** folder, you should see **app.exe** and some **\*.dll** files; you'll need both to deploy your app to Meadow.
  * Follow the (Deployment instructions here)[../Deployment/index.html] to deploy your app.
 
 
