@@ -42,22 +42,22 @@ The peripherals are split into two groups; the first group is general, core peri
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Sensors.Buttons.PushButton" | Simple push-button | Yes | Requires external PU/PD resistor |
+| @"Meadow.Foundation.Sensors.Buttons.PushButton" | Simple push-button | Yes | Requires external [PU/PD resistor](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/) |
 
 #### Rotary Encoders
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
 | @"Meadow.Foundation.Sensors.Rotary.RotaryEncoder" | A simple rotary encoder | Yes | |
-| @"Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton" | A rotary encoder that includes a push button | Yes | Requires external PU/PD resistor |
+| @"Meadow.Foundation.Sensors.Rotary.RotaryEncoderWithButton" | A rotary encoder that includes a push button | Yes | Requires external [PU/PD resistor](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/) |
 
 #### Switches
 
 | Driver           | Description | Tested Working      | Notes                             |
 |------------------|-------------|---------------------|-----------------------------------|
-| @"Meadow.Foundation.Sensors.Switches.SpstSwitch" | A simple single-pole, single-throw (SPST) switch | Yes | Requires external PU/PD resistor |
+| @"Meadow.Foundation.Sensors.Switches.SpstSwitch" | A simple single-pole, single-throw (SPST) switch | Yes | Requires external [PU/PD resistor](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/) |
 | @"Meadow.Foundation.Sensors.Switches.SpdtSwitch" | A simple single-pole, dual-throw (SPDT) switch | Yes | |
-| @"Meadow.Foundation.Sensors.Switches.DipSwitch"  | A multi-pole dip switch | Yes | Requires external PU/PD resistor |
+| @"Meadow.Foundation.Sensors.Switches.DipSwitch"  | A multi-pole dip switch | Yes | Requires external [PU/PD resistor](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/Part4/PullUp_PullDown_Resistors/) |
 
 #### Temperature
 
