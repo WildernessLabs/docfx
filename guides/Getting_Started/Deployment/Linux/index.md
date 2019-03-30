@@ -7,8 +7,8 @@ The steps in this guide have been tested on Ubunutu 18.x and should work on any 
 To deploy an app to Meadow you'll need several things:
 
 
-1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll).
-1. A .NET 4.7.2 console application that references the Meadow nuget package - to validate your setup, you can download the provided sample [app.exe](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/ap.exe).
+1. A copy of [mscorlib.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/mscorlib.dll).
+1. A .NET 4.7.2 console application that references the Meadow nuget package - to validate your setup, you can download the provided sample [app](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/HelloMeadow.zip).
 
 ## Setup
 
@@ -17,10 +17,10 @@ To deploy an app to Meadow you'll need several things:
 
 
 ## Prepare your app for deployment
-1. Copy the provided **app.exe**, **Meadow.Core.dll**, and **mscorlib.dll** into into the **/tmp** root folder on your Linux PC: 
- * [Meadow.Core.dll](http://downloads.wildernesslabs.co/Meadow_Beta/Meadow.Core.dll)
- * [Sample App](http://downloads.wildernesslabs.co/Meadow_Beta/app.exe)
- * [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
+1. Copy the provided **app files** and **mscorlib.dll** into into the **/tmp** root folder on your Linux PC.
+We've provided sample binaries for you to deploy. You can download a compiled app using the links below and copy them to your **/tmp** folder.
+ * [Sample App](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/HelloMeadow.zip)
+3. Copy the provided **[mscorlib.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/mscorlib.dll)** into the **tmp** folder.
 
 ## Compile ST-Util
 You'll need to download the source code and compile a customized version the software used to communicate the ST-Link V2 USB device.

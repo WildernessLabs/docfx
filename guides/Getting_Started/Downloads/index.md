@@ -4,7 +4,7 @@
 
  * [Vagrantfile](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/Vagrantfile)
  * [config.sh](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/config.sh)
- * [STLink.zip](http://downloads.wildernesslabs.co/Meadow_Beta/STLink.zip)
+ * [STLink.zip](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/STLink.zip)
 
 ## Meadow + App Stuff
 
