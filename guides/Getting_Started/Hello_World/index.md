@@ -124,9 +124,9 @@ Now we'll add fields to control the onboard LED and toggle its red, green, and b
  * In the `InitializeHardware method, instantiate each output port using `Device.Pins` to reference the onboard internal pins to control each color of the led:
   
   ```csharp
-  DigitalOutputPort redLed;
-  DigitalOutputPort greenLed;
-  DigitalOutputPort blueLed;
+  IDigitalOutputPort redLed;
+  IDigitalOutputPort greenLed;
+  IDigitalOutputPort blueLed;
   ...
 
   void InitializeHardware()
