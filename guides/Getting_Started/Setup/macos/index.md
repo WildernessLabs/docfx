@@ -18,7 +18,7 @@ We need two Brew packages installed, **arm-ggc-bin** and **dfu-util**. To instal
 
 ```bash
 brew install osx-cross/arm/arm-gcc-bin
-brew install dfu-install
+brew install dfu-util
 ```
 
 ## Download ST-Link
