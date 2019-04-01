@@ -68,7 +68,7 @@ On **Windows**, you'll need to make the `dfu-util.exe` executable accessible. Yo
 
 To flash Meadow to the board:
 
- 1. Copy **Meadow.bin** and **Meadow_Runtime.bin** into a folder.
+ 1. Copy **Meadow.OS_Kernel.bin** and **Meadow.OS_Runtime.bin** into a folder.
  * Open the Command Prompt (Windows) or Terminal (macOS/Linux).
  * Navigate to the folder the contains the Meadow bin files.
  * Enter **dfu-util --list** to see a list of dfu enabled devices:
@@ -81,7 +81,7 @@ To flash Meadow to the board:
  * Execute:
   
    ```bash
-   dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow.bin -s 0x08000000 && dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow_Runtime.bin -s 0x08040000
+   dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow.OS_Kernel.bin -s 0x08000000 && dfu-util -a 0 -S [DEVICE_SERIAL] -D Meadow.OS_Runtime.bin -s 0x08040000
    ```
    
    Make sure to replace *[DEVICE_SERIAL]* with the serial number you found in the previous step.
@@ -93,7 +93,7 @@ Notes:
  * The provided Linux VM requires sudo and should only have one dfu device so the command would be:
 
    ```bash
-   sudo dfu-util -a 0 -D Meadow.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow_Runtime.bin -s 0x08040000
+   sudo dfu-util -a 0 -D Meadow.OS_Kernel.bin -s 0x08000000 && sudo dfu-util -a 0 -D Meadow.OS_Runtime.bin -s 0x08040000
    ```
 
 You're now ready to deploy C# applications to Meadow!
