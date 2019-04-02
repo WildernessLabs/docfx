@@ -39,7 +39,7 @@ namespace LedSample
         public CharacterDisplayApp()
         {
             display = new CharacterDisplay(Device, Device.Pins.D05, Device.Pins.D07,
-                Device.Pins.D11, Device.Pins.D12, Device.Pins.D13, Device.Pins.D14,
+                Device.Pins.D08, Device.Pins.D09, Device.Pins.D10, Device.Pins.D11,
                 16, 2);
 
             int count = 0;
