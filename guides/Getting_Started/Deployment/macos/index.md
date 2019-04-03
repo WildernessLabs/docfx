@@ -5,6 +5,7 @@ To verify that your Meadow OS is installed correctly and everything is setup, yo
 To deploy an app to Meadow you'll need several things:
 
 1. A copy of [mscorlib.dll](http://downloads.wildernesslabs.co/Meadow_Beta/binaries/mscorlib.dll)
+1. A copy of [System.Core.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/System.Core.dll)
 1. A .NET 4.7.2 console application that references the Meadow nuget package - to validate your setup, you can download the provided sample [app.exe](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/HelloMeadow.zip)
 
 ## Setup
@@ -15,10 +16,10 @@ To deploy an app to Meadow you'll need several things:
 
 ## Prepare your app for deployment
 1. Compile your .NET 4.7.2 console app in Visual Studio for Mac
-1. Copy the provided **app files** and **mscorlib.dll** into into the **/tmp** root folder on your mac (hint - use *Finder -> Go -> Go to Folder...*).
-We've provided sample binaries for you to deploy. You can download a compiled app using the links below and copy them to your **/tmp** folder.
+1. Copy the **app files** into the **/tmp** root folder on your mac (hint - use *Finder -> Go -> Go to Folder...*).
+We've provided sample binaries for you to deploy:
  * [Sample App](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/HelloMeadow.zip)
-3. Copy the provided **[mscorlib.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/mscorlib.dll)** into the **tmp** folder.
+3. Copy the provided **[mscorlib.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/mscorlib.dll)** and **[System.Core.dll](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/binaries/System.Core.dll)** into the **/tmp** folder.
 
 ## Connect Meadow to your mac
 1. Follow this instructions to [connect your ST-Link V2 to Meadow](/guides/Getting_Started/Setup/stlink/index.html).
