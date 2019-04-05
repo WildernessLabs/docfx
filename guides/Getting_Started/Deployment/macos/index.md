@@ -26,7 +26,7 @@ We've provided sample binaries for you to deploy:
 * Insert your ST-Link V2 into a free USB port on your host PC.
 * Open the terminal.
 * Navigate to the folder where your [downloaded the st-link](https://www.wildernesslabs.co/downloads?f=/Meadow_Beta/STLink.zip).
-* Start st-util using the following command - you should see **Listening at \*:4242...** (the **&** is used to run the script in the background):
+* Start st-util using the following command - you should see **Listening at \*:4242...**:
 
 ```bash
 ./st-util --semihosting -v -m
