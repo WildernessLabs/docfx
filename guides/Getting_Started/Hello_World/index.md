@@ -65,7 +65,7 @@ Install the latest version of Visual Studio for Mac.
 
 ## Set the App assembly name
 
-Currently, Meadow is configured to run a .NET console app named **app.exe**. You can either manually rename your application after its compiled or change the assembly name in Visual Studio.
+Currently, Meadow is configured to run a .NET console app named **App.exe**. You can either manually rename your application after its compiled or change the assembly name in Visual Studio.
 
 ### Windows
 
@@ -210,7 +210,7 @@ You're now ready to build and deploy your Meadow app.
 
  1. Build the application.
  * Using Finder or the File Explorer, navigate to the folder that contains your application.
- * Open the **bin->Debug** folder, you should see **app.exe** and some **\*.dll** files; you'll need both to deploy your app to Meadow.
+ * Open the **bin->Debug** folder, you should see **App.exe** and some **\*.dll** files; you'll need both to deploy your app to Meadow.
  * Follow the [Deployment instructions here](../Deployment/index.html) to deploy your app.
 
 
