@@ -35,7 +35,7 @@ Install the latest version of Visual Studio for Mac.
 
  1. Open Visual Studio.
  * Create a new Project: *File -> New Solution..*.
- * In the **Other** section, select *.NET -> Console Project**, make sure it's using C#, and press **Next**.
+ * In the **Other** section, select *.NET -> Console Project*, make sure it's using C#, and press **Next**.
  * Choose an app name and location.
  * Press **Create**.
 
@@ -44,7 +44,7 @@ Install the latest version of Visual Studio for Mac.
  1. Control-click or right-click on the project in the Solution Explorer.
  * Select **Options**.
  * Go to *Build -> General*.
- * Set the **Target framework:* to *.NET Framework 4.7.2*.
+ * Set the *Target framework:* to *.NET Framework 4.7.2*.
  * Press **OK**.
 
 ## Add the Meadow NuGet package
@@ -211,7 +211,7 @@ You're now ready to build and deploy your Meadow app.
  1. Build the application.
  * Using Finder or the File Explorer, navigate to the folder that contains your application.
  * Open the **bin->Debug** folder, you should see **app.exe** and some **\*.dll** files; you'll need both to deploy your app to Meadow.
- * Follow the (Deployment instructions here)[../Deployment/index.html] to deploy your app.
+ * Follow the [Deployment instructions here](../Deployment/index.html) to deploy your app.
 
 
 ## [Next - Meadow Basics](/guides/Meadow_Basics/index.html)
