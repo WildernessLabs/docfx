@@ -131,9 +131,9 @@ Now we'll add fields to control the onboard LED and toggle its red, green, and b
 
   void InitializeHardware()
   {
-      redLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDRed);
-      blueLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDBlue);
-      greenLED = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDGreen);
+      redLed = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDRed);
+      blueLed = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDBlue);
+      greenLed = Device.CreateDigitalOutputPort(Device.Pins.OnboardLEDGreen);
   }
   ```
 
