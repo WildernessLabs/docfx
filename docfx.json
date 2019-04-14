@@ -79,7 +79,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "custom_template"
+      "_exported_templates/default"
     ],
     "postProcessors": [],
     "noLangKeyword": false,

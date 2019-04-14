@@ -1,6 +1,6 @@
-- name: Guides
+- name: Return
   homepage: guides/
 - name: Meadow API
-  homepage: api/Meadow/index.md
+  homepage: guides/
 - name: Meadow.Foundation API
-  homepage: api/Meadow.Foundation/index.md
+  homepage: api/Meadow/index.md
